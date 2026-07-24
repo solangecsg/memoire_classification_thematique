@@ -1,0 +1,513 @@
+{
+  "fascicule": "4116651",
+  "usage": {
+    "prompt_tokens": 49376,
+    "completion_tokens": 1370,
+    "total_tokens": 50746,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 34.55,
+    "temps_reponse_min_s": 6.55,
+    "temps_reponse_max_s": 28.0,
+    "temps_reponse_moyen_s": 17.28,
+    "temps_reponse_median_s": 17.28
+  },
+  "articles": [
+    {
+      "article_id": "DIV.31",
+      "title": "L'enseignement primaire gratuit",
+      "themes": [
+        {
+          "code": "20000401",
+          "label_fr": "École primaire"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        },
+        {
+          "code": "20000612",
+          "label_fr": "Institutions locales"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.57",
+      "title": "LA BELGIQUE .ET LE VATICAN",
+      "themes": [
+        {
+          "code": "20000612",
+          "label_fr": "Institutions locales"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.72",
+      "title": "INFORMATIONS",
+      "themes": [
+        {
+          "code": "20000316",
+          "label_fr": "Métaux et minéraux"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.90",
+      "title": "SITUATION POLITIQUE",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000629",
+          "label_fr": "Autochtones"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.103",
+      "title": "Service télégraphique : des correspondants particuliers de L'EUROPE",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.120",
+      "title": "Service Havas et Reuter.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000439",
+          "label_fr": "Rivières"
+        },
+        {
+          "code": "20000468",
+          "label_fr": "Prescription médicale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.142",
+      "title": "LA SEMAINE A L'ÉTRANGER",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.158",
+      "title": "CORRESPONDANCES SPÉCIALES : Italie.",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        },
+        {
+          "code": "20000686",
+          "label_fr": "Église de l'Unification"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.180",
+      "title": "Bourse de Bruxelles",
+      "themes": [
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.195",
+      "title": "DIV.195",
+      "themes": [
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000217",
+          "label_fr": "Chimie"
+        },
+        {
+          "code": "20000363",
+          "label_fr": "Organisation économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.228",
+      "title": "DIV.228",
+      "themes": [
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.242",
+      "title": "Paris, 3 novembre.",
+      "themes": [
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.254",
+      "title": "DIV.254",
+      "themes": [
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.265",
+      "title": "Berlin, 3 novembre.",
+      "themes": [
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.273",
+      "title": "Dépêche télégraphique spéciale, après Bourse.",
+      "themes": [
+        {
+          "code": "20000379",
+          "label_fr": "Politique monétaire"
+        },
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.282",
+      "title": "DIV.282",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000363",
+          "label_fr": "Organisation économique"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.306",
+      "title": "Renseignements.",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.316",
+      "title": "Bourse",
+      "themes": [
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000225",
+          "label_fr": "Informatique et télécommunications"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.326",
+      "title": "DIV.326",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.377",
+      "title": "Programme des théâtres du 4 novembre 1879.",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000584",
+          "label_fr": "Référendum"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.391",
+      "title": "Extrait de la cote officielle de la Bourse de Bruxelles du 3 novembre",
+      "themes": [
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.465",
+      "title": "MARCHÉ D'ANVERS du 3 novembre. : Par dépêche télégraphique du cor- respondant de l'Europe.",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.484",
+      "title": "MARCHÉS ÉTRANGERS. : (Par voie télégraphique.)",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.501",
+      "title": "DIV.501",
+      "themes": [
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000217",
+          "label_fr": "Chimie"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<title>OCRQA impresso</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;padding:32px}
+h1{font-size:1.1rem;color:#93c5fd;margin-bottom:4px}
+.sub{color:#475569;font-size:.8rem;margin-bottom:28px}
+.layout{display:flex;gap:24px;flex-wrap:wrap;align-items:flex-start}
+.card{background:#1e293b;border:1px solid #2d3f55;border-radius:10px;padding:20px 24px}
+.card h2{font-size:.85rem;color:#93c5fd;margin-bottom:14px}
+table{border-collapse:collapse}
+th{background:#0f172a;color:#64748b;padding:10px 18px;font-size:.8rem;text-align:center}
+th:first-child{text-align:left}
+td{padding:10px 18px;text-align:center;border-top:1px solid #1e3a5f;font-size:.85rem}
+td:first-child{text-align:left}
+</style></head><body>
+<h1>OCR Quality Assessment — impresso pipeline</h1>
+<div class="sub">10 premiers fascicules · score = ratio mots reconnus (Bloom filter) · langue détectée automatiquement</div>
+<div class="layout">
+<div class="card">
+<h2>Score moyen global (toutes pages)</h2>
+<div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+          <span style="width:80px;color:#3b82f6;font-weight:700;font-size:.9rem">BnF</span>
+          <div style="width:248px;height:20px;background:#3b82f6;border-radius:4px"></div>
+          <span style="color:#e2e8f0;font-size:.9rem">0.829</span>
+        </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+          <span style="width:80px;color:#f97316;font-weight:700;font-size:.9rem">Pero</span>
+          <div style="width:253px;height:20px;background:#f97316;border-radius:4px"></div>
+          <span style="color:#e2e8f0;font-size:.9rem">0.846</span>
+        </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+          <span style="width:80px;color:#22c55e;font-weight:700;font-size:.9rem">Mistral</span>
+          <div style="width:290px;height:20px;background:#22c55e;border-radius:4px"></div>
+          <span style="color:#e2e8f0;font-size:.9rem">0.967</span>
+        </div>
+<p style="font-size:.75rem;color:#475569;margin-top:12px">0 = aucun mot reconnu · 1 = tous les mots reconnus</p>
+</div>
+<div class="card">
+<h2>Score moyen par fascicule</h2>
+<table>
+<thead><tr>
+  <th>Fascicule</th>
+  <th style="color:#3b82f6">BnF</th>
+  <th style="color:#f97316">Pero</th>
+  <th style="color:#22c55e">Mistral</th>
+</tr></thead>
+<tbody><tr><td style='color:#94a3b8'>4109000</td><td style='background:rgb(104,210,104);color:#111;font-weight:700'>0.850</td><td style='background:rgb(97,210,97);color:#111;font-weight:700'>0.875</td><td style='background:rgb(67,210,67);color:#111;font-weight:700'>0.975</td></tr><tr><td style='color:#94a3b8'>4109676</td><td style='background:rgb(119,210,119);color:#111;font-weight:700'>0.800</td><td style='background:rgb(119,210,119);color:#111;font-weight:700'>0.800</td><td style='background:rgb(67,210,67);color:#111;font-weight:700'>0.975</td></tr><tr><td style='color:#94a3b8'>4112815</td><td style='background:rgb(104,210,104);color:#111;font-weight:700'>0.850</td><td style='background:rgb(97,210,97);color:#111;font-weight:700'>0.875</td><td style='background:rgb(67,210,67);color:#111;font-weight:700'>0.975</td></tr><tr><td style='color:#94a3b8'>4116651</td><td style='background:rgb(104,210,104);color:#111;font-weight:700'>0.850</td><td style='background:rgb(104,210,104);color:#111;font-weight:700'>0.850</td><td style='background:rgb(75,210,75);color:#111;font-weight:700'>0.950</td></tr><tr><td style='color:#94a3b8'>4117053</td><td style='background:rgb(104,210,104);color:#111;font-weight:700'>0.850</td><td style='background:rgb(97,210,97);color:#111;font-weight:700'>0.875</td><td style='background:rgb(67,210,67);color:#111;font-weight:700'>0.975</td></tr><tr><td style='color:#94a3b8'>4123163</td><td style='background:rgb(119,210,119);color:#111;font-weight:700'>0.800</td><td style='background:rgb(119,210,119);color:#111;font-weight:700'>0.800</td><td style='background:rgb(75,210,75);color:#111;font-weight:700'>0.950</td></tr><tr><td style='color:#94a3b8'>4133627</td><td style='background:rgb(104,210,104);color:#111;font-weight:700'>0.850</td><td style='background:rgb(104,210,104);color:#111;font-weight:700'>0.850</td><td style='background:rgb(64,210,64);color:#111;font-weight:700'>0.983</td></tr><tr><td style='color:#94a3b8'>4133872</td><td style='background:rgb(104,210,104);color:#111;font-weight:700'>0.850</td><td style='background:rgb(99,210,99);color:#111;font-weight:700'>0.867</td><td style='background:rgb(70,210,70);color:#111;font-weight:700'>0.967</td></tr><tr><td style='color:#94a3b8'>4134119</td><td style='background:rgb(109,210,109);color:#111;font-weight:700'>0.833</td><td style='background:rgb(109,210,109);color:#111;font-weight:700'>0.833</td><td style='background:rgb(70,210,70);color:#111;font-weight:700'>0.967</td></tr><tr><td style='color:#94a3b8'>4135298</td><td style='background:rgb(130,210,130);color:#111;font-weight:700'>0.767</td><td style='background:rgb(109,210,109);color:#111;font-weight:700'>0.833</td><td style='background:rgb(74,210,74);color:#111;font-weight:700'>0.950</td></tr><tr style='border-top:2px solid #334155'><td style='color:#93c5fd;font-weight:700'>Moyenne globale</td><td style='color:#3b82f6;font-weight:700'>0.829</td><td style='color:#f97316;font-weight:700'>0.846</td><td style='color:#22c55e;font-weight:700'>0.967</td></tr></tbody>
+</table>
+</div>
+</div>
+</body></html>

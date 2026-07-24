@@ -1,0 +1,4 @@
+scenario,n_appels,cout_sans_cache_min,cout_sans_cache_max,cout_avec_cache_min,cout_avec_cache_max
+cascade,538,4.41,4.76,2.53,2.88
+1_article_par_appel,6699,31.75,32.15,16.87,17.27
+groupage_par_lot,316,3.43,3.83,2.73,3.13

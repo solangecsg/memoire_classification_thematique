@@ -1,0 +1,802 @@
+{
+  "4109000": {
+    "BnF": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 2835
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3255
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3339
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3024
+      }
+    },
+    "Pero": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 2784
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3196
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3309
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 2886
+      }
+    },
+    "Mistral": {
+      "X0000001": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 2979
+      },
+      "X0000002": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 3151
+      },
+      "X0000003": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4020
+      },
+      "X0000004": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3585
+      }
+    }
+  },
+  "4109676": {
+    "BnF": {
+      "X0000001": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 2652
+      },
+      "X0000002": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3374
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3204
+      },
+      "X0000004": {
+        "score": 0.7,
+        "language": "fr",
+        "n_words": 2724
+      }
+    },
+    "Pero": {
+      "X0000001": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 2500
+      },
+      "X0000002": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3268
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3237
+      },
+      "X0000004": {
+        "score": 0.7,
+        "language": "fr",
+        "n_words": 3014
+      }
+    },
+    "Mistral": {
+      "X0000001": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 2543
+      },
+      "X0000002": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 3318
+      },
+      "X0000003": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 3818
+      },
+      "X0000004": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3965
+      }
+    }
+  },
+  "4112815": {
+    "BnF": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4563
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 5021
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5686
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 6260
+      }
+    },
+    "Pero": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4489
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4991
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 5595
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 6115
+      }
+    },
+    "Mistral": {
+      "X0000001": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4626
+      },
+      "X0000002": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4881
+      },
+      "X0000003": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 5584
+      },
+      "X0000004": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 7507
+      }
+    }
+  },
+  "4116651": {
+    "BnF": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 2964
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4632
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4519
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3891
+      }
+    },
+    "Pero": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 2868
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4537
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4686
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4440
+      }
+    },
+    "Mistral": {
+      "X0000001": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 3067
+      },
+      "X0000002": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4472
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 6758
+      },
+      "X0000004": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 8095
+      }
+    }
+  },
+  "4117053": {
+    "BnF": {
+      "X0000001": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3608
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3772
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4290
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4715
+      }
+    },
+    "Pero": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3381
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3710
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4602
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5197
+      }
+    },
+    "Mistral": {
+      "X0000001": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 3696
+      },
+      "X0000002": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 3686
+      },
+      "X0000003": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4618
+      },
+      "X0000004": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 7057
+      }
+    }
+  },
+  "4123163": {
+    "BnF": {
+      "X0000001": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 2587
+      },
+      "X0000002": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5564
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5472
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5865
+      }
+    },
+    "Pero": {
+      "X0000001": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 2486
+      },
+      "X0000002": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5350
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5227
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5536
+      }
+    },
+    "Mistral": {
+      "X0000001": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 2525
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 5306
+      },
+      "X0000003": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 5121
+      },
+      "X0000004": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 5803
+      }
+    }
+  },
+  "4133627": {
+    "BnF": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 2475
+      },
+      "X0000002": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5486
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4863
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4994
+      },
+      "X0000005": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4705
+      },
+      "X0000006": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4668
+      }
+    },
+    "Pero": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 2427
+      },
+      "X0000002": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5409
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4733
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4886
+      },
+      "X0000005": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4656
+      },
+      "X0000006": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4590
+      }
+    },
+    "Mistral": {
+      "X0000001": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 2541
+      },
+      "X0000002": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 5303
+      },
+      "X0000003": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4653
+      },
+      "X0000004": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4855
+      },
+      "X0000005": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4822
+      },
+      "X0000006": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4450
+      }
+    }
+  },
+  "4133872": {
+    "BnF": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 2814
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4449
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4418
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4735
+      },
+      "X0000005": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3777
+      },
+      "X0000006": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4317
+      }
+    },
+    "Pero": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 2764
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4309
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4327
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4604
+      },
+      "X0000005": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3702
+      },
+      "X0000006": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4208
+      }
+    },
+    "Mistral": {
+      "X0000001": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 2688
+      },
+      "X0000002": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4257
+      },
+      "X0000003": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4216
+      },
+      "X0000004": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4565
+      },
+      "X0000005": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3594
+      },
+      "X0000006": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4168
+      }
+    }
+  },
+  "4134119": {
+    "BnF": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 2298
+      },
+      "X0000002": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4519
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3693
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5228
+      },
+      "X0000005": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4768
+      },
+      "X0000006": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3698
+      }
+    },
+    "Pero": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 2232
+      },
+      "X0000002": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4356
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3627
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4919
+      },
+      "X0000005": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4707
+      },
+      "X0000006": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3524
+      }
+    },
+    "Mistral": {
+      "X0000001": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 2212
+      },
+      "X0000002": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4349
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 3899
+      },
+      "X0000004": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4811
+      },
+      "X0000005": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4553
+      },
+      "X0000006": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 3440
+      }
+    }
+  },
+  "4135298": {
+    "BnF": {
+      "X0000001": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 4498
+      },
+      "X0000002": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5585
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 6104
+      },
+      "X0000004": {
+        "score": 0.7,
+        "language": "fr",
+        "n_words": 5243
+      },
+      "X0000005": {
+        "score": 0.7,
+        "language": "fr",
+        "n_words": 5425
+      },
+      "X0000006": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3778
+      }
+    },
+    "Pero": {
+      "X0000001": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4300
+      },
+      "X0000002": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 5450
+      },
+      "X0000003": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5918
+      },
+      "X0000004": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5048
+      },
+      "X0000005": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 5979
+      },
+      "X0000006": {
+        "score": 0.8,
+        "language": "fr",
+        "n_words": 3889
+      }
+    },
+    "Mistral": {
+      "X0000001": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 4330
+      },
+      "X0000002": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 5332
+      },
+      "X0000003": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 5758
+      },
+      "X0000004": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4890
+      },
+      "X0000005": {
+        "score": 1.0,
+        "language": "fr",
+        "n_words": 8341
+      },
+      "X0000006": {
+        "score": 0.9,
+        "language": "fr",
+        "n_words": 4698
+      }
+    }
+  }
+}

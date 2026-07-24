@@ -1,0 +1,6 @@
+modele,prix_in_par_M,prix_out_par_M,cout_corpus_sans_cache_min,cout_corpus_sans_cache,cout_corpus_sans_cache_max,cout_corpus_avec_cache_min,cout_corpus_avec_cache,cout_corpus_avec_cache_max
+mistral-large-latest,0.5,1.5,31.75,31.91,32.15,16.87,17.03,17.27
+mistral-medium-latest,1.5,7.5,95.55,96.35,97.56,50.9,51.7,52.91
+mistral-small-latest,0.15,0.6,9.54,9.6,9.7,5.07,5.14,5.24
+ministral-8b-latest,0.15,0.15,9.49,9.51,9.53,5.03,5.05,5.07
+ministral-3b-latest,0.1,0.1,6.33,6.34,6.36,3.35,3.36,3.38

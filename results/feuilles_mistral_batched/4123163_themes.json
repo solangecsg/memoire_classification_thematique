@@ -1,0 +1,1301 @@
+{
+  "fascicule": "4123163",
+  "usage": {
+    "prompt_tokens": 70946,
+    "completion_tokens": 3693,
+    "total_tokens": 74639,
+    "cached_tokens": 0,
+    "n_calls": 4,
+    "temps_reponse_total_s": 80.25,
+    "temps_reponse_min_s": 14.46,
+    "temps_reponse_max_s": 23.17,
+    "temps_reponse_moyen_s": 20.06,
+    "temps_reponse_median_s": 21.31
+  },
+  "articles": [
+    {
+      "article_id": "DIV.39",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.52",
+      "title": "DIV.52",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.56",
+      "title": "ATTENTAT AU PLASCIT CONTRE L'AMBASSADE DE POLOGNE A 6 h. 15, ce matin, une violente explosion a endom- magé l'immeuble et les maisons voisines rue de Talleyrand : L'enquête s'orientera-t-elle vers les milieux d'émigrés fascistes qui mènent des campagnes d'excitation contre la République polonaise ?",
+      "themes": [
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.100",
+      "title": "AU THÉÂTRE FRANÇAIS",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.126",
+      "title": "L'Inde reconnaît Mao Tsé Toung",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.131",
+      "title": "27 DEGRÉS AU-DESSOUS DE 0 A MOSCOU",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.137",
+      "title": "UN TRUST AMÉRICAIN VEUT NOUS METTRE AU RÉGIME COCACOLIQUE : Avec 1 milliard 1/2 de publicité COCA-COLA espère vendre en 1952 40 petites bouteilles à chaque Français",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000192",
+          "label_fr": "Stratégie et marketing"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.173",
+      "title": "CASCADE DE SCRUTINS SUR LA CONFIANCE : l'esquif de M. Bidault risque de se retourner en les affrontant malgré les efforts faits hier pour consolider la majorité",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000620",
+          "label_fr": "Fiscalité"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.202",
+      "title": "Les syndicats contre la hausse du métro",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000339",
+          "label_fr": "Transport quotidien"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.207",
+      "title": "LA PREMIERE ELIMINATOIRE POUR LE CONCOURS DE MISS FRANCE A EU LIEU HIER",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.213",
+      "title": "A L'ENTRÉE DE LA GARE DE CHALON-SUR-SAONE : Cinq wagons et le fourgon DU RAPIDE LYON-PARIS SORTENT DES RAILS : 3 voyageurs blessés",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.225",
+      "title": "Fils d' un ancien consul du Brésil à Biarritz : CARLOS DA SILVA RAMOS accusé d'avoir empoisonné sa femme EN LUI FAISANT ABSORBER UN SOMNIFÈRE au curare, proteste de son innocence",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.247",
+      "title": "UN DEUXIEME DES QUADRUPLES DE BAPAUME EST MORT HIER",
+      "themes": [
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.253",
+      "title": "RENVERSÉ ET TUÉ PAR UN CAMION BOULEVARD BARBES",
+      "themes": [
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        },
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.259",
+      "title": "A SAINT-OUEN toute une famille ASPHYXIÉE par un poêle",
+      "themes": [
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.267",
+      "title": "DOUBLE ASPHYXIE MORTELLE A ISSY-LES-MOULINEAUX",
+      "themes": [
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.272",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.305",
+      "title": "Le Grain de Sel d'ANDRÉ WURMSER : PRIÈRE A DIEU pour n'être pas fritabriluxifié",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.320",
+      "title": "L'HOMMAGE A ANDRE SAUGER a été également une protestation contre l'attitude du gouvernement",
+      "themes": [
+        {
+          "code": "20000692",
+          "label_fr": "Pâques"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.331",
+      "title": "DIV.331",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.337",
+      "title": "FRICASSEE DE PIEDS DE VEAU",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.342",
+      "title": "VOYAGES D'HIVER DE TOURISME ET TRAVAIL à des prix abordables",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.363",
+      "title": "PROBLEME N° 25",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.372",
+      "title": "SOLUTION N° 24",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.379",
+      "title": "Un qui n'aime pas le coca-cola",
+      "themes": [
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.390",
+      "title": "VENDREDI 30 DECEMBRE",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.397",
+      "title": "SAMEDI 31 DECEMBRE",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        },
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.408",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.430",
+      "title": "DIV.430",
+      "themes": [
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        },
+        {
+          "code": "20000646",
+          "label_fr": "Organisation non gouvernementale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.436",
+      "title": "OU ALLER AUJOURD'HUI ?",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.465",
+      "title": "Music-Halls",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.489",
+      "title": "FILMS FRANÇAIS",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.509",
+      "title": "FILMS EN VERSION ORIGINALE",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000003",
+          "label_fr": "Dessin animé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.569",
+      "title": "KNOCK-OUT : LE GRAND ROMAN DE LA BOXE AUX U.S.A. par BUDD SCHULBERG (traduit par J. PERIER)",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.608",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.618",
+      "title": "DIV.618",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.624",
+      "title": "LA RÉPUBLIQUE POPULAIRE DE ROUMANIE A DEUX ANS",
+      "themes": [
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.640",
+      "title": "A TOKIO le spécialiste n° 1 de la guerre des microbes disparaît brusquement",
+      "themes": [
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        },
+        {
+          "code": "20000054",
+          "label_fr": "Bioterrorisme"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.645",
+      "title": "Les U.S.A. envoient en renfort un porte-avions et deux contre-torpilleurs en Extrême-Orient",
+      "themes": [
+        {
+          "code": "20000058",
+          "label_fr": "Intervention militaire internationale"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.659",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.663",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.681",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000225",
+          "label_fr": "Informatique et télécommunications"
+        },
+        {
+          "code": "20000051",
+          "label_fr": "Télévision"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.698",
+      "title": "VERMANDÉ S'EST mis au garde-à-vous devant le \"fantôme\" de sa victime Aucun doute ne subsiste sur sa culpabilité",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.720",
+      "title": "Les lock-out se multiplient : A ANGERS DEBRAYAGE GÉNÉRAL DE PROTESTATION Assemblée générale chez Latil à Suresnes",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.734",
+      "title": "UN PIED HUMAIN dans une locomotive en gare de Calais",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.741",
+      "title": "Verdict aujourd'hui pour Paul Farge, l'un des juges sanglants du Tribunal d'Etat",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        },
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.750",
+      "title": "LES ACTIONS OUVRIÈRES contre la guerre se multiplient à travers la France",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.764",
+      "title": "LE MANCHOT DE LAIGLE A ÉTÉ ASSASSINÉ A COUPS DE PIERRE DE BOUTEILLE, DE MARTEAU DE HACHE ET DE COUTEAU",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.771",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.777",
+      "title": "Des vendeurs \"bazardaient\" (pour leur propre compte) tout le Bazar de l'Hôtel-de- Ville",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000098",
+          "label_fr": "Détournement"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.794",
+      "title": "ON POURRA (peut-être) UTILISER LA STREPTOMYCINE contre la tuberculose non pulmonaire",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000737",
+          "label_fr": "Recherche médicale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.802",
+      "title": "DES SAVANTS ANGLAIS recherchent un spécimen de poissons dont l'espèce vivait il y a plusieurs millions d'années",
+      "themes": [
+        {
+          "code": "20000744",
+          "label_fr": "Archéologie"
+        },
+        {
+          "code": "20000719",
+          "label_fr": "Biologie"
+        },
+        {
+          "code": "20000438",
+          "label_fr": "Océans"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.810",
+      "title": "QUATRE PRETRES se noient dans un lac aux Etats-Unis",
+      "themes": [
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20001321",
+          "label_fr": "Noyade"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.818",
+      "title": "DIV.818",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.824",
+      "title": "DIV.824",
+      "themes": [
+        {
+          "code": "20000051",
+          "label_fr": "Télévision"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.829",
+      "title": "DIV.829",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.834",
+      "title": "DIV.834",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.839",
+      "title": "DIV.839",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.862",
+      "title": "DIV.862",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.878",
+      "title": "Quatrevingt-treize : Dessins d'André GALLAND d'après le chef d'œuvre de VICTOR HUGO",
+      "themes": [
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.904",
+      "title": "GUIDE de L'ACHETEUR PETITS COMMERCANTS ARTISANS-INDUSTRIELS",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.925",
+      "title": "DIV.925",
+      "themes": [
+        {
+          "code": "20000998",
+          "label_fr": "Moto"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.932",
+      "title": "DIV.932",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.972",
+      "title": "DIV.972",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.982",
+      "title": "DIV.982",
+      "themes": [
+        {
+          "code": "20000051",
+          "label_fr": "Télévision"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000225",
+          "label_fr": "Informatique et télécommunications"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.995",
+      "title": "DIV.995",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000051",
+          "label_fr": "Télévision"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1028",
+      "title": "Un seul remède contre le jeu dur : SÉVIR SANS FAIBLESSE nous déclare M. SLAVIK de la Commission des arbitres",
+      "themes": [
+        {
+          "code": "20001103",
+          "label_fr": "Mesures disciplinaires dans le sport"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001325",
+          "label_fr": "Arbitrage sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1048",
+      "title": "A BARÉGES, EN SKI : BOUCHER, 1er vainqueur",
+      "themes": [
+        {
+          "code": "20001056",
+          "label_fr": "Ski"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1060",
+      "title": "Puisque VILLEMAIN et DAUTHUILLE s'en désintéressent JEAN STOCK ou, KRAWCZYK doivent prendre LE TITRE FRANÇAIS DES MOYENS",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001148",
+          "label_fr": "Transfert (sport)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1095",
+      "title": "LANDAIS a marqué pour les Landes",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1102",
+      "title": "Les espoirs tricolores qui se sont fait la main sur Bizerte rencontrent dimanche la Tunisie",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1109",
+      "title": "Relégué en 2e Division, puis \"récupéré\" BIHEL peut être le sauveur de STRASBOURG ...et le prochain avant centre national",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001148",
+          "label_fr": "Transfert (sport)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1130",
+      "title": "KLINGE bat le record d'Europe du 100 mètres brasse",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1138",
+      "title": "DRIBBLES",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001148",
+          "label_fr": "Transfert (sport)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1147",
+      "title": "ASSAUTS DE TENNIS dans le Temple du cyclisme ENTRE... 4 AMÉRICAINS",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1175",
+      "title": "DEUX ROBIC DANS LE \"TOUR\" et le Championnat de France derrière \" Derny \" !",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1199",
+      "title": "Le bagarreur SAID « cherchera » l'habile NOUHAUD",
+      "themes": [
+        {
+          "code": "20000958",
+          "label_fr": "Handball"
+        },
+        {
+          "code": "20001157",
+          "label_fr": "Arts martiaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1206",
+      "title": "DIV.1206",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000492",
+          "label_fr": "Personnel médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1214",
+      "title": "DEM. D'EMPLOI 50 fr.",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1222",
+      "title": "OFFRES D'EMPL. 275 fr.",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1240",
+      "title": "OCCAS. DIVERS. 350 fr.",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1247",
+      "title": "ECHANGE 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1255",
+      "title": "APPARTEMENTS 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1264",
+      "title": "PROPRIETES 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1275",
+      "title": "LOC. COMMER. 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1286",
+      "title": "CAPITAUX 500 fr.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1291",
+      "title": "PERD. ET TROU. 350 fr.",
+      "themes": [
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1296",
+      "title": "DIVERS 350 fr.",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1301",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1310",
+      "title": "Ce soir vous aide à trouver du travail : Nous publions ici, chause jour, gratuitement la liste des emplois offerts par les bureaux officiels de la main d'œuvre EMPLOIS DISPONIBLES",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        }
+      ]
+    }
+  ]
+}

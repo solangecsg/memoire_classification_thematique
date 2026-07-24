@@ -1,0 +1,6 @@
+niveau,mesure,min,max,mean,median
+article,n_words,10,9867,315.2,114
+article,n_tokens,13,23119,521.8,200
+fascicule,n_articles,4,202,67.0,54.5
+fascicule,n_words_total,3811,52575,21118.1,19608.0
+fascicule,n_tokens_total,6335,100686,34954.7,32123.5

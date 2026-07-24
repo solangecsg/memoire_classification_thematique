@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<title>Stats pages — comparaison OCR</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;padding:32px;display:flex;flex-direction:column;align-items:center}
+h1{font-size:1.1rem;color:#93c5fd;margin-bottom:4px;text-align:center}
+.sub{color:#475569;font-size:.8rem;margin-bottom:28px;text-align:center}
+.row{display:flex;gap:24px;flex-wrap:wrap;justify-content:center;align-items:flex-start}
+.card{background:#1e293b;border:1px solid #2d3f55;border-radius:10px;padding:20px 24px}
+.card h2{font-size:.85rem;color:#93c5fd;margin-bottom:14px}
+table{border-collapse:collapse}
+th{background:#0f172a;color:#64748b;padding:8px 16px;font-size:.78rem;text-align:left}
+td{padding:8px 16px;font-size:.85rem;border-top:1px solid #1e3a5f}
+td.num{text-align:right;font-family:monospace}
+svg text{font-family:'Segoe UI',sans-serif;fill:#e2e8f0}
+</style></head><body>
+<h1>Statistiques par page — comparaison sources OCR</h1>
+<div class="sub">10 premiers fascicules · tokens en minuscules · hors blocs-titres</div>
+<div class="row">
+
+<div class="card">
+<h2>Tokens distincts — diagramme de Venn</h2>
+<svg viewBox="0 0 420 330" width="420" height="330">
+  <circle cx="160" cy="145" r="115" fill="#3b82f6" fill-opacity=".2" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="260" cy="145" r="115" fill="#f97316" fill-opacity=".2" stroke="#f97316" stroke-width="2"/>
+  <circle cx="210" cy="215" r="115" fill="#22c55e" fill-opacity=".2" stroke="#22c55e" stroke-width="2"/>
+
+  <text x="75"  y="65"  fill="#93c5fd" font-size="13" font-weight="700" text-anchor="middle">BnF</text>
+  <text x="345" y="65"  fill="#fb923c" font-size="13" font-weight="700" text-anchor="middle">Pero</text>
+  <text x="210" y="323" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">Mistral</text>
+
+  <text x="98"  y="140" font-size="13" text-anchor="middle">13,379</text>
+  <text x="322" y="140" font-size="13" text-anchor="middle">8,122</text>
+  <text x="210" y="300" font-size="13" text-anchor="middle">6,555</text>
+  <text x="210" y="115" font-size="12" text-anchor="middle" fill="#94a3b8">7,090</text>
+  <text x="148" y="225" font-size="12" text-anchor="middle" fill="#94a3b8">1,667</text>
+  <text x="272" y="225" font-size="12" text-anchor="middle" fill="#94a3b8">2,429</text>
+  <text x="210" y="185" font-size="14" font-weight="700" text-anchor="middle">27,374</text>
+</svg>
+<p style="font-size:.72rem;color:#475569;text-align:center;margin-top:4px">
+  Chiffre central = tokens communs aux 3 sources
+</p>
+</div>
+
+<div class="card">
+<h2>Moyennes par page</h2>
+<table>
+<thead><tr>
+  <th>Source</th>
+  <th>Tokens distincts</th>
+  <th>Mots / page</th>
+  <th>Chars / page</th>
+</tr></thead>
+<tbody><tr>
+              <td style="color:#3b82f6;font-weight:700">BnF</td>
+              <td class="num">49,510</td>
+              <td class="num">4,257</td>
+              <td class="num">20,351</td>
+            </tr><tr>
+              <td style="color:#f97316;font-weight:700">Pero</td>
+              <td class="num">45,015</td>
+              <td class="num">4,208</td>
+              <td class="num">20,107</td>
+            </tr><tr>
+              <td style="color:#22c55e;font-weight:700">Mistral</td>
+              <td class="num">38,025</td>
+              <td class="num">4,519</td>
+              <td class="num">20,777</td>
+            </tr><tr style="border-top:2px solid #334155">
+          <td style="color:#64748b">Moyenne toutes sources</td>
+          <td></td>
+          <td class="num" style="color:#94a3b8">4,328</td>
+          <td class="num" style="color:#94a3b8">20,412</td>
+        </tr>
+        <tr>
+          <td style="color:#64748b">Articles moy./page</td>
+          <td class="num" colspan="3" style="color:#94a3b8">16.2</td>
+        </tr></tbody>
+</table>
+</div>
+
+<div class="card">
+<h2>Intersections</h2>
+<table>
+<tr><td style="color:#94a3b8">BnF ∩ Pero ∩ Mistral</td><td class="num" style="color:#34d399;font-weight:700">27,374</td></tr>
+<tr><td style="color:#94a3b8">BnF ∩ Mistral (sans Pero)</td><td class="num">1,667</td></tr>
+<tr><td style="color:#94a3b8">Pero ∩ Mistral (sans BnF)</td><td class="num">2,429</td></tr>
+<tr><td style="color:#94a3b8">BnF ∩ Pero (sans Mistral)</td><td class="num">7,090</td></tr>
+<tr><td style="color:#f87171">Uniquement BnF</td><td class="num">13,379</td></tr>
+<tr><td style="color:#f87171">Uniquement Pero</td><td class="num">8,122</td></tr>
+<tr><td style="color:#f87171">Uniquement Mistral</td><td class="num">6,555</td></tr>
+</table>
+</div>
+
+</div>
+</body></html>

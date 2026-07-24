@@ -1,0 +1,519 @@
+{
+  "fascicule": "4109000",
+  "usage": {
+    "prompt_tokens": 288192,
+    "completion_tokens": 910,
+    "total_tokens": 289102,
+    "cached_tokens": 141808,
+    "n_calls": 30,
+    "temps_reponse_total_s": 227.95,
+    "temps_reponse_min_s": 1.47,
+    "temps_reponse_max_s": 34.02,
+    "temps_reponse_moyen_s": 7.6,
+    "temps_reponse_median_s": 4.63
+  },
+  "articles": [
+    {
+      "article_id": "DIV.35",
+      "title": "DIV.35",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ],
+      "temps_reponse_s": 5.267
+    },
+    {
+      "article_id": "DIV.41",
+      "title": "Les Sons-Secrétaires d'Etat",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ],
+      "temps_reponse_s": 3.922
+    },
+    {
+      "article_id": "DIV.52",
+      "title": "Bulletin Politique : Toulouse, le 30 Décembre",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000477",
+          "label_fr": "Vaccins"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        }
+      ],
+      "temps_reponse_s": 7.581
+    },
+    {
+      "article_id": "DIV.81",
+      "title": "Informations",
+      "themes": [
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000818",
+          "label_fr": "Activités caritatives"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        }
+      ],
+      "temps_reponse_s": 4.309
+    },
+    {
+      "article_id": "DIV.97",
+      "title": "Les Avantages de la République",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        }
+      ],
+      "temps_reponse_s": 4.429
+    },
+    {
+      "article_id": "DIV.110",
+      "title": "UN SCANDALE",
+      "themes": [
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        }
+      ],
+      "temps_reponse_s": 7.917
+    },
+    {
+      "article_id": "DIV.115",
+      "title": "PATRIOTISME DES BONAPARTISTES",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ],
+      "temps_reponse_s": 3.271
+    },
+    {
+      "article_id": "DIV.126",
+      "title": "A Paris",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000439",
+          "label_fr": "Rivières"
+        }
+      ],
+      "temps_reponse_s": 3.885
+    },
+    {
+      "article_id": "DIV.133",
+      "title": "En Province",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        },
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        }
+      ],
+      "temps_reponse_s": 3.245
+    },
+    {
+      "article_id": "DIV.148",
+      "title": "Étranger",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        }
+      ],
+      "temps_reponse_s": 17.877
+    },
+    {
+      "article_id": "DIV.156",
+      "title": "NOTRE PRIME GRATUITE",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000586",
+          "label_fr": "Opération de vote"
+        },
+        {
+          "code": "20000612",
+          "label_fr": "Institutions locales"
+        }
+      ],
+      "temps_reponse_s": 4.092
+    },
+    {
+      "article_id": "DIV.177",
+      "title": "L'ASSISTANCE DÉMOCRATIQUE",
+      "themes": [
+        {
+          "code": "20000401",
+          "label_fr": "École primaire"
+        },
+        {
+          "code": "20000439",
+          "label_fr": "Rivières"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        }
+      ],
+      "temps_reponse_s": 6.226
+    },
+    {
+      "article_id": "DIV.222",
+      "title": "GRAND THEATRE (salle du Cirque)",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ],
+      "temps_reponse_s": 22.106
+    },
+    {
+      "article_id": "DIV.233",
+      "title": "THÉATRE DES VARIÉTÉS",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ],
+      "temps_reponse_s": 4.606
+    },
+    {
+      "article_id": "DIV.249",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ],
+      "temps_reponse_s": 2.7
+    },
+    {
+      "article_id": "DIV.256",
+      "title": "INTÉRIEUR",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000477",
+          "label_fr": "Vaccins"
+        }
+      ],
+      "temps_reponse_s": 3.02
+    },
+    {
+      "article_id": "DIV.287",
+      "title": "EXTÉRIEUR",
+      "themes": [
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ],
+      "temps_reponse_s": 4.514
+    },
+    {
+      "article_id": "DIV.301",
+      "title": "LA MAISON VIDE Par JULES CLARETIE",
+      "themes": [
+        {
+          "code": "20001313",
+          "label_fr": "Fusillade"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ],
+      "temps_reponse_s": 12.335
+    },
+    {
+      "article_id": "DIV.357",
+      "title": "Courrier de Paris : (Correspondance particulière de la DÉPÊCHE)",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ],
+      "temps_reponse_s": 3.524
+    },
+    {
+      "article_id": "DIV.394",
+      "title": "CORRESPONDANCE TÉLÉGRAPHIQUE : Service particulier de la « DÉPÊCHE »",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ],
+      "temps_reponse_s": 5.397
+    },
+    {
+      "article_id": "DIV.422",
+      "title": "Bourse de Toulouse du 30 Déc",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ],
+      "temps_reponse_s": 4.649
+    },
+    {
+      "article_id": "DIV.432",
+      "title": "BOURSE DE PARIS du 29 décembre",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ],
+      "temps_reponse_s": 4.894
+    },
+    {
+      "article_id": "DIV.443",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        },
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        }
+      ],
+      "temps_reponse_s": 4.427
+    },
+    {
+      "article_id": "DIV.464",
+      "title": "DIV.464",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        }
+      ],
+      "temps_reponse_s": 1.858
+    },
+    {
+      "article_id": "DIV.469",
+      "title": "DIV.469",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ],
+      "temps_reponse_s": 12.077
+    },
+    {
+      "article_id": "DIV.585",
+      "title": "DIV.585",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        }
+      ],
+      "temps_reponse_s": 15.06
+    },
+    {
+      "article_id": "DIV.593",
+      "title": "DIV.593",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ],
+      "temps_reponse_s": 14.169
+    },
+    {
+      "article_id": "DIV.598",
+      "title": "DIV.598",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ],
+      "temps_reponse_s": 34.022
+    },
+    {
+      "article_id": "DIV.634",
+      "title": "DIV.634",
+      "themes": [
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        }
+      ],
+      "temps_reponse_s": 1.466
+    },
+    {
+      "article_id": "DIV.639",
+      "title": "DIV.639",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ],
+      "temps_reponse_s": 5.109
+    }
+  ]
+}

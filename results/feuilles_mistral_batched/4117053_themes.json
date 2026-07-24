@@ -1,0 +1,511 @@
+{
+  "fascicule": "4117053",
+  "usage": {
+    "prompt_tokens": 46894,
+    "completion_tokens": 1363,
+    "total_tokens": 48257,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 29.6,
+    "temps_reponse_min_s": 7.84,
+    "temps_reponse_max_s": 21.76,
+    "temps_reponse_moyen_s": 14.8,
+    "temps_reponse_median_s": 14.8
+  },
+  "articles": [
+    {
+      "article_id": "DIV.30",
+      "title": "LE CENTENAIRE DE YORKTOWN",
+      "themes": [
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.47",
+      "title": "NOUVELLES MILITAIRES",
+      "themes": [
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.56",
+      "title": "CHRONIQUE PARISIENNE : En Carême?",
+      "themes": [
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000694",
+          "label_fr": "Ramadan"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.75",
+      "title": "Nouvelles parlementaires",
+      "themes": [
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.88",
+      "title": "LA QUESTION DU JOUR",
+      "themes": [
+        {
+          "code": "20000578",
+          "label_fr": "Élections locales"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.103",
+      "title": "NOUVELLES DU MONDE",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.108",
+      "title": "INFORMATIONS",
+      "themes": [
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        },
+        {
+          "code": "20000122",
+          "label_fr": "Droit civil"
+        },
+        {
+          "code": "20000422",
+          "label_fr": "Parcs naturels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.123",
+      "title": "SITUATION POLITIQUE",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000645",
+          "label_fr": "Réfugiés"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.138",
+      "title": "Service télégraphique",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.168",
+      "title": "Lettres de Paris",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000576",
+          "label_fr": "Système électoral"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.186",
+      "title": "Lettres d'Angleterre",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000051",
+          "label_fr": "Télévision"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.202",
+      "title": "Lettres d'Autriche-Hongrie",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.216",
+      "title": "Lettres de Turquie",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000480",
+          "label_fr": "Soins de santé publics"
+        },
+        {
+          "code": "20000487",
+          "label_fr": "Spécialisations médicales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.236",
+      "title": "Théâtres",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.246",
+      "title": "LE SECRET D'OR PAR PARI SAUNIÈRE : PREMIÈRE PARTIE UN GENTILHOMME D'AVENTURE",
+      "themes": [
+        {
+          "code": "20000100",
+          "label_fr": "Enlèvement"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.340",
+      "title": "Bourse de Bruxelles",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.375",
+      "title": "Tramways Bruxellois.",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.384",
+      "title": "La conversion des Annuités",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.406",
+      "title": "Bourse de Paris : Par dépêche télégraphique du correspondant spécial de l'Europe.",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.426",
+      "title": "ÉCHOS DE LA BOURSE DE PARIS",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.459",
+      "title": "Bourse de Berlin : Par dépêche télégraphique spéciale du correspondant de l'Europe.",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.471",
+      "title": "ÉCHOS DE LA BOURSE DE BERLIN",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.485",
+      "title": "ÉCHOS DE LA BOURSE DE VIENNE",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.503",
+      "title": "Memento des obligataires : TIRAGES. — Avril.",
+      "themes": [
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.509",
+      "title": "Memento des Actionnaires.",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.525",
+      "title": "MARCHÉ D'ANVERS du 31 mars. : Par dépêche télégraphique du cor- respondant de l'Europe.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.549",
+      "title": "MARCHÉS ÉTRANGERS. Par voie télégraphique.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.565",
+      "title": "Extrait de la cote officielle de la Bourse de Paris du 30 Mars.",
+      "themes": [
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.598",
+      "title": "INDUSTRIE",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000760",
+          "label_fr": "Ingénierie civile"
+        },
+        {
+          "code": "20000716",
+          "label_fr": "Génie mécanique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.606",
+      "title": "Programmes du 1er avril",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.620",
+      "title": "DIV.620",
+      "themes": [
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    }
+  ]
+}

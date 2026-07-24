@@ -1,0 +1,905 @@
+{
+  "fascicule": "4112815",
+  "usage": {
+    "prompt_tokens": 63085,
+    "completion_tokens": 2651,
+    "total_tokens": 65736,
+    "cached_tokens": 0,
+    "n_calls": 3,
+    "temps_reponse_total_s": 86.22,
+    "temps_reponse_min_s": 18.13,
+    "temps_reponse_max_s": 37.38,
+    "temps_reponse_moyen_s": 28.74,
+    "temps_reponse_median_s": 30.72
+  },
+  "articles": [
+    {
+      "article_id": "DIV.32",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000492",
+          "label_fr": "Personnel médical"
+        },
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.41",
+      "title": "LA JOURNÉE DE HUIT HEURES",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000518",
+          "label_fr": "Salaires et pensions ou Salaires et allocations"
+        },
+        {
+          "code": "20000192",
+          "label_fr": "Stratégie et marketing"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.72",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.76",
+      "title": "Ouvriers et Capitalistes",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000101",
+          "label_fr": "Crime organisé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.93",
+      "title": "M. CARNOT DÉCORÉ PAR LE TZAR",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.104",
+      "title": "La Succession du prince Jérôme",
+      "themes": [
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.111",
+      "title": "LE 1er MAI",
+      "themes": [
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        },
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.118",
+      "title": "Les Vins platrés",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.124",
+      "title": "LE VOYAGE PRÉSIDENTIEL",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.132",
+      "title": "CONGRÈS INTERNATIONAL DES MINEURS",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.156",
+      "title": "Le Transport l' « Annamite»",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.162",
+      "title": "Le Tzarewitch à Saïgon",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.170",
+      "title": "L'Assassinat du ministre Beltcheff",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.180",
+      "title": "LES GRÈVES",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.196",
+      "title": "LA NEIGE",
+      "themes": [
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.205",
+      "title": "Forêts incendiées",
+      "themes": [
+        {
+          "code": "20000083",
+          "label_fr": "Incendie volontaire"
+        },
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.211",
+      "title": "L'Influenza",
+      "themes": [
+        {
+          "code": "20000448",
+          "label_fr": "Maladies contagieuses"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.217",
+      "title": "Broyés par un train",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.223",
+      "title": "Terrible incendie",
+      "themes": [
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000800",
+          "label_fr": "Sans abris"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.230",
+      "title": "Un Crime",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.239",
+      "title": "Petites Nouvelles",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000718",
+          "label_fr": "Astronomie"
+        },
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.253",
+      "title": "BELGIQUE",
+      "themes": [
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.263",
+      "title": "ITALIE",
+      "themes": [
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.274",
+      "title": "INDES ANGLAISES",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000588",
+          "label_fr": "Censure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.281",
+      "title": "RÉPUBLIQUE ARGENTINE",
+      "themes": [
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000070",
+          "label_fr": "Coup d'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.288",
+      "title": "Bulletin météorologique",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20001130",
+          "label_fr": "Statistiques météorologiques"
+        },
+        {
+          "code": "20001131",
+          "label_fr": "Alertes météorologiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.305",
+      "title": "LE FIACRE N° 13 : PREMIÈRE PARTIE Abel et Berthe",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000470",
+          "label_fr": "Remède"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.447",
+      "title": "LE PROCHAIN RECENSEMENT",
+      "themes": [
+        {
+          "code": "20000774",
+          "label_fr": "Recensement"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.473",
+      "title": "LES CAUSSES DU QUERCY",
+      "themes": [
+        {
+          "code": "20000439",
+          "label_fr": "Rivières"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.485",
+      "title": "DIV.485",
+      "themes": [
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000100",
+          "label_fr": "Enlèvement"
+        },
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.515",
+      "title": "Courrier des Théâtres : « JUDAS MACHABÉE»",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.537",
+      "title": "Spectacles du 1er avril",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.549",
+      "title": "AVEYRON",
+      "themes": [
+        {
+          "code": "20000628",
+          "label_fr": "Urbanisme"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.574",
+      "title": "CORRÈZE : Election de Sollhac",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.605",
+      "title": "LOZÈRE",
+      "themes": [
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.611",
+      "title": "LOT",
+      "themes": [
+        {
+          "code": "20000620",
+          "label_fr": "Fiscalité"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.626",
+      "title": "GERS",
+      "themes": [
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20001321",
+          "label_fr": "Noyade"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.647",
+      "title": "HAUTES -PYRÉNÉES",
+      "themes": [
+        {
+          "code": "20000612",
+          "label_fr": "Institutions locales"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.677",
+      "title": "L'EMPRUNT DE 900 MILLIONS",
+      "themes": [
+        {
+          "code": "20000372",
+          "label_fr": "Institution économique internationale"
+        },
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.687",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.696",
+      "title": "BOURSE DE TOULOUSE Du 31 mars",
+      "themes": [
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.704",
+      "title": "BOURSE DE PARIS Du 31 mars",
+      "themes": [
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.723",
+      "title": "BULLETIN FINANCIER",
+      "themes": [
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.734",
+      "title": "MARCHÉ DU HAVRE",
+      "themes": [
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.747",
+      "title": "MARCHE DE PARIS",
+      "themes": [
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.756",
+      "title": "MARCHÉ DE BORDEAUX",
+      "themes": [
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.763",
+      "title": "ÉTAT CIVIL DE TOULOUSE : DÉCÈS DES 29, 30 ET 31 MARS",
+      "themes": [
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.771",
+      "title": "OBSERVATIONS METEOROLOGIQUES DE M. BIANCHI A TOULOUSE : Altitude, 142 mètres. — Du 31 mars",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20001130",
+          "label_fr": "Statistiques météorologiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.782",
+      "title": "OFFRES ET DEMANDES D'EMPLOIS",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        },
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.793",
+      "title": "DIV.793",
+      "themes": [
+        {
+          "code": "20000628",
+          "label_fr": "Urbanisme"
+        },
+        {
+          "code": "20000192",
+          "label_fr": "Stratégie et marketing"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.805",
+      "title": "DIV.805",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.810",
+      "title": "DIV.810",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        },
+        {
+          "code": "20000477",
+          "label_fr": "Vaccins"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.815",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.892",
+      "title": "DIV.892",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.902",
+      "title": "DIV.902",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.909",
+      "title": "DIV.909",
+      "themes": [
+        {
+          "code": "20000004",
+          "label_fr": "Bande dessinée"
+        },
+        {
+          "code": "20000477",
+          "label_fr": "Vaccins"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.915",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000477",
+          "label_fr": "Vaccins"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.927",
+      "title": "JEAN LOUP : TROISIÈME PARTIE Le Protecteur",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000101",
+          "label_fr": "Crime organisé"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    }
+  ]
+}

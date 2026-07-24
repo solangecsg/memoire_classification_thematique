@@ -1,0 +1,2 @@
+re-ocr/corpus/**/*.xml filter=lfs diff=lfs merge=lfs -text
+re-ocr/corpus/**/*.json filter=lfs diff=lfs merge=lfs -text

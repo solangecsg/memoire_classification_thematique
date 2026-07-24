@@ -1,0 +1,122 @@
+{
+  "4109000::DIV.585": {
+    "level2_code": "20000593",
+    "level2_label": "Gouvernement"
+  },
+  "4109000::DIV.593": {
+    "level2_code": "20000464",
+    "level2_label": "Traitements"
+  },
+  "4109000::DIV.598": {
+    "level2_code": "20000349",
+    "level2_label": "Entreprises"
+  },
+  "4109000::DIV.634": {
+    "level2_code": "20000385",
+    "level2_label": "Marchés"
+  },
+  "4109000::DIV.639": {
+    "level2_code": "20000349",
+    "level2_label": "Entreprises"
+  },
+  "4109000::DIV.35": {
+    "level2_code": "20000038",
+    "level2_label": "Culture"
+  },
+  "4109000::DIV.41": {
+    "level2_code": "20000593",
+    "level2_label": "Gouvernement"
+  },
+  "4109000::DIV.52": {
+    "level2_code": "20000593",
+    "level2_label": "Gouvernement"
+  },
+  "4109000::DIV.81": {
+    "level2_code": "20000802",
+    "level2_label": "Problèmes sociaux"
+  },
+  "4109000::DIV.97": {
+    "level2_code": "20000593",
+    "level2_label": "Gouvernement"
+  },
+  "4109000::DIV.110": {
+    "level2_code": "20000702",
+    "level2_label": "Relations entre les institutions religieuses et l'Etat"
+  },
+  "4109000::DIV.115": {
+    "level2_code": "20000638",
+    "level2_label": "Relations internationales"
+  },
+  "4109000::DIV.126": {
+    "level2_code": "20000139",
+    "level2_label": "Accident"
+  },
+  "4109000::DIV.133": {
+    "level2_code": "20000129",
+    "level2_label": "Forces de l'ordre"
+  },
+  "4109000::DIV.148": {
+    "level2_code": "20001129",
+    "level2_label": "Phénomène météorologique"
+  },
+  "4109000::DIV.156": {
+    "level2_code": "20000574",
+    "level2_label": "Élections"
+  },
+  "4109000::DIV.177": {
+    "level2_code": "20000463",
+    "level2_label": "Organisations de santé"
+  },
+  "4109000::DIV.222": {
+    "level2_code": "20000002",
+    "level2_label": "Arts et divertissement"
+  },
+  "4109000::DIV.233": {
+    "level2_code": "20000002",
+    "level2_label": "Arts et divertissement"
+  },
+  "4109000::DIV.249": {
+    "level2_code": "20000045",
+    "level2_label": "Médias"
+  },
+  "4109000::DIV.256": {
+    "level2_code": "20000593",
+    "level2_label": "Gouvernement"
+  },
+  "4109000::DIV.287": {
+    "level2_code": "20000148",
+    "level2_label": "Désastres"
+  },
+  "4109000::DIV.301": {
+    "level2_code": "20000038",
+    "level2_label": "Culture"
+  },
+  "4109000::DIV.357": {
+    "level2_code": "20000593",
+    "level2_label": "Gouvernement"
+  },
+  "4109000::DIV.394": {
+    "level2_code": "20000593",
+    "level2_label": "Gouvernement"
+  },
+  "4109000::DIV.422": {
+    "level2_code": "20000385",
+    "level2_label": "Marchés"
+  },
+  "4109000::DIV.432": {
+    "level2_code": "20000464",
+    "level2_label": "Traitements"
+  },
+  "4109000::DIV.443": {
+    "level2_code": "20000349",
+    "level2_label": "Entreprises"
+  },
+  "4109000::DIV.464": {
+    "level2_code": "20000038",
+    "level2_label": "Culture"
+  },
+  "4109000::DIV.469": {
+    "level2_code": "20000344",
+    "level2_label": "Économie"
+  }
+}
