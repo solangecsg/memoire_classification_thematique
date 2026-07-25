@@ -1,17 +1,17 @@
 """
-classify_iptc_mistral_batched.py — Variante de classify_iptc_mistral.py qui
+classify_iptc_mistral_batched.py : Variante de classify_iptc_mistral.py qui
 groupe plusieurs articles par appel Mistral (voir classify_iptc_mistral.py
-pour la version de référence 1-article/appel, non modifiée).
+pour la version de référence 1-article/appel).
 
 Principe :
-  - Le coût FIXE (system + 567 étiquettes, ~8900 tokens réels — mesuré avec
-    le tokenizer Mistral, pas juste estimé en caractères) est payé une seule
+  - Le coût fixe (system + 567 étiquettes, ~8900 tokens réels : mesuré avec
+    le tokenizer Mistral, pas seulement estimé en caractères) est payé une seule
     fois par appel, peu importe le nombre d'articles dedans. Regrouper N
     articles par appel divise ce coût fixe par N.
-  - Les articles d'un fascicule sont empilés dans des lots ("batches") tant
+  - Les articles d'un fascicule sont rassemblés dans des lots ("batches") tant
     que le total (overhead fixe + tokens des articles déjà dans le lot) reste
     sous MAX_BATCH_TOKENS et que le lot a moins de MAX_BATCH_SIZE articles.
-    Un article est TOUJOURS envoyé en entier — jamais coupé — y compris s'il
+    Un article est toujours envoyé en entier : jamais coupé, y compris s'il
     dépasse à lui seul le plafond (il part alors seul dans son propre lot).
   - Si un appel groupé échoue après ses tentatives, le lot est coupé en deux
     et chaque moitié est retentée récursivement (jusqu'à des lots d'1 article
@@ -54,12 +54,12 @@ from pathlib import Path
 
 import requests
 
-# ── Chargement .env ───────────────────────────────────────────────────────────
+#  Chargement .env 
 
 
 def load_env(env_path: Path):
     """Charge les variables d'un fichier .env dans os.environ (sans dépendance
-    externe) — ne remplace jamais une variable déjà définie dans l'environnement.
+    externe) et ne remplace jamais une variable déjà définie dans l'environnement.
     """
     if not env_path.exists():
         return
@@ -99,7 +99,7 @@ MAX_THEMES = 5
 MIN_THEMES = 1
 MAX_WORKERS = 5         # lots Mistral en parallèle (par fascicule)
 
-# ── Groupage d'articles par appel ──────────────────────────────────────────────
+#  Groupage d'articles par appel 
 MAX_BATCH_TOKENS = 40_000   # budget de tokens par appel (fixe + articles) ; très
                             # sous les 128k-256k de contexte réels, marge large
 MAX_BATCH_SIZE = 25         # nb max d'articles par appel, indépendamment des tokens
@@ -114,7 +114,7 @@ PRICING = {
     "ministral-3b-latest": (0.10, 0.10),
 }
 
-# ── Taxonomie IPTC officielle (SKOS) : index des étiquettes candidates ────────
+# Taxonomie IPTC officielle (SKOS) : index des étiquettes candidates 
 #
 # La taxonomie officielle va jusqu'à 6 niveaux de profondeur, encodés via des
 # relations SKOS broader/narrower (pas via la structure du code à 8 chiffres).
@@ -228,10 +228,10 @@ def build_leaves(taxonomy_path, max_level=3):
 
 
 def leaves_prompt_str(leaves):
-    """Une ligne par étiquette : code — libellé.
+    """Une ligne par étiquette : code : libellé.
 
     Le contexte parent entre parenthèses n'est ajouté que pour les libellés
-    qui apparaissent plusieurs fois dans la liste (ambigus sans lui) — pour
+    qui apparaissent plusieurs fois dans la liste (ambigus sans lui) : pour
     toutes les autres étiquettes (l'immense majorité), le libellé seul suffit.
     """
     label_counts = {}
@@ -249,7 +249,7 @@ def leaves_prompt_str(leaves):
     return "\n".join(lines)
 
 
-# ── Comptage de tokens (réel via mistral-common, repli en caractères sinon) ───
+#  Comptage de tokens (réel via mistral-common, repli en caractères sinon) 
 
 _tokenizer = None
 _tokenizer_load_failed = False
@@ -260,7 +260,7 @@ _FALLBACK_CHARS_PER_TOKEN = 3.5  # mesuré ~3.6-4.2 sur nos articles ; marge de 
 def _get_tokenizer():
     """Charge le tokenizer Mistral une seule fois (télécharge depuis HF au
     premier appel). Retourne None si indisponible (pas de réseau, paquet
-    manquant...) — count_tokens() bascule alors sur l'estimation par
+    manquant...) : count_tokens() bascule alors sur l'estimation par
     caractères, volontairement pessimiste (sous-estimer coûterait de dépasser
     le budget ; surestimer fait juste des lots un peu plus petits)."""
     global _tokenizer, _tokenizer_load_failed
@@ -270,7 +270,7 @@ def _get_tokenizer():
         from mistral_common.tokens.tokenizers.mistral import MistralTokenizer
         _tokenizer = MistralTokenizer.from_hf_hub(_TOKENIZER_HF_REPO)
     except Exception as e:
-        print(f"  ⚠ tokenizer Mistral indisponible ({e}) — repli sur l'estimation par caractères")
+        print(f"  ⚠ tokenizer Mistral indisponible ({e}) : repli sur l'estimation par caractères")
         _tokenizer_load_failed = True
     return _tokenizer
 
@@ -287,9 +287,9 @@ def count_tokens(text):
 
 
 def make_batches(articles, fixed_overhead_tokens):
-    """Empile des articles ENTIERS dans des lots tant que le budget de tokens
+    """Empile des articles entiers dans des lots tant que le budget de tokens
     et la taille max ne sont pas dépassés. Un article est toujours envoyé en
-    entier, jamais coupé — s'il dépasse le budget à lui seul, il part seul
+    entier, jamais coupé : s'il dépasse le budget à lui seul, il part seul
     dans son propre lot (jamais rejeté ni tronqué)."""
     batches = []
     current = []
@@ -309,7 +309,7 @@ def make_batches(articles, fixed_overhead_tokens):
     return batches
 
 
-# ── Extraction des articles (TOC/METS + ALTO corrigé) ─────────────────────────
+#  Extraction des articles (TOC/METS + ALTO corrigé) 
 
 METS_NS = "http://www.loc.gov/METS/"
 XLINK = "http://www.w3.org/1999/xlink"
@@ -379,7 +379,7 @@ def extract_tb_text(alto_path, tb_id):
     """Retourne le texte d'un TextBlock ALTO précis (par son ID), en concaténant
     les mots de chaque ligne. Met en cache le contenu de tout le fichier ALTO
     au premier accès (`_alto_cache`) pour éviter de re-parser le XML à chaque
-    appel — un même fichier ALTO contient plusieurs blocs d'articles différents.
+    appel : un même fichier ALTO contient plusieurs blocs d'articles différents.
     """
     key = str(alto_path)
     if key not in _alto_cache:
@@ -428,11 +428,11 @@ def extract_articles(fascicule):
     return results
 
 
-# ── Appel Mistral ──────────────────────────────────────────────────────────────
+#  Appel Mistral 
 
 SYSTEM_PROMPT = """Tu es un documentaliste spécialisé dans le classement thématique d'archives de presse française ancienne.
 On te donne le texte complet d'un article et une liste fermée d'étiquettes.
-Choisis entre 1 et 5 étiquettes de cette liste qui décrivent le mieux le sujet de l'article. Choisis UNIQUEMENT parmi les codes fournis, ne choisis que les plus pertinents (pas besoin d'en mettre 5 si 1 ou 2 suffisent), et classe-les du plus au moins pertinent.
+Choisis entre 1 et 5 étiquettes de cette liste qui décrivent le mieux le sujet de l'article. Choisis uniquement parmi les codes fournis, ne choisis que les plus pertinents (pas besoin d'en mettre 5 si 1 ou 2 suffisent), et classe-les du plus au moins pertinent.
 Réponds uniquement avec un objet JSON de la forme :
 {"themes": ["<code1>", "<code2>", ...]}"""
 
@@ -561,7 +561,7 @@ Réponds avec un objet JSON contenant une entrée par article listé ci-dessus (
 def classify_batch_with_fallback(batch, leaves_str, valid_codes):
     """Essaie classify_batch() sur tout le lot. Si l'appel échoue entièrement
     (après ses propres tentatives), coupe le lot en deux et retente chaque
-    moitié récursivement — jusqu'à des lots d'1 article si nécessaire — plutôt
+    moitié récursivement — jusqu'à des lots d'1 article si nécessaire : plutôt
     que de perdre tous les articles du lot d'un coup.
 
     Retourne (results, usages, temps) où `usages` et `temps` sont les listes
@@ -571,10 +571,10 @@ def classify_batch_with_fallback(batch, leaves_str, valid_codes):
         results, usage, elapsed = classify_batch(batch, leaves_str, valid_codes)
     except Exception as e:
         if len(batch) == 1:
-            print(f"      ✗ {batch[0]['id']} — erreur classification : {e}")
+            print(f"      ✗ {batch[0]['id']} : erreur classification : {e}")
             return {}, [], []
         mid = len(batch) // 2
-        print(f"      ⚠ échec du lot de {len(batch)} article(s) ({e}) — nouvelle tentative en 2 lots ({mid}/{len(batch) - mid})")
+        print(f"      ⚠ échec du lot de {len(batch)} article(s) ({e}) : nouvelle tentative en 2 lots ({mid}/{len(batch) - mid})")
         r1, u1, t1 = classify_batch_with_fallback(batch[:mid], leaves_str, valid_codes)
         r2, u2, t2 = classify_batch_with_fallback(batch[mid:], leaves_str, valid_codes)
         return {**r1, **r2}, u1 + u2, t1 + t2
@@ -593,7 +593,7 @@ USAGE_KEYS = ("prompt_tokens", "completion_tokens", "total_tokens", "cached_toke
 
 
 def _empty_usage():
-    """Compteur d'usage initialisé à zéro (tokens, nb d'appels) — un par fascicule,
+    """Compteur d'usage initialisé à zéro (tokens, nb d'appels) : un par fascicule,
     rempli au fil des appels API puis agrégé au niveau du run complet.
     """
     return {k: 0 for k in USAGE_KEYS} | {"n_calls": 0}
@@ -610,7 +610,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, fixed_overhead
     """Traite un fascicule entier : extrait ses articles, filtre les trop courts,
     les regroupe en LOTS via make_batches() (plusieurs articles par appel),
     puis classe chaque lot en parallèle (ThreadPoolExecutor). Retourne le JSON
-    de sortie du fascicule (articles + usage tokens/temps cumulés) — ou la
+    de sortie du fascicule (articles + usage tokens/temps cumulés)  ou la
     composition des lots seule en mode --dry-run, sans appel API.
     """
     articles = extract_articles(fascicule)
@@ -636,7 +636,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, fixed_overhead
     usage_lock = threading.Lock()
 
     def worker(batch):
-        """Classe un lot entier (plusieurs articles) dans un thread du pool — capture
+        """Classe un lot entier (plusieurs articles) dans un thread du pool : capture
         `leaves_str` et `valid_codes` de la fonction englobante.
         """
         return classify_batch_with_fallback(batch, leaves_str, valid_codes)
@@ -666,7 +666,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, fixed_overhead
                     temps_reponse.append(elapsed)
 
             temps_str = ", ".join(f"{t:.2f}s" for t in temps)
-            print(f"    Lot de {len(batch)} article(s) — {len(temps)} appel(s) HTTP ({temps_str})")
+            print(f"    Lot de {len(batch)} article(s) : {len(temps)} appel(s) HTTP ({temps_str})")
             for art_id, codes in results.items():
                 art = by_id[art_id]
                 valid = codes[:MAX_THEMES]
@@ -675,7 +675,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, fixed_overhead
                     continue
                 themes = [{"code": c, "label_fr": leaves[c]["label_fr"]} for c in valid]
                 results_by_id[art_id] = {"article_id": art_id, "title": art["title"], "themes": themes}
-                print(f"      {art_id} — {art['title'][:50]!r} → {', '.join(t['label_fr'] for t in themes)}")
+                print(f"      {art_id} : {art['title'][:50]!r} → {', '.join(t['label_fr'] for t in themes)}")
 
     if temps_reponse:
         out["usage"]["temps_reponse_total_s"] = round(sum(temps_reponse), 2)
@@ -701,7 +701,7 @@ def main():
     args = parser.parse_args()
 
     if not args.dry_run and (not MISTRAL_API_KEY or MISTRAL_API_KEY == "mets-ta-cle-ici"):
-        raise SystemExit(f"Clé API Mistral manquante — édite {ENV_FILE}")
+        raise SystemExit(f"Clé API Mistral manquante : édite {ENV_FILE}")
 
     leaves = build_leaves(TAXONOMY_PATH)
     leaves_str = leaves_prompt_str(leaves)
@@ -730,11 +730,11 @@ def main():
     temps_min_global, temps_max_global = None, None
 
     for fascicule in fascicules:
-        print(f"\n══ Fascicule {fascicule} ══")
+        print(f"\n Fascicule {fascicule} ")
         out_path = OUTPUT_DIR / f"{fascicule}_themes.json"
 
         if out_path.exists() and not args.force:
-            print(f"  ↷ déjà traité — {out_path.name} (utilise --force pour retraiter)")
+            print(f"  ↷ déjà traité : {out_path.name} (utilise --force pour retraiter)")
             try:
                 prev_usage = json.loads(out_path.read_text(encoding="utf-8")).get("usage", {})
                 for k in grand_total:
@@ -770,7 +770,7 @@ def main():
         print(f"  total_tokens      : {grand_total['total_tokens']:,}")
         if temps_total_global:
             temps_moyen = temps_total_global / grand_total["n_calls"]
-            print(f"  temps de réponse  : min {temps_min_global:.2f}s — moyen {temps_moyen:.2f}s — max {temps_max_global:.2f}s (total {temps_total_global:.1f}s)")
+            print(f"  temps de réponse  : min {temps_min_global:.2f}s - moyen {temps_moyen:.2f}s - max {temps_max_global:.2f}s (total {temps_total_global:.1f}s)")
         pin, pout = PRICING.get(MISTRAL_MODEL, (None, None))
         if pin is not None:
             uncached_input = grand_total["prompt_tokens"] - grand_total["cached_tokens"]

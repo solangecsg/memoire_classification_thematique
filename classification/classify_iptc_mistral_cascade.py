@@ -1,5 +1,5 @@
 """
-classify_iptc_mistral_cascade.py — Variante en cascade (2 étages) de la
+classify_iptc_mistral_cascade.py : Variante en cascade (2 étages) de la
 classification IPTC, pour réduire la taille de la liste d'étiquettes mise en
 cache à chaque appel (voir classify_iptc_mistral_batched.py pour la version à
 un seul étage, 567 étiquettes à chaque appel).
@@ -7,23 +7,23 @@ un seul étage, 567 étiquettes à chaque appel).
 Principe :
   - ÉTAGE 1 (niveau 2) : TOUS les articles (de tous les fascicules demandés)
     passent d'abord une classification à 1 seule étiquette parmi les 120
-    concepts IPTC de niveau 2 — une liste ~4,7x plus petite que les 567
+    concepts IPTC de niveau 2 , une liste ~4,7x plus petite que les 567
     étiquettes complètes. Traité par lots (comme classify_iptc_mistral_batched).
   - REGROUPEMENT : les articles sont ensuite regroupés par branche niveau 2
-    assignée à l'étage 1, en les MÉLANGEANT entre fascicules (pour maximiser
-    la taille des lots par branche — une branche rare aurait trop peu
+    assignée à l'étage 1, en les mélangenat entre fascicules (pour maximiser
+    la taille des lots par branche : une branche rare aurait trop peu
     d'articles si on restait dans un seul fascicule).
   - ÉTAGE 2 (niveau 3) : pour les branches qui ont des enfants niveau 3 (68 sur
     120), les articles de cette branche sont classés à nouveau, par lots, mais
-    avec UNE LISTE RÉDUITE aux seuls enfants de cette branche (1 à 111 selon la
-    branche, médiane 4) — au lieu des 567 étiquettes complètes.
-    Pour les branches SANS enfants (52 sur 120, "terminales"), le code niveau 2
+    avec une liste réduite aux seuls enfants de cette branche (1 à 111 selon la
+    branche, médiane 4) , au lieu des 567 étiquettes complètes.
+    Pour les branches sans enfants (52 sur 120, "terminales"), le code niveau 2
     est directement le thème final : pas d'étage 2 pour ces articles-là.
 
 Ce découpage réduit le volume de la liste d'étiquettes envoyée par appel, au
 prix d'un appel supplémentaire par article (2 étages au lieu d'1) et d'un
 risque de propagation d'erreur (si l'étage 1 choisit la mauvaise branche,
-l'étage 2 ne peut plus corriger — les vraies étiquettes possibles ne sont
+l'étage 2 ne peut plus corriger , les vraies étiquettes possibles ne sont
 même pas proposées).
 
 Entrées (voir README.md pour l'arborescence complète du dépôt) :
@@ -54,7 +54,7 @@ from pathlib import Path
 
 import requests
 
-# ── Chargement .env ───────────────────────────────────────────────────────────
+#  Chargement .env 
 
 
 def load_env(env_path: Path):
@@ -113,7 +113,7 @@ PRICING = {
     "ministral-3b-latest": (0.10, 0.10),
 }
 
-# ── Taxonomie IPTC officielle (SKOS) ───────────────────────────────────────────
+# Taxonomie IPTC officielle (SKOS) 
 
 FR_LABEL_OVERRIDES = {
     "20001360": "Association fraternelle et communautaire",
@@ -262,7 +262,7 @@ def branch_prompt_str(branch_leaves):
     return "\n".join(f"  {code} — {leaf['label_fr']}" for code, leaf in branch_leaves.items())
 
 
-# ── Comptage de tokens (réel via mistral-common, repli en caractères sinon) ───
+#  Comptage de tokens (réel via mistral-common, repli en caractères sinon) 
 
 _tokenizer = None
 _tokenizer_load_failed = False
@@ -320,7 +320,7 @@ def make_batches(articles, fixed_overhead_tokens):
     return batches
 
 
-# ── Extraction des articles (TOC/METS + ALTO corrigé) ─────────────────────────
+#  Extraction des articles (TOC/METS + ALTO corrigé) 
 
 METS_NS = "http://www.loc.gov/METS/"
 XLINK = "http://www.w3.org/1999/xlink"
@@ -439,7 +439,7 @@ def extract_articles(fascicule):
     return results
 
 
-# ── Prompts et schémas — ÉTAGE 1 (niveau 2) ───────────────────────────────────
+#  Prompts et schémas : ÉTAGE 1 (niveau 2) 
 
 STAGE1_SYSTEM_PROMPT = """Tu es un documentaliste spécialisé dans le classement thématique d'archives de presse française ancienne.
 On te donne le texte complet de plusieurs articles et une liste fermée de 120 catégories IPTC de niveau 2.
@@ -550,7 +550,7 @@ def classify_stage1_batch_with_fallback(batch, l2_leaves_str, valid_l2_codes):
     return results, [usage], [elapsed]
 
 
-# ── Prompts et schémas — ÉTAGE 2 (niveau 3, par branche) ──────────────────────
+#  Prompts et schémas : ÉTAGE 2 (niveau 3, par branche) 
 
 STAGE2_SYSTEM_PROMPT_TEMPLATE = """Tu es un documentaliste spécialisé dans le classement thématique d'archives de presse française ancienne.
 Ces articles ont déjà été classés dans la catégorie IPTC de niveau 2 « {l2_label} ». On te donne le texte complet de plusieurs articles et la liste fermée des sous-catégories de niveau 3 possibles pour cette catégorie.
@@ -665,7 +665,7 @@ def classify_stage2_batch_with_fallback(batch, branch_leaves_str, valid_l3_codes
     return results, [usage], [elapsed]
 
 
-# ── HTTP commun (retry différencié, comme les autres scripts) ────────────────
+#  HTTP commun (retry différencié, comme les autres scripts) 
 
 
 def _post_with_retries(payload, ids, retries, parse_fn):
@@ -717,7 +717,7 @@ def _post_with_retries(payload, ids, retries, parse_fn):
     raise RuntimeError(f"Échec appel Mistral après {retries} tentatives : {last_err}")
 
 
-# ── Suivi usage/temps (identique aux autres scripts) ──────────────────────────
+#  Suivi usage/temps (identique aux autres scripts) 
 
 USAGE_KEYS = ("prompt_tokens", "completion_tokens", "total_tokens", "cached_tokens")
 
@@ -749,7 +749,7 @@ def _accumulate(acc, usages, temps, temps_list):
         temps_list.append(elapsed)
 
 
-# ── Étage 1 : niveau 2, par fascicule ──────────────────────────────────────────
+#  Étage 1 : niveau 2, par fascicule 
 
 
 def run_stage1_fascicule(fascicule, l2_candidates, l2_leaves_str, valid_l2_codes, fixed_overhead_l2, dry_run=False):
@@ -799,7 +799,7 @@ def run_stage1_fascicule(fascicule, l2_candidates, l2_leaves_str, valid_l2_codes
     return kept, assignments, usage, temps
 
 
-# ── Étage 2 : niveau 3, par branche (regroupé sur tous les fascicules) ────────
+#  Étage 2 : niveau 3, par branche (regroupé sur tous les fascicules) 
 
 
 def run_stage2_branch(l2_code, branch_articles, l3_by_branch, l2_candidates, fixed_overhead_by_branch):
@@ -900,7 +900,7 @@ def main():
         print("Rien à faire.")
         return
 
-    # ── ÉTAGE 1 : tous les fascicules demandés ────────────────────────────────
+    #  ÉTAGE 1 : tous les fascicules demandés 
     print(f"\n{'=' * 60}\nÉTAGE 1 — classification niveau 2 ({len(todo)} fascicule(s))\n{'=' * 60}")
 
     all_articles_by_fascicule = {}   # fascicule -> [articles avec text]
@@ -944,7 +944,7 @@ def main():
         print("\n(dry-run : étage 2 non simulé — les branches dépendent de vraies réponses de l'étage 1)")
         return
 
-    # ── REGROUPEMENT par branche niveau 2 (mélange entre fascicules) ─────────
+    #  REGROUPEMENT par branche niveau 2 (mélange entre fascicules) 
     by_branch = defaultdict(list)
     terminal_results = {}   # (fascicule, article_id) -> [code2]  (branches sans enfant niveau 3)
 
@@ -963,8 +963,8 @@ def main():
     print(f"\n{len(terminal_results)} article(s) terminé(s) dès l'étage 1 (branche sans enfant niveau 3)")
     print(f"{sum(len(v) for v in by_branch.values())} article(s) à classer en étage 2, répartis sur {len(by_branch)} branche(s)")
 
-    # ── ÉTAGE 2 : par branche ─────────────────────────────────────────────────
-    print(f"\n{'=' * 60}\nÉTAGE 2 — classification niveau 3 (par branche)\n{'=' * 60}")
+    #  ÉTAGE 2 : par branche 
+    print(f"\n{'=' * 60}\nÉTAGE 2 : classification niveau 3 (par branche)\n{'=' * 60}")
 
     stage2_usage_total = _empty_usage()
     stage2_temps = []
@@ -984,7 +984,7 @@ def main():
             labels = [l3_by_branch[l2_code][c]["label_fr"] for c in codes if c in l3_by_branch[l2_code]]
             print(f"    {aid} — {title[:45]!r} → {', '.join(labels)}")
 
-    # ── Fusion et sauvegarde par fascicule ─────────────────────────────────────
+    # Fusion et sauvegarde par fascicule
     final_themes = dict(terminal_results)
     final_themes.update(stage2_results)
 
@@ -1007,7 +1007,7 @@ def main():
             json.dump(out, f, ensure_ascii=False, indent=2)
         print(f"\n✓ {fascicule} sauvegardé → {len(out_articles)} article(s) classé(s)")
 
-    # ── Résumé global (étage 1 + étage 2, cross-fascicule donc pas de détail par fascicule) ──
+    # Résumé global (étage 1 + étage 2, cross-fascicule donc pas de détail par fascicule) 
     total_calls = stage1_usage_total["n_calls"] + stage2_usage_total["n_calls"]
     total_prompt = stage1_usage_total["prompt_tokens"] + stage2_usage_total["prompt_tokens"]
     total_cached = stage1_usage_total["cached_tokens"] + stage2_usage_total["cached_tokens"]

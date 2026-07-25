@@ -1,5 +1,5 @@
 """
-estimate_pricing_cascade.py — Estime le coût du pipeline en cascade (étage 1
+estimate_pricing_cascade.py : Estime le coût du pipeline en cascade (étage 1
 niveau 2 → étage 2 niveau 3 par branche), sans appel API, pour comparer au
 groupage simple (estimate_pricing_batched.py) et au 1-article/appel
 (estimate_pricing.py).
@@ -8,18 +8,18 @@ Méthode :
   - Étage 1 : TOUS les articles du corpus échantillonné (stats_par_article.csv,
     100 fascicules, 6699 articles) passent par le stage 1, groupés en lots
     (MAX_BATCH_SIZE=25) avec la liste réduite à 120 candidats niveau 2.
-  - Distribution des branches niveau 2 : PAS une hypothèse uniforme — dérivée
+  - Distribution des branches niveau 2 : pas une hypothèse uniforme : dérivée
     des classifications réelles déjà faites (feuilles_mistral_batched/,
     285 articles réels, cf. la répartition observée), puis extrapolée
     proportionnellement aux 6699 articles. 3,5% des articles s'arrêtent au
     stage 1 (branche terminale), 96,5% nécessitent le stage 2.
   - Étage 2 : pour chaque branche non-terminale, le nombre d'articles alloué
     (proportionnel à la distribution observée) est groupé en lots avec la
-    liste réduite aux enfants de CETTE branche (taille réelle : 1 à 111
+    liste réduite aux enfants de cette branche (taille réelle : 1 à 111
     selon la branche).
   - Approximation assumée : la longueur des articles (tokens) est prise à la
     moyenne du corpus (521,8 tokens) pour composer les lots de l'étage 2, faute
-    de connaître la longueur réelle de CHAQUE article de CHAQUE branche à cette
+    de connaître la longueur réelle de chaque article de chaque branche à cette
     échelle (on ne peut pas la dériver du sous-échantillon de 285 articles avec
     la même confiance que la distribution des branches elle-même).
 
@@ -117,20 +117,20 @@ def call_cost(input_tokens, output_tokens, pin, pout, cache_hit_rate=0.0):
 def main():
     """Point d'entrée : construit les index de taxonomie niveau 2/niveau 3,
     estime le coût de l'étage 1 (tous les articles, liste réduite à 120), puis
-    de l'étage 2 (par branche, en extrapolant la distribution RÉELLE observée
-    sur les articles déjà classés — pas une hypothèse uniforme). Écrit le détail
+    de l'étage 2 (par branche, en extrapolant la distribution réelle observée
+    sur les articles déjà classés : pas une hypothèse uniforme). Écrit le détail
     par branche (cout_cascade_par_branche.csv) et la comparaison avec le
     groupage simple et le 1-article/appel (cout_cascade_resume.csv).
     """
     l2_candidates, l3_by_branch, l2_leaf_codes = build_stage_indices(TAXONOMY_PATH)
     print(f"✓ {len(l2_candidates)} candidats niveau 2 ({len(l2_leaf_codes)} terminaux, {len(l3_by_branch)} branches avec enfants)")
 
-    # ── Étage 1 : overhead fixe (mesuré une fois) ──────────────────────────
+    #  Étage 1 : overhead fixe (mesuré une fois) 
     l2_leaves_str = leaves_prompt_str(l2_candidates)
     fixed_overhead_l2 = count_tokens(STAGE1_SYSTEM_PROMPT) + count_tokens(l2_leaves_str) + 100
     print(f"✓ overhead étage 1 : {fixed_overhead_l2:,} tokens")
 
-    # ── Distribution réelle des branches (dérivée des classifications déjà faites) ──
+    #  Distribution réelle des branches (dérivée des classifications déjà faites) 
     terminal_n, branch_counter, total_observed = real_branch_distribution(l2_leaf_codes, l3_by_branch)
     print(f"✓ distribution dérivée de {total_observed} articles réellement classés "
           f"({terminal_n} terminaux, {sum(branch_counter.values())} répartis sur {len(branch_counter)} branches)")
@@ -143,7 +143,7 @@ def main():
 
     pin, pout = PRICING.get(MISTRAL_MODEL, (None, None))
 
-    # ═══ ÉTAGE 1 : tous les articles, groupés (comme le groupage simple) ═══
+    # ÉTAGE 1 : tous les articles, groupés (comme le groupage simple)
     n_batches_stage1 = n_batches_for(n_total, fixed_overhead_l2, avg_tokens)
     stage1_input_tokens = n_batches_stage1 * fixed_overhead_l2 + total_article_tokens
     # sortie stage 1 : {"articles":[{"article_id":..,"level2_code":..}]} — 1 code par article, pas de tableau
@@ -156,7 +156,7 @@ def main():
     print(f"\nÉTAGE 1 : {n_batches_stage1} lot(s), {stage1_input_tokens:,} tokens input, {stage1_output_tokens:,} tokens output")
     print(f"  coût : ${stage1_cost_nc:.2f} sans cache / ${stage1_cost_c:.2f} avec cache")
 
-    # ═══ ÉTAGE 2 : par branche, distribution extrapolée du réel ═══
+    #  ÉTAGE 2 : par branche, distribution extrapolée du réel 
     scale = n_total / total_observed
     terminal_n_scaled = round(terminal_n * scale)
 
@@ -227,7 +227,7 @@ def main():
     print(f"  coût sans cache : ${stage2_cost_min_nc:.2f} (min) — ${stage2_cost_max_nc:.2f} (max)")
     print(f"  coût avec cache : ${stage2_cost_min_c:.2f} (min) — ${stage2_cost_max_c:.2f} (max)")
 
-    # ═══ TOTAL CASCADE ═══
+    #  TOTAL CASCADE 
     total_nc_min = stage1_cost_nc + stage2_cost_min_nc
     total_nc_max = stage1_cost_nc + stage2_cost_max_nc
     total_c_min = stage1_cost_c + stage2_cost_min_c
@@ -239,7 +239,7 @@ def main():
     print(f"  sans cache : ${total_nc_min:.2f} (min) — ${total_nc_max:.2f} (max)")
     print(f"  avec cache : ${total_c_min:.2f} (min) — ${total_c_max:.2f} (max)")
 
-    # ── Comparaison avec les scénarios précédents ──────────────────────────
+    #  Comparaison avec les scénarios précédents 
     comparison = [
         {"scenario": "cascade", "n_appels": total_calls,
          "cout_sans_cache_min": round(total_nc_min, 2), "cout_sans_cache_max": round(total_nc_max, 2),

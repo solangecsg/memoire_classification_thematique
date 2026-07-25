@@ -1,15 +1,15 @@
 """
-estimate_pricing_batched.py — Pré-détermine la composition des lots (le même
+estimate_pricing_batched.py : Pré-détermine la composition des lots (le même
 algorithme glouton que classify_iptc_mistral_batched.py utiliserait réellement)
-et estime le coût correspondant — input ET output — sans aucun appel API, pour
+et estime le coût correspondant : input ef output sans aucun appel API, pour
 comparer au scénario 1-article/appel déjà calculé par estimate_pricing.py.
 
 Tokens de sortie (complétion) :
-  - min/max sont calculés EXACTEMENT à partir du schéma JSON strict du lot
+  - min/max sont calculés exactement à partir du schéma JSON strict du lot
     (chaque article : 1 à 5 thèmes garantis par `enum`, `article_id` réel du
-    lot) — pas une hypothèse, une borne réelle, propre à CHAQUE lot (dépend
+    lot) : pas une hypothèse, une borne réelle, propre à chaque lot (dépend
     du nombre d'articles et de la longueur de leurs identifiants).
-  - "moyen" = point milieu min/max — une estimation, pas une calibration
+  - "moyen" = point milieu min/max , une estimation, pas une calibration
     réelle (on n'a pas encore de run réel en mode groupé pour calibrer).
 
 Sorties :
@@ -56,7 +56,7 @@ CACHE_DISCOUNT = 0.10
 
 
 def batch_output_tokens(batch, codes):
-    """Bornes réelles (min/max) des tokens de sortie pour CE lot précis,
+    """Bornes réelles (min/max) des tokens de sortie pour ce lot précis,
     calculées sur le vrai JSON du schéma strict avec les vrais article_id."""
     min_json = json.dumps({"articles": [{"article_id": a["id"], "themes": [codes[0]]} for a in batch]})
     max_json = json.dumps({"articles": [{"article_id": a["id"], "themes": codes[:5]} for a in batch]})
@@ -64,7 +64,7 @@ def batch_output_tokens(batch, codes):
 
 
 def main():
-    """Point d'entrée : reproduit EXACTEMENT l'algorithme de groupage de
+    """Point d'entrée : reproduit exactement l'algorithme de groupage de
     classify_iptc_mistral_batched.py (make_batches) sur tout le corpus, sans
     aucun appel API, pour connaître la composition réelle des lots à l'avance.
     Écrit la composition des lots (lots_composition.csv), leur coût
@@ -206,13 +206,13 @@ def main():
     print(f"✓ {SUMMARY_CSV}")
 
     print(f"\n{'=' * 60}")
-    print(f"GROUPAGE PAR LOT — {n_calls} appel(s) pour {n_articles_total} articles ({n_articles_total / n_calls:.1f} articles/appel en moyenne)")
-    print(f"  sans cache : ${totals['nc_min']:,.2f} (min) — ${totals['nc_moyen']:,.2f} (moyen) — ${totals['nc_max']:,.2f} (max)")
-    print(f"  avec cache : ${totals['c_min']:,.2f} (min) — ${totals['c_moyen']:,.2f} (moyen) — ${totals['c_max']:,.2f} (max)")
+    print(f"GROUPAGE PAR LOT  {n_calls} appel(s) pour {n_articles_total} articles ({n_articles_total / n_calls:.1f} articles/appel en moyenne)")
+    print(f"  sans cache : ${totals['nc_min']:,.2f} (min)  ${totals['nc_moyen']:,.2f} (moyen)  ${totals['nc_max']:,.2f} (max)")
+    print(f"  avec cache : ${totals['c_min']:,.2f} (min)  ${totals['c_moyen']:,.2f} (moyen)  ${totals['c_max']:,.2f} (max)")
     if baseline:
         print(f"\nvs 1 article/appel ({n_articles_total} appels) :")
-        print(f"  sans cache : ${baseline['nc_min']:,.2f} (min) — ${baseline['nc_moyen']:,.2f} (moyen) — ${baseline['nc_max']:,.2f} (max)")
-        print(f"  avec cache : ${baseline['c_min']:,.2f} (min) — ${baseline['c_moyen']:,.2f} (moyen) — ${baseline['c_max']:,.2f} (max)")
+        print(f"  sans cache : ${baseline['nc_min']:,.2f} (min)  ${baseline['nc_moyen']:,.2f} (moyen)  ${baseline['nc_max']:,.2f} (max)")
+        print(f"  avec cache : ${baseline['c_min']:,.2f} (min)  ${baseline['c_moyen']:,.2f} (moyen)  ${baseline['c_max']:,.2f} (max)")
         print(f"\n  économie sans cache (moyen) : ${baseline['nc_moyen'] - totals['nc_moyen']:,.2f} ({100 * (1 - totals['nc_moyen'] / baseline['nc_moyen']):.1f}%)")
         print(f"  économie avec cache (moyen) : ${baseline['c_moyen'] - totals['c_moyen']:,.2f} ({100 * (1 - totals['c_moyen'] / baseline['c_moyen']):.1f}%)")
 

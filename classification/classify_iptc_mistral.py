@@ -1,5 +1,5 @@
 """
-classify_iptc_mistral.py — Classification thématique IPTC multi-label via Mistral
+classify_iptc_mistral.py : Classification thématique IPTC multi-label via Mistral
 
 Pour chaque article d'un fascicule :
   1. Extrait le texte complet de l'article (blocs ALTO corrigés, dans l'ordre
@@ -35,7 +35,7 @@ from pathlib import Path
 
 import requests
 
-# ── Chargement .env ───────────────────────────────────────────────────────────
+# Chargement .env 
 
 
 def load_env(env_path: Path):
@@ -89,7 +89,7 @@ PRICING = {
     "ministral-3b-latest": (0.10, 0.10),
 }
 
-# ── Taxonomie IPTC officielle (SKOS) : index des étiquettes candidates ────────
+#  Taxonomie IPTC officielle (SKOS) : index des étiquettes candidates 
 #
 # La taxonomie officielle va jusqu'à 6 niveaux de profondeur, encodés via des
 # relations SKOS broader/narrower (pas via la structure du code à 8 chiffres).
@@ -224,7 +224,7 @@ def leaves_prompt_str(leaves):
     return "\n".join(lines)
 
 
-# ── Extraction des articles (TOC/METS + ALTO corrigé) ─────────────────────────
+# Extraction des articles (TOC/METS + ALTO corrigé) 
 
 METS_NS = "http://www.loc.gov/METS/"
 XLINK = "http://www.w3.org/1999/xlink"
@@ -343,7 +343,7 @@ def extract_articles(fascicule):
     return results
 
 
-# ── Appel Mistral ──────────────────────────────────────────────────────────────
+#  Appel Mistral 
 
 SYSTEM_PROMPT = """Tu es un documentaliste spécialisé dans le classement thématique d'archives de presse française ancienne.
 On te donne le texte complet d'un article et une liste fermée d'étiquettes.
@@ -460,7 +460,7 @@ Réponds avec le JSON demandé."""
     raise RuntimeError(f"Échec appel Mistral après {retries} tentatives : {last_err}")
 
 
-# ── Pipeline par fascicule ─────────────────────────────────────────────────────
+# Pipeline par fascicule
 
 
 USAGE_KEYS = ("prompt_tokens", "completion_tokens", "total_tokens", "cached_tokens")

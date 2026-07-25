@@ -1,33 +1,33 @@
 # Versions figées = testées dans l'environnement de développement de ce
 # projet (Python 3.14.3, macOS). Versions non figées = jamais installées/
-# testées ici (notebooks Colab notamment) — à valider dans votre propre
+# testées ici (notebooks Colab notamment) : à valider dans votre propre
 # environnement avant usage.
 
-# ── Classification IPTC (classification/, analyse_couts/) ────────────────────
+# Classification IPTC (classification/, analyse_couts/) 
 # Testé avec Python 3.14.3.
 requests==2.34.2
 tqdm==4.69.0
 Pillow==12.3.0
 mistral-common[hf-hub]==1.11.6   # tokenizer Mistral réel (compte de tokens exact)
 
-# ── Re-OCRisation Mistral (re-ocr/scripts/reocr_mistral.py, reocr_mistral.ipynb) ──
+# Re-OCRisation Mistral (re-ocr/scripts/reocr_mistral.py, reocr_mistral.ipynb)
 # mistralai : jamais installé/testé dans cet environnement (utilisé dans le
-# notebook Colab reocr_mistral.ipynb) — version indiquée = dernière disponible
+# notebook Colab reocr_mistral.ipynb) : version indiquée = dernière disponible
 # sur PyPI au moment de la rédaction, à revalider avant usage.
 mistralai==2.7.1                 # SDK officiel Mistral
 
-# ── Re-OCRisation Pero (re-ocr/scripts/reocr_pero*.ipynb) ─────────────────────
-# Notebooks conçus pour Google Colab (GPU) — dépendances lourdes, jamais
+# Re-OCRisation Pero (re-ocr/scripts/reocr_pero*.ipynb)
+# Notebooks conçus pour Google Colab (GPU) : dépendances lourdes, jamais
 # installées/testées dans cet environnement. Versions NON figées
 # volontairement : la version compatible dépend du runtime Colab utilisé au
-# moment de l'exécution (CUDA, GPU alloué) — installer sans contrainte de
+# moment de l'exécution (CUDA, GPU alloué) : installer sans contrainte de
 # version et laisser pip résoudre selon l'environnement Colab du moment.
 torch
 opencv-python
 numpy
 pero-ocr
 
-# ── Métriques OCR (re-ocr/metriques/) ─────────────────────────────────────────
-# impresso-pipelines : jamais installé/testé dans cet environnement — version
-# non figée, à valider avant usage.
-impresso-pipelines               # ocrqa/impresso_ocrqa.py — score OCR Quality Assessment
+# Métriques OCR (re-ocr/metriques/)
+# impresso-pipelines : jamais installé/testé dans cet environnement
+# version non figée, à valider avant usage.
+impresso-pipelines               # ocrqa/impresso_ocrqa.py : score OCR Quality Assessment

@@ -1,11 +1,11 @@
 """
-estimate_pricing.py — Estime le coût de la classification IPTC en 1 article/appel,
-par article, par fascicule, et pour le corpus entier, en décomposant CHAQUE appel
+estimate_pricing.py : Estime le coût de la classification IPTC en 1 article/appel,
+par article, par fascicule, et pour le corpus entier, en décomposant chaque appel
 en ses 3 composantes : prompt système (fixe), liste IPTC (fixe), article (variable).
 
 Tokens de sortie (complétion) :
-  - min/max sont calculés EXACTEMENT à partir du schéma JSON strict (1 à 5
-    thèmes garantis par `enum`) — pas une hypothèse, une borne réelle.
+  - min/max sont calculés exactement à partir du schéma JSON strict (1 à 5
+    thèmes garantis par `enum`) : pas une hypothèse, une borne réelle.
   - la moyenne (COMPLETION_PER_ARTICLE) reste calibrée sur un run réel de 30
     articles (930 tokens / 30), à prendre comme meilleure estimation "typique"
     entre les deux bornes.
@@ -49,14 +49,14 @@ COST_PER_FASCICULE_CSV = RESULTS_DIR / "cout_par_fascicule.csv"
 COST_SUMMARY_CSV = RESULTS_DIR / "cout_resume.csv"
 COST_MODELS_CSV = RESULTS_DIR / "cout_comparaison_modeles.csv"
 
-# ── Calibration empirique (run réel, fascicule 4109000, 30 articles) ──────────
+# Calibration empirique (run réel, fascicule 4109000, 30 articles) 
 COMPLETION_PER_ARTICLE = 31    # 930 tokens de sortie / 30 articles
 CACHE_HIT_RATE = 0.554         # 159 534 / 288 192 tokens de prompt en cache
 CACHE_DISCOUNT = 0.10          # -90% annoncé sur les tokens en cache (mistral.ai/pricing/api/)
 
 
 def stats(values):
-    """Statistiques min/max/moyenne/médiane d'une liste de valeurs — {} si la
+    """Statistiques min/max/moyenne/médiane d'une liste de valeurs : {} si la
     liste est vide (évite une exception sur une catégorie sans données).
     """
     if not values:
@@ -70,9 +70,9 @@ def stats(values):
 
 
 def call_cost(tokens_prompt, tokens_iptc, tokens_article, pin, pout, output_min, output_max):
-    """Décompose le coût d'UN appel (1 article) en ses 3 composantes.
+    """Décompose le coût d'un appel (1 article) en ses 3 composantes.
 
-    Le cache (quand il s'applique) ne porte que sur (prompt + iptc) — le seul
+    Le cache (quand il s'applique) ne porte que sur (prompt + iptc) : le seul
     contenu strictement identique d'un appel à l'autre. `tokens_article`
     n'est jamais en cache : c'est un texte différent à chaque appel.
 
@@ -144,7 +144,7 @@ def main():
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # ── détail par article (3 composantes) ─────────────────────────────────
+    # détail par article (3 composantes) 
     article_out = []
     for r in rows:
         c = call_cost(tokens_prompt, tokens_iptc, r["n_tokens"], pin, pout, output_min, output_max)
@@ -166,7 +166,7 @@ def main():
         w.writerows(article_out)
     print(f"✓ {COST_PER_ARTICLE_CSV}")
 
-    # ── agrégation par fascicule ────────────────────────────────────────────
+    # agrégation par fascicule
     by_fasc = defaultdict(list)
     for a in article_out:
         by_fasc[a["fascicule"]].append(a)
@@ -192,7 +192,7 @@ def main():
         w.writerows(fascicule_out)
     print(f"✓ {COST_PER_FASCICULE_CSV}")
 
-    # ── résumé (min/max/moyenne/médiane, par article ET par fascicule) ─────
+    # résumé (min/max/moyenne/médiane, par article et par fascicule)
     summary_rows = []
     for col in sum_cols:
         summary_rows.append({"niveau": "article", "mesure": col, **stats([a[col] for a in article_out])})
@@ -215,7 +215,7 @@ def main():
         w.writerows(summary_rows)
     print(f"✓ {COST_SUMMARY_CSV}  (note : pour 'corpus_entier', le total est dans la colonne 'median')")
 
-    # ── comparaison entre modèles (total corpus) ───────────────────────────
+    #  comparaison entre modèles (total corpus)
     models_out = []
     for model, (m_pin, m_pout) in PRICING.items():
         total_nc = total_c = total_nc_min = total_nc_max = total_c_min = total_c_max = 0.0
@@ -258,12 +258,12 @@ def main():
     total_completion_max = sum(a["cout_completion_max"] for a in article_out)
 
     print(f"\n{'=' * 60}")
-    print(f"CORPUS ENTIER ({MISTRAL_MODEL}) — répartition sans cache :")
+    print(f"CORPUS ENTIER ({MISTRAL_MODEL}) : répartition sans cache :")
     print(f"  prompt système  : ${total_prompt:,.2f}")
     print(f"  liste IPTC      : ${total_iptc:,.2f}")
     print(f"  articles        : ${total_article:,.2f}")
-    print(f"  complétion      : ${total_completion_min:,.2f} (min, 1 thème) — ${total_completion:,.2f} (moyen) — ${total_completion_max:,.2f} (max, 5 thèmes)")
-    print(f"  TOTAL sans cache : ${total_nc_min:,.2f} (min) — ${total_nc:,.2f} (moyen) — ${total_nc_max:,.2f} (max)")
+    print(f"  complétion      : ${total_completion_min:,.2f} (min, 1 thème) : ${total_completion:,.2f} (moyen) : ${total_completion_max:,.2f} (max, 5 thèmes)")
+    print(f"  TOTAL sans cache : ${total_nc_min:,.2f} (min) : ${total_nc:,.2f} (moyen) : ${total_nc_max:,.2f} (max)")
     print(f"  TOTAL avec cache : ${total_c:,.2f} (moyen)")
 
 

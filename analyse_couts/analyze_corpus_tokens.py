@@ -1,5 +1,5 @@
 """
-analyze_corpus_tokens.py — Statistiques de mots/tokens sur tout le corpus,
+analyze_corpus_tokens.py :  Statistiques de mots/tokens sur tout le corpus,
 sans aucun appel API, pour dimensionner le pipeline de classification IPTC.
 
 Réutilise l'extraction d'articles et le tokenizer Mistral réel (mistral-common)
