@@ -23,9 +23,9 @@ Méthode :
     échelle (on ne peut pas la dériver du sous-échantillon de 285 articles avec
     la même confiance que la distribution des branches elle-même).
 
-Sorties :
-  - themes/results/cout_cascade_par_branche.csv
-  - themes/results/cout_cascade_resume.csv (comparaison avec les 2 autres scénarios)
+Sorties (dans ce même dossier analyse_couts/) :
+  - cout_cascade_par_branche.csv
+  - cout_cascade_resume.csv (comparaison avec les 2 autres scénarios)
 
 Usage :
     python estimate_pricing_cascade.py
@@ -54,13 +54,15 @@ from classify_iptc_mistral_cascade import (  # noqa: E402
     leaves_prompt_str,
 )
 
-RESULTS_DIR = Path(__file__).parent.parent / "results"  # results/ est un dossier frère de classification/ et analyse_couts/
-PER_ARTICLE_STATS_CSV = RESULTS_DIR / "stats_par_article.csv"
+OWN_DIR = Path(__file__).parent  # CSV de coût : lus/écrits dans ce même dossier analyse_couts/
+RESULTS_DIR = Path(__file__).parent.parent / "results"  # results/ : sorties JSON de classification/, dossier frère
+
+PER_ARTICLE_STATS_CSV = OWN_DIR / "stats_par_article.csv"
 BATCHED_RESULTS_DIR = RESULTS_DIR / "feuilles_mistral_batched"
 
-COST_BRANCH_CSV = RESULTS_DIR / "cout_cascade_par_branche.csv"
-SUMMARY_CSV = RESULTS_DIR / "cout_cascade_resume.csv"
-BASELINE_BATCHED_CSV = RESULTS_DIR / "cout_batched_resume.csv"
+COST_BRANCH_CSV = OWN_DIR / "cout_cascade_par_branche.csv"
+SUMMARY_CSV = OWN_DIR / "cout_cascade_resume.csv"
+BASELINE_BATCHED_CSV = OWN_DIR / "cout_batched_resume.csv"
 
 CACHE_HIT_RATE = 0.554
 CACHE_DISCOUNT = 0.10
@@ -210,7 +212,7 @@ def main():
         stage2_output_total_max += output_max
         stage2_batches_total += n_batches
 
-    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    OWN_DIR.mkdir(parents=True, exist_ok=True)
     with open(COST_BRANCH_CSV, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(branch_rows[0].keys()))
         w.writeheader()

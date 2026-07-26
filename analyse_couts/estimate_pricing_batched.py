@@ -12,10 +12,10 @@ Tokens de sortie (complétion) :
   - "moyen" = point milieu min/max , une estimation, pas une calibration
     réelle (on n'a pas encore de run réel en mode groupé pour calibrer).
 
-Sorties :
-  - themes/results/lots_composition.csv : quel article va dans quel lot
-  - themes/results/cout_par_lot.csv     : coût de chaque lot (min/moyen/max)
-  - themes/results/cout_batched_resume.csv : comparaison 1-article/appel vs groupage
+Sorties (dans ce même dossier analyse_couts/) :
+  - lots_composition.csv : quel article va dans quel lot
+  - cout_par_lot.csv     : coût de chaque lot (min/moyen/max)
+  - cout_batched_resume.csv : comparaison 1-article/appel vs groupage
 
 Usage :
     python estimate_pricing_batched.py
@@ -44,7 +44,7 @@ from classify_iptc_mistral_batched import (  # noqa: E402
     make_batches,
 )
 
-RESULTS_DIR = Path(__file__).parent.parent / "results"  # results/ est un dossier frère de classification/ et analyse_couts/
+RESULTS_DIR = Path(__file__).parent  # lit/écrit dans ce même dossier analyse_couts/
 LOTS_CSV = RESULTS_DIR / "lots_composition.csv"
 COST_LOTS_CSV = RESULTS_DIR / "cout_par_lot.csv"
 SUMMARY_CSV = RESULTS_DIR / "cout_batched_resume.csv"

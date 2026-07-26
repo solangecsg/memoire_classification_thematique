@@ -16,14 +16,14 @@ Hypothèses (calibrées sur le même run réel de 30 articles) :
     et à la liste IPTC (identiques à chaque appel), jamais au texte de
     l'article (différent à chaque appel, jamais en cache).
 
-Entrée :
-  - themes/results/stats_par_article.csv (généré par analyze_corpus_tokens.py)
+Entrée (dans ce même dossier analyse_couts/) :
+  - stats_par_article.csv (généré par analyze_corpus_tokens.py)
 
-Sorties :
-  - themes/results/cout_par_article.csv     : détail des 3 composantes par article
-  - themes/results/cout_par_fascicule.csv   : idem agrégé par fascicule
-  - themes/results/cout_resume.csv          : min/max/moyenne/médiane + total corpus
-  - themes/results/cout_comparaison_modeles.csv
+Sorties (dans ce même dossier analyse_couts/) :
+  - cout_par_article.csv     : détail des 3 composantes par article
+  - cout_par_fascicule.csv   : idem agrégé par fascicule
+  - cout_resume.csv          : min/max/moyenne/médiane + total corpus
+  - cout_comparaison_modeles.csv
 
 Usage :
     python estimate_pricing.py
@@ -41,7 +41,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "classification"))
 from classify_iptc_mistral_batched import MISTRAL_MODEL, PRICING, SYSTEM_PROMPT, TAXONOMY_PATH  # noqa: E402
 from classify_iptc_mistral_batched import build_leaves, count_tokens, leaves_prompt_str  # noqa: E402
 
-RESULTS_DIR = Path(__file__).parent.parent / "results"  # results/ est un dossier frère de classification/ et analyse_couts/
+RESULTS_DIR = Path(__file__).parent  # lit/écrit dans ce même dossier analyse_couts/
 PER_ARTICLE_STATS_CSV = RESULTS_DIR / "stats_par_article.csv"
 
 COST_PER_ARTICLE_CSV = RESULTS_DIR / "cout_par_article.csv"

@@ -5,10 +5,10 @@ sans aucun appel API, pour dimensionner le pipeline de classification IPTC.
 Réutilise l'extraction d'articles et le tokenizer Mistral réel (mistral-common)
 déjà mis en place dans classify_iptc_mistral_batched.py.
 
-Produit :
-  - themes/results/stats_par_article.csv : 1 ligne par article retenu
+Produit (dans ce même dossier analyse_couts/) :
+  - stats_par_article.csv : 1 ligne par article retenu
     (fascicule, article_id, title, n_words, n_tokens)
-  - themes/results/stats_resume.csv      : min/max/moyenne/médiane,
+  - stats_resume.csv      : min/max/moyenne/médiane,
     à la fois par article et par fascicule
   - un résumé en console : tokens du prompt système, de la liste IPTC
     (567 étiquettes), et tokens d'input total pour tout le corpus en
@@ -36,7 +36,7 @@ from classify_iptc_mistral_batched import (  # noqa: E402
     leaves_prompt_str,
 )
 
-OUTPUT_DIR = Path(__file__).parent.parent / "results"  # results/ est un dossier frère de classification/ et analyse_couts/
+OUTPUT_DIR = Path(__file__).parent  # écrit dans ce même dossier analyse_couts/
 PER_ARTICLE_CSV = OUTPUT_DIR / "stats_par_article.csv"
 SUMMARY_CSV = OUTPUT_DIR / "stats_resume.csv"
 
