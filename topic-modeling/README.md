@@ -39,6 +39,9 @@ topic-modeling/
 ├── app_jugement.py             interface Streamlit d'annotation
 ├── classla_iptc.py             classifieur affiné, niveau 1 de l'IPTC
 ├── comparer_classla_mistral.py croisement des deux classifications
+├── matrices_confusion.py       cartes de chaleur des deux confrontations
+├── projections_clusters.py     nuages de points des regroupements
+├── figures_chapitre3.py        coûts, couverture et distributions
 ├── stopwords_fr_presse.txt     listes d'arrêt constituées pour ce corpus
 ├── stopwords_extra.txt
 ├── stoplocs_fr_presse.txt
@@ -171,6 +174,51 @@ python3 comparer_classla_mistral.py resultats/<dossier_classla>
 Le script rapporte l'accord entre les deux classifications, un témoin de
 permutation qui dit ce que cet accord vaudrait sans appariement, et le nombre
 d'étiquettes de troisième niveau que chaque catégorie de premier niveau absorbe.
+
+## Les figures
+
+Deux scripts produisent les figures reprises dans le mémoire.
+
+`matrices_confusion.py` écrit deux cartes de chaleur en code TikZ. La première
+croise les catégories du classifieur affiné avec les ancêtres de premier niveau
+des étiquettes du modèle génératif. La seconde croise les thèmes de la
+modélisation probabiliste avec les groupes du regroupement de plongements, et
+donne l'information mutuelle normalisée entre les deux partitions.
+
+`projections_clusters.py` réduit les plongements à deux dimensions et trace trois
+nuages de points, répartis en deux figures : les groupes du partitionnement en
+k moyennes, ceux du
+regroupement par densité avec les articles écartés en gris, et les catégories du
+vocabulaire contrôlé sur la même projection. Le script rapporte aussi trois
+statistiques calculées dans l'espace des plongements complet, qui vérifient ce
+que les figures donnent à voir.
+
+`figures_chapitre3.py` produit les quatre figures de la classification contre le
+vocabulaire contrôlé : le coût par article selon le nombre d'articles portés par
+un appel, la couverture du référentiel branche par branche, les deux
+distributions sur base comparable et la distribution des étiquettes par rang de
+fréquence. Le script reconstruit la liste des 567 étiquettes en appelant la
+fonction du script de classification qui la fabrique, de sorte que les deux
+définitions restent solidaires.
+
+```bash
+python3 matrices_confusion.py
+python3 projections_clusters.py             # cache la projection au premier appel
+python3 projections_clusters.py --recalculer
+python3 figures_chapitre3.py
+```
+
+La projection d'affichage va vers deux dimensions, quand celle du regroupement
+va vers cinq. Les groupes dessinés sont ceux qu'a formés la chaîne, et leurs
+positions sur le plan sont propres à la figure.
+
+Deux de ces figures demandent des fichiers qui ne sont pas versés ici, le cache
+de plongements pour les nuages de points et l'affectation des documents pour la
+matrice des deux familles. Les scripts le signalent et donnent la commande qui
+les reconstitue. Les autres figures se produisent depuis le dépôt seul.
+
+Les sorties elles-mêmes ne sont pas versées. Elles se régénèrent par les
+commandes ci-dessus, et les figures définitives figurent dans le mémoire.
 
 ## Les mesures versées
 

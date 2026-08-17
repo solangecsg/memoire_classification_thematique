@@ -45,6 +45,7 @@ umap-learn==0.5.12               # réduction de dimension, avant regroupement
 hdbscan==0.8.44                  # regroupement par densité
 transformers==5.15.0             # classla_iptc.py : encodeur affiné XLM-R
 streamlit==1.60.0                # app_jugement.py : évaluation humaine
+matplotlib==3.11.1               # projections_clusters.py et figures_chapitre3.py
 
 # MALLET n'est pas un paquet Python et n'est pas redistribué ici.
 # lda_mallet_corpus.py attend la distribution 2021-08 dépliée dans

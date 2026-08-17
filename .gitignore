@@ -5,3 +5,8 @@ __pycache__/
 venv/
 config/.env
 .env
+
+# Sorties des scripts de figures : régénérables par les commandes du README.
+topic-modeling/matrices/
+topic-modeling/projections/
+topic-modeling/figures_ch3/
