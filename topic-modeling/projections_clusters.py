@@ -3,9 +3,9 @@ projections_clusters.py : nuages de points des regroupements
 
 CE QUE FAIT CE SCRIPT
 
-Projette les 5 361 articles sur un plan et les colorie de trois manières, pour
-donner à voir ce que les tableaux de mesures ne montrent pas : la forme des
-groupes et leur position les uns par rapport aux autres.
+Projette le corpus sur un plan et le colorie de quatre manières, pour donner à
+voir ce que les tableaux de mesures ne montrent pas : la forme des groupes et
+leur position les uns par rapport aux autres.
 
   1. LES DEUX REGROUPEMENTS CÔTE À CÔTE. Une figure à deux panneaux, même
      projection des deux côtés, même nombre de groupes, trente-quatre. À gauche
@@ -13,7 +13,16 @@ groupes et leur position les uns par rapport aux autres.
      regroupement par densité, qui laisse en gris les 1 733 articles qu'aucune
      zone dense ne réclame. La figure montre où se trouve la matière rejetée.
 
-  2. LES CATÉGORIES DU VOCABULAIRE CONTRÔLÉ SUR LE MÊME PLAN. Les mêmes
+  2. LE CORPUS À LA GRANULARITÉ DU BLOC. Les 46 235 blocs sur leur propre
+     projection, coloriés par la cohérence du groupe auquel ils appartiennent
+     plutôt que par le groupe lui-même. La figure sert un chapitre qui écarte
+     cette granularité, et montre donc où le regroupement décrit mal.
+
+     Cette projection est distincte de celle des articles et ne s'y superpose
+     pas. Les deux granularités ne se comparent d'ailleurs pas par le NPMI,
+     comme l'établit le témoin apparié du chapitre précédent.
+
+  3. LES CATÉGORIES DU VOCABULAIRE CONTRÔLÉ SUR LE MÊME PLAN. Les mêmes
      articles, coloriés cette fois par la catégorie de premier niveau que leur
      attribue la classification contre le vocabulaire contrôlé. La question
      posée est celle de l'accord entre une géométrie construite sans consigne
@@ -51,15 +60,21 @@ ENTRÉES
 
   embeddings/mistral_article_e5_5361.npy        plongements des articles
   embeddings/mistral_article_e5_5361.ids.json   identifiants, dans le même ordre
+  embeddings/mistral_bloc_e5_46235.npy          plongements des blocs
+  embeddings/mistral_bloc_e5_46235.ids.json     identifiants, dans le même ordre
   resultats/bertopic_kmeans_mistral_article_k34_e5_g1_*/span_topic.json
   resultats/bertopic_hdbscan_mistral_article_mt20_e5_g1_*/span_topic.json
+  resultats/bertopic_kmeans_mistral_bloc_k20_e5_g1_*/span_topic.json
+  resultats/bertopic_kmeans_mistral_bloc_k20_e5_g1_*/metrics_brut.json
   ../../../../github/classification-iptc/results/feuilles_mistral_batched/
   ../../../../github/classification-iptc/classification/iptc_mediatopic_official.json
 
 SORTIES
 
-  projections/umap2d_mistral_article_e5.npy   projection mise en cache
+  projections/umap2d_mistral_article_e5.npy   projection des articles, en cache
+  projections/umap2d_mistral_bloc_e5.npy      projection des blocs, en cache
   projections/regroupements.pdf               figure à deux panneaux
+  projections/bloc.pdf                        figure à un panneau
   projections/categories_iptc.pdf             figure à un panneau
 
 PAQUETS EMPLOYÉS
@@ -71,10 +86,10 @@ PAQUETS EMPLOYÉS
   matplotlib                tracé des nuages de points
   json, glob, collections, pathlib   bibliothèque standard
 
-Les deux figures sont enregistrées avec un cadrage serré. La légende de la
-seconde est posée hors du cadre des axes, et la mise en page automatique de
-matplotlib ne la compte pas dans ses marges : sans ce cadrage, les intitulés les
-plus longs se trouvent rognés.
+Les figures sont enregistrées avec un cadrage serré. La légende de la dernière
+est posée hors du cadre des axes, et la mise en page automatique de matplotlib
+ne la compte pas dans ses marges : sans ce cadrage, les intitulés les plus longs
+se trouvent rognés.
 
 Les figures sont écrites en PDF, format vectoriel : les points restent nets à
 toute échelle d'impression, contrairement à une image en pixels. Les textes
@@ -84,8 +99,9 @@ USAGE
 
     python3 projections_clusters.py
 
-La première exécution calcule la projection et prend environ une minute. Les
-suivantes la relisent depuis le cache. L'option --recalculer force le calcul.
+La première exécution calcule les deux projections, une minute environ pour les
+articles et une dizaine pour les blocs, neuf fois plus nombreux. Les suivantes
+les relisent depuis le cache. L'option --recalculer force le calcul.
 """
 
 import argparse
@@ -173,15 +189,16 @@ def plongements(nom="mistral_article_e5_5361"):
     return X, list(ids)
 
 
-def projeter(X, recalculer=False):
+def projeter(X, recalculer=False, nom="mistral_article_e5"):
     """Réduit les plongements à deux dimensions, avec mise en cache.
 
-    Le calcul dure environ une minute et son résultat ne dépend que des
+    Le calcul dure environ une minute sur les articles et une dizaine sur les
+    blocs, qui sont neuf fois plus nombreux. Son résultat ne dépend que des
     plongements et de la graine. Il est donc conservé sur disque, ce qui rend
-    les exécutions suivantes immédiates et garantit que les deux figures
-    reposent sur exactement la même projection.
+    les exécutions suivantes immédiates et garantit que les figures tirées d'un
+    même jeu reposent sur exactement la même projection.
     """
-    cache = SORTIE / "umap2d_mistral_article_e5.npy"
+    cache = SORTIE / f"umap2d_{nom}.npy"
     if cache.is_file() and not recalculer:
         return np.load(cache)
     from umap import UMAP
@@ -330,6 +347,84 @@ def nuage(ax, xy, groupes, rang, couleurs, titre, taille=3.2):
         c.set_color("#999999")
 
 
+def coherence_par_groupe(motif):
+    """Rend le NPMI et les mots de tête de chaque groupe d'une exécution."""
+    run = sorted(glob.glob(str(ICI / "resultats" / motif)))[0]
+    d = json.loads(Path(run, "metrics_brut.json").read_text(encoding="utf-8"))
+    par = d["npmi"]["npmi_per_topic"]
+    return ({t["topic_id"]: t["npmi"] for t in par},
+            {t["topic_id"]: t["top_words"] for t in par})
+
+
+def figure_bloc(recalculer=False):
+    """Le corpus à la granularité du bloc, colorié par la cohérence du groupe.
+
+    La figure sert un chapitre qui écarte cette granularité, et elle est donc
+    construite pour montrer ce qui la disqualifie plutôt que pour flatter la
+    partition. La couleur ne distingue pas les groupes les uns des autres~: elle
+    porte le NPMI du groupe auquel chaque bloc appartient, de sorte que les
+    régions du corpus que le regroupement décrit mal apparaissent en clair.
+
+    L'échelle est continue et sans seuil. Un seuil trancherait entre bons et
+    mauvais groupes selon une convention que rien n'établit, quand la question
+    posée porte sur l'étendue des zones mal décrites.
+
+    Les mots de tête sont posés au centre de chaque groupe. Les groupes dont le
+    centre tombe trop près d'un autre déjà écrit sont laissés sans intitulé,
+    faute de place, la liste complète figurant dans le relevé de campagne.
+    """
+    import matplotlib.pyplot as plt
+    from matplotlib import colormaps
+    from matplotlib.colors import Normalize
+    from matplotlib.cm import ScalarMappable
+
+    X, ids = plongements("mistral_bloc_e5_46235")
+    xy = projeter(X, recalculer, nom="mistral_bloc_e5")
+    aff = affectations("bertopic_kmeans_mistral_bloc_k20_e5_g1_*")
+    npmi, mots = coherence_par_groupe("bertopic_kmeans_mistral_bloc_k20_e5_g1_*")
+    g = np.array([aff.get(i, -1) for i in ids])
+
+    bornes = Normalize(vmin=min(npmi.values()), vmax=max(npmi.values()))
+    carte = colormaps["YlGnBu"]
+    fig, ax = plt.subplots(figsize=(6.9, 5.4))
+    for t in sorted(npmi, key=lambda t: npmi[t]):
+        m = g == t
+        ax.scatter(xy[m, 0], xy[m, 1], s=1.4, color=carte(bornes(npmi[t])),
+                   linewidths=0, alpha=0.55, rasterized=True)
+
+    # Les intitulés sont écrits du groupe le plus fourni au moins fourni, et
+    # celui dont le centre est trop proche d'un intitulé déjà posé est écarté.
+    taille = collections.Counter(g.tolist())
+    poses = []
+    for t in sorted(npmi, key=lambda t: -taille[t]):
+        m = g == t
+        cx, cy = xy[m, 0].mean(), xy[m, 1].mean()
+        if any((cx - px) ** 2 + (cy - py) ** 2 < 1.4 ** 2 for px, py in poses):
+            continue
+        poses.append((cx, cy))
+        ax.text(cx, cy, " ".join(mots[t].split()[:2]), fontsize=6.3,
+                ha="center", va="center", color="#111111",
+                bbox=dict(boxstyle="round,pad=0.18", fc="white", ec="none",
+                          alpha=0.78))
+    ax.set_aspect("equal")
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for c in ax.spines.values():
+        c.set_color("#999999")
+    barre = fig.colorbar(ScalarMappable(norm=bornes, cmap=carte), ax=ax,
+                         fraction=0.030, pad=0.02)
+    barre.set_label("NPMI du groupe", fontsize=8)
+    barre.ax.tick_params(labelsize=7)
+    barre.outline.set_visible(False)
+    fig.tight_layout(pad=0.5)
+    fig.savefig(SORTIE / "bloc.pdf", bbox_inches="tight")
+    plt.close(fig)
+
+    bas = [t for t in npmi if npmi[t] < 0.10]
+    return (len(g), len(npmi), len(bas), sum(taille[t] for t in bas),
+            min(taille.values()), max(taille.values()))
+
+
 def figure_regroupements(xy, ids, recalculer=False):
     """Les deux algorithmes sur la même projection, à trente-quatre groupes."""
     import matplotlib.pyplot as plt
@@ -456,6 +551,11 @@ def main():
           f"({de / dr - 1:+.1%})")
     print(f"                    groupes distincts {mr:.2f} contre {me:.2f} "
           f"(Welch t = {t:.1f})")
+
+    n, k, bas, blocs, petit, grand = figure_bloc(args.recalculer)
+    print(f"bloc.pdf            {n} blocs en {k} groupes, de {petit} à {grand}")
+    print(f"                    {bas} groupes sous 0,10 de NPMI, "
+          f"{blocs} blocs ({blocs / n:.1%})")
 
     g = figure_iptc(xy, ids)
     part, hasard, n = purete_voisinage(X, g)

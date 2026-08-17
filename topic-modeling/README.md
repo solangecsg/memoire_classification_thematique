@@ -185,11 +185,13 @@ des étiquettes du modèle génératif. La seconde croise les thèmes de la
 modélisation probabiliste avec les groupes du regroupement de plongements, et
 donne l'information mutuelle normalisée entre les deux partitions.
 
-`projections_clusters.py` réduit les plongements à deux dimensions et trace trois
-nuages de points, répartis en deux figures : les groupes du partitionnement en
+`projections_clusters.py` réduit les plongements à deux dimensions et trace quatre
+nuages de points, répartis en trois figures : les groupes du partitionnement en
 k moyennes, ceux du
-regroupement par densité avec les articles écartés en gris, et les catégories du
-vocabulaire contrôlé sur la même projection. Le script rapporte aussi trois
+regroupement par densité avec les articles écartés en gris, le corpus à la
+granularité du bloc colorié par la cohérence des groupes, et les catégories du
+vocabulaire contrôlé sur la projection des articles. Les blocs reçoivent leur
+propre projection, qui ne se superpose pas à celle des articles. Le script rapporte aussi trois
 statistiques calculées dans l'espace des plongements complet, qui vérifient ce
 que les figures donnent à voir.
 
