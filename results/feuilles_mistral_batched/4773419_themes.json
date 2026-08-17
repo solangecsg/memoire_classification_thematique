@@ -1,0 +1,225 @@
+{
+  "fascicule": "4773419",
+  "usage": {
+    "prompt_tokens": 38433,
+    "completion_tokens": 563,
+    "total_tokens": 38996,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 10.35,
+    "temps_reponse_min_s": 10.35,
+    "temps_reponse_max_s": 10.35,
+    "temps_reponse_moyen_s": 10.35,
+    "temps_reponse_median_s": 10.35
+  },
+  "articles": [
+    {
+      "article_id": "DIV.37",
+      "title": "AVIS IMPORTANT.",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.42",
+      "title": "Paris, le 22 décembre 1866.",
+      "themes": [
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.47",
+      "title": "DIV.47",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.50",
+      "title": "THÉATRE IMPÉRIAL DU CHATELET : Le Diable bolteux",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.61",
+      "title": "CHRONIQUE DES THEATRES DE PARIS",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.162",
+      "title": "Nouvelles des Départements",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.264",
+      "title": "Chronique des Théâtres de l'Etranger",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.321",
+      "title": "DIV.321",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000492",
+          "label_fr": "Personnel médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.335",
+      "title": "Petit Journal de la Semaine",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.397",
+      "title": "DIV.397",
+      "themes": [
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.403",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000192",
+          "label_fr": "Stratégie et marketing"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.445",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.452",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.459",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    }
+  ]
+}

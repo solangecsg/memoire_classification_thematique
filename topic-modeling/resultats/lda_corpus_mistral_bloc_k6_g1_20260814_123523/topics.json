@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix saint ans maison francs lille demande cv bureau vente",
+    "size": 7168
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num fr er cours francs banque nord cpt crédit lyon",
+    "size": 6996
+  },
+  {
+    "topic_id": 2,
+    "top_words": "grand théâtre succès rôle public salle opéra exposition grande roi",
+    "size": 6422
+  },
+  {
+    "topic_id": 3,
+    "top_words": "eau grand général grande temps fer français armée corps hommes",
+    "size": 6802
+  },
+  {
+    "topic_id": 4,
+    "top_words": "homme femme jeune vie point temps monde hommes voir main",
+    "size": 8757
+  },
+  {
+    "topic_id": 5,
+    "top_words": "gouvernement président conseil ministre droit général ordre commission loi question",
+    "size": 10431
+  }
+]

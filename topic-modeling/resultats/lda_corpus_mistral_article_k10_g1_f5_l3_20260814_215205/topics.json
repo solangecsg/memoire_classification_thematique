@@ -1,0 +1,52 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "eau prix enfants qualité blanc dames petits noir grand laine",
+    "size": 428
+  },
+  {
+    "topic_id": 1,
+    "top_words": "point temps pays monde hommes grande voir esprit mieux donner",
+    "size": 657
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num cours banque nord cpt crédit lyon fer remb courant",
+    "size": 468
+  },
+  {
+    "topic_id": 3,
+    "top_words": "théâtre grand opéra rôle saint musique succès jean public acte",
+    "size": 559
+  },
+  {
+    "topic_id": 4,
+    "top_words": "homme femme jeune ans mort fille père tête yeux porte",
+    "size": 538
+  },
+  {
+    "topic_id": 5,
+    "top_words": "président conseil ministre loi gouvernement commission chambre général assemblée projet",
+    "size": 631
+  },
+  {
+    "topic_id": 6,
+    "top_words": "francs société millions fer compagnie prix industrie cours service travaux",
+    "size": 392
+  },
+  {
+    "topic_id": 7,
+    "top_words": "num ans lille prix maison demande saint bureau adresser francs",
+    "size": 393
+  },
+  {
+    "topic_id": 8,
+    "top_words": "guerre général armée français allemagne gouvernement roi chef prince angleterre",
+    "size": 574
+  },
+  {
+    "topic_id": 9,
+    "top_words": "num prix mètres saint club équipe course concours tour grand",
+    "size": 487
+  }
+]

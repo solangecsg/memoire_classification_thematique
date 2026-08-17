@@ -1,0 +1,52 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "point pays temps monde hommes grande politique esprit peuple grand",
+    "size": 652
+  },
+  {
+    "topic_id": 1,
+    "top_words": "prix mètres club équipe tour course épreuve match grand auto",
+    "size": 485
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num fr prix francs lille demande maison vente ans adresser",
+    "size": 737
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num général guerre armée roi chef français allemagne londres gouvernement",
+    "size": 666
+  },
+  {
+    "topic_id": 4,
+    "top_words": "homme femme jeune fille mort tête père yeux porte petit",
+    "size": 488
+  },
+  {
+    "topic_id": 5,
+    "top_words": "théâtre grand opéra rôle succès musique public acte comique artistes",
+    "size": 508
+  },
+  {
+    "topic_id": 6,
+    "top_words": "président conseil num commission loi gouvernement ministre société chambre assemblée",
+    "size": 786
+  },
+  {
+    "topic_id": 7,
+    "top_words": "num fr cours banque cv nord cpt crédit er prix",
+    "size": 517
+  },
+  {
+    "topic_id": 8,
+    "top_words": "saint ans num prix jean henri maire louis marie honneur",
+    "size": 319
+  },
+  {
+    "topic_id": 9,
+    "top_words": "eau qualité blanc petits noir demi dames vin rouge laine",
+    "size": 243
+  }
+]

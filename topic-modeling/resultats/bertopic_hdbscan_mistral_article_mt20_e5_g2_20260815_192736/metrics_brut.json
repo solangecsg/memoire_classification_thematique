@@ -1,0 +1,170 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2962,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2725,
+    "top_words": "prix équipe club match course épreuve mètres coupe championnat tour"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.255,
+    "top_words": "lille demande prix maison vendre renault adresser echo bureau ecrire"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3333,
+    "top_words": "loi gouvernement commission chambre assemblée président droit projet ministre conseil"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2744,
+    "top_words": "gouvernement allemagne guerre italie prince pays conférence politique berlin russie"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2718,
+    "top_words": "ans police femme âgé enquête mort saint arrêté jeune cadavre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3928,
+    "top_words": "maladies estomac peau flacon traitement sang pilules guérison boîte pharmacie"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3725,
+    "top_words": "homme jeune yeux fille père femme jacques tête mère cœur"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.4225,
+    "top_words": "banque cours crédit nord valeurs fer lyon gaz actions escompte"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.4412,
+    "top_words": "théâtre folies opéra cirque revue comique variétés rouge casino soirs"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.411,
+    "top_words": "cours lib act crédit nord valeurs banque lyon orléans fer"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3805,
+    "top_words": "rôle théâtre succès public talent opéra artiste artistes acte scène"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.3866,
+    "top_words": "kil courant cote marché blés disponible prix froment avoine sacs"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2094,
+    "top_words": "mmes comique actes opéra rôle jeune comédie ténor musique guillemin"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.1551,
+    "top_words": "billets dunkerque classe oran départ départs fer ang cap saint"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.22,
+    "top_words": "port navire tait commandant troupes vapeur prusse bord île amiral"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1434,
+    "top_words": "ans syndic maire juge saint comm prov adjoint veuve marchand"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.286,
+    "top_words": "volume jésus vol grand histoire roman almanach illustré prix librairie"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3155,
+    "top_words": "peinture roman livre art auteur histoire vie monde œuvre homme"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2843,
+    "top_words": "abonnement pont abonnés francs poste bons départements abonnements prime abonné"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2807,
+    "top_words": "obsèques décédé infanterie née église mort funérailles lieutenant saint henri"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.2478,
+    "top_words": "réunion priés comité assister salle générale citoyens réunir siège demie"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.4028,
+    "top_words": "théâtre opéra actes spectacle représentation comédie matinée représentations comique tableaux"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.4378,
+    "top_words": "manœuvres exercices flotte grandes française marins cherbourg navires eaux brest"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.3842,
+    "top_words": "accusé assises jury verdict président témoins jurés prison audience cour"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.3477,
+    "top_words": "grève ouvriers syndicats travail bourse délégués mineurs employés travailleurs salaires"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.335,
+    "top_words": "régiment capitaine infanterie légion colonel brigade général honneur division artillerie"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.2765,
+    "top_words": "température ciel vent nord ouest pluies faible âgé mer temps"
+   },
+   {
+    "topic_id": 27,
+    "npmi": -0.111,
+    "top_words": "vii viii iii solution problème mat sorties noms dés mots"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.3196,
+    "top_words": "versailles obus bataillon fort batterie garde vanves issy citoyen feu"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.1299,
+    "top_words": "école carrières cours dessin cahier papier pages études enseignement anglais"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.3293,
+    "top_words": "radio concert musique parisien orchestre poste disques informations chant piano"
+   },
+   {
+    "topic_id": 31,
+    "npmi": 0.2701,
+    "top_words": "mètres longueur affiche films affiches film cinématographique comédie ministre éclair"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 320
+}

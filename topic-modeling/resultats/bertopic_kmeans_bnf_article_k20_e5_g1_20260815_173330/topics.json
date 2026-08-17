@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "commission loi conseil président projet gouvernement chambre ministre assemblée général",
+    "size": 483
+  },
+  {
+    "topic_id": 1,
+    "top_words": "lille ans demande ecrire prix vendre maison int renault adresser",
+    "size": 424
+  },
+  {
+    "topic_id": 2,
+    "top_words": "homme femme jeune yeux fille temps vie père monde petit",
+    "size": 423
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement allemagne guerre général pays troupes conférence berlin italie armée",
+    "size": 376
+  },
+  {
+    "topic_id": 4,
+    "top_words": "gouvernement guerre pays politique français point droit hommes peuple temps",
+    "size": 360
+  },
+  {
+    "topic_id": 5,
+    "top_words": "volume librairie prix grand francs jupe noir poste satin vente",
+    "size": 352
+  },
+  {
+    "topic_id": 6,
+    "top_words": "opéra théâtre comique concert musique mmes actes comédie revue radio",
+    "size": 351
+  },
+  {
+    "topic_id": 7,
+    "top_words": "ans police mort femme enquête jeune saint crime prison âgé",
+    "size": 318
+  },
+  {
+    "topic_id": 8,
+    "top_words": "équipe prix match club stade mètres finale points champion poids",
+    "size": 313
+  },
+  {
+    "topic_id": 9,
+    "top_words": "maladies estomac peau eau traitement sirop cure flacon crème sang",
+    "size": 252
+  },
+  {
+    "topic_id": 10,
+    "top_words": "prix épreuve course auto tour club coureurs coupe automobile voitures",
+    "size": 239
+  },
+  {
+    "topic_id": 11,
+    "top_words": "films film cinéma auteurs grand société art iii point temps",
+    "size": 224
+  },
+  {
+    "topic_id": 12,
+    "top_words": "cours kil courant gaz crédit banque nord valeurs marché cote",
+    "size": 216
+  },
+  {
+    "topic_id": 13,
+    "top_words": "général front troupes ennemi port commandant temps artillerie hommes roi",
+    "size": 209
+  },
+  {
+    "topic_id": 14,
+    "top_words": "exposition académie honneur général médaille président infanterie prix saint capitaine",
+    "size": 197
+  },
+  {
+    "topic_id": 15,
+    "top_words": "prix enseignement société conseil concours publique comité francs loi études",
+    "size": 184
+  },
+  {
+    "topic_id": 16,
+    "top_words": "rôle théâtre succès public talent opéra artistes artiste scène représentation",
+    "size": 138
+  },
+  {
+    "topic_id": 17,
+    "top_words": "banque actions cours valeurs société titres millions francs crédit fonds",
+    "size": 124
+  },
+  {
+    "topic_id": 18,
+    "top_words": "billets classe départ départs fer ang oran train cap nord",
+    "size": 84
+  },
+  {
+    "topic_id": 19,
+    "top_words": "température chaleur baromètre corps thermomètre ciel degrés eau froid vent",
+    "size": 43
+  }
+]

@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2902,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3389,
+    "top_words": "loi conseil commission président ministre projet chambre général gouvernement séance"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2012,
+    "top_words": "lille demande prix maison vendre renault adresser bureau citroën echo"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2665,
+    "top_words": "gouvernement allemagne guerre général pays politique troupes italie angleterre roi"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3979,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes folies revue"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3081,
+    "top_words": "gouvernement pays droit guerre liberté politique république assemblée peuple hommes"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2708,
+    "top_words": "ans police femme mort enquête saint jeune âgé arrêté crime"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3031,
+    "top_words": "équipe match prix club mètres stade finale poids champion championnat"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3361,
+    "top_words": "homme yeux jeune femme fille tête père fortuné patron main"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1759,
+    "top_words": "exposition général honneur concours saint président capitaine infanterie médaille régiment"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3158,
+    "top_words": "prix course tour épreuve auto club coureurs coupe automobile circuit"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3254,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure guérison"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.3173,
+    "top_words": "point vie homme académie histoire livre amour femme monde temps"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3998,
+    "top_words": "théâtre rôle succès public opéra artistes talent artiste scène représentation"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.1998,
+    "top_words": "volume jésus francs prix librairie poste grand abonnement vol pages"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2105,
+    "top_words": "temps ouest troupes fort sud port nord saint front commandant"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3627,
+    "top_words": "banque actions valeurs société cours titres crédit fonds millions bénéfices"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.4039,
+    "top_words": "banque cours nord crédit lyon fer act gaz valeurs orléans"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3866,
+    "top_words": "kil courant disponible marché cote prix blés froment avoine sacs"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1586,
+    "top_words": "billets dunkerque classe oran départ fer départs ang nord saint"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.1243,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve jean"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

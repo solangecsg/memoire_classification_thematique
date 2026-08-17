@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2614,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1628,
+    "top_words": "lille ans demande ecrire prix maison vendre int adresser renault"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3501,
+    "top_words": "commission loi conseil projet président chambre ministre gouvernement assemblée séance"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3797,
+    "top_words": "homme femme jeune yeux fille temps père vie monde main"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2666,
+    "top_words": "gouvernement allemagne guerre général pays italie conférence berlin troupes ministre"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3153,
+    "top_words": "gouvernement guerre politique droit pays hommes point peuple temps français"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.0822,
+    "top_words": "volume librairie prix grand jupe francs noir poste jésus laine"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3247,
+    "top_words": "opéra théâtre comique concert musique mmes actes comédie radio revue"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2753,
+    "top_words": "ans police mort femme enquête saint jeune crime âgé prison"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2758,
+    "top_words": "équipe prix match club stade mètres finale points champion poids"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3002,
+    "top_words": "prix épreuve course tour auto club coureurs coupe automobile kilomètres"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2557,
+    "top_words": "maladies estomac eau peau traitement sirop cure flacon sang poudre"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.3677,
+    "top_words": "théâtre rôle succès public talent opéra artistes scène artiste film"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1266,
+    "top_words": "exposition général académie honneur président sciences médaille infanterie prix ministre"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2993,
+    "top_words": "cours kil courant nord gaz crédit banque valeurs marché cote"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2499,
+    "top_words": "troupes front général ennemi commandant roi port temps hommes artillerie"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2425,
+    "top_words": "travail ouvriers grève mineurs travailleurs société réunion conseil prix grévistes"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2805,
+    "top_words": "loi écoles publique enseignement élèves école point droit ecole grand"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3501,
+    "top_words": "banque actions cours valeurs société millions titres crédit francs fonds"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2143,
+    "top_words": "prix température baromètre concours nord ciel vent saint thermomètre grand"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.1095,
+    "top_words": "billets classe départ départs fer ang oran train cap nord"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

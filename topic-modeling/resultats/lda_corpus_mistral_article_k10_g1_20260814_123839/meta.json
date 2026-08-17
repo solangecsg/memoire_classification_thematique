@@ -1,0 +1,14 @@
+{
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_article_k10_g1_20260814_123839",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "n_docs": 5401,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 881786,
+  "duree_s": 566.8
+}

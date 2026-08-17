@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num ans cour police prison affaire femme tribunal justice président",
+    "size": 291
+  },
+  {
+    "topic_id": 1,
+    "top_words": "saint ans jean num marie henri louis pierre paul georges",
+    "size": 181
+  },
+  {
+    "topic_id": 2,
+    "top_words": "corps armée hommes feu officiers grande commandant guerre soldats capitaine",
+    "size": 266
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num lille demande maison bureau ans adresser ecrire vendre echo",
+    "size": 175
+  },
+  {
+    "topic_id": 4,
+    "top_words": "exposition art prix grand histoire vient enseignement académie livre école",
+    "size": 224
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num prix équipe club tour course épreuve mètres match grand",
+    "size": 385
+  },
+  {
+    "topic_id": 6,
+    "top_words": "num cpt nord cours kil courant banque lyon crédit gaz",
+    "size": 487
+  },
+  {
+    "topic_id": 7,
+    "top_words": "homme femme jeune yeux fille vie père cœur tête mère",
+    "size": 235
+  },
+  {
+    "topic_id": 8,
+    "top_words": "point temps voir mieux partie part prendre mal bonne fort",
+    "size": 324
+  },
+  {
+    "topic_id": 9,
+    "top_words": "président général conseil num comité maire membres réunion préfet directeur",
+    "size": 307
+  },
+  {
+    "topic_id": 10,
+    "top_words": "num francs société millions banque cours prix marché fonds crédit",
+    "size": 193
+  },
+  {
+    "topic_id": 11,
+    "top_words": "num oran prix lot francs docteur maladies vente enfants médecins",
+    "size": 178
+  },
+  {
+    "topic_id": 12,
+    "top_words": "num fer nord service saint compagnie marseille chemin mer départ",
+    "size": 155
+  },
+  {
+    "topic_id": 13,
+    "top_words": "num prix int renault places luxe voitures cond neuve voiture",
+    "size": 153
+  },
+  {
+    "topic_id": 14,
+    "top_words": "eau blanc petits rouge qualité dames verre noir gros air",
+    "size": 164
+  },
+  {
+    "topic_id": 15,
+    "top_words": "pays hommes peuple politique liberté gouvernement droit esprit guerre ordre",
+    "size": 235
+  },
+  {
+    "topic_id": 16,
+    "top_words": "num grand film revue théâtre films radio palais cinéma royal",
+    "size": 186
+  },
+  {
+    "topic_id": 17,
+    "top_words": "gouvernement français guerre allemagne angleterre général anglais roi etats londres",
+    "size": 335
+  },
+  {
+    "topic_id": 18,
+    "top_words": "num loi commission chambre projet ministre question gouvernement séance droit",
+    "size": 282
+  },
+  {
+    "topic_id": 19,
+    "top_words": "théâtre rôle succès public musique opéra grand acte représentation artiste",
+    "size": 145
+  }
+]

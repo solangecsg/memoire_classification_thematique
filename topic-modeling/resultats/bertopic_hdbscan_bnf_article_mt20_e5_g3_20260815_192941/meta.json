@@ -1,0 +1,18 @@
+{
+  "model": "bertopic_hdbscan",
+  "run_id": "bertopic_hdbscan_bnf_article_mt20_e5_g3_20260815_192941",
+  "source": "bnf",
+  "granularite": "article",
+  "k": 30,
+  "k_demande": null,
+  "min_taille": 20,
+  "graine": 3,
+  "n_docs": 5310,
+  "n_sans_groupe": 1906,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "longueur_max": 512,
+  "duree_s": 17.6
+}

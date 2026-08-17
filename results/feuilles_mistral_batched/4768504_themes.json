@@ -1,0 +1,85 @@
+{
+  "fascicule": "4768504",
+  "usage": {
+    "prompt_tokens": 16433,
+    "completion_tokens": 230,
+    "total_tokens": 16663,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 5.04,
+    "temps_reponse_min_s": 5.04,
+    "temps_reponse_max_s": 5.04,
+    "temps_reponse_moyen_s": 5.04,
+    "temps_reponse_median_s": 5.04
+  },
+  "articles": [
+    {
+      "article_id": "DIV.19",
+      "title": "ASSEMBLÉE GÉNÉRALE DE MM. LES ACTIONNAIRES DE LA DÉMOCRATIE PACIFIQUE",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        },
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.122",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.125",
+      "title": "Les Rédacteurs de la Démocratie pacifique à MM. les Magistrats du département de la Seine.",
+      "themes": [
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.142",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    }
+  ]
+}

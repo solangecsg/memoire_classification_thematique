@@ -1,0 +1,60 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2345,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1303,
+    "top_words": "ans saint num maire jean honneur prix concours lille société"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2534,
+    "top_words": "ii re ie eau nt el li ri ir ur"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1302,
+    "top_words": "num prix cv pl club équipe course tour grand match"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2176,
+    "top_words": "num fr cours cpt nord banque prix id crédit ch"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1757,
+    "top_words": "num fr prix francs demande maison lille vente bureau adresser"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1936,
+    "top_words": "num guerre général armée français gouvernement roi allemagne londres prince"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2651,
+    "top_words": "num conseil président gouvernement commission ministre loi chambre général assemblée"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3484,
+    "top_words": "théâtre grand opéra rôle musique public succès acte comique artistes"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2592,
+    "top_words": "point num temps monde grande pays hommes vie mieux vient"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3717,
+    "top_words": "femme jeune homme fille mort porte yeux père petit tête"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 100
+}

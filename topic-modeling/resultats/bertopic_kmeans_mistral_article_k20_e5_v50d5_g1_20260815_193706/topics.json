@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve mètres coupe championnat stade",
+    "size": 562
+  },
+  {
+    "topic_id": 1,
+    "top_words": "loi commission conseil ministre président chambre projet gouvernement général séance",
+    "size": 446
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne guerre général pays italie berlin politique armée conférence",
+    "size": 388
+  },
+  {
+    "topic_id": 3,
+    "top_words": "lille demande ans prix vendre renault maison citroën bureau adresser",
+    "size": 352
+  },
+  {
+    "topic_id": 4,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes revue folies",
+    "size": 335
+  },
+  {
+    "topic_id": 5,
+    "top_words": "gouvernement droit politique liberté pays guerre hommes république assemblée point",
+    "size": 315
+  },
+  {
+    "topic_id": 6,
+    "top_words": "point vie monde temps homme histoire académie grand livre esprit",
+    "size": 308
+  },
+  {
+    "topic_id": 7,
+    "top_words": "ans police femme mort âgé enquête saint jeune arrêté commissaire",
+    "size": 299
+  },
+  {
+    "topic_id": 8,
+    "top_words": "laine francs dames prix mètre manteaux velours qualité abonnement poste",
+    "size": 287
+  },
+  {
+    "topic_id": 9,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure guérison",
+    "size": 262
+  },
+  {
+    "topic_id": 10,
+    "top_words": "cours banque nord crédit lyon gaz kil fer act courant",
+    "size": 240
+  },
+  {
+    "topic_id": 11,
+    "top_words": "théâtre rôle succès public artistes talent opéra scène artiste grand",
+    "size": 240
+  },
+  {
+    "topic_id": 12,
+    "top_words": "troupes front saint roi ennemi artillerie fort général officiers port",
+    "size": 227
+  },
+  {
+    "topic_id": 13,
+    "top_words": "homme jeune femme yeux fille fortuné père patron tête mère",
+    "size": 214
+  },
+  {
+    "topic_id": 14,
+    "top_words": "général grève conseil régiment ouvriers président préfet chef colonel honneur",
+    "size": 185
+  },
+  {
+    "topic_id": 15,
+    "top_words": "exposition médaille concours prix société comité honneur président réunion salle",
+    "size": 161
+  },
+  {
+    "topic_id": 16,
+    "top_words": "banque actions cours valeurs société titres crédit fonds marché millions",
+    "size": 156
+  },
+  {
+    "topic_id": 17,
+    "top_words": "manœuvres baromètre saint température mort ciel infanterie exercices décédé obsèques",
+    "size": 153
+  },
+  {
+    "topic_id": 18,
+    "top_words": "volume jésus vol grand roman histoire prix mètres illustré almanach",
+    "size": 141
+  },
+  {
+    "topic_id": 19,
+    "top_words": "billets dunkerque classe oran départ fer départs ang saint cap",
+    "size": 90
+  }
+]

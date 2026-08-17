@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.26,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3504,
+    "top_words": "homme femme temps jeune point grand vie monde yeux cœur"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3022,
+    "top_words": "équipe prix club match mètres épreuve course championnat stade finale"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3485,
+    "top_words": "commission loi conseil projet ministre président gouvernement chambre séance assemblée"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3036,
+    "top_words": "gouvernement pays guerre politique hommes travail droit temps point général"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2648,
+    "top_words": "gouvernement prince roi général ministre guerre allemagne conseil affaires pays"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2642,
+    "top_words": "ans police femme saint enquête mort âgé jeune arrêté homme"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1717,
+    "top_words": "vouloir qualité mètre laine noir grand prix dames lille manteaux"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.429,
+    "top_words": "théâtre opéra comique mmes comédie concert musique rôle actes orchestre"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2246,
+    "top_words": "lille prix renault vendre maison demande citroën echo adresser ecrire"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3508,
+    "top_words": "théâtre succès public rôle opéra représentation grand artistes artiste musique"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.0977,
+    "top_words": "cours banque nord crédit lyon fortuné fer act patron gaz"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1831,
+    "top_words": "général maire président saint honneur infanterie prix académie légion régiment"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2067,
+    "top_words": "demande francs prix abonnement bons poste pages bureau lettres abonnés"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2364,
+    "top_words": "maladies estomac flacon peau cure pharmacies pharmacie sang eau crème"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1984,
+    "top_words": "concours société comité président réunion générale association assemblée saint prix"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1781,
+    "top_words": "front allemands troupes ennemi lot nord sud artillerie général armée"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.032,
+    "top_words": "ans saint oran syndic billets juge comm fer classe prov"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3141,
+    "top_words": "banque cours valeurs marché cote actions kil chemins crédit fonds"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3754,
+    "top_words": "manœuvres grandes flotte exercices française terminer musique fleete brest flèche"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3692,
+    "top_words": "baromètre température ciel vent nord thermomètre ouest temps pluies sud"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

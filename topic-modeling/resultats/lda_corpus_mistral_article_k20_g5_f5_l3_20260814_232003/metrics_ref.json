@@ -1,0 +1,167 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_article_k20_g5_f5_l3_20260814_232003",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 20,
+  "iterations": 2000,
+  "graine": 5,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 5127,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 767367,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "duree_s": 188.7
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.814,
+  "entropy_max": 2.9957,
+  "entropy_normalized": 0.6055
+ },
+ "diversity": {
+  "diversity": 0.79,
+  "diversity_norm": 0.0074,
+  "tokens_distincts": 21355,
+  "unique_words": 158,
+  "total_words": 200,
+  "shared_words": [
+   "ans",
+   "banque",
+   "commission",
+   "corps",
+   "cours",
+   "demande",
+   "droit",
+   "eau",
+   "fer",
+   "francs",
+   "gouvernement",
+   "grand",
+   "grande",
+   "guerre",
+   "général",
+   "homme",
+   "hommes",
+   "millions",
+   "mètres",
+   "nord",
+   "num",
+   "prix",
+   "président",
+   "saint",
+   "société",
+   "temps"
+  ],
+  "n_shared": 26
+ },
+ "npmi": {
+  "npmi_mean": 0.2398,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3017,
+    "top_words": "hommes pays politique peuple droit liberté guerre gouvernement parti homme"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1733,
+    "top_words": "num lille demande maison bureau francs adresser ans vendre lettres"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.18,
+    "top_words": "num ans cour police général président prison mort affaire corps"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2315,
+    "top_words": "droit commission loi millions commerce francs industrie demande administration travaux"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2177,
+    "top_words": "saint ans jean henri paul louis marie andré comte pierre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3075,
+    "top_words": "num prix renault int citroën places cond voitures luxe cabriolet"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2191,
+    "top_words": "num eau maladies vin médecins santé traitement peau ans sang"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1835,
+    "top_words": "num banque cours marché prix francs courant millions actions société"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2951,
+    "top_words": "dames noir rouge blanc qualité laine belle taille rose bleu"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1733,
+    "top_words": "école exposition société prix concours enseignement enfants honneur art grand"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2316,
+    "top_words": "guerre gouvernement allemagne français angleterre anglais général prince roi états"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1431,
+    "top_words": "num prix grand française grandes film volume histoire manœuvres livre"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2099,
+    "top_words": "route eau temps feu corps foule mètres hommes terre grande"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2789,
+    "top_words": "président conseil ministre chambre général assemblée commission membres réunion séance"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.3771,
+    "top_words": "homme jeune femme yeux fille père cœur tête petit pauvre"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1399,
+    "top_words": "num saint fer compagnie prix marseille oran chemin nord service"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2101,
+    "top_words": "num prix équipe club course match tour épreuve mètres coupe"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3123,
+    "top_words": "num cours cpt nord banque lyon remb crédit gaz fer"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3287,
+    "top_words": "théâtre opéra rôle musique grand acte succès comique comédie public"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2823,
+    "top_words": "point temps donner voir mieux monde fort vient grande prendre"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": -0.0484,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.031,
+    "top_words": "num fr francs er an titres prix rembourser oblig obligations"
+   },
+   {
+    "topic_id": 1,
+    "npmi": -0.024,
+    "top_words": "amiral reynière ans général préfet homme fermeté pays herblay argent"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.0999,
+    "top_words": "gauche union saint ordre coupons temps travail nouvelle combinaison républicaine"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.1531,
+    "top_words": "société générale crédit valeurs bourse chance voix municipalité officielle question"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1465,
+    "top_words": "ministère chambre république conseil majorité gouvernement cabinet cours président directeur"
+   },
+   {
+    "topic_id": 5,
+    "npmi": -0.1909,
+    "top_words": "droit bureau grand membres table crois esprit soleil distribution bienfaisance"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

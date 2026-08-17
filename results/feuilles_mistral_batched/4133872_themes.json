@@ -1,0 +1,1579 @@
+{
+  "fascicule": "4133872",
+  "usage": {
+    "prompt_tokens": 88603,
+    "completion_tokens": 4488,
+    "total_tokens": 93091,
+    "cached_tokens": 0,
+    "n_calls": 5,
+    "temps_reponse_total_s": 68.63,
+    "temps_reponse_min_s": 3.17,
+    "temps_reponse_max_s": 19.52,
+    "temps_reponse_moyen_s": 13.73,
+    "temps_reponse_median_s": 14.99
+  },
+  "articles": [
+    {
+      "article_id": "DIV.24",
+      "title": "DIV.24",
+      "themes": [
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000080",
+          "label_fr": "Prisonniers de guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.31",
+      "title": "DIV.31",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.37",
+      "title": "Quels journaux français on reçu les 2 milliards 450 millions du pentagone ? : Après la controverse Le Monde-Le Populaire sur l'affaire FECHTELER A QUAND LA COMMISSION D'ENQUÊTE sur les ressources de la presse?",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.61",
+      "title": "L'UNITED PRESS CABLE DE PAN-MUN-JOM: LE GÉNÉRAL NAM IL ACCUSE les Américains d'avoir procédé à des expériences atomiques sur des prisonniers coréens et chinois",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000080",
+          "label_fr": "Prisonniers de guerre"
+        },
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.78",
+      "title": "Pour la Souscription nationale de \"Ce soir\" les Cent francs de la Vérité",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.85",
+      "title": "Ecrasé sous 100 mètres cubes de pierres",
+      "themes": [
+        {
+          "code": "20000140",
+          "label_fr": "Explosion accidentelle"
+        },
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.96",
+      "title": "DIV.96",
+      "themes": [
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        },
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.111",
+      "title": "TUNISIE : Nouvelles mesures de force envisagées par le gouvernement PINAY qui veut faire proclamer la loi martiale : Un message du Bey aux Tunisiens annoncé",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.135",
+      "title": "A LA VENTE COGNACQ LES ENCHERES DU COMMISSAIRE BELIER ONT FAIT FUIR GRETA GARBO",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.152",
+      "title": "L'audience aux Assises de Versailles : DORDAIN : \" De Récy m'a demandé de négocier très vite les 30 millions de Bons volés... pour le sau-ver du déshonneur\" (Compte rendu d'audience de François Desprez)",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000101",
+          "label_fr": "Crime organisé"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.186",
+      "title": "LE VIEUX MORTIER explose dans le four",
+      "themes": [
+        {
+          "code": "20000140",
+          "label_fr": "Explosion accidentelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.197",
+      "title": "Cette nuit, rue de Maubeuge : DES PERCEURS DE COFFRES-FORTS RAFLENT 3 MILLIONS dans une banque",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000101",
+          "label_fr": "Crime organisé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.210",
+      "title": "Les ouvriers de Renault manifestent contre la venue de Bidgway",
+      "themes": [
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000582",
+          "label_fr": "Candidats"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.226",
+      "title": "L'EXPEDITION FRANÇAISIE DE L'HIMALAYA va bientôt s'attaquer au pic Chokamba (6.600 mètres)",
+      "themes": [
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        },
+        {
+          "code": "20000884",
+          "label_fr": "Alpinisme et escalade"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.238",
+      "title": "FERNANDEL DANS Coiffeur pour Dames : QUAND FIGARO DEVIENT DON JUAN...",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.251",
+      "title": "LES NOUVEAUTÉS DE LA SEMAINE",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.279",
+      "title": "Ce soir à l'Ambigu « LE COLONEL POSTER PLAIDERA COUPABLE»",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.291",
+      "title": "Sous l'œil (courroucé) de René CLAIR : Gérard PHILIPE a donné le fou-rire à la \"Belle de nuit\" Magali VANDEL",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000777",
+          "label_fr": "Racisme"
+        },
+        {
+          "code": "20001181",
+          "label_fr": "Festival"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.305",
+      "title": "Ceux qu'en appelle Les «Mômes ceaoulchouc»... : UNIS DANS LE CLUB DES CASSE-COU, 7 HOMMES ET 1 FEMME FONT LE METIER DE «CASCADEURS» ET REVENT DE DEVENIR COMEDIENS",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20001124",
+          "label_fr": "Industrie du sport"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.332",
+      "title": "THEATRES",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20001181",
+          "label_fr": "Festival"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.371",
+      "title": "MUSIC-HALLS",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.378",
+      "title": "CINEMAS",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.452",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.457",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.470",
+      "title": "DIV.470",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.479",
+      "title": "AGNÈS VA MOURIR : par Renata Vigano ROMAN TRADUIT DE L'ITALIEN PAR JEAN NOARO",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000060",
+          "label_fr": "Forces d'occupation"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.514",
+      "title": "161 sénateurs élus dimanche à Paris et dans 36 départements DANS LA SEINE 3.000 ELECTEURS POUR... 5 MILLIONS D'HABITANTS !",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000586",
+          "label_fr": "Opération de vote"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.539",
+      "title": "IL APPELLE UNE AMBULANCE PAR TELEPHONE et se tire une balle dans le cœur",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.549",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.558",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.577",
+      "title": "EN TRÈS MAUVAISE POSTURE DEVANT LES JURÉS DE L'ARDÈCHE : Le boulanger de « l'Epi d'Or » paraît accablé sous les coups des experts et des témoins DE NOTRE ENVOYE SPECIAL PIERRE GROGEANNE",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.601",
+      "title": "BERTRAND, LE BLESSÉ de la fusillade des Ch.-Élysées n'avait pas vendu SA BLONDE AMIE A UN MAHARADJAH",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000877",
+          "label_fr": "Canoë"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.617",
+      "title": "LE CHAUFFEUR D'AIX AVAIT PLANTE UNE BAIONNETTE DANS LA GORGE DE SON ADVERSAIRE",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000084",
+          "label_fr": "Agression"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.627",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000039",
+          "label_fr": "Histoire de l'art"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.639",
+      "title": "Avant la conférence de juin pour la démilitarisation de l'Allemagne",
+      "themes": [
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        },
+        {
+          "code": "20000075",
+          "label_fr": "Plan de paix"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.645",
+      "title": "DIV.645",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.665",
+      "title": "DIV.665",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.671",
+      "title": "Samedi 17 mai au Vél' d'Hiv' : LES PARISIENS DIRONT LEUR VOLONTÉ DE LUTTER CONTRE LA GUERRE",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000058",
+          "label_fr": "Intervention militaire internationale"
+        },
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.690",
+      "title": "Mlle Roux dite la \"Fée Carabosse \"",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.698",
+      "title": "En se nourrissant de bifteaks et d'œufs crus un pomper américain va tenter de traverser la Manche à la nage",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.710",
+      "title": "PRIX DE LA PORTE DAUPHINE",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.715",
+      "title": "PRIX DES LILAS",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.722",
+      "title": "L'autopsie révèle que le \"suicide\" du pendu de la rue Lafayette était un crime maquillé par les meurtriers",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.737",
+      "title": "Des taches brunâtres parsemaient la corps du mort de Cagnes-sur-Mer",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.744",
+      "title": "LES DEUX FOUS DE VILLE JUIF encore en liberté ONT DE L'ARGENT : Et Duploy, le parricide, bénéficie de complicités dans le «milieu» de Montmartre",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.762",
+      "title": "PROBLEME N° 756",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.770",
+      "title": "SOLUTION N° 755",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.780",
+      "title": "Vendredi prochain à la Mutualité meeting des officiers et sous-officiers de réserve républicains",
+      "themes": [
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.785",
+      "title": "Boulevard Murat : LE TAPISSIER D'EZY avait voulu effrayer une passante avec un revolver d'enfant",
+      "themes": [
+        {
+          "code": "20000084",
+          "label_fr": "Agression"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.794",
+      "title": "A l'appel des syndicats C.G.T., C.F.T.C. et F.O. : LES EMPLOYÉS DE COMMERCE de Paris arrêtent le travail demain de 9 heures à 10 heures 30 Meeting ce soir à 18 heures 30 à la BOURSE DU TRAVAIL",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000620",
+          "label_fr": "Fiscalité"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.804",
+      "title": "DIV.804",
+      "themes": [
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.812",
+      "title": "PARLEZ... ON TOURNE !",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.821",
+      "title": "PARIS-BANLIEUE",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.833",
+      "title": "TOUR DE FRANCE",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.839",
+      "title": "LOIN D'ICI",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20000161",
+          "label_fr": "Effondrement"
+        },
+        {
+          "code": "20000141",
+          "label_fr": "Accident industriel"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.855",
+      "title": "DIV.855",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.875",
+      "title": "« Notre peuple est à la veille de décisions graves » déclare M. Grotewohl",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.883",
+      "title": "DIV.883",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.893",
+      "title": "OFFRES D'EMPL. 275 fr.",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.905",
+      "title": "PROPRIÉTÉS 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.912",
+      "title": "LOC. COMMER. 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.918",
+      "title": "FONDS DE COM. 350 fr.",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.940",
+      "title": "APPARTEMENTS 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.953",
+      "title": "ÉCHANGE 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.959",
+      "title": "GERANCES 300 fr.",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.966",
+      "title": "VACANCES 350 fr.",
+      "themes": [
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.977",
+      "title": "OCCAS. DIVERS. 350 fr.",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.982",
+      "title": "Ce soir vous aide à trouver du travail : Nous publions ici, chaque jour, gratuitement la liste des emplois offerts par les bureaux officiels de la main-d'œuvre EMPLOIS DISPONIBLES",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000217",
+          "label_fr": "Chimie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1017",
+      "title": "LES FEMMES ANGLAISES membres du parti libéral s'inquiètent de l'utilisation du napalm en Corée",
+      "themes": [
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1028",
+      "title": "Les délégués d'un million de métallurgistes américains décident la reprise de la grève si leurs revendications ne sont pas satisfaites",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000518",
+          "label_fr": "Salaires et pensions ou Salaires et allocations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1036",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000883",
+          "label_fr": "Casting (pêche)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1044",
+      "title": "GUIDE de L'ACHETEUR RIEN QUE DES BONNES ADRESSES POUR VOS CADEAUX POUR VOS ACHATS",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1051",
+      "title": "DIV.1051",
+      "themes": [
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1059",
+      "title": "DIV.1059",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1086",
+      "title": "DIV.1086",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1095",
+      "title": "DIV.1095",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1136",
+      "title": "BALDA attend son... tour",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001341",
+          "label_fr": "Saison sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1145",
+      "title": "Pour rencontrer la Belgique dimanche : L'ARMEE DE L'AIR a sélectionné",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1153",
+      "title": "Nos BASKETTEUSES sont parties à Moscou",
+      "themes": [
+        {
+          "code": "20000851",
+          "label_fr": "Basket-ball"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1161",
+      "title": "C'EST OFFICIEL : BOBET et GÉHINIANI dans l'équipe de France du Tour",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1174",
+      "title": "Pour détrôner NOLTEN dans la \"Route de France\" : ADRIAENSSENS a adopté la \" tactique OCKERS \" De notre envoyé spécial Robert SILVA",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001341",
+          "label_fr": "Saison sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1192",
+      "title": "ROTTA et BAUVIN veulent lâcher dans la montagne leurs adversaires des Six-Provinces : (De notre correspondant particulier H. BERARD.)",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001341",
+          "label_fr": "Saison sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1204",
+      "title": "ELLY ROUS RESTE A METZ",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1211",
+      "title": "132.000 SPECTATEURS DE PLUS EN SECONDE DIVISION... ...mais les clubs traînent le « boulet » de lourds déficits",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1241",
+      "title": "DIV.1241",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001148",
+          "label_fr": "Transfert (sport)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1247",
+      "title": "L'amateur COLIN subira « l'épreuve Marche »",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1256",
+      "title": "MONTAGNOLI sollicité par Turin et Rome",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001148",
+          "label_fr": "Transfert (sport)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1264",
+      "title": "1er et 8 juin : matches de barrage",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1270",
+      "title": "Jimmy CARTER battu aux points à Los Angeles : L'INCONNU MEXICAIN LAURO SALAS est champion du monde des Légers !",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1285",
+      "title": "UNE TOURNÉE (de 20 km.) : \" Rien de tel pour préparer la Marche des Facteurs \" estime M. DEJUNIAT qui courra (aussi) STRASBOURG- PARIS",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1299",
+      "title": "Ce soir à Wagram, duel de tacticiens... : Lou SKÉNA aura à résoudre le problème posé par VALIGNAT",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001103",
+          "label_fr": "Mesures disciplinaires dans le sport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1326",
+      "title": "TIRAGE DE LA 17e TRANCHE",
+      "themes": [
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1341",
+      "title": "Pour être sacré meilleur gymnaste de France : Raymond DOT s'est forgé un \" moral d'acier \"",
+      "themes": [
+        {
+          "code": "20000942",
+          "label_fr": "Gymnastique"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1361",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20001126",
+          "label_fr": "Site sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1369",
+      "title": "UN MAILLOT SEYANT POUR TOUTES",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000572",
+          "label_fr": "Tendance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1401",
+      "title": "Conseils pratiques",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1410",
+      "title": "ce soir",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1421",
+      "title": "bientôt",
+      "themes": [
+        {
+          "code": "20000401",
+          "label_fr": "École primaire"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1426",
+      "title": "demain",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1438",
+      "title": "En 1931 : L'AÉROPOSTALE VOLE... des propres ailes du Ministre des Finances",
+      "themes": [
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1505",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000470",
+          "label_fr": "Remède"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1512",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1518",
+      "title": "la Légende d'Ulenspiegel : d'après le roman de DE COSTER illustré par René BASTARD",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    }
+  ]
+}

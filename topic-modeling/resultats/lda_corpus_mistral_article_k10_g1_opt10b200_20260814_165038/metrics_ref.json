@@ -1,0 +1,97 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_article_k10_g1_opt10b200_20260814_165038",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "optimisation": 10,
+  "burn_in": 200,
+  "n_docs": 5401,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 881786,
+  "duree_s": 6218.3
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.1005,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.4779
+ },
+ "diversity": {
+  "diversity": 0.85,
+  "diversity_norm": 0.004,
+  "tokens_distincts": 21355,
+  "unique_words": 85,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "fr",
+   "gouvernement",
+   "grand",
+   "général",
+   "lille",
+   "num",
+   "prix"
+  ],
+  "n_shared": 8
+ },
+ "npmi": {
+  "npmi_mean": 0.1432,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.283,
+    "top_words": "point monde temps pays hommes grande vie grand esprit politique"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2101,
+    "top_words": "num prix équipe club course mètres tour match épreuve coupe"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.0821,
+    "top_words": "num fr prix francs demande lille maison vente ans adresser"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1836,
+    "top_words": "num guerre général armée gouvernement allemagne français roi londres troupes"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3665,
+    "top_words": "femme jeune homme fille ans mort père tête yeux mère"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3243,
+    "top_words": "théâtre grand opéra rôle succès musique public comique artistes acte"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2482,
+    "top_words": "num président conseil commission gouvernement loi ministre chambre assemblée général"
+   },
+   {
+    "topic_id": 7,
+    "npmi": -0.4323,
+    "top_words": "num fr cours cv banque nord prix cpt crédit pl"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1143,
+    "top_words": "num saint ans prix jean maire honneur école lille henri"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2167,
+    "top_words": "eau blanc qualité noir dames laine demi rouge température peau"
+   }
+  ]
+ }
+}

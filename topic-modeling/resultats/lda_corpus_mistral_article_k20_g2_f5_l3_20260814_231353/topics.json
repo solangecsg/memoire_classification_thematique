@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "général président honneur conseil maire comité secrétaire préfet membres chef",
+    "size": 339
+  },
+  {
+    "topic_id": 1,
+    "top_words": "politique gouvernement peuple pays parti liberté droit guerre république ordre",
+    "size": 223
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num lille demande maison bureau adresser vendre ans francs nord",
+    "size": 194
+  },
+  {
+    "topic_id": 3,
+    "top_words": "art histoire grand vie vient livre académie œuvre exposition prix",
+    "size": 207
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num prix courant kil marché cours cote kilos disponible hausse",
+    "size": 170
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num exposition maladies santé médecine médecins traitement docteur médecin ans",
+    "size": 215
+  },
+  {
+    "topic_id": 6,
+    "top_words": "théâtre opéra rôle musique succès grand public acte comique comédie",
+    "size": 326
+  },
+  {
+    "topic_id": 7,
+    "top_words": "guerre français allemagne angleterre gouvernement anglais londres général armée états",
+    "size": 412
+  },
+  {
+    "topic_id": 8,
+    "top_words": "num cours cpt nord banque lyon crédit fer remb gaz",
+    "size": 321
+  },
+  {
+    "topic_id": 9,
+    "top_words": "point temps donner fort grande mieux grand monde hommes voir",
+    "size": 444
+  },
+  {
+    "topic_id": 10,
+    "top_words": "num francs société millions compagnie banque fer actions fonds cours",
+    "size": 204
+  },
+  {
+    "topic_id": 11,
+    "top_words": "num équipe club match français épreuve champion tour championnat fortuné",
+    "size": 326
+  },
+  {
+    "topic_id": 12,
+    "top_words": "num prix renault int citroën cond places luxe cabriolet peugeot",
+    "size": 157
+  },
+  {
+    "topic_id": 13,
+    "top_words": "num prix mètres francs départ route course saint grand arrivée",
+    "size": 178
+  },
+  {
+    "topic_id": 14,
+    "top_words": "police ans mort prison cour saint coups feu femme affaire",
+    "size": 401
+  },
+  {
+    "topic_id": 15,
+    "top_words": "homme jeune femme fille yeux père tête cœur vie petit",
+    "size": 219
+  },
+  {
+    "topic_id": 16,
+    "top_words": "saint ans jean marie henri louis paul pierre comte georges",
+    "size": 185
+  },
+  {
+    "topic_id": 17,
+    "top_words": "travail travaux industrie enseignement vue pays service école commerce société",
+    "size": 168
+  },
+  {
+    "topic_id": 18,
+    "top_words": "commission chambre conseil loi ministre président projet séance question gouvernement",
+    "size": 283
+  },
+  {
+    "topic_id": 19,
+    "top_words": "eau blanc noir rouge dames petits qualité laine belle fleurs",
+    "size": 155
+  }
+]

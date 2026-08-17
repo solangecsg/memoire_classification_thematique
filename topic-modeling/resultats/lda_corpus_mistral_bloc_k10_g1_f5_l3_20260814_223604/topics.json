@@ -1,0 +1,52 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "ans femme jeune homme mort fille porte tête coup père",
+    "size": 5535
+  },
+  {
+    "topic_id": 1,
+    "top_words": "saint théâtre grand jean rôle opéra succès ans louis paul",
+    "size": 4562
+  },
+  {
+    "topic_id": 2,
+    "top_words": "point hommes monde homme pays mieux temps voir esprit politique",
+    "size": 5458
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num francs prix cours demande lille fer millions compagnie maison",
+    "size": 4903
+  },
+  {
+    "topic_id": 4,
+    "top_words": "président conseil commission loi ministre gouvernement chambre général assemblée droit",
+    "size": 5121
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num cpt nord lyon kil crédit remb gaz renault int",
+    "size": 5611
+  },
+  {
+    "topic_id": 6,
+    "top_words": "saint prix mètres grand tour club équipe français départ exposition",
+    "size": 3026
+  },
+  {
+    "topic_id": 7,
+    "top_words": "eau grand qualité petits blanc belle demi bois rouge grands",
+    "size": 3018
+  },
+  {
+    "topic_id": 8,
+    "top_words": "guerre général armée français angleterre allemagne anglais londres roi chef",
+    "size": 3498
+  },
+  {
+    "topic_id": 9,
+    "top_words": "travail école point art travaux société vue grande œuvre histoire",
+    "size": 3088
+  }
+]

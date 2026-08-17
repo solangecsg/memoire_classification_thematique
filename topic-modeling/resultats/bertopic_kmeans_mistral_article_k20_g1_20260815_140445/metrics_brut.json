@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2551,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3338,
+    "top_words": "président commission conseil loi gouvernement ministre projet chambre assemblée général"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.281,
+    "top_words": "équipe club prix match épreuve course stade champion mètres points"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1156,
+    "top_words": "ans vouloir prix lille saint grand volume francs jésus noir"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1903,
+    "top_words": "prix renault vendre lille maison demande adresser louer citroën vente"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2443,
+    "top_words": "théâtre opéra rôle musique comique fortuné succès public patron grand"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2786,
+    "top_words": "gouvernement pays peuple roi politique guerre prince général temps point"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2941,
+    "top_words": "banque demande francs cours actions valeurs millions société crédit marché"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2566,
+    "top_words": "maladies eau peau flacon estomac traitement prix vin température santé"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2275,
+    "top_words": "ans mort marie police femme anne saint âgé arrêté enquête"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2839,
+    "top_words": "allemagne gouvernement guerre pays russie allemands troupes armée général berlin"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3258,
+    "top_words": "homme femme point temps fille vie jeune monde jacques cœur"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.3308,
+    "top_words": "homme femme yeux jeune mère fille cour coup tête tribunal"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2899,
+    "top_words": "cours banque nord crédit gaz lyon fer courant valeurs prix"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.182,
+    "top_words": "exposition grand président jean jeune temps concours théâtre histoire ans"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.3565,
+    "top_words": "général armée infanterie guerre artillerie régiment colonel troupes officiers capitaine"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1801,
+    "top_words": "saint bord grande lot manœuvres terre port flotte mètres route"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.1715,
+    "top_words": "mmes saint studio prix jean palace théâtre opéra royal actes"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2078,
+    "top_words": "prix école enseignement réunion études lycées sciences conseil société président"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1824,
+    "top_words": "billets oran départ fer classe saint service trains marseille compagnie"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3692,
+    "top_words": "baromètre température ciel nord vent ouest thermomètre sud temps pluies"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

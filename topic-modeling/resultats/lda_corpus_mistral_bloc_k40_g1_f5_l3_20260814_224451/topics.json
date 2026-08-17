@@ -1,0 +1,202 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "nord temps sud mer feu vent route ouest mètres fort",
+    "size": 1326
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num prix renault int places cond citroën voitures luxe parfait",
+    "size": 1703
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num cpt nord banque crédit remb lyon gaz act lib",
+    "size": 1597
+  },
+  {
+    "topic_id": 3,
+    "top_words": "cours marché prix valeurs clôture hausse cote bourse affaires baisse",
+    "size": 863
+  },
+  {
+    "topic_id": 4,
+    "top_words": "gouvernement parti droit politique ordre liberté majorité assemblée pays partis",
+    "size": 1429
+  },
+  {
+    "topic_id": 5,
+    "top_words": "maison grande salle pièces hôtel grand maisons pont jardin eau",
+    "size": 1015
+  },
+  {
+    "topic_id": 6,
+    "top_words": "point temps mieux mal bonne besoin fort voir simple monde",
+    "size": 1245
+  },
+  {
+    "topic_id": 7,
+    "top_words": "santé corps maladies eau docteur sang médecins traitement peau maladie",
+    "size": 924
+  },
+  {
+    "topic_id": 8,
+    "top_words": "num lille demande ans bureau maison adresser lettres nord écrire",
+    "size": 1350
+  },
+  {
+    "topic_id": 9,
+    "top_words": "industrie point vue pays commerce produits grande situation progrès production",
+    "size": 1061
+  },
+  {
+    "topic_id": 10,
+    "top_words": "noir rouge dames blanc laine bleu taille rose velours blanche",
+    "size": 934
+  },
+  {
+    "topic_id": 11,
+    "top_words": "num courant disponible fin cour avoine colza froment seigle disp",
+    "size": 1978
+  },
+  {
+    "topic_id": 12,
+    "top_words": "loi commission projet chambre droit question discussion rapport gouvernement budget",
+    "size": 1440
+  },
+  {
+    "topic_id": 13,
+    "top_words": "num francs millions banque société somme capital actions titres bons",
+    "size": 1187
+  },
+  {
+    "topic_id": 14,
+    "top_words": "ministre président conseil général affaires ministère république discours chambre ministres",
+    "size": 1075
+  },
+  {
+    "topic_id": 15,
+    "top_words": "rôle théâtre succès opéra musique public grand artistes scène comique",
+    "size": 1440
+  },
+  {
+    "topic_id": 16,
+    "top_words": "num poste renseignements adresser prix bureaux franco étranger centimes texte",
+    "size": 1069
+  },
+  {
+    "topic_id": 17,
+    "top_words": "eau vin terre vins verre temps qualité demi café papier",
+    "size": 655
+  },
+  {
+    "topic_id": 18,
+    "top_words": "temps guerre question prendre point donner nouvelle action permis voir",
+    "size": 818
+  },
+  {
+    "topic_id": 19,
+    "top_words": "cour tribunal procès juge justice prison civil affaire arrêté président",
+    "size": 1050
+  },
+  {
+    "topic_id": 20,
+    "top_words": "num francs prix kil mètres pts kilos rgs placés longueur",
+    "size": 1257
+  },
+  {
+    "topic_id": 21,
+    "top_words": "jeune fille femme ans fils père mère famille petite enfant",
+    "size": 1136
+  },
+  {
+    "topic_id": 22,
+    "top_words": "esprit vie hommes pays politique peuple homme œuvre monde liberté",
+    "size": 1137
+  },
+  {
+    "topic_id": 23,
+    "top_words": "saint jean ans louis henri marie paul georges pierre charles",
+    "size": 965
+  },
+  {
+    "topic_id": 24,
+    "top_words": "grand histoire auteur livre volume nouvelle ouvrage roman titre pages",
+    "size": 904
+  },
+  {
+    "topic_id": 25,
+    "top_words": "num théâtre cinéma revue comédie films matinée film grand miss",
+    "size": 1086
+  },
+  {
+    "topic_id": 26,
+    "top_words": "grands grand art jeunes monde enfants petits femmes temps peinture",
+    "size": 866
+  },
+  {
+    "topic_id": 27,
+    "top_words": "grandes équipe manœuvres match française points vient poids flotte victoire",
+    "size": 729
+  },
+  {
+    "topic_id": 28,
+    "top_words": "général armée chef guerre militaire capitaine officiers commandant troupes colonel",
+    "size": 1060
+  },
+  {
+    "topic_id": 29,
+    "top_words": "travail ouvriers vouloir travaux service ordre société publics grève mesures",
+    "size": 773
+  },
+  {
+    "topic_id": 30,
+    "top_words": "fer saint compagnie chemin num chemins gare lyon marseille train",
+    "size": 709
+  },
+  {
+    "topic_id": 31,
+    "top_words": "grande donner public point part confiance heureux bonne attention voir",
+    "size": 818
+  },
+  {
+    "topic_id": 32,
+    "top_words": "allemagne gouvernement angleterre états français pays anglais unis berlin europe",
+    "size": 1111
+  },
+  {
+    "topic_id": 33,
+    "top_words": "ans police mort coups femme voiture âgé hôpital trouvé blessé",
+    "size": 1076
+  },
+  {
+    "topic_id": 34,
+    "top_words": "homme cœur vie amour mort point femme sang monde dieu",
+    "size": 1095
+  },
+  {
+    "topic_id": 35,
+    "top_words": "porte tête yeux main coup mains bras voix visage air",
+    "size": 1282
+  },
+  {
+    "topic_id": 36,
+    "top_words": "roi prince saint grand duc église reine empereur honneur palais",
+    "size": 785
+  },
+  {
+    "topic_id": 37,
+    "top_words": "prix tour club course épreuve grand coupe auto français coureurs",
+    "size": 1141
+  },
+  {
+    "topic_id": 38,
+    "top_words": "conseil président membres général réunion maire société comité générale assemblée",
+    "size": 997
+  },
+  {
+    "topic_id": 39,
+    "top_words": "école exposition prix arts enseignement concours écoles élèves médaille beaux",
+    "size": 734
+  }
+]

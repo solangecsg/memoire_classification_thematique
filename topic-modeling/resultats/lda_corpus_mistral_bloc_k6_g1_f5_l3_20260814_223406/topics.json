@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "général président conseil ministre commission loi société chambre droit assemblée",
+    "size": 8774
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num cours banque francs prix nord cpt crédit lyon kil",
+    "size": 7078
+  },
+  {
+    "topic_id": 2,
+    "top_words": "pays point gouvernement guerre hommes temps politique grande français monde",
+    "size": 8844
+  },
+  {
+    "topic_id": 3,
+    "top_words": "grand théâtre succès saint rôle jean public vient opéra salle",
+    "size": 5890
+  },
+  {
+    "topic_id": 4,
+    "top_words": "prix saint ans maison lille fer demande grande mètres nord",
+    "size": 5860
+  },
+  {
+    "topic_id": 5,
+    "top_words": "homme femme ans jeune tête enfants fille mort porte eau",
+    "size": 7374
+  }
+]

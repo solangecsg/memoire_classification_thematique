@@ -1,0 +1,19 @@
+{
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_article_k20_g3_f5_l3_20260814_233416",
+  "source": "bnf",
+  "granularite": "article",
+  "k": 20,
+  "iterations": 2000,
+  "graine": 3,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 4901,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 711498,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "pos": null,
+  "duree_s": 138.7
+}

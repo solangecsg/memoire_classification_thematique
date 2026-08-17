@@ -1,0 +1,627 @@
+{
+  "fascicule": "4773936",
+  "usage": {
+    "prompt_tokens": 35028,
+    "completion_tokens": 1737,
+    "total_tokens": 36765,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 27.35,
+    "temps_reponse_min_s": 13.58,
+    "temps_reponse_max_s": 13.76,
+    "temps_reponse_moyen_s": 13.67,
+    "temps_reponse_median_s": 13.67
+  },
+  "articles": [
+    {
+      "article_id": "DIV.20",
+      "title": "A STRASBOURG, — par LIBONIS",
+      "themes": [
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000439",
+          "label_fr": "Rivières"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.62",
+      "title": "DIV.62",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.72",
+      "title": "DIV.72",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.77",
+      "title": "DIV.77",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.86",
+      "title": "DIV.86",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.102",
+      "title": "DIV.102",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.109",
+      "title": "DIV.109",
+      "themes": [
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.120",
+      "title": "DIV.120",
+      "themes": [
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.136",
+      "title": "DIV.136",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.142",
+      "title": "DIV.142",
+      "themes": [
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.157",
+      "title": "DIV.157",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.173",
+      "title": "DIV.173",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.179",
+      "title": "DIV.179",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000816",
+          "label_fr": "Comportement sexuel"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.196",
+      "title": "DIV.196",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.208",
+      "title": "DIV.208",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.213",
+      "title": "DIV.213",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.226",
+      "title": "DIV.226",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.240",
+      "title": "DIV.240",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.258",
+      "title": "DIV.258",
+      "themes": [
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.265",
+      "title": "DIV.265",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.274",
+      "title": "DIV.274",
+      "themes": [
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        },
+        {
+          "code": "20000098",
+          "label_fr": "Détournement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.286",
+      "title": "DIV.286",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.292",
+      "title": "DIV.292",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.305",
+      "title": "DIV.305",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.310",
+      "title": "DIV.310",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000783",
+          "label_fr": "Divorce"
+        },
+        {
+          "code": "20000122",
+          "label_fr": "Droit civil"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.314",
+      "title": "DIV.314",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.323",
+      "title": "DIV.323",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000100",
+          "label_fr": "Enlèvement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.346",
+      "title": "CONTES AUX GRANDS ENFANTS : IX LA BELLE MARCHANDE DE CERCUEILS.",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.430",
+      "title": "LES AMOURS DE MIRABEAU : ROMAN HISTORIQUE",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000126",
+          "label_fr": "Droit international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.552",
+      "title": "DIV.552",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.559",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.565",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.570",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        },
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.580",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.594",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.603",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.612",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.626",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        },
+        {
+          "code": "20000746",
+          "label_fr": "Géographie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.646",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.656",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000745",
+          "label_fr": "Sciences économiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.669",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.678",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.688",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    }
+  ]
+}

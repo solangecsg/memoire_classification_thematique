@@ -1,0 +1,381 @@
+{
+  "fascicule": "4767236",
+  "usage": {
+    "prompt_tokens": 35571,
+    "completion_tokens": 1081,
+    "total_tokens": 36652,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 17.02,
+    "temps_reponse_min_s": 17.02,
+    "temps_reponse_max_s": 17.02,
+    "temps_reponse_moyen_s": 17.02,
+    "temps_reponse_median_s": 17.02
+  },
+  "articles": [
+    {
+      "article_id": "DIV.32",
+      "title": "DIV.32",
+      "themes": [
+        {
+          "code": "20000116",
+          "label_fr": "Procédures hors tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.39",
+      "title": "DIV.39",
+      "themes": [
+        {
+          "code": "20000116",
+          "label_fr": "Procédures hors tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.45",
+      "title": "Insurrection polonaise.",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000071",
+          "label_fr": "Massacre"
+        },
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.57",
+      "title": "DIV.57",
+      "themes": [
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.74",
+      "title": "DIV.74",
+      "themes": [
+        {
+          "code": "20000679",
+          "label_fr": "Judaïsme"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.77",
+      "title": "Banquet du 7 avril.",
+      "themes": [
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        },
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.88",
+      "title": "ROBERT PEEL ET M. GUIZOT.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.101",
+      "title": "DIV.101",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.113",
+      "title": "DIV.113",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000080",
+          "label_fr": "Prisonniers de guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.119",
+      "title": "DIV.119",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.127",
+      "title": "Séance du 31 mars 1846. : PRÉSIDENCE DE M. SAUZET.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.248",
+      "title": "FAITS DIVERS.",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.271",
+      "title": "PETITE CORRESPONDANCE.",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.283",
+      "title": "DÉCLARATIONS DE FAILLITES.",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.291",
+      "title": "Marchés.",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.299",
+      "title": "HALLE DE PARIS .",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.311",
+      "title": "Bourse du 31 mars 1846.",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.344",
+      "title": "LA MÉLODIE INCARNÉE.",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.464",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.484",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000372",
+          "label_fr": "Institution économique internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.491",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.497",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.501",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.504",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    }
+  ]
+}

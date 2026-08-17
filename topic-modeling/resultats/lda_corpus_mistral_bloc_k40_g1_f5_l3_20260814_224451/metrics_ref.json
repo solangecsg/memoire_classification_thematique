@@ -1,0 +1,287 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k40_g1_f5_l3_20260814_224451",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 40,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 43820,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 725142,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "duree_s": 181.5
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 2.4805,
+  "entropy_max": 3.6889,
+  "entropy_normalized": 0.6724
+ },
+ "diversity": {
+  "diversity": 0.79,
+  "diversity_norm": 0.0153,
+  "tokens_distincts": 20596,
+  "unique_words": 316,
+  "total_words": 400,
+  "shared_words": [
+   "adresser",
+   "affaires",
+   "ans",
+   "assemblée",
+   "banque",
+   "bonne",
+   "chambre",
+   "conseil",
+   "cour",
+   "donner",
+   "droit",
+   "eau",
+   "femme",
+   "fort",
+   "francs",
+   "français",
+   "gouvernement",
+   "grand",
+   "grande",
+   "guerre",
+   "général",
+   "homme",
+   "liberté",
+   "lyon",
+   "maison",
+   "monde",
+   "mort",
+   "mètres",
+   "nord",
+   "nouvelle",
+   "num",
+   "ordre",
+   "pays",
+   "point",
+   "politique",
+   "prix",
+   "président",
+   "public",
+   "question",
+   "saint",
+   "sang",
+   "société",
+   "temps",
+   "théâtre",
+   "vie",
+   "voir"
+  ],
+  "n_shared": 46
+ },
+ "npmi": {
+  "npmi_mean": 0.1559,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1358,
+    "top_words": "nord temps sud mer feu vent route ouest mètres fort"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2992,
+    "top_words": "num prix renault int places cond citroën voitures luxe parfait"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3314,
+    "top_words": "num cpt nord banque crédit remb lyon gaz act lib"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2866,
+    "top_words": "cours marché prix valeurs clôture hausse cote bourse affaires baisse"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.206,
+    "top_words": "gouvernement parti droit politique ordre liberté majorité assemblée pays partis"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.0834,
+    "top_words": "maison grande salle pièces hôtel grand maisons pont jardin eau"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1199,
+    "top_words": "point temps mieux mal bonne besoin fort voir simple monde"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.236,
+    "top_words": "santé corps maladies eau docteur sang médecins traitement peau maladie"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1313,
+    "top_words": "num lille demande ans bureau maison adresser lettres nord écrire"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1759,
+    "top_words": "industrie point vue pays commerce produits grande situation progrès production"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2871,
+    "top_words": "noir rouge dames blanc laine bleu taille rose velours blanche"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.0289,
+    "top_words": "num courant disponible fin cour avoine colza froment seigle disp"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2324,
+    "top_words": "loi commission projet chambre droit question discussion rapport gouvernement budget"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.1897,
+    "top_words": "num francs millions banque société somme capital actions titres bons"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2166,
+    "top_words": "ministre président conseil général affaires ministère république discours chambre ministres"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2781,
+    "top_words": "rôle théâtre succès opéra musique public grand artistes scène comique"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.0726,
+    "top_words": "num poste renseignements adresser prix bureaux franco étranger centimes texte"
+   },
+   {
+    "topic_id": 17,
+    "npmi": -0.027,
+    "top_words": "eau vin terre vins verre temps qualité demi café papier"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1067,
+    "top_words": "temps guerre question prendre point donner nouvelle action permis voir"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.151,
+    "top_words": "cour tribunal procès juge justice prison civil affaire arrêté président"
+   },
+   {
+    "topic_id": 20,
+    "npmi": -0.2523,
+    "top_words": "num francs prix kil mètres pts kilos rgs placés longueur"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.2417,
+    "top_words": "jeune fille femme ans fils père mère famille petite enfant"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.1742,
+    "top_words": "esprit vie hommes pays politique peuple homme œuvre monde liberté"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.2276,
+    "top_words": "saint jean ans louis henri marie paul georges pierre charles"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.2188,
+    "top_words": "grand histoire auteur livre volume nouvelle ouvrage roman titre pages"
+   },
+   {
+    "topic_id": 25,
+    "npmi": -0.0273,
+    "top_words": "num théâtre cinéma revue comédie films matinée film grand miss"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.0961,
+    "top_words": "grands grand art jeunes monde enfants petits femmes temps peinture"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.0278,
+    "top_words": "grandes équipe manœuvres match française points vient poids flotte victoire"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.2674,
+    "top_words": "général armée chef guerre militaire capitaine officiers commandant troupes colonel"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.1314,
+    "top_words": "travail ouvriers vouloir travaux service ordre société publics grève mesures"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.1783,
+    "top_words": "fer saint compagnie chemin num chemins gare lyon marseille train"
+   },
+   {
+    "topic_id": 31,
+    "npmi": 0.1146,
+    "top_words": "grande donner public point part confiance heureux bonne attention voir"
+   },
+   {
+    "topic_id": 32,
+    "npmi": 0.2133,
+    "top_words": "allemagne gouvernement angleterre états français pays anglais unis berlin europe"
+   },
+   {
+    "topic_id": 33,
+    "npmi": 0.1603,
+    "top_words": "ans police mort coups femme voiture âgé hôpital trouvé blessé"
+   },
+   {
+    "topic_id": 34,
+    "npmi": 0.1835,
+    "top_words": "homme cœur vie amour mort point femme sang monde dieu"
+   },
+   {
+    "topic_id": 35,
+    "npmi": 0.1688,
+    "top_words": "porte tête yeux main coup mains bras voix visage air"
+   },
+   {
+    "topic_id": 36,
+    "npmi": 0.1601,
+    "top_words": "roi prince saint grand duc église reine empereur honneur palais"
+   },
+   {
+    "topic_id": 37,
+    "npmi": 0.1814,
+    "top_words": "prix tour club course épreuve grand coupe auto français coureurs"
+   },
+   {
+    "topic_id": 38,
+    "npmi": 0.1853,
+    "top_words": "conseil président membres général réunion maire société comité générale assemblée"
+   },
+   {
+    "topic_id": 39,
+    "npmi": 0.0417,
+    "top_words": "école exposition prix arts enseignement concours écoles élèves médaille beaux"
+   }
+  ]
+ }
+}

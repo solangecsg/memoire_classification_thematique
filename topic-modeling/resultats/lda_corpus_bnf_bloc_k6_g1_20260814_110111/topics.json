@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "ministère amiral chambre reynière ordre che chance mer corps majorité",
+    "size": 42
+  },
+  {
+    "topic_id": 1,
+    "top_words": "général do gauche temps préfet union cabinet pays membres bureau",
+    "size": 67
+  },
+  {
+    "topic_id": 2,
+    "top_words": "saint dé con générale vient valeurs directeur points fermeté bourse",
+    "size": 51
+  },
+  {
+    "topic_id": 3,
+    "top_words": "prix droit grand cours escompte ré gouvernement table capsules titre",
+    "size": 43
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num fr francs titres société rembourser oblig an obligations er",
+    "size": 94
+  },
+  {
+    "topic_id": 5,
+    "top_words": "ans conseil ment homme ancien travail succès argent fer bonheur",
+    "size": 40
+  }
+]

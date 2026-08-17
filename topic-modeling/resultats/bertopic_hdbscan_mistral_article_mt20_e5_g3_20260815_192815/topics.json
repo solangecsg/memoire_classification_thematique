@@ -1,0 +1,177 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve mètres championnat tour coupe",
+    "size": 565
+  },
+  {
+    "topic_id": 1,
+    "top_words": "lille demande prix maison vendre renault echo adresser bureau ecrire",
+    "size": 378
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne guerre italie prince pays politique berlin troupes conférence",
+    "size": 337
+  },
+  {
+    "topic_id": 3,
+    "top_words": "commission gouvernement loi assemblée chambre président projet ministre droit discussion",
+    "size": 293
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ans police enquête âgé mort femme saint arrêté jeune hôpital",
+    "size": 265
+  },
+  {
+    "topic_id": 5,
+    "top_words": "yeux homme jeune fille patron père femme tête jacques mère",
+    "size": 167
+  },
+  {
+    "topic_id": 6,
+    "top_words": "maladies estomac traitement cure pilules sang flacon guérison santé pharmacie",
+    "size": 160
+  },
+  {
+    "topic_id": 7,
+    "top_words": "rôle théâtre succès public talent artiste artistes opéra acte scène",
+    "size": 108
+  },
+  {
+    "topic_id": 8,
+    "top_words": "cours lib act crédit valeurs nord banque orléans lyon juill",
+    "size": 104
+  },
+  {
+    "topic_id": 9,
+    "top_words": "théâtre folies opéra revue cirque comique rouge relâche casino variétés",
+    "size": 99
+  },
+  {
+    "topic_id": 10,
+    "top_words": "mmes comique actes opéra rôle jeune ténor théatre comédie musique",
+    "size": 98
+  },
+  {
+    "topic_id": 11,
+    "top_words": "kil courant disponible cote marché froment prix avoine sacs kilos",
+    "size": 90
+  },
+  {
+    "topic_id": 12,
+    "top_words": "billets dunkerque classe oran départ départs fer ang cap saint",
+    "size": 83
+  },
+  {
+    "topic_id": 13,
+    "top_words": "banque cours valeurs millions actions crédit fonds marché rente chemins",
+    "size": 73
+  },
+  {
+    "topic_id": 14,
+    "top_words": "commandant port navire tait troupes vapeur prusse amiral bord île",
+    "size": 70
+  },
+  {
+    "topic_id": 15,
+    "top_words": "volume jésus vol grand histoire roman almanach illustré prix vaudeville",
+    "size": 61
+  },
+  {
+    "topic_id": 16,
+    "top_words": "ans syndic juge comm prov veuve marchand dame saint négociant",
+    "size": 58
+  },
+  {
+    "topic_id": 17,
+    "top_words": "peinture roman art vie peintre monde livre peintres œuvres poésie",
+    "size": 48
+  },
+  {
+    "topic_id": 18,
+    "top_words": "manœuvres exercices flotte grandes concours française fleete méditerranée lille espérance",
+    "size": 46
+  },
+  {
+    "topic_id": 19,
+    "top_words": "décédé obsèques infanterie mort née église funérailles lieutenant cimetière ancien",
+    "size": 46
+  },
+  {
+    "topic_id": 20,
+    "top_words": "banque nord gaz lyon fer comp cours crédit act juill",
+    "size": 45
+  },
+  {
+    "topic_id": 21,
+    "top_words": "régiment capitaine colonel général infanterie légion brigade honneur division chef",
+    "size": 39
+  },
+  {
+    "topic_id": 22,
+    "top_words": "abonnement abonnés départements bons poste abonnements abonné francs prime ouvrages",
+    "size": 37
+  },
+  {
+    "topic_id": 23,
+    "top_words": "réunion priés assister comité salle générale citoyens réunir siège demie",
+    "size": 36
+  },
+  {
+    "topic_id": 24,
+    "top_words": "théâtre comédie opéra actes spectacle matinée représentation orchestre représentations comique",
+    "size": 35
+  },
+  {
+    "topic_id": 25,
+    "top_words": "crème beauté peau teint poudre visage cheveux toilette savon huile",
+    "size": 31
+  },
+  {
+    "topic_id": 26,
+    "top_words": "température ciel vent thermomètre nord pluies ouest temps faible mer",
+    "size": 28
+  },
+  {
+    "topic_id": 27,
+    "top_words": "jury assises président prison ans jurés accusé témoins audience osborne",
+    "size": 28
+  },
+  {
+    "topic_id": 28,
+    "top_words": "grève ouvriers syndicats grévistes travail travailleurs mineurs délégués employés revendications",
+    "size": 27
+  },
+  {
+    "topic_id": 29,
+    "top_words": "versailles obus bataillon fort batterie garde vanves issy citoyen blessés",
+    "size": 24
+  },
+  {
+    "topic_id": 30,
+    "top_words": "généraux conseils immédiate voter discutable électeurs algérie concitoyens loi droit",
+    "size": 24
+  },
+  {
+    "topic_id": 31,
+    "top_words": "vii viii iii solution problème mat sorties négation noms dés",
+    "size": 23
+  },
+  {
+    "topic_id": 32,
+    "top_words": "mètres longueur films affiche affiches film comédie cinématographique éclair ministre",
+    "size": 23
+  },
+  {
+    "topic_id": 33,
+    "top_words": "radio concert musique parisien orchestre poste informations chant piano eiffel",
+    "size": 22
+  },
+  {
+    "topic_id": 34,
+    "top_words": "école carrières cours dessin cahier papier pages études enseignement anglais",
+    "size": 22
+  }
+]

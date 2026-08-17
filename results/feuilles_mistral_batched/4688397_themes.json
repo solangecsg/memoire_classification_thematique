@@ -1,0 +1,219 @@
+{
+  "fascicule": "4688397",
+  "usage": {
+    "prompt_tokens": 15403,
+    "completion_tokens": 613,
+    "total_tokens": 16016,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 10.14,
+    "temps_reponse_min_s": 10.14,
+    "temps_reponse_max_s": 10.14,
+    "temps_reponse_moyen_s": 10.14,
+    "temps_reponse_median_s": 10.14
+  },
+  "articles": [
+    {
+      "article_id": "DIV.27",
+      "title": "RELACHE A TOUS LES THEATRES.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.32",
+      "title": "THÉATRE ROYAL DE L'OPÉRA-COMIQUE. : La Dame blanche. — Les Dettes. — Les acteurs.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.42",
+      "title": "BIBLIOTHÈQUE DRAMATIQUE : DE Mme DABO. (1)",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.58",
+      "title": "ENVIRONS DE PARIS. : (5me année.) VINGTIÈME-TROISIÈME PROMENADE. — Sannois.",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000044",
+          "label_fr": "Patrimoine"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.73",
+      "title": "ÉCLAIRAGE.",
+      "themes": [
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.82",
+      "title": "LES RESTRICTIONS MENTALES.",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000422",
+          "label_fr": "Parcs naturels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.90",
+      "title": "BUTIN.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.112",
+      "title": "DIORAMA, : Boul.St.-Martin , derrière le Château d'eau.",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.118",
+      "title": "EUROPORAMA, passage de l'Opéra.",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.123",
+      "title": "GALERIE D'ANTIQUITES EGYPTIENNES. : Rue des Filles Saint-Thomas, n. 12.",
+      "themes": [
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        },
+        {
+          "code": "20000044",
+          "label_fr": "Patrimoine"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.129",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.135",
+      "title": "LOGOGRIPHE.",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.156",
+      "title": "COURS DE LA RENTE DU 20 JANVIER 1826",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.161",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.165",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    }
+  ]
+}

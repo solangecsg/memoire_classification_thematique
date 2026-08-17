@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2532,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1388,
+    "top_words": "num oran lille francs lot maison docteur prix civil notaire"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3224,
+    "top_words": "point temps mieux voir partie fort donner grande prendre bonne"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.4112,
+    "top_words": "homme jeune femme fille yeux père tête mère pauvre petit"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.347,
+    "top_words": "hommes pays esprit vie homme peuple monde liberté politique point"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.276,
+    "top_words": "gouvernement angleterre allemagne pays français anglais guerre etats prince londres"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2591,
+    "top_words": "président conseil général république membres maire comité parti réunion assemblée"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2077,
+    "top_words": "saint ans num jean marie henri louis paul pierre georges"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2596,
+    "top_words": "num francs société millions banque cours crédit fonds actions compagnie"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2301,
+    "top_words": "travail travaux industrie enseignement école produits cours vue commerce enfants"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2453,
+    "top_words": "num prix kil courant marché kilos cours cote qualité disponible"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2759,
+    "top_words": "num loi commission chambre projet ministre gouvernement droit question conseil"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2932,
+    "top_words": "num cpt nord lyon cours fin banque remb crédit gaz"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1851,
+    "top_words": "num prix club équipe course tour épreuve match francs mètres"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2937,
+    "top_words": "police ans cour prison affaire mort commissaire crime tribunal femme"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1358,
+    "top_words": "num demande lille prix maison ecrire bureau vendre echo int"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1937,
+    "top_words": "num nord fer saint compagnie service gare mètres chemin train"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.3515,
+    "top_words": "théâtre rôle opéra succès musique public grand acte comique comédie"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1093,
+    "top_words": "num prix exposition grand académie fortuné volume francs histoire art"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2547,
+    "top_words": "eau petits blanc noir rouge air corps beauté dames grande"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2733,
+    "top_words": "num général armée guerre chef troupes officiers capitaine commandant corps"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

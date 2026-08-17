@@ -1,0 +1,157 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve coupe tour mètres championnat",
+    "size": 554
+  },
+  {
+    "topic_id": 1,
+    "top_words": "demande lille ecrire prix vendre maison int renault echo adresser",
+    "size": 375
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne guerre conférence allemands pays troupes politique berlin italie",
+    "size": 300
+  },
+  {
+    "topic_id": 3,
+    "top_words": "opéra théâtre comique concert musique actes mmes comédie radio revue",
+    "size": 299
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ans police femme mort enquête jeune âgé commissaire saint cadavre",
+    "size": 259
+  },
+  {
+    "topic_id": 5,
+    "top_words": "commission loi assemblée projet gouvernement impôt conseil chambre président séance",
+    "size": 228
+  },
+  {
+    "topic_id": 6,
+    "top_words": "yeux homme jeune fille femme père mère mirabeau petit cœur",
+    "size": 161
+  },
+  {
+    "topic_id": 7,
+    "top_words": "maladies estomac cure traitement sang pharmacie foie flacon santé ans",
+    "size": 126
+  },
+  {
+    "topic_id": 8,
+    "top_words": "kil courant cote marché disponible prix froment sacs kilos colza",
+    "size": 86
+  },
+  {
+    "topic_id": 9,
+    "top_words": "gaz crédit valeurs banque nord act cours lyon actions obligations",
+    "size": 81
+  },
+  {
+    "topic_id": 10,
+    "top_words": "rôle théâtre succès public opéra talent artistes artiste scène acte",
+    "size": 80
+  },
+  {
+    "topic_id": 11,
+    "top_words": "films film cinéma auteurs mètres production images cinématographique société affiche",
+    "size": 77
+  },
+  {
+    "topic_id": 12,
+    "top_words": "infanterie capitaine régiment légion général artillerie colonel obsèques lieutenant mort",
+    "size": 75
+  },
+  {
+    "topic_id": 13,
+    "top_words": "institutrice iii ecole mal budget solution vii point archives directrice",
+    "size": 75
+  },
+  {
+    "topic_id": 14,
+    "top_words": "banque cours valeurs millions actions crédit marché fonds chemins bourse",
+    "size": 74
+  },
+  {
+    "topic_id": 15,
+    "top_words": "gouvernement peuple droit pays révolution hommes principes guerre politique monde",
+    "size": 67
+  },
+  {
+    "topic_id": 16,
+    "top_words": "volume jésus vol grand roman histoire relié gravures vaudeville édition",
+    "size": 57
+  },
+  {
+    "topic_id": 17,
+    "top_words": "librairie abonnement annonces havas agence abonnés abonnements poste publicité francs",
+    "size": 54
+  },
+  {
+    "topic_id": 18,
+    "top_words": "ans syndic maire saint juge prov adjoint veuve comm jean",
+    "size": 53
+  },
+  {
+    "topic_id": 19,
+    "top_words": "navire tempête port vapeur vol mer capitaine bord bateau équipage",
+    "size": 48
+  },
+  {
+    "topic_id": 20,
+    "top_words": "billets départ train fer classe trains gare chemins gares départs",
+    "size": 40
+  },
+  {
+    "topic_id": 21,
+    "top_words": "illisible texte iii librairie films vendre drame représentant spécialité frères",
+    "size": 39
+  },
+  {
+    "topic_id": 22,
+    "top_words": "cour prison procureur assises peine jury avocat ans témoins affaire",
+    "size": 35
+  },
+  {
+    "topic_id": 23,
+    "top_words": "température chaleur baromètre corps degrés froid ciel eau vent nord",
+    "size": 34
+  },
+  {
+    "topic_id": 24,
+    "top_words": "beauté crème peau teint poudre visage cheveux toilette savon eau",
+    "size": 34
+  },
+  {
+    "topic_id": 25,
+    "top_words": "grève ouvriers travail syndicats bourse travailleurs délégués fédération mineurs employés",
+    "size": 33
+  },
+  {
+    "topic_id": 26,
+    "top_words": "réunion priés comité assister citoyens générale réunir siège précises salle",
+    "size": 29
+  },
+  {
+    "topic_id": 27,
+    "top_words": "ang cap oran dunkerque marseille div départs venant base rel",
+    "size": 27
+  },
+  {
+    "topic_id": 28,
+    "top_words": "roi espagne madrid ambassade duc elysée foule troupes tuileries revue",
+    "size": 23
+  },
+  {
+    "topic_id": 29,
+    "top_words": "ennemi artillerie plateau attaques fort ouest front tranchées région terrain",
+    "size": 21
+  },
+  {
+    "topic_id": 30,
+    "top_words": "roman littéraire fabre art revue poésie monde ouvrages auteur temps",
+    "size": 20
+  }
+]

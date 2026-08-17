@@ -1,0 +1,2721 @@
+{
+  "fascicule": "4629483",
+  "usage": {
+    "prompt_tokens": 169889,
+    "completion_tokens": 8041,
+    "total_tokens": 177930,
+    "cached_tokens": 0,
+    "n_calls": 8,
+    "temps_reponse_total_s": 140.44,
+    "temps_reponse_min_s": 12.71,
+    "temps_reponse_max_s": 19.2,
+    "temps_reponse_moyen_s": 17.56,
+    "temps_reponse_median_s": 18.76
+  },
+  "articles": [
+    {
+      "article_id": "DIV.35",
+      "title": "17 — 11 = 6 : Par Henri DESGRANGE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.85",
+      "title": "ON A INAUGURE HIER... : Le second choix d'œuvres d'art pour les Jeux de Berlin Une exposition où n'apparaît point un sérieux espoir olympique",
+      "themes": [
+        {
+          "code": "20001135",
+          "label_fr": "Exposition artistique"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.99",
+      "title": "DIV.99",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000553",
+          "label_fr": "Lieu de loisirs"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.105",
+      "title": "DIV.105",
+      "themes": [
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000042",
+          "label_fr": "Langue"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.112",
+      "title": "DIV.112",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.118",
+      "title": "LA MOTO MAGNAT-DEBON est victorieuse dans Paris-Nice et bat 2 records à la course de côte de St-Eutrope",
+      "themes": [
+        {
+          "code": "20000998",
+          "label_fr": "Moto"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.127",
+      "title": "VERS UN RENOUVEAU ?... : 250 Universitaires sur un stade Tel est le beau résultat obtenu dimanche au stade Pershing, par l'Association des Etudiants en pharmacie au cours du Challenge du Nombre qu'elle organisait",
+      "themes": [
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.147",
+      "title": "ON ANNONCE QUE...",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.152",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.158",
+      "title": "DIV.158",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.166",
+      "title": "RETOUR RATÉ ! : La Fédération Française de Natation a pris connaissance de la lettre de Jacques Cartonnet ... Hélas ! il ne s'agissait pas de propositions de paix mais d'un véritable ultimatum ...Et l'incorrigible Cartonnet reste suspendu !",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        },
+        {
+          "code": "20000596",
+          "label_fr": "Hauts fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.206",
+      "title": "UN ÉVÉNEMENT INDUSTRIEL : La \" Simcacing \" est sortie 90 à l'heure, 5 litres aux 100 kilomètres",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.245",
+      "title": "CHEZ LES « GENS DE LETTRES » : « Il faut être sportif... et le rester » déclare M. Jean Vignaud qui fut élu, hier, président de la Société des Gens de Lettres",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20001239",
+          "label_fr": "Activité physique et fitness"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.264",
+      "title": "Le programme du meeting de Paris-Nice",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.275",
+      "title": "Roulez en musique",
+      "themes": [
+        {
+          "code": "20000051",
+          "label_fr": "Télévision"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.280",
+      "title": "Le règlement du Grand Prix de Tunisie vient de paraître",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.296",
+      "title": "Les épreuves à venir",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.304",
+      "title": "COMMENT LE MECANO DUBOULON A GAGNE A LA LOTERIE",
+      "themes": [
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.312",
+      "title": "Wimille et Sommer courront à la Turbie",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.319",
+      "title": "Une incidence de l'essence trop chère sur l'agriculture",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000620",
+          "label_fr": "Fiscalité"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.328",
+      "title": "Clubs et Associations",
+      "themes": [
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.338",
+      "title": "La F.F.S.F. doit se dissoudre un autre jour que le 26 avril! : Mlles Cherrer et Gagneux ont été entendues par le bureau de la F.F.A.",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        },
+        {
+          "code": "20001327",
+          "label_fr": "Femmes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.355",
+      "title": "BASKET-BALL",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.371",
+      "title": "CROSS-COUNTRY : Le Cross d'Academia",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.377",
+      "title": "NATATION : A la F.F.F.G.E.P.",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.393",
+      "title": "Les Coupes et Challenges de Paris-Nice",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.425",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.431",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.436",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.446",
+      "title": "Un cancan",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000606",
+          "label_fr": "Pouvoir exécutif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.452",
+      "title": "Le Grand Prix de Barcelone aura lieu le 26 avril",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.461",
+      "title": "Le moto-ball : Le Championnat de France",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.467",
+      "title": "Epreuves à venir",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.476",
+      "title": "CYCLISME : Charlier-Slaats tout seuls en tête aux Six Jours d'Amsterdam L'équipe française Dicit-Ignat se rapproche",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.491",
+      "title": "LE 2e PRIX SAINT-MARTIN (S.F.E.B.) Tournoi professionnel handicap à la partie par la rouge",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.499",
+      "title": "GABRIELS, MOONS ET SWEERING QUALIFIES POUR LE TITRE MONDIAL AMATEUR AU CADRE DE 45 2",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.507",
+      "title": "La XIIe Foire Commerciale de Lille s'ouvre le 4 avril",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        },
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.515",
+      "title": "Editions Hachette : LES MUTINES DE L'ELSENEUR par Jack London",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.522",
+      "title": "Le Monde et le Sport",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.528",
+      "title": "MON PETIT CONTE : RICHELIEU au siège de La Rochelle",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.545",
+      "title": "LES CONTES DE L'Auto : LE BEAU VOYAGE par Robert DIEDONNE",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.605",
+      "title": "Le second choix d'œuvres d'art pour le Concours Olympique de Berlin : (Suite de notre article de première page)",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20001132",
+          "label_fr": "Politique culturelle"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.622",
+      "title": "Un cancan",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.629",
+      "title": "LA PREMIERE TRAVERSEE TRANSATLANTIQUE DU DIRIGEABLE « HINDENBURG »",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.634",
+      "title": "Nouvelles diverses",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.655",
+      "title": "APRÈS LE CRITÉRIUM NATIONAL : Nos champions de la route sont ils ... en sucre ? Où l'on constate que nos vedettes ne savent plus lutter contre la pluie",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.704",
+      "title": "SAMEDI - DIMANCHE : La \" Nuit de Paris \" ou six nuits en une Un spectacle copieux et varié où l'on verra les vedettes de la chanson, sur le ring, au milieu des as de la pédale",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.733",
+      "title": "Ce soir : clôture d'engagements pour...",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.745",
+      "title": "ALERTE AU VÉLO ! : Mobilisation générale Armée — Corps d'armée — Unités Unités diverses",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.762",
+      "title": "Le référendum de Byrrh pour le « Car des As » dans le Tour de France",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.774",
+      "title": "Près de cent routiers de valeur sont inscrits pour le 22e Paris-Caen : (5 avril. — Organisé par l'Auto et le Journal de Caen)",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.786",
+      "title": "Les engagements sont ouverts pour le 28e Paris-Bruxelles (19 avril — Organisé par le Soir, de Bruxelles, avec le concours de l'Auto",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.797",
+      "title": "Le Premier Pas Dunlop : L'éliminatoire de Carcassonne",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.804",
+      "title": "Le 37' Paris-Roubaix : TROPHEE DURALUMIN (12 avril. Organisé par l'Auto)",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.819",
+      "title": "Le. Prix du Sprinter Français organisé par les vélodromes avec le concours des Etablissements Pernod : Dimanche prochain première éliminatoire à Tours",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001126",
+          "label_fr": "Site sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.831",
+      "title": "Les Etoiles de la Suie (Du 5 avril au 7 juin) : Demain soir, clôture des engagements à l'Auto, pour l'Etoile de Paris",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.842",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001126",
+          "label_fr": "Site sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.857",
+      "title": "« Je suis à la disposition d'Olmo ! » : s'écrie Maurice Richard",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.870",
+      "title": "VISITES A « L'AUTO » : Le tandem Chocque-Evrard",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000401",
+          "label_fr": "École primaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.896",
+      "title": "Le champion olympique et du Chocolat Menier Le Nizhery pourrait-il battre le record de l'heure ?",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.910",
+      "title": "Derniers échos de Paris-Nice",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.920",
+      "title": "SUR ROUTE : EN FRANCE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.927",
+      "title": "SUR PISTE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001126",
+          "label_fr": "Site sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.939",
+      "title": "Echos des Pistes et de la Route",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001126",
+          "label_fr": "Site sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.958",
+      "title": "Les enseignements du Critérium français Cinzano",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.975",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001239",
+          "label_fr": "Activité physique et fitness"
+        },
+        {
+          "code": "20000465",
+          "label_fr": "Régime"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.982",
+      "title": "La Basse-Seine peut se montrer fière de sa victoire",
+      "themes": [
+        {
+          "code": "20001026",
+          "label_fr": "Aviron"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.992",
+      "title": "LES CHAMPIONNATS DES ETATS-UNIS INTERUNIVERSITES",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1005",
+      "title": "LA REUNION DE L'A S. DU MINISTERE DE L'AIR",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1011",
+      "title": "VAN WATERLOO, PRESIDENT DES ENFANTS DE NEPTUNE EST MORT",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        },
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1018",
+      "title": "LES ENFANTS DE NEPTUNE DE TOURCOING SE SONT DISTINGUES",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1032",
+      "title": ". NOUVELLES DIVERSES",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1037",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1053",
+      "title": "Au Beau-Site de Cannes F.-J. Perry et Mme R. Mathieu furent les meilleurs",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1071",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1079",
+      "title": "LA COUPE DAVIS : Voici trois des joueurs chinois",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1086",
+      "title": "LES ETUDIANTS BATTENT LES MEDECINS",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1108",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1111",
+      "title": "CHEZ LES CORPORATIFS : CYCLISME",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1129",
+      "title": "SUR LE RING DU CENTRAL S.C. : Le XVe Challenge de L'Auto (du 2 au 24 mai)",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1141",
+      "title": "Christoforidis, le boxeur qui fait toujours de bons oombats",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1150",
+      "title": "Morin-Vuillamy pour la clôture de la saison à Bordeaux",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1158",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1166",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1169",
+      "title": "Visites à l'Auto",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1177",
+      "title": "Les Amateurs : 10 combats seront disputés, ce soir au Ring de la Nation",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1188",
+      "title": "Nouvelles diverses'",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1197",
+      "title": "Les Organisations : CE SOIR, AU CENTRAL S.C. Jo Parisis contre Padernl Bertrand contre Nioche Rentrée de Hugues",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1223",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1230",
+      "title": "Fred Judson rencontrera le Russe Kwariani, le 6 avril au Palais des Sports",
+      "themes": [
+        {
+          "code": "20000988",
+          "label_fr": "Marathon"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1243",
+      "title": "DEMAIN, SALLE WAGRAM : « Si Perron est trop agressif, je lui ferai entendre raison... » ...dit Louis Loew",
+      "themes": [
+        {
+          "code": "20000988",
+          "label_fr": "Marathon"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1259",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000988",
+          "label_fr": "Marathon"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1265",
+      "title": "LE CHAMPIONNAT DE PARIS DE STYLE LIBRE",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20000988",
+          "label_fr": "Marathon"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1279",
+      "title": "Le G. S. Amfreville et le Racing au tableau d'honneur du Championnat de France",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1293",
+      "title": "Les matches de dimanche",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1307",
+      "title": "LES RESULTATS : F. G. S. P. F.",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1318",
+      "title": "LE CHALLENGE RAGUIERE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1323",
+      "title": "L'U.S. SUISSE VA DISPARAITRE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1328",
+      "title": "A L'A.S. SAINT-HIPPOLYTE LE CHALLENGE DE L'AUBE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1333",
+      "title": "NOUVELLES DIVERSES",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1344",
+      "title": "L'Angleterre, à Blackpool, ne fit pas oublier la fameuse équipe d'Auteuil",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1363",
+      "title": "Je me spécialiserai sur 10 kilomètres",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1377",
+      "title": "Et Rérolle a choisi le 3.000 mètres steeple",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1384",
+      "title": "Autour du Cross des Nations",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1391",
+      "title": "Le XXIIV Cross des Ancêtres organisé par l'Auto a lieu dimanche",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1400",
+      "title": "UN MATCH NORD-EST C. BELGIQUE A L'ARRIVEE DE PARIS-ROUBAIX",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1406",
+      "title": "GUICHARD EST BIEN CHAMPION DE LA F.G.S.P.F.",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1412",
+      "title": "ENGAGEZ-VOUS : 5 AVRIL",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1424",
+      "title": "Les quarts de finale du Championnat de France par équipes",
+      "themes": [
+        {
+          "code": "20000940",
+          "label_fr": "Golf"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1435",
+      "title": "CE QUI A ETE JOUE",
+      "themes": [
+        {
+          "code": "20000940",
+          "label_fr": "Golf"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1451",
+      "title": "Le ski en Norvège : Une course de grand fond sur 56 km. réunit 745 concurrents !",
+      "themes": [
+        {
+          "code": "20001056",
+          "label_fr": "Ski"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1465",
+      "title": "LE CHAMPIONNAT D'ESPAGNE",
+      "themes": [
+        {
+          "code": "20001056",
+          "label_fr": "Ski"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1474",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001239",
+          "label_fr": "Activité physique et fitness"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1491",
+      "title": "APRES FRANCE-BELGIQUE : De l'ardeur, c'est bien une tactique, c'est mieux..:",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1503",
+      "title": "Un cancan",
+      "themes": [
+        {
+          "code": "20000933",
+          "label_fr": "Hockey sur gazon"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1510",
+      "title": "Les matches de dimanche",
+      "themes": [
+        {
+          "code": "20000933",
+          "label_fr": "Hockey sur gazon"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1522",
+      "title": "CHAMPIONNATS REGIONAUX",
+      "themes": [
+        {
+          "code": "20000933",
+          "label_fr": "Hockey sur gazon"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1536",
+      "title": "QUI VEUT ALLER A BRUXELLES ?",
+      "themes": [
+        {
+          "code": "20000933",
+          "label_fr": "Hockey sur gazon"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1543",
+      "title": "LES RESULTATS",
+      "themes": [
+        {
+          "code": "20000933",
+          "label_fr": "Hockey sur gazon"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1556",
+      "title": "HOCKEY SUR GLACE ET PATINAGE",
+      "themes": [
+        {
+          "code": "20000965",
+          "label_fr": "Hockey sur glace"
+        },
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1569",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1577",
+      "title": "L'ARBITRAGE DE LA HOLLANDE : A msterdam nous a fixés sur la valeur de France-Belgique",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1594",
+      "title": "LES QUARTS DE FINALE DE LA COUPE : Demain, au Parc des Princes Sochaux-Fives... 3e acte ! La lutte au finish",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1605",
+      "title": "Sochaux panse ses blessures dans la forêt de Barbizon",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1612",
+      "title": "Le Red Star à la campagne",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1618",
+      "title": "Fives a pris à Antibes un repos mérité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1623",
+      "title": "La Coupe Cinzano",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1628",
+      "title": "Voici le prix des places pour la Coupe de France",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1641",
+      "title": "Après la demande « d'autorisation » de l'A.S. Brestoise",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1652",
+      "title": "Les incidents de Lyon",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001103",
+          "label_fr": "Mesures disciplinaires dans le sport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1661",
+      "title": "Le Lyon Olymp. Villeurbanne a décidé de se dissoudre",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1676",
+      "title": "LA COUPE DE FRANCE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1681",
+      "title": "LE CHAMPIONNAT DE FRANCE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1691",
+      "title": "LES RESULTATS : LES MATCHES DU DIMANCHE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1715",
+      "title": "Les faits et les gens, revus et corrigés.",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1760",
+      "title": "Le match des Etoiles : Etoile Sportive du Mont Valérien bat Etoile Sportive du Pecq 10-3 (5-2)",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1792",
+      "title": "UNE CONFERENCE DE M. M. JOUBERT CE SOIR, A ANGERS",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1801",
+      "title": "COUP D'ŒIL D'ENSEMBLE : Hier et demain",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1834",
+      "title": "Les matches de dimanche : CHAMPIONNAT DE FRANCE",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1871",
+      "title": "LES RESULTATS : MATCH INTERNATIONAL",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1896",
+      "title": "Plusieurs clubs semblent se disputer Lopez",
+      "themes": [
+        {
+          "code": "20001148",
+          "label_fr": "Transfert (sport)"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1905",
+      "title": "LE CHAMPIONNAT A VENIR : Ce que donneraient six poules de vingt clubs pour 1937",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1932",
+      "title": "Villeneuve a gagné avec brio une partie extrêmement importante",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1947",
+      "title": "Les étudiants parisiens en Grande-Bretagne",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1958",
+      "title": "Le dimanche qui vient",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1973",
+      "title": "ATHLETISME : LE CHALLENGE DU NOMBRE UNIVERSITAIRE De peu... les potards l'ont emporté",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1982",
+      "title": "JEUDI, A PERSHING : Les finales du Challenge du Nombre Scolaire",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2008",
+      "title": "CYCLISME : Pierre Caudron triomphe dans la dernière épreuve et au classement général des sorties et courses Terrot",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2018",
+      "title": "A voiles : La deuxième journée des régates de Nice",
+      "themes": [
+        {
+          "code": "20001038",
+          "label_fr": "Voile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2031",
+      "title": "Le calendrier du Cercle de la Voile de Paris",
+      "themes": [
+        {
+          "code": "20001038",
+          "label_fr": "Voile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2055",
+      "title": "LA REUNION D'OUVERTURE DU CERCLE DE LA VOILE DE PARIS",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2063",
+      "title": "A moteur : Une modification au règlement international",
+      "themes": [
+        {
+          "code": "20001091",
+          "label_fr": "Water polo"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2076",
+      "title": "LES ITALIENS S'ENTRAINENT",
+      "themes": [
+        {
+          "code": "20000929",
+          "label_fr": "Escrime"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2082",
+      "title": "A JUSOT, LE CHALLENGE DE SABRE",
+      "themes": [
+        {
+          "code": "20000929",
+          "label_fr": "Escrime"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2091",
+      "title": "LE BORDELAIS AURIAC CHAMPION UNIVERSITAIRE A L'EPEE",
+      "themes": [
+        {
+          "code": "20000929",
+          "label_fr": "Escrime"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2101",
+      "title": "LE CHAMPIONNAT DE NORMANDIE",
+      "themes": [
+        {
+          "code": "20000929",
+          "label_fr": "Escrime"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2110",
+      "title": "R. ELBEL, CHAMPION DE LORRAINE",
+      "themes": [
+        {
+          "code": "20000929",
+          "label_fr": "Escrime"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2116",
+      "title": "NOUVELLES DIVERSES",
+      "themes": [
+        {
+          "code": "20000929",
+          "label_fr": "Escrime"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2133",
+      "title": "DIV.2133",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2142",
+      "title": "Le 2e Grand Prix du Talon... or",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2147",
+      "title": "Le 19 avril, autour de Paris",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2166",
+      "title": "Un cancan",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2174",
+      "title": "ENGAGEZ-VOUS",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2181",
+      "title": "EDUCATION PHYSIQUE",
+      "themes": [
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20001239",
+          "label_fr": "Activité physique et fitness"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2195",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2212",
+      "title": "ANDRE ROLET A ALGER",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2220",
+      "title": "LE CHALLENGE LEON BOURDIN (F.S.G.T.)",
+      "themes": [
+        {
+          "code": "20001093",
+          "label_fr": "Haltérophilie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2235",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2242",
+      "title": "EN VUE DU MARATHON OLYMPIQUE",
+      "themes": [
+        {
+          "code": "20000988",
+          "label_fr": "Marathon"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2249",
+      "title": "NOUVELLES DIVERSES",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2254",
+      "title": "ROULETTES : LES FRANÇAIS A STUTTGART",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2261",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2274",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2279",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2292",
+      "title": "A TRAVERS LES SOCIETES",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2355",
+      "title": "L'EXPOSITION ET LES SPORTIFS : Un vieux projet le Stade de La Courneuve",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2372",
+      "title": "HIER, AU CONCOURS HIPPIQUE DE PARIS : La magnifique exhibition des chevaux anglo-arabes",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20000923",
+          "label_fr": "Équitation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2408",
+      "title": "Le Grand Prix de Paris aura son Sweepstake et recevra un million de francs",
+      "themes": [
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2436",
+      "title": "DIV.2436",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2468",
+      "title": "Tableau de service : Matinées du mardi 31 mars",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2484",
+      "title": "Programmes",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2541",
+      "title": "Devant l'écran : Programmes",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2564",
+      "title": "Les grands films passent !",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2572",
+      "title": "DIV.2572",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2592",
+      "title": "DIV.2592",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2605",
+      "title": "ET PATATI.. ET PATATA.",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2635",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2683",
+      "title": "DIV.2683",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2698",
+      "title": "Officiers Ministériels",
+      "themes": [
+        {
+          "code": "20000998",
+          "label_fr": "Moto"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2704",
+      "title": "Automobiles",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3064",
+      "title": "Achats de Voitures",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3076",
+      "title": "Location d'Automobiles",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3082",
+      "title": "Motocyclettes",
+      "themes": [
+        {
+          "code": "20000998",
+          "label_fr": "Moto"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3092",
+      "title": "Capitaux et Divers",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3097",
+      "title": "Fonds de Commerce",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3104",
+      "title": "Offres d'Emplois",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3137",
+      "title": "Demandes d'Emplois",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3142",
+      "title": "DIV.3142",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    }
+  ]
+}

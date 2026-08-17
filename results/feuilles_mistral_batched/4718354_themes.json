@@ -1,0 +1,269 @@
+{
+  "fascicule": "4718354",
+  "usage": {
+    "prompt_tokens": 30619,
+    "completion_tokens": 683,
+    "total_tokens": 31302,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 11.62,
+    "temps_reponse_min_s": 11.62,
+    "temps_reponse_max_s": 11.62,
+    "temps_reponse_moyen_s": 11.62,
+    "temps_reponse_median_s": 11.62
+  },
+  "articles": [
+    {
+      "article_id": "DIV.25",
+      "title": "DIV.25",
+      "themes": [
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.37",
+      "title": "DIV.37",
+      "themes": [
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.47",
+      "title": "DIV.47",
+      "themes": [
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.58",
+      "title": "DIV.58",
+      "themes": [
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.77",
+      "title": "DIV.77",
+      "themes": [
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.85",
+      "title": "DIV.85",
+      "themes": [
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.94",
+      "title": "DIV.94",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.110",
+      "title": "DIV.110",
+      "themes": [
+        {
+          "code": "20000100",
+          "label_fr": "Enlèvement"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.131",
+      "title": "DIV.131",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.149",
+      "title": "DIV.149",
+      "themes": [
+        {
+          "code": "20000100",
+          "label_fr": "Enlèvement"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.157",
+      "title": "DIV.157",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.169",
+      "title": "DIV.169",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.176",
+      "title": "DIV.176",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.179",
+      "title": "A LA PORTE DE LA COUR D'ASSISES",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000468",
+          "label_fr": "Prescription médicale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.199",
+      "title": "COUR D'ASSISES DE LA SEINE : Présidence de M. Thévenin, conseiller à la Cour impériale de Paris. Audience du 29 décembre. AFFAIRE TROPPMANN",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.541",
+      "title": "DIV.541",
+      "themes": [
+        {
+          "code": "20000439",
+          "label_fr": "Rivières"
+        },
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.544",
+      "title": "LES MYSTÈRES DES BOIS : DEUXIÈME ÉPISODE LES ARDENTES",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.639",
+      "title": "DIV.639",
+      "themes": [
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    }
+  ]
+}

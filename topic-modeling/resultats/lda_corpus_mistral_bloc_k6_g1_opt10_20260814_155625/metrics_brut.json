@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1253,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.0499,
+    "top_words": "num prix fr ans francs lille cv demande maison saint"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1305,
+    "top_words": "num fr cours banque er francs nord cpt crédit prix"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1476,
+    "top_words": "théâtre grand num rôle saint opéra succès jean musique public"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.064,
+    "top_words": "num saint général grand club équipe français président prix nord"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1899,
+    "top_words": "homme femme jeune ans tête fille vie temps mort cœur"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1699,
+    "top_words": "gouvernement conseil président droit ministre pays commission point loi question"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

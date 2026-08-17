@@ -1,0 +1,182 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "lille prix demande maison vente vendre adresser francs renault bureau",
+    "size": 907
+  },
+  {
+    "topic_id": 1,
+    "top_words": "prix équipe club match course épreuve championnat tour coupe mètres",
+    "size": 571
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne pays italie guerre berlin autriche politique conférence russie",
+    "size": 298
+  },
+  {
+    "topic_id": 3,
+    "top_words": "ans femme police mort âgé jeune arrêté enquête saint victime",
+    "size": 234
+  },
+  {
+    "topic_id": 4,
+    "top_words": "yeux homme patron jeune fille père tête jacques femme cœur",
+    "size": 205
+  },
+  {
+    "topic_id": 5,
+    "top_words": "banque cours crédit actions nord société valeurs fer lyon gaz",
+    "size": 160
+  },
+  {
+    "topic_id": 6,
+    "top_words": "rôle théâtre succès public talent opéra artistes artiste scène représentation",
+    "size": 105
+  },
+  {
+    "topic_id": 7,
+    "top_words": "kil courant disponible cote marché blés prix froment avoine blé",
+    "size": 104
+  },
+  {
+    "topic_id": 8,
+    "top_words": "cours lib act crédit valeurs nord banque orléans lyon gaz",
+    "size": 101
+  },
+  {
+    "topic_id": 9,
+    "top_words": "maire billets saint dunkerque oran classe adjoint départ départs prix",
+    "size": 95
+  },
+  {
+    "topic_id": 10,
+    "top_words": "théâtre opéra cirque comique folies relâche rouge variétés revue gymnase",
+    "size": 93
+  },
+  {
+    "topic_id": 11,
+    "top_words": "mmes mesd actes opéra guillemin théatre musique com comédie comique",
+    "size": 81
+  },
+  {
+    "topic_id": 12,
+    "top_words": "commission amendement impôt loi projet chambre discussion séance millions ministre",
+    "size": 66
+  },
+  {
+    "topic_id": 13,
+    "top_words": "vouloir assemblée parti majorité droit république loi gouvernement liberté partis",
+    "size": 60
+  },
+  {
+    "topic_id": 14,
+    "top_words": "grève ouvriers travail grévistes syndicats mineurs délégués travailleurs employés salaires",
+    "size": 57
+  },
+  {
+    "topic_id": 15,
+    "top_words": "cour assises procès audience affaire avocat président prison jugement tribunal",
+    "size": 57
+  },
+  {
+    "topic_id": 16,
+    "top_words": "ans syndic juge comm prov veuve marchand havas agence saint",
+    "size": 53
+  },
+  {
+    "topic_id": 17,
+    "top_words": "obsèques mort décédé infanterie église née ancien funérailles lieutenant saint",
+    "size": 52
+  },
+  {
+    "topic_id": 18,
+    "top_words": "guerre français paix gouvernement pétain peuple armée nationale république défense",
+    "size": 49
+  },
+  {
+    "topic_id": 19,
+    "top_words": "mètres films longueur film affiche cinématographique affiches grandes grands comédie",
+    "size": 44
+  },
+  {
+    "topic_id": 20,
+    "top_words": "films film cinéma auteurs peinture art cinématographiques public œuvres peintres",
+    "size": 44
+  },
+  {
+    "topic_id": 21,
+    "top_words": "théâtre comédie matinée rôle opéra comique représentation actes représentations orchestre",
+    "size": 44
+  },
+  {
+    "topic_id": 22,
+    "top_words": "vapeur tempête port terre navire tremblement bord équipage mer sauvetage",
+    "size": 44
+  },
+  {
+    "topic_id": 23,
+    "top_words": "roman livre poésie vie revue auteur écrivain jean ouvrages poèmes",
+    "size": 41
+  },
+  {
+    "topic_id": 24,
+    "top_words": "manœuvres flotte exercices grandes méditerranée française fleete marins cherbourg eaux",
+    "size": 36
+  },
+  {
+    "topic_id": 25,
+    "top_words": "réunion priés comité assister salle citoyens générale réunir demie assemblée",
+    "size": 33
+  },
+  {
+    "topic_id": 26,
+    "top_words": "régiment capitaine légion infanterie brigade général colonel artillerie division honneur",
+    "size": 32
+  },
+  {
+    "topic_id": 27,
+    "top_words": "baromètre température ciel vent thermomètre ouest nord pluies temps faible",
+    "size": 31
+  },
+  {
+    "topic_id": 28,
+    "top_words": "radio concert musique orchestre parisien disques poste informations piano chanson",
+    "size": 29
+  },
+  {
+    "topic_id": 29,
+    "top_words": "versailles obus bataillon fort batterie garde citoyen vanves issy blessés",
+    "size": 28
+  },
+  {
+    "topic_id": 30,
+    "top_words": "empereur roi garde sieur musique général impératrice ordonnance amiens maire",
+    "size": 26
+  },
+  {
+    "topic_id": 31,
+    "top_words": "généraux immédiate voter discutable conseils algérie concitoyens électeurs droit loi",
+    "size": 26
+  },
+  {
+    "topic_id": 32,
+    "top_words": "oran vii viii dame iii solution propriétaire problème négociant lieutenant",
+    "size": 25
+  },
+  {
+    "topic_id": 33,
+    "top_words": "enseignement lycées écoles école instruction études élèves sciences enfants éducation",
+    "size": 24
+  },
+  {
+    "topic_id": 34,
+    "top_words": "école carrières cours dessin cahier études papier pages enseignement anglais",
+    "size": 22
+  },
+  {
+    "topic_id": 35,
+    "top_words": "commission chambre projet vacances constitutionnelles amnistie séance discuter discussion lois",
+    "size": 21
+  }
+]

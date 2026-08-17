@@ -1,43 +1,69 @@
 """
-classify_iptc_mistral_cascade.py : Variante en cascade (2 étages) de la
-classification IPTC, pour réduire la taille de la liste d'étiquettes mise en
-cache à chaque appel (voir classify_iptc_mistral_batched.py pour la version à
-un seul étage, 567 étiquettes à chaque appel).
+classify_iptc_mistral_cascade.py : classification IPTC en deux étages
 
-Principe :
-  - ÉTAGE 1 (niveau 2) : TOUS les articles (de tous les fascicules demandés)
-    passent d'abord une classification à 1 seule étiquette parmi les 120
-    concepts IPTC de niveau 2 , une liste ~4,7x plus petite que les 567
-    étiquettes complètes. Traité par lots (comme classify_iptc_mistral_batched).
-  - REGROUPEMENT : les articles sont ensuite regroupés par branche niveau 2
-    assignée à l'étage 1, en les mélangenat entre fascicules (pour maximiser
-    la taille des lots par branche : une branche rare aurait trop peu
-    d'articles si on restait dans un seul fascicule).
-  - ÉTAGE 2 (niveau 3) : pour les branches qui ont des enfants niveau 3 (68 sur
-    120), les articles de cette branche sont classés à nouveau, par lots, mais
-    avec une liste réduite aux seuls enfants de cette branche (1 à 111 selon la
-    branche, médiane 4) , au lieu des 567 étiquettes complètes.
-    Pour les branches sans enfants (52 sur 120, "terminales"), le code niveau 2
-    est directement le thème final : pas d'étage 2 pour ces articles-là.
+CE QUE FAIT CE SCRIPT
 
-Ce découpage réduit le volume de la liste d'étiquettes envoyée par appel, au
-prix d'un appel supplémentaire par article (2 étages au lieu d'1) et d'un
-risque de propagation d'erreur (si l'étage 1 choisit la mauvaise branche,
-l'étage 2 ne peut plus corriger , les vraies étiquettes possibles ne sont
-même pas proposées).
+Même tâche que classify_iptc_mistral.py, dont il faut lire la docstring pour le
+détail du traitement. La différence tient au découpage de la liste d'étiquettes
+en deux passages successifs.
 
-Entrées (voir README.md pour l'arborescence complète du dépôt) :
-  - re-ocr/corpus/original/{fascicule}/toc/T*.xml           → structure logique (METS)
-  - re-ocr/corpus/reocr_mistral/{fascicule}_reocr/ocr/*.xml → ALTO avec OCR corrigé
-  - classification/iptc_mediatopic_official.json                   → taxonomie IPTC officielle (SKOS)
+LE RAISONNEMENT QUI Y CONDUIT
 
-Sortie :
-  - results/feuilles_mistral_cascade/{fascicule}_themes.json
-  - results/feuilles_mistral_cascade/_stage1_assignments.json (debug/transparence)
+La liste des 567 étiquettes pèse 92 pour cent du volume facturé. Il paraît donc
+logique de la découper, chaque appel ne recevant qu'une fraction du référentiel.
 
-Usage :
+LE PROCÉDÉ
+
+  ÉTAGE 1. Tous les articles reçoivent une étiquette parmi les 120 concepts de
+  deuxième niveau, liste 4,7 fois plus courte que la liste complète. Le
+  traitement se fait par lots, comme dans la variante groupée.
+
+  REGROUPEMENT. Les articles sont ensuite rassemblés par branche assignée, en
+  les mélangeant entre fascicules. Le mélange est nécessaire : une branche rare
+  ne réunirait que quelques articles dans un seul fascicule, et ses lots
+  seraient trop petits pour amortir le coût fixe.
+
+  ÉTAGE 2. Pour les 68 branches qui ont des enfants de troisième niveau, les
+  articles sont classés une seconde fois contre les seuls enfants de leur
+  branche, soit de 1 à 111 étiquettes selon la branche, avec une médiane de 4.
+  Les 52 branches terminales n'ont pas d'étage 2, leur code de deuxième niveau
+  étant directement le thème final.
+
+POURQUOI CETTE VARIANTE EST ÉCARTÉE
+
+Le raisonnement est juste et la conclusion fausse. La cascade revient à 4,60
+dollars contre 3,63 pour le groupage simple, et l'écart ne se résorbe pas avec
+le volume.
+
+La cause tient à ce que le raisonnement n'avait pas compté. Réduire la liste ne
+réduit pas le texte des articles, et la cascade envoie ce texte deux fois. Les
+jetons de texte facturés passent de 3,50 à 6,87 millions, soit un facteur de
+1,96, quand l'économie faite sur la liste ne compense pas ce doublement.
+
+Une seconde objection s'ajoute à celle du coût. Une erreur du premier étage ne
+peut plus être corrigée au second, les vraies étiquettes n'étant même pas
+proposées. La cascade ajoute donc un risque de propagation d'erreur que le
+passage unique ne connaît pas.
+
+Le script est conservé parce que sa mesure vaut par elle-même : une optimisation
+peut être correctement raisonnée sur le facteur dominant et manquer un facteur
+secondaire que le raisonnement ne mentionnait pas. Seule la mesure l'a montré.
+
+ENTRÉES ET SORTIES
+
+Identiques à celles de classify_iptc_mistral.py, la sortie étant écrite dans
+results/feuilles_mistral_cascade/. Un fichier _stage1_assignments.json conserve
+en outre les branches assignées au premier étage.
+
+PAQUETS EMPLOYÉS
+
+Les mêmes que la variante groupée, dont mistral-common pour le comptage exact
+des jetons.
+
+USAGE
+
     python classify_iptc_mistral_cascade.py --fascicule 4109000 --dry-run
-    python classify_iptc_mistral_cascade.py --fascicule 4109000 4109676
+    python classify_iptc_mistral_cascade.py --fascicule 4109000
     python classify_iptc_mistral_cascade.py
 """
 
@@ -59,7 +85,7 @@ import requests
 
 def load_env(env_path: Path):
     """Charge les variables d'un fichier .env dans os.environ (sans dépendance
-    externe) — ne remplace jamais une variable déjà définie dans l'environnement.
+    externe) : ne remplace jamais une variable déjà définie dans l'environnement.
     """
     if not env_path.exists():
         return
@@ -104,7 +130,7 @@ MAX_BATCH_TOKENS = 40_000
 MAX_BATCH_SIZE = 25
 PER_ARTICLE_WRAPPER_TOKENS = 15
 
-# $ / 1M tokens (input, output) — mistral.ai/pricing/api/
+# $ / 1M tokens (input, output) : mistral.ai/pricing/api/
 PRICING = {
     "mistral-large-latest": (0.50, 1.50),
     "mistral-medium-latest": (1.50, 7.50),
@@ -217,10 +243,10 @@ def build_leaves(taxonomy_path, max_level=3):
 
 def build_stage_indices(taxonomy_path):
     """Construit les 3 structures nécessaires à la cascade :
-      - l2_candidates : {code2 → {label_fr, l1_label}} — les 120 candidats de l'étage 1
-      - l3_by_branch   : {code2 → {code3 → {label_fr, l1_label, l2_label}}} — pour les
+      - l2_candidates : {code2 → {label_fr, l1_label}} : les 120 candidats de l'étage 1
+      - l3_by_branch : {code2 → {code3 → {label_fr, l1_label, l2_label}}} : pour les
         68 branches qui ont des enfants niveau 3 (candidats de l'étage 2)
-      - l2_leaf_codes  : {code2, ...} — les 52 branches SANS enfant niveau 3
+      - l2_leaf_codes : {code2, ...} : les 52 branches dépourvues d'enfant de niveau 3
         (le code niveau 2 est alors directement le thème final)
     """
     l2_candidates = build_leaves(taxonomy_path, max_level=2)
@@ -238,7 +264,7 @@ def build_stage_indices(taxonomy_path):
 
 
 def leaves_prompt_str(leaves):
-    """Une ligne par étiquette : code — libellé (+ contexte parent seulement
+    """Une ligne par étiquette : code : libellé (+ contexte parent seulement
     si le libellé est ambigu dans cette liste précise)."""
     label_counts = {}
     for leaf in leaves.values():
@@ -251,7 +277,7 @@ def leaves_prompt_str(leaves):
             ctx = f" ({parent} > {leaf['l1_label']})" if parent else f" ({leaf['l1_label']})"
         else:
             ctx = ""
-        lines.append(f"  {code} — {leaf['label_fr']}{ctx}")
+        lines.append(f"  {code} : {leaf['label_fr']}{ctx}")
     return "\n".join(lines)
 
 
@@ -259,7 +285,7 @@ def branch_prompt_str(branch_leaves):
     """Comme leaves_prompt_str, mais sans contexte parent (redondant : tous
     les candidats d'une branche partagent déjà le même niveau 2, rappelé une
     seule fois dans le prompt système de l'étage 2)."""
-    return "\n".join(f"  {code} — {leaf['label_fr']}" for code, leaf in branch_leaves.items())
+    return "\n".join(f"  {code} : {leaf['label_fr']}" for code, leaf in branch_leaves.items())
 
 
 #  Comptage de tokens (réel via mistral-common, repli en caractères sinon) 
@@ -273,7 +299,7 @@ _FALLBACK_CHARS_PER_TOKEN = 3.5
 def _get_tokenizer():
     """Charge le tokenizer Mistral une seule fois (télécharge depuis Hugging Face
     au premier appel, réutilise ensuite le même objet). Retourne None si le
-    téléchargement échoue (pas de réseau, paquet manquant) — count_tokens()
+    téléchargement échoue (pas de réseau, paquet manquant) : count_tokens()
     bascule alors sur une estimation par caractères.
     """
     global _tokenizer, _tokenizer_load_failed
@@ -283,7 +309,7 @@ def _get_tokenizer():
         from mistral_common.tokens.tokenizers.mistral import MistralTokenizer
         _tokenizer = MistralTokenizer.from_hf_hub(_TOKENIZER_HF_REPO)
     except Exception as e:
-        print(f"  ⚠ tokenizer Mistral indisponible ({e}) — repli sur l'estimation par caractères")
+        print(f"  ⚠ tokenizer Mistral indisponible ({e}) : repli sur l'estimation par caractères")
         _tokenizer_load_failed = True
     return _tokenizer
 
@@ -300,7 +326,7 @@ def count_tokens(text):
 
 
 def make_batches(articles, fixed_overhead_tokens):
-    """Empile des articles ENTIERS dans des lots tant que le budget de tokens
+    """Empile des articles entiers dans des lots tant que le budget de jetons
     et la taille max ne sont pas dépassés (jamais de troncature)."""
     batches = []
     current = []
@@ -390,7 +416,7 @@ def extract_tb_text(alto_path, tb_id):
     """Retourne le texte d'un TextBlock ALTO précis (par son ID), en concaténant
     les mots de chaque ligne. Met en cache le contenu de tout le fichier ALTO
     au premier accès (`_alto_cache`) pour éviter de re-parser le XML à chaque
-    appel — un même fichier ALTO contient plusieurs blocs d'articles différents.
+    appel : un même fichier ALTO contient plusieurs blocs d'articles différents.
     """
     key = str(alto_path)
     if key not in _alto_cache:
@@ -451,7 +477,7 @@ Réponds uniquement avec un objet JSON de la forme :
 def _stage1_response_schema(valid_l2_codes, article_ids):
     """Schéma JSON strict de l'étage 1 : un tableau d'exactement len(article_ids)
     entrées {article_id, level2_code}, article_id contraint aux IDs réels du
-    lot et level2_code contraint aux 120 codes niveau 2 valides — le modèle ne
+    lot et level2_code contraint aux 120 codes niveau 2 valides : le modèle ne
     peut inventer ni l'un ni l'autre.
     """
     return {
@@ -536,10 +562,10 @@ def classify_stage1_batch_with_fallback(batch, l2_leaves_str, valid_l2_codes):
         results, usage, elapsed = classify_stage1_batch(batch, l2_leaves_str, valid_l2_codes)
     except Exception as e:
         if len(batch) == 1:
-            print(f"      ✗ [étage 1] {batch[0]['id']} — erreur : {e}")
+            print(f"      ✗ [étage 1] {batch[0]['id']} : erreur : {e}")
             return {}, [], []
         mid = len(batch) // 2
-        print(f"      ⚠ [étage 1] échec du lot de {len(batch)} article(s) ({e}) — 2 lots ({mid}/{len(batch) - mid})")
+        print(f"      ⚠ [étage 1] échec du lot de {len(batch)} article(s) ({e}) : 2 lots ({mid}/{len(batch) - mid})")
         r1, u1, t1 = classify_stage1_batch_with_fallback(batch[:mid], l2_leaves_str, valid_l2_codes)
         r2, u2, t2 = classify_stage1_batch_with_fallback(batch[mid:], l2_leaves_str, valid_l2_codes)
         return {**r1, **r2}, u1 + u2, t1 + t2
@@ -562,8 +588,8 @@ Réponds uniquement avec un objet JSON de la forme :
 def _stage2_response_schema(valid_l3_codes, article_ids):
     """Schéma JSON strict de l'étage 2 : un tableau d'exactement len(article_ids)
     entrées {article_id, themes}, article_id contraint aux IDs du lot et
-    themes (1 à 5 codes) contraint aux enfants niveau 3 de LA branche en cours
-    (valid_l3_codes) — jamais aux 567 codes complets.
+    themes (1 à 5 codes) contraint aux enfants de niveau 3 de la seule branche en cours
+    (valid_l3_codes) : jamais aux 567 codes complets.
     """
     return {
         "type": "json_schema",
@@ -651,17 +677,17 @@ def classify_stage2_batch_with_fallback(batch, branch_leaves_str, valid_l3_codes
         results, usage, elapsed = classify_stage2_batch(batch, branch_leaves_str, valid_l3_codes, l2_label)
     except Exception as e:
         if len(batch) == 1:
-            print(f"      ✗ [étage 2 — {l2_label}] {batch[0]['id']} — erreur : {e}")
+            print(f"      ✗ [étage 2 : {l2_label}] {batch[0]['id']} : erreur : {e}")
             return {}, [], []
         mid = len(batch) // 2
-        print(f"      ⚠ [étage 2 — {l2_label}] échec du lot de {len(batch)} article(s) ({e}) — 2 lots ({mid}/{len(batch) - mid})")
+        print(f"      ⚠ [étage 2 : {l2_label}] échec du lot de {len(batch)} article(s) ({e}) : 2 lots ({mid}/{len(batch) - mid})")
         r1, u1, t1 = classify_stage2_batch_with_fallback(batch[:mid], branch_leaves_str, valid_l3_codes, l2_label)
         r2, u2, t2 = classify_stage2_batch_with_fallback(batch[mid:], branch_leaves_str, valid_l3_codes, l2_label)
         return {**r1, **r2}, u1 + u2, t1 + t2
 
     missing = [a["id"] for a in batch if a["id"] not in results]
     if missing:
-        print(f"      ⚠ [étage 2 — {l2_label}] {len(missing)} article(s) absent(s) : {missing}")
+        print(f"      ⚠ [étage 2 : {l2_label}] {len(missing)} article(s) absent(s) : {missing}")
     return results, [usage], [elapsed]
 
 
@@ -670,8 +696,8 @@ def classify_stage2_batch_with_fallback(batch, branch_leaves_str, valid_l3_codes
 
 def _post_with_retries(payload, ids, retries, parse_fn):
     """Requête HTTP commune aux 2 étages (POST + parsing de la réponse via
-    `parse_fn`). Lève SystemExit sur 401/403 (clé invalide — inutile de
-    réessayer, on arrête tout), RuntimeError sur 400 (requête invalide — pas de
+    `parse_fn`). Lève SystemExit sur 401/403 (clé invalide : inutile de
+    réessayer, on arrête tout), RuntimeError sur 400 (requête invalide : pas de
     nouvelle tentative), retente avec backoff exponentiel sur timeout/429/5xx.
     """
     headers = {
@@ -692,7 +718,7 @@ def _post_with_retries(payload, ids, retries, parse_fn):
 
         if r.status_code in (401, 403):
             raise SystemExit(
-                f"Erreur d'authentification Mistral ({r.status_code}) — vérifie MISTRAL_API_KEY dans {ENV_FILE}"
+                f"Erreur d'authentification Mistral ({r.status_code}) : vérifie MISTRAL_API_KEY dans {ENV_FILE}"
             )
         if r.status_code == 400:
             raise RuntimeError(f"Requête invalide (400), pas de nouvelle tentative : {r.text[:300]}")
@@ -723,7 +749,7 @@ USAGE_KEYS = ("prompt_tokens", "completion_tokens", "total_tokens", "cached_toke
 
 
 def _empty_usage():
-    """Compteur d'usage initialisé à zéro (tokens, nb d'appels) — un par fascicule,
+    """Compteur d'usage initialisé à zéro (tokens, nb d'appels) : un par fascicule,
     rempli au fil des appels API puis agrégé au niveau du run complet.
     """
     return {k: 0 for k in USAGE_KEYS} | {"n_calls": 0}
@@ -740,7 +766,7 @@ def _flatten_usage(usage):
 
 def _accumulate(acc, usages, temps, temps_list):
     """Ajoute au compteur `acc` les tokens d'une liste d'appels HTTP (usages),
-    et leurs durées à `temps_list` — mutualisé entre l'étage 1 et l'étage 2.
+    et leurs durées à `temps_list` : mutualisé entre l'étage 1 et l'étage 2.
     """
     for usage, elapsed in zip(usages, temps):
         acc["n_calls"] += 1
@@ -767,7 +793,7 @@ def run_stage1_fascicule(fascicule, l2_candidates, l2_leaves_str, valid_l2_codes
         return kept, {}, usage, temps
 
     batches = make_batches(kept, fixed_overhead_l2)
-    print(f"  [{fascicule}] étage 1 : {len(batches)} lot(s) — tailles {[len(b) for b in batches]}")
+    print(f"  [{fascicule}] étage 1 : {len(batches)} lot(s) : tailles {[len(b) for b in batches]}")
 
     if dry_run:
         return kept, {}, usage, temps
@@ -776,7 +802,7 @@ def run_stage1_fascicule(fascicule, l2_candidates, l2_leaves_str, valid_l2_codes
     usage_lock = threading.Lock()
 
     def worker(batch):
-        """Classe un lot (étage 1) dans un thread du pool — capture les
+        """Classe un lot (étage 1) dans un thread du pool : capture les
         variables de la fonction englobante (liste niveau 2, codes valides)."""
         return classify_stage1_batch_with_fallback(batch, l2_leaves_str, valid_l2_codes)
 
@@ -820,7 +846,7 @@ def run_stage2_branch(l2_code, branch_articles, l3_by_branch, l2_candidates, fix
     usage_lock = threading.Lock()
 
     def worker(batch):
-        """Classe un lot (étage 2, une branche) dans un thread du pool —
+        """Classe un lot (étage 2, une branche) dans un thread du pool : 
         capture les variables de la fonction englobante (liste de la
         branche, codes valides, libellé niveau 2)."""
         return classify_stage2_batch_with_fallback(batch, branch_leaves_str, valid_l3_codes, l2_label)
@@ -836,7 +862,7 @@ def run_stage2_branch(l2_code, branch_articles, l3_by_branch, l2_candidates, fix
                     f.cancel()
                 raise
             except Exception as e:
-                print(f"      ✗ [étage 2 — {l2_label}] erreur inattendue : {e}")
+                print(f"      ✗ [étage 2 : {l2_label}] erreur inattendue : {e}")
                 continue
             with usage_lock:
                 _accumulate(usage, usages, elapsed_list, temps)
@@ -861,7 +887,7 @@ def main():
     args = parser.parse_args()
 
     if not args.dry_run and (not MISTRAL_API_KEY or MISTRAL_API_KEY == "mets-ta-cle-ici"):
-        raise SystemExit(f"Clé API Mistral manquante — édite {ENV_FILE}")
+        raise SystemExit(f"Clé API Mistral manquante : édite {ENV_FILE}")
 
     l2_candidates, l3_by_branch, l2_leaf_codes = build_stage_indices(TAXONOMY_PATH)
     l2_leaves_str = leaves_prompt_str(l2_candidates)
@@ -901,7 +927,7 @@ def main():
         return
 
     #  ÉTAGE 1 : tous les fascicules demandés 
-    print(f"\n{'=' * 60}\nÉTAGE 1 — classification niveau 2 ({len(todo)} fascicule(s))\n{'=' * 60}")
+    print(f"\n{'=' * 60}\nÉTAGE 1 : classification niveau 2 ({len(todo)} fascicule(s))\n{'=' * 60}")
 
     all_articles_by_fascicule = {}   # fascicule -> [articles avec text]
     all_assignments = {}             # (fascicule, article_id) -> level2_code
@@ -941,7 +967,7 @@ def main():
             }
             with open(OUTPUT_DIR / f"{fascicule}_themes.json", "w", encoding="utf-8") as f:
                 json.dump(out, f, ensure_ascii=False, indent=2)
-        print("\n(dry-run : étage 2 non simulé — les branches dépendent de vraies réponses de l'étage 1)")
+        print("\n(dry-run : étage 2 non simulé : les branches dépendent de vraies réponses de l'étage 1)")
         return
 
     #  REGROUPEMENT par branche niveau 2 (mélange entre fascicules) 
@@ -973,7 +999,7 @@ def main():
     for l2_code, branch_articles in sorted(by_branch.items(), key=lambda x: -len(x[1])):
         l2_label = l2_candidates[l2_code]["label_fr"]
         n_children = len(l3_by_branch[l2_code])
-        print(f"\n  Branche « {l2_label} » ({l2_code}) — {len(branch_articles)} article(s), {n_children} sous-catégorie(s) candidate(s)")
+        print(f"\n  Branche « {l2_label} » ({l2_code}) : {len(branch_articles)} article(s), {n_children} sous-catégorie(s) candidate(s)")
         results, usage, temps = run_stage2_branch(l2_code, branch_articles, l3_by_branch, l2_candidates, fixed_overhead_by_branch)
         stage2_results.update(results)
         for k in stage2_usage_total:
@@ -982,7 +1008,7 @@ def main():
         for (fascicule, aid), codes in results.items():
             title = next(a["title"] for a in all_articles_by_fascicule[fascicule] if a["id"] == aid)
             labels = [l3_by_branch[l2_code][c]["label_fr"] for c in codes if c in l3_by_branch[l2_code]]
-            print(f"    {aid} — {title[:45]!r} → {', '.join(labels)}")
+            print(f"    {aid} : {title[:45]!r} → {', '.join(labels)}")
 
     # Fusion et sauvegarde par fascicule
     final_themes = dict(terminal_results)
@@ -1015,12 +1041,12 @@ def main():
     all_temps = stage1_temps + stage2_temps
 
     print(f"\n{'=' * 60}")
-    print(f"RÉSUMÉ CASCADE — {len(todo)} fascicule(s)")
+    print(f"Résumé de la cascade : {len(todo)} fascicule(s)")
     print(f"  Étage 1 : {stage1_usage_total['n_calls']} appel(s), {stage1_usage_total['prompt_tokens']:,} tokens prompt, {stage1_usage_total['completion_tokens']:,} tokens sortie")
     print(f"  Étage 2 : {stage2_usage_total['n_calls']} appel(s), {stage2_usage_total['prompt_tokens']:,} tokens prompt, {stage2_usage_total['completion_tokens']:,} tokens sortie")
-    print(f"  TOTAL   : {total_calls} appel(s), {total_prompt:,} tokens prompt (dont {total_cached:,} en cache), {total_completion:,} tokens sortie")
+    print(f"  Total : {total_calls} appel(s), {total_prompt:,} tokens prompt (dont {total_cached:,} en cache), {total_completion:,} tokens sortie")
     if all_temps:
-        print(f"  temps de réponse : min {min(all_temps):.2f}s — moyen {statistics.mean(all_temps):.2f}s — max {max(all_temps):.2f}s (total {sum(all_temps):.1f}s)")
+        print(f"  temps de réponse : min {min(all_temps):.2f}s : moyen {statistics.mean(all_temps):.2f}s : max {max(all_temps):.2f}s (total {sum(all_temps):.1f}s)")
 
     pin, pout = PRICING.get(MISTRAL_MODEL, (None, None))
     if pin is not None:

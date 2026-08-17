@@ -1,0 +1,52 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "ans saint jean maire honneur prix concours lille oran henri",
+    "size": 328
+  },
+  {
+    "topic_id": 1,
+    "top_words": "ii ie re nt eau el ia ri li it",
+    "size": 263
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num prix cv pl club équipe course grand tour match",
+    "size": 478
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num fr cours cpt nord banque prix id crédit valeurs",
+    "size": 592
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num fr prix francs demande maison lille vente bureau ans",
+    "size": 745
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num guerre général armée français roi gouvernement allemagne prince londres",
+    "size": 605
+  },
+  {
+    "topic_id": 6,
+    "top_words": "num président conseil gouvernement loi commission ministre chambre général assemblée",
+    "size": 854
+  },
+  {
+    "topic_id": 7,
+    "top_words": "théâtre opéra grand rôle musique succès public acte comique num",
+    "size": 446
+  },
+  {
+    "topic_id": 8,
+    "top_words": "point temps monde grande pays hommes vie mieux esprit homme",
+    "size": 594
+  },
+  {
+    "topic_id": 9,
+    "top_words": "femme jeune homme num fille mort ans petit yeux porte",
+    "size": 489
+  }
+]

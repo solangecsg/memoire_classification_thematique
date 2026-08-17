@@ -9,7 +9,7 @@ Tokens de sortie (complétion) :
     (chaque article : 1 à 5 thèmes garantis par `enum`, `article_id` réel du
     lot) : pas une hypothèse, une borne réelle, propre à chaque lot (dépend
     du nombre d'articles et de la longueur de leurs identifiants).
-  - "moyen" = point milieu min/max , une estimation, pas une calibration
+  - "moyen" = point milieu entre min et max, estimation plutôt que calibration
     réelle (on n'a pas encore de run réel en mode groupé pour calibrer).
 
 Sorties (dans ce même dossier analyse_couts/) :
@@ -206,7 +206,7 @@ def main():
     print(f"✓ {SUMMARY_CSV}")
 
     print(f"\n{'=' * 60}")
-    print(f"GROUPAGE PAR LOT  {n_calls} appel(s) pour {n_articles_total} articles ({n_articles_total / n_calls:.1f} articles/appel en moyenne)")
+    print(f"Groupage par lot : {n_calls} appel(s) pour {n_articles_total} articles ({n_articles_total / n_calls:.1f} articles/appel en moyenne)")
     print(f"  sans cache : ${totals['nc_min']:,.2f} (min)  ${totals['nc_moyen']:,.2f} (moyen)  ${totals['nc_max']:,.2f} (max)")
     print(f"  avec cache : ${totals['c_min']:,.2f} (min)  ${totals['c_moyen']:,.2f} (moyen)  ${totals['c_max']:,.2f} (max)")
     if baseline:

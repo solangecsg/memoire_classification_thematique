@@ -1,0 +1,1759 @@
+{
+  "fascicule": "4134119",
+  "usage": {
+    "prompt_tokens": 86875,
+    "completion_tokens": 5262,
+    "total_tokens": 92137,
+    "cached_tokens": 0,
+    "n_calls": 5,
+    "temps_reponse_total_s": 80.87,
+    "temps_reponse_min_s": 12.74,
+    "temps_reponse_max_s": 18.8,
+    "temps_reponse_moyen_s": 16.17,
+    "temps_reponse_median_s": 17.08
+  },
+  "articles": [
+    {
+      "article_id": "DIV.28",
+      "title": "DIV.28",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.35",
+      "title": "Ci-dessous: le dernier Grain de Sel d'André Wurmser et : LE DESSIN DE JEAN EFFEL",
+      "themes": [
+        {
+          "code": "20000004",
+          "label_fr": "Bande dessinée"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.45",
+      "title": "CE N'EST QU'UN AU REVOIR MES FRÈRES",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.59",
+      "title": "LA NOMINATION DU MARECHAL JUIN au poste de commandant en chef de la zone centre-Europe a pour objet de faciliter la ratification par la France du traité d'Armée européenne",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000058",
+          "label_fr": "Intervention militaire internationale"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.65",
+      "title": "EN ISLANDE LE VENT EMPORTE UNE ECOLE AVEC 2 INSTITUTEURS ET 40 ELEVES",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000401",
+          "label_fr": "École primaire"
+        },
+        {
+          "code": "20000415",
+          "label_fr": "Étudiants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.72",
+      "title": "LES MYSTÈRES DE LA NOUVELLE « AUBERGE DE PEYREBELLE » : Les monstres d'Arreau QUI TUERENT UN VIEILLARD ET FIRENT BOUILLIR SON CORPS DANS UNE LESSIVEUSE auraient commis deux autres crimes semblables",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.106",
+      "title": "UN CHEMINOT TUE ACCIDENTELLEMENT d'un coup de revolver",
+      "themes": [
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        },
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.113",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.117",
+      "title": "DIV.117",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.123",
+      "title": "Ce matin, à Berlin, au cours d'une bouleversante cérémonie LES CORPS DES 11 HÉROS du « NORMANDIE-NIEMEN » ONT ETE REMIS A LA FRANCE PAR L'UNION SOVIETIQUE",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.142",
+      "title": "LILIANA plaidante déboutée AVALE L'EXTRAIT de son jugement",
+      "themes": [
+        {
+          "code": "20000122",
+          "label_fr": "Droit civil"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.150",
+      "title": "LE « THÉNARDIER » D'ELBEUF AVAIT MARQUE SYLVETTE AU FER ROUGE",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000790",
+          "label_fr": "Enfants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.159",
+      "title": "Dans la « cuvette » du Vél' d'Hiv' LES ECUREUILS SE « FONT LA BARBE » A L'HEURE DE L'APERITIF",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000422",
+          "label_fr": "Parcs naturels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.189",
+      "title": "L'INCENDIAIRE VOULAIT (avec le montant de son assurance) DEDOMMAGER SES CREANCIERS",
+      "themes": [
+        {
+          "code": "20000083",
+          "label_fr": "Incendie volontaire"
+        },
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.197",
+      "title": "Au Tribunal Correctionnel de la Seine : LE CONDAMNE SE TRANSFORME EN BOXEUR et inflige un knock-down à son co-inculpé",
+      "themes": [
+        {
+          "code": "20000084",
+          "label_fr": "Agression"
+        },
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.205",
+      "title": "LA LOI D'AIDE AU CINEMA votée par 415 voix contre 90",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.211",
+      "title": "L'EPAVE DU « CHAMPOLLION » mise en adjudication",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.217",
+      "title": "Un excellent SPECTACLE DE CABARET : Celui de \"La Fontaine des Quatre Saisons \"",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.228",
+      "title": "DIV.228",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.232",
+      "title": "SAMEDI 28 FEVRIER",
+      "themes": [
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.250",
+      "title": "\"Le carrosse d'or\" avec l'extraordinaire Anna MAGNANI",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.270",
+      "title": "THEATRES",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.309",
+      "title": "MUSIC-HALLS",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.318",
+      "title": "CHANSONNIERS",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.328",
+      "title": "CIRQUES",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.334",
+      "title": "CINEMAS",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.392",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.407",
+      "title": "DIV.407",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.414",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.434",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.440",
+      "title": "LA DAME DE MONSOREAU par Alexandre Dumas",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.523",
+      "title": "Une nouvelle Association «LES CONCERTS DES JEUNES »",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.534",
+      "title": "LA VIE AMOUREUSE DE STENDHAL : Dessins de Robert ALTIER ☆ Textes de François DESPREZ",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.561",
+      "title": "\"NOUS SOMMES PRÊTS A ATTESTER SOUS LA FOI DU SERMENT QUE NOUS AVONS VU M. DUVAL PORTER LA MAIN SUR M. LAURENT \" déclarent les avocats du jeune patriote",
+      "themes": [
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.577",
+      "title": "LE DEBAT SUR L'AMNISTIE : MM. Martinaud-Deplat et Duveau refusent la liberté provisoire aux résistants emprisonnés",
+      "themes": [
+        {
+          "code": "20000126",
+          "label_fr": "Droit international"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.585",
+      "title": "Le nudiste de Pontault-Combault regardait passer les trains dans le plus simple appareil : Il sera examiné par un psychiatre",
+      "themes": [
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        },
+        {
+          "code": "20000487",
+          "label_fr": "Spécialisations médicales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.597",
+      "title": "Malgré l'interdiction gouvernementale : Les étudiants parisiens ont manifesté hier contre le colonialisme",
+      "themes": [
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        },
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.603",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.609",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.617",
+      "title": "LE GANG de la HAUTE COUTURE en CORRECTIONNELLE",
+      "themes": [
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        },
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.626",
+      "title": "LES MALADES DANGEREUX DE MONDEVERGUES SONT EVACUES",
+      "themes": [
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        },
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.634",
+      "title": "VINGT MINUTES D'ARRET, CINEMA !",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.640",
+      "title": "PARIS - BANLIEUE",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.647",
+      "title": "TOUR DE FRANCE",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.655",
+      "title": "LOIN D'ICI",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000141",
+          "label_fr": "Accident industriel"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.667",
+      "title": "Le matelot d'Étaples qui avait surpris sa femme en galante compagnie, se fait assommer MAIS IL A FINALEMENT LE DERNIER MOT",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000084",
+          "label_fr": "Agression"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.677",
+      "title": "EN PLEINE RUE LE MAÇON POIGNARDE SA FEMME INFIDELE",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000084",
+          "label_fr": "Agression"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.684",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000629",
+          "label_fr": "Autochtones"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.702",
+      "title": "Jugement le 13 mars dans le procès du guérisseur de Dijon",
+      "themes": [
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.714",
+      "title": "AUJOURD'HUI, A St-CLOUD",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.726",
+      "title": "Solution du numero 1.001",
+      "themes": [
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.733",
+      "title": "L'enquête a précisé le rôle pris dans le rapt des enfants FINALY par les quatre prêtres incarcérés a Bayonne : L'AGITATION EST SOIGNEUSEMENT ENTRETENUE AU PAYS BASQUE",
+      "themes": [
+        {
+          "code": "20000100",
+          "label_fr": "Enlèvement"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.755",
+      "title": "« CE SOIR » à ses annonceurs",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.761",
+      "title": "Pour « découvrir » un poste émetteur placé par ses soins : LA POLICE PERQUISITIONNE AU SIEGE DU SYNDICAT DE MONTCEAU- LES-MINES",
+      "themes": [
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.775",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.788",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.804",
+      "title": "La chance de la paix",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.822",
+      "title": "O.N.U. : LE DEBAT SUR LA COREE s'engagera activement lundi",
+      "themes": [
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.830",
+      "title": "Signature d'un accord économique franco-italien",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.836",
+      "title": "DES PROGRES CONSIDERABLEES sur le traitement des maladies par le sommeil",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000478",
+          "label_fr": "Thérapie"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.843",
+      "title": "LA TERRE EST VIEILLE DE 5 MILLIARDS D'ANNEES",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000736",
+          "label_fr": "Innovation scientifique"
+        },
+        {
+          "code": "20000727",
+          "label_fr": "Géologie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.850",
+      "title": "UN PETROLIER BRULE DANS UN PORT CANADIEN : 5 blessés",
+      "themes": [
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.858",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.887",
+      "title": "LA JOURNEE INTERNATIONALE DES FEMMES SE PREPARE DANS TOUTE LA FRANCE",
+      "themes": [
+        {
+          "code": "20001326",
+          "label_fr": "Droits des femmes"
+        },
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.894",
+      "title": "LE PROFESSEUR SMITH VEUT CAPTURER UN COELACANTHE",
+      "themes": [
+        {
+          "code": "20000738",
+          "label_fr": "Exploration scientifique"
+        },
+        {
+          "code": "20000719",
+          "label_fr": "Biologie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.903",
+      "title": "PROBLEME NUMERO 1.001",
+      "themes": [
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.911",
+      "title": "SOLUTION DU N° 1.000",
+      "themes": [
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.918",
+      "title": "Passible d'une peine de 60 ans de prison Mickey Jelke LE JEUNE MILLIONNAIRE PROXÉNÈTE connaîtra son sort le 20 mars",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000101",
+          "label_fr": "Crime organisé"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.928",
+      "title": "LES ETUDIANTES DE READING protestent contre « l'insulte faite à leurs charmes personnels »",
+      "themes": [
+        {
+          "code": "20000415",
+          "label_fr": "Étudiants"
+        },
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.938",
+      "title": "DE TOUTE LA TERRE",
+      "themes": [
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.947",
+      "title": "LES « IZVESTIA » : La conférence de Rome a confirmé l'intensification des conflits entre les pays d'Europe Occidentale",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.955",
+      "title": "ROSENBERG : Pour sauver les deux innocents les lecteurs de Ce soir conti- nueront notre action jusqu'à la victoire",
+      "themes": [
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.969",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1007",
+      "title": "DIV.1007",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1017",
+      "title": "OFFRES D'EMPL. 275 fr.",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1022",
+      "title": "DEM. D'EMPLOI 50 fr.",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1027",
+      "title": "FONDS DE COM. 350 fr.",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1042",
+      "title": "DIVERS 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1048",
+      "title": "PROPRIÉTÉS 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1054",
+      "title": "APPARTEMENTS 350 fr.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1066",
+      "title": "LOCAT. MEUBLÉE 350 fr.",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1071",
+      "title": "AUTOS 350 fr.",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1094",
+      "title": "Nous ne cessons pas le combat...",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000415",
+          "label_fr": "Étudiants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1118",
+      "title": "LE XV DE FRANCE peut réussir un miracle S'IL JOUE AVEC... SIX TROIS QUARTS !",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1147",
+      "title": "MIAS forfait",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1154",
+      "title": "GLEIZES (Cellic) GUERI RENONCE AU RUGBY",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1161",
+      "title": "Demain à l'Elysée-Montmartre VERMESCH réceptionnera JEAN JOURLIN",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1168",
+      "title": "DIV.1168",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1174",
+      "title": "Le palmarès",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1179",
+      "title": "ROME prendrait la place de MELBOURNE",
+      "themes": [
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1190",
+      "title": "Basket-ball",
+      "themes": [
+        {
+          "code": "20000851",
+          "label_fr": "Basket-ball"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1195",
+      "title": "Gymnastique",
+      "themes": [
+        {
+          "code": "20000942",
+          "label_fr": "Gymnastique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1200",
+      "title": "Cross-country",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1205",
+      "title": "Demain à la Piste Municipale de Vincennes",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1212",
+      "title": "Demain, on connaîtra deux nouveaux champions de la F.S.G.T.",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1219",
+      "title": "REPRISE DU TOUR DU NORD CYCLISTE",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1227",
+      "title": "8es DE FINALE SANS GROS CHOC ! : PONTIVY attire tous les regards mais le RED STAR, ALES et TOULOUSE sont les vrais \"outsiders de la surprise\"",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1271",
+      "title": "AU PARC DES PRINCES : METZ (pour qui le championnat est terminé) FAVORI DEVANT St-ÉTIENNE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1301",
+      "title": "DIV.1301",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1323",
+      "title": "Hier soir à Rouen LAVOINE a battu pour la seconde fois MAROSTEGAN",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1329",
+      "title": "A ROUEN DEVANT HARRY BOS HUMEZ PENSERA A LANGLOIS",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1335",
+      "title": "CE SOIR ON BOXE",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1354",
+      "title": "LES \"GRANDS\" SONT GROUPÉS EN TÊTE... ...mais ROBIC-DIOT ont été étouffés",
+      "themes": [
+        {
+          "code": "20000942",
+          "label_fr": "Gymnastique"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1360",
+      "title": "Demain à Alger BERNARD GAUTHIER déjà en forme et DUPONT saront les hommes à battre",
+      "themes": [
+        {
+          "code": "20000942",
+          "label_fr": "Gymnastique"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1386",
+      "title": "Demain, au Mont Faron MIRANDO tentera de succéder à DOTTO",
+      "themes": [
+        {
+          "code": "20000942",
+          "label_fr": "Gymnastique"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1392",
+      "title": "Championnat de France de cyclo-cross demain à Besançon : Le beau temps peut avantager les routiers et jouer un mauvais tour à Rondeaux et Jodet",
+      "themes": [
+        {
+          "code": "20000942",
+          "label_fr": "Gymnastique"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1401",
+      "title": "Dimanche à Rennes : LES AMATEURS CONNAITRONS LEURS CHAMPIONS",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1407",
+      "title": "EN CHAMPIONNAT NATIONAL DE BASKET : MULHOUSE : tournant (très) dangereux pour le RACING",
+      "themes": [
+        {
+          "code": "20000851",
+          "label_fr": "Basket-ball"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1445",
+      "title": "DIV.1445",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1459",
+      "title": "11 Novembre 1948",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1467",
+      "title": "Jean-Richard BLOCH FONDATEUR DE \" Ce soir \"",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1483",
+      "title": "LE COURAGE de M. BENAZET",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1500",
+      "title": "LE RAPPORT RIBIÈRE (DGER)",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1510",
+      "title": "LE 28 MAI 1952",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1518",
+      "title": "SKORZENY A PARIS",
+      "themes": [
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1525",
+      "title": "D'où vient l'argent",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1532",
+      "title": "Le 22 août 1939, à la veille de la 2e guerre mondiale Ce soir disait: VIVE LA PAIX ! par ARAGON",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    }
+  ]
+}

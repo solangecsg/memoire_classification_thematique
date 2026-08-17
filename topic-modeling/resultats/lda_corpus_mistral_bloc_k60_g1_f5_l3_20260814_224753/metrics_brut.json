@@ -1,0 +1,310 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1573,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.0157,
+    "top_words": "num lille nord texte calais roubaix dunkerque bruxelles saint vap"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1397,
+    "top_words": "fort mal point mieux monde homme donne temps difficile voir"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3442,
+    "top_words": "num cpt nord crédit banque remb lyon gaz act lib"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2678,
+    "top_words": "conseil général maire président municipal directeur préfet ancien membres secrétaire"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1783,
+    "top_words": "vie esprit homme œuvre hommes histoire monde temps pays idée"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1681,
+    "top_words": "fer compagnie chemin chemins nord mines gare lignes société train"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1745,
+    "top_words": "num lettres poste bureau adresser bureaux réponse franco adresse demande"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2019,
+    "top_words": "parti gouvernement politique majorité assemblée ordre liberté pays droit république"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2324,
+    "top_words": "jeune fille femme père fils mère ans petite homme famille"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.0753,
+    "top_words": "confiance grand donner bonne heureux honneur dévouement voulu amis avenir"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.1872,
+    "top_words": "num demande maison lille ans adresser bonne écrire références echo"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2409,
+    "top_words": "cour juge tribunal procès justice affaire prison président condamné appel"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1111,
+    "top_words": "main coup voir point petit forme petite porte œil mouvement"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.1086,
+    "top_words": "foule feu blessés incendie rues coup route pris morts gare"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.3,
+    "top_words": "école enseignement écoles élèves professeur cours arts sciences instruction études"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3178,
+    "top_words": "cours valeurs marché hausse bourse affaires clôture actions baisse fonds"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.227,
+    "top_words": "grand volume histoire livre auteur ouvrage vient pages français roman"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1464,
+    "top_words": "tour temps coureurs départ long van kilomètres arrivée course tête"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2467,
+    "top_words": "londres anglais angleterre états unis new york film films amérique"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2277,
+    "top_words": "allemagne guerre paix gouvernement europe français pays berlin traité politique"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.1845,
+    "top_words": "prince roi gouvernement empereur russie vienne autriche italie reine espagne"
+   },
+   {
+    "topic_id": 21,
+    "npmi": -0.152,
+    "top_words": "num prix francs centimes mètres rgs placé placés gagnant entrée"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.1002,
+    "top_words": "exposition grand concours prix honneur fête grande médaille société fêtes"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.2115,
+    "top_words": "armée troupes guerre hommes ennemi général soldats allemands front français"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.2614,
+    "top_words": "général armée chef honneur capitaine militaire colonel corps commandant major"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.1921,
+    "top_words": "temps eau vent ciel température corps chaleur soleil nord froid"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.1853,
+    "top_words": "yeux tête jeune main voix mains visage petit air homme"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.1449,
+    "top_words": "mètres chevaux voiture appareil eau moteur machine grande route vitesse"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.374,
+    "top_words": "num renault prix int cond citroën places luxe cabriolet peugeot"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.3193,
+    "top_words": "noir dames rouge blanc laine bleu velours rose mètre blanche"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.137,
+    "top_words": "marseille bordeaux nouvelle côte afrique oran arrivée lyon sud nord"
+   },
+   {
+    "topic_id": 31,
+    "npmi": -0.013,
+    "top_words": "eau vin demi vins terre verre papier café pain qualité"
+   },
+   {
+    "topic_id": 32,
+    "npmi": 0.1669,
+    "top_words": "num théâtre champs palais royal revue cirque élysées matinée folies"
+   },
+   {
+    "topic_id": 33,
+    "npmi": 0.1902,
+    "top_words": "gouvernement situation vue mesures point conditions prendre question ordre questions"
+   },
+   {
+    "topic_id": 34,
+    "npmi": 0.241,
+    "top_words": "générale société réunion comité assemblée union siège association membres congrès"
+   },
+   {
+    "topic_id": 35,
+    "npmi": -0.0257,
+    "top_words": "saint ans église martin vouloir denis maison germain sainte honoré"
+   },
+   {
+    "topic_id": 36,
+    "npmi": 0.2571,
+    "top_words": "équipe club match épreuve coupe français stade champion championnat poids"
+   },
+   {
+    "topic_id": 37,
+    "npmi": 0.1974,
+    "top_words": "industrie produits grande commerce pays vue point angleterre importance consommation"
+   },
+   {
+    "topic_id": 38,
+    "npmi": 0.0823,
+    "top_words": "temps prendre voir tête mieux besoin bonne conseils part réunion"
+   },
+   {
+    "topic_id": 39,
+    "npmi": 0.045,
+    "top_words": "num oran lille haute vienne propriétaire notaire adresser demeurant acte"
+   },
+   {
+    "topic_id": 40,
+    "npmi": 0.302,
+    "top_words": "théâtre musique opéra comédie actes acte comique orchestre scène concert"
+   },
+   {
+    "topic_id": 41,
+    "npmi": 0.1318,
+    "top_words": "point esprit vis vérité bonne temps question prendre propre saurait"
+   },
+   {
+    "topic_id": 42,
+    "npmi": 0.1476,
+    "top_words": "droit loi droits société lois propriété art conséquence cas auteurs"
+   },
+   {
+    "topic_id": 43,
+    "npmi": 0.2735,
+    "top_words": "santé maladies sang médecins docteur traitement estomac flacon médecin malades"
+   },
+   {
+    "topic_id": 44,
+    "npmi": 0.2406,
+    "top_words": "jean louis henri paul charles georges mmes victor pierre comte"
+   },
+   {
+    "topic_id": 45,
+    "npmi": 0.1477,
+    "top_words": "num kil courant kilos disponible prix marché blé cote qualité"
+   },
+   {
+    "topic_id": 46,
+    "npmi": 0.2875,
+    "top_words": "rôle succès public grand voix talent artiste théâtre artistes jeune"
+   },
+   {
+    "topic_id": 47,
+    "npmi": 0.2018,
+    "top_words": "homme cœur vie mort femme dieu amour point bonheur sang"
+   },
+   {
+    "topic_id": 48,
+    "npmi": 0.1355,
+    "top_words": "salle maison grand hôtel bois jardin pièces palais grande maisons"
+   },
+   {
+    "topic_id": 49,
+    "npmi": 0.0959,
+    "top_words": "travail travaux ouvriers service publics œuvre personnel nouvelle établissement pouvoirs"
+   },
+   {
+    "topic_id": 50,
+    "npmi": 0.2463,
+    "top_words": "commission loi projet chambre discussion rapport proposition demande question budget"
+   },
+   {
+    "topic_id": 51,
+    "npmi": 0.2802,
+    "top_words": "grandes manœuvres amiral française marine flotte mer vapeur port bord"
+   },
+   {
+    "topic_id": 52,
+    "npmi": 0.0485,
+    "top_words": "porte prit mirabeau donna comte aussitôt trouvait long demanda vint"
+   },
+   {
+    "topic_id": 53,
+    "npmi": 0.1934,
+    "top_words": "num francs millions banque somme actions caisse société capital bons"
+   },
+   {
+    "topic_id": 54,
+    "npmi": 0.2245,
+    "top_words": "président ministre conseil discours affaires république chambre ministres général guerre"
+   },
+   {
+    "topic_id": 55,
+    "npmi": 0.0896,
+    "top_words": "question point faits ment mesure renseignements savoir fort donné présence"
+   },
+   {
+    "topic_id": 56,
+    "npmi": -0.2994,
+    "top_words": "num mètres pts points longueur série oblig cmc tours angl"
+   },
+   {
+    "topic_id": 57,
+    "npmi": 0.1723,
+    "top_words": "ans police mort femme âgé commissaire trouvé blessé nommé corps"
+   },
+   {
+    "topic_id": 58,
+    "npmi": 0.1846,
+    "top_words": "enfants femmes jeunes hommes petits filles grands pauvres famille ans"
+   },
+   {
+    "topic_id": 59,
+    "npmi": -0.676,
+    "top_words": "num comp amsterdam exp amortissable fpd francfort asc rand cons"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 600
+}

@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2553,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2725,
+    "top_words": "prix équipe club match course épreuve tour mètres championnat coupe"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2605,
+    "top_words": "gouvernement allemagne guerre général pays troupes italie armée politique londres"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2689,
+    "top_words": "travail gouvernement conseil loi assemblée parti ouvriers vouloir question enseignement"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2012,
+    "top_words": "lille demande prix vendre maison renault adresser citroën bureau echo"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.4089,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes orchestre revue"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3389,
+    "top_words": "loi commission président général ministre conseil chambre projet gouvernement séance"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2804,
+    "top_words": "guerre gouvernement temps français peuple pays président général politique hommes"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3922,
+    "top_words": "homme femme jeune yeux fille père tête temps cœur mère"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2614,
+    "top_words": "ans police femme enquête mort saint arrêté âgé jeune prison"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3644,
+    "top_words": "théâtre rôle public succès artistes grand talent artiste scène opéra"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3254,
+    "top_words": "maladies eau peau estomac flacon traitement sang cure boîte guérison"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1981,
+    "top_words": "mort saint artillerie nord temps baromètre ouest fort vent blessés"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1924,
+    "top_words": "cours kil prix courant marché cote lib disponible blés act"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.1334,
+    "top_words": "laine mètre velours dames manteaux francs noir abonnement poste qualité"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.3741,
+    "top_words": "banque cours crédit actions nord société fer valeurs lyon gaz"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1645,
+    "top_words": "volume jésus grand roman vol mètres prix illustré histoire almanach"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.0723,
+    "top_words": "saint maire billets oran dunkerque classe prix départ adjoint départs"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3471,
+    "top_words": "manœuvres grandes flotte exercices française exposition méditerranée fleete marins général"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.096,
+    "top_words": "ans syndic juge comm prov veuve marchand havas saint agence"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.154,
+    "top_words": "rec corresp chemin fer exercice section rouen corr courant montereau"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

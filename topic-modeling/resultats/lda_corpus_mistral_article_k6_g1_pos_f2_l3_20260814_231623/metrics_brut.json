@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1382,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.174,
+    "top_words": "juillet conseil bureau lieu dimanche service corps directeur membre août"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.0576,
+    "top_words": "heure cœur égypte nom temps conférence goblet troupe eau france"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2009,
+    "top_words": "paris ministère ministre république état affaire journal loi cours question"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1281,
+    "top_words": "soir matin ville exp ligne direct albi midi cyp pharmacie"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.143,
+    "top_words": "rue toulouse paris société janvier jour degré obligation prix franc"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1257,
+    "top_words": "chambre homme gouvernement jour reynière femme député mois samuel assemblée"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

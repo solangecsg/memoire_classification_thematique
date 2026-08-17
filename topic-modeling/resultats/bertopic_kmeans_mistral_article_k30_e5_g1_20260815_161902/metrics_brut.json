@@ -1,0 +1,160 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2713,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2681,
+    "top_words": "gouvernement allemagne guerre général pays berlin italie prince politique états"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2012,
+    "top_words": "lille demande vendre prix renault maison adresser citroën echo bureau"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3389,
+    "top_words": "loi commission conseil président ministre projet chambre séance gouvernement général"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2676,
+    "top_words": "ans police femme âgé mort enquête saint crime accident arrêté"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2916,
+    "top_words": "maladies estomac eau peau flacon traitement cure sang boîte pilules"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.282,
+    "top_words": "loi vouloir enseignement assemblée gouvernement parti question chambre droit ministre"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3158,
+    "top_words": "épreuve prix course tour auto club coureurs automobile circuit coupe"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3636,
+    "top_words": "théâtre opéra concert comique radio revue folies cirque royal palais"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2774,
+    "top_words": "point homme monde temps vie grand peuple livre prix histoire"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3439,
+    "top_words": "homme jeune femme yeux fille fortuné mère patron père tête"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2372,
+    "top_words": "grève ouvriers travail congrès réunion comité francs conseil travailleurs grévistes"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.3824,
+    "top_words": "équipe match club stade poids champion finale championnat joueurs points"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1998,
+    "top_words": "volume jésus francs prix librairie abonnement vol pages poste grand"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.38,
+    "top_words": "rôle théâtre succès public opéra talent artiste artistes représentation acte"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2358,
+    "top_words": "art films film histoire vie peinture œuvre académie auteur cinéma"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1897,
+    "top_words": "troupes front port artillerie roi commandant ennemi général vapeur versaillais"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.1342,
+    "top_words": "prix mètres course francs kil classement placés gagnant tours challenge"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3005,
+    "top_words": "guerre gouvernement français politique peuple pays liberté paix hommes monde"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3964,
+    "top_words": "banque actions valeurs société cours titres crédit fonds millions obligations"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.4039,
+    "top_words": "banque cours nord crédit lyon fer act gaz valeurs orléans"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.2224,
+    "top_words": "laine mètre velours manteaux dames qualité noir largeur drap boulangeries"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.3417,
+    "top_words": "général infanterie régiment capitaine colonel légion corps honneur lieutenant officiers"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.1773,
+    "top_words": "exposition concours médaille manœuvres fête honneur grandes président diplôme grand"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.2291,
+    "top_words": "prison institutrice école ans président affaire cour tribunal audience assises"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.396,
+    "top_words": "kil courant disponible marché cote blés prix froment avoine blé"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.3075,
+    "top_words": "mmes comique actes opéra rôle jeune comédie théatre com ténor"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.1586,
+    "top_words": "billets dunkerque classe oran départ départs fer ang nord saint"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.1243,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve jean"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.0151,
+    "top_words": "mètres longueur films galerie vii affiche viii comédie iii affiches"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.3566,
+    "top_words": "baromètre température ciel vent thermomètre nord pluies ouest âgé faible"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 300
+}

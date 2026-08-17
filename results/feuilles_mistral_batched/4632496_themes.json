@@ -1,0 +1,1941 @@
+{
+  "fascicule": "4632496",
+  "usage": {
+    "prompt_tokens": 131870,
+    "completion_tokens": 5606,
+    "total_tokens": 137476,
+    "cached_tokens": 0,
+    "n_calls": 6,
+    "temps_reponse_total_s": 94.73,
+    "temps_reponse_min_s": 11.33,
+    "temps_reponse_max_s": 18.02,
+    "temps_reponse_moyen_s": 15.79,
+    "temps_reponse_median_s": 16.2
+  },
+  "articles": [
+    {
+      "article_id": "DIV.32",
+      "title": "FABLES : Petits noms",
+      "themes": [
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.73",
+      "title": "Demain, sur le circuit des « Quatre-Pavillons », à Bordeaux Le Grand Prix de l'Union Motocycliste de France : Nos champions motocyclistes auront à lutter contre une redoutable participation belge et anglaise; la Grande-Bretagne nous ayant délégué ses meilleurs spécialistes.",
+      "themes": [
+        {
+          "code": "20001098",
+          "label_fr": "Lutte"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20000998",
+          "label_fr": "Moto"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.91",
+      "title": "DIV.91",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.107",
+      "title": "DIV.107",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.113",
+      "title": "LE CLASSEMENT GENERAL : (Les noms des touristes-routiers sont indiqués en italique)",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.124",
+      "title": "LE CLASSEMENT DE L'ETAPE : (Les noms des tourietes-routiers sont indiqués en italique)",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.137",
+      "title": "LE CLASSEMENT DU CHALLENGE DE REGULARITE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.148",
+      "title": "LE CHALLENGE DES EQUIPES REGIONALES",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.157",
+      "title": "En suivant la course",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.239",
+      "title": "La course des coureurs régionaux...",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.253",
+      "title": "...et celle des touristes-routiers",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.263",
+      "title": "INSTANTANÉS....",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.300",
+      "title": "Bonne victoire de Leducq",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.324",
+      "title": "Le départ de Bagnères-de-Luchon",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000415",
+          "label_fr": "Étudiants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.329",
+      "title": "Sur la route",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.351",
+      "title": "L'arrivée à Perpignan",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.395",
+      "title": "Demain : LA ONZIEME ETAPE : PERPIGNAN-MARSEILLE (363 kil.). 30 juin 1928 Départ en ligne à 2 heures du matin. Les concurrents prendront, la nuit prochaine, la direction de Marseille. Une étape qui sera très dure si la chaleur est forte.",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.408",
+      "title": "Le départ de Perpignan",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.414",
+      "title": "L'itinéraire",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.423",
+      "title": "L'arrivée à Marseille",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.431",
+      "title": "L'horaire probable",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.438",
+      "title": "Contrôles",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.444",
+      "title": "La fermeture du contrôle d'arrivée",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.455",
+      "title": "Les signaux à l'arrivée",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.460",
+      "title": "Les prix de l'étape",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.467",
+      "title": "Les primes",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.474",
+      "title": "LES QUALIFIES",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.571",
+      "title": "Lundi : LA DOUZIEME ETAPE : MARSEILLE-NICE-SOSPEL-NICE (330 kil.) 2 juillet 1928 Départ en ligne à 4 h. du matin.",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.665",
+      "title": "AUTOUR DU TOUR : Où leur adresser leur courrier",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.711",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.714",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.722",
+      "title": "Le Monde et le Sport",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000942",
+          "label_fr": "Gymnastique"
+        },
+        {
+          "code": "20001236",
+          "label_fr": "Mariage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.735",
+      "title": "DIV.735",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.739",
+      "title": "DIV.739",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.744",
+      "title": "DIV.744",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.747",
+      "title": "DIV.747",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.756",
+      "title": "L'AVIATION EN DEUIL : FRONVAL S'EST TUÉ Une collision, au sol...",
+      "themes": [
+        {
+          "code": "20000757",
+          "label_fr": "Ingénierie aérospatiale"
+        },
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.771",
+      "title": "DIV.771",
+      "themes": [
+        {
+          "code": "20001093",
+          "label_fr": "Haltérophilie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.776",
+      "title": "DIV.776",
+      "themes": [
+        {
+          "code": "20000929",
+          "label_fr": "Escrime"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.786",
+      "title": "DIMANCHE AU COMMINGES : Une rencontre très serrée opposera 50 concurrents dans le Grand Prix de l'A.C.F. des voitures de Sport",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.801",
+      "title": "LES AILES DANS LA VOLIÈRE : M. Doumergue inaugure ce matin la 11e Exposition Aéronautique AU GRAND PALAIS DES CHAMPS-ÉLYSÉES",
+      "themes": [
+        {
+          "code": "20000757",
+          "label_fr": "Ingénierie aérospatiale"
+        },
+        {
+          "code": "20001135",
+          "label_fr": "Exposition artistique"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.839",
+      "title": "Le handicap du Grand Prix de l'A.C.F. des voitures sport",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.857",
+      "title": "LE 2e CHAMPIONNAT DES AVIATEURS",
+      "themes": [
+        {
+          "code": "20000757",
+          "label_fr": "Ingénierie aérospatiale"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.865",
+      "title": "Les Résultats : Le concours polonais",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.874",
+      "title": "Nouvelles diverses : Une journée automobile des Cbarentes et du Limousin",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.885",
+      "title": "Demain, à Bordeaux se dispute le Grand Prix de l'U.M.F. : (Suite de notre article de 1re page.)",
+      "themes": [
+        {
+          "code": "20000965",
+          "label_fr": "Hockey sur glace"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.907",
+      "title": "Clubs et Association",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.912",
+      "title": "Nouvelles diverses",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.923",
+      "title": "DEMAIN A LIEU LA FETE AERIENNE DE VINCENNES",
+      "themes": [
+        {
+          "code": "20000757",
+          "label_fr": "Ingénierie aérospatiale"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.938",
+      "title": "LA CONFERENCE DE LA F.A.I.",
+      "themes": [
+        {
+          "code": "20000757",
+          "label_fr": "Ingénierie aérospatiale"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.947",
+      "title": "COURTNEY EST REPARTI POUR LES ACORES",
+      "themes": [
+        {
+          "code": "20000718",
+          "label_fr": "Astronomie"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.953",
+      "title": "A LA RECHERCHE DE GUILBAUD",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000738",
+          "label_fr": "Exploration scientifique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.961",
+      "title": "GRANDS ET PETITS RAIDS",
+      "themes": [
+        {
+          "code": "20000718",
+          "label_fr": "Astronomie"
+        },
+        {
+          "code": "20001124",
+          "label_fr": "Industrie du sport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.966",
+      "title": "Nouvelles diverses",
+      "themes": [
+        {
+          "code": "20000718",
+          "label_fr": "Astronomie"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.980",
+      "title": "DIV.980",
+      "themes": [
+        {
+          "code": "20000718",
+          "label_fr": "Astronomie"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.983",
+      "title": "DIV.983",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        },
+        {
+          "code": "20000718",
+          "label_fr": "Astronomie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.988",
+      "title": "5 Fête Aérienne de Vincennes",
+      "themes": [
+        {
+          "code": "20000718",
+          "label_fr": "Astronomie"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1000",
+      "title": "NOS ORGANISATIONS : Le Concours des \" ? \" Suite du classement",
+      "themes": [
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        },
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1079",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1089",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1093",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1101",
+      "title": "LES SPORTS ET LE PARLEMENT : Le C. N. S. et le C. 0. F. ont exposé hier aux parlementaires sportifs leurs légitimes revendications Trois désirs ont été formulés par M. Gaston Vidal",
+      "themes": [
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1116",
+      "title": "CE SOIR, AU GYMNASE VOLTAIRE : Les athlètes français concourront pour fermer la sélection olympique",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1130",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1134",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1149",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1161",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1169",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1178",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1193",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1205",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1213",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1233",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1238",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1251",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1259",
+      "title": "Le Grand Prix Cycliste de Paris : Demain après-midi, deuxième journée du splendide meeting",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1274",
+      "title": "CIRCUIT DU BYRRH : Tour du Sud-Est 1928",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1283",
+      "title": "LE 7e CRITERIUM DES TANDEMS SUR PAIRIS-DEAUVILLE",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1292",
+      "title": "KAUFMANN BAT MICHARD A TOURS",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1303",
+      "title": "Nouvelles diverses",
+      "themes": [
+        {
+          "code": "20001026",
+          "label_fr": "Aviron"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1314",
+      "title": "QUELLES SERONT LES EQUIPES QUI PORTERONT NOS COULEURS A AMSTERDAM ?",
+      "themes": [
+        {
+          "code": "20001026",
+          "label_fr": "Aviron"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1331",
+      "title": "Risko a battu Godfrey",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1339",
+      "title": "LE GALA DES « ANCIENS »",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1346",
+      "title": "POUR FRANCIS CHARLES",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1352",
+      "title": "Nouvelles diverses",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1363",
+      "title": "CHEZ LES CORPORATIFS : CYCLISME",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1372",
+      "title": "ATHLETISME : La réunion préolympique de Saint-Maur",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1379",
+      "title": "DANS LES FEDERATIONS",
+      "themes": [
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1384",
+      "title": "CHEZ LES SCOLAIRES : NATATION",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        },
+        {
+          "code": "20000408",
+          "label_fr": "Collège"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1407",
+      "title": "NOUVELLES DIVERSES",
+      "themes": [
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1412",
+      "title": "CHEZ LES MILITAIRES : CYCLISME Les Championnats de France",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1422",
+      "title": "L'ASSEMBLEE GENERALE DE LA LIGUE DE PARIS",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1433",
+      "title": "L'assemblée générale de l'U.F.F.S.A.",
+      "themes": [
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1443",
+      "title": "LE TOURNOI DE WIMBLEDON : Les Français triomphent toujours",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1460",
+      "title": "LES CRITERIUM, OMNIUM ET ESPERANCE",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1473",
+      "title": "LE MATCH STADE-R.C.F. JUNIORS",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1478",
+      "title": "NOUVELLES DIVERSES",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1484",
+      "title": "Deux championnats de France",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1493",
+      "title": "LA SECONDE JOURNEE DES CHAMPIONNATS DE PARIS",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1510",
+      "title": "DANS LES CLUBS",
+      "themes": [
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1519",
+      "title": "LÀ TRAVERSEE DE PARIS DE LA S.N.E.N.",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1524",
+      "title": "ENTRAINEMENT et RENDEZ-VOUS",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1530",
+      "title": "NOUVELLES DIVERSES",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1539",
+      "title": "Le Championnat de Paris",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000401",
+          "label_fr": "École primaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1550",
+      "title": "Côte Basque",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1556",
+      "title": "Du yoko-garbia à Baïgorry",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000958",
+          "label_fr": "Handball"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1566",
+      "title": "AUJOURD'HUI COMMENCE LE GRAND TOURNOI INTERNATIONAL DU TOUQUET-PARIS-PLAGE",
+      "themes": [
+        {
+          "code": "20000929",
+          "label_fr": "Escrime"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1579",
+      "title": "UNE FETE A SENS",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20000929",
+          "label_fr": "Escrime"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1592",
+      "title": "NOUVELLES DIVERSES",
+      "themes": [
+        {
+          "code": "20000929",
+          "label_fr": "Escrime"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1601",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000757",
+          "label_fr": "Ingénierie aérospatiale"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1620",
+      "title": "Sélection olympique de gréco-romaine",
+      "themes": [
+        {
+          "code": "20001098",
+          "label_fr": "Lutte"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1643",
+      "title": "DIV.1643",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1650",
+      "title": "COURSES A AUTEUIL : Résultats du 28 juin (bon terrain)",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1687",
+      "title": "BULLETIN FINANCIER",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000363",
+          "label_fr": "Organisation économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1699",
+      "title": "DIV.1699",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1706",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1711",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1723",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1739",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000760",
+          "label_fr": "Ingénierie civile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1746",
+      "title": "DIV.1746",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1756",
+      "title": "DIV.1756",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000225",
+          "label_fr": "Informatique et télécommunications"
+        },
+        {
+          "code": "20001124",
+          "label_fr": "Industrie du sport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2294",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000447",
+          "label_fr": "Cancer"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2304",
+      "title": "DIV.2304",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2327",
+      "title": "DIV.2327",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2336",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2372",
+      "title": "DIV.2372",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2403",
+      "title": "DIV.2403",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2413",
+      "title": "DIV.2413",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2454",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2463",
+      "title": "DIV.2463",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2467",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2481",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2490",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2495",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001124",
+          "label_fr": "Industrie du sport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2527",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2534",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2543",
+      "title": "DIV.2543",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2547",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        }
+      ]
+    }
+  ]
+}

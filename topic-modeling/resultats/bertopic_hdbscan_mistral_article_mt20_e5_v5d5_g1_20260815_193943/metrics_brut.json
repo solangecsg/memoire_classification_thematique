@@ -1,0 +1,190 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2913,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2065,
+    "top_words": "lille prix demande maison vente vendre adresser francs renault bureau"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2725,
+    "top_words": "prix équipe club match course épreuve championnat tour coupe mètres"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.295,
+    "top_words": "gouvernement allemagne pays italie guerre berlin autriche politique conférence russie"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2639,
+    "top_words": "ans femme police mort âgé jeune arrêté enquête saint victime"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3345,
+    "top_words": "yeux homme patron jeune fille père tête jacques femme cœur"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3741,
+    "top_words": "banque cours crédit actions nord société valeurs fer lyon gaz"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3998,
+    "top_words": "rôle théâtre succès public talent opéra artistes artiste scène représentation"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.396,
+    "top_words": "kil courant disponible cote marché blés prix froment avoine blé"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.4246,
+    "top_words": "cours lib act crédit valeurs nord banque orléans lyon gaz"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.0723,
+    "top_words": "maire billets saint dunkerque oran classe adjoint départ départs prix"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.4472,
+    "top_words": "théâtre opéra cirque comique folies relâche rouge variétés revue gymnase"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1892,
+    "top_words": "mmes mesd actes opéra guillemin théatre musique com comédie comique"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3738,
+    "top_words": "commission amendement impôt loi projet chambre discussion séance millions ministre"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3041,
+    "top_words": "vouloir assemblée parti majorité droit république loi gouvernement liberté partis"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.39,
+    "top_words": "grève ouvriers travail grévistes syndicats mineurs délégués travailleurs employés salaires"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3646,
+    "top_words": "cour assises procès audience affaire avocat président prison jugement tribunal"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.096,
+    "top_words": "ans syndic juge comm prov veuve marchand havas agence saint"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2872,
+    "top_words": "obsèques mort décédé infanterie église née ancien funérailles lieutenant saint"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2573,
+    "top_words": "guerre français paix gouvernement pétain peuple armée nationale république défense"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2715,
+    "top_words": "mètres films longueur film affiche cinématographique affiches grandes grands comédie"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.28,
+    "top_words": "films film cinéma auteurs peinture art cinématographiques public œuvres peintres"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.4255,
+    "top_words": "théâtre comédie matinée rôle opéra comique représentation actes représentations orchestre"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.2337,
+    "top_words": "vapeur tempête port terre navire tremblement bord équipage mer sauvetage"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.3223,
+    "top_words": "roman livre poésie vie revue auteur écrivain jean ouvrages poèmes"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.4584,
+    "top_words": "manœuvres flotte exercices grandes méditerranée française fleete marins cherbourg eaux"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.2571,
+    "top_words": "réunion priés comité assister salle citoyens générale réunir demie assemblée"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.335,
+    "top_words": "régiment capitaine légion infanterie brigade général colonel artillerie division honneur"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.3673,
+    "top_words": "baromètre température ciel vent thermomètre ouest nord pluies temps faible"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.3347,
+    "top_words": "radio concert musique orchestre parisien disques poste informations piano chanson"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.3393,
+    "top_words": "versailles obus bataillon fort batterie garde citoyen vanves issy blessés"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.2068,
+    "top_words": "empereur roi garde sieur musique général impératrice ordonnance amiens maire"
+   },
+   {
+    "topic_id": 31,
+    "npmi": 0.2933,
+    "top_words": "généraux immédiate voter discutable conseils algérie concitoyens électeurs droit loi"
+   },
+   {
+    "topic_id": 32,
+    "npmi": -0.0789,
+    "top_words": "oran vii viii dame iii solution propriétaire problème négociant lieutenant"
+   },
+   {
+    "topic_id": 33,
+    "npmi": 0.3741,
+    "top_words": "enseignement lycées écoles école instruction études élèves sciences enfants éducation"
+   },
+   {
+    "topic_id": 34,
+    "npmi": 0.1299,
+    "top_words": "école carrières cours dessin cahier études papier pages enseignement anglais"
+   },
+   {
+    "topic_id": 35,
+    "npmi": 0.1878,
+    "top_words": "commission chambre projet vacances constitutionnelles amnistie séance discuter discussion lois"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 360
+}

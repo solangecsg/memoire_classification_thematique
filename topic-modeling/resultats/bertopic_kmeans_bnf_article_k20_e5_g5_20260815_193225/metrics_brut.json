@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2429,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2765,
+    "top_words": "prix équipe club match épreuve course tour coupe mètres stade"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2709,
+    "top_words": "gouvernement allemagne guerre général roi troupes armée allemands pays italie"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3501,
+    "top_words": "commission loi président projet chambre conseil gouvernement ministre assemblée séance"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3797,
+    "top_words": "homme femme jeune yeux fille père vie temps main monde"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3176,
+    "top_words": "gouvernement guerre politique hommes pays peuple point français temps homme"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3247,
+    "top_words": "opéra théâtre comique concert musique mmes actes comédie revue radio"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1511,
+    "top_words": "lille ans demande ecrire prix vendre maison int renault echo"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2753,
+    "top_words": "ans police mort femme jeune saint enquête crime prison âgé"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1564,
+    "top_words": "maladies estomac peau eau traitement sirop cure flacon crème sang"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.0895,
+    "top_words": "volume films grand jésus rose mode vol roman film auteurs"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2792,
+    "top_words": "cours kil courant nord gaz crédit valeurs banque marché lyon"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1418,
+    "top_words": "exposition académie honneur général médaille président infanterie prix capitaine saint"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2639,
+    "top_words": "travail ouvriers grève mineurs société travailleurs réunion conseil président grévistes"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2693,
+    "top_words": "enseignement prix conseil concours école écoles élèves société loi lycées"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1461,
+    "top_words": "dim laine choix prix dames jupe vente nuances trie maison"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1933,
+    "top_words": "port temps mètres commandant température général fort pont bord vent"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.0924,
+    "top_words": "francs librairie abonnement poste agence annonces prix havas papeterie abonnements"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.4198,
+    "top_words": "théâtre rôle succès public talent opéra artistes artiste scène représentation"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3501,
+    "top_words": "banque actions cours valeurs société millions titres crédit fonds francs"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.1095,
+    "top_words": "billets classe départ fer départs oran ang nord train cap"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

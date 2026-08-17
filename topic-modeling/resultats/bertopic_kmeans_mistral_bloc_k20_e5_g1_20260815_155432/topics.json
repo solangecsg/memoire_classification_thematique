@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "gouvernement pays point politique guerre droit question loi temps allemagne",
+    "size": 4749
+  },
+  {
+    "topic_id": 1,
+    "top_words": "femme homme jeune fille yeux père cœur tête mère main",
+    "size": 4151
+  },
+  {
+    "topic_id": 2,
+    "top_words": "président conseil commission ministre général loi gouvernement projet séance assemblée",
+    "size": 3644
+  },
+  {
+    "topic_id": 3,
+    "top_words": "pays texte temps image grande part point hommes grand question",
+    "size": 3384
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ans manœuvres police hommes troupes saint feu mort flotte foule",
+    "size": 2731
+  },
+  {
+    "topic_id": 5,
+    "top_words": "ans jeune mort fille femme coup police prison homme saint",
+    "size": 2698
+  },
+  {
+    "topic_id": 6,
+    "top_words": "conseil président commission ministre gouvernement général projet impôt loi millions",
+    "size": 2600
+  },
+  {
+    "topic_id": 7,
+    "top_words": "demande renault int lille cond prix citroën bureau maison références",
+    "size": 2247
+  },
+  {
+    "topic_id": 8,
+    "top_words": "théâtre rôle succès public artiste grand artistes talent œuvre opéra",
+    "size": 2136
+  },
+  {
+    "topic_id": 9,
+    "top_words": "ares école hectares maison oran contenance prix grand adresser directeur",
+    "size": 1975
+  },
+  {
+    "topic_id": 10,
+    "top_words": "prix francs mètre laine manteaux centimes mètres kil poste qualité",
+    "size": 1968
+  },
+  {
+    "topic_id": 11,
+    "top_words": "ans lille saint adresser oran bis demeurant agence téléphone tél",
+    "size": 1938
+  },
+  {
+    "topic_id": 12,
+    "top_words": "général réunion saint société régiment générale honneur chef assemblée grand",
+    "size": 1900
+  },
+  {
+    "topic_id": 13,
+    "top_words": "équipe club match prix course stade épreuve coupe champion championnat",
+    "size": 1886
+  },
+  {
+    "topic_id": 14,
+    "top_words": "théâtre opéra comédie actes comique concert musique folies vaudeville grand",
+    "size": 1727
+  },
+  {
+    "topic_id": 15,
+    "top_words": "remb banque nord cours crédit act gaz lyon fer orléans",
+    "size": 1619
+  },
+  {
+    "topic_id": 16,
+    "top_words": "prix mmes saint pts maire placés jean marie comte gagnant",
+    "size": 1421
+  },
+  {
+    "topic_id": 17,
+    "top_words": "francs millions prix somme billets société actions banque taux obligations",
+    "size": 1355
+  },
+  {
+    "topic_id": 18,
+    "top_words": "marché cours hausse cote banque actions prix valeurs courant blés",
+    "size": 1239
+  },
+  {
+    "topic_id": 19,
+    "top_words": "maladies eau estomac peau flacon traitement guérison sang température poudre",
+    "size": 867
+  }
+]

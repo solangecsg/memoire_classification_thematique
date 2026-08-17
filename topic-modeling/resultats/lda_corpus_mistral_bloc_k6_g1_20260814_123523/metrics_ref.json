@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k6_g1_20260814_123523",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 6,
+  "iterations": 1000,
+  "graine": 1,
+  "n_docs": 46576,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 842406,
+  "duree_s": 62.4
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.3905,
+  "entropy_max": 1.7918,
+  "entropy_normalized": 0.776
+ },
+ "diversity": {
+  "diversity": 0.9,
+  "diversity_norm": 0.0026,
+  "tokens_distincts": 20596,
+  "unique_words": 54,
+  "total_words": 60,
+  "shared_words": [
+   "francs",
+   "grand",
+   "grande",
+   "général",
+   "hommes",
+   "temps"
+  ],
+  "n_shared": 6
+ },
+ "npmi": {
+  "npmi_mean": 0.0195,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -0.1345,
+    "top_words": "prix saint ans maison francs lille demande cv bureau vente"
+   },
+   {
+    "topic_id": 1,
+    "npmi": -0.2888,
+    "top_words": "num fr er cours francs banque nord cpt crédit lyon"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1546,
+    "top_words": "grand théâtre succès rôle public salle opéra exposition grande roi"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.0783,
+    "top_words": "eau grand général grande temps fer français armée corps hommes"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.138,
+    "top_words": "homme femme jeune vie point temps monde hommes voir main"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1695,
+    "top_words": "gouvernement président conseil ministre droit général ordre commission loi question"
+   }
+  ]
+ }
+}

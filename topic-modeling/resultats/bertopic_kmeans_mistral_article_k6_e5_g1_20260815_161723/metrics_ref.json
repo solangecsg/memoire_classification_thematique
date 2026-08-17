@@ -1,0 +1,74 @@
+{
+ "meta": {
+  "model": "bertopic_kmeans",
+  "run_id": "bertopic_kmeans_mistral_article_k6_e5_g1_20260815_161723",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 6,
+  "k_demande": 6,
+  "min_taille": null,
+  "graine": 1,
+  "n_docs": 5361,
+  "n_sans_groupe": 0,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "longueur_max": 512,
+  "duree_s": 19.4
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.0,
+  "entropy_max": 1.7918,
+  "entropy_normalized": 0.0
+ },
+ "diversity": {
+  "diversity": 0.9333,
+  "diversity_norm": 0.0026,
+  "tokens_distincts": 21355,
+  "unique_words": 56,
+  "total_words": 60,
+  "shared_words": [
+   "ans",
+   "grand",
+   "prix"
+  ],
+  "n_shared": 3
+ },
+ "npmi": {
+  "npmi_mean": 0.2791,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2839,
+    "top_words": "gouvernement général conseil président ministre loi guerre commission ordre pays"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3034,
+    "top_words": "homme ans femme jeune temps mort grand vie fille point"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1819,
+    "top_words": "prix ans lille demande maison francs adresser vente saint vendre"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3329,
+    "top_words": "théâtre opéra rôle succès grand musique public comédie représentation artistes"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2649,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3078,
+    "top_words": "banque cours nord crédit fer prix valeurs actions société lyon"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1531,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1909,
+    "top_words": "général corps conseil grand adresser maison demande bureau femme droit"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1079,
+    "top_words": "num ans saint prix directeur école pierre pharmacie albi chemins"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.0612,
+    "top_words": "amiral homme ans reynière samuel jacques égypte cœur assemblée goblet"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2398,
+    "top_words": "temps ordre loi réunion projet cabinet union nouvelle question ministre"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2413,
+    "top_words": "ministère chambre république vient majorité président gauche donné pays ancien"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1998,
+    "top_words": "num société générale francs exp obligations crédit titres banque direct"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

@@ -1,0 +1,619 @@
+{
+  "fascicule": "4773609",
+  "usage": {
+    "prompt_tokens": 54098,
+    "completion_tokens": 1778,
+    "total_tokens": 55876,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 30.27,
+    "temps_reponse_min_s": 11.94,
+    "temps_reponse_max_s": 18.33,
+    "temps_reponse_moyen_s": 15.14,
+    "temps_reponse_median_s": 15.14
+  },
+  "articles": [
+    {
+      "article_id": "DIV.47",
+      "title": "La Conférence des Chemins Orientaux à Budapest.",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.67",
+      "title": "M. Christitch et M Grouitch.",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000126",
+          "label_fr": "Droit international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.116",
+      "title": "Histoire du palais de l'Ambassade de France à Thérapia. : Par Mme Caroline Suchodolska.",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.164",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.167",
+      "title": "Les puissances et la Serbie. : (Par un Patriote serbe.)",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.215",
+      "title": "Un faux-pas.",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.237",
+      "title": "Turcs et Hellènes.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000694",
+          "label_fr": "Ramadan"
+        },
+        {
+          "code": "20000679",
+          "label_fr": "Judaïsme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.264",
+      "title": "DIV.264",
+      "themes": [
+        {
+          "code": "20000741",
+          "label_fr": "Institution scientifique"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.273",
+      "title": "Discours de M. Auguste Tréfort, Président de l'Académie.",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.299",
+      "title": "L'évêque Arnold Ipolyi. Par M. Guillaume Fraknόi.",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.348",
+      "title": "Naturalistes hongrois au XVIIIe siècle.",
+      "themes": [
+        {
+          "code": "20000736",
+          "label_fr": "Innovation scientifique"
+        },
+        {
+          "code": "20000741",
+          "label_fr": "Institution scientifique"
+        },
+        {
+          "code": "20000719",
+          "label_fr": "Biologie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.360",
+      "title": "La grande salle de l'Académie.",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.372",
+      "title": "Rapport annuel (1887—8)du Secrétaire général de l'Académie.",
+      "themes": [
+        {
+          "code": "20000741",
+          "label_fr": "Institution scientifique"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.390",
+      "title": "Les prix de l'Académie.",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.399",
+      "title": "Les élections.",
+      "themes": [
+        {
+          "code": "20000741",
+          "label_fr": "Institution scientifique"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.411",
+      "title": "Les Concours de l'Académie.",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000752",
+          "label_fr": "Sciences politiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.446",
+      "title": "DIV.446",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20000438",
+          "label_fr": "Océans"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.457",
+      "title": "DIV.457",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000434",
+          "label_fr": "Montagnes"
+        },
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.471",
+      "title": "La cour d'Annam.",
+      "themes": [
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000408",
+          "label_fr": "Collège"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.487",
+      "title": "La vie sociale et littéraire.",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000818",
+          "label_fr": "Activités caritatives"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.500",
+      "title": "Nouvelles économiques.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.508",
+      "title": "DIV.508",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.512",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000553",
+          "label_fr": "Lieu de loisirs"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.519",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.525",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000553",
+          "label_fr": "Lieu de loisirs"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.533",
+      "title": "DIV.533",
+      "themes": [
+        {
+          "code": "20000553",
+          "label_fr": "Lieu de loisirs"
+        },
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        },
+        {
+          "code": "20000465",
+          "label_fr": "Régime"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.542",
+      "title": "DIV.542",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.554",
+      "title": "DIV.554",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.578",
+      "title": "DIV.578",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.586",
+      "title": "DIV.586",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.623",
+      "title": "DIV.623",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.635",
+      "title": "DIV.635",
+      "themes": [
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000553",
+          "label_fr": "Lieu de loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.652",
+      "title": "DIV.652",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.666",
+      "title": "DIV.666",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.672",
+      "title": "DIV.672",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.692",
+      "title": "DIV.692",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000553",
+          "label_fr": "Lieu de loisirs"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.714",
+      "title": "DIV.714",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    }
+  ]
+}

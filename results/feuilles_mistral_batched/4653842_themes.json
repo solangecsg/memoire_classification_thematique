@@ -1,0 +1,681 @@
+{
+  "fascicule": "4653842",
+  "usage": {
+    "prompt_tokens": 60150,
+    "completion_tokens": 1978,
+    "total_tokens": 62128,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 37.15,
+    "temps_reponse_min_s": 18.41,
+    "temps_reponse_max_s": 18.74,
+    "temps_reponse_moyen_s": 18.57,
+    "temps_reponse_median_s": 18.57
+  },
+  "articles": [
+    {
+      "article_id": "DIV.28",
+      "title": "Paris, le 30 Juin.",
+      "themes": [
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        },
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.72",
+      "title": "DIV.72",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000067",
+          "label_fr": "Rébellion"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.75",
+      "title": "DIV.75",
+      "themes": [
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.78",
+      "title": "DIV.78",
+      "themes": [
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.91",
+      "title": "DIV.91",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20001316",
+          "label_fr": "Conflit frontalier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.96",
+      "title": "Des colonies agricoles de bienfaisance du royaume des Pays-Bas.",
+      "themes": [
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.165",
+      "title": "LE LIVRE DES MYSTÈRES : LA SŒUR DES FANTOMES Par M. PAUL FÉVAL",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.303",
+      "title": "DIV.303",
+      "themes": [
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.306",
+      "title": "DIV.306",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.315",
+      "title": "DIV.315",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.343",
+      "title": "DIV.343",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.347",
+      "title": "Sénat.",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000620",
+          "label_fr": "Fiscalité"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.369",
+      "title": "DIV.369",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000401",
+          "label_fr": "École primaire"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.391",
+      "title": "Nouvelles diverses.",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.420",
+      "title": "Banlieue de Paris.",
+      "themes": [
+        {
+          "code": "20000628",
+          "label_fr": "Urbanisme"
+        },
+        {
+          "code": "20000423",
+          "label_fr": "Politique de l'environnement"
+        },
+        {
+          "code": "20000401",
+          "label_fr": "École primaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.440",
+      "title": "Statistique parisienne du mois de mal.",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.468",
+      "title": "La Femme et l'Enfant, : PAR M. ALPHONSE JOBEZ (1).",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000754",
+          "label_fr": "Sociologie"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.496",
+      "title": "De Sa Propriété littéraire et artistique au point de vue international, : PAR ALFRED VILLEFORT, attaché au ministère des affaires étrangères (1).",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000749",
+          "label_fr": "Le droit"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.519",
+      "title": "Emploi de la journée à Paris.",
+      "themes": [
+        {
+          "code": "20000415",
+          "label_fr": "Étudiants"
+        },
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.548",
+      "title": "Bulletin commercial.",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.585",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.589",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.593",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.596",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.600",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.604",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.607",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.610",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.614",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.617",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000478",
+          "label_fr": "Thérapie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.620",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000217",
+          "label_fr": "Chimie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.625",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000572",
+          "label_fr": "Tendance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.629",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.638",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.645",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000478",
+          "label_fr": "Thérapie"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.654",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.672",
+      "title": "DIV.672",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.698",
+      "title": "DIV.698",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.732",
+      "title": "BOURSES ÉTRANGÈRES.",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.743",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.753",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.759",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.769",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.783",
+      "title": "Spectacles du 1er juillet",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    }
+  ]
+}

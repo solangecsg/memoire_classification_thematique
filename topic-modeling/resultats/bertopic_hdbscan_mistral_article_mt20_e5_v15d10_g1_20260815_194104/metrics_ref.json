@@ -1,0 +1,230 @@
+{
+ "meta": {
+  "model": "bertopic_hdbscan",
+  "run_id": "bertopic_hdbscan_mistral_article_mt20_e5_v15d10_g1_20260815_194104",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 31,
+  "k_demande": null,
+  "min_taille": 20,
+  "graine": 1,
+  "n_docs": 5361,
+  "n_sans_groupe": 1743,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "umap_voisins": 15,
+  "umap_dimensions": 10,
+  "longueur_max": 512,
+  "duree_s": 17.9
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.0,
+  "entropy_max": 3.434,
+  "entropy_normalized": 0.0
+ },
+ "diversity": {
+  "diversity": 0.8516,
+  "diversity_norm": 0.0124,
+  "tokens_distincts": 21355,
+  "unique_words": 264,
+  "total_words": 310,
+  "shared_words": [
+   "act",
+   "actes",
+   "ans",
+   "assemblée",
+   "banque",
+   "comique",
+   "comédie",
+   "cours",
+   "crédit",
+   "femme",
+   "fer",
+   "gaz",
+   "gouvernement",
+   "général",
+   "infanterie",
+   "jeune",
+   "lib",
+   "lyon",
+   "maire",
+   "marché",
+   "mort",
+   "nord",
+   "opéra",
+   "prix",
+   "président",
+   "roman",
+   "rôle",
+   "saint",
+   "théâtre",
+   "troupes",
+   "valeurs",
+   "âgé"
+  ],
+  "n_shared": 32
+ },
+ "npmi": {
+  "npmi_mean": 0.2801,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2649,
+    "top_words": "prix équipe club match course épreuve mètres coupe championnat tour"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2604,
+    "top_words": "lille demande prix maison vendre renault adresser echo bureau ecrire"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3127,
+    "top_words": "loi gouvernement commission chambre assemblée droit président projet ministre conseil"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2417,
+    "top_words": "gouvernement allemagne guerre italie pays prince troupes politique général berlin"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2496,
+    "top_words": "ans police femme mort enquête âgé saint arrêté jeune cadavre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3541,
+    "top_words": "maladies estomac peau eau flacon traitement boîte sang pilules guérison"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3527,
+    "top_words": "homme yeux jeune fille père jacques tête femme mère cœur"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.4545,
+    "top_words": "théâtre opéra folies revue cirque concert comique variétés soirs relâche"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3674,
+    "top_words": "rôle théâtre succès public talent opéra artiste artistes acte scène"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.4109,
+    "top_words": "lib act crédit banque nord valeurs cours orléans gaz lyon"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3752,
+    "top_words": "kil courant cote marché blés disponible froment prix avoine sacs"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2009,
+    "top_words": "mmes comique actes opéra rôle jeune ténor comédie musique guillemin"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1472,
+    "top_words": "billets dunkerque classe oran départ départs fer ang saint cap"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3827,
+    "top_words": "banque cours valeurs actions crédit millions fonds marché rente clôture"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1285,
+    "top_words": "ans syndic maire juge saint comm prov adjoint veuve marchand"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1816,
+    "top_words": "port navire commandant tait troupes vapeur prusse bord général empereur"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2512,
+    "top_words": "volume jésus vol grand histoire illustré roman almanach prix vaudeville"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3633,
+    "top_words": "banque nord gaz lyon fer comp cours crédit act lib"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3114,
+    "top_words": "obsèques décédé infanterie mort funérailles église âge maire inhumation lieutenant"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.4392,
+    "top_words": "manœuvres exercices flotte grandes française fleete méditerranée navires eaux marins"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.2433,
+    "top_words": "réunion priés assister comité salle générale citoyens réunir demie assemblée"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.2572,
+    "top_words": "peinture roman art livre poésie peintre peintres vie jean auteur"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.3464,
+    "top_words": "grève ouvriers syndicats travail employés mineurs travailleurs délégués revendications fédération"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.2786,
+    "top_words": "abonnement abonnés départements bons poste abonnements francs abonné prime tableaux"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.4223,
+    "top_words": "théâtre opéra matinée représentation spectacle actes comédie orchestre représentations comique"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.2858,
+    "top_words": "température ciel vent thermomètre nord ouest pluies faible âgé mer"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.3218,
+    "top_words": "régiment capitaine infanterie légion colonel brigade général division honneur artillerie"
+   },
+   {
+    "topic_id": 27,
+    "npmi": -0.1259,
+    "top_words": "vii viii iii solution problème mat sorties négation noms dés"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.1792,
+    "top_words": "jury assises jurés président accusé témoins osborne audience avocat prison"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.1141,
+    "top_words": "école carrières cours dessin cahier papier pages études enseignement anglais"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.3109,
+    "top_words": "bataillon obus versailles fort batterie garde vanves issy citoyen feu"
+   }
+  ]
+ }
+}

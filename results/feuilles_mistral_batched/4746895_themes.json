@@ -1,0 +1,1583 @@
+{
+  "fascicule": "4746895",
+  "usage": {
+    "prompt_tokens": 126418,
+    "completion_tokens": 4539,
+    "total_tokens": 130957,
+    "cached_tokens": 0,
+    "n_calls": 5,
+    "temps_reponse_total_s": 71.16,
+    "temps_reponse_min_s": 11.72,
+    "temps_reponse_max_s": 18.18,
+    "temps_reponse_moyen_s": 14.23,
+    "temps_reponse_median_s": 12.83
+  },
+  "articles": [
+    {
+      "article_id": "DIV.33",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.38",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.46",
+      "title": "TEMPERAMENTS ET DOCTRINES",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000653",
+          "label_fr": "Système politique"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.66",
+      "title": "Le Président Loubet.",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000477",
+          "label_fr": "Vaccins"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.115",
+      "title": "L'offensive manquée",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.134",
+      "title": "M. Léon Blum",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.154",
+      "title": "Le coup du Père François",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.165",
+      "title": "Un étrange parlementaire !",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        },
+        {
+          "code": "20000101",
+          "label_fr": "Crime organisé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.178",
+      "title": "Le souvenir de Robert de Flers.",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.188",
+      "title": "Le banquet François Pietri.",
+      "themes": [
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        },
+        {
+          "code": "20000613",
+          "label_fr": "Ministres"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.199",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.213",
+      "title": "DIV.213",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.220",
+      "title": "La femme de chambre et sa comtesse par Anna KACHINA",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000801",
+          "label_fr": "Pauvreté"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.334",
+      "title": "Un voyage en Amérique du Sud Par Georges PORTMANN",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        },
+        {
+          "code": "20000442",
+          "label_fr": "Écosystème"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.444",
+      "title": "DIV.444",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.479",
+      "title": "Pierre Louys et Aphrodite par R. CARDINNE -PETIT",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000399",
+          "label_fr": "Éducation religieuse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.530",
+      "title": "Le cabinet secret (suite).",
+      "themes": [
+        {
+          "code": "20000753",
+          "label_fr": "Psychologie"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.546",
+      "title": "La justice du peuple.",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.565",
+      "title": "JANE MARNAC par Paul REBOUX",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.620",
+      "title": "DIV.620",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.665",
+      "title": "CHEMINS DE FER DE L'ETAT Le Havre-Southampton",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000339",
+          "label_fr": "Transport quotidien"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.674",
+      "title": "DIV.674",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.725",
+      "title": "AMOUR NUPTIAL de Jacques de Lacretelle par Abel HERMANT, de l'Académie Française",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000316",
+          "label_fr": "Métaux et minéraux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.753",
+      "title": "LES TROIS ARTS DE Mme ANDRÉE SIKORSKA",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000316",
+          "label_fr": "Métaux et minéraux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.774",
+      "title": "Eloge d'un mari, par MAX FISCHER (Le- marget).",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.779",
+      "title": "Où va la Syrie, par ROBERT DE BEAUPLAN (Tallandier).",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.784",
+      "title": "Océan et Brésil, par ABEL BONNARD (Flammarion).",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.789",
+      "title": "L'Initiatrice aux mains vides, par JEANNE GALZY (Rieder).",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000416",
+          "label_fr": "Enseignants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.794",
+      "title": "Psychologie de l'immortalité, par BERNARD GRASSET (Nouvelle Revue française).",
+      "themes": [
+        {
+          "code": "20000751",
+          "label_fr": "Philosophie"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.800",
+      "title": "Les faux poids de la balance, par L.-G. GUERDAN (Argo).",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.805",
+      "title": "Le mystère du chevalier d'Eon, par JEAN MOURA et PAUL LOUVET (Nouvelle Revue Française).",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.810",
+      "title": "Dans les houles d'Islande, par EMILE CONDROYER (Nouvelle Revue Critique).",
+      "themes": [
+        {
+          "code": "20000213",
+          "label_fr": "Pêche"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.815",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.824",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.833",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.842",
+      "title": "DIV.842",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.851",
+      "title": "VOICI TON MAITRE : Roman, par MARCEL, PRÉVOST, de l'Académie Française",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        },
+        {
+          "code": "20000415",
+          "label_fr": "Étudiants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.914",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        },
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.923",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.933",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.941",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.950",
+      "title": "FORTUNÉ Comédie en un acte de Robert DELAMARE : Pièce créée au Théâtre du Grand Guignol, le 14 Octobre 1929",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1309",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1315",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1323",
+      "title": "Marseille à l'étranger",
+      "themes": [
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1351",
+      "title": "LEÇONS D'ANGLAIS",
+      "themes": [
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000763",
+          "label_fr": "Technologie de l'information et Informatique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1368",
+      "title": "Suivez-moi, Madame... Par Pierre WOLFF",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1421",
+      "title": "RÊVES DE NOËL",
+      "themes": [
+        {
+          "code": "20000801",
+          "label_fr": "Pauvreté"
+        },
+        {
+          "code": "20000535",
+          "label_fr": "Allocations chômage"
+        },
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1447",
+      "title": "Paris -1900",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1476",
+      "title": "EN VOUDRIEZ-VOUS CHEZ VOUS ?",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1494",
+      "title": "DIV.1494",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1501",
+      "title": "NOËL ! NOËL !",
+      "themes": [
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1509",
+      "title": "DIV.1509",
+      "themes": [
+        {
+          "code": "20000100",
+          "label_fr": "Enlèvement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1516",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1522",
+      "title": "Adjugé!",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000039",
+          "label_fr": "Histoire de l'art"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1531",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1535",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1543",
+      "title": "DIV.1543",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1553",
+      "title": "DIV.1553",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1564",
+      "title": "DIV.1564",
+      "themes": [
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1599",
+      "title": "DIV.1599",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1607",
+      "title": "DIV.1607",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1614",
+      "title": "DIV.1614",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1624",
+      "title": "DIV.1624",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1638",
+      "title": "LA SANTE : PATES ET PURÉES",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000465",
+          "label_fr": "Régime"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1653",
+      "title": "LA TABLE : Réveillon",
+      "themes": [
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1669",
+      "title": "LA COIFFURE",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1680",
+      "title": "LA MODE",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20001056",
+          "label_fr": "Ski"
+        },
+        {
+          "code": "20000942",
+          "label_fr": "Gymnastique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1699",
+      "title": "DIV.1699",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        },
+        {
+          "code": "20000790",
+          "label_fr": "Enfants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1712",
+      "title": "Conseils pour Zoé",
+      "themes": [
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1726",
+      "title": "Les soins du visage...",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1737",
+      "title": "Quand la femme est moderne...",
+      "themes": [
+        {
+          "code": "20000225",
+          "label_fr": "Informatique et télécommunications"
+        },
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1746",
+      "title": "BALS D'AUTREFOIS",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1761",
+      "title": "LE NOUVEAU SAVOIR-VIVRE : CARTES DE DAMES",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000120",
+          "label_fr": "Droits civiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1780",
+      "title": "DIV.1780",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1785",
+      "title": "Le musée du Louvre chez la marquise de Sévigné",
+      "themes": [
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1794",
+      "title": "Une adresse à retenir",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1799",
+      "title": "Il y aura toujours des blondes.",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1818",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1831",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1838",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1847",
+      "title": "AU CHATELET : ROBERT-LE-PIRATE",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1862",
+      "title": "LA MUSIQUE : Wanda Landowska",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000039",
+          "label_fr": "Histoire de l'art"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1873",
+      "title": "LES DISQUES : Chants étrangers",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1883",
+      "title": "MARCHE AUX HOMMES par J. KESSEL",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1914",
+      "title": "SHANGAI",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1932",
+      "title": "DANSES : Pomiès et Nikitina",
+      "themes": [
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1949",
+      "title": "DEVANT LE HAUT-PARLEUR : Comme chez Nicollet",
+      "themes": [
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1959",
+      "title": "AU CINEMA : Prisonniers de la montagne",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1977",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1985",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1991",
+      "title": "Une étoile nouvelle.",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1997",
+      "title": "Un nouveau cigare",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2004",
+      "title": "Phonographes.",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2009",
+      "title": "Hasard et cinéma.",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2019",
+      "title": "Il faut choisir",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2024",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2029",
+      "title": "L'école de la jeunesse",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2044",
+      "title": "DIV.2044",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2068",
+      "title": "DIV.2068",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2094",
+      "title": "DIV.2094",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000492",
+          "label_fr": "Personnel médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2146",
+      "title": "DIV.2146",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2155",
+      "title": "DIV.2155",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2167",
+      "title": "DIV.2167",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000051",
+          "label_fr": "Télévision"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2191",
+      "title": "DIV.2191",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2199",
+      "title": "DIV.2199",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2206",
+      "title": "DIV.2206",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000510",
+          "label_fr": "Apprentissage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2225",
+      "title": "DIV.2225",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2229",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000783",
+          "label_fr": "Divorce"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2249",
+      "title": "L'ABBÉ GOTTELAND",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2263",
+      "title": "Les nuits du Yang-Tsé par André BERNIS",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2389",
+      "title": "SOURIRES",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2408",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2414",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000745",
+          "label_fr": "Sciences économiques"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2418",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2441",
+      "title": "-PETITES ANNONCES : 7 francs la ligne (Minimum trois lignes)",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2553",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        }
+      ]
+    }
+  ]
+}

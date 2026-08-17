@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": -0.045,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -0.2912,
+    "top_words": "ministère amiral chambre reynière ordre che chance mer corps majorité"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.0883,
+    "top_words": "général do gauche temps préfet union cabinet pays membres bureau"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.0193,
+    "top_words": "saint dé con générale vient valeurs directeur points fermeté bourse"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.1322,
+    "top_words": "prix droit grand cours escompte ré gouvernement table capsules titre"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.0928,
+    "top_words": "num fr francs titres société rembourser oblig an obligations er"
+   },
+   {
+    "topic_id": 5,
+    "npmi": -0.0467,
+    "top_words": "ans conseil ment homme ancien travail succès argent fer bonheur"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

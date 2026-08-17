@@ -1,0 +1,503 @@
+{
+  "fascicule": "4773937",
+  "usage": {
+    "prompt_tokens": 39160,
+    "completion_tokens": 1481,
+    "total_tokens": 40641,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 21.9,
+    "temps_reponse_min_s": 7.39,
+    "temps_reponse_max_s": 14.51,
+    "temps_reponse_moyen_s": 10.95,
+    "temps_reponse_median_s": 10.95
+  },
+  "articles": [
+    {
+      "article_id": "DIV.27",
+      "title": "DIV.27",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.34",
+      "title": "PETITE REVUE DU MOIS DE MAI",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.78",
+      "title": "DIV.78",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.81",
+      "title": "DIV.81",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.95",
+      "title": "DIV.95",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.99",
+      "title": "DIV.99",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.114",
+      "title": "DIV.114",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000606",
+          "label_fr": "Pouvoir exécutif"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.155",
+      "title": "IV",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.163",
+      "title": "DIV.163",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        },
+        {
+          "code": "20000816",
+          "label_fr": "Comportement sexuel"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.167",
+      "title": "DIV.167",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000816",
+          "label_fr": "Comportement sexuel"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.176",
+      "title": "DIV.176",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        },
+        {
+          "code": "20000816",
+          "label_fr": "Comportement sexuel"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.182",
+      "title": "DIV.182",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        },
+        {
+          "code": "20000816",
+          "label_fr": "Comportement sexuel"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.189",
+      "title": "DIV.189",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.196",
+      "title": "DIV.196",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.205",
+      "title": "DIV.205",
+      "themes": [
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.211",
+      "title": "DIV.211",
+      "themes": [
+        {
+          "code": "20001103",
+          "label_fr": "Mesures disciplinaires dans le sport"
+        },
+        {
+          "code": "20000492",
+          "label_fr": "Personnel médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.222",
+      "title": "DIV.222",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.226",
+      "title": "DIV.226",
+      "themes": [
+        {
+          "code": "20000801",
+          "label_fr": "Pauvreté"
+        },
+        {
+          "code": "20000790",
+          "label_fr": "Enfants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.232",
+      "title": "DIV.232",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.239",
+      "title": "DIV.239",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.253",
+      "title": "DIV.253",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.265",
+      "title": "DIV.265",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.278",
+      "title": "DIV.278",
+      "themes": [
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.289",
+      "title": "DIV.289",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.306",
+      "title": "DIV.306",
+      "themes": [
+        {
+          "code": "20001103",
+          "label_fr": "Mesures disciplinaires dans le sport"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.380",
+      "title": "LE HIGH-LIFE : LES SNOBS.",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.400",
+      "title": "DIV.400",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.423",
+      "title": "DIV.423",
+      "themes": [
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.451",
+      "title": "DIV.451",
+      "themes": [
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.464",
+      "title": "LES AMOURS DE MIRABEAU : ROMAN HISTORIQUE",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000126",
+          "label_fr": "Droit international"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.563",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    }
+  ]
+}

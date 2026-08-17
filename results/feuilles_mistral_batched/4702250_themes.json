@@ -1,0 +1,215 @@
+{
+  "fascicule": "4702250",
+  "usage": {
+    "prompt_tokens": 20762,
+    "completion_tokens": 574,
+    "total_tokens": 21336,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 13.16,
+    "temps_reponse_min_s": 13.16,
+    "temps_reponse_max_s": 13.16,
+    "temps_reponse_moyen_s": 13.16,
+    "temps_reponse_median_s": 13.16
+  },
+  "articles": [
+    {
+      "article_id": "DIV.26",
+      "title": "ANGLETERRE.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000643",
+          "label_fr": "Aide internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.37",
+      "title": "AFFAIRES D'ORIENT.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000677",
+          "label_fr": "Islam"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.67",
+      "title": "INTÉRIEUR.",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000586",
+          "label_fr": "Opération de vote"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.78",
+      "title": "ÉLECTIONS DE PARIS.",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000586",
+          "label_fr": "Opération de vote"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.113",
+      "title": "DIV.113",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.119",
+      "title": "DIV.119",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.153",
+      "title": "Portrait des électeurs payant 300 fr.",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        },
+        {
+          "code": "20000581",
+          "label_fr": "Financement de campagne"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.174",
+      "title": "Au rédacteur du Courrier Français.",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.186",
+      "title": "COURS DE LA BOURSE. ( 15 mai 1822. )",
+      "themes": [
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.199",
+      "title": "SPECTACLES, du 16 mai.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.208",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    }
+  ]
+}

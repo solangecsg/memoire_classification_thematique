@@ -1,0 +1,166 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_article_k20_g5_f5_l3_20260814_233854",
+  "source": "bnf",
+  "granularite": "article",
+  "k": 20,
+  "iterations": 2000,
+  "graine": 5,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 4901,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 711498,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "pos": null,
+  "duree_s": 121.4
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.8694,
+  "entropy_max": 2.9957,
+  "entropy_normalized": 0.624
+ },
+ "diversity": {
+  "diversity": 0.8,
+  "diversity_norm": 0.0075,
+  "tokens_distincts": 21356,
+  "unique_words": 160,
+  "total_words": 200,
+  "shared_words": [
+   "ans",
+   "banque",
+   "compagnie",
+   "conseil",
+   "corps",
+   "cours",
+   "crédit",
+   "femme",
+   "francs",
+   "gouvernement",
+   "grand",
+   "grande",
+   "guerre",
+   "général",
+   "homme",
+   "lille",
+   "maison",
+   "mètres",
+   "nord",
+   "num",
+   "pays",
+   "point",
+   "prix",
+   "saint"
+  ],
+  "n_shared": 24
+ },
+ "npmi": {
+  "npmi_mean": 0.233,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1296,
+    "top_words": "num oran lille francs lot maison docteur prix civil notaire"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2865,
+    "top_words": "point temps mieux voir partie fort donner grande prendre bonne"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3865,
+    "top_words": "homme jeune femme fille yeux père tête mère pauvre petit"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3146,
+    "top_words": "hommes pays esprit vie homme peuple monde liberté politique point"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2493,
+    "top_words": "gouvernement angleterre allemagne pays français anglais guerre etats prince londres"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2348,
+    "top_words": "président conseil général république membres maire comité parti réunion assemblée"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1889,
+    "top_words": "saint ans num jean marie henri louis paul pierre georges"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2413,
+    "top_words": "num francs société millions banque cours crédit fonds actions compagnie"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2036,
+    "top_words": "travail travaux industrie enseignement école produits cours vue commerce enfants"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2285,
+    "top_words": "num prix kil courant marché kilos cours cote qualité disponible"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2528,
+    "top_words": "num loi commission chambre projet ministre gouvernement droit question conseil"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2826,
+    "top_words": "num cpt nord lyon cours fin banque remb crédit gaz"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1717,
+    "top_words": "num prix club équipe course tour épreuve match francs mètres"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2643,
+    "top_words": "police ans cour prison affaire mort commissaire crime tribunal femme"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1321,
+    "top_words": "num demande lille prix maison ecrire bureau vendre echo int"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1729,
+    "top_words": "num nord fer saint compagnie service gare mètres chemin train"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.3345,
+    "top_words": "théâtre rôle opéra succès musique public grand acte comique comédie"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.0939,
+    "top_words": "num prix exposition grand académie fortuné volume francs histoire art"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2328,
+    "top_words": "eau petits blanc noir rouge air corps beauté dames grande"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2581,
+    "top_words": "num général armée guerre chef troupes officiers capitaine commandant corps"
+   }
+  ]
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "meta": {
+  "model": "bertopic_kmeans",
+  "run_id": "bertopic_kmeans_mistral_article_k10_e5_g1_20260815_161809",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 10,
+  "k_demande": 10,
+  "min_taille": null,
+  "graine": 1,
+  "n_docs": 5361,
+  "n_sans_groupe": 0,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "longueur_max": 512,
+  "duree_s": 20.5
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.0,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.0
+ },
+ "diversity": {
+  "diversity": 0.89,
+  "diversity_norm": 0.0042,
+  "tokens_distincts": 21355,
+  "unique_words": 89,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "femme",
+   "gouvernement",
+   "grand",
+   "général",
+   "opéra",
+   "prix",
+   "saint",
+   "temps",
+   "théâtre"
+  ],
+  "n_shared": 10
+ },
+ "npmi": {
+  "npmi_mean": 0.2868,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2938,
+    "top_words": "conseil loi président général commission ministre chambre gouvernement assemblée droit"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.193,
+    "top_words": "prix lille ans demande maison francs vendre adresser renault bureau"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2649,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3246,
+    "top_words": "homme femme jeune temps yeux monde grand point vie fille"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2524,
+    "top_words": "gouvernement guerre allemagne général troupes pays armée roi politique français"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2167,
+    "top_words": "ans saint mort police femme âgé feu enquête temps arrêté"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3078,
+    "top_words": "banque cours nord crédit fer valeurs actions société lyon prix"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3432,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes saint revue"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3501,
+    "top_words": "rôle théâtre public succès artistes grand talent artiste scène opéra"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3218,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure guérison"
+   }
+  ]
+ }
+}

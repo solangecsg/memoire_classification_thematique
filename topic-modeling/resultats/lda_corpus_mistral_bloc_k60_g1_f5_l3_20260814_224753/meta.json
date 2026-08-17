@@ -1,0 +1,18 @@
+{
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k60_g1_f5_l3_20260814_224753",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 60,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 43820,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 725142,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "duree_s": 314.7
+}

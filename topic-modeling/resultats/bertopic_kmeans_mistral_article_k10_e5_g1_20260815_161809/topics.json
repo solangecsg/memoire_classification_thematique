@@ -1,0 +1,52 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "conseil loi président général commission ministre chambre gouvernement assemblée droit",
+    "size": 920
+  },
+  {
+    "topic_id": 1,
+    "top_words": "prix lille ans demande maison francs vendre adresser renault bureau",
+    "size": 727
+  },
+  {
+    "topic_id": 2,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat",
+    "size": 572
+  },
+  {
+    "topic_id": 3,
+    "top_words": "homme femme jeune temps yeux monde grand point vie fille",
+    "size": 567
+  },
+  {
+    "topic_id": 4,
+    "top_words": "gouvernement guerre allemagne général troupes pays armée roi politique français",
+    "size": 549
+  },
+  {
+    "topic_id": 5,
+    "top_words": "ans saint mort police femme âgé feu enquête temps arrêté",
+    "size": 545
+  },
+  {
+    "topic_id": 6,
+    "top_words": "banque cours nord crédit fer valeurs actions société lyon prix",
+    "size": 494
+  },
+  {
+    "topic_id": 7,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes saint revue",
+    "size": 395
+  },
+  {
+    "topic_id": 8,
+    "top_words": "rôle théâtre public succès artistes grand talent artiste scène opéra",
+    "size": 324
+  },
+  {
+    "topic_id": 9,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure guérison",
+    "size": 268
+  }
+]

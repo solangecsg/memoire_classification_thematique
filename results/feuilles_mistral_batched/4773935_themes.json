@@ -1,0 +1,457 @@
+{
+  "fascicule": "4773935",
+  "usage": {
+    "prompt_tokens": 38572,
+    "completion_tokens": 1217,
+    "total_tokens": 39789,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 17.97,
+    "temps_reponse_min_s": 4.73,
+    "temps_reponse_max_s": 13.23,
+    "temps_reponse_moyen_s": 8.98,
+    "temps_reponse_median_s": 8.98
+  },
+  "articles": [
+    {
+      "article_id": "DIV.29",
+      "title": "DIV.29",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.42",
+      "title": "DIV.42",
+      "themes": [
+        {
+          "code": "20000628",
+          "label_fr": "Urbanisme"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.68",
+      "title": "DIV.68",
+      "themes": [
+        {
+          "code": "20000606",
+          "label_fr": "Pouvoir exécutif"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.82",
+      "title": "DIV.82",
+      "themes": [
+        {
+          "code": "20000606",
+          "label_fr": "Pouvoir exécutif"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.89",
+      "title": "DIV.89",
+      "themes": [
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000704",
+          "label_fr": "Pape"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.102",
+      "title": "DIV.102",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.113",
+      "title": "DIV.113",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.120",
+      "title": "DIV.120",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.124",
+      "title": "DIV.124",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.129",
+      "title": "DIV.129",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.136",
+      "title": "CONFÉRENCES DE MM. MONTEIL, ET GASTINEAU Rédacteurs de l'EUROPE, : au Cercle artistique et à la Libre-Pensée, à Bruxelles.",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        },
+        {
+          "code": "20000646",
+          "label_fr": "Organisation non gouvernementale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.166",
+      "title": "AFFAIRE JAUMART : CONDAMNATION DE L'ACCUSÉ.",
+      "themes": [
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.178",
+      "title": "DIV.178",
+      "themes": [
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.189",
+      "title": "DIV.189",
+      "themes": [
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000719",
+          "label_fr": "Biologie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.198",
+      "title": "DIV.198",
+      "themes": [
+        {
+          "code": "20000719",
+          "label_fr": "Biologie"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.208",
+      "title": "DIV.208",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.220",
+      "title": "DIV.220",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.225",
+      "title": "DIV.225",
+      "themes": [
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.235",
+      "title": "DIV.235",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000003",
+          "label_fr": "Dessin animé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.249",
+      "title": "DIV.249",
+      "themes": [
+        {
+          "code": "20000404",
+          "label_fr": "Lycées"
+        },
+        {
+          "code": "20000653",
+          "label_fr": "Système politique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.255",
+      "title": "DIV.255",
+      "themes": [
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.260",
+      "title": "DIV.260",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000606",
+          "label_fr": "Pouvoir exécutif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.267",
+      "title": "DIV.267",
+      "themes": [
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.271",
+      "title": "DIV.271",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.278",
+      "title": "DIV.278",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000422",
+          "label_fr": "Parcs naturels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.288",
+      "title": "CONTES AUX GRANDS ENFANTS : VII UNE VISITE A ANVERS.",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000044",
+          "label_fr": "Patrimoine"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.415",
+      "title": "CHRONIQUE THÉATRALE : LES THÉATRES DE PARIS. (Correspondance particulière de l' EUROPE.)",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.441",
+      "title": "SCÈNES ET FANTAISIES : CLAUDE ET MARION.",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.510",
+      "title": "AUX ABONNÉS ET LECTEURS DE L'EUROPE",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.525",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    }
+  ]
+}

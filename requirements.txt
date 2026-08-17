@@ -31,3 +31,22 @@ pero-ocr
 # impresso-pipelines : jamais installé/testé dans cet environnement
 # version non figée, à valider avant usage.
 impresso-pipelines               # ocrqa/impresso_ocrqa.py : score OCR Quality Assessment
+
+# Modélisation thématique et regroupement (topic-modeling/)
+# Testé avec Python 3.14.3, macOS, calcul sur MPS.
+# torch figure déjà plus haut sans version pour les notebooks Pero ; la version
+# employée ici est 2.13.0.
+scikit-learn==1.9.0
+scipy==1.18.0
+pandas==3.0.3
+bertopic==0.17.4                 # bertopic_corpus.py
+sentence-transformers==5.7.0     # plongements de phrases
+umap-learn==0.5.12               # réduction de dimension, avant regroupement
+hdbscan==0.8.44                  # regroupement par densité
+transformers==5.15.0             # classla_iptc.py : encodeur affiné XLM-R
+streamlit==1.60.0                # app_jugement.py : évaluation humaine
+
+# MALLET n'est pas un paquet Python et n'est pas redistribué ici.
+# lda_mallet_corpus.py attend la distribution 2021-08 dépliée dans
+# topic-modeling/Mallet-202108/, à prendre sur https://mimno.github.io/Mallet/
+# Un Java 8 ou plus récent est nécessaire pour l'exécuter.

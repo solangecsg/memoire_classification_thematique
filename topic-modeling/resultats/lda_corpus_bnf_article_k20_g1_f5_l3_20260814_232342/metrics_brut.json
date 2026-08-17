@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2437,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.218,
+    "top_words": "num ans cour police prison affaire femme tribunal justice président"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2077,
+    "top_words": "saint ans jean num marie henri louis pierre paul georges"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3001,
+    "top_words": "corps armée hommes feu officiers grande commandant guerre soldats capitaine"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2173,
+    "top_words": "num lille demande maison bureau ans adresser ecrire vendre echo"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2035,
+    "top_words": "exposition art prix grand histoire vient enseignement académie livre école"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1916,
+    "top_words": "num prix équipe club tour course épreuve mètres match grand"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.198,
+    "top_words": "num cpt nord cours kil courant banque lyon crédit gaz"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.4063,
+    "top_words": "homme femme jeune yeux fille vie père cœur tête mère"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3261,
+    "top_words": "point temps voir mieux partie part prendre mal bonne fort"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2105,
+    "top_words": "président général conseil num comité maire membres réunion préfet directeur"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2209,
+    "top_words": "num francs société millions banque cours prix marché fonds crédit"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.0942,
+    "top_words": "num oran prix lot francs docteur maladies vente enfants médecins"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1847,
+    "top_words": "num fer nord service saint compagnie marseille chemin mer départ"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2276,
+    "top_words": "num prix int renault places luxe voitures cond neuve voiture"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2611,
+    "top_words": "eau blanc petits rouge qualité dames verre noir gros air"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3342,
+    "top_words": "pays hommes peuple politique liberté gouvernement droit esprit guerre ordre"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.1828,
+    "top_words": "num grand film revue théâtre films radio palais cinéma royal"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2582,
+    "top_words": "gouvernement français guerre allemagne angleterre général anglais roi etats londres"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2838,
+    "top_words": "num loi commission chambre projet ministre question gouvernement séance droit"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3481,
+    "top_words": "théâtre rôle succès public musique opéra grand acte représentation artiste"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

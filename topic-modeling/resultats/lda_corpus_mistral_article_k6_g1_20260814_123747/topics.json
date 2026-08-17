@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "théâtre ans grand demande maison lille opéra prix rôle succès",
+    "size": 1153
+  },
+  {
+    "topic_id": 1,
+    "top_words": "président conseil ministre commission loi société général francs chambre assemblée",
+    "size": 1051
+  },
+  {
+    "topic_id": 2,
+    "top_words": "homme femme jeune mort ans fille tête yeux cœur père",
+    "size": 722
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num prix saint mètres club équipe jean tour grand concours",
+    "size": 747
+  },
+  {
+    "topic_id": 4,
+    "top_words": "point guerre pays gouvernement grande français hommes temps grand politique",
+    "size": 1031
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num fr cours prix nord banque cv crédit cpt fer",
+    "size": 697
+  }
+]

@@ -1,0 +1,164 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k20_g1_pos_f5_l3_20260814_233707",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 20,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 35089,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 432955,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "pos": "NOUN,PROPN",
+  "duree_s": 115.4
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 2.2118,
+  "entropy_max": 2.9957,
+  "entropy_normalized": 0.7383
+ },
+ "diversity": {
+  "diversity": 0.86,
+  "diversity_norm": 0.0084,
+  "tokens_distincts": 20596,
+  "unique_words": 172,
+  "total_words": 200,
+  "shared_words": [
+   "affaire",
+   "degré",
+   "eau",
+   "france",
+   "gouvernement",
+   "guerre",
+   "homme",
+   "jour",
+   "juillet",
+   "loi",
+   "maison",
+   "mlle",
+   "mois",
+   "numéro",
+   "paris",
+   "pays",
+   "pièce",
+   "point",
+   "prix",
+   "président",
+   "service",
+   "temps"
+  ],
+  "n_shared": 22
+ },
+ "npmi": {
+  "npmi_mean": -0.3293,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -0.6345,
+    "top_words": "fois coup côté main porte nuit maison pied moment temps"
+   },
+   {
+    "topic_id": 1,
+    "npmi": -0.4752,
+    "top_words": "travail industrie point service ouvrier ville produit année vue effet"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.0694,
+    "top_words": "état général armée guerre officier chef troupe corps honneur soldat"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.2228,
+    "top_words": "mme jean mlle henri louis paul charles georges andré fils"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2317,
+    "top_words": "conseil ministre président commission chambre loi projet membre assemblée séance"
+   },
+   {
+    "topic_id": 5,
+    "npmi": -0.2344,
+    "top_words": "femme enfant homme fille monsieur père mère ami cœur oeil"
+   },
+   {
+    "topic_id": 6,
+    "npmi": -0.2366,
+    "top_words": "degré train eau jour manœuvre port gare temps service oran"
+   },
+   {
+    "topic_id": 7,
+    "npmi": -0.0692,
+    "top_words": "homme vie monde chose temps œuvre esprit point idée livre"
+   },
+   {
+    "topic_id": 8,
+    "npmi": -0.4784,
+    "top_words": "eau qualité dame couleur pièce vin table robe objet taille"
+   },
+   {
+    "topic_id": 9,
+    "npmi": -0.067,
+    "top_words": "droit parti gouvernement liberté pays france peuple ordre loi intérêt"
+   },
+   {
+    "topic_id": 10,
+    "npmi": -0.8544,
+    "top_words": "rue paris lille maison place degré boulevard prix numéro avenue"
+   },
+   {
+    "topic_id": 11,
+    "npmi": -1.0,
+    "top_words": "heure soir lieu matin jour dimanche samedi janvier fête juillet"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.0073,
+    "top_words": "école exposition art étude enseignement professeur concours volume science élève"
+   },
+   {
+    "topic_id": 13,
+    "npmi": -0.9217,
+    "top_words": "journal paris mois lettre bureau numéro poste article directeur ligne"
+   },
+   {
+    "topic_id": 14,
+    "npmi": -0.5736,
+    "top_words": "pourcent paris fer chemin nord lyon juillet juin compagnie crédit"
+   },
+   {
+    "topic_id": 15,
+    "npmi": -0.1876,
+    "top_words": "théâtre rôle mlle acte opéra succès public représentation pièce artiste"
+   },
+   {
+    "topic_id": 16,
+    "npmi": -0.4868,
+    "top_words": "cours franc mois prix million valeur société marché banque action"
+   },
+   {
+    "topic_id": 17,
+    "npmi": -0.1116,
+    "top_words": "france gouvernement allemagne guerre angleterre roi prince pays europe affaire"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1501,
+    "top_words": "cour police affaire tribunal justice juge commissaire avocat prison président"
+   },
+   {
+    "topic_id": 19,
+    "npmi": -0.3524,
+    "top_words": "prix france point équipe tour club course épreuve kilomètre paris"
+   }
+  ]
+ }
+}

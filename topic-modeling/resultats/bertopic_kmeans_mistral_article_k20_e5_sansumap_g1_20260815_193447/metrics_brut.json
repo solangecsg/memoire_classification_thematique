@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.3,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3223,
+    "top_words": "président conseil commission général loi ministre séance projet droit chambre"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3152,
+    "top_words": "gouvernement pays loi point droit politique temps parti hommes guerre"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2026,
+    "top_words": "prix francs poste vente abonnement grand librairie volume franco pont"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2746,
+    "top_words": "ans mort police âgé enquête saint arrêté femme hôpital cadavre"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2494,
+    "top_words": "troupes général sud nord ennemi front armée temps hommes ouest"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3944,
+    "top_words": "théâtre opéra comique mmes comédie concert actes musique orchestre grand"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3656,
+    "top_words": "théâtre rôle succès public grand artistes artiste talent œuvre scène"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3956,
+    "top_words": "homme jeune yeux fille femme tête père petit cœur mère"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1847,
+    "top_words": "général ministre saint président vient école secrétaire grand société jean"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2948,
+    "top_words": "commission conseil ministre chambre loi projet président gouvernement général grève"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2673,
+    "top_words": "gouvernement allemagne guerre pays berlin prince italie conférence russie europe"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1779,
+    "top_words": "lille demande ans prix vendre renault saint maison citroën bureau"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3158,
+    "top_words": "prix épreuve course tour auto coureurs circuit coupe club automobile"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.237,
+    "top_words": "maladies peau estomac flacon traitement eau sang cure pilules température"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2024,
+    "top_words": "vente maison oran prix adresser téléphone voitures cuisine etude francs"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3741,
+    "top_words": "banque cours crédit nord actions fer valeurs lyon société gaz"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2052,
+    "top_words": "prix mètres pts poids finale points course francs cmc résultats"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3827,
+    "top_words": "kil courant prix marché disponible cote blés avoine froment kilos"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.4692,
+    "top_words": "équipe match stade club joueurs championnat matches racing équipes terrain"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3695,
+    "top_words": "remb cours lib crédit act nord banque valeurs orléans prix"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

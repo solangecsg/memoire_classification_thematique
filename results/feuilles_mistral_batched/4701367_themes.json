@@ -1,0 +1,185 @@
+{
+  "fascicule": "4701367",
+  "usage": {
+    "prompt_tokens": 20682,
+    "completion_tokens": 537,
+    "total_tokens": 21219,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 9.04,
+    "temps_reponse_min_s": 9.04,
+    "temps_reponse_max_s": 9.04,
+    "temps_reponse_moyen_s": 9.04,
+    "temps_reponse_median_s": 9.04
+  },
+  "articles": [
+    {
+      "article_id": "DIV.21",
+      "title": "EXTÉRIEUR.",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000477",
+          "label_fr": "Vaccins"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.57",
+      "title": "INTERIEUR.",
+      "themes": [
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.74",
+      "title": "Ordonnance du Roi, portant convocation des deux Chambres, en date du 14 octobre 1819.",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000693",
+          "label_fr": "Pentecôte"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000596",
+          "label_fr": "Hauts fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.118",
+      "title": "DIV.118",
+      "themes": [
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000612",
+          "label_fr": "Institutions locales"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.129",
+      "title": "NOUVELLES DES THÉATRES.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20001126",
+          "label_fr": "Site sportif"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.143",
+      "title": "LOTERIE ROYALE DE FRANCE.",
+      "themes": [
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.149",
+      "title": "SPECTACLES DU 17 OCTOBRE.",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.155",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        }
+      ]
+    }
+  ]
+}

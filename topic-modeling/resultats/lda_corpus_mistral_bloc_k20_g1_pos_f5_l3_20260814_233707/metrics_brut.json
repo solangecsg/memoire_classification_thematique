@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.0974,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1157,
+    "top_words": "fois coup côté main porte nuit maison pied moment temps"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.094,
+    "top_words": "travail industrie point service ouvrier ville produit année vue effet"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1444,
+    "top_words": "état général armée guerre officier chef troupe corps honneur soldat"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2246,
+    "top_words": "mme jean mlle henri louis paul charles georges andré fils"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2458,
+    "top_words": "conseil ministre président commission chambre loi projet membre assemblée séance"
+   },
+   {
+    "topic_id": 5,
+    "npmi": -0.0376,
+    "top_words": "femme enfant homme fille monsieur père mère ami cœur oeil"
+   },
+   {
+    "topic_id": 6,
+    "npmi": -0.0165,
+    "top_words": "degré train eau jour manœuvre port gare temps service oran"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1786,
+    "top_words": "homme vie monde chose temps œuvre esprit point idée livre"
+   },
+   {
+    "topic_id": 8,
+    "npmi": -0.1603,
+    "top_words": "eau qualité dame couleur pièce vin table robe objet taille"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1792,
+    "top_words": "droit parti gouvernement liberté pays france peuple ordre loi intérêt"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.0467,
+    "top_words": "rue paris lille maison place degré boulevard prix numéro avenue"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1658,
+    "top_words": "heure soir lieu matin jour dimanche samedi janvier fête juillet"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.0191,
+    "top_words": "école exposition art étude enseignement professeur concours volume science élève"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.0744,
+    "top_words": "journal paris mois lettre bureau numéro poste article directeur ligne"
+   },
+   {
+    "topic_id": 14,
+    "npmi": -0.0423,
+    "top_words": "pourcent paris fer chemin nord lyon juillet juin compagnie crédit"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3118,
+    "top_words": "théâtre rôle mlle acte opéra succès public représentation pièce artiste"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.0484,
+    "top_words": "cours franc mois prix million valeur société marché banque action"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1432,
+    "top_words": "france gouvernement allemagne guerre angleterre roi prince pays europe affaire"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.163,
+    "top_words": "cour police affaire tribunal justice juge commissaire avocat prison président"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.0502,
+    "top_words": "prix france point équipe tour club course épreuve kilomètre paris"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

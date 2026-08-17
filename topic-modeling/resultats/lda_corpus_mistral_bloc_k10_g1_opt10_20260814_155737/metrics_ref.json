@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k10_g1_opt10_20260814_155737",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "optimisation": 10,
+  "burn_in": 20,
+  "n_docs": 46576,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 842406,
+  "duree_s": 82.2
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.892,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.3874
+ },
+ "diversity": {
+  "diversity": 0.82,
+  "diversity_norm": 0.004,
+  "tokens_distincts": 20596,
+  "unique_words": 82,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "cours",
+   "fr",
+   "francs",
+   "grand",
+   "général",
+   "homme",
+   "num",
+   "prix",
+   "président"
+  ],
+  "n_shared": 10
+ },
+ "npmi": {
+  "npmi_mean": 0.0219,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1829,
+    "top_words": "gouvernement général président ministre conseil guerre chambre loi ordre commission"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1674,
+    "top_words": "jeune femme homme ans fille porte mort tête coup mère"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.2888,
+    "top_words": "num fr cpt nord er banque crédit lyon francs cours"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1275,
+    "top_words": "num prix club équipe course grand mètres match épreuve tour"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1412,
+    "top_words": "point monde temps homme vie hommes pays grand œuvre esprit"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.073,
+    "top_words": "num saint général président ans honneur maire école chef jean"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2179,
+    "top_words": "théâtre opéra grand rôle num musique succès comique acte comédie"
+   },
+   {
+    "topic_id": 7,
+    "npmi": -0.4814,
+    "top_words": "num prix fr cv ans demande lille maison pl francs"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.0948,
+    "top_words": "num francs cours prix société millions compagnie fer commerce industrie"
+   },
+   {
+    "topic_id": 9,
+    "npmi": -0.0154,
+    "top_words": "eau noir dames blanc rouge qualité peau laine maladies cheveux"
+   }
+  ]
+ }
+}

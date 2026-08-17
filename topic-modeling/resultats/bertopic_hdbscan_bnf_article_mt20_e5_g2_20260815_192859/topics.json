@@ -1,0 +1,147 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match épreuve course tour coupe championnat mètres",
+    "size": 540
+  },
+  {
+    "topic_id": 1,
+    "top_words": "demande lille ecrire prix int vendre renault echo maison bureau",
+    "size": 366
+  },
+  {
+    "topic_id": 2,
+    "top_words": "opéra théâtre comique concert musique actes mmes comédie radio revue",
+    "size": 313
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement allemagne guerre conférence pays berlin politique europe allemands russie",
+    "size": 279
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ans police enquête jeune femme mort âgé saint hôpital cadavre",
+    "size": 238
+  },
+  {
+    "topic_id": 5,
+    "top_words": "commission loi projet chambre gouvernement assemblée conseil président impôt séance",
+    "size": 233
+  },
+  {
+    "topic_id": 6,
+    "top_words": "maladies estomac peau traitement cure flacon sang beauté teint pharmacie",
+    "size": 229
+  },
+  {
+    "topic_id": 7,
+    "top_words": "yeux homme jeune femme fille père mère mirabeau tête petit",
+    "size": 162
+  },
+  {
+    "topic_id": 8,
+    "top_words": "écoles loi enseignement iii budget point ment instruction mal publique",
+    "size": 99
+  },
+  {
+    "topic_id": 9,
+    "top_words": "kil courant disponible cote marché prix froment kilos sacs calme",
+    "size": 96
+  },
+  {
+    "topic_id": 10,
+    "top_words": "gouvernement peuple hommes révolution monde guerre droit pays français point",
+    "size": 90
+  },
+  {
+    "topic_id": 11,
+    "top_words": "rôle théâtre succès public opéra talent artistes artiste scène acte",
+    "size": 88
+  },
+  {
+    "topic_id": 12,
+    "top_words": "banque cours valeurs millions actions crédit marché fonds bourse chemins",
+    "size": 75
+  },
+  {
+    "topic_id": 13,
+    "top_words": "gaz crédit valeurs banque nord act lyon cours actions obligations",
+    "size": 74
+  },
+  {
+    "topic_id": 14,
+    "top_words": "films film auteurs cinéma mètres production société cinématographique affiche images",
+    "size": 70
+  },
+  {
+    "topic_id": 15,
+    "top_words": "grève ouvriers travail réunion syndicats travailleurs priés générale comité délégués",
+    "size": 69
+  },
+  {
+    "topic_id": 16,
+    "top_words": "volume jésus vol grand roman histoire relié prix gravures vaudeville",
+    "size": 59
+  },
+  {
+    "topic_id": 17,
+    "top_words": "librairie abonnement annonces havas agence poste abonnés francs abonnements publicité",
+    "size": 59
+  },
+  {
+    "topic_id": 18,
+    "top_words": "ans syndic maire juge prov adjoint veuve saint comm marchand",
+    "size": 50
+  },
+  {
+    "topic_id": 19,
+    "top_words": "port navire tempête vapeur capitaine vol mer bord équipage bateau",
+    "size": 47
+  },
+  {
+    "topic_id": 20,
+    "top_words": "obsèques infanterie mort église née inhumation henri cimetière saint deuil",
+    "size": 40
+  },
+  {
+    "topic_id": 21,
+    "top_words": "rose rouge blond ocre pâle noir illisible chien doré clair",
+    "size": 39
+  },
+  {
+    "topic_id": 22,
+    "top_words": "billets départ fer classe train trains départs gare chemins gares",
+    "size": 38
+  },
+  {
+    "topic_id": 23,
+    "top_words": "baromètre température ciel vent nord ouest pluies pluie temps mer",
+    "size": 33
+  },
+  {
+    "topic_id": 24,
+    "top_words": "roi espagne ambassade madrid duc foule elysée maréchal tuileries alphonse",
+    "size": 26
+  },
+  {
+    "topic_id": 25,
+    "top_words": "oran ang dunkerque marseille rel maritimes div paquebots départs fret",
+    "size": 24
+  },
+  {
+    "topic_id": 26,
+    "top_words": "cour peine prison procureur ans témoin auch système avocat police",
+    "size": 23
+  },
+  {
+    "topic_id": 27,
+    "top_words": "capitaine régiment infanterie légion colonel brigade général artillerie militaire honneur",
+    "size": 21
+  },
+  {
+    "topic_id": 28,
+    "top_words": "obus artillerie ennemi attaques plateau fort batteries ouest tranchées mètres",
+    "size": 20
+  }
+]

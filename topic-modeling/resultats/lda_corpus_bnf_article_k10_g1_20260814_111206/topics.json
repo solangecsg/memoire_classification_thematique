@@ -1,0 +1,52 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num saint ans maire jean honneur concours exposition louis henri",
+    "size": 416
+  },
+  {
+    "topic_id": 1,
+    "top_words": "ii num re ie it nt ri do el li",
+    "size": 323
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num prix pl cv club équipe tour mètres course auto",
+    "size": 514
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num fr cours cpt banque nord id valeurs crédit courant",
+    "size": 545
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num fr prix francs demande maison lille vente bureau adresser",
+    "size": 734
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num guerre français général armée roi allemagne angleterre gouvernement anglais",
+    "size": 609
+  },
+  {
+    "topic_id": 6,
+    "top_words": "num président conseil gouvernement commission loi ministre chambre millions droit",
+    "size": 746
+  },
+  {
+    "topic_id": 7,
+    "top_words": "théâtre grand rôle opéra succès musique public acte artistes comique",
+    "size": 476
+  },
+  {
+    "topic_id": 8,
+    "top_words": "point temps monde pays grande hommes vie mieux esprit donner",
+    "size": 552
+  },
+  {
+    "topic_id": 9,
+    "top_words": "femme homme jeune fille mort yeux petit tête porte père",
+    "size": 479
+  }
+]

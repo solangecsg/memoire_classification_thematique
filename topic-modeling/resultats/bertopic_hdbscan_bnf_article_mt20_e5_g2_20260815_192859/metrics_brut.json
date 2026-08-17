@@ -1,0 +1,155 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2682,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2753,
+    "top_words": "prix équipe club match épreuve course tour coupe championnat mètres"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1642,
+    "top_words": "demande lille ecrire prix int vendre renault echo maison bureau"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3247,
+    "top_words": "opéra théâtre comique concert musique actes mmes comédie radio revue"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3048,
+    "top_words": "gouvernement allemagne guerre conférence pays berlin politique europe allemands russie"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.278,
+    "top_words": "ans police enquête jeune femme mort âgé saint hôpital cadavre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3399,
+    "top_words": "commission loi projet chambre gouvernement assemblée conseil président impôt séance"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2667,
+    "top_words": "maladies estomac peau traitement cure flacon sang beauté teint pharmacie"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3368,
+    "top_words": "yeux homme jeune femme fille père mère mirabeau tête petit"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2587,
+    "top_words": "écoles loi enseignement iii budget point ment instruction mal publique"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3484,
+    "top_words": "kil courant disponible cote marché prix froment kilos sacs calme"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3018,
+    "top_words": "gouvernement peuple hommes révolution monde guerre droit pays français point"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.4001,
+    "top_words": "rôle théâtre succès public opéra talent artistes artiste scène acte"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3946,
+    "top_words": "banque cours valeurs millions actions crédit marché fonds bourse chemins"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.425,
+    "top_words": "gaz crédit valeurs banque nord act lyon cours actions obligations"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.238,
+    "top_words": "films film auteurs cinéma mètres production société cinématographique affiche images"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.265,
+    "top_words": "grève ouvriers travail réunion syndicats travailleurs priés générale comité délégués"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.1982,
+    "top_words": "volume jésus vol grand roman histoire relié prix gravures vaudeville"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.0955,
+    "top_words": "librairie abonnement annonces havas agence poste abonnés francs abonnements publicité"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1509,
+    "top_words": "ans syndic maire juge prov adjoint veuve saint comm marchand"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2897,
+    "top_words": "port navire tempête vapeur capitaine vol mer bord équipage bateau"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.322,
+    "top_words": "obsèques infanterie mort église née inhumation henri cimetière saint deuil"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.2331,
+    "top_words": "rose rouge blond ocre pâle noir illisible chien doré clair"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.3092,
+    "top_words": "billets départ fer classe train trains départs gare chemins gares"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.3369,
+    "top_words": "baromètre température ciel vent nord ouest pluies pluie temps mer"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.1487,
+    "top_words": "roi espagne ambassade madrid duc foule elysée maréchal tuileries alphonse"
+   },
+   {
+    "topic_id": 25,
+    "npmi": -0.0385,
+    "top_words": "oran ang dunkerque marseille rel maritimes div paquebots départs fret"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.1744,
+    "top_words": "cour peine prison procureur ans témoin auch système avocat police"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.3427,
+    "top_words": "capitaine régiment infanterie légion colonel brigade général artillerie militaire honneur"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.293,
+    "top_words": "obus artillerie ennemi attaques plateau fort batteries ouest tranchées mètres"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 290
+}

@@ -1,0 +1,102 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_bloc_k10_g1_opt10_20260814_155206",
+  "source": "bnf",
+  "granularite": "bloc",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "optimisation": 10,
+  "burn_in": 20,
+  "n_docs": 46912,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 866496,
+  "duree_s": 86.2
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.97,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.4213
+ },
+ "diversity": {
+  "diversity": 0.78,
+  "diversity_norm": 0.0038,
+  "tokens_distincts": 20602,
+  "unique_words": 78,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "conseil",
+   "cours",
+   "eau",
+   "fr",
+   "francs",
+   "grand",
+   "grande",
+   "ii",
+   "nord",
+   "num",
+   "prix",
+   "saint"
+  ],
+  "n_shared": 13
+ },
+ "npmi": {
+  "npmi_mean": -0.1101,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -0.9322,
+    "top_words": "num ii ie re eau ri nt ia el maladies"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1674,
+    "top_words": "femme homme jeune ans fille porte yeux main petit père"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1332,
+    "top_words": "gouvernement point pays temps guerre question grande politique français droit"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.5684,
+    "top_words": "num fr cpt id francs prix nord cours ii kil"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.0849,
+    "top_words": "num francs commission société prix millions loi conseil projet cours"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2085,
+    "top_words": "num théâtre grand rôle opéra succès musique public artistes acte"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1267,
+    "top_words": "num prix club équipe tour course match épreuve grand mètres"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.0982,
+    "top_words": "num président général saint conseil ministre ans chef cour maire"
+   },
+   {
+    "topic_id": 8,
+    "npmi": -0.496,
+    "top_words": "num ans prix lille pl saint demande maison cv fr"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.0764,
+    "top_words": "num fer nord chemin troupes eau grande hommes corps gare"
+   }
+  ]
+ }
+}

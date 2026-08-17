@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "gouvernement général conseil président ministre loi guerre commission ordre pays",
+    "size": 1535
+  },
+  {
+    "topic_id": 1,
+    "top_words": "homme ans femme jeune temps mort grand vie fille point",
+    "size": 1166
+  },
+  {
+    "topic_id": 2,
+    "top_words": "prix ans lille demande maison francs adresser vente saint vendre",
+    "size": 969
+  },
+  {
+    "topic_id": 3,
+    "top_words": "théâtre opéra rôle succès grand musique public comédie représentation artistes",
+    "size": 618
+  },
+  {
+    "topic_id": 4,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat",
+    "size": 572
+  },
+  {
+    "topic_id": 5,
+    "top_words": "banque cours nord crédit fer prix valeurs actions société lyon",
+    "size": 501
+  }
+]

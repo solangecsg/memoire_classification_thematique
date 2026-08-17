@@ -1,0 +1,9 @@
+{
+  "model": "lda_mallet",
+  "fascicule": "4109000",
+  "k": 10,
+  "iterations": 500,
+  "n_docs": 386,
+  "run_id": "lda_mallet_4109000_bnf_k10_20260706_173102",
+  "source": "bnf"
+}

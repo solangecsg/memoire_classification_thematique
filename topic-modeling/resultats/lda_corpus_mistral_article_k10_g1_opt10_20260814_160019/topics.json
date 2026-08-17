@@ -1,0 +1,52 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "point monde temps pays hommes grand vie grande esprit mieux",
+    "size": 583
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num prix équipe club mètres course tour match épreuve auto",
+    "size": 488
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num fr prix francs demande lille maison vente ans adresser",
+    "size": 795
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num guerre général armée gouvernement allemagne français roi londres troupes",
+    "size": 666
+  },
+  {
+    "topic_id": 4,
+    "top_words": "femme jeune homme fille ans mort père yeux tête porte",
+    "size": 494
+  },
+  {
+    "topic_id": 5,
+    "top_words": "théâtre grand opéra rôle musique succès public comique acte artistes",
+    "size": 482
+  },
+  {
+    "topic_id": 6,
+    "top_words": "num président conseil commission loi gouvernement ministre chambre assemblée général",
+    "size": 839
+  },
+  {
+    "topic_id": 7,
+    "top_words": "num fr cours cv banque nord cpt prix crédit er",
+    "size": 484
+  },
+  {
+    "topic_id": 8,
+    "top_words": "num saint ans prix jean maire honneur école oran lille",
+    "size": 322
+  },
+  {
+    "topic_id": 9,
+    "top_words": "eau noir qualité blanc dames petits laine rouge température demi",
+    "size": 248
+  }
+]

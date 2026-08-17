@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match épreuve course tour coupe mètres championnat",
+    "size": 540
+  },
+  {
+    "topic_id": 1,
+    "top_words": "homme femme jeune yeux fille temps vie père monde petit",
+    "size": 405
+  },
+  {
+    "topic_id": 2,
+    "top_words": "lille ans demande ecrire prix vendre maison int renault adresser",
+    "size": 385
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement allemagne guerre général pays conférence berlin italie armée troupes",
+    "size": 369
+  },
+  {
+    "topic_id": 4,
+    "top_words": "opéra théâtre comique concert musique mmes actes comédie radio revue",
+    "size": 344
+  },
+  {
+    "topic_id": 5,
+    "top_words": "gouvernement guerre hommes point politique pays peuple temps français droit",
+    "size": 343
+  },
+  {
+    "topic_id": 6,
+    "top_words": "loi commission gouvernement chambre projet assemblée conseil ministre président impôt",
+    "size": 333
+  },
+  {
+    "topic_id": 7,
+    "top_words": "ans police mort femme jeune enquête saint crime prison âgé",
+    "size": 323
+  },
+  {
+    "topic_id": 8,
+    "top_words": "prix francs poste librairie dim abonnement vente laine dames franco",
+    "size": 305
+  },
+  {
+    "topic_id": 9,
+    "top_words": "président conseil commission loi ouvriers travail ministre ordre général francs",
+    "size": 274
+  },
+  {
+    "topic_id": 10,
+    "top_words": "maladies estomac peau eau traitement sirop cure flacon sang poudre",
+    "size": 247
+  },
+  {
+    "topic_id": 11,
+    "top_words": "volume films jésus grand rose roman mode vol satin auteurs",
+    "size": 225
+  },
+  {
+    "topic_id": 12,
+    "top_words": "banque valeurs actions cours crédit nord obligations société gaz lyon",
+    "size": 223
+  },
+  {
+    "topic_id": 13,
+    "top_words": "troupes front général commandant ennemi port temps roi artillerie hommes",
+    "size": 200
+  },
+  {
+    "topic_id": 14,
+    "top_words": "exposition honneur général président médaille infanterie capitaine saint prix directeur",
+    "size": 193
+  },
+  {
+    "topic_id": 15,
+    "top_words": "enseignement conseil prix école société concours écoles loi élèves publique",
+    "size": 182
+  },
+  {
+    "topic_id": 16,
+    "top_words": "théâtre rôle succès public talent opéra artistes scène artiste grand",
+    "size": 166
+  },
+  {
+    "topic_id": 17,
+    "top_words": "kil courant marché disponible cote prix blés cours avoine froment",
+    "size": 113
+  },
+  {
+    "topic_id": 18,
+    "top_words": "billets classe départ départs fer oran ang train cap nord",
+    "size": 80
+  },
+  {
+    "topic_id": 19,
+    "top_words": "température baromètre ciel vent thermomètre nord ouest pluie temps sud",
+    "size": 60
+  }
+]

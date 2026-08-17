@@ -1,0 +1,157 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve mètres coupe championnat tour",
+    "size": 572
+  },
+  {
+    "topic_id": 1,
+    "top_words": "lille demande prix maison vendre renault adresser echo bureau ecrire",
+    "size": 387
+  },
+  {
+    "topic_id": 2,
+    "top_words": "loi gouvernement commission chambre assemblée droit président projet ministre conseil",
+    "size": 359
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement allemagne guerre italie pays prince troupes politique général berlin",
+    "size": 348
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ans police femme mort enquête âgé saint arrêté jeune cadavre",
+    "size": 272
+  },
+  {
+    "topic_id": 5,
+    "top_words": "maladies estomac peau eau flacon traitement boîte sang pilules guérison",
+    "size": 259
+  },
+  {
+    "topic_id": 6,
+    "top_words": "homme yeux jeune fille père jacques tête femme mère cœur",
+    "size": 173
+  },
+  {
+    "topic_id": 7,
+    "top_words": "théâtre opéra folies revue cirque concert comique variétés soirs relâche",
+    "size": 110
+  },
+  {
+    "topic_id": 8,
+    "top_words": "rôle théâtre succès public talent opéra artiste artistes acte scène",
+    "size": 110
+  },
+  {
+    "topic_id": 9,
+    "top_words": "lib act crédit banque nord valeurs cours orléans gaz lyon",
+    "size": 101
+  },
+  {
+    "topic_id": 10,
+    "top_words": "kil courant cote marché blés disponible froment prix avoine sacs",
+    "size": 97
+  },
+  {
+    "topic_id": 11,
+    "top_words": "mmes comique actes opéra rôle jeune ténor comédie musique guillemin",
+    "size": 87
+  },
+  {
+    "topic_id": 12,
+    "top_words": "billets dunkerque classe oran départ départs fer ang saint cap",
+    "size": 80
+  },
+  {
+    "topic_id": 13,
+    "top_words": "banque cours valeurs actions crédit millions fonds marché rente clôture",
+    "size": 66
+  },
+  {
+    "topic_id": 14,
+    "top_words": "ans syndic maire juge saint comm prov adjoint veuve marchand",
+    "size": 65
+  },
+  {
+    "topic_id": 15,
+    "top_words": "port navire commandant tait troupes vapeur prusse bord général empereur",
+    "size": 65
+  },
+  {
+    "topic_id": 16,
+    "top_words": "volume jésus vol grand histoire illustré roman almanach prix vaudeville",
+    "size": 57
+  },
+  {
+    "topic_id": 17,
+    "top_words": "banque nord gaz lyon fer comp cours crédit act lib",
+    "size": 40
+  },
+  {
+    "topic_id": 18,
+    "top_words": "obsèques décédé infanterie mort funérailles église âge maire inhumation lieutenant",
+    "size": 35
+  },
+  {
+    "topic_id": 19,
+    "top_words": "manœuvres exercices flotte grandes française fleete méditerranée navires eaux marins",
+    "size": 34
+  },
+  {
+    "topic_id": 20,
+    "top_words": "réunion priés assister comité salle générale citoyens réunir demie assemblée",
+    "size": 33
+  },
+  {
+    "topic_id": 21,
+    "top_words": "peinture roman art livre poésie peintre peintres vie jean auteur",
+    "size": 33
+  },
+  {
+    "topic_id": 22,
+    "top_words": "grève ouvriers syndicats travail employés mineurs travailleurs délégués revendications fédération",
+    "size": 32
+  },
+  {
+    "topic_id": 23,
+    "top_words": "abonnement abonnés départements bons poste abonnements francs abonné prime tableaux",
+    "size": 30
+  },
+  {
+    "topic_id": 24,
+    "top_words": "théâtre opéra matinée représentation spectacle actes comédie orchestre représentations comique",
+    "size": 30
+  },
+  {
+    "topic_id": 25,
+    "top_words": "température ciel vent thermomètre nord ouest pluies faible âgé mer",
+    "size": 27
+  },
+  {
+    "topic_id": 26,
+    "top_words": "régiment capitaine infanterie légion colonel brigade général division honneur artillerie",
+    "size": 27
+  },
+  {
+    "topic_id": 27,
+    "top_words": "vii viii iii solution problème mat sorties négation noms dés",
+    "size": 23
+  },
+  {
+    "topic_id": 28,
+    "top_words": "jury assises jurés président accusé témoins osborne audience avocat prison",
+    "size": 23
+  },
+  {
+    "topic_id": 29,
+    "top_words": "école carrières cours dessin cahier papier pages études enseignement anglais",
+    "size": 22
+  },
+  {
+    "topic_id": 30,
+    "top_words": "bataillon obus versailles fort batterie garde vanves issy citoyen feu",
+    "size": 21
+  }
+]

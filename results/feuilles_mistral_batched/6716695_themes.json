@@ -1,0 +1,2347 @@
+{
+  "fascicule": "6716695",
+  "usage": {
+    "prompt_tokens": 111827,
+    "completion_tokens": 7022,
+    "total_tokens": 118849,
+    "cached_tokens": 0,
+    "n_calls": 8,
+    "temps_reponse_total_s": 102.46,
+    "temps_reponse_min_s": 2.63,
+    "temps_reponse_max_s": 16.66,
+    "temps_reponse_moyen_s": 12.81,
+    "temps_reponse_median_s": 13.31
+  },
+  "articles": [
+    {
+      "article_id": "DIV.35",
+      "title": "Paris, 21 août 1911. Tirages Financiers",
+      "themes": [
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.45",
+      "title": "Perturbations des Lignes Téléphoniques : Réponse de l'Administration des P. T. T. aux réclamations. — Les causes des dérangements",
+      "themes": [
+        {
+          "code": "20000225",
+          "label_fr": "Informatique et télécommunications"
+        },
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.56",
+      "title": "La Guérison de Pie X : Le Pape est complètement rétabli",
+      "themes": [
+        {
+          "code": "20000704",
+          "label_fr": "Pape"
+        },
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.62",
+      "title": "Terrible Explosion : A l'établissement militaire de Chalais-Meu- don.— Deux ouvriers horriblement mutilés. — Enquête sur les causes de l'accident",
+      "themes": [
+        {
+          "code": "20000140",
+          "label_fr": "Explosion accidentelle"
+        },
+        {
+          "code": "20000168",
+          "label_fr": "Secours d'urgence"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.78",
+      "title": "Le thème des grandes manœuvres du Plémont",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.91",
+      "title": "Les Conseils Généraux",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000620",
+          "label_fr": "Fiscalité"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.118",
+      "title": "Le Gouvernement turc déplore les attaques de presse contre l'Italie en Tripolitaine",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.124",
+      "title": "Action anti-espagnole sur la côte ouest de l'Afrique",
+      "themes": [
+        {
+          "code": "20000642",
+          "label_fr": "Sanction économique"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.135",
+      "title": "Départ de soldats du génie pour Tanger",
+      "themes": [
+        {
+          "code": "20000060",
+          "label_fr": "Forces d'occupation"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.141",
+      "title": "La situation diplomatique",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.162",
+      "title": "[titre_illisible]",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.222",
+      "title": "AUTOUR DES NÉGOCIATIONS",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.237",
+      "title": "Au Maroc",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000736",
+          "label_fr": "Innovation scientifique"
+        },
+        {
+          "code": "20000487",
+          "label_fr": "Spécialisations médicales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.252",
+      "title": "La Politique Espagnole",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000060",
+          "label_fr": "Forces d'occupation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.262",
+      "title": "LE CHOLÉRA : En Turquie",
+      "themes": [
+        {
+          "code": "20000448",
+          "label_fr": "Maladies contagieuses"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.269",
+      "title": "Un Assassinat à Privas",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.277",
+      "title": "Les Grèves d'Angleterre",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.296",
+      "title": "La Force de la France : Le discours prononcé par M. Messimy à Trévoux",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.307",
+      "title": "Les Dockers de Calais : Les femmes et les enfants des grévistes se rendent à Dunkerque. — Bagarres entre « rouges » et « jaunes »",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.319",
+      "title": "Le contrôle des dépenses dans les Ministères",
+      "themes": [
+        {
+          "code": "20000607",
+          "label_fr": "Budget du gouvernement"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.324",
+      "title": "Les grandes manœuvres allemandes",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.329",
+      "title": "Les drames de la mine",
+      "themes": [
+        {
+          "code": "20000140",
+          "label_fr": "Explosion accidentelle"
+        },
+        {
+          "code": "20000168",
+          "label_fr": "Secours d'urgence"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.334",
+      "title": "Fin d'un lock-out en Norvège",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.342",
+      "title": "Interprètes judiciaires",
+      "themes": [
+        {
+          "code": "20000122",
+          "label_fr": "Droit civil"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.347",
+      "title": "Communes mixtes",
+      "themes": [
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.352",
+      "title": "DIV.352",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.358",
+      "title": "DIV.358",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000425",
+          "label_fr": "Pollution de l'air"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.366",
+      "title": "DIV.366",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000736",
+          "label_fr": "Innovation scientifique"
+        },
+        {
+          "code": "20000719",
+          "label_fr": "Biologie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.375",
+      "title": "DIV.375",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.382",
+      "title": "DIV.382",
+      "themes": [
+        {
+          "code": "20000448",
+          "label_fr": "Maladies contagieuses"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.387",
+      "title": "DIV.387",
+      "themes": [
+        {
+          "code": "20000448",
+          "label_fr": "Maladies contagieuses"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.397",
+      "title": "DIV.397",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.403",
+      "title": "DIV.403",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.406",
+      "title": "DIV.406",
+      "themes": [
+        {
+          "code": "20000607",
+          "label_fr": "Budget du gouvernement"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.409",
+      "title": "DIV.409",
+      "themes": [
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000628",
+          "label_fr": "Urbanisme"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.422",
+      "title": "Les Vins de Grèce",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.433",
+      "title": "Tentative d'Assassinat",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.443",
+      "title": "Séance du 21 août",
+      "themes": [
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.492",
+      "title": "SERVICES POSTAUX",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.498",
+      "title": "LE NAUFRAGE DE L'« EMIR »",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.505",
+      "title": "LES CONTRE-TORPILLEURS DE LA 3e ESCADRE A ORAN",
+      "themes": [
+        {
+          "code": "20000588",
+          "label_fr": "Censure"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.512",
+      "title": "NAVIRES SIGNALÉS",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.520",
+      "title": "MOUVEMENT DES PORTS Oran",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.532",
+      "title": "Oran. — H ôpital militaire",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20000423",
+          "label_fr": "Politique de l'environnement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.540",
+      "title": "SITUATION GÉNÉRALE",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20000423",
+          "label_fr": "Politique de l'environnement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.572",
+      "title": "DIV.572",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.576",
+      "title": "DIV.576",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.580",
+      "title": "DIV.580",
+      "themes": [
+        {
+          "code": "20000492",
+          "label_fr": "Personnel médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.583",
+      "title": "DIV.583",
+      "themes": [
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.587",
+      "title": "DIV.587",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.590",
+      "title": "DIV.590",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.595",
+      "title": "DIV.595",
+      "themes": [
+        {
+          "code": "20000553",
+          "label_fr": "Lieu de loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.598",
+      "title": "DIV.598",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.602",
+      "title": "DIV.602",
+      "themes": [
+        {
+          "code": "20000492",
+          "label_fr": "Personnel médical"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.605",
+      "title": "DIV.605",
+      "themes": [
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.608",
+      "title": "DIV.608",
+      "themes": [
+        {
+          "code": "20000192",
+          "label_fr": "Stratégie et marketing"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.611",
+      "title": "DIV.611",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.619",
+      "title": "JEAN BON-CŒUR Grand Roman : TROISIÈME PARTIE L'HEURE DE LA JUSTICE",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.712",
+      "title": "DIV.712",
+      "themes": [
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.715",
+      "title": "DIV.715",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.719",
+      "title": "DIV.719",
+      "themes": [
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        },
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.725",
+      "title": "DIV.725",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.728",
+      "title": "DIV.728",
+      "themes": [
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.735",
+      "title": "DIV.735",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.738",
+      "title": "DIV.738",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.744",
+      "title": "DIV.744",
+      "themes": [
+        {
+          "code": "20000794",
+          "label_fr": "Bébé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.747",
+      "title": "DIV.747",
+      "themes": [
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.750",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.761",
+      "title": "DIV.761",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20000794",
+          "label_fr": "Bébé"
+        },
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.769",
+      "title": "DIV.769",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.775",
+      "title": "DIV.775",
+      "themes": [
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000423",
+          "label_fr": "Politique de l'environnement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.779",
+      "title": "DIV.779",
+      "themes": [
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000428",
+          "label_fr": "Déchets"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.785",
+      "title": "DIV.785",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20001181",
+          "label_fr": "Festival"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.796",
+      "title": "DIV.796",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.803",
+      "title": "DIV.803",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000428",
+          "label_fr": "Déchets"
+        },
+        {
+          "code": "20001103",
+          "label_fr": "Mesures disciplinaires dans le sport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.813",
+      "title": "DIV.813",
+      "themes": [
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.819",
+      "title": "DIV.819",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.827",
+      "title": "DIV.827",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.832",
+      "title": "DIV.832",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.837",
+      "title": "DIV.837",
+      "themes": [
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000423",
+          "label_fr": "Politique de l'environnement"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.843",
+      "title": "DIV.843",
+      "themes": [
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.847",
+      "title": "DIV.847",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000423",
+          "label_fr": "Politique de l'environnement"
+        },
+        {
+          "code": "20000607",
+          "label_fr": "Budget du gouvernement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.860",
+      "title": "DIV.860",
+      "themes": [
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.863",
+      "title": "DIV.863",
+      "themes": [
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.866",
+      "title": "DIV.866",
+      "themes": [
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.871",
+      "title": "TERRITOIRE MILITAIRE",
+      "themes": [
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        },
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.889",
+      "title": "DIV.889",
+      "themes": [
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.896",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.903",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.911",
+      "title": "A l' « Officiel »",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        },
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.916",
+      "title": "Service de Santé",
+      "themes": [
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        },
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.923",
+      "title": "Commandements à la mer",
+      "themes": [
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.929",
+      "title": "Les grèves d'Angleterre",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.937",
+      "title": "Contrôle des dépenses du Budget",
+      "themes": [
+        {
+          "code": "20000607",
+          "label_fr": "Budget du gouvernement"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.948",
+      "title": "Cours Télégraphiques du 21 Août 1911",
+      "themes": [
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.979",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.991",
+      "title": "DIV.991",
+      "themes": [
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1000",
+      "title": "Marché de la Villette",
+      "themes": [
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1010",
+      "title": "Bourses Américaines",
+      "themes": [
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1016",
+      "title": "Marché de Marseille",
+      "themes": [
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1029",
+      "title": "DIV.1029",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1033",
+      "title": "DIV.1033",
+      "themes": [
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1039",
+      "title": "DIV.1039",
+      "themes": [
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1044",
+      "title": "DIV.1044",
+      "themes": [
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1048",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1056",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1060",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1065",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1068",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1074",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1077",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1080",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000416",
+          "label_fr": "Enseignants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1083",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000214",
+          "label_fr": "Exploitation forestière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1086",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1091",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1095",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1098",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1102",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1107",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1110",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1114",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1120",
+      "title": "DIV.1120",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1123",
+      "title": "DIV.1123",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1126",
+      "title": "DIV.1126",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1129",
+      "title": "DIV.1129",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000760",
+          "label_fr": "Ingénierie civile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1132",
+      "title": "DIV.1132",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1135",
+      "title": "DIV.1135",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1138",
+      "title": "DIV.1138",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1141",
+      "title": "DIV.1141",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000514",
+          "label_fr": "Formation à l'emploi"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1144",
+      "title": "DIV.1144",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1147",
+      "title": "DIV.1147",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1150",
+      "title": "DIV.1150",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000415",
+          "label_fr": "Étudiants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1153",
+      "title": "DIV.1153",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1156",
+      "title": "DIV.1156",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1159",
+      "title": "DIV.1159",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1165",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1191",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1200",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1204",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1207",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1210",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1214",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1218",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1221",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000339",
+          "label_fr": "Transport quotidien"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1224",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1230",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1248",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1251",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1255",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1259",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1263",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1267",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1276",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1283",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1294",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000217",
+          "label_fr": "Chimie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1306",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1310",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1313",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1319",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1328",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1340",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1353",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1367",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1372",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1383",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1386",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1394",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1397",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1400",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1404",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1407",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1411",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1415",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1426",
+      "title": "DIV.1426",
+      "themes": [
+        {
+          "code": "20000225",
+          "label_fr": "Informatique et télécommunications"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1432",
+      "title": "DIV.1432",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000940",
+          "label_fr": "Golf"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1442",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000217",
+          "label_fr": "Chimie"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1451",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    }
+  ]
+}

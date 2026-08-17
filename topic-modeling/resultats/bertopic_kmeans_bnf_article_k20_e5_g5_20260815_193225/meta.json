@@ -1,0 +1,18 @@
+{
+  "model": "bertopic_kmeans",
+  "run_id": "bertopic_kmeans_bnf_article_k20_e5_g5_20260815_193225",
+  "source": "bnf",
+  "granularite": "article",
+  "k": 20,
+  "k_demande": 20,
+  "min_taille": null,
+  "graine": 5,
+  "n_docs": 5310,
+  "n_sans_groupe": 0,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "longueur_max": 512,
+  "duree_s": 17.6
+}

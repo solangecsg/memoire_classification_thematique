@@ -1,0 +1,10 @@
+{
+  "model": "nmf",
+  "fascicule": "4109000",
+  "k": 10,
+  "n_docs": 425,
+  "vocab_size": 745,
+  "reconstruction_err": 18.9339,
+  "run_id": "nmf_4109000_pero_k10_20260706_173102",
+  "source": "pero"
+}

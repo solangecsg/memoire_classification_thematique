@@ -1,0 +1,172 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve mètres coupe championnat tour",
+    "size": 572
+  },
+  {
+    "topic_id": 1,
+    "top_words": "lille demande prix maison vendre renault adresser echo bureau ecrire",
+    "size": 394
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne guerre italie prince pays londres troupes conférence berlin",
+    "size": 350
+  },
+  {
+    "topic_id": 3,
+    "top_words": "loi commission gouvernement chambre assemblée projet président ministre droit conseil",
+    "size": 337
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ans police femme âgé mort enquête crime arrêté saint victime",
+    "size": 281
+  },
+  {
+    "topic_id": 5,
+    "top_words": "homme yeux jeune fille patron femme père tête jacques mère",
+    "size": 184
+  },
+  {
+    "topic_id": 6,
+    "top_words": "maladies estomac traitement cure pilules sang flacon guérison pharmacie santé",
+    "size": 161
+  },
+  {
+    "topic_id": 7,
+    "top_words": "rôle théâtre succès public talent artiste opéra artistes acte scène",
+    "size": 111
+  },
+  {
+    "topic_id": 8,
+    "top_words": "lib act crédit nord valeurs banque cours orléans gaz lyon",
+    "size": 100
+  },
+  {
+    "topic_id": 9,
+    "top_words": "mmes comique actes opéra rôle jeune comédie ténor théatre vaudeville",
+    "size": 96
+  },
+  {
+    "topic_id": 10,
+    "top_words": "kil courant cote marché blés disponible froment prix avoine sacs",
+    "size": 95
+  },
+  {
+    "topic_id": 11,
+    "top_words": "théâtre folies opéra revue cirque comique casino relâche soirs variétés",
+    "size": 87
+  },
+  {
+    "topic_id": 12,
+    "top_words": "billets dunkerque classe oran départ départs fer ang saint cap",
+    "size": 80
+  },
+  {
+    "topic_id": 13,
+    "top_words": "commandant port navire tait troupes vapeur prusse bord amiral île",
+    "size": 73
+  },
+  {
+    "topic_id": 14,
+    "top_words": "banque cours valeurs actions crédit millions fonds marché rente rentes",
+    "size": 73
+  },
+  {
+    "topic_id": 15,
+    "top_words": "ans syndic maire juge saint comm prov adjoint veuve marchand",
+    "size": 66
+  },
+  {
+    "topic_id": 16,
+    "top_words": "volume jésus vol illustré grand histoire roman almanach librairie prix",
+    "size": 61
+  },
+  {
+    "topic_id": 17,
+    "top_words": "théâtre comédie opéra matinée actes spectacle représentation orchestre comique représentations",
+    "size": 46
+  },
+  {
+    "topic_id": 18,
+    "top_words": "banque gaz nord fer lyon cours comp crédit act lib",
+    "size": 41
+  },
+  {
+    "topic_id": 19,
+    "top_words": "obsèques décédé infanterie mort église funérailles née cimetière henri ancien",
+    "size": 40
+  },
+  {
+    "topic_id": 20,
+    "top_words": "abonnement abonnés départements poste bons abonnements francs abonné prime annonces",
+    "size": 38
+  },
+  {
+    "topic_id": 21,
+    "top_words": "réunion priés assister comité salle générale citoyens réunir siège demie",
+    "size": 34
+  },
+  {
+    "topic_id": 22,
+    "top_words": "crème peau beauté teint poudre cheveux visage toilette savon huile",
+    "size": 31
+  },
+  {
+    "topic_id": 23,
+    "top_words": "prison jury assises accusé président ans jurés verdict cour audience",
+    "size": 30
+  },
+  {
+    "topic_id": 24,
+    "top_words": "grève ouvriers syndicats grévistes travail travailleurs mineurs délégués employés revendications",
+    "size": 29
+  },
+  {
+    "topic_id": 25,
+    "top_words": "peinture roman livre poésie jack poèmes art revue jean vie",
+    "size": 28
+  },
+  {
+    "topic_id": 26,
+    "top_words": "régiment capitaine infanterie légion colonel brigade général division honneur artillerie",
+    "size": 27
+  },
+  {
+    "topic_id": 27,
+    "top_words": "température ciel vent thermomètre nord pluies ouest faible âgé mer",
+    "size": 27
+  },
+  {
+    "topic_id": 28,
+    "top_words": "manœuvres exercices flotte grandes française marins navires eaux brest évolutions",
+    "size": 26
+  },
+  {
+    "topic_id": 29,
+    "top_words": "vii viii iii solution problème mat sorties négation noms dés",
+    "size": 23
+  },
+  {
+    "topic_id": 30,
+    "top_words": "fête concours musique sapeurs musiciens pompiers comité commerçants tir association",
+    "size": 23
+  },
+  {
+    "topic_id": 31,
+    "top_words": "école carrières cours dessin cahier papier pages études enseignement anglais",
+    "size": 22
+  },
+  {
+    "topic_id": 32,
+    "top_words": "bataillon obus versailles fort batterie vanves issy citoyen feu garde",
+    "size": 22
+  },
+  {
+    "topic_id": 33,
+    "top_words": "radio concert musique parisien poste orchestre informations chant piano eiffel",
+    "size": 20
+  }
+]

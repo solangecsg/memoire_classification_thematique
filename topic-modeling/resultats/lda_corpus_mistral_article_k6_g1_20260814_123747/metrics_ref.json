@@ -1,0 +1,71 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_article_k6_g1_20260814_123747",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 6,
+  "iterations": 1000,
+  "graine": 1,
+  "n_docs": 5401,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 881786,
+  "duree_s": 51.6
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.229,
+  "entropy_max": 1.7918,
+  "entropy_normalized": 0.6859
+ },
+ "diversity": {
+  "diversity": 0.9,
+  "diversity_norm": 0.0025,
+  "tokens_distincts": 21355,
+  "unique_words": 54,
+  "total_words": 60,
+  "shared_words": [
+   "ans",
+   "grand",
+   "num",
+   "prix"
+  ],
+  "n_shared": 4
+ },
+ "npmi": {
+  "npmi_mean": 0.1477,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1526,
+    "top_words": "théâtre ans grand demande maison lille opéra prix rôle succès"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2466,
+    "top_words": "président conseil ministre commission loi société général francs chambre assemblée"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3544,
+    "top_words": "homme femme jeune mort ans fille tête yeux cœur père"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1161,
+    "top_words": "num prix saint mètres club équipe jean tour grand concours"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2527,
+    "top_words": "point guerre pays gouvernement grande français hommes temps grand politique"
+   },
+   {
+    "topic_id": 5,
+    "npmi": -0.2363,
+    "top_words": "num fr cours prix nord banque cv crédit cpt fer"
+   }
+  ]
+ }
+}

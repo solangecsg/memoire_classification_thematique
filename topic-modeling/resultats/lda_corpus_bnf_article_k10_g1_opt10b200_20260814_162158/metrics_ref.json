@@ -1,0 +1,98 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_article_k10_g1_opt10b200_20260814_162158",
+  "source": "bnf",
+  "granularite": "article",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "optimisation": 10,
+  "burn_in": 200,
+  "n_docs": 5394,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 904765,
+  "duree_s": 259.1
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.199,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.5207
+ },
+ "diversity": {
+  "diversity": 0.83,
+  "diversity_norm": 0.0039,
+  "tokens_distincts": 21356,
+  "unique_words": 83,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "fr",
+   "gouvernement",
+   "grand",
+   "général",
+   "homme",
+   "lille",
+   "num",
+   "prix"
+  ],
+  "n_shared": 9
+ },
+ "npmi": {
+  "npmi_mean": -0.0234,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.114,
+    "top_words": "ans saint jean maire honneur prix concours lille oran henri"
+   },
+   {
+    "topic_id": 1,
+    "npmi": -1.0,
+    "top_words": "ii ie re nt eau el ia ri li it"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.2819,
+    "top_words": "num prix cv pl club équipe course grand tour match"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.2308,
+    "top_words": "num fr cours cpt nord banque prix id crédit valeurs"
+   },
+   {
+    "topic_id": 4,
+    "npmi": -0.087,
+    "top_words": "num fr prix francs demande maison lille vente bureau ans"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1712,
+    "top_words": "num guerre général armée français roi gouvernement allemagne prince londres"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.244,
+    "top_words": "num président conseil gouvernement loi commission ministre chambre général assemblée"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2606,
+    "top_words": "théâtre opéra grand rôle musique succès public acte comique num"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3053,
+    "top_words": "point temps monde grande pays hommes vie mieux esprit homme"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2703,
+    "top_words": "femme jeune homme num fille mort ans petit yeux porte"
+   }
+  ]
+ }
+}

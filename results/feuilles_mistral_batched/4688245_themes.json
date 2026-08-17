@@ -1,0 +1,285 @@
+{
+  "fascicule": "4688245",
+  "usage": {
+    "prompt_tokens": 15816,
+    "completion_tokens": 831,
+    "total_tokens": 16647,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 17.22,
+    "temps_reponse_min_s": 17.22,
+    "temps_reponse_max_s": 17.22,
+    "temps_reponse_moyen_s": 17.22,
+    "temps_reponse_median_s": 17.22
+  },
+  "articles": [
+    {
+      "article_id": "DIV.25",
+      "title": "ACADÉMIE ROYALE DE MUSIQUE",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.57",
+      "title": "THEATRE FRANÇAIS.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.77",
+      "title": "OPÉRA-COMIQUE.",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.101",
+      "title": "SECOND THÉATRE FRANÇAIS.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.112",
+      "title": "THÉATRE DU VAUDEVILLE.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.121",
+      "title": "GYMNASE DRAMATIQUE.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.130",
+      "title": "THÉATRE DES VARIÉTÉS.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.136",
+      "title": "THÉATRE DE LA GAITÉ.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.141",
+      "title": "AMBIGU COMIQUE.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.147",
+      "title": "THÉATRE DE LA PORTE ST-MARTIN.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.154",
+      "title": "SECOND THEATRE FRANÇAIS. : Première représentation du Tambour nocturne , comédie de Destouches, arrangée en 3 actes.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.162",
+      "title": "LITTERATURE. : Musée des Protestans célèbres, ou portraits et notices biographiques et littéraires des personnages les plus éminens dans l'histoire de la réformation et du protestantisme ; rédigé par une société de gens de lettres, et publié par M. G. T. Doin (1).",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000439",
+          "label_fr": "Rivières"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.172",
+      "title": "BEAUX- ARTS. : Méthode de Dessin, par Ch. Alberti, ouvrage utile surtout aux personnes privées de la facilité d'avoir des professeurs. (1)",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.179",
+      "title": "DE LA POMME DE TERRE.",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.190",
+      "title": "ON NE PEUT PAS TOUT FAIRE.",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.203",
+      "title": "BUTIN.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.231",
+      "title": "LIBRAIRIE.",
+      "themes": [
+        {
+          "code": "20000044",
+          "label_fr": "Patrimoine"
+        },
+        {
+          "code": "20000434",
+          "label_fr": "Montagnes"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.236",
+      "title": "LOTERIE ROYALE DE FRANCE. : dernier tirage de Bordeaux.",
+      "themes": [
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.242",
+      "title": "CHARADE.",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.249",
+      "title": "BOURSE DE PARIS. : Cours de la rente le 22 juillet 1823.",
+      "themes": [
+        {
+          "code": "20000392",
+          "label_fr": "Marché monétaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.256",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        },
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.260",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    }
+  ]
+}

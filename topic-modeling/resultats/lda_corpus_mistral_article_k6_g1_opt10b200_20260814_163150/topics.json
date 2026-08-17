@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "théâtre grand opéra succès rôle musique public comique artistes acte",
+    "size": 819
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num ans saint francs lille demande prix maison bureau service",
+    "size": 1081
+  },
+  {
+    "topic_id": 2,
+    "top_words": "homme femme jeune temps fille mort vie tête yeux main",
+    "size": 706
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num prix club équipe mètres course saint tour match grand",
+    "size": 562
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num gouvernement président général conseil ministre guerre pays loi point",
+    "size": 1645
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num fr cours prix banque cv nord crédit cpt er",
+    "size": 588
+  }
+]

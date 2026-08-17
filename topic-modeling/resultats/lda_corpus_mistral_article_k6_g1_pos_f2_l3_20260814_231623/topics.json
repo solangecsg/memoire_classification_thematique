@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "juillet conseil bureau lieu dimanche service corps directeur membre août",
+    "size": 7
+  },
+  {
+    "topic_id": 1,
+    "top_words": "heure cœur égypte nom temps conférence goblet troupe eau france",
+    "size": 9
+  },
+  {
+    "topic_id": 2,
+    "top_words": "paris ministère ministre république état affaire journal loi cours question",
+    "size": 12
+  },
+  {
+    "topic_id": 3,
+    "top_words": "soir matin ville exp ligne direct albi midi cyp pharmacie",
+    "size": 5
+  },
+  {
+    "topic_id": 4,
+    "top_words": "rue toulouse paris société janvier jour degré obligation prix franc",
+    "size": 12
+  },
+  {
+    "topic_id": 5,
+    "top_words": "chambre homme gouvernement jour reynière femme député mois samuel assemblée",
+    "size": 6
+  }
+]

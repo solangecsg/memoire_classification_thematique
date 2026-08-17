@@ -1,0 +1,429 @@
+{
+  "fascicule": "4683771",
+  "usage": {
+    "prompt_tokens": 28143,
+    "completion_tokens": 1235,
+    "total_tokens": 29378,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 24.37,
+    "temps_reponse_min_s": 2.39,
+    "temps_reponse_max_s": 21.98,
+    "temps_reponse_moyen_s": 12.19,
+    "temps_reponse_median_s": 12.19
+  },
+  "articles": [
+    {
+      "article_id": "DIV.29",
+      "title": "DERNIÈRE HEURE",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.42",
+      "title": "PARIS : VILLE LIBRE",
+      "themes": [
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.109",
+      "title": "LES MORTS",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.133",
+      "title": "DIV.133",
+      "themes": [
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.137",
+      "title": "LA BATAILLE",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000080",
+          "label_fr": "Prisonniers de guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.221",
+      "title": "DIV.221",
+      "themes": [
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.228",
+      "title": "DIV.228",
+      "themes": [
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.232",
+      "title": "DIV.232",
+      "themes": [
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.235",
+      "title": "DIV.235",
+      "themes": [
+        {
+          "code": "20000404",
+          "label_fr": "Lycées"
+        },
+        {
+          "code": "20000692",
+          "label_fr": "Pâques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.239",
+      "title": "DIV.239",
+      "themes": [
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.243",
+      "title": "DIV.243",
+      "themes": [
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        },
+        {
+          "code": "20000674",
+          "label_fr": "Cultes et sectes"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.247",
+      "title": "DIV.247",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.252",
+      "title": "DIV.252",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000428",
+          "label_fr": "Déchets"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.255",
+      "title": "DIV.255",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.261",
+      "title": "DIV.261",
+      "themes": [
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.265",
+      "title": "DIV.265",
+      "themes": [
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.278",
+      "title": "DIV.278",
+      "themes": [
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.286",
+      "title": "DIV.286",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000168",
+          "label_fr": "Secours d'urgence"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.292",
+      "title": "DIV.292",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.305",
+      "title": "LE RENDEZ-VOUS DE LA BOURSE",
+      "themes": [
+        {
+          "code": "20000192",
+          "label_fr": "Stratégie et marketing"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.321",
+      "title": "DIV.321",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.331",
+      "title": "ACTES OFFICIELS",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.346",
+      "title": "QUI PILLE-T-ON ?",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000105",
+          "label_fr": "Crime de guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.370",
+      "title": "DIV.370",
+      "themes": [
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000646",
+          "label_fr": "Organisation non gouvernementale"
+        },
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.375",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.381",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        }
+      ]
+    }
+  ]
+}

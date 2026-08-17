@@ -1,0 +1,98 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_bloc_k10_g1_20260814_110933",
+  "source": "bnf",
+  "granularite": "bloc",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "n_docs": 46912,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 866496,
+  "duree_s": 77.0
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.7497,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.7599
+ },
+ "diversity": {
+  "diversity": 0.86,
+  "diversity_norm": 0.0042,
+  "tokens_distincts": 20602,
+  "unique_words": 86,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "droit",
+   "francs",
+   "gouvernement",
+   "grand",
+   "guerre",
+   "nord",
+   "num",
+   "prix",
+   "saint",
+   "temps"
+  ],
+  "n_shared": 11
+ },
+ "npmi": {
+  "npmi_mean": -0.08,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -1.0,
+    "top_words": "num ii re ie it el pa nt lu ia"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1615,
+    "top_words": "homme femme jeune ans mort fille yeux vie porte coup"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1377,
+    "top_words": "point pays gouvernement politique droit question temps hommes monde guerre"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.3879,
+    "top_words": "num fr cpt id nord kil courant crédit banque lyon"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.0616,
+    "top_words": "francs société cours prix millions travail fer compagnie lettres droit"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1831,
+    "top_words": "grand théâtre saint rôle jean succès public opéra musique acte"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.089,
+    "top_words": "français tour grand nord prix temps club équipe départ mètres"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1708,
+    "top_words": "général président conseil ministre commission chambre guerre assemblée gouvernement chef"
+   },
+   {
+    "topic_id": 8,
+    "npmi": -0.3256,
+    "top_words": "num prix ans saint lille maison francs demande pl ch"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1102,
+    "top_words": "eau grand grande terre bois demi petits grands blanc petit"
+   }
+  ]
+ }
+}

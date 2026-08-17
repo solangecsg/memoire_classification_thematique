@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "lille ans demande ecrire prix maison vendre int adresser renault",
+    "size": 460
+  },
+  {
+    "topic_id": 1,
+    "top_words": "commission loi conseil projet président chambre ministre gouvernement assemblée séance",
+    "size": 398
+  },
+  {
+    "topic_id": 2,
+    "top_words": "homme femme jeune yeux fille temps père vie monde main",
+    "size": 394
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement allemagne guerre général pays italie conférence berlin troupes ministre",
+    "size": 382
+  },
+  {
+    "topic_id": 4,
+    "top_words": "gouvernement guerre politique droit pays hommes point peuple temps français",
+    "size": 359
+  },
+  {
+    "topic_id": 5,
+    "top_words": "volume librairie prix grand jupe francs noir poste jésus laine",
+    "size": 347
+  },
+  {
+    "topic_id": 6,
+    "top_words": "opéra théâtre comique concert musique mmes actes comédie radio revue",
+    "size": 338
+  },
+  {
+    "topic_id": 7,
+    "top_words": "ans police mort femme enquête saint jeune crime âgé prison",
+    "size": 318
+  },
+  {
+    "topic_id": 8,
+    "top_words": "équipe prix match club stade mètres finale points champion poids",
+    "size": 278
+  },
+  {
+    "topic_id": 9,
+    "top_words": "prix épreuve course tour auto club coureurs coupe automobile kilomètres",
+    "size": 261
+  },
+  {
+    "topic_id": 10,
+    "top_words": "maladies estomac eau peau traitement sirop cure flacon sang poudre",
+    "size": 250
+  },
+  {
+    "topic_id": 11,
+    "top_words": "théâtre rôle succès public talent opéra artistes scène artiste film",
+    "size": 239
+  },
+  {
+    "topic_id": 12,
+    "top_words": "exposition général académie honneur président sciences médaille infanterie prix ministre",
+    "size": 229
+  },
+  {
+    "topic_id": 13,
+    "top_words": "cours kil courant nord gaz crédit banque valeurs marché cote",
+    "size": 215
+  },
+  {
+    "topic_id": 14,
+    "top_words": "troupes front général ennemi commandant roi port temps hommes artillerie",
+    "size": 206
+  },
+  {
+    "topic_id": 15,
+    "top_words": "travail ouvriers grève mineurs travailleurs société réunion conseil prix grévistes",
+    "size": 179
+  },
+  {
+    "topic_id": 16,
+    "top_words": "loi écoles publique enseignement élèves école point droit ecole grand",
+    "size": 173
+  },
+  {
+    "topic_id": 17,
+    "top_words": "banque actions cours valeurs société millions titres crédit francs fonds",
+    "size": 124
+  },
+  {
+    "topic_id": 18,
+    "top_words": "prix température baromètre concours nord ciel vent saint thermomètre grand",
+    "size": 81
+  },
+  {
+    "topic_id": 19,
+    "top_words": "billets classe départ départs fer ang oran train cap nord",
+    "size": 79
+  }
+]

@@ -1,0 +1,317 @@
+{
+  "fascicule": "4768768",
+  "usage": {
+    "prompt_tokens": 38510,
+    "completion_tokens": 897,
+    "total_tokens": 39407,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 15.56,
+    "temps_reponse_min_s": 15.56,
+    "temps_reponse_max_s": 15.56,
+    "temps_reponse_moyen_s": 15.56,
+    "temps_reponse_median_s": 15.56
+  },
+  "articles": [
+    {
+      "article_id": "DIV.29",
+      "title": "Tarifs de navigation.—Canal du Rhône au Rhin.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.45",
+      "title": "ECONOMIE SOCIALE. : SOCIÉTÉ CIVILE DE CITEAUX. — COMBINAISON INDUSTRIELLE (1)",
+      "themes": [
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        },
+        {
+          "code": "20001158",
+          "label_fr": "Entrepreneuriat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.86",
+      "title": "ANALYSE : DU RAPPORT DE M. LE CONTRE-AMIRAL DUPETIT-THOUARS.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.108",
+      "title": "DIV.108",
+      "themes": [
+        {
+          "code": "20000607",
+          "label_fr": "Budget du gouvernement"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.111",
+      "title": "DIV.111",
+      "themes": [
+        {
+          "code": "20000749",
+          "label_fr": "Le droit"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.114",
+      "title": "Chambre des Pairs. : PRÉSIDENCE DE M. LE CHANCELIER PASQUIER. Séance du 15 avril.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.212",
+      "title": "Chambre des Députés. : PRÉSIDENCE DE M. SAUZET. Séance du 15 avril.",
+      "themes": [
+        {
+          "code": "20000749",
+          "label_fr": "Le droit"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.299",
+      "title": "Faits divers.",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000591",
+          "label_fr": "Liberté de la presse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.308",
+      "title": "ACADÉMIE DES SCIENCES. : Séance du 15 avril PRÉSIDENCE DE M. DUPIN.",
+      "themes": [
+        {
+          "code": "20000725",
+          "label_fr": "Chimie"
+        },
+        {
+          "code": "20000737",
+          "label_fr": "Recherche médicale"
+        },
+        {
+          "code": "20000731",
+          "label_fr": "Physique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.342",
+      "title": "REVUE MUSICALE. : DERNIÈRE SAISON DES ITALIENS.",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20001124",
+          "label_fr": "Industrie du sport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.378",
+      "title": "DIV.378",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.381",
+      "title": "DIV.381",
+      "themes": [
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.384",
+      "title": "Bourse du 15 avril 1844.",
+      "themes": [
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.416",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.421",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.430",
+      "title": "Cours des farines. (Par 100 k.)",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.446",
+      "title": "Taxe du pain (par kil.).",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.452",
+      "title": "Cours des céreales (par hect.).",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.474",
+      "title": "Légumes secs (hect.).",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.485",
+      "title": "Bestiaux. (Prix du kil. sur pied.)",
+      "themes": [
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    }
+  ]
+}

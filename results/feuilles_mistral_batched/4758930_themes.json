@@ -1,0 +1,1985 @@
+{
+  "fascicule": "4758930",
+  "usage": {
+    "prompt_tokens": 155620,
+    "completion_tokens": 5830,
+    "total_tokens": 161450,
+    "cached_tokens": 0,
+    "n_calls": 6,
+    "temps_reponse_total_s": 98.42,
+    "temps_reponse_min_s": 8.36,
+    "temps_reponse_max_s": 20.81,
+    "temps_reponse_moyen_s": 16.4,
+    "temps_reponse_median_s": 17.1
+  },
+  "articles": [
+    {
+      "article_id": "DIV.41",
+      "title": "LA QUESTION DES RÉPARATIONS : L'Accord de Wiesbaden ET LA Convention Bemelmans",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.73",
+      "title": "L'ENSEMBLE DE LA LOI MILITAIRE est adopté par la Chambre : Les classes 1920 et 1921 feront deux ans de service",
+      "themes": [
+        {
+          "code": "20000596",
+          "label_fr": "Hauts fonctionnaires"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.102",
+      "title": "A LA HAYE : Une prétention inacceptable des Soviets",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.111",
+      "title": "L'AMNISTIE",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.116",
+      "title": "Le Sénat examine le problème des réparations : Le Président du Conseil affirme de nouveau qu'une politique d'énergie sera poursuivie à l'égard de l'Allemagne qui manœuvre pour éditer de payer.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.185",
+      "title": "DUBLIN a l'aspect D'UNE VILLE ASSIÉGÉE : Les rebelles continuent à résister opiniâtrement",
+      "themes": [
+        {
+          "code": "20000067",
+          "label_fr": "Rébellion"
+        },
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.203",
+      "title": "Des bandits font dérailler on train et dépouillent les voyageurs",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.208",
+      "title": "Echos de Partout",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.231",
+      "title": "UN DES ASSASSINS DE M. RATHENAU est arrêté : C'est celui qui pilotait l'auto",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.248",
+      "title": "LE LANDRU ALLEMAND",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.255",
+      "title": "LE SECRETAIRE DE l'Internationale de Moscou à St-Etienne : IL EST VENU, ILLEGALEMENT, APPORTER « LA BONNE PAROLE » A SES FRERES EN BOLCHEVISME",
+      "themes": [
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000677",
+          "label_fr": "Islam"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.263",
+      "title": "Les Cambrioleurs DU Bureau de Poste : Deux nouvelles arrestations",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.278",
+      "title": "CALENDRIER",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20001131",
+          "label_fr": "Alertes météorologiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.300",
+      "title": "La distribution postale du dimanche : DES CREDITS VONT ETRE DEMANDES POUR QU'ELLE SOIT RÉTABLIE PARTOUT",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.307",
+      "title": "Le Ministre de l'Agriculture à Douai",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000217",
+          "label_fr": "Chimie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.312",
+      "title": "Le retour de nos morts glorieux",
+      "themes": [
+        {
+          "code": "20001235",
+          "label_fr": "Service funèbre et commémoratif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.335",
+      "title": "Carnet Régional",
+      "themes": [
+        {
+          "code": "20001237",
+          "label_fr": "Anniversaire"
+        },
+        {
+          "code": "20001235",
+          "label_fr": "Service funèbre et commémoratif"
+        },
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.352",
+      "title": "Le denier des écoles laïques de Lille à Dunkerque : L'hommage à Jean Bart. - L'arrivée en musique à Malo.",
+      "themes": [
+        {
+          "code": "20000401",
+          "label_fr": "École primaire"
+        },
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.391",
+      "title": "UN ÉPILEPTIQUE SE NOIE ACCIDENTELLEMENT A HOUPLINES",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20001321",
+          "label_fr": "Noyade"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.396",
+      "title": "Congrès des amicales de police : Troisième journée",
+      "themes": [
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.407",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.417",
+      "title": "La cession à la ville de Lille de terrains des fortifications",
+      "themes": [
+        {
+          "code": "20000628",
+          "label_fr": "Urbanisme"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.422",
+      "title": "M. Emmanuel BARAT PROVISEUR DU LYCÉE DE LILLE nommé au Lycée Charlemagne, à Paris",
+      "themes": [
+        {
+          "code": "20000404",
+          "label_fr": "Lycées"
+        },
+        {
+          "code": "20000416",
+          "label_fr": "Enseignants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.432",
+      "title": "Le Carnaval d'Été DES \"Amis de la rue de Paris\" : LES RESULTATS DU CONCOURS",
+      "themes": [
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.446",
+      "title": "LE \" MONGY \" INAUGURE SAMEDI LE SERVICE DE NUIT",
+      "themes": [
+        {
+          "code": "20000339",
+          "label_fr": "Transport quotidien"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.452",
+      "title": "A TRAVERS LA VILLE : ARRESTATION D'UN DANGEREUX REPRIS DE JUSTICE",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.471",
+      "title": "Le Concert de l'Amitié DES Aveugles de France",
+      "themes": [
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        },
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000414",
+          "label_fr": "Examen ou concours d'entrée"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.486",
+      "title": "TRIBUNAL CORRECTIONNEL DE LILLE",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.498",
+      "title": "POUR LE MONUMENT AUX MORTS A LA MADELEINE",
+      "themes": [
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        },
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.519",
+      "title": "ROUBAIX",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.527",
+      "title": "La journée des Mères : LA DISTRIBUTION DES PRIX AUX LAUREATS DU CONCOURS LITTERAIRE",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000415",
+          "label_fr": "Étudiants"
+        },
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.546",
+      "title": "TOURCOING",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.552",
+      "title": "La Fête annuelle des Sauveteurs du Nord",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.575",
+      "title": "ARMENTIERES",
+      "themes": [
+        {
+          "code": "20001062",
+          "label_fr": "Chute libre"
+        },
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.589",
+      "title": "A la Conférence de la Haye : La France répond à une demande de M. Litvinof",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.596",
+      "title": "Les prestations en nature : LA COMMISSION DES AFFAIRES ETRANGERES DECIDE D'ENTENDRE M. LOUCHEUR",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.602",
+      "title": "Chute vertigineuse d'un autobus dans un ravin : DOUZE VOYAGEURS BLESSÉS, DONT CINQ GRIEVEMENT",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.608",
+      "title": "Funérailles du prince Albert de Monaco",
+      "themes": [
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        },
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.613",
+      "title": "Manifestation à Asnières contre l'impôt sur les salaires",
+      "themes": [
+        {
+          "code": "20000620",
+          "label_fr": "Fiscalité"
+        },
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.618",
+      "title": "Une baleinière fait naufrage à la cote de Tunis : LE COMMANDANT ET LE QUARTIER-MAITRE SONT NOYES",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.624",
+      "title": "DERNIERE HEURE COMMERCIALE",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.644",
+      "title": "SCÈNES DE VIOLENCE A FRANCFORT : Des ouvriers saisissent les direc- teurs d'une usine pour leur imposer leurs conditions",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.659",
+      "title": "VOTRE PEAU EST-ELLE RUGUEUSE",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.664",
+      "title": "Encore un homme coupé en morceaux : C'est son frère qui l'a assassiné",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.671",
+      "title": "LA NATIONALE-VIE",
+      "themes": [
+        {
+          "code": "20000483",
+          "label_fr": "Assurance maladie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.677",
+      "title": "Une jeune servante assaillie par un \" Bicot \" : A FLERS-EN-ESCREBIEUX",
+      "themes": [
+        {
+          "code": "20000084",
+          "label_fr": "Agression"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000777",
+          "label_fr": "Racisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.692",
+      "title": "Une bagarre sanglante A DARMSTADT : Des républicains allemands ayant exercé des représailles contre des monarchistes, la police intervient Huit morts — Cinquante blessés",
+      "themes": [
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.709",
+      "title": "Un policier tue un assassin",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.716",
+      "title": "PENSIONNAT PINCHART à HAUBOURDIN.",
+      "themes": [
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.721",
+      "title": "Une fabrique d'explosifs saute à Genève",
+      "themes": [
+        {
+          "code": "20000140",
+          "label_fr": "Explosion accidentelle"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.728",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000116",
+          "label_fr": "Procédures hors tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.732",
+      "title": "Des Rosses affamés auraient mangé leur petit-fils, un jeune Français",
+      "themes": [
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000149",
+          "label_fr": "Famine"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.740",
+      "title": "École des mutilés de Tourcoing",
+      "themes": [
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000416",
+          "label_fr": "Enseignants"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.752",
+      "title": "Le Marché du Coton",
+      "themes": [
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.769",
+      "title": "COURS DU FRET",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.778",
+      "title": "MARCHÉS DE LA REGION",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.783",
+      "title": "FECULENTS",
+      "themes": [
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.852",
+      "title": "MARCHE AUX BESTIAUX DE LA VILLETTE Clôture du 29 juin",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.876",
+      "title": "LAINES. — LE HAVRE, le 29 juin",
+      "themes": [
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.909",
+      "title": "Bourse de Lille du 29 juin 1922",
+      "themes": [
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.928",
+      "title": "Cours des Changes à Paris",
+      "themes": [
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.935",
+      "title": "BOURSE D'ANVERS (caisse de liquidation) : Les cours sont en francs belges",
+      "themes": [
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.943",
+      "title": "BOURSE DE PARIS DU 29 JUIN 1922",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.968",
+      "title": "N° 20. L'Ange du Faubourg : DEUXIEME PARTIE Le drame de Saint-Maurice X SITUATION NOUVELLE",
+      "themes": [
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000100",
+          "label_fr": "Enlèvement"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1042",
+      "title": "POUR L'ACCESSION A LA Petite Propriété : II Les Habitations à bon marché",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        },
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1073",
+      "title": "Les Travaux à la Campagne : EN JUILLET",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1097",
+      "title": "Actes de banditisme DANS LA SOMME",
+      "themes": [
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000098",
+          "label_fr": "Détournement"
+        },
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1112",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1119",
+      "title": "NATATION : La Traversée de Lille à la Nage Vendredi 14 Juillet 1922 ORGANISÉE PAR LE « GRAND ECHO DU NORD ET DU PAS-DE-CALAIS » ET L'UNION DES NAGEURS LILLOIS NEUVIEME ANNÉE DEUX MILLE FRANCS DE PRIX",
+      "themes": [
+        {
+          "code": "20001071",
+          "label_fr": "Natation"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1141",
+      "title": "CYCLISME : LE TOUR DE FRANCE CYCLISTE TROISIEME ETAPE Cherbourg-Brest 1er, JACQUINOT ; 2e, BARTHELEMY en 17 h. 34 m. 44 s.",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1164",
+      "title": "ATHLETISME",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1175",
+      "title": "COURSE A PIED",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1180",
+      "title": "COMMUNICATIONS",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1186",
+      "title": "MARCHE",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1191",
+      "title": "BOXE",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1197",
+      "title": "JEU DE BALLE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1202",
+      "title": "HIPPISME",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1213",
+      "title": "LA RACE CANINE",
+      "themes": [
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1219",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1227",
+      "title": "Communications et Convocations",
+      "themes": [
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1239",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1244",
+      "title": "LA CONFIANCE DE L'EPARGNE dans les Valeurs du Trésor",
+      "themes": [
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1249",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1253",
+      "title": "LES CONCOURS AGRICOLES dans le Nord EN 1922",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1266",
+      "title": "Petite Poste Militaire",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        },
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1286",
+      "title": "Programme des Spectacles",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1302",
+      "title": "DIV.1302",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1317",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1336",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1347",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1360",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000607",
+          "label_fr": "Budget du gouvernement"
+        },
+        {
+          "code": "20000628",
+          "label_fr": "Urbanisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1366",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1376",
+      "title": "Petite Correspondance",
+      "themes": [
+        {
+          "code": "20000122",
+          "label_fr": "Droit civil"
+        },
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1416",
+      "title": "Etat Civil de Lille",
+      "themes": [
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1424",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20001235",
+          "label_fr": "Service funèbre et commémoratif"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1429",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1441",
+      "title": "N° 68. La Corde au Cou : DEUXIÈME PARTIE XIV",
+      "themes": [
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1497",
+      "title": "Appréciations du Concours de Solistes DE LILLE : SALLE N° 7",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1530",
+      "title": "PUBLICATIONS LEGALES",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000122",
+          "label_fr": "Droit civil"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1659",
+      "title": "PERDUS ET TROUVÉS",
+      "themes": [
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        },
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1670",
+      "title": "VENTES & ACHATS D'IMMEUBLES",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1724",
+      "title": "mess=\"\"?",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1747",
+      "title": "DIV.1747",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1791",
+      "title": "DIV.1791",
+      "themes": [
+        {
+          "code": "20000225",
+          "label_fr": "Informatique et télécommunications"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1816",
+      "title": "OFFRES DE LOCATION",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1846",
+      "title": "VENTES",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000316",
+          "label_fr": "Métaux et minéraux"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1865",
+      "title": "DEMANDES D'EMPLOIS",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        },
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000513",
+          "label_fr": "Employeur"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1915",
+      "title": "OFFRES D'EMPLOIS",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        },
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000513",
+          "label_fr": "Employeur"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2234",
+      "title": "GENS DE MAISON",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2330",
+      "title": "CESSIONS",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2452",
+      "title": "ASSOCIATIONS-CAPITAUX",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2487",
+      "title": "AUTOS ET CYCLES",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2572",
+      "title": "OCCASIONS",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2599",
+      "title": "DIV.2599",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000518",
+          "label_fr": "Salaires et pensions ou Salaires et allocations"
+        },
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2653",
+      "title": "DIV.2653",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2695",
+      "title": "DIV.2695",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2718",
+      "title": "DIV.2718",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000192",
+          "label_fr": "Stratégie et marketing"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2737",
+      "title": "VENTES ET ACHATS DIVERS",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2840",
+      "title": "DIVERS",
+      "themes": [
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2897",
+      "title": "DIV.2897",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2900",
+      "title": "DIV.2900",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2975",
+      "title": "DIV.2975",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2987",
+      "title": "DIV.2987",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3026",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3049",
+      "title": "DIV.3049",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3057",
+      "title": "DIV.3057",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3078",
+      "title": "DIV.3078",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.3090",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num prix kil eau courant marché maladies sucre disponible qualité",
+    "size": 223
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num saint ans oran jean louis marseille lille pierre marie",
+    "size": 188
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num francs société millions compagnie fer banque cours actions crédit",
+    "size": 199
+  },
+  {
+    "topic_id": 3,
+    "top_words": "ans police cour président femme prison affaire tribunal commissaire mort",
+    "size": 294
+  },
+  {
+    "topic_id": 4,
+    "top_words": "eau feu route fer chemin temps gare hommes fort corps",
+    "size": 248
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num cours nord cpt banque lyon fer remb crédit clôture",
+    "size": 396
+  },
+  {
+    "topic_id": 6,
+    "top_words": "point temps donner grande voir mieux partie monde fort part",
+    "size": 481
+  },
+  {
+    "topic_id": 7,
+    "top_words": "num club équipe prix course tour match épreuve français coupe",
+    "size": 407
+  },
+  {
+    "topic_id": 8,
+    "top_words": "histoire art grand prix académie vie volume livre arts auteur",
+    "size": 208
+  },
+  {
+    "topic_id": 9,
+    "top_words": "num prix renault francs int citroën places cond luxe voitures",
+    "size": 140
+  },
+  {
+    "topic_id": 10,
+    "top_words": "guerre gouvernement angleterre allemagne français londres anglais états pays berlin",
+    "size": 288
+  },
+  {
+    "topic_id": 11,
+    "top_words": "num demande lille maison bureau adresser ans vente vendre lettres",
+    "size": 229
+  },
+  {
+    "topic_id": 12,
+    "top_words": "président école comité société membres réunion maire enseignement directeur ouvriers",
+    "size": 248
+  },
+  {
+    "topic_id": 13,
+    "top_words": "exposition prix grand grandes manœuvres film médaille concours française films",
+    "size": 138
+  },
+  {
+    "topic_id": 14,
+    "top_words": "politique peuple parti gouvernement pays hommes liberté droit république guerre",
+    "size": 176
+  },
+  {
+    "topic_id": 15,
+    "top_words": "commission conseil loi ministre chambre président projet question séance droit",
+    "size": 315
+  },
+  {
+    "topic_id": 16,
+    "top_words": "dames noir rouge blanc belle laine qualité fleurs cheveux taille",
+    "size": 128
+  },
+  {
+    "topic_id": 17,
+    "top_words": "général roi prince chef honneur armée capitaine comte saint corps",
+    "size": 212
+  },
+  {
+    "topic_id": 18,
+    "top_words": "homme jeune femme fille yeux cœur père tête petit vie",
+    "size": 253
+  },
+  {
+    "topic_id": 19,
+    "top_words": "théâtre opéra rôle musique succès acte comique grand comédie public",
+    "size": 356
+  }
+]

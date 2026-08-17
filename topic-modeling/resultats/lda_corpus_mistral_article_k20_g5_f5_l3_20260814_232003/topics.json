@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "hommes pays politique peuple droit liberté guerre gouvernement parti homme",
+    "size": 175
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num lille demande maison bureau francs adresser ans vendre lettres",
+    "size": 208
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num ans cour police général président prison mort affaire corps",
+    "size": 344
+  },
+  {
+    "topic_id": 3,
+    "top_words": "droit commission loi millions commerce francs industrie demande administration travaux",
+    "size": 203
+  },
+  {
+    "topic_id": 4,
+    "top_words": "saint ans jean henri paul louis marie andré comte pierre",
+    "size": 211
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num prix renault int citroën places cond voitures luxe cabriolet",
+    "size": 173
+  },
+  {
+    "topic_id": 6,
+    "top_words": "num eau maladies vin médecins santé traitement peau ans sang",
+    "size": 218
+  },
+  {
+    "topic_id": 7,
+    "top_words": "num banque cours marché prix francs courant millions actions société",
+    "size": 190
+  },
+  {
+    "topic_id": 8,
+    "top_words": "dames noir rouge blanc qualité laine belle taille rose bleu",
+    "size": 116
+  },
+  {
+    "topic_id": 9,
+    "top_words": "école exposition société prix concours enseignement enfants honneur art grand",
+    "size": 186
+  },
+  {
+    "topic_id": 10,
+    "top_words": "guerre gouvernement allemagne français angleterre anglais général prince roi états",
+    "size": 369
+  },
+  {
+    "topic_id": 11,
+    "top_words": "num prix grand française grandes film volume histoire manœuvres livre",
+    "size": 240
+  },
+  {
+    "topic_id": 12,
+    "top_words": "route eau temps feu corps foule mètres hommes terre grande",
+    "size": 262
+  },
+  {
+    "topic_id": 13,
+    "top_words": "président conseil ministre chambre général assemblée commission membres réunion séance",
+    "size": 403
+  },
+  {
+    "topic_id": 14,
+    "top_words": "homme jeune femme yeux fille père cœur tête petit pauvre",
+    "size": 243
+  },
+  {
+    "topic_id": 15,
+    "top_words": "num saint fer compagnie prix marseille oran chemin nord service",
+    "size": 135
+  },
+  {
+    "topic_id": 16,
+    "top_words": "num prix équipe club course match tour épreuve mètres coupe",
+    "size": 419
+  },
+  {
+    "topic_id": 17,
+    "top_words": "num cours cpt nord banque lyon remb crédit gaz fer",
+    "size": 341
+  },
+  {
+    "topic_id": 18,
+    "top_words": "théâtre opéra rôle musique grand acte succès comique comédie public",
+    "size": 271
+  },
+  {
+    "topic_id": 19,
+    "top_words": "point temps donner voir mieux monde fort vient grande prendre",
+    "size": 420
+  }
+]

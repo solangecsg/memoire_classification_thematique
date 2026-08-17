@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2666,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3389,
+    "top_words": "loi conseil commission président ministre chambre projet général gouvernement séance"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2725,
+    "top_words": "prix équipe club match course épreuve mètres tour championnat coupe"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2012,
+    "top_words": "lille demande prix maison vendre renault adresser citroën bureau echo"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2595,
+    "top_words": "gouvernement allemagne guerre général pays politique italie berlin troupes prince"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3979,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes revue folies"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2796,
+    "top_words": "gouvernement politique guerre liberté assemblée pays français république droit temps"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2708,
+    "top_words": "ans police femme mort saint âgé enquête arrêté jeune crime"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3361,
+    "top_words": "homme yeux jeune femme fille tête père fortuné main patron"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3254,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure guérison"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2391,
+    "top_words": "cours banque nord kil crédit lyon fer courant act prix"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.1255,
+    "top_words": "exposition honneur général concours président infanterie capitaine médaille saint manœuvres"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.3181,
+    "top_words": "point vie académie histoire livre homme monde temps auteur amour"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2334,
+    "top_words": "général troupes roi commandant port saint artillerie fort officiers ennemi"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3998,
+    "top_words": "théâtre rôle succès public opéra artistes talent artiste scène représentation"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.3964,
+    "top_words": "banque actions société valeurs cours crédit titres fonds millions obligations"
+   },
+   {
+    "topic_id": 15,
+    "npmi": -0.0181,
+    "top_words": "francs abonnement librairie boulangeries poste coiffures annonces pont agence abonnés"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.286,
+    "top_words": "volume jésus vol grand prix histoire roman illustré almanach librairie"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1586,
+    "top_words": "billets dunkerque classe oran départ fer départs ang nord saint"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1434,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve marchand"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3673,
+    "top_words": "baromètre température ciel vent nord thermomètre pluies temps ouest faible"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

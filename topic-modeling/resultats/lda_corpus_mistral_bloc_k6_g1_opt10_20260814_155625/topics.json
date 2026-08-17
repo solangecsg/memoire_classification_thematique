@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num prix fr ans francs lille cv demande maison saint",
+    "size": 6812
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num fr cours banque er francs nord cpt crédit prix",
+    "size": 5047
+  },
+  {
+    "topic_id": 2,
+    "top_words": "théâtre grand num rôle saint opéra succès jean musique public",
+    "size": 4404
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num saint général grand club équipe français président prix nord",
+    "size": 6222
+  },
+  {
+    "topic_id": 4,
+    "top_words": "homme femme jeune ans tête fille vie temps mort cœur",
+    "size": 9488
+  },
+  {
+    "topic_id": 5,
+    "top_words": "gouvernement conseil président droit ministre pays commission point loi question",
+    "size": 14603
+  }
+]

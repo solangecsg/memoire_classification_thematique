@@ -1,0 +1,160 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_article_k20_g1_f5_l3_20260814_232342",
+  "source": "bnf",
+  "granularite": "article",
+  "k": 20,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 4901,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 711498,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "pos": null,
+  "duree_s": 513.2
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.8646,
+  "entropy_max": 2.9957,
+  "entropy_normalized": 0.6224
+ },
+ "diversity": {
+  "diversity": 0.82,
+  "diversity_norm": 0.0077,
+  "tokens_distincts": 21356,
+  "unique_words": 164,
+  "total_words": 200,
+  "shared_words": [
+   "ans",
+   "banque",
+   "cours",
+   "crédit",
+   "droit",
+   "femme",
+   "francs",
+   "gouvernement",
+   "grand",
+   "guerre",
+   "général",
+   "hommes",
+   "nord",
+   "num",
+   "prix",
+   "président",
+   "saint",
+   "théâtre"
+  ],
+  "n_shared": 18
+ },
+ "npmi": {
+  "npmi_mean": 0.225,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1935,
+    "top_words": "num ans cour police prison affaire femme tribunal justice président"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1889,
+    "top_words": "saint ans jean num marie henri louis pierre paul georges"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2793,
+    "top_words": "corps armée hommes feu officiers grande commandant guerre soldats capitaine"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2157,
+    "top_words": "num lille demande maison bureau ans adresser ecrire vendre echo"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1822,
+    "top_words": "exposition art prix grand histoire vient enseignement académie livre école"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.177,
+    "top_words": "num prix équipe club tour course épreuve mètres match grand"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1817,
+    "top_words": "num cpt nord cours kil courant banque lyon crédit gaz"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.381,
+    "top_words": "homme femme jeune yeux fille vie père cœur tête mère"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2911,
+    "top_words": "point temps voir mieux partie part prendre mal bonne fort"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1908,
+    "top_words": "président général conseil num comité maire membres réunion préfet directeur"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2017,
+    "top_words": "num francs société millions banque cours prix marché fonds crédit"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.0875,
+    "top_words": "num oran prix lot francs docteur maladies vente enfants médecins"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1631,
+    "top_words": "num fer nord service saint compagnie marseille chemin mer départ"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2246,
+    "top_words": "num prix int renault places luxe voitures cond neuve voiture"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2423,
+    "top_words": "eau blanc petits rouge qualité dames verre noir gros air"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3034,
+    "top_words": "pays hommes peuple politique liberté gouvernement droit esprit guerre ordre"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.1725,
+    "top_words": "num grand film revue théâtre films radio palais cinéma royal"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2308,
+    "top_words": "gouvernement français guerre allemagne angleterre général anglais roi etats londres"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2607,
+    "top_words": "num loi commission chambre projet ministre question gouvernement séance droit"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3324,
+    "top_words": "théâtre rôle succès public musique opéra grand acte représentation artiste"
+   }
+  ]
+ }
+}

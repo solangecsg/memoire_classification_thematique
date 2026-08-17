@@ -34,7 +34,7 @@ classification-iptc/
 ├── config/.env                                  ← à créer (MISTRAL_API_KEY=...)
 │
 ├── classification/         ← les 4 variantes de classification LLM
-├── analyse_couts/           ← estimation de coûts, sans appel API, + SYNTHESE_COUTS.md et ses CSV
+├── analyse_couts/           ← estimation de coûts, sans appel API, et ses CSV
 ├── results/                  ← sorties de classification (JSON par fascicule)
 └── re-ocr/
     ├── scripts/              ← ré-OCRisation (Mistral vision + Pero)
@@ -47,6 +47,8 @@ classification-iptc/
 ## `classification/` : classer les articles par thème IPTC
 
 Les 4 scripts font tous la même tâche (lire les articles d'un fascicule, leur assigner 1 à 5 thèmes IPTC via Mistral, sauvegarder un JSON par fascicule) mais avec une stratégie différente pour réduire le coût. Ils sont indépendants (chacun peut tourner seul) et partagent `iptc_mediatopic_official.json` (taxonomie IPTC officielle, format SKOS/JSON-LD, source : `cv.iptc.org/newscodes/mediatopic/`).
+
+Le diagramme d'activité de la variante retenue, groupage par lot, figure dans `classification/schema_pipeline_classification.png`, avec sa source vectorielle au format SVG à côté.
 
 Usage commun :
 ```bash
@@ -61,8 +63,8 @@ python classify_iptc_mistral<variante>.py --force                        # retra
 |---|---|---|
 | `classify_iptc_mistral.py` | Référence : 1 article = 1 appel API, liste complète des 567 étiquettes à chaque fois. | Coût de référence, le plus simple à comprendre. |
 | `classify_iptc_mistral_cached.py` | Comme la référence, mais le contenu fixe (instructions + liste) est regroupé dans le message `system` + `prompt_cache_key`, pour profiter du cache de prompt Mistral (-90% sur les tokens déjà vus). | Gain réel mais modeste (~-47% sur l'échantillon testé). |
-| `classify_iptc_mistral_batched.py` | Regroupe plusieurs articles par appel (budget dynamique de tokens, jusqu'à 25 articles/appel) le coût fixe de la liste est ainsi partagé entre tous les articles du lot. | **La plus économique (-89% vs la référence). Voir `analyse_couts/SYNTHESE_COUTS.md`.** |
-| `classify_iptc_mistral_cascade.py` | En 2 étages : d'abord une classification niveau 2 (120 catégories, liste courte) sur tous les articles, puis un 2ᵉ passage niveau 3 par branche assignée (liste réduite aux seuls enfants de cette branche). | **Essayée et rejetée : coûte PLUS cher que le groupage simple**  le texte de chaque article est envoyé 2 fois (une fois par étage), ce qui mange l'économie faite sur la liste. Voir section 8 de `SYNTHESE_COUTS.md` pour le détail du mécanisme. Conservée dans le dépôt à titre d'exemple documenté d'une piste d'optimisation qui semblait logique sur le papier mais ne tient pas à la mesure. |
+| `classify_iptc_mistral_batched.py` | Regroupe plusieurs articles par appel (budget dynamique de tokens, jusqu'à 25 articles/appel) le coût fixe de la liste est ainsi partagé entre tous les articles du lot. | **La plus économique, 89 % de moins que la référence. Les mesures détaillées sont dans `analyse_couts/`.** |
+| `classify_iptc_mistral_cascade.py` | En 2 étages : d'abord une classification niveau 2 (120 catégories, liste courte) sur tous les articles, puis un 2ᵉ passage niveau 3 par branche assignée (liste réduite aux seuls enfants de cette branche). | **Essayée et rejetée : coûte plus cher que le groupage simple**  le texte de chaque article est envoyé 2 fois (une fois par étage), ce qui mange l'économie faite sur la liste. La docstring du script détaille le mécanisme. Conservée dans le dépôt à titre d'exemple documenté d'une piste d'optimisation qui semblait logique sur le papier et ne tient pas à la mesure. |
 
 Points communs aux 4 scripts :
 - Comptage de tokens réel via `mistral-common` (tokenizer Mistral téléchargé depuis Hugging Face au premier lancement), pas une approximation en caractères.
@@ -92,7 +94,7 @@ python estimate_pricing_batched.py
 python estimate_pricing_cascade.py
 ```
 
-Le récit complet (scénarios, échelles jusqu'à 2,6M fascicules, hébergement local vs cloud, ce qui est mesuré vs supposé) est dans **`analyse_couts/SYNTHESE_COUTS.md`**, à lire en premier pour comprendre les résultats.
+Les scripts de `analyse_couts/` produisent ces chiffres et les écrivent dans les CSV du même dossier. Chaque script porte en tête ce qu'il mesure et sous quelles hypothèses.
 
 ## `results/` : sorties de classification
 
@@ -131,7 +133,7 @@ Le récit complet (scénarios, échelles jusqu'à 2,6M fascicules, hébergement 
 
 Lien avec `classification/` : les scripts de `classification/` lisent leurs articles directement depuis ce corpus, via `MISTRAL_RESULTS_DIR` (pointe vers `re-ocr/corpus/reocr_mistral/`) et `SAMPLE_DIR` (pointe vers `re-ocr/corpus/original/`), définis en tête de chaque script.
 
-Point d'attention (voir aussi `analyse_couts/SYNTHESE_COUTS.md`) : le découpage à l'article présent dans `toc/T<id>.xml` est une caractéristique de ce corpus, constitué pour ce POC dans un contexte de reprise de données. Il n'est pas présent tel quel sur l'ensemble du corpus presse patrimoniale de la BnF. Réutiliser `classification/` sur un autre corpus suppose de disposer du même type de découpage à l'article, ou de le reconstruire au préalable.
+Point d'attention : le découpage à l'article présent dans `toc/T<id>.xml` est une caractéristique de ce corpus, constitué pour ce POC dans un contexte de reprise de données. Il n'est pas présent tel quel sur l'ensemble du corpus presse patrimoniale de la BnF. Réutiliser `classification/` sur un autre corpus suppose de disposer du même type de découpage à l'article, ou de le reconstruire au préalable.
 
 ---
 

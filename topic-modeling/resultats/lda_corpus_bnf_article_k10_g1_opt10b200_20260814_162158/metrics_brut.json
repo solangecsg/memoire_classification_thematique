@@ -1,0 +1,60 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2315,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1298,
+    "top_words": "ans saint jean maire honneur prix concours lille oran henri"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2718,
+    "top_words": "ii ie re nt eau el ia ri li it"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1302,
+    "top_words": "num prix cv pl club équipe course grand tour match"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.246,
+    "top_words": "num fr cours cpt nord banque prix id crédit valeurs"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1633,
+    "top_words": "num fr prix francs demande maison lille vente bureau ans"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1936,
+    "top_words": "num guerre général armée français roi gouvernement allemagne prince londres"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2651,
+    "top_words": "num président conseil gouvernement loi commission ministre chambre général assemblée"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2771,
+    "top_words": "théâtre opéra grand rôle musique succès public acte comique num"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3436,
+    "top_words": "point temps monde grande pays hommes vie mieux esprit homme"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2944,
+    "top_words": "femme jeune homme num fille mort ans petit yeux porte"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 100
+}

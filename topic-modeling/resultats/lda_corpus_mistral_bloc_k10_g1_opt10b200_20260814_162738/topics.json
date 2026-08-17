@@ -1,0 +1,52 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "gouvernement président ministre conseil général guerre chambre commission ordre question",
+    "size": 6916
+  },
+  {
+    "topic_id": 1,
+    "top_words": "jeune femme homme ans fille porte tête mort mère coup",
+    "size": 6357
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num fr cpt er nord banque francs crédit prix lyon",
+    "size": 4666
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num club équipe prix course mètres grand français match épreuve",
+    "size": 2993
+  },
+  {
+    "topic_id": 4,
+    "top_words": "point monde vie homme temps hommes pays grand œuvre histoire",
+    "size": 6768
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num saint général président honneur ans école maire ancien jean",
+    "size": 3304
+  },
+  {
+    "topic_id": 6,
+    "top_words": "théâtre num opéra grand rôle musique succès comique acte comédie",
+    "size": 3180
+  },
+  {
+    "topic_id": 7,
+    "top_words": "num ans cv prix fr demande lille pl maison saint",
+    "size": 4112
+  },
+  {
+    "topic_id": 8,
+    "top_words": "num francs prix cours société millions fer compagnie droit commerce",
+    "size": 6010
+  },
+  {
+    "topic_id": 9,
+    "top_words": "eau blanc dames noir laine peau maladies cheveux rouge qualité",
+    "size": 2270
+  }
+]

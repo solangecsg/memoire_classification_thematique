@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat",
+    "size": 576
+  },
+  {
+    "topic_id": 1,
+    "top_words": "commission loi conseil président ministre chambre projet général gouvernement séance",
+    "size": 470
+  },
+  {
+    "topic_id": 2,
+    "top_words": "lille demande prix maison vendre renault adresser bureau echo vente",
+    "size": 450
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement allemagne guerre général pays roi italie troupes politique berlin",
+    "size": 436
+  },
+  {
+    "topic_id": 4,
+    "top_words": "théâtre opéra comique mmes concert comédie musique revue actes folies",
+    "size": 357
+  },
+  {
+    "topic_id": 5,
+    "top_words": "ans police femme saint mort âgé arrêté enquête prison jeune",
+    "size": 354
+  },
+  {
+    "topic_id": 6,
+    "top_words": "homme yeux jeune fille femme tête père fortuné main temps",
+    "size": 350
+  },
+  {
+    "topic_id": 7,
+    "top_words": "gouvernement guerre loi pays liberté politique assemblée droit temps hommes",
+    "size": 337
+  },
+  {
+    "topic_id": 8,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure guérison",
+    "size": 263
+  },
+  {
+    "topic_id": 9,
+    "top_words": "académie point vie livre homme histoire femme amour monde art",
+    "size": 235
+  },
+  {
+    "topic_id": 10,
+    "top_words": "théâtre rôle succès public opéra artistes scène talent artiste représentation",
+    "size": 225
+  },
+  {
+    "topic_id": 11,
+    "top_words": "volume jésus francs prix librairie poste abonnement vol grand pages",
+    "size": 205
+  },
+  {
+    "topic_id": 12,
+    "top_words": "exposition concours médaille honneur société comité président réunion prix salle",
+    "size": 189
+  },
+  {
+    "topic_id": 13,
+    "top_words": "banque cours crédit actions nord fer société valeurs lyon gaz",
+    "size": 187
+  },
+  {
+    "topic_id": 14,
+    "top_words": "général infanterie régiment capitaine colonel manœuvres honneur saint lieutenant président",
+    "size": 181
+  },
+  {
+    "topic_id": 15,
+    "top_words": "port temps baromètre température troupes ouest nord bord mer navire",
+    "size": 149
+  },
+  {
+    "topic_id": 16,
+    "top_words": "cours lib crédit act nord banque valeurs orléans lyon fer",
+    "size": 113
+  },
+  {
+    "topic_id": 17,
+    "top_words": "kil courant disponible marché cote prix blés froment cours avoine",
+    "size": 109
+  },
+  {
+    "topic_id": 18,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve jean",
+    "size": 91
+  },
+  {
+    "topic_id": 19,
+    "top_words": "billets dunkerque classe oran départ départs fer ang nord saint",
+    "size": 84
+  }
+]

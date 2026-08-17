@@ -1,0 +1,166 @@
+{
+ "meta": {
+  "model": "bertopic_kmeans",
+  "run_id": "bertopic_kmeans_mistral_article_k20_e5_g5_20260815_193100",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 20,
+  "k_demande": 20,
+  "min_taille": null,
+  "graine": 5,
+  "n_docs": 5361,
+  "n_sans_groupe": 0,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "longueur_max": 512,
+  "duree_s": 17.9
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.0,
+  "entropy_max": 2.9957,
+  "entropy_normalized": 0.0
+ },
+ "diversity": {
+  "diversity": 0.8,
+  "diversity_norm": 0.0075,
+  "tokens_distincts": 21355,
+  "unique_words": 160,
+  "total_words": 200,
+  "shared_words": [
+   "ans",
+   "banque",
+   "conseil",
+   "cours",
+   "femme",
+   "fer",
+   "francs",
+   "gouvernement",
+   "grand",
+   "guerre",
+   "général",
+   "homme",
+   "jeune",
+   "loi",
+   "monde",
+   "nord",
+   "opéra",
+   "pays",
+   "politique",
+   "prix",
+   "président",
+   "saint",
+   "temps",
+   "théâtre",
+   "troupes"
+  ],
+  "n_shared": 25
+ },
+ "npmi": {
+  "npmi_mean": 0.2518,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2649,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2007,
+    "top_words": "lille demande prix maison vendre renault adresser bureau citroën echo"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.244,
+    "top_words": "gouvernement allemagne guerre général pays italie prince troupes angleterre politique"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3908,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes revue folies"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3196,
+    "top_words": "loi commission conseil président ministre projet chambre général gouvernement séance"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2482,
+    "top_words": "ans police femme mort saint enquête jeune âgé arrêté crime"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.285,
+    "top_words": "gouvernement loi politique parti vouloir droit assemblée pays guerre liberté"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2873,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure pilules"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1605,
+    "top_words": "général exposition honneur concours saint infanterie régiment capitaine président médaille"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3283,
+    "top_words": "homme yeux jeune femme fille fortuné tête père patron mère"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.1972,
+    "top_words": "cours kil courant prix banque cote marché lib disponible blés"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.252,
+    "top_words": "temps peuple monde point pays président homme gouvernement hommes grand"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2491,
+    "top_words": "académie vie histoire livre auteur homme art monde œuvre prix"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3883,
+    "top_words": "théâtre rôle succès public artistes opéra talent artiste scène représentation"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1696,
+    "top_words": "grève ouvriers travail francs réunion conseil comité prix président général"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1944,
+    "top_words": "volume librairie jésus francs prix abonnement vol poste grand pages"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.3587,
+    "top_words": "banque cours crédit actions nord société fer valeurs lyon gaz"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2178,
+    "top_words": "ouest port nord temps température troupes baromètre mer fort commandant"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1285,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve marchand"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.1504,
+    "top_words": "billets dunkerque oran classe départ fer départs ang nord saint"
+   }
+  ]
+ }
+}

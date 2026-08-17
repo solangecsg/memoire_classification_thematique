@@ -1,0 +1,805 @@
+{
+  "fascicule": "4742203",
+  "usage": {
+    "prompt_tokens": 51309,
+    "completion_tokens": 2332,
+    "total_tokens": 53641,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 37.76,
+    "temps_reponse_min_s": 18.64,
+    "temps_reponse_max_s": 19.13,
+    "temps_reponse_moyen_s": 18.88,
+    "temps_reponse_median_s": 18.88
+  },
+  "articles": [
+    {
+      "article_id": "DIV.32",
+      "title": "BULLETIN",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000480",
+          "label_fr": "Soins de santé publics"
+        },
+        {
+          "code": "20000448",
+          "label_fr": "Maladies contagieuses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.53",
+      "title": "France.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.59",
+      "title": "Angleterre.",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.72",
+      "title": "Espagne.",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.78",
+      "title": "Autriche.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.84",
+      "title": "Prusse.",
+      "themes": [
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.92",
+      "title": "Amérique.",
+      "themes": [
+        {
+          "code": "20000645",
+          "label_fr": "Réfugiés"
+        },
+        {
+          "code": "20000101",
+          "label_fr": "Crime organisé"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.100",
+      "title": "DIV.100",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.116",
+      "title": "LES ÉLECTIONS COMMUNALES.",
+      "themes": [
+        {
+          "code": "20000578",
+          "label_fr": "Élections locales"
+        },
+        {
+          "code": "20000612",
+          "label_fr": "Institutions locales"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.148",
+      "title": "DIV.148",
+      "themes": [
+        {
+          "code": "20000588",
+          "label_fr": "Censure"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.167",
+      "title": "DIV.167",
+      "themes": [
+        {
+          "code": "20000677",
+          "label_fr": "Islam"
+        },
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000629",
+          "label_fr": "Autochtones"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.184",
+      "title": "DIV.184",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000702",
+          "label_fr": "Relations entre les institutions religieuses et l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.199",
+      "title": "Angleterre.",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.208",
+      "title": "Belgique.",
+      "themes": [
+        {
+          "code": "20000576",
+          "label_fr": "Système électoral"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.215",
+      "title": "Espagne.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.233",
+      "title": "Italie.",
+      "themes": [
+        {
+          "code": "20000480",
+          "label_fr": "Soins de santé publics"
+        },
+        {
+          "code": "20000448",
+          "label_fr": "Maladies contagieuses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.239",
+      "title": "Allemagne.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000752",
+          "label_fr": "Sciences politiques"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.246",
+      "title": "DIV.246",
+      "themes": [
+        {
+          "code": "20000629",
+          "label_fr": "Autochtones"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000677",
+          "label_fr": "Islam"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.256",
+      "title": "DIV.256",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.266",
+      "title": "DIV.266",
+      "themes": [
+        {
+          "code": "20000607",
+          "label_fr": "Budget du gouvernement"
+        },
+        {
+          "code": "20000643",
+          "label_fr": "Aide internationale"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.275",
+      "title": "DIV.275",
+      "themes": [
+        {
+          "code": "20000628",
+          "label_fr": "Urbanisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.278",
+      "title": "DIV.278",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.281",
+      "title": "DIV.281",
+      "themes": [
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.285",
+      "title": "DIV.285",
+      "themes": [
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.289",
+      "title": "DIV.289",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.292",
+      "title": "DIV.292",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.295",
+      "title": "DIV.295",
+      "themes": [
+        {
+          "code": "20000613",
+          "label_fr": "Ministres"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.298",
+      "title": "DIV.298",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.301",
+      "title": "DIV.301",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.304",
+      "title": "DIV.304",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000606",
+          "label_fr": "Pouvoir exécutif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.307",
+      "title": "DIV.307",
+      "themes": [
+        {
+          "code": "20000744",
+          "label_fr": "Archéologie"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.322",
+      "title": "FAITS DIVERS",
+      "themes": [
+        {
+          "code": "20000607",
+          "label_fr": "Budget du gouvernement"
+        },
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        },
+        {
+          "code": "20000404",
+          "label_fr": "Lycées"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.354",
+      "title": "Tribunaux, étrangers : COUR LE CASSATION DU ROYAUME DE BELGIQUE (Bruxelles). Présidence de M. de Gerlade, premier président. Audience du 2 juillet.",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.388",
+      "title": "[titre_illisible] : PROIGUE.",
+      "themes": [
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.548",
+      "title": "Dernières nouvelles.",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000643",
+          "label_fr": "Aide internationale"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.569",
+      "title": "DIV.569",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.582",
+      "title": "TIRAGE : DIMANCHE PROCHAIN, 23 JUILLET",
+      "themes": [
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.595",
+      "title": "SOUSCRIPTION PUBLIQUE EMPRUNT DES Villes de Roubaix et de Tourcoing (Nord)",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.609",
+      "title": "SPECTACLE DU DIMANCHE 16 JUILLET.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.638",
+      "title": "BULLETIN COMPARATIF DES RECETTES DES CHEMINS DE FER.",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.654",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        },
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.667",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.699",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.713",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.721",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000483",
+          "label_fr": "Assurance maladie"
+        },
+        {
+          "code": "20000381",
+          "label_fr": "Fonds communs de placement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.730",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.734",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.737",
+      "title": "DIV.737",
+      "themes": [
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.768",
+      "title": "BOURSE DU 15 JUILLET 1865",
+      "themes": [
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.787",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    }
+  ]
+}

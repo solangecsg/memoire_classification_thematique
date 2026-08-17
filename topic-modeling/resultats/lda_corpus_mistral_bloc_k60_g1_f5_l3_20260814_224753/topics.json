@@ -1,0 +1,302 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num lille nord texte calais roubaix dunkerque bruxelles saint vap",
+    "size": 509
+  },
+  {
+    "topic_id": 1,
+    "top_words": "fort mal point mieux monde homme donne temps difficile voir",
+    "size": 766
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num cpt nord crédit banque remb lyon gaz act lib",
+    "size": 1256
+  },
+  {
+    "topic_id": 3,
+    "top_words": "conseil général maire président municipal directeur préfet ancien membres secrétaire",
+    "size": 873
+  },
+  {
+    "topic_id": 4,
+    "top_words": "vie esprit homme œuvre hommes histoire monde temps pays idée",
+    "size": 1041
+  },
+  {
+    "topic_id": 5,
+    "top_words": "fer compagnie chemin chemins nord mines gare lignes société train",
+    "size": 533
+  },
+  {
+    "topic_id": 6,
+    "top_words": "num lettres poste bureau adresser bureaux réponse franco adresse demande",
+    "size": 1021
+  },
+  {
+    "topic_id": 7,
+    "top_words": "parti gouvernement politique majorité assemblée ordre liberté pays droit république",
+    "size": 1002
+  },
+  {
+    "topic_id": 8,
+    "top_words": "jeune fille femme père fils mère ans petite homme famille",
+    "size": 937
+  },
+  {
+    "topic_id": 9,
+    "top_words": "confiance grand donner bonne heureux honneur dévouement voulu amis avenir",
+    "size": 802
+  },
+  {
+    "topic_id": 10,
+    "top_words": "num demande maison lille ans adresser bonne écrire références echo",
+    "size": 1278
+  },
+  {
+    "topic_id": 11,
+    "top_words": "cour juge tribunal procès justice affaire prison président condamné appel",
+    "size": 861
+  },
+  {
+    "topic_id": 12,
+    "top_words": "main coup voir point petit forme petite porte œil mouvement",
+    "size": 570
+  },
+  {
+    "topic_id": 13,
+    "top_words": "foule feu blessés incendie rues coup route pris morts gare",
+    "size": 719
+  },
+  {
+    "topic_id": 14,
+    "top_words": "école enseignement écoles élèves professeur cours arts sciences instruction études",
+    "size": 670
+  },
+  {
+    "topic_id": 15,
+    "top_words": "cours valeurs marché hausse bourse affaires clôture actions baisse fonds",
+    "size": 576
+  },
+  {
+    "topic_id": 16,
+    "top_words": "grand volume histoire livre auteur ouvrage vient pages français roman",
+    "size": 782
+  },
+  {
+    "topic_id": 17,
+    "top_words": "tour temps coureurs départ long van kilomètres arrivée course tête",
+    "size": 458
+  },
+  {
+    "topic_id": 18,
+    "top_words": "londres anglais angleterre états unis new york film films amérique",
+    "size": 493
+  },
+  {
+    "topic_id": 19,
+    "top_words": "allemagne guerre paix gouvernement europe français pays berlin traité politique",
+    "size": 843
+  },
+  {
+    "topic_id": 20,
+    "top_words": "prince roi gouvernement empereur russie vienne autriche italie reine espagne",
+    "size": 826
+  },
+  {
+    "topic_id": 21,
+    "top_words": "num prix francs centimes mètres rgs placé placés gagnant entrée",
+    "size": 744
+  },
+  {
+    "topic_id": 22,
+    "top_words": "exposition grand concours prix honneur fête grande médaille société fêtes",
+    "size": 579
+  },
+  {
+    "topic_id": 23,
+    "top_words": "armée troupes guerre hommes ennemi général soldats allemands front français",
+    "size": 788
+  },
+  {
+    "topic_id": 24,
+    "top_words": "général armée chef honneur capitaine militaire colonel corps commandant major",
+    "size": 682
+  },
+  {
+    "topic_id": 25,
+    "top_words": "temps eau vent ciel température corps chaleur soleil nord froid",
+    "size": 490
+  },
+  {
+    "topic_id": 26,
+    "top_words": "yeux tête jeune main voix mains visage petit air homme",
+    "size": 1093
+  },
+  {
+    "topic_id": 27,
+    "top_words": "mètres chevaux voiture appareil eau moteur machine grande route vitesse",
+    "size": 532
+  },
+  {
+    "topic_id": 28,
+    "top_words": "num renault prix int cond citroën places luxe cabriolet peugeot",
+    "size": 1126
+  },
+  {
+    "topic_id": 29,
+    "top_words": "noir dames rouge blanc laine bleu velours rose mètre blanche",
+    "size": 635
+  },
+  {
+    "topic_id": 30,
+    "top_words": "marseille bordeaux nouvelle côte afrique oran arrivée lyon sud nord",
+    "size": 416
+  },
+  {
+    "topic_id": 31,
+    "top_words": "eau vin demi vins terre verre papier café pain qualité",
+    "size": 537
+  },
+  {
+    "topic_id": 32,
+    "top_words": "num théâtre champs palais royal revue cirque élysées matinée folies",
+    "size": 881
+  },
+  {
+    "topic_id": 33,
+    "top_words": "gouvernement situation vue mesures point conditions prendre question ordre questions",
+    "size": 688
+  },
+  {
+    "topic_id": 34,
+    "top_words": "générale société réunion comité assemblée union siège association membres congrès",
+    "size": 718
+  },
+  {
+    "topic_id": 35,
+    "top_words": "saint ans église martin vouloir denis maison germain sainte honoré",
+    "size": 531
+  },
+  {
+    "topic_id": 36,
+    "top_words": "équipe club match épreuve coupe français stade champion championnat poids",
+    "size": 1201
+  },
+  {
+    "topic_id": 37,
+    "top_words": "industrie produits grande commerce pays vue point angleterre importance consommation",
+    "size": 659
+  },
+  {
+    "topic_id": 38,
+    "top_words": "temps prendre voir tête mieux besoin bonne conseils part réunion",
+    "size": 421
+  },
+  {
+    "topic_id": 39,
+    "top_words": "num oran lille haute vienne propriétaire notaire adresser demeurant acte",
+    "size": 473
+  },
+  {
+    "topic_id": 40,
+    "top_words": "théâtre musique opéra comédie actes acte comique orchestre scène concert",
+    "size": 773
+  },
+  {
+    "topic_id": 41,
+    "top_words": "point esprit vis vérité bonne temps question prendre propre saurait",
+    "size": 591
+  },
+  {
+    "topic_id": 42,
+    "top_words": "droit loi droits société lois propriété art conséquence cas auteurs",
+    "size": 535
+  },
+  {
+    "topic_id": 43,
+    "top_words": "santé maladies sang médecins docteur traitement estomac flacon médecin malades",
+    "size": 625
+  },
+  {
+    "topic_id": 44,
+    "top_words": "jean louis henri paul charles georges mmes victor pierre comte",
+    "size": 673
+  },
+  {
+    "topic_id": 45,
+    "top_words": "num kil courant kilos disponible prix marché blé cote qualité",
+    "size": 908
+  },
+  {
+    "topic_id": 46,
+    "top_words": "rôle succès public grand voix talent artiste théâtre artistes jeune",
+    "size": 763
+  },
+  {
+    "topic_id": 47,
+    "top_words": "homme cœur vie mort femme dieu amour point bonheur sang",
+    "size": 858
+  },
+  {
+    "topic_id": 48,
+    "top_words": "salle maison grand hôtel bois jardin pièces palais grande maisons",
+    "size": 588
+  },
+  {
+    "topic_id": 49,
+    "top_words": "travail travaux ouvriers service publics œuvre personnel nouvelle établissement pouvoirs",
+    "size": 499
+  },
+  {
+    "topic_id": 50,
+    "top_words": "commission loi projet chambre discussion rapport proposition demande question budget",
+    "size": 888
+  },
+  {
+    "topic_id": 51,
+    "top_words": "grandes manœuvres amiral française marine flotte mer vapeur port bord",
+    "size": 387
+  },
+  {
+    "topic_id": 52,
+    "top_words": "porte prit mirabeau donna comte aussitôt trouvait long demanda vint",
+    "size": 704
+  },
+  {
+    "topic_id": 53,
+    "top_words": "num francs millions banque somme actions caisse société capital bons",
+    "size": 876
+  },
+  {
+    "topic_id": 54,
+    "top_words": "président ministre conseil discours affaires république chambre ministres général guerre",
+    "size": 656
+  },
+  {
+    "topic_id": 55,
+    "top_words": "question point faits ment mesure renseignements savoir fort donné présence",
+    "size": 394
+  },
+  {
+    "topic_id": 56,
+    "top_words": "num mètres pts points longueur série oblig cmc tours angl",
+    "size": 694
+  },
+  {
+    "topic_id": 57,
+    "top_words": "ans police mort femme âgé commissaire trouvé blessé nommé corps",
+    "size": 785
+  },
+  {
+    "topic_id": 58,
+    "top_words": "enfants femmes jeunes hommes petits filles grands pauvres famille ans",
+    "size": 393
+  },
+  {
+    "topic_id": 59,
+    "top_words": "num comp amsterdam exp amortissable fpd francfort asc rand cons",
+    "size": 1220
+  }
+]

@@ -1,0 +1,60 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1302,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1832,
+    "top_words": "ans femme jeune homme mort fille porte tête coup père"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1417,
+    "top_words": "saint théâtre grand jean rôle opéra succès ans louis paul"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1632,
+    "top_words": "point hommes monde homme pays mieux temps voir esprit politique"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.079,
+    "top_words": "num francs prix cours demande lille fer millions compagnie maison"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2009,
+    "top_words": "président conseil commission loi ministre gouvernement chambre général assemblée droit"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.0715,
+    "top_words": "num cpt nord lyon kil crédit remb gaz renault int"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.082,
+    "top_words": "saint prix mètres grand tour club équipe français départ exposition"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1228,
+    "top_words": "eau grand qualité petits blanc belle demi bois rouge grands"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.127,
+    "top_words": "guerre général armée français angleterre allemagne anglais londres roi chef"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1308,
+    "top_words": "travail école point art travaux société vue grande œuvre histoire"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 100
+}

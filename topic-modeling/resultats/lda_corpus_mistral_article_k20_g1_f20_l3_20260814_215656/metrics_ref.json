@@ -1,0 +1,165 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_article_k20_g1_f20_l3_20260814_215656",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 20,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 4761,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 629916,
+  "longueur_min": 3,
+  "freq_min": 20,
+  "duree_s": 89.0
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.8302,
+  "entropy_max": 2.9957,
+  "entropy_normalized": 0.6109
+ },
+ "diversity": {
+  "diversity": 0.79,
+  "diversity_norm": 0.0074,
+  "tokens_distincts": 21355,
+  "unique_words": 158,
+  "total_words": 200,
+  "shared_words": [
+   "ans",
+   "banque",
+   "bonne",
+   "compagnie",
+   "conseil",
+   "corps",
+   "cours",
+   "crédit",
+   "droit",
+   "femme",
+   "fer",
+   "francs",
+   "gouvernement",
+   "grand",
+   "guerre",
+   "général",
+   "nord",
+   "num",
+   "opéra",
+   "pays",
+   "prix",
+   "président",
+   "saint",
+   "théâtre"
+  ],
+  "n_shared": 24
+ },
+ "npmi": {
+  "npmi_mean": 0.2473,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2432,
+    "top_words": "num prix renault int citroën cond places voitures luxe francs"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2058,
+    "top_words": "saint ans jean louis henri marie prix pierre paul andré"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2849,
+    "top_words": "général armée guerre roi chef capitaine corps militaire officiers commandant"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1623,
+    "top_words": "num eau vin santé maladies peau corps rouge ans médecins"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3123,
+    "top_words": "num nord cpt cours banque lyon fer remb crédit gaz"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.212,
+    "top_words": "école exposition prix grand art histoire enseignement arts académie volume"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2005,
+    "top_words": "num théâtre opéra film revue grand films comédie cinéma palais"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1804,
+    "top_words": "num prix équipe club mètres course tour match grand épreuve"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2528,
+    "top_words": "président conseil général comité maire réunion membres secrétaire préfet république"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2557,
+    "top_words": "gouvernement angleterre allemagne français anglais londres états guerre pays italie"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.1725,
+    "top_words": "ans police cour tribunal num président femme prison justice francs"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.3354,
+    "top_words": "rôle succès théâtre public grand musique scène opéra représentation artistes"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1681,
+    "top_words": "fer nord oran service chemin saint pont compagnie gare num"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3171,
+    "top_words": "commission loi chambre ministre projet conseil question gouvernement droit séance"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2341,
+    "top_words": "num prix kil courant marché cours kilos cote disponible qualité"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2926,
+    "top_words": "point temps donner voir prendre mieux partie part bonne fort"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.245,
+    "top_words": "num francs société banque millions actions compagnie crédit fonds cours"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2206,
+    "top_words": "demande lille maison bureau adresser ans vendre lettres bonne echo"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.291,
+    "top_words": "pays politique hommes peuple liberté gouvernement guerre grande intérêts droit"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3593,
+    "top_words": "homme jeune femme fille yeux père vie tête cœur petit"
+   }
+  ]
+ }
+}

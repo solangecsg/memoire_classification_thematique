@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2588,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2035,
+    "top_words": "num équipe club prix course tour match épreuve coupe grand"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3589,
+    "top_words": "homme monde point hommes fort temps mal vrai voir mieux"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2378,
+    "top_words": "eau fer pont chemin gare grande mètres terre service train"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1858,
+    "top_words": "num prix francs kil courant marché cours kilos mètres cote"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2728,
+    "top_words": "commission conseil num loi ministre chambre président projet séance droit"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2692,
+    "top_words": "gouvernement allemagne angleterre français anglais londres états guerre europe prince"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1359,
+    "top_words": "num prix renault citroën int cond places voitures maladies luxe"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1884,
+    "top_words": "ans saint jean num henri théâtre georges martin paul louis"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1863,
+    "top_words": "saint président honneur maire concours exposition école société comité général"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3495,
+    "top_words": "théâtre rôle succès musique public grand opéra représentation artistes scène"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2286,
+    "top_words": "prix histoire école grand art vie académie arts française vient"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2408,
+    "top_words": "num francs société compagnie millions banque cours fer générale actions"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3213,
+    "top_words": "gouvernement politique peuple parti république droit liberté pays ordre assemblée"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3129,
+    "top_words": "point grande temps travail pays vue partie donner intérêt question"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1732,
+    "top_words": "num lille demande maison bureau ans adresser prix vendre lettres"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.28,
+    "top_words": "général armée guerre num commandant officiers chef troupes capitaine colonel"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.282,
+    "top_words": "rouge dames blanc noir laine femmes cheveux qualité blanche grands"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2356,
+    "top_words": "ans police cour prison président mort affaire saint femme tribunal"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.324,
+    "top_words": "num cours cpt nord banque crédit lyon fer remb gaz"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3891,
+    "top_words": "jeune femme fille père tête homme yeux mère porte mort"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

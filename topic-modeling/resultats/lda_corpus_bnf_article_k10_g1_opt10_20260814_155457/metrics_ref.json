@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_article_k10_g1_opt10_20260814_155457",
+  "source": "bnf",
+  "granularite": "article",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "optimisation": 10,
+  "burn_in": 20,
+  "n_docs": 5394,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 904765,
+  "duree_s": 76.3
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.1996,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.521
+ },
+ "diversity": {
+  "diversity": 0.86,
+  "diversity_norm": 0.004,
+  "tokens_distincts": 21356,
+  "unique_words": 86,
+  "total_words": 100,
+  "shared_words": [
+   "fr",
+   "gouvernement",
+   "grand",
+   "général",
+   "lille",
+   "num",
+   "prix"
+  ],
+  "n_shared": 7
+ },
+ "npmi": {
+  "npmi_mean": -0.0371,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1086,
+    "top_words": "ans saint num maire jean honneur prix concours lille société"
+   },
+   {
+    "topic_id": 1,
+    "npmi": -1.0,
+    "top_words": "ii re ie eau nt el li ri ir ur"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.2819,
+    "top_words": "num prix cv pl club équipe course tour grand match"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.4418,
+    "top_words": "num fr cours cpt nord banque prix id crédit ch"
+   },
+   {
+    "topic_id": 4,
+    "npmi": -0.0731,
+    "top_words": "num fr prix francs demande maison lille vente bureau adresser"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1712,
+    "top_words": "num guerre général armée français gouvernement roi allemagne londres prince"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.244,
+    "top_words": "num conseil président gouvernement commission ministre loi chambre général assemblée"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3309,
+    "top_words": "théâtre grand opéra rôle musique public succès acte comique artistes"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2264,
+    "top_words": "point num temps monde grande pays hommes vie mieux vient"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3451,
+    "top_words": "femme jeune homme fille mort porte yeux père petit tête"
+   }
+  ]
+ }
+}

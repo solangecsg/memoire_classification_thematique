@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2376,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1682,
+    "top_words": "théâtre ans grand demande maison lille opéra prix rôle succès"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2656,
+    "top_words": "président conseil ministre commission loi société général francs chambre assemblée"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3764,
+    "top_words": "homme femme jeune mort ans fille tête yeux cœur père"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1307,
+    "top_words": "num prix saint mètres club équipe jean tour grand concours"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2855,
+    "top_words": "point guerre pays gouvernement grande français hommes temps grand politique"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1993,
+    "top_words": "num fr cours prix nord banque cv crédit cpt fer"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "général dé saint corps membres président directeur bureau vient adresser",
+    "size": 6
+  },
+  {
+    "topic_id": 1,
+    "top_words": "conseil do temps ordre che esprit voix municipalité soleil bois",
+    "size": 2
+  },
+  {
+    "topic_id": 2,
+    "top_words": "grand droit re ancien cours er compagnie ment argent maison",
+    "size": 4
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num fr société prix francs obligations titres générale rembourser oblig",
+    "size": 7
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ministère chambre république pays union gauche affaires cabinet loi majorité",
+    "size": 6
+  },
+  {
+    "topic_id": 5,
+    "top_words": "amiral reynière ans préfet con herblay homme chance bonheur tion",
+    "size": 2
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "lille ans demande ecrire prix maison vendre int renault adresser",
+    "size": 436
+  },
+  {
+    "topic_id": 1,
+    "top_words": "commission loi conseil président projet chambre ministre gouvernement assemblée séance",
+    "size": 413
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne guerre général pays conférence italie berlin troupes armée",
+    "size": 368
+  },
+  {
+    "topic_id": 3,
+    "top_words": "opéra théâtre comique concert musique mmes actes comédie revue radio",
+    "size": 347
+  },
+  {
+    "topic_id": 4,
+    "top_words": "prix épreuve course tour coureurs club francs auto coupe mètres",
+    "size": 340
+  },
+  {
+    "topic_id": 5,
+    "top_words": "banque cours valeurs actions crédit marché nord courant société obligations",
+    "size": 339
+  },
+  {
+    "topic_id": 6,
+    "top_words": "gouvernement guerre politique pays droit français point peuple hommes cour",
+    "size": 338
+  },
+  {
+    "topic_id": 7,
+    "top_words": "homme femme yeux jeune fille père mère temps petit main",
+    "size": 332
+  },
+  {
+    "topic_id": 8,
+    "top_words": "ans police mort femme jeune enquête saint crime prison âgé",
+    "size": 313
+  },
+  {
+    "topic_id": 9,
+    "top_words": "volume librairie prix francs grand poste jésus vente dim abonnement",
+    "size": 307
+  },
+  {
+    "topic_id": 10,
+    "top_words": "maladies estomac eau peau traitement sirop cure flacon crème sang",
+    "size": 248
+  },
+  {
+    "topic_id": 11,
+    "top_words": "exposition vie prix histoire enseignement sciences point académie honneur temps",
+    "size": 222
+  },
+  {
+    "topic_id": 12,
+    "top_words": "films film cinéma rose mode auteurs satin rouge mètres société",
+    "size": 210
+  },
+  {
+    "topic_id": 13,
+    "top_words": "troupes général front commandant ennemi roi temps port artillerie hommes",
+    "size": 210
+  },
+  {
+    "topic_id": 14,
+    "top_words": "ouvriers travail grève mineurs conseil travailleurs réunion société francs prix",
+    "size": 201
+  },
+  {
+    "topic_id": 15,
+    "top_words": "équipe match club stade poids finale champion championnat points joueurs",
+    "size": 199
+  },
+  {
+    "topic_id": 16,
+    "top_words": "général président infanterie capitaine honneur directeur légion saint colonel ancien",
+    "size": 185
+  },
+  {
+    "topic_id": 17,
+    "top_words": "rôle théâtre succès public talent opéra artistes artiste scène représentation",
+    "size": 157
+  },
+  {
+    "topic_id": 18,
+    "top_words": "billets classe départ départs fer oran ang train cap nord",
+    "size": 80
+  },
+  {
+    "topic_id": 19,
+    "top_words": "baromètre prix température ciel thermomètre concours nord vent saint mer",
+    "size": 65
+  }
+]

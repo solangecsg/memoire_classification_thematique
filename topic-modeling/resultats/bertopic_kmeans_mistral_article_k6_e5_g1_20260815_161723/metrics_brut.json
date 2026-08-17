@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2944,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3061,
+    "top_words": "gouvernement général conseil président ministre loi guerre commission ordre pays"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3304,
+    "top_words": "homme ans femme jeune temps mort grand vie fille point"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.187,
+    "top_words": "prix ans lille demande maison francs adresser vente saint vendre"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3465,
+    "top_words": "théâtre opéra rôle succès grand musique public comédie représentation artistes"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2725,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.324,
+    "top_words": "banque cours nord crédit fer prix valeurs actions société lyon"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

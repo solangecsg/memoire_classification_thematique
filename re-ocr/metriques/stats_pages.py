@@ -1,20 +1,64 @@
 """
-stats_pages.py — Statistiques par page et diagramme de Venn des tokens distincts
+stats_pages.py : mesures de vocabulaire par page et comparaison des trois sources
 
-Pour les N premiers fascicules, par méthode (BnF / Pero / Mistral) et par page :
-  - tokens distincts (chaînes de caractères uniques)
-  - nb total de mots
-  - nb total de caractères
-  - nb d'articles couvrant la page (depuis TOC METS)
+CE QUE FAIT CE SCRIPT
 
-Sorties :
-  resultats_stats/vocab_venn.html       — diagramme de Venn global
-  resultats_stats/stats_par_page.csv    — détail par fascicule × page × source
-  resultats_stats/stats_mistral_brut.csv — mots / caractères / articles par page (Mistral uniquement)
+Compare le vocabulaire produit par trois océrisations du même corpus, page par
+page, et en dresse un diagramme de recouvrement.
 
-Usage :
+Les trois sources sont l'océrisation d'origine livrée avec les fascicules, celle
+que produit le moteur Pero, et celle que produit un modèle multimodal. La
+comparaison sert à établir ce que la ré-océrisation change réellement.
+
+CE QUI EST MESURÉ, PAR PAGE ET PAR SOURCE
+
+  formes distinctes   nombre de chaînes différentes. La quantité est
+                      l'indicateur principal : une océrisation défaillante
+                      produit des formes qui n'existent pas, chacune attestée
+                      une seule fois, et gonfle donc ce nombre sans porter
+                      d'information.
+  mots                nombre total de mots
+  caractères          nombre total de caractères
+  articles            nombre de divisions ARTICLE couvrant la page, lues dans la
+                      carte logique du METS
+
+LE DIAGRAMME DE RECOUVREMENT
+
+Il montre, pour l'ensemble du corpus, les formes que les trois sources ont en
+commun et celles que chacune produit seule. Les formes attestées par une seule
+source sont celles qui posent question : le mémoire établit que 27 pour cent des
+formes du corpus ne sont attestées que par l'océrisation d'origine, proportion
+qui justifie la ré-océrisation.
+
+Les blocs de titraille sont écartés du dénombrement. Ils portent des mots en
+capitales et en corps différent, dont la reconnaissance obéit à d'autres
+contraintes, et les compter mêlerait deux régimes.
+
+ENTRÉES
+
+  corpus/original/{fascicule}/ocr/       ALTO d'origine
+  corpus/reocr_pero/{fascicule}/ocr/     ALTO produits par Pero
+  corpus/reocr_mistral/{fascicule}/ocr/  ALTO produits par le modèle multimodal
+  corpus/original/{fascicule}/toc/       carte logique, pour le compte d'articles
+
+SORTIES
+
+  resultats_stats/vocab_venn.html        diagramme de recouvrement
+  resultats_stats/stats_par_page.csv     détail par fascicule, page et source
+  resultats_stats/stats_mistral_brut.csv mots, caractères et articles par page
+
+PAQUETS EMPLOYÉS
+
+  argparse, csv, collections, pathlib   bibliothèque standard
+  xml.etree.ElementTree                 lecture des fichiers ALTO et METS
+
+Le diagramme est écrit en HTML plutôt que produit par une bibliothèque de tracé,
+ce qui évite une dépendance pour une figure unique.
+
+USAGE
+
     python3 stats_pages.py
-    python3 stats_pages.py --n 5
+    python3 stats_pages.py --n 5      # limiter aux cinq premiers fascicules
 """
 
 import argparse
@@ -45,7 +89,7 @@ TOC_DIR = lambda fid: ROOT / "Sample" / "sample_iiif" / fid / "toc"
 
 def tokens_from_alto(path: Path) -> list[str]:
     """Liste des mots (tokens) d'un fichier ALTO, en excluant les blocs tagués
-    comme titre/sous-titre (StructureTag LABEL) — pour ne comparer que le texte
+    comme titre/sous-titre (StructureTag LABEL) : pour ne comparer que le texte
     courant entre BnF/Pero/Mistral, pas les éléments de mise en page.
     """
     tree = ET.parse(path)
@@ -239,7 +283,7 @@ if __name__ == "__main__":
     def stat_rows():
         """Construit les lignes <tr> du tableau HTML récapitulatif (tokens distincts,
         mots/page, caractères/page) pour chaque source (BnF, Pero, Mistral), plus
-        une ligne de moyenne — utilisé dans le rapport vocab_venn.html.
+        une ligne de moyenne : utilisé dans le rapport vocab_venn.html.
         """
         rows = ""
         for src in SOURCES:
@@ -264,7 +308,7 @@ if __name__ == "__main__":
 
     html = f"""<!DOCTYPE html>
 <html lang="fr"><head><meta charset="utf-8">
-<title>Stats pages — comparaison OCR</title>
+<title>Stats pages : comparaison OCR</title>
 <style>
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{font-family:'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;padding:32px;display:flex;flex-direction:column;align-items:center}}
@@ -279,12 +323,12 @@ td{{padding:8px 16px;font-size:.85rem;border-top:1px solid #1e3a5f}}
 td.num{{text-align:right;font-family:monospace}}
 svg text{{font-family:'Segoe UI',sans-serif;fill:#e2e8f0}}
 </style></head><body>
-<h1>Statistiques par page — comparaison sources OCR</h1>
+<h1>Statistiques par page : comparaison sources OCR</h1>
 <div class="sub">{len(fascicules)} premiers fascicules · tokens en minuscules · hors blocs-titres</div>
 <div class="row">
 
 <div class="card">
-<h2>Tokens distincts — diagramme de Venn</h2>
+<h2>Tokens distincts : diagramme de Venn</h2>
 <svg viewBox="0 0 420 330" width="420" height="330">
   <circle cx="160" cy="145" r="115" fill="#3b82f6" fill-opacity=".2" stroke="#3b82f6" stroke-width="2"/>
   <circle cx="260" cy="145" r="115" fill="#f97316" fill-opacity=".2" stroke="#f97316" stroke-width="2"/>

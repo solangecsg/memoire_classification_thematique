@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1329,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.0839,
+    "top_words": "num fr francs prix ii ch cpt pl nord id"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.091,
+    "top_words": "saint ans prix jean lille grand mètres louis tour paul"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1595,
+    "top_words": "gouvernement pays point guerre grande français temps hommes politique question"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1658,
+    "top_words": "homme jeune femme ans temps mort fille vie porte tête"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1426,
+    "top_words": "président conseil société demande ministre général commission francs loi chambre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1545,
+    "top_words": "grand théâtre succès grande rôle public eau salle opéra belle"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

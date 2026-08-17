@@ -1,0 +1,411 @@
+{
+  "fascicule": "4768900",
+  "usage": {
+    "prompt_tokens": 35461,
+    "completion_tokens": 1062,
+    "total_tokens": 36523,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 18.97,
+    "temps_reponse_min_s": 18.97,
+    "temps_reponse_max_s": 18.97,
+    "temps_reponse_moyen_s": 18.97,
+    "temps_reponse_median_s": 18.97
+  },
+  "articles": [
+    {
+      "article_id": "DIV.31",
+      "title": "Du rôle de la France au Maroc.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000044",
+          "label_fr": "Patrimoine"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.40",
+      "title": "Les questions sociales agitées en Angleterre. : LES PROPRIÉTAIRES DE MINES ET LES OUVRIERS ; LE CAPITAL ET LE TRAVAIL. GUERRE OUVERTE (1).",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.94",
+      "title": "DIV.94",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.97",
+      "title": "DIV.97",
+      "themes": [
+        {
+          "code": "20000613",
+          "label_fr": "Ministres"
+        },
+        {
+          "code": "20000606",
+          "label_fr": "Pouvoir exécutif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.101",
+      "title": "DIV.101",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.105",
+      "title": "DIV.105",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000643",
+          "label_fr": "Aide internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.109",
+      "title": "DIV.109",
+      "themes": [
+        {
+          "code": "20000067",
+          "label_fr": "Rébellion"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.112",
+      "title": "DIV.112",
+      "themes": [
+        {
+          "code": "20000801",
+          "label_fr": "Pauvreté"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.116",
+      "title": "Affaire du Maroc.",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.135",
+      "title": "TAITI.",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000643",
+          "label_fr": "Aide internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.144",
+      "title": "Abdication de Méhémet-Ali.",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.155",
+      "title": "REVUE DES JOURNAUX.",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.162",
+      "title": "DIV.162",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.167",
+      "title": "Faits divers.",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000168",
+          "label_fr": "Secours d'urgence"
+        },
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.180",
+      "title": "DIV.180",
+      "themes": [
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.214",
+      "title": "Études sur les Parisiennes.",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000572",
+          "label_fr": "Tendance"
+        },
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.291",
+      "title": "Bourse du 22 août 1844.",
+      "themes": [
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000390",
+          "label_fr": "Marché obligataire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.323",
+      "title": "DÉCLARATIONS DE FAILLITES DU 20 AOUT.",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.334",
+      "title": "DIV.334",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.337",
+      "title": "DIV.337",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.342",
+      "title": "Spectacles du 23 août.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.360",
+      "title": "CHRONIQUE DÉPARTEMENTALE. Industrie vinicole.",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.376",
+      "title": "PRODUITS VÉGÉTAUX. : Cours des céréales (par hect.).",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.415",
+      "title": "PRODUITS ANIMAUX. : Bestiaux. (Prix du kil. sur pied.)",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.427",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    }
+  ]
+}

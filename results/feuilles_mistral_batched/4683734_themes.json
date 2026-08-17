@@ -1,0 +1,379 @@
+{
+  "fascicule": "4683734",
+  "usage": {
+    "prompt_tokens": 18950,
+    "completion_tokens": 1084,
+    "total_tokens": 20034,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 21.98,
+    "temps_reponse_min_s": 21.98,
+    "temps_reponse_max_s": 21.98,
+    "temps_reponse_moyen_s": 21.98,
+    "temps_reponse_median_s": 21.98
+  },
+  "articles": [
+    {
+      "article_id": "DIV.24",
+      "title": "PARIS VENDU",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000653",
+          "label_fr": "Système politique"
+        },
+        {
+          "code": "20000070",
+          "label_fr": "Coup d'Etat"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.81",
+      "title": "DIV.81",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20001384",
+          "label_fr": "Parti politique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.84",
+      "title": "DIV.84",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.87",
+      "title": "DIV.87",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.91",
+      "title": "DIV.91",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.97",
+      "title": "DIV.97",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.100",
+      "title": "DIV.100",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.103",
+      "title": "DIV.103",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.106",
+      "title": "DIV.106",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.111",
+      "title": "DIV.111",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.116",
+      "title": "DIV.116",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.120",
+      "title": "DIV.120",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.125",
+      "title": "M. THIERS",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.132",
+      "title": "DISCOURS DE M. THIERS",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.163",
+      "title": "Un cadeau de bienvenue",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.176",
+      "title": "Echange de prisonniers de guerre",
+      "themes": [
+        {
+          "code": "20000080",
+          "label_fr": "Prisonniers de guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.183",
+      "title": "ASSEMBLÉE NATIONALE",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.220",
+      "title": "LES LOYERS",
+      "themes": [
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        },
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.243",
+      "title": "L'ALLOCATION DES GARDES NATIONAUX",
+      "themes": [
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        },
+        {
+          "code": "20000518",
+          "label_fr": "Salaires et pensions ou Salaires et allocations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.258",
+      "title": "DÉMISSION DE LEDRU-ROLLIN : Au président de l'Assemblée nationale :",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000653",
+          "label_fr": "Système politique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.272",
+      "title": "LES HOMMES DU 4 SEPTEMBRE : JUGÉS PAR LA PRESSE BOURGEOISE",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.286",
+      "title": "PLON-PLON",
+      "themes": [
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.298",
+      "title": "RENSEIGNEMENTS",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.316",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000478",
+          "label_fr": "Thérapie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.323",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000492",
+          "label_fr": "Personnel médical"
+        }
+      ]
+    }
+  ]
+}

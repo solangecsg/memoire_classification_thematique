@@ -1,0 +1,10 @@
+{
+  "model": "bertopic_kmeans",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 34,
+  "graine": 1,
+  "n_docs": 3628,
+  "n_sans_groupe": 0,
+  "note": "restreint aux articles retenus par HDBSCAN"
+}

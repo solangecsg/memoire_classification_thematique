@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2629,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.248,
+    "top_words": "num prix renault int citroën cond places voitures luxe francs"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2236,
+    "top_words": "saint ans jean louis henri marie prix pierre paul andré"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3012,
+    "top_words": "général armée guerre roi chef capitaine corps militaire officiers commandant"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1712,
+    "top_words": "num eau vin santé maladies peau corps rouge ans médecins"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.324,
+    "top_words": "num nord cpt cours banque lyon fer remb crédit gaz"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2276,
+    "top_words": "école exposition prix grand art histoire enseignement arts académie volume"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2101,
+    "top_words": "num théâtre opéra film revue grand films comédie cinéma palais"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1901,
+    "top_words": "num prix équipe club mètres course tour match grand épreuve"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.27,
+    "top_words": "président conseil général comité maire réunion membres secrétaire préfet république"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2767,
+    "top_words": "gouvernement angleterre allemagne français anglais londres états guerre pays italie"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.1932,
+    "top_words": "ans police cour tribunal num président femme prison justice francs"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.3495,
+    "top_words": "rôle succès théâtre public grand musique scène opéra représentation artistes"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1808,
+    "top_words": "fer nord oran service chemin saint pont compagnie gare num"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3388,
+    "top_words": "commission loi chambre ministre projet conseil question gouvernement droit séance"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2475,
+    "top_words": "num prix kil courant marché cours kilos cote disponible qualité"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3224,
+    "top_words": "point temps donner voir prendre mieux partie part bonne fort"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2591,
+    "top_words": "num francs société banque millions actions compagnie crédit fonds cours"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2276,
+    "top_words": "demande lille maison bureau adresser ans vendre lettres bonne echo"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3166,
+    "top_words": "pays politique hommes peuple liberté gouvernement guerre grande intérêts droit"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3801,
+    "top_words": "homme jeune femme fille yeux père vie tête cœur petit"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

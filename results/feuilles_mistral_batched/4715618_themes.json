@@ -1,0 +1,849 @@
+{
+  "fascicule": "4715618",
+  "usage": {
+    "prompt_tokens": 48665,
+    "completion_tokens": 2511,
+    "total_tokens": 51176,
+    "cached_tokens": 0,
+    "n_calls": 3,
+    "temps_reponse_total_s": 47.66,
+    "temps_reponse_min_s": 8.51,
+    "temps_reponse_max_s": 23.63,
+    "temps_reponse_moyen_s": 15.89,
+    "temps_reponse_median_s": 15.51
+  },
+  "articles": [
+    {
+      "article_id": "DIV.24",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.35",
+      "title": "LE DISCOURS DU MARÉCHAL DE MOLTKE",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.61",
+      "title": "LA DÉCLARATION DE GUERRE",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000070",
+          "label_fr": "Coup d'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.75",
+      "title": "RÉPONSE DE LA TURQUE A LA DÉCLARATION DE GUERRE",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.90",
+      "title": "En Russie",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.109",
+      "title": "L'invasion de la Roumanie",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        },
+        {
+          "code": "20000645",
+          "label_fr": "Réfugiés"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.133",
+      "title": "Immobilité des Turcs",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        },
+        {
+          "code": "20000694",
+          "label_fr": "Ramadan"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.147",
+      "title": "Montenegro, Albanie, Serbie",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.155",
+      "title": "DERNIÈRE HEURE (Du correspondant russe de la Petite Presse.)",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.163",
+      "title": "(De notre correspondant du Caucase)",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.170",
+      "title": "(De l'AGENCE HAVAS)",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.177",
+      "title": "Inondations en Russie",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000168",
+          "label_fr": "Secours d'urgence"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.185",
+      "title": "LA RAISON DE NOS ARMEMENTS MARITIMES",
+      "themes": [
+        {
+          "code": "20000058",
+          "label_fr": "Intervention militaire internationale"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.195",
+      "title": "DIV.195",
+      "themes": [
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.198",
+      "title": "DIV.198",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.206",
+      "title": "DIV.206",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.209",
+      "title": "DIV.209",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.212",
+      "title": "DIV.212",
+      "themes": [
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.215",
+      "title": "DIV.215",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000645",
+          "label_fr": "Réfugiés"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.218",
+      "title": "Petite Bourse du Boulevard : 25 Avril. — 10 heures du soir",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.226",
+      "title": "LA STATUE DE GEORGE SAND",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000444",
+          "label_fr": "Espèces envahissantes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.241",
+      "title": "EXÉCUTION DE BILLOIR",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.250",
+      "title": "Un cœur illustre à vendre",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000444",
+          "label_fr": "Espèces envahissantes"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.259",
+      "title": "Triste suicide",
+      "themes": [
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        },
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.268",
+      "title": "Un soldat par la fenêtre",
+      "themes": [
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        },
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        },
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.276",
+      "title": "Le tableau où la mort !...",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.294",
+      "title": "Le mystère de Charonne",
+      "themes": [
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.300",
+      "title": "DIV.300",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.303",
+      "title": "Poignée d'Informations",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        },
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        },
+        {
+          "code": "20001128",
+          "label_fr": "Prévisions météorologiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.335",
+      "title": "UNE HEUREUSE TROUVAILLE",
+      "themes": [
+        {
+          "code": "20000744",
+          "label_fr": "Archéologie"
+        },
+        {
+          "code": "20000044",
+          "label_fr": "Patrimoine"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.341",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.347",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.351",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.357",
+      "title": "M. de Cassagnac en appel.— Confusion des deux condamnations",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.371",
+      "title": "MUSIQUES MILITAIRES : Jeudi 26 avril, de 4 h. 3/4 à 5 h. 3/4",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.390",
+      "title": "Une pensée par jour",
+      "themes": [
+        {
+          "code": "20000751",
+          "label_fr": "Philosophie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.396",
+      "title": "DÉCLARATIONS DE FAILLITES DU 23 AVRIL",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20001366",
+          "label_fr": "Restructuration d'entreprise"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.412",
+      "title": "Nouveaux exploits DE ROCAMBOLE : TROISIÈME PARTIE LES REPRÉSAILLES",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.468",
+      "title": "EN TURQUIE : CARNET DE VOYAGE D'UN PARISIEN",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.496",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.499",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        },
+        {
+          "code": "20001158",
+          "label_fr": "Entrepreneuriat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.503",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.513",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000059",
+          "label_fr": "Forces de maintien de la paix"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.523",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.530",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.533",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.537",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        },
+        {
+          "code": "20000487",
+          "label_fr": "Spécialisations médicales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.540",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.543",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.546",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.552",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.564",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.571",
+      "title": "BULLETIN FINANCIER Du 25 avril 1877.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.582",
+      "title": "DIV.582",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.610",
+      "title": "DIV.610",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.616",
+      "title": "DIV.616",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.619",
+      "title": "DIV.619",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.623",
+      "title": "SPECTACLES DU JEUDI 26 AVRIL",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    }
+  ]
+}

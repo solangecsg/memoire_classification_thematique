@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_bloc_k6_g1_20260814_110825",
+  "source": "bnf",
+  "granularite": "bloc",
+  "k": 6,
+  "iterations": 1000,
+  "graine": 1,
+  "n_docs": 46912,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 866496,
+  "duree_s": 68.2
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.4206,
+  "entropy_max": 1.7918,
+  "entropy_normalized": 0.7928
+ },
+ "diversity": {
+  "diversity": 0.9,
+  "diversity_norm": 0.0026,
+  "tokens_distincts": 20602,
+  "unique_words": 54,
+  "total_words": 60,
+  "shared_words": [
+   "ans",
+   "francs",
+   "grand",
+   "grande",
+   "prix",
+   "temps"
+  ],
+  "n_shared": 6
+ },
+ "npmi": {
+  "npmi_mean": -0.0275,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -0.7761,
+    "top_words": "num fr francs prix ii ch cpt pl nord id"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.0742,
+    "top_words": "saint ans prix jean lille grand mètres louis tour paul"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1333,
+    "top_words": "gouvernement pays point guerre grande français temps hommes politique question"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1459,
+    "top_words": "homme jeune femme ans temps mort fille vie porte tête"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1233,
+    "top_words": "président conseil société demande ministre général commission francs loi chambre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1347,
+    "top_words": "grand théâtre succès grande rôle public eau salle opéra belle"
+   }
+  ]
+ }
+}

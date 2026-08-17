@@ -1,0 +1,57 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "grand général gouvernement temps président point homme saint guerre grande",
+    "size": 3253
+  },
+  {
+    "topic_id": 1,
+    "top_words": "prix club match course épreuve mètres tour coupe championnat stade",
+    "size": 572
+  },
+  {
+    "topic_id": 2,
+    "top_words": "lille demande prix maison vendre renault adresser bureau echo vente",
+    "size": 386
+  },
+  {
+    "topic_id": 3,
+    "top_words": "maladies estomac peau flacon traitement sang boîte guérison santé pharmacie",
+    "size": 238
+  },
+  {
+    "topic_id": 4,
+    "top_words": "volume prix vol abonnement francs grand poste librairie illustré histoire",
+    "size": 139
+  },
+  {
+    "topic_id": 5,
+    "top_words": "lib act crédit nord valeurs banque cours orléans lyon gaz",
+    "size": 101
+  },
+  {
+    "topic_id": 6,
+    "top_words": "kil courant marché cote prix blés disponible froment sacs cours",
+    "size": 99
+  },
+  {
+    "topic_id": 7,
+    "top_words": "billets dunkerque classe oran départ fer départs ang saint train",
+    "size": 78
+  },
+  {
+    "topic_id": 8,
+    "top_words": "banque cours valeurs actions crédit millions fonds marché chemins rente",
+    "size": 71
+  },
+  {
+    "topic_id": 9,
+    "top_words": "ans maire saint juge comm prov adjoint veuve marchand jean",
+    "size": 67
+  },
+  {
+    "topic_id": 10,
+    "top_words": "banque gaz nord lyon fer cours comp crédit act lib",
+    "size": 33
+  }
+]

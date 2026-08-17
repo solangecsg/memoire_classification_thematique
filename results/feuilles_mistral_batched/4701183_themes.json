@@ -1,0 +1,901 @@
+{
+  "fascicule": "4701183",
+  "usage": {
+    "prompt_tokens": 71755,
+    "completion_tokens": 2674,
+    "total_tokens": 74429,
+    "cached_tokens": 0,
+    "n_calls": 3,
+    "temps_reponse_total_s": 51.54,
+    "temps_reponse_min_s": 11.59,
+    "temps_reponse_max_s": 20.77,
+    "temps_reponse_moyen_s": 17.18,
+    "temps_reponse_median_s": 19.18
+  },
+  "articles": [
+    {
+      "article_id": "DIV.42",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        },
+        {
+          "code": "20000060",
+          "label_fr": "Forces d'occupation"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.54",
+      "title": "Sommaire",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.80",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.85",
+      "title": "LES CONSEILS DU VÉTÉRAN",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.107",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.125",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.151",
+      "title": "La Nuit NE DURERA PAS TOUJOURS PAR LOUIS GILLET DE L'ACADÉMIE FRANÇAISE",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        },
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.163",
+      "title": "TOUCHONS DU BOIS",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.211",
+      "title": "Emmène-moi... : NOUVELLE INÉDITE PAR SILVAIN REINER L'ANNEE VA FINIR. BOIBU, SIX ANS, RECEVRA-T-IL LE CADEAU QU'IL ESPERE : QUELQUES HEURES DE REVE MERVEILLEUX ET DE VISIONS MAGIQUES ? LILETTE, SA GRANDE SŒUR, L'A LAISSE SEUL.. MAIS UN MIRACLE, PARFOIS, EST POSSIBLE...",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.328",
+      "title": "Merci, chères lectrices... : ...MERCI, POUR TOUTES CES RECETTES ET CES CONSEILS. CAR CEST DANS VOS INNOMBRABLES LETTRES QUE NOUS AVONS RECUEILLI CES PETITS SECRETS, QUI SERONT UTILES A TOUTES NOS AMIES POUR L'ANNÉE QUI VIENT.",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.398",
+      "title": "Horoscope DU 27 DECEMBRE AU 2 JANVIER",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.411",
+      "title": "CONNAISSEZ-VOUS L'HISTOIRE DE FRANCE : REPONSES",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.417",
+      "title": "QUESTIONS BAROQUES : REPONSES",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.430",
+      "title": "Connaissez-vous l'histoire de France ?",
+      "themes": [
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.441",
+      "title": "POUR EUX RESTONS FEMININES",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.476",
+      "title": "VARIATIONS SUR UNE BLOUSE CLASSIQUE",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.507",
+      "title": "J'AI UNE ROBE VRAIMENT PRATIQUE",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.518",
+      "title": "ET VOUS SAVEZ ! c'est moi qui les fais... : LES BONBONS ? AVOUEZ-LE, VOUS LES AIMEZ ! PROFITEZ DE LA FIN DE L'ANNÉE POUR EN FABRIQUER QUELQUES-UNS A LA MAISON. LES OFFRIR SERA UNE FAÇON SIMPLE ET GENTILLE DE MARQUER LES FÊTES DU NOUVEL AN.",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.563",
+      "title": "DIV.563",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.567",
+      "title": "COTELETTES DE PORC AUX MARRONS",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.573",
+      "title": "CANARD A L'ORANGE",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.578",
+      "title": "BŒUF A LA SAUCE AUX DATTES",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.584",
+      "title": "POULET AUX NOIX",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.589",
+      "title": "BŒUF MIROTON AUX PRUNEAUX",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.594",
+      "title": "RAGOUT D'OIE AUX POMMES",
+      "themes": [
+        {
+          "code": "20000550",
+          "label_fr": "Passe-temps"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.600",
+      "title": "MEDAILLONS AUX CITRONS",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.605",
+      "title": "PORC AUX RAISINS",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.611",
+      "title": "SELLE DE MOUTON A LA GELEE DE GROSEILLES",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.621",
+      "title": "SELLE DE MOUTON A LA GELEE DE GROSEILLE",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.627",
+      "title": "Connais-toi TOI-MÊME",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.652",
+      "title": "DIV.652",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.719",
+      "title": "IL N'AVAIT PLUS BESOIN D'ELLE NOUVELLE INEDITE PAR G. MARTINEZ : AVANT DE PARTIR, SON FILS AVAIT VOULU LA VOIR... IL AVAIT AUSSI ECRIT A MARY, SI BELLE ET SI TOUCHANTE EN SON DESARROI... MAIS UN CŒUR MATERNEL NE SAIT PAS S'ARRETER DE BATTRE ET...",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.815",
+      "title": "nos tricots",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.889",
+      "title": "La Folle Equipée DE Marie-Caroline : DUCHESSE DE BERRY GRAND RÉCIT HISTORIQUE INÉDIT PAR LUCILE DECAUX",
+      "themes": [
+        {
+          "code": "20000070",
+          "label_fr": "Coup d'Etat"
+        },
+        {
+          "code": "20000477",
+          "label_fr": "Vaccins"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1017",
+      "title": "★ TRENTE MINUTES DE VIE APRES LA MORT...",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000478",
+          "label_fr": "Thérapie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1022",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000572",
+          "label_fr": "Tendance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1025",
+      "title": "★ CONFECTIONNEZ DES ENTREMETS AU CHOCOLAT.",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1033",
+      "title": "★ ENVOYEZ DU SOLEIL AUX ARMEES",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20000643",
+          "label_fr": "Aide internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1038",
+      "title": "★ VOUS N'AVEZ PAS IDEE...",
+      "themes": [
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        },
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1046",
+      "title": "★ SERIE DES VIEUX PROVERBES COUCHE-TOI SANS SOUPER, TU TE LEVERAS SANS DETTE",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1052",
+      "title": "★ LE PLUS VIEUX JOURNAL DU MONDE",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1057",
+      "title": "★ SOURIEZ « JEUNE »...",
+      "themes": [
+        {
+          "code": "20000487",
+          "label_fr": "Spécialisations médicales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1062",
+      "title": "★ PREPAREZ VOUS-MEME CE SI ROP CONTRE TOUX. RHUMES ET GRIPPE.",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1071",
+      "title": "★ MADAME. MONSIEUR",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1077",
+      "title": "★ AVIS AU PUBLIC",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1082",
+      "title": "★ TOILES ET DRAPS DE LITS",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1090",
+      "title": "DIV.1090",
+      "themes": [
+        {
+          "code": "20000753",
+          "label_fr": "Psychologie"
+        },
+        {
+          "code": "20000782",
+          "label_fr": "Relation amoureuse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1093",
+      "title": "★ Quelle teinte dois-je choisir pour un pull-over devant être porté avec un tailleur bleu marine ?",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000582",
+          "label_fr": "Candidats"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1100",
+      "title": "★ Puis-je préparer chez moi une licence d' anglais ?",
+      "themes": [
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000750",
+          "label_fr": "Linguistique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1110",
+      "title": "★ Y a-t-il un procédé pour rendre aux lainages leur souplesse ?",
+      "themes": [
+        {
+          "code": "20000572",
+          "label_fr": "Tendance"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1121",
+      "title": "★ J'ai un très beau renard bleu et ne sais quel parti en tirer...",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1130",
+      "title": "★ Que faire avec des restes de laine ?",
+      "themes": [
+        {
+          "code": "20000510",
+          "label_fr": "Apprentissage"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1135",
+      "title": "★ Les situations sont changées... Vous pouvez probablement me venir en aide.",
+      "themes": [
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1141",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1151",
+      "title": "Départ matinal",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1178",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1192",
+      "title": "Ecoles-leçons : COURS COMMERCIAUX",
+      "themes": [
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1203",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1218",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1227",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1246",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1257",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1273",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1285",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1295",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1301",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1335",
+      "title": "DIV.1335",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1350",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1363",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1376",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    }
+  ]
+}

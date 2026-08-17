@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1199,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.0504,
+    "top_words": "num fr ii cpt prix pl ch id cv nord"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.0451,
+    "top_words": "num saint prix ans général jean club équipe grand président"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1376,
+    "top_words": "num gouvernement conseil guerre point ministre pays président général loi"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.169,
+    "top_words": "homme femme jeune ans temps mort fille vie porte main"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.0919,
+    "top_words": "num francs prix fr demande lille maison fer bureau vente"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2253,
+    "top_words": "théâtre num grand succès rôle opéra public musique acte artistes"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

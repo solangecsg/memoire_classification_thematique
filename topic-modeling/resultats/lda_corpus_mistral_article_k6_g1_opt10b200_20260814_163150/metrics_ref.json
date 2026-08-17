@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_article_k6_g1_opt10b200_20260814_163150",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 6,
+  "iterations": 1000,
+  "graine": 1,
+  "optimisation": 10,
+  "burn_in": 200,
+  "n_docs": 5401,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 881786,
+  "duree_s": 1128.1
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.8673,
+  "entropy_max": 1.7918,
+  "entropy_normalized": 0.4841
+ },
+ "diversity": {
+  "diversity": 0.8833,
+  "diversity_norm": 0.0025,
+  "tokens_distincts": 21355,
+  "unique_words": 53,
+  "total_words": 60,
+  "shared_words": [
+   "grand",
+   "num",
+   "prix",
+   "saint"
+  ],
+  "n_shared": 4
+ },
+ "npmi": {
+  "npmi_mean": 0.1248,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3243,
+    "top_words": "théâtre grand opéra succès rôle musique public comique artistes acte"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1352,
+    "top_words": "num ans saint francs lille demande prix maison bureau service"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3493,
+    "top_words": "homme femme jeune temps fille mort vie tête yeux main"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1472,
+    "top_words": "num prix club équipe mètres course saint tour match grand"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2253,
+    "top_words": "num gouvernement président général conseil ministre guerre pays loi point"
+   },
+   {
+    "topic_id": 5,
+    "npmi": -0.4323,
+    "top_words": "num fr cours prix banque cv nord crédit cpt er"
+   }
+  ]
+ }
+}

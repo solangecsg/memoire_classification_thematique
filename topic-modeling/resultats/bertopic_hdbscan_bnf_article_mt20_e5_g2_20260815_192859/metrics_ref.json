@@ -1,0 +1,216 @@
+{
+ "meta": {
+  "model": "bertopic_hdbscan",
+  "run_id": "bertopic_hdbscan_bnf_article_mt20_e5_g2_20260815_192859",
+  "source": "bnf",
+  "granularite": "article",
+  "k": 29,
+  "k_demande": null,
+  "min_taille": 20,
+  "graine": 2,
+  "n_docs": 5310,
+  "n_sans_groupe": 1810,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "longueur_max": 512,
+  "duree_s": 18.0
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.0,
+  "entropy_max": 3.3673,
+  "entropy_normalized": 0.0
+ },
+ "diversity": {
+  "diversity": 0.8759,
+  "diversity_norm": 0.0119,
+  "tokens_distincts": 21356,
+  "unique_words": 254,
+  "total_words": 290,
+  "shared_words": [
+   "actions",
+   "ans",
+   "artillerie",
+   "banque",
+   "capitaine",
+   "chemins",
+   "cours",
+   "crédit",
+   "départs",
+   "femme",
+   "gouvernement",
+   "guerre",
+   "infanterie",
+   "jeune",
+   "loi",
+   "marché",
+   "mer",
+   "mort",
+   "mètres",
+   "nord",
+   "opéra",
+   "ouest",
+   "pays",
+   "point",
+   "police",
+   "prix",
+   "saint",
+   "théâtre",
+   "valeurs",
+   "vol"
+  ],
+  "n_shared": 30
+ },
+ "npmi": {
+  "npmi_mean": 0.2529,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2629,
+    "top_words": "prix équipe club match épreuve course tour coupe championnat mètres"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1622,
+    "top_words": "demande lille ecrire prix int vendre renault echo maison bureau"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3182,
+    "top_words": "opéra théâtre comique concert musique actes mmes comédie radio revue"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2825,
+    "top_words": "gouvernement allemagne guerre conférence pays berlin politique europe allemands russie"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2511,
+    "top_words": "ans police enquête jeune femme mort âgé saint hôpital cadavre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3144,
+    "top_words": "commission loi projet chambre gouvernement assemblée conseil président impôt séance"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2602,
+    "top_words": "maladies estomac peau traitement cure flacon sang beauté teint pharmacie"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.313,
+    "top_words": "yeux homme jeune femme fille père mère mirabeau tête petit"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2317,
+    "top_words": "écoles loi enseignement iii budget point ment instruction mal publique"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3326,
+    "top_words": "kil courant disponible cote marché prix froment kilos sacs calme"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2684,
+    "top_words": "gouvernement peuple hommes révolution monde guerre droit pays français point"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.3844,
+    "top_words": "rôle théâtre succès public opéra talent artistes artiste scène acte"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3758,
+    "top_words": "banque cours valeurs millions actions crédit marché fonds bourse chemins"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.4099,
+    "top_words": "gaz crédit valeurs banque nord act lyon cours actions obligations"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2302,
+    "top_words": "films film auteurs cinéma mètres production société cinématographique affiche images"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2477,
+    "top_words": "grève ouvriers travail réunion syndicats travailleurs priés générale comité délégués"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.1856,
+    "top_words": "volume jésus vol grand roman histoire relié prix gravures vaudeville"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1013,
+    "top_words": "librairie abonnement annonces havas agence poste abonnés francs abonnements publicité"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1337,
+    "top_words": "ans syndic maire juge prov adjoint veuve saint comm marchand"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2766,
+    "top_words": "port navire tempête vapeur capitaine vol mer bord équipage bateau"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.3051,
+    "top_words": "obsèques infanterie mort église née inhumation henri cimetière saint deuil"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.2195,
+    "top_words": "rose rouge blond ocre pâle noir illisible chien doré clair"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.2947,
+    "top_words": "billets départ fer classe train trains départs gare chemins gares"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.3223,
+    "top_words": "baromètre température ciel vent nord ouest pluies pluie temps mer"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.136,
+    "top_words": "roi espagne ambassade madrid duc foule elysée maréchal tuileries alphonse"
+   },
+   {
+    "topic_id": 25,
+    "npmi": -0.0401,
+    "top_words": "oran ang dunkerque marseille rel maritimes div paquebots départs fret"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.1525,
+    "top_words": "cour peine prison procureur ans témoin auch système avocat police"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.326,
+    "top_words": "capitaine régiment infanterie légion colonel brigade général artillerie militaire honneur"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.276,
+    "top_words": "obus artillerie ennemi attaques plateau fort batteries ouest tranchées mètres"
+   }
+  ]
+ }
+}

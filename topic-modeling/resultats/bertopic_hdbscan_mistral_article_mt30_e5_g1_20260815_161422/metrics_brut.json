@@ -1,0 +1,65 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2844,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2281,
+    "top_words": "grand général gouvernement temps président point homme saint guerre grande"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2717,
+    "top_words": "prix club match course épreuve mètres tour coupe championnat stade"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2222,
+    "top_words": "lille demande prix maison vendre renault adresser bureau echo vente"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3723,
+    "top_words": "maladies estomac peau flacon traitement sang boîte guérison santé pharmacie"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2175,
+    "top_words": "volume prix vol abonnement francs grand poste librairie illustré histoire"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.4246,
+    "top_words": "lib act crédit nord valeurs banque cours orléans lyon gaz"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3526,
+    "top_words": "kil courant marché cote prix blés disponible froment sacs cours"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1338,
+    "top_words": "billets dunkerque classe oran départ fer départs ang saint train"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.4023,
+    "top_words": "banque cours valeurs actions crédit millions fonds marché chemins rente"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.125,
+    "top_words": "ans maire saint juge comm prov adjoint veuve marchand jean"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3784,
+    "top_words": "banque gaz nord lyon fer cours comp crédit act lib"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 110
+}

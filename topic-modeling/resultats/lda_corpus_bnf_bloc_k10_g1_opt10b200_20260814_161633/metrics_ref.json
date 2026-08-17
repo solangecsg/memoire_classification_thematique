@@ -1,0 +1,101 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_bloc_k10_g1_opt10b200_20260814_161633",
+  "source": "bnf",
+  "granularite": "bloc",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "optimisation": 10,
+  "burn_in": 200,
+  "n_docs": 46912,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 866496,
+  "duree_s": 242.8
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.9856,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.4281
+ },
+ "diversity": {
+  "diversity": 0.77,
+  "diversity_norm": 0.0037,
+  "tokens_distincts": 20602,
+  "unique_words": 77,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "fr",
+   "francs",
+   "grand",
+   "grande",
+   "guerre",
+   "ii",
+   "mètres",
+   "num",
+   "prix",
+   "président",
+   "saint"
+  ],
+  "n_shared": 12
+ },
+ "npmi": {
+  "npmi_mean": -0.1178,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -0.9771,
+    "top_words": "num ii re ie nt ri ia it el maladies"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.172,
+    "top_words": "femme homme jeune ans fille yeux porte père mort tête"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1324,
+    "top_words": "gouvernement point pays temps grande question politique guerre monde droit"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.5342,
+    "top_words": "num fr cpt francs id prix nord cours banque ii"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.089,
+    "top_words": "num commission francs société conseil loi millions président prix chambre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1377,
+    "top_words": "théâtre num grand rôle opéra succès musique saint jean public"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1267,
+    "top_words": "num prix club équipe course tour épreuve match grand mètres"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.0996,
+    "top_words": "num général président saint chef armée ministre guerre prince roi"
+   },
+   {
+    "topic_id": 8,
+    "npmi": -0.496,
+    "top_words": "num ans prix lille saint pl demande maison cv fr"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.0723,
+    "top_words": "eau num grande grand prix terre bois blanc fer mètres"
+   }
+  ]
+ }
+}

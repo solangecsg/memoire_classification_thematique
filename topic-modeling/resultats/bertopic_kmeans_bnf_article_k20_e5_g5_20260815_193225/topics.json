@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match épreuve course tour coupe mètres stade",
+    "size": 539
+  },
+  {
+    "topic_id": 1,
+    "top_words": "gouvernement allemagne guerre général roi troupes armée allemands pays italie",
+    "size": 449
+  },
+  {
+    "topic_id": 2,
+    "top_words": "commission loi président projet chambre conseil gouvernement ministre assemblée séance",
+    "size": 407
+  },
+  {
+    "topic_id": 3,
+    "top_words": "homme femme jeune yeux fille père vie temps main monde",
+    "size": 388
+  },
+  {
+    "topic_id": 4,
+    "top_words": "gouvernement guerre politique hommes pays peuple point français temps homme",
+    "size": 369
+  },
+  {
+    "topic_id": 5,
+    "top_words": "opéra théâtre comique concert musique mmes actes comédie revue radio",
+    "size": 343
+  },
+  {
+    "topic_id": 6,
+    "top_words": "lille ans demande ecrire prix vendre maison int renault echo",
+    "size": 336
+  },
+  {
+    "topic_id": 7,
+    "top_words": "ans police mort femme jeune saint enquête crime prison âgé",
+    "size": 313
+  },
+  {
+    "topic_id": 8,
+    "top_words": "maladies estomac peau eau traitement sirop cure flacon crème sang",
+    "size": 247
+  },
+  {
+    "topic_id": 9,
+    "top_words": "volume films grand jésus rose mode vol roman film auteurs",
+    "size": 236
+  },
+  {
+    "topic_id": 10,
+    "top_words": "cours kil courant nord gaz crédit valeurs banque marché lyon",
+    "size": 212
+  },
+  {
+    "topic_id": 11,
+    "top_words": "exposition académie honneur général médaille président infanterie prix capitaine saint",
+    "size": 200
+  },
+  {
+    "topic_id": 12,
+    "top_words": "travail ouvriers grève mineurs société travailleurs réunion conseil président grévistes",
+    "size": 197
+  },
+  {
+    "topic_id": 13,
+    "top_words": "enseignement prix conseil concours école écoles élèves société loi lycées",
+    "size": 186
+  },
+  {
+    "topic_id": 14,
+    "top_words": "dim laine choix prix dames jupe vente nuances trie maison",
+    "size": 175
+  },
+  {
+    "topic_id": 15,
+    "top_words": "port temps mètres commandant température général fort pont bord vent",
+    "size": 171
+  },
+  {
+    "topic_id": 16,
+    "top_words": "francs librairie abonnement poste agence annonces prix havas papeterie abonnements",
+    "size": 169
+  },
+  {
+    "topic_id": 17,
+    "top_words": "théâtre rôle succès public talent opéra artistes artiste scène représentation",
+    "size": 163
+  },
+  {
+    "topic_id": 18,
+    "top_words": "banque actions cours valeurs société millions titres crédit fonds francs",
+    "size": 126
+  },
+  {
+    "topic_id": 19,
+    "top_words": "billets classe départ fer départs oran ang nord train cap",
+    "size": 84
+  }
+]

@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2557,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1757,
+    "top_words": "num prix kil eau courant marché maladies sucre disponible qualité"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1221,
+    "top_words": "num saint ans oran jean louis marseille lille pierre marie"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2542,
+    "top_words": "num francs société millions compagnie fer banque cours actions crédit"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2619,
+    "top_words": "ans police cour président femme prison affaire tribunal commissaire mort"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.237,
+    "top_words": "eau feu route fer chemin temps gare hommes fort corps"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3181,
+    "top_words": "num cours nord cpt banque lyon fer remb crédit clôture"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3228,
+    "top_words": "point temps donner grande voir mieux partie monde fort part"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2078,
+    "top_words": "num club équipe prix course tour match épreuve français coupe"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2616,
+    "top_words": "histoire art grand prix académie vie volume livre arts auteur"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.248,
+    "top_words": "num prix renault francs int citroën places cond luxe voitures"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2867,
+    "top_words": "guerre gouvernement angleterre allemagne français londres anglais états pays berlin"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1745,
+    "top_words": "num demande lille maison bureau adresser ans vente vendre lettres"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2145,
+    "top_words": "président école comité société membres réunion maire enseignement directeur ouvriers"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.1234,
+    "top_words": "exposition prix grand grandes manœuvres film médaille concours française films"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.3185,
+    "top_words": "politique peuple parti gouvernement pays hommes liberté droit république guerre"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3316,
+    "top_words": "commission conseil loi ministre chambre président projet question séance droit"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.3016,
+    "top_words": "dames noir rouge blanc belle laine qualité fleurs cheveux taille"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2302,
+    "top_words": "général roi prince chef honneur armée capitaine comte saint corps"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3801,
+    "top_words": "homme jeune femme fille yeux cœur père tête petit vie"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.344,
+    "top_words": "théâtre opéra rôle musique succès acte comique grand comédie public"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

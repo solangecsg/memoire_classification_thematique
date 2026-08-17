@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1189,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1716,
+    "top_words": "gouvernement pays point politique guerre droit question loi temps allemagne"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2229,
+    "top_words": "femme homme jeune fille yeux père cœur tête mère main"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2361,
+    "top_words": "président conseil commission ministre général loi gouvernement projet séance assemblée"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.0931,
+    "top_words": "pays texte temps image grande part point hommes grand question"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.0581,
+    "top_words": "ans manœuvres police hommes troupes saint feu mort flotte foule"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1472,
+    "top_words": "ans jeune mort fille femme coup police prison homme saint"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2127,
+    "top_words": "conseil président commission ministre gouvernement général projet impôt loi millions"
+   },
+   {
+    "topic_id": 7,
+    "npmi": -0.0897,
+    "top_words": "demande renault int lille cond prix citroën bureau maison références"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3034,
+    "top_words": "théâtre rôle succès public artiste grand artistes talent œuvre opéra"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.0372,
+    "top_words": "ares école hectares maison oran contenance prix grand adresser directeur"
+   },
+   {
+    "topic_id": 10,
+    "npmi": -0.0788,
+    "top_words": "prix francs mètre laine manteaux centimes mètres kil poste qualité"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.0323,
+    "top_words": "ans lille saint adresser oran bis demeurant agence téléphone tél"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.0812,
+    "top_words": "général réunion saint société régiment générale honneur chef assemblée grand"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2712,
+    "top_words": "équipe club match prix course stade épreuve coupe champion championnat"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2833,
+    "top_words": "théâtre opéra comédie actes comique concert musique folies vaudeville grand"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.254,
+    "top_words": "remb banque nord cours crédit act gaz lyon fer orléans"
+   },
+   {
+    "topic_id": 16,
+    "npmi": -0.2484,
+    "top_words": "prix mmes saint pts maire placés jean marie comte gagnant"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1876,
+    "top_words": "francs millions prix somme billets société actions banque taux obligations"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.175,
+    "top_words": "marché cours hausse cote banque actions prix valeurs courant blés"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.0287,
+    "top_words": "maladies eau estomac peau flacon traitement guérison sang température poudre"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

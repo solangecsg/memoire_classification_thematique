@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k10_g1_opt10b200_20260814_162738",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "optimisation": 10,
+  "burn_in": 200,
+  "n_docs": 46576,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 842406,
+  "duree_s": 241.3
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.894,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.3882
+ },
+ "diversity": {
+  "diversity": 0.82,
+  "diversity_norm": 0.004,
+  "tokens_distincts": 20596,
+  "unique_words": 82,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "fr",
+   "francs",
+   "grand",
+   "général",
+   "homme",
+   "num",
+   "prix",
+   "président",
+   "saint"
+  ],
+  "n_shared": 10
+ },
+ "npmi": {
+  "npmi_mean": 0.0224,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1731,
+    "top_words": "gouvernement président ministre conseil général guerre chambre commission ordre question"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1674,
+    "top_words": "jeune femme homme ans fille porte tête mort mère coup"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.271,
+    "top_words": "num fr cpt er nord banque francs crédit prix lyon"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1445,
+    "top_words": "num club équipe prix course mètres grand français match épreuve"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1386,
+    "top_words": "point monde vie homme temps hommes pays grand œuvre histoire"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.0823,
+    "top_words": "num saint général président honneur ans école maire ancien jean"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2179,
+    "top_words": "théâtre num opéra grand rôle musique succès comique acte comédie"
+   },
+   {
+    "topic_id": 7,
+    "npmi": -0.4907,
+    "top_words": "num ans cv prix fr demande lille pl maison saint"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.0776,
+    "top_words": "num francs prix cours société millions fer compagnie droit commerce"
+   },
+   {
+    "topic_id": 9,
+    "npmi": -0.0154,
+    "top_words": "eau blanc dames noir laine peau maladies cheveux rouge qualité"
+   }
+  ]
+ }
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "gouvernement allemagne guerre général pays berlin italie prince politique états",
+    "size": 389
+  },
+  {
+    "topic_id": 1,
+    "top_words": "lille demande vendre prix renault maison adresser citroën echo bureau",
+    "size": 320
+  },
+  {
+    "topic_id": 2,
+    "top_words": "loi commission conseil président ministre projet chambre séance gouvernement général",
+    "size": 298
+  },
+  {
+    "topic_id": 3,
+    "top_words": "ans police femme âgé mort enquête saint crime accident arrêté",
+    "size": 285
+  },
+  {
+    "topic_id": 4,
+    "top_words": "maladies estomac eau peau flacon traitement cure sang boîte pilules",
+    "size": 260
+  },
+  {
+    "topic_id": 5,
+    "top_words": "loi vouloir enseignement assemblée gouvernement parti question chambre droit ministre",
+    "size": 233
+  },
+  {
+    "topic_id": 6,
+    "top_words": "épreuve prix course tour auto club coureurs automobile circuit coupe",
+    "size": 233
+  },
+  {
+    "topic_id": 7,
+    "top_words": "théâtre opéra concert comique radio revue folies cirque royal palais",
+    "size": 222
+  },
+  {
+    "topic_id": 8,
+    "top_words": "point homme monde temps vie grand peuple livre prix histoire",
+    "size": 218
+  },
+  {
+    "topic_id": 9,
+    "top_words": "homme jeune femme yeux fille fortuné mère patron père tête",
+    "size": 196
+  },
+  {
+    "topic_id": 10,
+    "top_words": "grève ouvriers travail congrès réunion comité francs conseil travailleurs grévistes",
+    "size": 194
+  },
+  {
+    "topic_id": 11,
+    "top_words": "équipe match club stade poids champion finale championnat joueurs points",
+    "size": 182
+  },
+  {
+    "topic_id": 12,
+    "top_words": "volume jésus francs prix librairie abonnement vol pages poste grand",
+    "size": 181
+  },
+  {
+    "topic_id": 13,
+    "top_words": "rôle théâtre succès public opéra talent artiste artistes représentation acte",
+    "size": 176
+  },
+  {
+    "topic_id": 14,
+    "top_words": "art films film histoire vie peinture œuvre académie auteur cinéma",
+    "size": 171
+  },
+  {
+    "topic_id": 15,
+    "top_words": "troupes front port artillerie roi commandant ennemi général vapeur versaillais",
+    "size": 169
+  },
+  {
+    "topic_id": 16,
+    "top_words": "prix mètres course francs kil classement placés gagnant tours challenge",
+    "size": 157
+  },
+  {
+    "topic_id": 17,
+    "top_words": "guerre gouvernement français politique peuple pays liberté paix hommes monde",
+    "size": 157
+  },
+  {
+    "topic_id": 18,
+    "top_words": "banque actions valeurs société cours titres crédit fonds millions obligations",
+    "size": 153
+  },
+  {
+    "topic_id": 19,
+    "top_words": "banque cours nord crédit lyon fer act gaz valeurs orléans",
+    "size": 148
+  },
+  {
+    "topic_id": 20,
+    "top_words": "laine mètre velours manteaux dames qualité noir largeur drap boulangeries",
+    "size": 144
+  },
+  {
+    "topic_id": 21,
+    "top_words": "général infanterie régiment capitaine colonel légion corps honneur lieutenant officiers",
+    "size": 139
+  },
+  {
+    "topic_id": 22,
+    "top_words": "exposition concours médaille manœuvres fête honneur grandes président diplôme grand",
+    "size": 135
+  },
+  {
+    "topic_id": 23,
+    "top_words": "prison institutrice école ans président affaire cour tribunal audience assises",
+    "size": 126
+  },
+  {
+    "topic_id": 24,
+    "top_words": "kil courant disponible marché cote blés prix froment avoine blé",
+    "size": 109
+  },
+  {
+    "topic_id": 25,
+    "top_words": "mmes comique actes opéra rôle jeune comédie théatre com ténor",
+    "size": 106
+  },
+  {
+    "topic_id": 26,
+    "top_words": "billets dunkerque classe oran départ départs fer ang nord saint",
+    "size": 84
+  },
+  {
+    "topic_id": 27,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve jean",
+    "size": 71
+  },
+  {
+    "topic_id": 28,
+    "top_words": "mètres longueur films galerie vii affiche viii comédie iii affiches",
+    "size": 66
+  },
+  {
+    "topic_id": 29,
+    "top_words": "baromètre température ciel vent thermomètre nord pluies ouest âgé faible",
+    "size": 39
+  }
+]

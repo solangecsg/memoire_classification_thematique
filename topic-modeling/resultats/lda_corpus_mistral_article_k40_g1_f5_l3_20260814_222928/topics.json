@@ -1,0 +1,202 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "travaux fer eau construction maisons mètres service travail appareil établissement",
+    "size": 99
+  },
+  {
+    "topic_id": 1,
+    "top_words": "homme cœur amour vie monde hommes mort dieu yeux esprit",
+    "size": 118
+  },
+  {
+    "topic_id": 2,
+    "top_words": "exposition concours société président honneur médaille fête bruxelles palais grand",
+    "size": 104
+  },
+  {
+    "topic_id": 3,
+    "top_words": "prix vente maison francs hôtel choix occasion grand magasins dames",
+    "size": 165
+  },
+  {
+    "topic_id": 4,
+    "top_words": "histoire art auteur livre œuvre vient vie académie française roman",
+    "size": 130
+  },
+  {
+    "topic_id": 5,
+    "top_words": "police ans mort feu coup coups saint malheureux âgé commissaire",
+    "size": 285
+  },
+  {
+    "topic_id": 6,
+    "top_words": "saint num ans lyon versailles loire marne bois denis juge",
+    "size": 49
+  },
+  {
+    "topic_id": 7,
+    "top_words": "num renault prix int citroën cond places luxe cabriolet peugeot",
+    "size": 74
+  },
+  {
+    "topic_id": 8,
+    "top_words": "général ministre corps militaire colonel capitaine conseil armée chef honneur",
+    "size": 133
+  },
+  {
+    "topic_id": 9,
+    "top_words": "main homme tête yeux porte grand petit patron voix fortuné",
+    "size": 97
+  },
+  {
+    "topic_id": 10,
+    "top_words": "num courant marché prix kil cours cote kilos disponible hausse",
+    "size": 107
+  },
+  {
+    "topic_id": 11,
+    "top_words": "point nouvelle donner temps donné partie pris vient prendre succès",
+    "size": 153
+  },
+  {
+    "topic_id": 12,
+    "top_words": "théâtre film films cinéma opéra revue palais cirque comique comédie",
+    "size": 154
+  },
+  {
+    "topic_id": 13,
+    "top_words": "num cours cpt banque nord crédit lyon fer remb gaz",
+    "size": 128
+  },
+  {
+    "topic_id": 14,
+    "top_words": "comité réunion membres président maire générale congrès ouvriers conseil travail",
+    "size": 141
+  },
+  {
+    "topic_id": 15,
+    "top_words": "école enseignement enfants élèves écoles professeur cours instruction sciences jeunes",
+    "size": 78
+  },
+  {
+    "topic_id": 16,
+    "top_words": "commerce industrie art droit millions impôt impôts produits demande angleterre",
+    "size": 47
+  },
+  {
+    "topic_id": 17,
+    "top_words": "cour président affaire tribunal prison justice procès condamné juge accusé",
+    "size": 107
+  },
+  {
+    "topic_id": 18,
+    "top_words": "commission ministre conseil projet loi chambre séance président gouvernement question",
+    "size": 196
+  },
+  {
+    "topic_id": 19,
+    "top_words": "prix num mètres francs course grand épreuve auto coupe automobile",
+    "size": 128
+  },
+  {
+    "topic_id": 20,
+    "top_words": "temps mieux point fort voir monde veut mal bonne voit",
+    "size": 144
+  },
+  {
+    "topic_id": 21,
+    "top_words": "num saint marche sort bonnet exp fpd recettes quart long",
+    "size": 256
+  },
+  {
+    "topic_id": 22,
+    "top_words": "assemblée parti gouvernement république élections majorité électeurs droit loi politique",
+    "size": 122
+  },
+  {
+    "topic_id": 23,
+    "top_words": "eau verre air terre petits corps vin peau petit demi",
+    "size": 77
+  },
+  {
+    "topic_id": 24,
+    "top_words": "noir rouge laine dames blanc velours mètre bleu qualité soie",
+    "size": 43
+  },
+  {
+    "topic_id": 25,
+    "top_words": "num tour temps kil coureurs nice étape marseille départ route",
+    "size": 66
+  },
+  {
+    "topic_id": 26,
+    "top_words": "num prix grand poste volume texte librairie vente francs pages",
+    "size": 163
+  },
+  {
+    "topic_id": 27,
+    "top_words": "équipe match club français champion championnat stade poids finale victoire",
+    "size": 231
+  },
+  {
+    "topic_id": 28,
+    "top_words": "num francs société millions banque actions fonds titres compagnie cours",
+    "size": 127
+  },
+  {
+    "topic_id": 29,
+    "top_words": "num fer compagnie chemin nord gare train chemins port mer",
+    "size": 115
+  },
+  {
+    "topic_id": 30,
+    "top_words": "num maladies médecins traitement santé sang estomac flacon docteur ans",
+    "size": 144
+  },
+  {
+    "topic_id": 31,
+    "top_words": "théâtre rôle succès musique opéra public acte représentation artistes grand",
+    "size": 161
+  },
+  {
+    "topic_id": 32,
+    "top_words": "allemagne gouvernement angleterre guerre anglais états londres berlin français pays",
+    "size": 211
+  },
+  {
+    "topic_id": 33,
+    "top_words": "guerre armée troupes num manœuvres hommes général français soldats prisonniers",
+    "size": 162
+  },
+  {
+    "topic_id": 34,
+    "top_words": "pays hommes politique intérêts liberté travail point peuple esprit œuvre",
+    "size": 150
+  },
+  {
+    "topic_id": 35,
+    "top_words": "femme fille jeune père mère ans enfant fils famille mariage",
+    "size": 54
+  },
+  {
+    "topic_id": 36,
+    "top_words": "num lille demande bureau ans echo lettres nord écrire adresser",
+    "size": 75
+  },
+  {
+    "topic_id": 37,
+    "top_words": "roi prince comte saint marquis empereur duc reine église grand",
+    "size": 100
+  },
+  {
+    "topic_id": 38,
+    "top_words": "jean henri marie louis paul charles pierre andré georges jeanne",
+    "size": 117
+  },
+  {
+    "topic_id": 39,
+    "top_words": "num maison prix oran francs louer vente lot notaire civil",
+    "size": 116
+  }
+]

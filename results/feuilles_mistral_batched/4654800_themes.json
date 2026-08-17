@@ -1,0 +1,315 @@
+{
+  "fascicule": "4654800",
+  "usage": {
+    "prompt_tokens": 36595,
+    "completion_tokens": 864,
+    "total_tokens": 37459,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 19.41,
+    "temps_reponse_min_s": 19.41,
+    "temps_reponse_max_s": 19.41,
+    "temps_reponse_moyen_s": 19.41,
+    "temps_reponse_median_s": 19.41
+  },
+  "articles": [
+    {
+      "article_id": "DIV.29",
+      "title": "A NOS LECTEURS.",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.43",
+      "title": "PARIS, 31 DÉCEMBRE.",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.58",
+      "title": "DIV.58",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.76",
+      "title": "DIV.76",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.84",
+      "title": "DIV.84",
+      "themes": [
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        },
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.98",
+      "title": "NOUVELLES DE PARIS.",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.208",
+      "title": "FRANCE.",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.234",
+      "title": "DIV.234",
+      "themes": [
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        },
+        {
+          "code": "20000677",
+          "label_fr": "Islam"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.240",
+      "title": "Italie. : Résumé des événemens.",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        },
+        {
+          "code": "20000677",
+          "label_fr": "Islam"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.265",
+      "title": "Question Allemande.",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000653",
+          "label_fr": "Système politique"
+        },
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.294",
+      "title": "DIV.294",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.300",
+      "title": "Espagne.",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        },
+        {
+          "code": "20000067",
+          "label_fr": "Rébellion"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.305",
+      "title": "Nouvelles d'Angleterre.",
+      "themes": [
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.323",
+      "title": "ECHO UNIVERSEL.",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000576",
+          "label_fr": "Système électoral"
+        },
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.379",
+      "title": "Nous croyons devoir reproduire ici l'exposé de principes qui a servi le programme à notre journal, et qui a été inséré dans un numéro spécimen tiré à 40,000 exemplaires : : LETTRE CIRCULAIRE.",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.431",
+      "title": "SPECTACLES DU 1 JANVIER.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.444",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000116",
+          "label_fr": "Procédures hors tribunal"
+        }
+      ]
+    }
+  ]
+}

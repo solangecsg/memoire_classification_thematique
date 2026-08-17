@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num fr francs prix ii ch cpt pl nord id",
+    "size": 10071
+  },
+  {
+    "topic_id": 1,
+    "top_words": "saint ans prix jean lille grand mètres louis tour paul",
+    "size": 6596
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement pays point guerre grande français temps hommes politique question",
+    "size": 8933
+  },
+  {
+    "topic_id": 3,
+    "top_words": "homme jeune femme ans temps mort fille vie porte tête",
+    "size": 7900
+  },
+  {
+    "topic_id": 4,
+    "top_words": "président conseil société demande ministre général commission francs loi chambre",
+    "size": 7797
+  },
+  {
+    "topic_id": 5,
+    "top_words": "grand théâtre succès grande rôle public eau salle opéra belle",
+    "size": 5615
+  }
+]

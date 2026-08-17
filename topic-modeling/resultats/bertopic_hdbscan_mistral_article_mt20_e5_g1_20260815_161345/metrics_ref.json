@@ -1,0 +1,245 @@
+{
+ "meta": {
+  "model": "bertopic_hdbscan",
+  "run_id": "bertopic_hdbscan_mistral_article_mt20_e5_g1_20260815_161345",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 34,
+  "k_demande": null,
+  "min_taille": 20,
+  "graine": 1,
+  "n_docs": 5361,
+  "n_sans_groupe": 1733,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "longueur_max": 512,
+  "duree_s": 17.7
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.0,
+  "entropy_max": 3.5264,
+  "entropy_normalized": 0.0
+ },
+ "diversity": {
+  "diversity": 0.8618,
+  "diversity_norm": 0.0137,
+  "tokens_distincts": 21355,
+  "unique_words": 293,
+  "total_words": 340,
+  "shared_words": [
+   "act",
+   "actes",
+   "ans",
+   "banque",
+   "comique",
+   "comité",
+   "comédie",
+   "cours",
+   "crédit",
+   "femme",
+   "fer",
+   "gaz",
+   "gouvernement",
+   "infanterie",
+   "jeune",
+   "lib",
+   "lyon",
+   "marché",
+   "mort",
+   "musique",
+   "nord",
+   "opéra",
+   "orchestre",
+   "poste",
+   "prix",
+   "président",
+   "revue",
+   "roman",
+   "rôle",
+   "saint",
+   "théâtre",
+   "troupes",
+   "valeurs",
+   "âgé"
+  ],
+  "n_shared": 34
+ },
+ "npmi": {
+  "npmi_mean": 0.2885,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2649,
+    "top_words": "prix équipe club match course épreuve mètres coupe championnat tour"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2604,
+    "top_words": "lille demande prix maison vendre renault adresser echo bureau ecrire"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2285,
+    "top_words": "gouvernement allemagne guerre italie prince pays londres troupes conférence berlin"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3127,
+    "top_words": "loi commission gouvernement chambre assemblée projet président ministre droit conseil"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2566,
+    "top_words": "ans police femme âgé mort enquête crime arrêté saint victime"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3236,
+    "top_words": "homme yeux jeune fille patron femme père tête jacques mère"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3704,
+    "top_words": "maladies estomac traitement cure pilules sang flacon guérison pharmacie santé"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3674,
+    "top_words": "rôle théâtre succès public talent artiste opéra artistes acte scène"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.4109,
+    "top_words": "lib act crédit nord valeurs banque cours orléans gaz lyon"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3734,
+    "top_words": "mmes comique actes opéra rôle jeune comédie ténor théatre vaudeville"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3752,
+    "top_words": "kil courant cote marché blés disponible froment prix avoine sacs"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.4759,
+    "top_words": "théâtre folies opéra revue cirque comique casino relâche soirs variétés"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1472,
+    "top_words": "billets dunkerque classe oran départ départs fer ang saint cap"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2099,
+    "top_words": "commandant port navire tait troupes vapeur prusse bord amiral île"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.4014,
+    "top_words": "banque cours valeurs actions crédit millions fonds marché rente rentes"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1285,
+    "top_words": "ans syndic maire juge saint comm prov adjoint veuve marchand"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2808,
+    "top_words": "volume jésus vol illustré grand histoire roman almanach librairie prix"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.4223,
+    "top_words": "théâtre comédie opéra matinée actes spectacle représentation orchestre comique représentations"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3633,
+    "top_words": "banque gaz nord fer lyon cours comp crédit act lib"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.29,
+    "top_words": "obsèques décédé infanterie mort église funérailles née cimetière henri ancien"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.2399,
+    "top_words": "abonnement abonnés départements poste bons abonnements francs abonné prime annonces"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.2337,
+    "top_words": "réunion priés assister comité salle générale citoyens réunir siège demie"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.3964,
+    "top_words": "crème peau beauté teint poudre cheveux visage toilette savon huile"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.3281,
+    "top_words": "prison jury assises accusé président ans jurés verdict cour audience"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.3658,
+    "top_words": "grève ouvriers syndicats grévistes travail travailleurs mineurs délégués employés revendications"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.1743,
+    "top_words": "peinture roman livre poésie jack poèmes art revue jean vie"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.3218,
+    "top_words": "régiment capitaine infanterie légion colonel brigade général division honneur artillerie"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.2858,
+    "top_words": "température ciel vent thermomètre nord pluies ouest faible âgé mer"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.4172,
+    "top_words": "manœuvres exercices flotte grandes française marins navires eaux brest évolutions"
+   },
+   {
+    "topic_id": 29,
+    "npmi": -0.1259,
+    "top_words": "vii viii iii solution problème mat sorties négation noms dés"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.1594,
+    "top_words": "fête concours musique sapeurs musiciens pompiers comité commerçants tir association"
+   },
+   {
+    "topic_id": 31,
+    "npmi": 0.1141,
+    "top_words": "école carrières cours dessin cahier papier pages études enseignement anglais"
+   },
+   {
+    "topic_id": 32,
+    "npmi": 0.3109,
+    "top_words": "bataillon obus versailles fort batterie vanves issy citoyen feu garde"
+   },
+   {
+    "topic_id": 33,
+    "npmi": 0.3258,
+    "top_words": "radio concert musique parisien poste orchestre informations chant piano eiffel"
+   }
+  ]
+ }
+}

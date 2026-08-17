@@ -1,0 +1,103 @@
+{
+  "fascicule": "4701825",
+  "usage": {
+    "prompt_tokens": 22186,
+    "completion_tokens": 288,
+    "total_tokens": 22474,
+    "cached_tokens": 0,
+    "n_calls": 1,
+    "temps_reponse_total_s": 5.47,
+    "temps_reponse_min_s": 5.47,
+    "temps_reponse_max_s": 5.47,
+    "temps_reponse_moyen_s": 5.47,
+    "temps_reponse_median_s": 5.47
+  },
+  "articles": [
+    {
+      "article_id": "DIV.21",
+      "title": "CHAMBRE DES DÉPUTÉS.",
+      "themes": [
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000702",
+          "label_fr": "Relations entre les institutions religieuses et l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.163",
+      "title": "EXTÉRIEUR. : ROYAUME DES DEUX SICILES.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        },
+        {
+          "code": "20000643",
+          "label_fr": "Aide internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.186",
+      "title": "INTÉRIEUR.",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000702",
+          "label_fr": "Relations entre les institutions religieuses et l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.197",
+      "title": "DIV.197",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000355",
+          "label_fr": "Cours des devises"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.219",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000470",
+          "label_fr": "Remède"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+<svg viewBox="0 0 1000 1750" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1A1A1A"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="1750" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="500" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#1A1A1A">Pipeline de classification IPTC des articles (diagramme d'activité UML)</text>
+  <text x="500" y="58" text-anchor="middle" font-size="13" fill="#6E6E73">Variante retenue : groupage par lot — classify_iptc_mistral_batched.py</text>
+
+  <!-- Start node -->
+  <circle cx="500" cy="95" r="14" fill="#1A1A1A"/>
+  <text x="560" y="100" font-size="13" fill="#6E6E73">Fascicule (METS/TOC + ALTO)</text>
+  <line x1="500" y1="109" x2="500" y2="140" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Decision 1: already processed -->
+  <polygon points="500,143 660,203 500,263 340,203" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+  <text x="500" y="197" text-anchor="middle" font-size="12.5" fill="#1A1A1A">Fascicule déjà traité</text>
+  <text x="500" y="213" text-anchor="middle" font-size="12.5" fill="#1A1A1A">(et pas --force) ?</text>
+
+  <text x="800" y="197" text-anchor="middle" font-size="12" fill="#6E6E73">oui</text>
+  <line x1="660" y1="203" x2="850" y2="203" stroke="#1A1A1A" stroke-width="1.5"/>
+  <line x1="850" y1="203" x2="850" y2="234" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="700" y="237" width="300" height="55" rx="10" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="850" y="269" text-anchor="middle" font-size="13" fill="#1A1A1A">Passer au fascicule suivant</text>
+  <line x1="850" y1="292" x2="850" y2="323" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <circle cx="850" cy="342" r="16" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="850" cy="342" r="9" fill="#1A1A1A"/>
+
+  <text x="500" y="290" text-anchor="middle" font-size="12" fill="#6E6E73">non</text>
+  <line x1="500" y1="263" x2="500" y2="304" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Extraction -->
+  <rect x="300" y="307" width="400" height="55" rx="10" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="500" y="332" text-anchor="middle" font-size="13" fill="#1A1A1A">Extraction des articles</text>
+  <text x="500" y="349" text-anchor="middle" font-size="11.5" fill="#6E6E73">(structMap METS/TOC + blocs ALTO référencés)</text>
+  <line x1="500" y1="362" x2="500" y2="393" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Filtrage -->
+  <rect x="300" y="396" width="400" height="50" rx="10" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="500" y="426" text-anchor="middle" font-size="13" fill="#1A1A1A">Filtrage des articles courts (&lt; MIN_WORDS)</text>
+  <line x1="500" y1="446" x2="500" y2="477" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Comptage tokens -->
+  <rect x="300" y="480" width="400" height="50" rx="10" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="500" y="510" text-anchor="middle" font-size="13" fill="#1A1A1A">Comptage de tokens réel (tokenizer Mistral)</text>
+  <line x1="500" y1="530" x2="500" y2="561" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Composition des lots -->
+  <rect x="300" y="564" width="400" height="55" rx="10" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="500" y="589" text-anchor="middle" font-size="13" fill="#1A1A1A">Composition des lots</text>
+  <text x="500" y="606" text-anchor="middle" font-size="11.5" fill="#6E6E73">(budget 40k tokens, max 25 articles/lot)</text>
+
+  <!-- Loop marker -->
+  <rect x="10" y="632" width="760" height="590" fill="none" stroke="#6E6E73" stroke-width="1" stroke-dasharray="5,4"/>
+  <text x="30" y="650" font-size="11.5" fill="#6E6E73" font-style="italic">pour chaque lot du fascicule</text>
+
+  <line x1="500" y1="619" x2="500" y2="670" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Appel LLM (highlighted) -->
+  <rect x="300" y="673" width="400" height="70" rx="10" fill="#1A1A1A" stroke="#1A1A1A"/>
+  <text x="500" y="703" text-anchor="middle" font-size="13" fill="#FFFFFF">Appel LLM</text>
+  <text x="500" y="721" text-anchor="middle" font-size="11.5" fill="#C7C7CC">lot d'articles + 567 étiquettes IPTC</text>
+  <text x="500" y="736" text-anchor="middle" font-size="11.5" fill="#C7C7CC">schéma JSON strict + enum</text>
+
+  <!-- attached note -->
+  <line x1="700" y1="708" x2="740" y2="708" stroke="#6E6E73" stroke-width="1" stroke-dasharray="4,3"/>
+  <path d="M 745 675 L 985 675 L 985 775 L 745 775 L 745 690 L 760 675 Z" fill="#F5F5F7" stroke="#6E6E73" stroke-width="1"/>
+  <path d="M 745 690 L 760 690 L 760 675" fill="none" stroke="#6E6E73" stroke-width="1"/>
+  <text x="758" y="700" font-size="11" font-weight="bold" fill="#1A1A1A">Note — retry différencié</text>
+  <text x="758" y="716" font-size="10.5" fill="#1A1A1A">401/403 : arrêt immédiat du run</text>
+  <text x="758" y="731" font-size="10.5" fill="#1A1A1A">400 : abandon de ce lot</text>
+  <text x="758" y="746" font-size="10.5" fill="#1A1A1A">429/5xx : backoff exponentiel</text>
+  <text x="758" y="761" font-size="10.5" fill="#1A1A1A">puis réessai</text>
+
+  <line x1="500" y1="743" x2="500" y2="774" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Decision 2 -->
+  <polygon points="500,777 660,842 500,907 340,842" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+  <text x="500" y="833" text-anchor="middle" font-size="12.5" fill="#1A1A1A">Appel réussi</text>
+  <text x="500" y="849" text-anchor="middle" font-size="12.5" fill="#1A1A1A">(après retries) ?</text>
+
+  <!-- loop back on failure -->
+  <text x="230" y="833" text-anchor="middle" font-size="12" fill="#6E6E73">non : échec total</text>
+  <line x1="340" y1="842" x2="155" y2="842" stroke="#1A1A1A" stroke-width="1.5"/>
+  <line x1="155" y1="842" x2="155" y2="920" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="30" y="923" width="250" height="65" rx="10" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="155" y="950" text-anchor="middle" font-size="13" fill="#1A1A1A">Repli : découpage récursif</text>
+  <text x="155" y="967" text-anchor="middle" font-size="13" fill="#1A1A1A">du lot en 2 sous-lots</text>
+  <line x1="60" y1="923" x2="60" y2="708" stroke="#1A1A1A" stroke-width="1.5"/>
+  <line x1="60" y1="708" x2="296" y2="708" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="180" y="700" text-anchor="middle" font-size="10.5" fill="#6E6E73">reboucle sur Appel LLM</text>
+
+  <text x="500" y="932" text-anchor="middle" font-size="12" fill="#6E6E73">oui</text>
+  <line x1="500" y1="907" x2="500" y2="938" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Parsing -->
+  <rect x="300" y="941" width="400" height="55" rx="10" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="500" y="973" text-anchor="middle" font-size="13" fill="#1A1A1A">Parsing des réponses par article_id</text>
+
+  <text x="250" y="1150" font-size="11.5" fill="#6E6E73" font-style="italic">fin de boucle</text>
+
+  <line x1="500" y1="996" x2="500" y2="1247" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Agrégation -->
+  <rect x="300" y="1250" width="400" height="55" rx="10" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="500" y="1275" text-anchor="middle" font-size="13" fill="#1A1A1A">Agrégation par fascicule</text>
+  <text x="500" y="1292" text-anchor="middle" font-size="11.5" fill="#6E6E73">(tokens, temps de réponse, coût estimé)</text>
+  <line x1="500" y1="1305" x2="500" y2="1336" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Stockage -->
+  <rect x="300" y="1339" width="400" height="55" rx="10" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="500" y="1364" text-anchor="middle" font-size="13" fill="#1A1A1A">Stockage JSON</text>
+  <text x="500" y="1381" text-anchor="middle" font-size="11.5" fill="#6E6E73">(1 fichier par fascicule, tous les articles)</text>
+  <line x1="500" y1="1394" x2="500" y2="1425" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- End node -->
+  <circle cx="500" cy="1444" r="16" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="500" cy="1444" r="9" fill="#1A1A1A"/>
+
+  <!-- Legend -->
+  <rect x="60" y="1500" width="880" height="230" rx="10" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="90" y="1530" font-size="14" font-weight="bold" fill="#1A1A1A">Légende</text>
+
+  <circle cx="105" cy="1558" r="9" fill="#1A1A1A"/>
+  <text x="125" y="1563" font-size="12.5" fill="#1A1A1A">Nœud de début</text>
+
+  <circle cx="105" cy="1588" r="11" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="105" cy="1588" r="6" fill="#1A1A1A"/>
+  <text x="125" y="1593" font-size="12.5" fill="#1A1A1A">Nœud de fin</text>
+
+  <rect x="90" y="1610" width="30" height="20" rx="5" fill="#F5F5F7" stroke="#E1E1E6"/>
+  <text x="135" y="1625" font-size="12.5" fill="#1A1A1A">Action / étape du pipeline</text>
+
+  <rect x="90" y="1642" width="30" height="20" rx="5" fill="#1A1A1A"/>
+  <text x="135" y="1657" font-size="12.5" fill="#1A1A1A">Seul appel API du pipeline (aucun appel ailleurs : coût nul par défaut)</text>
+
+  <polygon points="105,1674 122,1686 105,1698 88,1686" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+  <text x="135" y="1691" font-size="12.5" fill="#1A1A1A">Nœud de décision</text>
+
+  <text x="500" y="1720" text-anchor="middle" font-size="11" fill="#6E6E73">Projet classification IPTC : voir analyse_couts/SYNTHESE_COUTS.md pour le détail des coûts par variante</text>
+</svg>

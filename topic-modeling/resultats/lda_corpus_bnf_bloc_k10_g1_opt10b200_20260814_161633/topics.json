@@ -1,0 +1,52 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num ii re ie nt ri ia it el maladies",
+    "size": 1987
+  },
+  {
+    "topic_id": 1,
+    "top_words": "femme homme jeune ans fille yeux porte père mort tête",
+    "size": 6269
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement point pays temps grande question politique guerre monde droit",
+    "size": 8804
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num fr cpt francs id prix nord cours banque ii",
+    "size": 5962
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num commission francs société conseil loi millions président prix chambre",
+    "size": 6906
+  },
+  {
+    "topic_id": 5,
+    "top_words": "théâtre num grand rôle opéra succès musique saint jean public",
+    "size": 3133
+  },
+  {
+    "topic_id": 6,
+    "top_words": "num prix club équipe course tour épreuve match grand mètres",
+    "size": 2401
+  },
+  {
+    "topic_id": 7,
+    "top_words": "num général président saint chef armée ministre guerre prince roi",
+    "size": 4328
+  },
+  {
+    "topic_id": 8,
+    "top_words": "num ans prix lille saint pl demande maison cv fr",
+    "size": 4323
+  },
+  {
+    "topic_id": 9,
+    "top_words": "eau num grande grand prix terre bois blanc fer mètres",
+    "size": 2799
+  }
+]

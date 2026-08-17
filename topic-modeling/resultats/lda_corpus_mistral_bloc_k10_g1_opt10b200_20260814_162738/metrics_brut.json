@@ -1,0 +1,60 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1327,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1913,
+    "top_words": "gouvernement président ministre conseil général guerre chambre commission ordre question"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1827,
+    "top_words": "jeune femme homme ans fille porte tête mort mère coup"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1793,
+    "top_words": "num fr cpt er nord banque francs crédit prix lyon"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1576,
+    "top_words": "num club équipe prix course mètres grand français match épreuve"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1577,
+    "top_words": "point monde vie homme temps hommes pays grand œuvre histoire"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.0964,
+    "top_words": "num saint général président honneur ans école maire ancien jean"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.229,
+    "top_words": "théâtre num opéra grand rôle musique succès comique acte comédie"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.0465,
+    "top_words": "num ans cv prix fr demande lille pl maison saint"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.0943,
+    "top_words": "num francs prix cours société millions fer compagnie droit commerce"
+   },
+   {
+    "topic_id": 9,
+    "npmi": -0.0075,
+    "top_words": "eau blanc dames noir laine peau maladies cheveux rouge qualité"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 100
+}

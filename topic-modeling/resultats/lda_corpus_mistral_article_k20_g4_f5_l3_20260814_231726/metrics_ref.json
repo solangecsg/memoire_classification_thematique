@@ -1,0 +1,166 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_article_k20_g4_f5_l3_20260814_231726",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 20,
+  "iterations": 2000,
+  "graine": 4,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 5127,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 767367,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "duree_s": 156.8
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.8278,
+  "entropy_max": 2.9957,
+  "entropy_normalized": 0.6101
+ },
+ "diversity": {
+  "diversity": 0.795,
+  "diversity_norm": 0.0074,
+  "tokens_distincts": 21355,
+  "unique_words": 159,
+  "total_words": 200,
+  "shared_words": [
+   "ans",
+   "banque",
+   "cours",
+   "droit",
+   "femme",
+   "fer",
+   "francs",
+   "gouvernement",
+   "grand",
+   "grande",
+   "guerre",
+   "général",
+   "homme",
+   "mort",
+   "mètres",
+   "num",
+   "pays",
+   "point",
+   "prix",
+   "président",
+   "saint",
+   "société",
+   "temps",
+   "théâtre",
+   "école"
+  ],
+  "n_shared": 25
+ },
+ "npmi": {
+  "npmi_mean": 0.2418,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1938,
+    "top_words": "num équipe club prix course tour match épreuve coupe grand"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3281,
+    "top_words": "homme monde point hommes fort temps mal vrai voir mieux"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2174,
+    "top_words": "eau fer pont chemin gare grande mètres terre service train"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1716,
+    "top_words": "num prix francs kil courant marché cours kilos mètres cote"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2548,
+    "top_words": "commission conseil num loi ministre chambre président projet séance droit"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.251,
+    "top_words": "gouvernement allemagne angleterre français anglais londres états guerre europe prince"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.133,
+    "top_words": "num prix renault citroën int cond places voitures maladies luxe"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1728,
+    "top_words": "ans saint jean num henri théâtre georges martin paul louis"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1694,
+    "top_words": "saint président honneur maire concours exposition école société comité général"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3354,
+    "top_words": "théâtre rôle succès musique public grand opéra représentation artistes scène"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2085,
+    "top_words": "prix histoire école grand art vie académie arts française vient"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.224,
+    "top_words": "num francs société compagnie millions banque cours fer générale actions"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2991,
+    "top_words": "gouvernement politique peuple parti république droit liberté pays ordre assemblée"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.282,
+    "top_words": "point grande temps travail pays vue partie donner intérêt question"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1675,
+    "top_words": "num lille demande maison bureau ans adresser prix vendre lettres"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2686,
+    "top_words": "général armée guerre num commandant officiers chef troupes capitaine colonel"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2671,
+    "top_words": "rouge dames blanc noir laine femmes cheveux qualité blanche grands"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2112,
+    "top_words": "ans police cour prison président mort affaire saint femme tribunal"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3123,
+    "top_words": "num cours cpt nord banque crédit lyon fer remb gaz"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3687,
+    "top_words": "jeune femme fille père tête homme yeux mère porte mort"
+   }
+  ]
+ }
+}

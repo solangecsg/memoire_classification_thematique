@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2643,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2725,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3338,
+    "top_words": "loi commission conseil ministre président chambre projet gouvernement assemblée général"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2591,
+    "top_words": "gouvernement allemagne guerre général pays berlin troupes italie armée prince"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2012,
+    "top_words": "lille demande prix vendre maison renault citroën adresser bureau echo"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3246,
+    "top_words": "gouvernement pays politique droit guerre peuple hommes temps point liberté"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3979,
+    "top_words": "théâtre opéra comique mmes concert musique comédie actes revue folies"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2557,
+    "top_words": "ans police femme mort enquête jeune âgé arrêté saint accident"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3939,
+    "top_words": "homme yeux jeune femme fille tête père mère main petit"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2916,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure pilules"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2391,
+    "top_words": "cours banque nord kil crédit lyon fer courant act prix"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3112,
+    "top_words": "vie auteur histoire académie art livre œuvre monde homme esprit"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1423,
+    "top_words": "exposition travail ouvriers médaille francs grève congrès réunion conseil prix"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1004,
+    "top_words": "laine francs mètre manteaux velours dames abonnement librairie noir qualité"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3871,
+    "top_words": "banque actions société valeurs cours fer compagnie chemins titres crédit"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2224,
+    "top_words": "troupes général front saint commandant roi port ennemi artillerie fort"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2559,
+    "top_words": "général président saint infanterie honneur régiment capitaine colonel légion directeur"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.3998,
+    "top_words": "théâtre rôle succès public opéra talent artistes artiste représentation scène"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1645,
+    "top_words": "volume jésus vol grand roman histoire mètres prix illustré almanach"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2085,
+    "top_words": "manœuvres baromètre température ciel exercices flotte vent grandes thermomètre nord"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.1243,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve jean"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

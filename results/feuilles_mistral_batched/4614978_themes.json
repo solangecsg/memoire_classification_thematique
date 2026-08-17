@@ -1,0 +1,1433 @@
+{
+  "fascicule": "4614978",
+  "usage": {
+    "prompt_tokens": 76807,
+    "completion_tokens": 4077,
+    "total_tokens": 80884,
+    "cached_tokens": 0,
+    "n_calls": 4,
+    "temps_reponse_total_s": 68.96,
+    "temps_reponse_min_s": 13.41,
+    "temps_reponse_max_s": 21.42,
+    "temps_reponse_moyen_s": 17.24,
+    "temps_reponse_median_s": 17.06
+  },
+  "articles": [
+    {
+      "article_id": "DIV.30",
+      "title": "A DUSSELDORF : Une manifestation en faveur de l'autonomie rhénane provoque de graves désordres Les troupes françaises ont dû intervenir pour rétablir l'ordre",
+      "themes": [
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000066",
+          "label_fr": "Manifestation"
+        },
+        {
+          "code": "20000060",
+          "label_fr": "Forces d'occupation"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.54",
+      "title": "DIV.54",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.58",
+      "title": "Argenteuil a fêté hier le millénaire de son vin",
+      "themes": [
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.83",
+      "title": "LA VICTIME",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.95",
+      "title": "Leurs remèdes",
+      "themes": [
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.107",
+      "title": "UN TRAIN DE VOYAGEURS tamponne un train de marchandises entre Saint-Omer et Armentières : Il y aurait trois morts",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.115",
+      "title": "Le secret professionnel des journalistes",
+      "themes": [
+        {
+          "code": "20000591",
+          "label_fr": "Liberté de la presse"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.123",
+      "title": "Ce qui vient de la flûte s'en retourne au tambour",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000044",
+          "label_fr": "Patrimoine"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.149",
+      "title": "LE BEAU DIMANCHE",
+      "themes": [
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.159",
+      "title": "LE PORTEFEUILLE",
+      "themes": [
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.167",
+      "title": "M. POINCARÉ AU BOIS D'AILLY : Le Président du Conseil convient que notre tâche n'est pas terminée « Le travail de de main est plus difficile que celui que nous avons accompli. »",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.188",
+      "title": "LE DISCOURS DE M. POINCARÉ",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.205",
+      "title": "Une élection dans le Var",
+      "themes": [
+        {
+          "code": "20000578",
+          "label_fr": "Élections locales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.210",
+      "title": "L' augmentation des cigares de la Havane",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000620",
+          "label_fr": "Fiscalité"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.215",
+      "title": "Trois anarchistes arrêtés",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000101",
+          "label_fr": "Crime organisé"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.222",
+      "title": "Un cadavre dans un puits",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.232",
+      "title": "A la manière du calife",
+      "themes": [
+        {
+          "code": "20000613",
+          "label_fr": "Ministres"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.272",
+      "title": "Le Japon et le Vatican",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.280",
+      "title": "Les machinistes en grève",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.289",
+      "title": "Le Congrès de la Natalité",
+      "themes": [
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000620",
+          "label_fr": "Fiscalité"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.301",
+      "title": "DIV.301",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.309",
+      "title": "Les cérémonies patriotiques d'hier",
+      "themes": [
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.343",
+      "title": "M. Chéron dans son fief",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000613",
+          "label_fr": "Ministres"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.351",
+      "title": "Les Bons du Trésor 6 0/0 à trois, six ou dix ans",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        },
+        {
+          "code": "20000392",
+          "label_fr": "Marché monétaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.358",
+      "title": "Mort de M. Joseph Ruau",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.364",
+      "title": "UN AVION CAPOTE",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.369",
+      "title": "Le meurtre de l'abbé Hans",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.375",
+      "title": "BREF",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000084",
+          "label_fr": "Agression"
+        },
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.385",
+      "title": "NOTRE OPINION : La Conférence impériale britannique",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.410",
+      "title": "LE CONFLIT ITALO-YOUGOSLAVE : Le problème de Fiume serait bientôt résolu",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.422",
+      "title": "Que fait à Rome le général de Castelnau ?",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.427",
+      "title": "2.000 communistes bulgares ont été tués",
+      "themes": [
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.434",
+      "title": "Un mouvement communiste en Roumanie",
+      "themes": [
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        },
+        {
+          "code": "20000650",
+          "label_fr": "Groupe de pression"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.440",
+      "title": "André Farago a été arrêté à Budapest",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.446",
+      "title": "LA SITUATION EN ALLEMAGNE : Les difficultés de M. Stresemann",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000598",
+          "label_fr": "Défense"
+        },
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.467",
+      "title": "Le brouillard provoque des sinistres dans la Manche",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.478",
+      "title": "LES INCIDENTS DE DUSSELDORF : De hauts fonctionnaires sont arrêtés",
+      "themes": [
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.494",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20001124",
+          "label_fr": "Industrie du sport"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.505",
+      "title": "L'OPINION ÉTRANGÈRE : L' Allemagne a perdu son équilibre moral",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.517",
+      "title": "Primo de Rivera veut \" renouveler \" le parlement espagnol",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        },
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.525",
+      "title": "Les prévisions météorologiques",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.532",
+      "title": "DIV.532",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.539",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000412",
+          "label_fr": "Programmes d'études"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.543",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.557",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.563",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000434",
+          "label_fr": "Montagnes"
+        },
+        {
+          "code": "20000884",
+          "label_fr": "Alpinisme et escalade"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.574",
+      "title": "ATHLETISME : Le champion finlandais Paavo Nurmi a fait hier une magistrale exhibition CERBONNAY A BATTU LE RECORD FRANÇAIS DES 300 MÈTRES",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.620",
+      "title": "Le champion norvégien Hoff triomphe à Prague",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.629",
+      "title": "Des Stades sont inaugurés",
+      "themes": [
+        {
+          "code": "20001126",
+          "label_fr": "Site sportif"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.642",
+      "title": "BOXE : Georges Carpentier rencontrera ce soir, à l'Olympique de Londres, son adversaire Beckett",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001124",
+          "label_fr": "Industrie du sport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.651",
+      "title": "AUTOMOBILE : Le circuit des routes pavées",
+      "themes": [
+        {
+          "code": "20001091",
+          "label_fr": "Water polo"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.680",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.691",
+      "title": "Le Belge Emile Masson a triomphé dans le Circuit de l'Ile-de-France",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.703",
+      "title": "Grassin gagne au Parc des Princes",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.718",
+      "title": "Pistes françaises",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001126",
+          "label_fr": "Site sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.726",
+      "title": "Le champion du monde Moeskops a gagné le, Grand Prix de l'U. V. F.",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.736",
+      "title": "FOOTBALL-RUGBY : Les ténors méridionaux commencent leur campagne",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.750",
+      "title": "FOOTBALL-ASSOCIATION",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.769",
+      "title": "Les avances du Trésor français aux pays de la Petite Entente",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.784",
+      "title": "Marché de Paris",
+      "themes": [
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.799",
+      "title": "Les changes de la semaine",
+      "themes": [
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.811",
+      "title": "L'activé des ports français",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.817",
+      "title": "Le coût des guerres",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.827",
+      "title": "UN PEU PARTOUT",
+      "themes": [
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        },
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.834",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000572",
+          "label_fr": "Tendance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.845",
+      "title": "Hier, à Longchamp",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.857",
+      "title": "Résultats du pari mutuel",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        },
+        {
+          "code": "20001304",
+          "label_fr": "Prix sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.906",
+      "title": "Partants et montes probables",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.930",
+      "title": "Nos pronostics",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.938",
+      "title": "ETUDES CHEZ SOI",
+      "themes": [
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.945",
+      "title": "NOTEZ CECI :",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.954",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.964",
+      "title": "A L'AVANT - SCÈNE",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.990",
+      "title": "DERRIÈRE L'ÉCRAN",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1011",
+      "title": "DIV.1011",
+      "themes": [
+        {
+          "code": "20000628",
+          "label_fr": "Urbanisme"
+        },
+        {
+          "code": "20000612",
+          "label_fr": "Institutions locales"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1016",
+      "title": "DIV.1016",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1019",
+      "title": "DIV.1019",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1024",
+      "title": "DIV.1024",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1031",
+      "title": "DIV.1031",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1037",
+      "title": "DIV.1037",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1043",
+      "title": "DIV.1043",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1047",
+      "title": "ATTRACTIONS",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1052",
+      "title": "FILMS",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1060",
+      "title": "DIV.1060",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1077",
+      "title": "DIV.1077",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1087",
+      "title": "DIV.1087",
+      "themes": [
+        {
+          "code": "20000448",
+          "label_fr": "Maladies contagieuses"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        },
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1099",
+      "title": "Attention aux pickpockets",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1104",
+      "title": "Les désespérés",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1109",
+      "title": "Les cambriolages",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1116",
+      "title": "Un train déraille",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1121",
+      "title": "CONCERTS PAR T. S. F.",
+      "themes": [
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1135",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000042",
+          "label_fr": "Langue"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1147",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001135",
+          "label_fr": "Exposition artistique"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1168",
+      "title": "DIV.1168",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1189",
+      "title": "DIV.1189",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000058",
+          "label_fr": "Intervention militaire internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1203",
+      "title": "DIV.1203",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1207",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1212",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    }
+  ]
+}

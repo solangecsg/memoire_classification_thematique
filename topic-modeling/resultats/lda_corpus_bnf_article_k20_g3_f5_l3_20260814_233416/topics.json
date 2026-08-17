@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "théâtre rôle opéra succès grand musique public acte comique artistes",
+    "size": 236
+  },
+  {
+    "topic_id": 1,
+    "top_words": "homme jeune femme fille yeux père vie petit tête cœur",
+    "size": 244
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num demande prix lille maison bureau ecrire vendre int echo",
+    "size": 225
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement politique guerre pays parti peuple num liberté république paix",
+    "size": 224
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num prix kil marché cours courant cote hausse kilos baisse",
+    "size": 147
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num général guerre armée chef troupes militaire capitaine commandant officiers",
+    "size": 233
+  },
+  {
+    "topic_id": 6,
+    "top_words": "ans police mort femme coups voiture feu crime coup homme",
+    "size": 316
+  },
+  {
+    "topic_id": 7,
+    "top_words": "num prix club équipe course tour mètres épreuve grand match",
+    "size": 374
+  },
+  {
+    "topic_id": 8,
+    "top_words": "num eau température corps vin maladies peau santé médecins verre",
+    "size": 217
+  },
+  {
+    "topic_id": 9,
+    "top_words": "num ans saint jean henri marie louis paul pierre prix",
+    "size": 197
+  },
+  {
+    "topic_id": 10,
+    "top_words": "num cpt nord crédit banque cours valeurs lyon fin gaz",
+    "size": 444
+  },
+  {
+    "topic_id": 11,
+    "top_words": "angleterre allemagne gouvernement roi anglais prince londres etats français pays",
+    "size": 270
+  },
+  {
+    "topic_id": 12,
+    "top_words": "grand prix blanc dames maison exposition bois papier beaux noir",
+    "size": 197
+  },
+  {
+    "topic_id": 13,
+    "top_words": "num cour tribunal francs juge oran maison lille procès affaire",
+    "size": 135
+  },
+  {
+    "topic_id": 14,
+    "top_words": "vie histoire monde livre homme art auteur œuvre esprit siècle",
+    "size": 166
+  },
+  {
+    "topic_id": 15,
+    "top_words": "num francs société millions banque fer compagnie industrie fonds générale",
+    "size": 226
+  },
+  {
+    "topic_id": 16,
+    "top_words": "président maire conseil comité concours général directeur membres société honneur",
+    "size": 279
+  },
+  {
+    "topic_id": 17,
+    "top_words": "num saint nord marseille gare fer départ train calais service",
+    "size": 132
+  },
+  {
+    "topic_id": 18,
+    "top_words": "point temps donner voir grande mieux fort partie vue prendre",
+    "size": 388
+  },
+  {
+    "topic_id": 19,
+    "top_words": "num commission loi conseil chambre ministre projet président séance demande",
+    "size": 251
+  }
+]

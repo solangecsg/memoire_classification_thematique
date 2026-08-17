@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2103,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2141,
+    "top_words": "num fr société prix obligations francs titres rembourser oblig tirage"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1569,
+    "top_words": "conseil bureau municipalité vente voix couverts forts directeur préfet bienfaisance"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2534,
+    "top_words": "affaires conseil question réunion général projet ministre loi guerre occasion"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2422,
+    "top_words": "ministère république chambre union gauche cabinet majorité pays presse etat"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1568,
+    "top_words": "recevra membres ouvriers grand actes change représentation gladiateur saint officiers"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2382,
+    "top_words": "amiral reynière herblay homme ans chance bonheur jean fort docteur"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

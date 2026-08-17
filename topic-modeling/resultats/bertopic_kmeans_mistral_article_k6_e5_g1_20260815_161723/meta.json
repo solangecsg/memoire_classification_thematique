@@ -1,0 +1,18 @@
+{
+  "model": "bertopic_kmeans",
+  "run_id": "bertopic_kmeans_mistral_article_k6_e5_g1_20260815_161723",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 6,
+  "k_demande": 6,
+  "min_taille": null,
+  "graine": 1,
+  "n_docs": 5361,
+  "n_sans_groupe": 0,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "longueur_max": 512,
+  "duree_s": 19.4
+}

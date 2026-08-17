@@ -148,7 +148,7 @@ def main():
     # ÉTAGE 1 : tous les articles, groupés (comme le groupage simple)
     n_batches_stage1 = n_batches_for(n_total, fixed_overhead_l2, avg_tokens)
     stage1_input_tokens = n_batches_stage1 * fixed_overhead_l2 + total_article_tokens
-    # sortie stage 1 : {"articles":[{"article_id":..,"level2_code":..}]} — 1 code par article, pas de tableau
+    # sortie stage 1 : {"articles":[{"article_id":..,"level2_code":..}]} : 1 code par article, pas de tableau
     out_min = count_tokens(json.dumps({"articles": [{"article_id": "DIV.100", "level2_code": "20000002"}]}))
     out_max = out_min  # taille quasi fixe (un seul code, pas de variation 1-5)
     stage1_output_tokens = n_total * out_min
@@ -226,8 +226,8 @@ def main():
 
     print(f"\nÉTAGE 2 : {stage2_batches_total} lot(s) sur {len(branch_rows)} branches "
           f"(+ {terminal_n_scaled} article(s) terminé(s) dès l'étage 1, sans coût étage 2)")
-    print(f"  coût sans cache : ${stage2_cost_min_nc:.2f} (min) — ${stage2_cost_max_nc:.2f} (max)")
-    print(f"  coût avec cache : ${stage2_cost_min_c:.2f} (min) — ${stage2_cost_max_c:.2f} (max)")
+    print(f"  coût sans cache : ${stage2_cost_min_nc:.2f} (min) : ${stage2_cost_max_nc:.2f} (max)")
+    print(f"  coût avec cache : ${stage2_cost_min_c:.2f} (min) : ${stage2_cost_max_c:.2f} (max)")
 
     #  TOTAL CASCADE 
     total_nc_min = stage1_cost_nc + stage2_cost_min_nc
@@ -237,9 +237,9 @@ def main():
     total_calls = n_batches_stage1 + stage2_batches_total
 
     print(f"\n{'=' * 60}")
-    print(f"CASCADE TOTALE — {total_calls} appel(s) ({n_batches_stage1} étage 1 + {stage2_batches_total} étage 2)")
-    print(f"  sans cache : ${total_nc_min:.2f} (min) — ${total_nc_max:.2f} (max)")
-    print(f"  avec cache : ${total_c_min:.2f} (min) — ${total_c_max:.2f} (max)")
+    print(f"Cascade complète : {total_calls} appel(s) ({n_batches_stage1} étage 1 + {stage2_batches_total} étage 2)")
+    print(f"  sans cache : ${total_nc_min:.2f} (min) : ${total_nc_max:.2f} (max)")
+    print(f"  avec cache : ${total_c_min:.2f} (min) : ${total_c_max:.2f} (max)")
 
     #  Comparaison avec les scénarios précédents 
     comparison = [

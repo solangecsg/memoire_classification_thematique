@@ -1,45 +1,66 @@
 """
-classify_iptc_mistral_batched.py : Variante de classify_iptc_mistral.py qui
-groupe plusieurs articles par appel Mistral (voir classify_iptc_mistral.py
-pour la version de référence 1-article/appel).
+classify_iptc_mistral_batched.py : classification IPTC, plusieurs articles par appel
 
-Principe :
-  - Le coût fixe (system + 567 étiquettes, ~8900 tokens réels : mesuré avec
-    le tokenizer Mistral, pas seulement estimé en caractères) est payé une seule
-    fois par appel, peu importe le nombre d'articles dedans. Regrouper N
-    articles par appel divise ce coût fixe par N.
-  - Les articles d'un fascicule sont rassemblés dans des lots ("batches") tant
-    que le total (overhead fixe + tokens des articles déjà dans le lot) reste
-    sous MAX_BATCH_TOKENS et que le lot a moins de MAX_BATCH_SIZE articles.
-    Un article est toujours envoyé en entier : jamais coupé, y compris s'il
-    dépasse à lui seul le plafond (il part alors seul dans son propre lot).
-  - Si un appel groupé échoue après ses tentatives, le lot est coupé en deux
-    et chaque moitié est retentée récursivement (jusqu'à des lots d'1 article
-    si besoin) plutôt que de perdre tout le lot d'un coup.
-  - Comptage de tokens réel via `mistral-common` (tokenizer Mistral ouvert,
-    téléchargé une fois depuis Hugging Face) ; repli sur une estimation par
-    caractères si le paquet ou le réseau ne sont pas disponibles.
+CE QUE FAIT CE SCRIPT
 
-Pour chaque article d'un fascicule :
-  1. Extrait le texte complet de l'article (blocs ALTO corrigés, dans l'ordre
-     donné par le TOC/METS du fascicule)
-  2. Regroupe les articles en lots selon le budget de tokens
-  3. Envoie chaque lot + la liste des étiquettes IPTC "terminales" à Mistral
-  4. Récupère 1 à 5 thèmes par article choisis par Mistral parmi cette liste
-  5. Sauvegarde un JSON par fascicule : {article_id: thèmes}
+Même tâche que classify_iptc_mistral.py, dont il faut lire la docstring pour le
+détail du traitement : attribuer à chaque article de une à cinq étiquettes IPTC.
+La différence tient à la manière de grouper les appels, et c'est la variante
+retenue pour la campagne complète.
 
-Entrées (voir README.md pour l'arborescence complète du dépôt) :
-  - re-ocr/corpus/original/{fascicule}/toc/T*.xml         → structure logique (METS) : ordre des blocs par article
-  - re-ocr/corpus/reocr_mistral/{fascicule}_reocr/ocr/*.xml → ALTO avec OCR corrigé (texte des blocs)
-  - classification/iptc_mediatopic_official.json                 → taxonomie IPTC officielle (SKOS)
+POURQUOI GROUPER
 
-Sortie :
-  - results/feuilles_mistral_batched/{fascicule}_themes.json
+La liste des 567 étiquettes doit accompagner chaque appel, le modèle ne
+conservant rien d'un appel à l'autre. Elle pèse environ 8 960 jetons, mesurés
+avec le tokeniseur de Mistral plutôt qu'estimés en caractères, quand un article
+en compte 522 en moyenne. Le coût fixe représente donc 92 pour cent du volume
+facturé.
 
-Usage :
-    python classify_iptc_mistral_batched.py --fascicule 4109000 --dry-run   # extraction + composition des lots, sans appel API
-    python classify_iptc_mistral_batched.py --fascicule 4109000             # test sur 1 fascicule
-    python classify_iptc_mistral_batched.py                                 # tous les fascicules
+Ce coût est payé une seule fois par appel, quel que soit le nombre d'articles
+qu'il contient. Grouper N articles le divise par N. La mesure sur les cent
+fascicules donne 3,62 dollars par ce procédé, contre 31,91 à raison d'un article
+par appel, soit un facteur de neuf.
+
+COMMENT LES LOTS SONT COMPOSÉS
+
+Les articles d'un fascicule sont ajoutés au lot courant tant que deux conditions
+tiennent : le total des jetons reste sous MAX_BATCH_TOKENS, et le lot compte
+moins de MAX_BATCH_SIZE articles.
+
+Un article part toujours entier. Il n'est jamais coupé, y compris lorsqu'il
+dépasse à lui seul le plafond, auquel cas il forme son propre lot. Couper un
+article fausserait son classement, la fin d'un texte pouvant porter sa matière
+principale.
+
+QUE SE PASSE-T-IL SI UN LOT ÉCHOUE
+
+Le lot est coupé en deux et chaque moitié est retentée, récursivement, jusqu'à
+des lots d'un seul article. Perdre un lot de vingt-cinq articles parce qu'un
+seul pose problème coûterait plus cher que ces quelques appels supplémentaires.
+
+LE COMPTAGE DES JETONS
+
+Il se fait par mistral-common, le tokeniseur ouvert de Mistral, téléchargé une
+fois depuis Hugging Face. Une estimation par caractères prend le relais si le
+paquet ou le réseau manquent, au prix d'une marge d'erreur qui oblige à garder
+un budget prudent.
+
+ENTRÉES ET SORTIES
+
+Identiques à celles de classify_iptc_mistral.py, la sortie étant écrite dans
+results/feuilles_mistral_batched/.
+
+PAQUETS EMPLOYÉS
+
+Les mêmes que la variante de référence, plus mistral-common pour le comptage
+exact des jetons.
+
+USAGE
+
+    python classify_iptc_mistral_batched.py --fascicule 4109000 --dry-run
+    python classify_iptc_mistral_batched.py --fascicule 4109000
+    python classify_iptc_mistral_batched.py           # tous les fascicules
+    python classify_iptc_mistral_batched.py --force   # retraiter ceux déjà faits
 """
 
 import argparse
@@ -100,12 +121,23 @@ MIN_THEMES = 1
 MAX_WORKERS = 5         # lots Mistral en parallèle (par fascicule)
 
 #  Groupage d'articles par appel 
-MAX_BATCH_TOKENS = 40_000   # budget de tokens par appel (fixe + articles) ; très
-                            # sous les 128k-256k de contexte réels, marge large
-MAX_BATCH_SIZE = 25         # nb max d'articles par appel, indépendamment des tokens
-PER_ARTICLE_WRAPPER_TOKENS = 15  # overhead du gabarit "### Article {id}\n\"\"\"…\"\"\"" par article, marge incluse
+# Budget de jetons par appel, coût fixe et articles réunis. La fenêtre de
+# contexte réelle des modèles employés va de 128 000 à 256 000 jetons : 40 000
+# laisse donc une marge large. Elle est délibérée, un dépassement faisant échouer
+# l'appel entier et obligeant à le rejouer.
+MAX_BATCH_TOKENS = 40_000
 
-# $ / 1M tokens (input, output) — mistral.ai/pricing/api/, pour l'estimation de coût
+# Nombre maximal d'articles par appel, indépendamment des jetons. La borne
+# protège d'un autre risque que le dépassement de contexte : au-delà d'une
+# vingtaine d'articles, le modèle traite inégalement les premiers et les
+# derniers. L'effet n'a pas été mesuré ici, et la valeur reste donc prudente.
+MAX_BATCH_SIZE = 25
+
+# Coût en jetons du gabarit qui encadre chaque article dans l'énoncé, marge
+# comprise. Il sert au calcul du remplissage d'un lot.
+PER_ARTICLE_WRAPPER_TOKENS = 15
+
+# $ / 1M tokens (input, output) : mistral.ai/pricing/api/, pour l'estimation de coût
 PRICING = {
     "mistral-large-latest": (0.50, 1.50),
     "mistral-medium-latest": (1.50, 7.50),
@@ -245,7 +277,7 @@ def leaves_prompt_str(leaves):
             ctx = f" ({parent} > {leaf['l1_label']})" if parent else f" ({leaf['l1_label']})"
         else:
             ctx = ""
-        lines.append(f"  {code} — {leaf['label_fr']}{ctx}")
+        lines.append(f"  {code} : {leaf['label_fr']}{ctx}")
     return "\n".join(lines)
 
 
@@ -482,8 +514,8 @@ def classify_batch(batch, leaves_str, valid_codes, retries=5):
     `temps_s` est la durée de la requête HTTP qui a effectivement réussi (hors
     attente de backoff des tentatives précédentes).
 
-    Lève SystemExit sur erreur d'authentification (401/403 — inutile de
-    réessayer, on arrête tout), RuntimeError sur requête invalide (400 — pas
+    Lève SystemExit sur erreur d'authentification (401/403, inutile de
+    réessayer, on arrête tout), RuntimeError sur requête invalide (400, pas
     de nouvelle tentative), et retente avec backoff sur timeout/réseau/429/5xx.
     """
     ids = [a["id"] for a in batch]
@@ -526,7 +558,7 @@ Réponds avec un objet JSON contenant une entrée par article listé ci-dessus (
 
         if r.status_code in (401, 403):
             raise SystemExit(
-                f"Erreur d'authentification Mistral ({r.status_code}) — vérifie MISTRAL_API_KEY dans {ENV_FILE}"
+                f"Erreur d'authentification Mistral ({r.status_code}) : vérifie MISTRAL_API_KEY dans {ENV_FILE}"
             )
         if r.status_code == 400:
             raise RuntimeError(f"Requête invalide (400), pas de nouvelle tentative : {r.text[:300]}")
@@ -561,7 +593,7 @@ Réponds avec un objet JSON contenant une entrée par article listé ci-dessus (
 def classify_batch_with_fallback(batch, leaves_str, valid_codes):
     """Essaie classify_batch() sur tout le lot. Si l'appel échoue entièrement
     (après ses propres tentatives), coupe le lot en deux et retente chaque
-    moitié récursivement — jusqu'à des lots d'1 article si nécessaire : plutôt
+    moitié récursivement : jusqu'à des lots d'1 article si nécessaire : plutôt
     que de perdre tous les articles du lot d'un coup.
 
     Retourne (results, usages, temps) où `usages` et `temps` sont les listes
@@ -608,7 +640,7 @@ def _flatten_usage(usage):
 
 def process_fascicule(fascicule, leaves, leaves_str, valid_codes, fixed_overhead_tokens, dry_run=False):
     """Traite un fascicule entier : extrait ses articles, filtre les trop courts,
-    les regroupe en LOTS via make_batches() (plusieurs articles par appel),
+    les regroupe en lots par make_batches, plusieurs articles par appel,
     puis classe chaque lot en parallèle (ThreadPoolExecutor). Retourne le JSON
     de sortie du fascicule (articles + usage tokens/temps cumulés)  ou la
     composition des lots seule en mode --dry-run, sans appel API.
@@ -623,7 +655,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, fixed_overhead
 
     batches = make_batches(kept, fixed_overhead_tokens)
     sizes = [len(b) for b in batches]
-    print(f"  {len(batches)} lot(s) constitué(s) — tailles : {sizes}")
+    print(f"  {len(batches)} lot(s) constitué(s) : tailles : {sizes}")
 
     if dry_run:
         out["articles"] = [{"article_id": a["id"], "title": a["title"], "themes": None} for a in kept]
@@ -655,7 +687,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, fixed_overhead
                 raise
             except Exception as e:
                 ids = [a["id"] for a in batch]
-                print(f"      ✗ lot {ids} — erreur inattendue : {e}")
+                print(f"      ✗ lot {ids} : erreur inattendue : {e}")
                 continue
 
             with usage_lock:
@@ -750,9 +782,15 @@ def main():
         result = process_fascicule(
             fascicule, leaves, leaves_str, valid_codes, fixed_overhead_tokens, dry_run=args.dry_run
         )
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
-        print(f"  ✓ sauvegardé → {out_path}")
+        # En simulation, aucun thème n'est produit : écrire le fichier créerait
+        # une sortie vide que la reprise prendrait ensuite pour un fascicule
+        # déjà traité, et le vrai passage sauterait le fascicule.
+        if args.dry_run:
+            print(f"  (simulation : {out_path.name} n'est pas écrit)")
+        else:
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(result, f, ensure_ascii=False, indent=2)
+            print(f"  ✓ sauvegardé → {out_path}")
 
         if not args.dry_run:
             for k in grand_total:
@@ -765,12 +803,12 @@ def main():
     if not args.dry_run and grand_total["n_calls"]:
         print(f"\n{'='*55}")
         print(f"Total : {grand_total['n_calls']} appel(s) API")
-        print(f"  prompt_tokens     : {grand_total['prompt_tokens']:,}  (dont en cache : {grand_total['cached_tokens']:,})")
+        print(f"  prompt_tokens : {grand_total['prompt_tokens']:,}  (dont en cache : {grand_total['cached_tokens']:,})")
         print(f"  completion_tokens : {grand_total['completion_tokens']:,}")
-        print(f"  total_tokens      : {grand_total['total_tokens']:,}")
+        print(f"  total_tokens : {grand_total['total_tokens']:,}")
         if temps_total_global:
             temps_moyen = temps_total_global / grand_total["n_calls"]
-            print(f"  temps de réponse  : min {temps_min_global:.2f}s - moyen {temps_moyen:.2f}s - max {temps_max_global:.2f}s (total {temps_total_global:.1f}s)")
+            print(f"  temps de réponse : min {temps_min_global:.2f}s - moyen {temps_moyen:.2f}s - max {temps_max_global:.2f}s (total {temps_total_global:.1f}s)")
         pin, pout = PRICING.get(MISTRAL_MODEL, (None, None))
         if pin is not None:
             uncached_input = grand_total["prompt_tokens"] - grand_total["cached_tokens"]

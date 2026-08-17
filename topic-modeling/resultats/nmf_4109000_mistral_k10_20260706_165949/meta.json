@@ -1,0 +1,10 @@
+{
+  "model": "nmf",
+  "fascicule": "4109000",
+  "k": 10,
+  "n_docs": 441,
+  "vocab_size": 760,
+  "reconstruction_err": 19.1973,
+  "run_id": "nmf_4109000_k10_20260706_165949",
+  "source": "mistral_reocr"
+}

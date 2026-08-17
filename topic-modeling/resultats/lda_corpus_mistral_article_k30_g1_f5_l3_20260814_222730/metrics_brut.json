@@ -1,0 +1,160 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2614,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3369,
+    "top_words": "rôle théâtre succès public musique opéra grand représentation artistes acte"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2877,
+    "top_words": "pays travail point grande vue œuvre industrie vie ans progrès"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2618,
+    "top_words": "num eau maladies peau corps traitement santé médecins sang estomac"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2675,
+    "top_words": "président conseil général maire comité membres réunion secrétaire préfet directeur"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3242,
+    "top_words": "temps point voir prendre fort bonne mieux pris voulu part"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1657,
+    "top_words": "num francs prix maison vente adresser lot poste louer grande"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2514,
+    "top_words": "num théâtre opéra revue saint palais comique grand comédie concert"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2556,
+    "top_words": "film films york new cinéma grands unis amérique appareil grandes"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2194,
+    "top_words": "école exposition prix concours enfants enseignement honneur médaille élèves écoles"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2199,
+    "top_words": "fer compagnie oran service chemin eau gare nord mer pont"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3936,
+    "top_words": "homme jeune femme cœur vie fille père amour monde dieu"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2851,
+    "top_words": "histoire art grand livre auteur volume académie vient beaux arts"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.324,
+    "top_words": "num cpt cours nord banque lyon remb fer crédit gaz"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2932,
+    "top_words": "équipe num match club français championnat champion stade finale poids"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1835,
+    "top_words": "num lille demande bureau ans nord lettres echo maison écrire"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2513,
+    "top_words": "ans police cour femme prison président affaire enquête tribunal mort"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2386,
+    "top_words": "roi prince empereur ministre gouvernement espagne duc reine grand saint"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2601,
+    "top_words": "prix course tour grand épreuve auto automobile coupe coureurs départ"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2782,
+    "top_words": "général armée guerre num officiers commandant militaire chef troupes colonel"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2475,
+    "top_words": "num courant kil prix marché cours kilos cote disponible qualité"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.2705,
+    "top_words": "commission loi num ministre projet chambre conseil demande séance gouvernement"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.2502,
+    "top_words": "ans jean marie henri saint louis pierre paul andré georges"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.312,
+    "top_words": "dames noir rouge blanc laine qualité fleurs velours belle mètre"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.3252,
+    "top_words": "tête porte homme petit main grand chambre yeux bras voir"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.3108,
+    "top_words": "allemagne guerre gouvernement français berlin paix europe pays allemands allemand"
+   },
+   {
+    "topic_id": 25,
+    "npmi": -0.0159,
+    "top_words": "num prix francs mètres miss chevaux vap placé longueur placés"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.3405,
+    "top_words": "num prix renault int citroën cond places luxe cabriolet peugeot"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.2624,
+    "top_words": "num société banque francs millions actions cours compagnie fonds valeurs"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.1204,
+    "top_words": "saint num marseille lyon versailles haute mirabeau bois marne loire"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.3197,
+    "top_words": "gouvernement parti politique peuple droit république liberté assemblée pays loi"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 300
+}

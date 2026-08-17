@@ -1,0 +1,170 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.3096,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2725,
+    "top_words": "prix équipe club match course épreuve mètres coupe championnat tour"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2614,
+    "top_words": "gouvernement allemagne italie guerre berlin pays conférence prince troupes russie"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3423,
+    "top_words": "loi gouvernement commission président chambre assemblée droit projet ministre discussion"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2718,
+    "top_words": "ans police femme âgé enquête mort arrêté saint jeune cadavre"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3432,
+    "top_words": "homme yeux jeune fille père patron femme jacques mère tête"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3783,
+    "top_words": "maladies estomac traitement cure pilules sang flacon guérison pharmacie médecine"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.38,
+    "top_words": "rôle théâtre succès public talent artiste opéra artistes représentation acte"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.482,
+    "top_words": "cpt remb lib act crédit valeurs banque nord cours juill"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2211,
+    "top_words": "mmes comique actes opéra rôle jeune théatre comédie guillemin musique"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3614,
+    "top_words": "kil courant disponible cote marché froment prix avoine sacs kilos"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.4923,
+    "top_words": "théâtre folies opéra cirque revue comique relâche variétés casino gymnase"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1395,
+    "top_words": "billets dunkerque classe oran départ départs fer ang cap train"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2158,
+    "top_words": "demande renault int citroën références luxe lille prix places garage"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3216,
+    "top_words": "louer taitbout maison etude prix cuisine pièces boutique provence téléphone"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.4023,
+    "top_words": "banque cours valeurs actions millions crédit fonds marché rente chemins"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.286,
+    "top_words": "volume jésus vol grand histoire roman illustré almanach librairie prix"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2801,
+    "top_words": "port navire commandant vapeur bord général empereur troupes soldats sultan"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2388,
+    "top_words": "laine mètre velours noir drap dames qualité largeur dim col"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2483,
+    "top_words": "ans syndic juge comm prov veuve marchand saint marie négociant"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.236,
+    "top_words": "films auteurs peinture roman film art auteur guerre vie monde"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.3149,
+    "top_words": "obsèques décédé infanterie née mort église funérailles lieutenant âge fils"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.3869,
+    "top_words": "cpt banque nord gaz remb lyon fer cours comp crédit"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.3149,
+    "top_words": "abonnement abonnés départements poste bons francs abonnements prime abonné livraisons"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.4652,
+    "top_words": "manœuvres flotte exercices grandes française méditerranée marins cherbourg navires fleete"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.2626,
+    "top_words": "réunion priés assister comité salle générale citoyens assemblée réunir siège"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.3149,
+    "top_words": "bataillon versailles obus fort batterie plateau feu garde blessés vanves"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.3266,
+    "top_words": "régiment capitaine général brigade infanterie colonel légion officiers honneur division"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.3391,
+    "top_words": "grève ouvriers syndicats travail mineurs travailleurs bourse délégués employés revendications"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.405,
+    "top_words": "crème peau beauté teint poudre visage cheveux toilette savon huile"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.328,
+    "top_words": "baromètre température ciel vent nord ouest pluies faible âgé mer"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.39,
+    "top_words": "théâtre matinée opéra comédie spectacle représentation orchestre actes comique succès"
+   },
+   {
+    "topic_id": 31,
+    "npmi": -0.1159,
+    "top_words": "vii viii iii solution problème mat sorties négation noms dés"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 320
+}

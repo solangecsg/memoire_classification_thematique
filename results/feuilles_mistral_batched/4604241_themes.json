@@ -1,0 +1,2217 @@
+{
+  "fascicule": "4604241",
+  "usage": {
+    "prompt_tokens": 123853,
+    "completion_tokens": 6595,
+    "total_tokens": 130448,
+    "cached_tokens": 0,
+    "n_calls": 8,
+    "temps_reponse_total_s": 101.08,
+    "temps_reponse_min_s": 2.32,
+    "temps_reponse_max_s": 16.85,
+    "temps_reponse_moyen_s": 12.63,
+    "temps_reponse_median_s": 13.77
+  },
+  "articles": [
+    {
+      "article_id": "DIV.47",
+      "title": "LES GOUVERNEMENTS DE PARIS ET DE LONDRES SONT EN COMPLET ACCORD : Déclarations véhémentes de M. Stresemann à la presse.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.69",
+      "title": "M. STRESEMANN ATTAQUE LA POLITIQUE FRANÇAISE",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.80",
+      "title": "DÉCLARATION DE M. DE MONZIE A LA GAUCHE DÉMOCRATIQUE",
+      "themes": [
+        {
+          "code": "20000118",
+          "label_fr": "Accusation"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.93",
+      "title": "M BURÉ IRA AUJOURD'HUI AU PALAIS",
+      "themes": [
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.99",
+      "title": "LA MORT DU PETIT CLOWN : C'est au cours d'une représentation de son père que mourut le petit Emmanuel Fratellini, qui avait débuté au cirque sous les plus heureux auspices.",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.113",
+      "title": "DIV.113",
+      "themes": [
+        {
+          "code": "20000346",
+          "label_fr": "Macro-économie"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.123",
+      "title": "DIV.123",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.140",
+      "title": "DIV.140",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.151",
+      "title": "LES GRANDS RECORDS AU 31 DECEMBRE 1923",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.162",
+      "title": "LES GRANDS RECORDS AU 31 DÉCEMBRE 1924",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.174",
+      "title": "LE RECORD BATTU AVANT-HIER PAR DORET",
+      "themes": [
+        {
+          "code": "20000499",
+          "label_fr": "Record"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.183",
+      "title": "15,300 MONUMENTS AUX MORTS",
+      "themes": [
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.189",
+      "title": "PELLETIER DOISY, VUILLEMIN ET DAGNEAUX VONT EMMENER PAR LES AIRS DEUX MINISTRES MM. DALADIER ET L. EYNAC AU TCHAD ET A MADAGASCAR",
+      "themes": [
+        {
+          "code": "20000757",
+          "label_fr": "Ingénierie aérospatiale"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.196",
+      "title": "L'HOMME COUPE EN MORCEAUX",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.208",
+      "title": "LA MÈRE DE DERVAUX EST VENUE A LA BARRE LE DÉFENDRE : Me Torrès, avocat de l'inculpé, verse aux débats un étrange testament de la victime autorisant son mari à la tuer. AUJOURD'HUI : RÉQUISITOIRE PLAIDOIRIE ET VERDICT",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.248",
+      "title": "LA VISITE DE M. MYRON T. HERRICK AU QUAI D'ORSAY",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.255",
+      "title": "LES NÉGOCIATIONS COMMERCIALES FRANCO-ALLEMANDES",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.263",
+      "title": "A LA FRANCE M. MAKHONINE OFFRE LE DROIT D'UTILISER POUR LA DÉFENSE NATIONALE LE PROCÉDÉ DE SON INVENTION QUI SUBSTITUE A L'ESSENCE TOUTES LES HUILES LOURDES POUR MOTEURS A EXPLOSION : RESULTATS : AUGMENTATION DE RENDEMENT, SUPPRESSION DE L'ENCRASSEMENT, ECONOMIE L'ingénieur russe a été reçu hier après-midi par M. Doumergue.",
+      "themes": [
+        {
+          "code": "20000711",
+          "label_fr": "Biotechnologie"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        },
+        {
+          "code": "20000058",
+          "label_fr": "Intervention militaire internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.295",
+      "title": "LE DRAME APRÈS LA FÉERIE : Le veilleur de nuit du Châtelet surprend deux cambrioleurs qui dévalisaient les loges. Il fait feu sur les malfaiteurs et en blesse un.",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.305",
+      "title": "UN BATEAU-LAVOIR COULÉ EN CINQ MINUTES",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.310",
+      "title": "L'ORGANISATION ET LE STATUT DE L'OCCUPATION DES TERRITOIRES RHÉNANS",
+      "themes": [
+        {
+          "code": "20000060",
+          "label_fr": "Forces d'occupation"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.321",
+      "title": "UN RAZ DE MARÉE A CASABLANCA",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.331",
+      "title": "LA FLAMME DU SOUVENIR",
+      "themes": [
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.336",
+      "title": "CIRCULATION",
+      "themes": [
+        {
+          "code": "20000339",
+          "label_fr": "Transport quotidien"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.341",
+      "title": "CHAMBRE",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.346",
+      "title": "SALONS ET EXPOSITIONS",
+      "themes": [
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.356",
+      "title": "CHASSE",
+      "themes": [
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.361",
+      "title": "BIENFAISANCE",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.366",
+      "title": "CONFÉRENCES ET RÉUNIONS",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        },
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.373",
+      "title": "T. 8. F.",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000051",
+          "label_fr": "Télévision"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.394",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000570",
+          "label_fr": "Maison et décoration"
+        },
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.401",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.404",
+      "title": "LE PROCHAIN CONSEIL DES MINISTRES",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000606",
+          "label_fr": "Pouvoir exécutif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.414",
+      "title": "DIV.414",
+      "themes": [
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.448",
+      "title": "LA PIERRE DE TOUCHE Dessin de Bertram Rancer.",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.458",
+      "title": "OSLO",
+      "themes": [
+        {
+          "code": "20000423",
+          "label_fr": "Politique de l'environnement"
+        },
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        },
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.495",
+      "title": "LA CURIOSITÉ : GALERIE D'ART ET EXPOSITION",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.501",
+      "title": "PONT DES ARTS",
+      "themes": [
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.520",
+      "title": "LES COURS",
+      "themes": [
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.525",
+      "title": "CORPS DIPLOMATIQUE",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.530",
+      "title": "DEUILS",
+      "themes": [
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.548",
+      "title": "BIENFAISANCE",
+      "themes": [
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        },
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.554",
+      "title": "L'OCCASION QU'IL NE FAUT PAS MANQUER",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.571",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.578",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.581",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.588",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.597",
+      "title": "DIV.597",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.600",
+      "title": "DIV.600",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.603",
+      "title": "DIV.603",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.607",
+      "title": "DIV.607",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.611",
+      "title": "DIV.611",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.617",
+      "title": "DIV.617",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.620",
+      "title": "DIV.620",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.626",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.629",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.637",
+      "title": "DIV.637",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.643",
+      "title": "DIV.643",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.662",
+      "title": "DIV.662",
+      "themes": [
+        {
+          "code": "20000386",
+          "label_fr": "Marché des matières premières"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.669",
+      "title": "A CHAMBRE A VOTÉ DEUX DOUZIÈMES PROVISOIRES NSI QUE D'IMPORTANTS CRÉDITS ADDITIONNELS",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000607",
+          "label_fr": "Budget du gouvernement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.707",
+      "title": "LE SENAT A RATIFIÉ LA CONVENTION ENTRE L'ÉTAT ET LA BANQUE DE FRANCE",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000379",
+          "label_fr": "Politique monétaire"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.742",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.756",
+      "title": "LA COMMISSION D'ENQUÊTE SUR LES FONDS ELECTORAUX ENTEND UN TEMOIN : C'est M. Le Poullen qui fut trésorier-adjoint de l'Union des intérêts économiques. M. Delaunay - Belleville refuse de prêter serment.",
+      "themes": [
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.799",
+      "title": "INFORMATIONS PARLEMENTAIRES",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.805",
+      "title": "Légion d'honneur",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.821",
+      "title": "A WASHINGTON : LA DETTE FRANÇAISE AUX ÉTATS-UNIS Le cabinet américain demanderait à la France de préciser officiellement son point de vue.",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.838",
+      "title": "PROJET DE REVISION DES LOIS AMÉRICAINES SUR L'IMMIGRATION",
+      "themes": [
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.846",
+      "title": "Le Japon et les puissances anglo-saxonnes",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.852",
+      "title": "Un vapeur japonais en feu",
+      "themes": [
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000168",
+          "label_fr": "Secours d'urgence"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.857",
+      "title": "L'HOMME COUPE EN MORCEAUX",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.863",
+      "title": "A ROME : LA SITUATION POLITIQUE EN ITALIE Le bruit de la démission de plusieurs ministres a couru, mais il est officiellement démenti.",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.881",
+      "title": "La situation en Albanie",
+      "themes": [
+        {
+          "code": "20000067",
+          "label_fr": "Rébellion"
+        },
+        {
+          "code": "20000068",
+          "label_fr": "Révolution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.888",
+      "title": "A MOSCOU : UN CONGRÈS SOVIÉTIQUE D'ORGANISATION Le sort de Trotsky fait toujours l'objet d'informations contradictoires.",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.910",
+      "title": "Un commissaire de police blessé",
+      "themes": [
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.916",
+      "title": "L'évasion des pupilles d'Aniane",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.922",
+      "title": "Fatale imprudence d'un voyageur",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.930",
+      "title": "DIV.930",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.939",
+      "title": "MENUS FAITS",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000084",
+          "label_fr": "Agression"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.955",
+      "title": "DIV.955",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20001131",
+          "label_fr": "Alertes météorologiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.963",
+      "title": "SANSONNETTE par ANDRÉ REUZE",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.981",
+      "title": "LA TEMPÊTE SUR LA COTE BRETONNE",
+      "themes": [
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.992",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000563",
+          "label_fr": "Voyages"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1014",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1017",
+      "title": "INFORMATIONS MARITIMES",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1029",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1040",
+      "title": "LES TRANSPORTS EN COMMUN POUR LE REVEILLON DU JOUR DE L'AN",
+      "themes": [
+        {
+          "code": "20000339",
+          "label_fr": "Transport quotidien"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1047",
+      "title": "DEVIATION PAR LA GARE MONTPARNASSE DE LA LIGNE D'OMNIBUS AN",
+      "themes": [
+        {
+          "code": "20000339",
+          "label_fr": "Transport quotidien"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1052",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1055",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1081",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000183",
+          "label_fr": "Financement et vente d'actions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1084",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1087",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1095",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000225",
+          "label_fr": "Informatique et télécommunications"
+        },
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1101",
+      "title": "DIV.1101",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1108",
+      "title": "DIV.1108",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1114",
+      "title": "OFFRES D'EMPLOI",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1119",
+      "title": "LEÇONS",
+      "themes": [
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1124",
+      "title": "LEÇONS DE DANSE",
+      "themes": [
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1134",
+      "title": "HOTELS",
+      "themes": [
+        {
+          "code": "20000553",
+          "label_fr": "Lieu de loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1139",
+      "title": "HABILLEMENT",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1149",
+      "title": "ACHATS ET VENTES",
+      "themes": [
+        {
+          "code": "20000430",
+          "label_fr": "Ressources naturelles"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1154",
+      "title": "LOCATIONS",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1161",
+      "title": "LOCATIONS MEUBLÉES",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1167",
+      "title": "MOBILIERS",
+      "themes": [
+        {
+          "code": "20000316",
+          "label_fr": "Métaux et minéraux"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1172",
+      "title": "APPARTEMENTS A VENDRE",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1192",
+      "title": "VENTE ET ACHAT DE PROPRIÉTÉS",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1197",
+      "title": "MUSIQUE",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1209",
+      "title": "OCCASIONS",
+      "themes": [
+        {
+          "code": "20000316",
+          "label_fr": "Métaux et minéraux"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1220",
+      "title": "FONDS DE COMMERCE.",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1225",
+      "title": "CHIENS",
+      "themes": [
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1253",
+      "title": "CYCLES ET AUTOS",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1261",
+      "title": "RENSEIGNEMENTS",
+      "themes": [
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1266",
+      "title": "DIVERS",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1278",
+      "title": "Les PETITES ANNONCES CLASSÉES QUOTIDIENNES sont reçues : : EXCELSIOR-PUBLICITE, 11 Bd des Italiens (entrée et escalier particuliers S. N. P.) de 9 heures à 12 heures et de 14 à 18 heures. Téléphone Louvre 33-46 GUICHET DES PETITES ANNONCES CLASSEES D' « EXCELSIOR » hall du « Petit Parisien », 18, rue d'Enghien, de 9 heures à 19 heures (dimanche compris)",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        },
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1428",
+      "title": "CHEMINS DE FER D'ALSACE ET DE LORRAINE",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1438",
+      "title": "[titre_illisible]",
+      "themes": [
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1460",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1463",
+      "title": "A l'Hôtel de Ville : Conseil général",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1473",
+      "title": "Prime de natalité et primes de prévoyance",
+      "themes": [
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1486",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1492",
+      "title": "LE SIXIÈME TOUR DE LA COUPE DE FRANCE DE FOOTBALL",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1520",
+      "title": "DEUX TOURNOIS INTERNATIONAUX DE FOOTBALL",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1531",
+      "title": "LE MATCH DE RUGBY FRANCE-IRLANDE",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1544",
+      "title": "LE PROFESSIONNALISME EN FOOTBALL",
+      "themes": [
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1556",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1576",
+      "title": "LE TOURNOI DE NOEL DE TENNIS",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1590",
+      "title": "LE CROSS DE \"L'INTRANSIGEANT \"",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1600",
+      "title": "IL N'Y AURA PAS DE SALON AUTOMOBILE EN 1925",
+      "themes": [
+        {
+          "code": "20000991",
+          "label_fr": "Automobile"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        },
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1607",
+      "title": "GRÈVE DU PERSONNEL DES TRAMWAYS DE LILLE-TOURCOING",
+      "themes": [
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        },
+        {
+          "code": "20000339",
+          "label_fr": "Transport quotidien"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1613",
+      "title": "La publicité sourcè de revenus pour la Ville de Paris",
+      "themes": [
+        {
+          "code": "20000192",
+          "label_fr": "Stratégie et marketing"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1629",
+      "title": "Vincennes. Résultats du 30 décembre",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1686",
+      "title": "LES COURSES EN 1924",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        },
+        {
+          "code": "20001124",
+          "label_fr": "Industrie du sport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1698",
+      "title": "L'ENTRAINEUR FLATMAN PERD SON PROCÈS EN APPEL CONTRE LA SOCIETE D'ENCOURAGEMENT",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20001103",
+          "label_fr": "Mesures disciplinaires dans le sport"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1710",
+      "title": "Les palmes académiques",
+      "themes": [
+        {
+          "code": "20000403",
+          "label_fr": "Formation"
+        },
+        {
+          "code": "20000416",
+          "label_fr": "Enseignants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1720",
+      "title": "DIV.1720",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        },
+        {
+          "code": "20001132",
+          "label_fr": "Politique culturelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1733",
+      "title": "DIV.1733",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1737",
+      "title": "DIV.1737",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1740",
+      "title": "DIV.1740",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1751",
+      "title": "DIV.1751",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1754",
+      "title": "DIV.1754",
+      "themes": [
+        {
+          "code": "20000579",
+          "label_fr": "Élections nationales"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1761",
+      "title": "DIV.1761",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1768",
+      "title": "DIV.1768",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1771",
+      "title": "DIV.1771",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1776",
+      "title": "DIV.1776",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1779",
+      "title": "DIV.1779",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000790",
+          "label_fr": "Enfants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1782",
+      "title": "DIV.1782",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1788",
+      "title": "DIV.1788",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1791",
+      "title": "DIV.1791",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1798",
+      "title": "DIV.1798",
+      "themes": [
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1803",
+      "title": "DIV.1803",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1809",
+      "title": "DIV.1809",
+      "themes": [
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1817",
+      "title": "DIV.1817",
+      "themes": [
+        {
+          "code": "20001143",
+          "label_fr": "Soirée (fête)"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1825",
+      "title": "DIV.1825",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1832",
+      "title": "DIV.1832",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1844",
+      "title": "En matinée :",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1849",
+      "title": "En soirée :",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1897",
+      "title": "LA RÉPRESSION DE LA HAUSSE ILLICITE",
+      "themes": [
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1905",
+      "title": "INCULPE DU MEURTRE DE SA FILLE SALVAT A ÉTÉ ACQUITTÉ",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1915",
+      "title": "Un Algérien meurtrier",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1925",
+      "title": "DIV.1925",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1929",
+      "title": "DIV.1929",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1932",
+      "title": "DIV.1932",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1935",
+      "title": "DIV.1935",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1938",
+      "title": "DIV.1938",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1941",
+      "title": "DIV.1941",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1944",
+      "title": "DIV.1944",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1949",
+      "title": "DIV.1949",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1953",
+      "title": "DIV.1953",
+      "themes": [
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1956",
+      "title": "PETIT A PETIT LES COTES DE LA VENDÉE SONT RONGÉES PAR L'OCÉAN ATLANTIQUE",
+      "themes": [
+        {
+          "code": "20000438",
+          "label_fr": "Océans"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1965",
+      "title": "LES FORTS DE LA HALLE ONT FETE HIER LE CHAMPION RIGOULOT",
+      "themes": [
+        {
+          "code": "20001093",
+          "label_fr": "Haltérophilie"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1974",
+      "title": "LES TRAVAUX DU NOUVEAU MUSÉE DE LA LÉGION D'HORREUR SONT TERMINÉS",
+      "themes": [
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1984",
+      "title": "DEVANT LES ASSISES DE LA SEINE",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1993",
+      "title": "LE SERMENT DES ÉLÈVES DE L'ÉCOLE D'AÉRONAUTIQUE DE BUCAREST",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000597",
+          "label_fr": "Constitution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2001",
+      "title": "UNE FETE A L'HOSPICE DES ENFANTS ASSISTES",
+      "themes": [
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        },
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2010",
+      "title": "LA REINE D'ESPAGNE VISITE UN SANATORIUM",
+      "themes": [
+        {
+          "code": "20000462",
+          "label_fr": "Hôpitaux et cliniques"
+        },
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2019",
+      "title": "LA TOURNÉE TRIOMPHALE DE L'EQUIPE DE RUGBY DES NÉO-ZÉLANDAIS QUE L'ON VERRA EN FRANCE",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        },
+        {
+          "code": "20001125",
+          "label_fr": "Organisation sportive"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve mètres coupe championnat tour",
+    "size": 565
+  },
+  {
+    "topic_id": 1,
+    "top_words": "gouvernement allemagne italie guerre berlin pays conférence prince troupes russie",
+    "size": 303
+  },
+  {
+    "topic_id": 2,
+    "top_words": "loi gouvernement commission président chambre assemblée droit projet ministre discussion",
+    "size": 282
+  },
+  {
+    "topic_id": 3,
+    "top_words": "ans police femme âgé enquête mort arrêté saint jeune cadavre",
+    "size": 267
+  },
+  {
+    "topic_id": 4,
+    "top_words": "homme yeux jeune fille père patron femme jacques mère tête",
+    "size": 188
+  },
+  {
+    "topic_id": 5,
+    "top_words": "maladies estomac traitement cure pilules sang flacon guérison pharmacie médecine",
+    "size": 156
+  },
+  {
+    "topic_id": 6,
+    "top_words": "rôle théâtre succès public talent artiste opéra artistes représentation acte",
+    "size": 103
+  },
+  {
+    "topic_id": 7,
+    "top_words": "cpt remb lib act crédit valeurs banque nord cours juill",
+    "size": 96
+  },
+  {
+    "topic_id": 8,
+    "top_words": "mmes comique actes opéra rôle jeune théatre comédie guillemin musique",
+    "size": 92
+  },
+  {
+    "topic_id": 9,
+    "top_words": "kil courant disponible cote marché froment prix avoine sacs kilos",
+    "size": 89
+  },
+  {
+    "topic_id": 10,
+    "top_words": "théâtre folies opéra cirque revue comique relâche variétés casino gymnase",
+    "size": 89
+  },
+  {
+    "topic_id": 11,
+    "top_words": "billets dunkerque classe oran départ départs fer ang cap train",
+    "size": 78
+  },
+  {
+    "topic_id": 12,
+    "top_words": "demande renault int citroën références luxe lille prix places garage",
+    "size": 77
+  },
+  {
+    "topic_id": 13,
+    "top_words": "louer taitbout maison etude prix cuisine pièces boutique provence téléphone",
+    "size": 71
+  },
+  {
+    "topic_id": 14,
+    "top_words": "banque cours valeurs actions millions crédit fonds marché rente chemins",
+    "size": 67
+  },
+  {
+    "topic_id": 15,
+    "top_words": "volume jésus vol grand histoire roman illustré almanach librairie prix",
+    "size": 62
+  },
+  {
+    "topic_id": 16,
+    "top_words": "port navire commandant vapeur bord général empereur troupes soldats sultan",
+    "size": 59
+  },
+  {
+    "topic_id": 17,
+    "top_words": "laine mètre velours noir drap dames qualité largeur dim col",
+    "size": 55
+  },
+  {
+    "topic_id": 18,
+    "top_words": "ans syndic juge comm prov veuve marchand saint marie négociant",
+    "size": 53
+  },
+  {
+    "topic_id": 19,
+    "top_words": "films auteurs peinture roman film art auteur guerre vie monde",
+    "size": 44
+  },
+  {
+    "topic_id": 20,
+    "top_words": "obsèques décédé infanterie née mort église funérailles lieutenant âge fils",
+    "size": 44
+  },
+  {
+    "topic_id": 21,
+    "top_words": "cpt banque nord gaz remb lyon fer cours comp crédit",
+    "size": 40
+  },
+  {
+    "topic_id": 22,
+    "top_words": "abonnement abonnés départements poste bons francs abonnements prime abonné livraisons",
+    "size": 39
+  },
+  {
+    "topic_id": 23,
+    "top_words": "manœuvres flotte exercices grandes française méditerranée marins cherbourg navires fleete",
+    "size": 38
+  },
+  {
+    "topic_id": 24,
+    "top_words": "réunion priés assister comité salle générale citoyens assemblée réunir siège",
+    "size": 35
+  },
+  {
+    "topic_id": 25,
+    "top_words": "bataillon versailles obus fort batterie plateau feu garde blessés vanves",
+    "size": 34
+  },
+  {
+    "topic_id": 26,
+    "top_words": "régiment capitaine général brigade infanterie colonel légion officiers honneur division",
+    "size": 32
+  },
+  {
+    "topic_id": 27,
+    "top_words": "grève ouvriers syndicats travail mineurs travailleurs bourse délégués employés revendications",
+    "size": 31
+  },
+  {
+    "topic_id": 28,
+    "top_words": "crème peau beauté teint poudre visage cheveux toilette savon huile",
+    "size": 30
+  },
+  {
+    "topic_id": 29,
+    "top_words": "baromètre température ciel vent nord ouest pluies faible âgé mer",
+    "size": 27
+  },
+  {
+    "topic_id": 30,
+    "top_words": "théâtre matinée opéra comédie spectacle représentation orchestre actes comique succès",
+    "size": 25
+  },
+  {
+    "topic_id": 31,
+    "top_words": "vii viii iii solution problème mat sorties négation noms dés",
+    "size": 23
+  }
+]

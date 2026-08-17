@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num prix club équipe course tour épreuve match francs mètres",
+    "size": 404
+  },
+  {
+    "topic_id": 1,
+    "top_words": "président saint général conseil maire préfet société membres directeur honneur",
+    "size": 280
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num ans police cour tribunal prison femme affaire président crime",
+    "size": 314
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num ans saint jean marie louis henri paul pierre andré",
+    "size": 200
+  },
+  {
+    "topic_id": 4,
+    "top_words": "théâtre rôle opéra succès musique grand public acte comique comédie",
+    "size": 266
+  },
+  {
+    "topic_id": 5,
+    "top_words": "homme jeune femme yeux père fille vie cœur porte tête",
+    "size": 214
+  },
+  {
+    "topic_id": 6,
+    "top_words": "num général guerre armée chef officiers capitaine commandant troupes hommes",
+    "size": 235
+  },
+  {
+    "topic_id": 7,
+    "top_words": "gouvernement angleterre allemagne anglais londres français guerre etats pays prince",
+    "size": 269
+  },
+  {
+    "topic_id": 8,
+    "top_words": "fer eau mètres chemin grande route saint gare train chevaux",
+    "size": 186
+  },
+  {
+    "topic_id": 9,
+    "top_words": "num lille demande maison ans bureau adresser ecrire echo vendre",
+    "size": 285
+  },
+  {
+    "topic_id": 10,
+    "top_words": "num commission loi conseil ministre chambre projet président séance demande",
+    "size": 305
+  },
+  {
+    "topic_id": 11,
+    "top_words": "francs société millions compagnie fer banque générale fonds chemins actions",
+    "size": 203
+  },
+  {
+    "topic_id": 12,
+    "top_words": "num prix marché cours kil courant cote kilos hausse qualité",
+    "size": 140
+  },
+  {
+    "topic_id": 13,
+    "top_words": "num cpt nord banque cours lyon crédit clôture fin valeurs",
+    "size": 419
+  },
+  {
+    "topic_id": 14,
+    "top_words": "blanc rouge eau petits dames noir femmes enfants gros verre",
+    "size": 185
+  },
+  {
+    "topic_id": 15,
+    "top_words": "num prix int renault places voitures luxe cond agence neuve",
+    "size": 146
+  },
+  {
+    "topic_id": 16,
+    "top_words": "temps mieux fort voir prendre bonne point vient veut donner",
+    "size": 249
+  },
+  {
+    "topic_id": 17,
+    "top_words": "point pays monde grande esprit vie hommes œuvre travail homme",
+    "size": 198
+  },
+  {
+    "topic_id": 18,
+    "top_words": "num politique gouvernement parti peuple ordre république droit assemblée guerre",
+    "size": 199
+  },
+  {
+    "topic_id": 19,
+    "top_words": "num prix exposition art grand histoire académie arts vient volume",
+    "size": 204
+  }
+]

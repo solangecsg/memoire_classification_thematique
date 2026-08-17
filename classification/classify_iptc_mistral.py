@@ -1,26 +1,85 @@
 """
-classify_iptc_mistral.py : Classification thématique IPTC multi-label via Mistral
+classify_iptc_mistral.py : classification thématique IPTC, un article par appel
 
-Pour chaque article d'un fascicule :
-  1. Extrait le texte complet de l'article (blocs ALTO corrigés, dans l'ordre
-     donné par le TOC/METS du fascicule)
-  2. Envoie ce texte + la liste des étiquettes IPTC "terminales" (niveau 3,
-     ou niveau 2 quand la branche s'arrête là) à Mistral
-  3. Récupère 1 à 5 thèmes choisis par Mistral parmi cette liste
-  4. Sauvegarde un JSON par fascicule : {article_id: thèmes}
+CE QUE FAIT CE SCRIPT
 
-Entrées (voir README.md pour l'arborescence complète du dépôt) :
-  - re-ocr/corpus/original/{fascicule}/toc/T*.xml         → structure logique (METS) : ordre des blocs par article
-  - re-ocr/corpus/reocr_mistral/{fascicule}_reocr/ocr/*.xml → ALTO avec OCR corrigé (texte des blocs)
-  - classification/iptc_mediatopic_official.json                 → taxonomie IPTC officielle (SKOS)
+Attribue à chaque article d'un fascicule de une à cinq étiquettes thématiques,
+choisies dans le référentiel IPTC Media Topics par un modèle de langue.
 
-Sortie :
-  - results/feuilles_mistral/{fascicule}_themes.json
+C'est la variante de référence, qui envoie un article par appel. Trois autres
+variantes du même traitement figurent dans ce dossier, chacune employant une
+stratégie différente pour réduire le coût. Leur comparaison fait l'objet du
+dossier analyse_couts/.
 
-Usage :
-    python classify_iptc_mistral.py --fascicule 4109000 --dry-run   # extraction seule, sans appel API
-    python classify_iptc_mistral.py --fascicule 4109000             # test sur 1 fascicule
-    python classify_iptc_mistral.py                                 # tous les fascicules
+LE TRAITEMENT, ÉTAPE PAR ÉTAPE
+
+  1. Lire la carte logique du fichier METS, qui donne pour chaque division
+     ARTICLE la liste ordonnée des blocs qui la composent.
+  2. Lire les fichiers ALTO ré-océrisés et en extraire le texte de chaque bloc.
+  3. Concaténer les blocs d'un article dans l'ordre déclaré, ce qui reconstitue
+     l'unité de lecture que la reconnaissance de mise en page ne livre pas.
+  4. Envoyer ce texte au modèle avec la liste des étiquettes admissibles.
+  5. Recevoir les codes choisis, les vérifier contre la taxonomie et les
+     enregistrer.
+
+LE RÉFÉRENTIEL ET SON NIVEAU
+
+Les étiquettes proposées au modèle sont les entrées terminales de la taxonomie :
+celles du troisième niveau, complétées des entrées de deuxième niveau qui n'ont
+pas de descendance. Ce grain est comparable à celui d'une rubrique de journal.
+Le premier niveau, avec ses dix-sept catégories, serait trop grossier pour
+servir d'index ; le quatrième n'existe que dans quelques branches.
+
+LA CONTRAINTE DE SORTIE
+
+Un modèle interrogé en texte libre peut rendre une étiquette qui n'existe pas,
+ou une approchante. L'interface employée accepte un schéma de sortie strict, où
+les codes admissibles sont énumérés : le modèle ne peut alors rendre qu'un code
+de la liste, et une sortie hors taxonomie devient impossible par construction
+plutôt que par vérification après coup.
+
+CE QUE COÛTE UNE LISTE DE 567 ÉTIQUETTES
+
+La liste doit être transmise à chaque appel, le modèle ne conservant rien d'un
+appel à l'autre. Elle pèse 8 775 jetons, contre 137 pour les instructions et 522
+en moyenne pour le texte d'un article, soit 92 pour cent du volume facturé.
+Réduire le coût revient donc à faire porter cette liste par plusieurs articles à
+la fois, ce que fait la variante par lots, plutôt qu'à raccourcir les textes.
+
+ENTRÉES
+
+  re-ocr/corpus/original/{fascicule}/toc/T*.xml        carte logique METS
+  re-ocr/corpus/reocr_mistral/{fascicule}_reocr/ocr/   ALTO ré-océrisés
+  classification/iptc_mediatopic_official.json         taxonomie officielle
+  config/.env                                          clé API, à créer
+
+SORTIE
+
+  results/feuilles_mistral/{fascicule}_themes.json
+
+Le fichier porte, pour chaque article, son identifiant, son titre et ses
+étiquettes avec leur code. Il porte également un relevé d'usage : jetons
+consommés, nombre d'appels et temps de réponse, qui servent à l'analyse de coût.
+
+PAQUETS EMPLOYÉS
+
+  argparse, json, os, statistics, threading, time, pathlib   bibliothèque
+                            standard
+  xml.etree.ElementTree     lecture des fichiers ALTO et METS, bibliothèque
+                            standard. Le format est régulier et une
+                            bibliothèque tierce serait superflue.
+  concurrent.futures        exécution de plusieurs appels en parallèle,
+                            bibliothèque standard
+  requests                  appels HTTP à l'interface Mistral. Le SDK officiel
+                            n'est pas employé, l'interface étant une simple
+                            requête POST et la dépendance évitable.
+
+USAGE
+
+    python classify_iptc_mistral.py --fascicule 4109000 --dry-run
+    python classify_iptc_mistral.py --fascicule 4109000
+    python classify_iptc_mistral.py
+    python classify_iptc_mistral.py --force      # retraiter les fascicules déjà faits
 """
 
 import argparse
@@ -39,8 +98,11 @@ import requests
 
 
 def load_env(env_path: Path):
-    """Charge les variables d'un fichier .env dans os.environ (sans dépendance
-    externe) — ne remplace jamais une variable déjà définie dans l'environnement.
+    """Charge les variables d'un fichier .env dans os.environ.
+
+    L'implémentation évite une dépendance extérieure pour une tâche aussi
+    simple. Une variable déjà définie dans l'environnement n'est jamais
+    remplacée, de sorte qu'un appel ponctuel puisse surcharger le fichier.
     """
     if not env_path.exists():
         return
@@ -75,12 +137,24 @@ MISTRAL_RESULTS_DIR = PROJECT_DIR / "re-ocr" / "corpus" / "reocr_mistral"
 TAXONOMY_PATH = SCRIPTS_DIR / "iptc_mediatopic_official.json"
 OUTPUT_DIR = PROJECT_DIR / "results" / "feuilles_mistral"
 
-MIN_WORDS = 10          # articles plus courts que ça sont ignorés (titres/rubriques vides)
+# Nombre minimal de mots qu'un article doit compter pour être classé. En deçà,
+# il s'agit presque toujours d'une titraille isolée ou d'une rubrique vide, dont
+# le classement n'aurait pas de sens et consommerait un appel.
+MIN_WORDS = 10
+
+# Bornes du nombre d'étiquettes rendues par article. Le maximum de cinq laisse
+# décrire un article qui traite de plusieurs matières, cas fréquent dans la
+# presse ancienne où une division logique réunit parfois des contenus
+# hétérogènes. Le minimum de un force une réponse plutôt qu'une abstention.
 MAX_THEMES = 5
 MIN_THEMES = 1
-MAX_WORKERS = 5         # appels Mistral en parallèle (par fascicule)
 
-# $ / 1M tokens (input, output) — mistral.ai/pricing/api/, pour l'estimation de coût
+# Nombre d'appels menés en parallèle sur un même fascicule. Cinq tient sous les
+# limites de débit de l'interface tout en divisant le temps d'attente, celui-ci
+# étant dominé par la latence du service plutôt que par le calcul local.
+MAX_WORKERS = 5
+
+# $ / 1M tokens (input, output) : mistral.ai/pricing/api/, pour l'estimation de coût
 PRICING = {
     "mistral-large-latest": (0.50, 1.50),
     "mistral-medium-latest": (1.50, 7.50),
@@ -203,10 +277,10 @@ def build_leaves(taxonomy_path, max_level=3):
 
 
 def leaves_prompt_str(leaves):
-    """Une ligne par étiquette : code — libellé.
+    """Une ligne par étiquette : code : libellé.
 
     Le contexte parent entre parenthèses n'est ajouté que pour les libellés
-    qui apparaissent plusieurs fois dans la liste (ambigus sans lui) — pour
+    qui apparaissent plusieurs fois dans la liste (ambigus sans lui) : pour
     toutes les autres étiquettes (l'immense majorité), le libellé seul suffit.
     """
     label_counts = {}
@@ -220,7 +294,7 @@ def leaves_prompt_str(leaves):
             ctx = f" ({parent} > {leaf['l1_label']})" if parent else f" ({leaf['l1_label']})"
         else:
             ctx = ""
-        lines.append(f"  {code} — {leaf['label_fr']}{ctx}")
+        lines.append(f"  {code} : {leaf['label_fr']}{ctx}")
     return "\n".join(lines)
 
 
@@ -294,7 +368,7 @@ def extract_tb_text(alto_path, tb_id):
     """Retourne le texte d'un TextBlock ALTO précis (par son ID), en concaténant
     les mots de chaque ligne. Met en cache le contenu de tout le fichier ALTO
     au premier accès (`_alto_cache`) pour éviter de re-parser le XML à chaque
-    appel — un même fichier ALTO contient plusieurs blocs d'articles différents.
+    appel : un même fichier ALTO contient plusieurs blocs d'articles différents.
     """
     key = str(alto_path)
     if key not in _alto_cache:
@@ -383,10 +457,10 @@ def _response_schema(valid_codes):
 def classify_article(text, leaves_str, valid_codes, retries=5):
     """Retourne (codes, usage, temps_s). `temps_s` est la durée de la requête
     HTTP qui a effectivement réussi (hors attente de backoff des tentatives
-    précédentes) — le vrai temps de réponse de l'API pour CET appel.
+    précédentes) : le vrai temps de réponse de l'interface pour cet appel précis.
 
-    Lève SystemExit sur erreur d'authentification (401/403 — inutile de
-    réessayer, on arrête tout), RuntimeError sur requête invalide (400 — pas
+    Lève SystemExit sur erreur d'authentification (401/403, inutile de
+    réessayer, on arrête tout), RuntimeError sur requête invalide (400, pas
     de nouvelle tentative pour ce seul article), et retente avec backoff sur
     timeout/erreur réseau/429/5xx."""
     user_prompt = f"""Étiquettes disponibles :
@@ -427,7 +501,7 @@ Réponds avec le JSON demandé."""
 
         if r.status_code in (401, 403):
             raise SystemExit(
-                f"Erreur d'authentification Mistral ({r.status_code}) — vérifie MISTRAL_API_KEY dans {ENV_FILE}"
+                f"Erreur d'authentification Mistral ({r.status_code}) : vérifie MISTRAL_API_KEY dans {ENV_FILE}"
             )
         if r.status_code == 400:
             raise RuntimeError(f"Requête invalide (400), pas de nouvelle tentative : {r.text[:300]}")
@@ -467,7 +541,7 @@ USAGE_KEYS = ("prompt_tokens", "completion_tokens", "total_tokens", "cached_toke
 
 
 def _empty_usage():
-    """Compteur d'usage initialisé à zéro (tokens, nb d'appels) — un par fascicule,
+    """Compteur d'usage initialisé à zéro (tokens, nb d'appels) : un par fascicule,
     rempli au fil des appels API puis agrégé au niveau du run complet.
     """
     return {k: 0 for k in USAGE_KEYS} | {"n_calls": 0}
@@ -482,9 +556,9 @@ def _flatten_usage(usage):
 
 def process_fascicule(fascicule, leaves, leaves_str, valid_codes, dry_run=False):
     """Traite un fascicule entier : extrait ses articles, filtre les trop courts
-    (< MIN_WORDS), puis classe chaque article INDIVIDUELLEMENT (1 appel HTTP
+    (< MIN_WORDS), puis classe chaque article séparément, un appel HTTP
     par article) en parallèle (ThreadPoolExecutor). Retourne le JSON de sortie
-    du fascicule (articles + usage tokens/temps cumulés) — ou une version
+    du fascicule (articles + usage tokens/temps cumulés) : ou une version
     "squelette" (themes=None) en mode --dry-run, sans appel API.
     """
     articles = extract_articles(fascicule)
@@ -504,7 +578,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, dry_run=False)
     usage_lock = threading.Lock()
 
     def worker(art):
-        """Classe un seul article dans un thread du pool — capture `leaves_str` et
+        """Classe un seul article dans un thread du pool : capture `leaves_str` et
         `valid_codes` de la fonction englobante.
         """
         return classify_article(art["text"], leaves_str, valid_codes)
@@ -522,7 +596,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, dry_run=False)
                     f.cancel()
                 raise
             except Exception as e:
-                print(f"      ✗ {art['id']} — erreur classification : {e}")
+                print(f"      ✗ {art['id']} : erreur classification : {e}")
                 continue
 
             with usage_lock:
@@ -543,7 +617,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, dry_run=False)
                 "themes": themes,
                 "temps_reponse_s": round(elapsed, 3),
             }
-            print(f"    [{i+1}/{len(kept)}] {art['id']} — {art['title'][:50]!r} ({elapsed:.2f}s) → {', '.join(t['label_fr'] for t in themes)}")
+            print(f"    [{i+1}/{len(kept)}] {art['id']} : {art['title'][:50]!r} ({elapsed:.2f}s) → {', '.join(t['label_fr'] for t in themes)}")
 
     if temps_reponse:
         out["usage"]["temps_reponse_total_s"] = round(sum(temps_reponse), 2)
@@ -569,7 +643,7 @@ def main():
     args = parser.parse_args()
 
     if not args.dry_run and (not MISTRAL_API_KEY or MISTRAL_API_KEY == "mets-ta-cle-ici"):
-        raise SystemExit(f"Clé API Mistral manquante — édite {ENV_FILE}")
+        raise SystemExit(f"Clé API Mistral manquante : édite {ENV_FILE}")
 
     leaves = build_leaves(TAXONOMY_PATH)
     leaves_str = leaves_prompt_str(leaves)
@@ -596,7 +670,7 @@ def main():
         out_path = OUTPUT_DIR / f"{fascicule}_themes.json"
 
         if out_path.exists() and not args.force:
-            print(f"  ↷ déjà traité — {out_path.name} (utilise --force pour retraiter)")
+            print(f"  ↷ déjà traité : {out_path.name} (utilise --force pour retraiter)")
             try:
                 prev_usage = json.loads(out_path.read_text(encoding="utf-8")).get("usage", {})
                 for k in grand_total:
@@ -625,12 +699,12 @@ def main():
     if not args.dry_run and grand_total["n_calls"]:
         print(f"\n{'='*55}")
         print(f"Total : {grand_total['n_calls']} appel(s) API")
-        print(f"  prompt_tokens     : {grand_total['prompt_tokens']:,}  (dont en cache : {grand_total['cached_tokens']:,})")
+        print(f"  prompt_tokens : {grand_total['prompt_tokens']:,}  (dont en cache : {grand_total['cached_tokens']:,})")
         print(f"  completion_tokens : {grand_total['completion_tokens']:,}")
-        print(f"  total_tokens      : {grand_total['total_tokens']:,}")
+        print(f"  total_tokens : {grand_total['total_tokens']:,}")
         if temps_total_global:
             temps_moyen = temps_total_global / grand_total["n_calls"]
-            print(f"  temps de réponse  : min {temps_min_global:.2f}s — moyen {temps_moyen:.2f}s — max {temps_max_global:.2f}s (total {temps_total_global:.1f}s)")
+            print(f"  temps de réponse : min {temps_min_global:.2f}s : moyen {temps_moyen:.2f}s : max {temps_max_global:.2f}s (total {temps_total_global:.1f}s)")
         pin, pout = PRICING.get(MISTRAL_MODEL, (None, None))
         if pin is not None:
             uncached_input = grand_total["prompt_tokens"] - grand_total["cached_tokens"]

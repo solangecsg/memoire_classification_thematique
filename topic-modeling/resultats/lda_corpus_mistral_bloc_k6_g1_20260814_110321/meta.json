@@ -1,0 +1,14 @@
+{
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k6_g1_20260814_110321",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 6,
+  "iterations": 200,
+  "graine": 1,
+  "n_docs": 327,
+  "n_fascicules": 1,
+  "min_mots": 5,
+  "n_tokens": 4768,
+  "duree_s": 1.4
+}

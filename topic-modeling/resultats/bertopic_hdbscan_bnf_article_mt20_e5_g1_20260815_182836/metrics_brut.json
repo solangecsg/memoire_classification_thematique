@@ -1,0 +1,165 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.258,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2753,
+    "top_words": "prix équipe club match course épreuve coupe tour mètres championnat"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1683,
+    "top_words": "demande lille ecrire prix vendre maison int renault echo adresser"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2838,
+    "top_words": "gouvernement allemagne guerre conférence allemands pays troupes politique berlin italie"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3247,
+    "top_words": "opéra théâtre comique concert musique actes mmes comédie radio revue"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2859,
+    "top_words": "ans police femme mort enquête jeune âgé commissaire saint cadavre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3399,
+    "top_words": "commission loi assemblée projet gouvernement impôt conseil chambre président séance"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3431,
+    "top_words": "yeux homme jeune fille femme père mère mirabeau petit cœur"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3416,
+    "top_words": "maladies estomac cure traitement sang pharmacie foie flacon santé ans"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3796,
+    "top_words": "kil courant cote marché disponible prix froment sacs kilos colza"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.425,
+    "top_words": "gaz crédit valeurs banque nord act cours lyon actions obligations"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.4001,
+    "top_words": "rôle théâtre succès public opéra talent artistes artiste scène acte"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.238,
+    "top_words": "films film cinéma auteurs mètres production images cinématographique société affiche"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.339,
+    "top_words": "infanterie capitaine régiment légion général artillerie colonel obsèques lieutenant mort"
+   },
+   {
+    "topic_id": 13,
+    "npmi": -0.0739,
+    "top_words": "institutrice iii ecole mal budget solution vii point archives directrice"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.3946,
+    "top_words": "banque cours valeurs millions actions crédit marché fonds chemins bourse"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3308,
+    "top_words": "gouvernement peuple droit pays révolution hommes principes guerre politique monde"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2381,
+    "top_words": "volume jésus vol grand roman histoire relié gravures vaudeville édition"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.0955,
+    "top_words": "librairie abonnement annonces havas agence abonnés abonnements poste publicité francs"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1324,
+    "top_words": "ans syndic maire saint juge prov adjoint veuve comm jean"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2897,
+    "top_words": "navire tempête port vapeur vol mer capitaine bord bateau équipage"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.3092,
+    "top_words": "billets départ train fer classe trains gare chemins gares départs"
+   },
+   {
+    "topic_id": 21,
+    "npmi": -0.0613,
+    "top_words": "illisible texte iii librairie films vendre drame représentant spécialité frères"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.336,
+    "top_words": "cour prison procureur assises peine jury avocat ans témoins affaire"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.3055,
+    "top_words": "température chaleur baromètre corps degrés froid ciel eau vent nord"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.394,
+    "top_words": "beauté crème peau teint poudre visage cheveux toilette savon eau"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.3256,
+    "top_words": "grève ouvriers travail syndicats bourse travailleurs délégués fédération mineurs employés"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.2563,
+    "top_words": "réunion priés comité assister citoyens générale réunir siège précises salle"
+   },
+   {
+    "topic_id": 27,
+    "npmi": -0.0785,
+    "top_words": "ang cap oran dunkerque marseille div départs venant base rel"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.1382,
+    "top_words": "roi espagne madrid ambassade duc elysée foule troupes tuileries revue"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.2684,
+    "top_words": "ennemi artillerie plateau attaques fort ouest front tranchées région terrain"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.2522,
+    "top_words": "roman littéraire fabre art revue poésie monde ouvrages auteur temps"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 310
+}

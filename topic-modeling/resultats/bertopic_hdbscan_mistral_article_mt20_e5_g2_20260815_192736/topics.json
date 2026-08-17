@@ -1,0 +1,162 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve mètres coupe championnat tour",
+    "size": 576
+  },
+  {
+    "topic_id": 1,
+    "top_words": "lille demande prix maison vendre renault adresser echo bureau ecrire",
+    "size": 379
+  },
+  {
+    "topic_id": 2,
+    "top_words": "loi gouvernement commission chambre assemblée président droit projet ministre conseil",
+    "size": 335
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement allemagne guerre italie prince pays conférence politique berlin russie",
+    "size": 307
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ans police femme âgé enquête mort saint arrêté jeune cadavre",
+    "size": 270
+  },
+  {
+    "topic_id": 5,
+    "top_words": "maladies estomac peau flacon traitement sang pilules guérison boîte pharmacie",
+    "size": 233
+  },
+  {
+    "topic_id": 6,
+    "top_words": "homme jeune yeux fille père femme jacques tête mère cœur",
+    "size": 157
+  },
+  {
+    "topic_id": 7,
+    "top_words": "banque cours crédit nord valeurs fer lyon gaz actions escompte",
+    "size": 145
+  },
+  {
+    "topic_id": 8,
+    "top_words": "théâtre folies opéra cirque revue comique variétés rouge casino soirs",
+    "size": 106
+  },
+  {
+    "topic_id": 9,
+    "top_words": "cours lib act crédit nord valeurs banque lyon orléans fer",
+    "size": 106
+  },
+  {
+    "topic_id": 10,
+    "top_words": "rôle théâtre succès public talent opéra artiste artistes acte scène",
+    "size": 100
+  },
+  {
+    "topic_id": 11,
+    "top_words": "kil courant cote marché blés disponible prix froment avoine sacs",
+    "size": 96
+  },
+  {
+    "topic_id": 12,
+    "top_words": "mmes comique actes opéra rôle jeune comédie ténor musique guillemin",
+    "size": 95
+  },
+  {
+    "topic_id": 13,
+    "top_words": "billets dunkerque classe oran départ départs fer ang cap saint",
+    "size": 80
+  },
+  {
+    "topic_id": 14,
+    "top_words": "port navire tait commandant troupes vapeur prusse bord île amiral",
+    "size": 70
+  },
+  {
+    "topic_id": 15,
+    "top_words": "ans syndic maire juge saint comm prov adjoint veuve marchand",
+    "size": 64
+  },
+  {
+    "topic_id": 16,
+    "top_words": "volume jésus vol grand histoire roman almanach illustré prix librairie",
+    "size": 59
+  },
+  {
+    "topic_id": 17,
+    "top_words": "peinture roman livre art auteur histoire vie monde œuvre homme",
+    "size": 49
+  },
+  {
+    "topic_id": 18,
+    "top_words": "abonnement pont abonnés francs poste bons départements abonnements prime abonné",
+    "size": 47
+  },
+  {
+    "topic_id": 19,
+    "top_words": "obsèques décédé infanterie née église mort funérailles lieutenant saint henri",
+    "size": 44
+  },
+  {
+    "topic_id": 20,
+    "top_words": "réunion priés comité assister salle générale citoyens réunir siège demie",
+    "size": 36
+  },
+  {
+    "topic_id": 21,
+    "top_words": "théâtre opéra actes spectacle représentation comédie matinée représentations comique tableaux",
+    "size": 35
+  },
+  {
+    "topic_id": 22,
+    "top_words": "manœuvres exercices flotte grandes française marins cherbourg navires eaux brest",
+    "size": 29
+  },
+  {
+    "topic_id": 23,
+    "top_words": "accusé assises jury verdict président témoins jurés prison audience cour",
+    "size": 28
+  },
+  {
+    "topic_id": 24,
+    "top_words": "grève ouvriers syndicats travail bourse délégués mineurs employés travailleurs salaires",
+    "size": 28
+  },
+  {
+    "topic_id": 25,
+    "top_words": "régiment capitaine infanterie légion colonel brigade général honneur division artillerie",
+    "size": 27
+  },
+  {
+    "topic_id": 26,
+    "top_words": "température ciel vent nord ouest pluies faible âgé mer temps",
+    "size": 27
+  },
+  {
+    "topic_id": 27,
+    "top_words": "vii viii iii solution problème mat sorties noms dés mots",
+    "size": 24
+  },
+  {
+    "topic_id": 28,
+    "top_words": "versailles obus bataillon fort batterie garde vanves issy citoyen feu",
+    "size": 24
+  },
+  {
+    "topic_id": 29,
+    "top_words": "école carrières cours dessin cahier papier pages études enseignement anglais",
+    "size": 23
+  },
+  {
+    "topic_id": 30,
+    "top_words": "radio concert musique parisien orchestre poste disques informations chant piano",
+    "size": 22
+  },
+  {
+    "topic_id": 31,
+    "top_words": "mètres longueur affiche films affiches film cinématographique comédie ministre éclair",
+    "size": 21
+  }
+]

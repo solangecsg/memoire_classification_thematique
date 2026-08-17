@@ -1,0 +1,110 @@
+{
+ "meta": {
+  "model": "bertopic_hdbscan",
+  "run_id": "bertopic_hdbscan_mistral_article_mt30_e5_g1_20260815_161422",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 11,
+  "k_demande": null,
+  "min_taille": 30,
+  "graine": 1,
+  "n_docs": 5361,
+  "n_sans_groupe": 324,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "longueur_max": 512,
+  "duree_s": 17.5
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.0,
+  "entropy_max": 2.3979,
+  "entropy_normalized": 0.0
+ },
+ "diversity": {
+  "diversity": 0.8091,
+  "diversity_norm": 0.0042,
+  "tokens_distincts": 21355,
+  "unique_words": 89,
+  "total_words": 110,
+  "shared_words": [
+   "act",
+   "banque",
+   "cours",
+   "crédit",
+   "fer",
+   "gaz",
+   "grand",
+   "lib",
+   "lyon",
+   "marché",
+   "nord",
+   "prix",
+   "saint",
+   "valeurs"
+  ],
+  "n_shared": 14
+ },
+ "npmi": {
+  "npmi_mean": 0.2729,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1963,
+    "top_words": "grand général gouvernement temps président point homme saint guerre grande"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2634,
+    "top_words": "prix club match course épreuve mètres tour coupe championnat stade"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2234,
+    "top_words": "lille demande prix maison vendre renault adresser bureau echo vente"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3672,
+    "top_words": "maladies estomac peau flacon traitement sang boîte guérison santé pharmacie"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2127,
+    "top_words": "volume prix vol abonnement francs grand poste librairie illustré histoire"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.4109,
+    "top_words": "lib act crédit nord valeurs banque cours orléans lyon gaz"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3389,
+    "top_words": "kil courant marché cote prix blés disponible froment sacs cours"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1261,
+    "top_words": "billets dunkerque classe oran départ fer départs ang saint train"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3884,
+    "top_words": "banque cours valeurs actions crédit millions fonds marché chemins rente"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1109,
+    "top_words": "ans maire saint juge comm prov adjoint veuve marchand jean"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3633,
+    "top_words": "banque gaz nord lyon fer cours comp crédit act lib"
+   }
+  ]
+ }
+}

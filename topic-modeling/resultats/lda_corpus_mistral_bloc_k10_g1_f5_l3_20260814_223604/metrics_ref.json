@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k10_g1_f5_l3_20260814_223604",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 10,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 43820,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 725142,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "duree_s": 140.4
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.7452,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.7579
+ },
+ "diversity": {
+  "diversity": 0.9,
+  "diversity_norm": 0.0044,
+  "tokens_distincts": 20596,
+  "unique_words": 90,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "français",
+   "grand",
+   "général",
+   "homme",
+   "num",
+   "point",
+   "prix",
+   "saint"
+  ],
+  "n_shared": 9
+ },
+ "npmi": {
+  "npmi_mean": 0.1145,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1667,
+    "top_words": "ans femme jeune homme mort fille porte tête coup père"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1285,
+    "top_words": "saint théâtre grand jean rôle opéra succès ans louis paul"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1438,
+    "top_words": "point hommes monde homme pays mieux temps voir esprit politique"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.0645,
+    "top_words": "num francs prix cours demande lille fer millions compagnie maison"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1822,
+    "top_words": "président conseil commission loi ministre gouvernement chambre général assemblée droit"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.0586,
+    "top_words": "num cpt nord lyon kil crédit remb gaz renault int"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.0706,
+    "top_words": "saint prix mètres grand tour club équipe français départ exposition"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1068,
+    "top_words": "eau grand qualité petits blanc belle demi bois rouge grands"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1112,
+    "top_words": "guerre général armée français angleterre allemagne anglais londres roi chef"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1121,
+    "top_words": "travail école point art travaux société vue grande œuvre histoire"
+   }
+  ]
+ }
+}

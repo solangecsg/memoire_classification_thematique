@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat",
+    "size": 569
+  },
+  {
+    "topic_id": 1,
+    "top_words": "lille demande prix maison vendre renault adresser bureau citroën echo",
+    "size": 455
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne guerre général pays italie prince troupes angleterre politique",
+    "size": 434
+  },
+  {
+    "topic_id": 3,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes revue folies",
+    "size": 362
+  },
+  {
+    "topic_id": 4,
+    "top_words": "loi commission conseil président ministre projet chambre général gouvernement séance",
+    "size": 343
+  },
+  {
+    "topic_id": 5,
+    "top_words": "ans police femme mort saint enquête jeune âgé arrêté crime",
+    "size": 331
+  },
+  {
+    "topic_id": 6,
+    "top_words": "gouvernement loi politique parti vouloir droit assemblée pays guerre liberté",
+    "size": 286
+  },
+  {
+    "topic_id": 7,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure pilules",
+    "size": 262
+  },
+  {
+    "topic_id": 8,
+    "top_words": "général exposition honneur concours saint infanterie régiment capitaine président médaille",
+    "size": 247
+  },
+  {
+    "topic_id": 9,
+    "top_words": "homme yeux jeune femme fille fortuné tête père patron mère",
+    "size": 242
+  },
+  {
+    "topic_id": 10,
+    "top_words": "cours kil courant prix banque cote marché lib disponible blés",
+    "size": 235
+  },
+  {
+    "topic_id": 11,
+    "top_words": "temps peuple monde point pays président homme gouvernement hommes grand",
+    "size": 227
+  },
+  {
+    "topic_id": 12,
+    "top_words": "académie vie histoire livre auteur homme art monde œuvre prix",
+    "size": 223
+  },
+  {
+    "topic_id": 13,
+    "top_words": "théâtre rôle succès public artistes opéra talent artiste scène représentation",
+    "size": 220
+  },
+  {
+    "topic_id": 14,
+    "top_words": "grève ouvriers travail francs réunion conseil comité prix président général",
+    "size": 215
+  },
+  {
+    "topic_id": 15,
+    "top_words": "volume librairie jésus francs prix abonnement vol poste grand pages",
+    "size": 201
+  },
+  {
+    "topic_id": 16,
+    "top_words": "banque cours crédit actions nord société fer valeurs lyon gaz",
+    "size": 169
+  },
+  {
+    "topic_id": 17,
+    "top_words": "ouest port nord temps température troupes baromètre mer fort commandant",
+    "size": 162
+  },
+  {
+    "topic_id": 18,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve marchand",
+    "size": 91
+  },
+  {
+    "topic_id": 19,
+    "top_words": "billets dunkerque oran classe départ fer départs ang nord saint",
+    "size": 87
+  }
+]

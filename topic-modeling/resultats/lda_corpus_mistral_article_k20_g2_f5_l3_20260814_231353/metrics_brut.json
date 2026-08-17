@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.265,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2755,
+    "top_words": "général président honneur conseil maire comité secrétaire préfet membres chef"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3226,
+    "top_words": "politique gouvernement peuple pays parti liberté droit guerre république ordre"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1751,
+    "top_words": "num lille demande maison bureau adresser vendre ans francs nord"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.229,
+    "top_words": "art histoire grand vie vient livre académie œuvre exposition prix"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2731,
+    "top_words": "num prix courant kil marché cours cote kilos disponible hausse"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2259,
+    "top_words": "num exposition maladies santé médecine médecins traitement docteur médecin ans"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.344,
+    "top_words": "théâtre opéra rôle musique succès grand public acte comique comédie"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2629,
+    "top_words": "guerre français allemagne angleterre gouvernement anglais londres général armée états"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.324,
+    "top_words": "num cours cpt nord banque lyon crédit fer remb gaz"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3189,
+    "top_words": "point temps donner fort grande mieux grand monde hommes voir"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2464,
+    "top_words": "num francs société millions compagnie banque fer actions fonds cours"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.0642,
+    "top_words": "num équipe club match français épreuve champion tour championnat fortuné"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3405,
+    "top_words": "num prix renault int citroën cond places luxe cabriolet peugeot"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.1675,
+    "top_words": "num prix mètres francs départ route course saint grand arrivée"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2588,
+    "top_words": "police ans mort prison cour saint coups feu femme affaire"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3801,
+    "top_words": "homme jeune femme fille yeux père tête cœur vie petit"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2305,
+    "top_words": "saint ans jean marie henri louis paul pierre comte georges"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2366,
+    "top_words": "travail travaux industrie enseignement vue pays service école commerce société"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3469,
+    "top_words": "commission chambre conseil loi ministre président projet séance question gouvernement"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2765,
+    "top_words": "eau blanc noir rouge dames petits qualité laine belle fleurs"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

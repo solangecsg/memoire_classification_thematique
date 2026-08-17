@@ -1,0 +1,62 @@
+[
+  {
+    "topic_id": 0,
+    "fascicule": "4109000",
+    "top_words": "10 40 1880 1883 188 60 29 ier sement 75",
+    "size": 35
+  },
+  {
+    "topic_id": 1,
+    "fascicule": "4109000",
+    "top_words": "000 rembourser oblig francs fr 100 200 25 capital anonyme",
+    "size": 16
+  },
+  {
+    "topic_id": 2,
+    "fascicule": "4109000",
+    "top_words": "société générale banque bureaux ier pays escompte agence crédit financière",
+    "size": 32
+  },
+  {
+    "topic_id": 3,
+    "fascicule": "4109000",
+    "top_words": "ministère union gauche ministere rappel chambre freycinet républicains majorité gambetta",
+    "size": 38
+  },
+  {
+    "topic_id": 4,
+    "fascicule": "4109000",
+    "top_words": "tirage 15 1er tirages 65 oblig rembourser 25 125 bis",
+    "size": 17
+  },
+  {
+    "topic_id": 5,
+    "fascicule": "4109000",
+    "top_words": "fr 50 répartition prix rembourser oblig titres 60 obligation faculté",
+    "size": 36
+  },
+  {
+    "topic_id": 6,
+    "fascicule": "4109000",
+    "top_words": "1878 diman che voix 758 17 obtenu municipalité conseillers électeurs",
+    "size": 18
+  },
+  {
+    "topic_id": 7,
+    "fascicule": "4109000",
+    "top_words": "amiral préfet reynière général ans 1er herblay recevra homme an",
+    "size": 176
+  },
+  {
+    "topic_id": 8,
+    "fascicule": "4109000",
+    "top_words": "souscription 1880 publique enverrons profit produit 10 prime civil contenant",
+    "size": 9
+  },
+  {
+    "topic_id": 9,
+    "fascicule": "4109000",
+    "top_words": "20 1880 125 maison 30 cote bourse admission officielle obligations",
+    "size": 48
+  }
+]

@@ -1,0 +1,60 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1322,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1865,
+    "top_words": "gouvernement guerre pays politique français question ordre parti allemagne peuple"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1442,
+    "top_words": "ans jeune mort femme police homme fille père cour maison"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1094,
+    "top_words": "num fr er nord cpt banque crédit lyon kil id"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1058,
+    "top_words": "fer prix mètres grande français nord club équipe chemin tour"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1621,
+    "top_words": "point vie monde temps homme œuvre histoire mieux donner hommes"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1496,
+    "top_words": "président général conseil ministre honneur bureau membres école société lettres"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1665,
+    "top_words": "théâtre saint grand jean rôle opéra musique louis acte henri"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.0466,
+    "top_words": "num prix lille maison cv demande francs ans pl vente"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1191,
+    "top_words": "cours francs loi commission droit millions projet travail demande société"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1322,
+    "top_words": "eau tête main yeux terre petit sang air femme porte"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 100
+}

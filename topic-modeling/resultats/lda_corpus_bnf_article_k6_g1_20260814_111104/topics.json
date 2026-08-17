@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "homme femme jeune temps vie ans point voir monde main",
+    "size": 842
+  },
+  {
+    "topic_id": 1,
+    "top_words": "ans francs prix lille demande maison bureau vente fr eau",
+    "size": 858
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num saint prix général français grand mètres club nord équipe",
+    "size": 819
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement président conseil ministre guerre pays commission ordre loi droit",
+    "size": 1489
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num fr prix cours banque cpt nord ch pl ii",
+    "size": 755
+  },
+  {
+    "topic_id": 5,
+    "top_words": "théâtre grand succès rôle jean public saint opéra musique acte",
+    "size": 631
+  }
+]

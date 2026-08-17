@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "général corps conseil grand adresser maison demande bureau femme droit",
+    "size": 7
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num ans saint prix directeur école pierre pharmacie albi chemins",
+    "size": 15
+  },
+  {
+    "topic_id": 2,
+    "top_words": "amiral homme ans reynière samuel jacques égypte cœur assemblée goblet",
+    "size": 6
+  },
+  {
+    "topic_id": 3,
+    "top_words": "temps ordre loi réunion projet cabinet union nouvelle question ministre",
+    "size": 8
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ministère chambre république vient majorité président gauche donné pays ancien",
+    "size": 8
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num société générale francs exp obligations crédit titres banque direct",
+    "size": 9
+  }
+]

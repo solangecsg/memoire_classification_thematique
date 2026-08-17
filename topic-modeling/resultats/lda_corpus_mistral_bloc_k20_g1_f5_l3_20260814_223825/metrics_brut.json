@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1662,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2816,
+    "top_words": "num cpt lyon remb gaz crédit banque act nord fin"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1731,
+    "top_words": "homme vie monde point cœur femme amour mal temps voir"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2026,
+    "top_words": "gouvernement pays droit politique liberté point peuple hommes parti esprit"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1648,
+    "top_words": "général guerre français armée gouvernement angleterre allemagne roi prince anglais"
+   },
+   {
+    "topic_id": 4,
+    "npmi": -0.1082,
+    "top_words": "num prix francs kil courant mètres kilos pts centimes disponible"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2311,
+    "top_words": "saint ans jean louis marie henri paul pierre martin georges"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1719,
+    "top_words": "dames rouge noir blanc tête grands blanche cheveux belle grand"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.0496,
+    "top_words": "eau temps grandes manœuvres vin corps terre grande française flotte"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1123,
+    "top_words": "gare grande hommes pont route feu foule train terre chemin"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2607,
+    "top_words": "président conseil commission ministre loi chambre assemblée projet membres séance"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.1466,
+    "top_words": "cour police affaire arrêté tribunal réponse justice général commissaire procès"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1201,
+    "top_words": "num prix demande lille maison adresser vendre ans renault places"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2176,
+    "top_words": "jeune fille femme homme ans tête mère porte enfant père"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.1655,
+    "top_words": "grand histoire exposition art palais beaux arts théâtre revue vient"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1453,
+    "top_words": "école ans enfants enseignement santé jeunes écoles docteur élèves droit"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.287,
+    "top_words": "théâtre rôle succès grand opéra public musique acte comique représentation"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.245,
+    "top_words": "cours fer nord société compagnie banque chemins générale valeurs chemin"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1761,
+    "top_words": "prix tour club équipe course français épreuve grand match départ"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1008,
+    "top_words": "francs millions prix somme poste demande société vente bons administration"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.1808,
+    "top_words": "travail point travaux industrie vue pays ouvriers situation commerce grande"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

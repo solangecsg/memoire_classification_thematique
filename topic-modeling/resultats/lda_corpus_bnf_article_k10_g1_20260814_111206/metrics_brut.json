@@ -1,0 +1,60 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2489,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1544,
+    "top_words": "num saint ans maire jean honneur concours exposition louis henri"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2417,
+    "top_words": "ii num re ie it nt ri do el li"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1469,
+    "top_words": "num prix pl cv club équipe tour mètres course auto"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2544,
+    "top_words": "num fr cours cpt banque nord id valeurs crédit courant"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1757,
+    "top_words": "num fr prix francs demande maison lille vente bureau adresser"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2125,
+    "top_words": "num guerre français général armée roi allemagne angleterre gouvernement anglais"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2491,
+    "top_words": "num président conseil gouvernement commission loi ministre chambre millions droit"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3484,
+    "top_words": "théâtre grand rôle opéra succès musique public acte artistes comique"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3341,
+    "top_words": "point temps monde pays grande hommes vie mieux esprit donner"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3717,
+    "top_words": "femme homme jeune fille mort yeux petit tête porte père"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 100
+}

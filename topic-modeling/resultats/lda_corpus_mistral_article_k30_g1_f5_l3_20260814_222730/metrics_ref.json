@@ -1,0 +1,225 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_article_k30_g1_f5_l3_20260814_222730",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 30,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 5127,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 767367,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "duree_s": 117.8
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.9663,
+  "entropy_max": 3.4012,
+  "entropy_normalized": 0.5781
+ },
+ "diversity": {
+  "diversity": 0.79,
+  "diversity_norm": 0.0111,
+  "tokens_distincts": 21355,
+  "unique_words": 237,
+  "total_words": 300,
+  "shared_words": [
+   "ans",
+   "banque",
+   "chambre",
+   "compagnie",
+   "conseil",
+   "cours",
+   "demande",
+   "eau",
+   "femme",
+   "fer",
+   "francs",
+   "français",
+   "gouvernement",
+   "grand",
+   "grande",
+   "guerre",
+   "général",
+   "homme",
+   "loi",
+   "lyon",
+   "maison",
+   "ministre",
+   "nord",
+   "num",
+   "opéra",
+   "pays",
+   "point",
+   "prix",
+   "président",
+   "qualité",
+   "saint",
+   "théâtre",
+   "vie",
+   "voir"
+  ],
+  "n_shared": 34
+ },
+ "npmi": {
+  "npmi_mean": 0.2464,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3227,
+    "top_words": "rôle théâtre succès public musique opéra grand représentation artistes acte"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2605,
+    "top_words": "pays travail point grande vue œuvre industrie vie ans progrès"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2528,
+    "top_words": "num eau maladies peau corps traitement santé médecins sang estomac"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2506,
+    "top_words": "président conseil général maire comité membres réunion secrétaire préfet directeur"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2946,
+    "top_words": "temps point voir prendre fort bonne mieux pris voulu part"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1593,
+    "top_words": "num francs prix maison vente adresser lot poste louer grande"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2402,
+    "top_words": "num théâtre opéra revue saint palais comique grand comédie concert"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2412,
+    "top_words": "film films york new cinéma grands unis amérique appareil grandes"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2045,
+    "top_words": "école exposition prix concours enfants enseignement honneur médaille élèves écoles"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2077,
+    "top_words": "fer compagnie oran service chemin eau gare nord mer pont"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.374,
+    "top_words": "homme jeune femme cœur vie fille père amour monde dieu"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2698,
+    "top_words": "histoire art grand livre auteur volume académie vient beaux arts"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3123,
+    "top_words": "num cpt cours nord banque lyon remb fer crédit gaz"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2823,
+    "top_words": "équipe num match club français championnat champion stade finale poids"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1733,
+    "top_words": "num lille demande bureau ans nord lettres echo maison écrire"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2271,
+    "top_words": "ans police cour femme prison président affaire enquête tribunal mort"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2241,
+    "top_words": "roi prince empereur ministre gouvernement espagne duc reine grand saint"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2499,
+    "top_words": "prix course tour grand épreuve auto automobile coupe coureurs départ"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2658,
+    "top_words": "général armée guerre num officiers commandant militaire chef troupes colonel"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2341,
+    "top_words": "num courant kil prix marché cours kilos cote disponible qualité"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.2551,
+    "top_words": "commission loi num ministre projet chambre conseil demande séance gouvernement"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.2324,
+    "top_words": "ans jean marie henri saint louis pierre paul andré georges"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.298,
+    "top_words": "dames noir rouge blanc laine qualité fleurs velours belle mètre"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.301,
+    "top_words": "tête porte homme petit main grand chambre yeux bras voir"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.2939,
+    "top_words": "allemagne guerre gouvernement français berlin paix europe pays allemands allemand"
+   },
+   {
+    "topic_id": 25,
+    "npmi": -0.0267,
+    "top_words": "num prix francs mètres miss chevaux vap placé longueur placés"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.3388,
+    "top_words": "num prix renault int citroën cond places luxe cabriolet peugeot"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.2471,
+    "top_words": "num société banque francs millions actions cours compagnie fonds valeurs"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.1083,
+    "top_words": "saint num marseille lyon versailles haute mirabeau bois marne loire"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.2977,
+    "top_words": "gouvernement parti politique peuple droit république liberté assemblée pays loi"
+   }
+  ]
+ }
+}

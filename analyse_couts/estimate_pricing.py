@@ -12,7 +12,7 @@ Tokens de sortie (complétion) :
 
 Hypothèses (calibrées sur le même run réel de 30 articles) :
   - CACHE_HIT_RATE : part du préfixe fixe (system + liste IPTC) effectivement
-    facturée au tarif réduit du cache — ne s'applique QUE au prompt système
+    facturée au tarif réduit du cache : ne s'applique qu'au prompt système
     et à la liste IPTC (identiques à chaque appel), jamais au texte de
     l'article (différent à chaque appel, jamais en cache).
 
@@ -20,9 +20,9 @@ Entrée (dans ce même dossier analyse_couts/) :
   - stats_par_article.csv (généré par analyze_corpus_tokens.py)
 
 Sorties (dans ce même dossier analyse_couts/) :
-  - cout_par_article.csv     : détail des 3 composantes par article
-  - cout_par_fascicule.csv   : idem agrégé par fascicule
-  - cout_resume.csv          : min/max/moyenne/médiane + total corpus
+  - cout_par_article.csv : détail des 3 composantes par article
+  - cout_par_fascicule.csv : idem agrégé par fascicule
+  - cout_resume.csv : min/max/moyenne/médiane + total corpus
   - cout_comparaison_modeles.csv
 
 Usage :
@@ -118,7 +118,7 @@ def main():
     modèles, et affiche la répartition du coût total du corpus par composante.
     """
     if not PER_ARTICLE_STATS_CSV.exists():
-        raise SystemExit(f"{PER_ARTICLE_STATS_CSV} introuvable — lance d'abord analyze_corpus_tokens.py")
+        raise SystemExit(f"{PER_ARTICLE_STATS_CSV} introuvable : lance d'abord analyze_corpus_tokens.py")
 
     leaves = build_leaves(TAXONOMY_PATH)
     leaves_str = leaves_prompt_str(leaves)
@@ -139,7 +139,7 @@ def main():
 
     pin, pout = PRICING.get(MISTRAL_MODEL, (None, None))
     if pin is None:
-        raise SystemExit(f"Tarif inconnu pour {MISTRAL_MODEL} — ajoute-le à PRICING dans classify_iptc_mistral_batched.py")
+        raise SystemExit(f"Tarif inconnu pour {MISTRAL_MODEL} : ajoute-le à PRICING dans classify_iptc_mistral_batched.py")
     print(f"✓ modèle : {MISTRAL_MODEL} (${pin}/M in, ${pout}/M out)\n")
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -258,13 +258,13 @@ def main():
     total_completion_max = sum(a["cout_completion_max"] for a in article_out)
 
     print(f"\n{'=' * 60}")
-    print(f"CORPUS ENTIER ({MISTRAL_MODEL}) : répartition sans cache :")
-    print(f"  prompt système  : ${total_prompt:,.2f}")
-    print(f"  liste IPTC      : ${total_iptc:,.2f}")
-    print(f"  articles        : ${total_article:,.2f}")
-    print(f"  complétion      : ${total_completion_min:,.2f} (min, 1 thème) : ${total_completion:,.2f} (moyen) : ${total_completion_max:,.2f} (max, 5 thèmes)")
-    print(f"  TOTAL sans cache : ${total_nc_min:,.2f} (min) : ${total_nc:,.2f} (moyen) : ${total_nc_max:,.2f} (max)")
-    print(f"  TOTAL avec cache : ${total_c:,.2f} (moyen)")
+    print(f"Corpus entier ({MISTRAL_MODEL}), répartition sans cache :")
+    print(f"  prompt système : ${total_prompt:,.2f}")
+    print(f"  liste IPTC : ${total_iptc:,.2f}")
+    print(f"  articles : ${total_article:,.2f}")
+    print(f"  complétion : ${total_completion_min:,.2f} (min, 1 thème) : ${total_completion:,.2f} (moyen) : ${total_completion_max:,.2f} (max, 5 thèmes)")
+    print(f"  Total sans cache : ${total_nc_min:,.2f} (min) : ${total_nc:,.2f} (moyen) : ${total_nc_max:,.2f} (max)")
+    print(f"  Total avec cache : ${total_c:,.2f} (moyen)")
 
 
 if __name__ == "__main__":

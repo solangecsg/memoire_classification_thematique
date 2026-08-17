@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num fr ii cpt prix pl ch id cv nord",
+    "size": 7805
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num saint prix ans général jean club équipe grand président",
+    "size": 4818
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num gouvernement conseil guerre point ministre pays président général loi",
+    "size": 13567
+  },
+  {
+    "topic_id": 3,
+    "top_words": "homme femme jeune ans temps mort fille vie porte main",
+    "size": 9215
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num francs prix fr demande lille maison fer bureau vente",
+    "size": 7081
+  },
+  {
+    "topic_id": 5,
+    "top_words": "théâtre num grand succès rôle opéra public musique acte artistes",
+    "size": 4426
+  }
+]

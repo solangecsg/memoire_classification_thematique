@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2511,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1628,
+    "top_words": "lille ans demande ecrire prix maison vendre int renault adresser"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3501,
+    "top_words": "commission loi conseil président projet chambre ministre gouvernement assemblée séance"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2698,
+    "top_words": "gouvernement allemagne guerre général pays conférence italie berlin troupes armée"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3247,
+    "top_words": "opéra théâtre comique concert musique mmes actes comédie revue radio"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2559,
+    "top_words": "prix épreuve course tour coureurs club francs auto coupe mètres"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3503,
+    "top_words": "banque cours valeurs actions crédit marché nord courant société obligations"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2911,
+    "top_words": "gouvernement guerre politique pays droit français point peuple hommes cour"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.389,
+    "top_words": "homme femme yeux jeune fille père mère temps petit main"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2753,
+    "top_words": "ans police mort femme jeune enquête saint crime prison âgé"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1074,
+    "top_words": "volume librairie prix francs grand poste jésus vente dim abonnement"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.1564,
+    "top_words": "maladies estomac eau peau traitement sirop cure flacon crème sang"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2153,
+    "top_words": "exposition vie prix histoire enseignement sciences point académie honneur temps"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.0228,
+    "top_words": "films film cinéma rose mode auteurs satin rouge mètres société"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2499,
+    "top_words": "troupes général front commandant ennemi roi temps port artillerie hommes"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.218,
+    "top_words": "ouvriers travail grève mineurs conseil travailleurs réunion société francs prix"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.3849,
+    "top_words": "équipe match club stade poids finale champion championnat points joueurs"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2438,
+    "top_words": "général président infanterie capitaine honneur directeur légion saint colonel ancien"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.4198,
+    "top_words": "rôle théâtre succès public talent opéra artistes artiste scène représentation"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1095,
+    "top_words": "billets classe départ départs fer oran ang train cap nord"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2258,
+    "top_words": "baromètre prix température ciel thermomètre concours nord vent saint mer"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

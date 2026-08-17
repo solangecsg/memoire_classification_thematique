@@ -1,0 +1,166 @@
+{
+ "meta": {
+  "model": "bertopic_kmeans",
+  "run_id": "bertopic_kmeans_mistral_article_k20_e5_v30d5_g1_20260815_193620",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 20,
+  "k_demande": 20,
+  "min_taille": null,
+  "graine": 1,
+  "n_docs": 5361,
+  "n_sans_groupe": 0,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "umap_voisins": 30,
+  "umap_dimensions": 5,
+  "longueur_max": 512,
+  "duree_s": 20.7
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.0,
+  "entropy_max": 2.9957,
+  "entropy_normalized": 0.0
+ },
+ "diversity": {
+  "diversity": 0.845,
+  "diversity_norm": 0.0079,
+  "tokens_distincts": 21355,
+  "unique_words": 169,
+  "total_words": 200,
+  "shared_words": [
+   "ans",
+   "banque",
+   "conseil",
+   "cours",
+   "crédit",
+   "femme",
+   "fer",
+   "francs",
+   "gouvernement",
+   "guerre",
+   "général",
+   "histoire",
+   "homme",
+   "jeune",
+   "mètres",
+   "nord",
+   "opéra",
+   "pays",
+   "prix",
+   "président",
+   "saint",
+   "théâtre",
+   "troupes"
+  ],
+  "n_shared": 23
+ },
+ "npmi": {
+  "npmi_mean": 0.2503,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2649,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.315,
+    "top_words": "loi commission conseil ministre président chambre projet gouvernement assemblée général"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2417,
+    "top_words": "gouvernement allemagne guerre général pays berlin troupes italie armée prince"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2007,
+    "top_words": "lille demande prix vendre maison renault citroën adresser bureau echo"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2943,
+    "top_words": "gouvernement pays politique droit guerre peuple hommes temps point liberté"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3908,
+    "top_words": "théâtre opéra comique mmes concert musique comédie actes revue folies"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.234,
+    "top_words": "ans police femme mort enquête jeune âgé arrêté saint accident"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3738,
+    "top_words": "homme yeux jeune femme fille tête père mère main petit"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2873,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure pilules"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2218,
+    "top_words": "cours banque nord kil crédit lyon fer courant act prix"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2902,
+    "top_words": "vie auteur histoire académie art livre œuvre monde homme esprit"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1251,
+    "top_words": "exposition travail ouvriers médaille francs grève congrès réunion conseil prix"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.0972,
+    "top_words": "laine francs mètre manteaux velours dames abonnement librairie noir qualité"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3706,
+    "top_words": "banque actions société valeurs cours fer compagnie chemins titres crédit"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2066,
+    "top_words": "troupes général front saint commandant roi port ennemi artillerie fort"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2418,
+    "top_words": "général président saint infanterie honneur régiment capitaine colonel légion directeur"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.3883,
+    "top_words": "théâtre rôle succès public opéra talent artistes artiste représentation scène"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.155,
+    "top_words": "volume jésus vol grand roman histoire mètres prix illustré almanach"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1984,
+    "top_words": "manœuvres baromètre température ciel exercices flotte vent grandes thermomètre nord"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.1087,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve jean"
+   }
+  ]
+ }
+}

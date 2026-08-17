@@ -1,0 +1,210 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2613,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.21,
+    "top_words": "travaux fer eau construction maisons mètres service travail appareil établissement"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3777,
+    "top_words": "homme cœur amour vie monde hommes mort dieu yeux esprit"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.175,
+    "top_words": "exposition concours société président honneur médaille fête bruxelles palais grand"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1964,
+    "top_words": "prix vente maison francs hôtel choix occasion grand magasins dames"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.287,
+    "top_words": "histoire art auteur livre œuvre vient vie académie française roman"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.285,
+    "top_words": "police ans mort feu coup coups saint malheureux âgé commissaire"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1441,
+    "top_words": "saint num ans lyon versailles loire marne bois denis juge"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3405,
+    "top_words": "num renault prix int citroën cond places luxe cabriolet peugeot"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.276,
+    "top_words": "général ministre corps militaire colonel capitaine conseil armée chef honneur"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2674,
+    "top_words": "main homme tête yeux porte grand petit patron voix fortuné"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2731,
+    "top_words": "num courant marché prix kil cours cote kilos disponible hausse"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2843,
+    "top_words": "point nouvelle donner temps donné partie pris vient prendre succès"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3018,
+    "top_words": "théâtre film films cinéma opéra revue palais cirque comique comédie"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.324,
+    "top_words": "num cours cpt banque nord crédit lyon fer remb gaz"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2487,
+    "top_words": "comité réunion membres président maire générale congrès ouvriers conseil travail"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2997,
+    "top_words": "école enseignement enfants élèves écoles professeur cours instruction sciences jeunes"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2561,
+    "top_words": "commerce industrie art droit millions impôt impôts produits demande angleterre"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3305,
+    "top_words": "cour président affaire tribunal prison justice procès condamné juge accusé"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3469,
+    "top_words": "commission ministre conseil projet loi chambre séance président gouvernement question"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.1913,
+    "top_words": "prix num mètres francs course grand épreuve auto coupe automobile"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.3488,
+    "top_words": "temps mieux point fort voir monde veut mal bonne voit"
+   },
+   {
+    "topic_id": 21,
+    "npmi": -0.1687,
+    "top_words": "num saint marche sort bonnet exp fpd recettes quart long"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.3277,
+    "top_words": "assemblée parti gouvernement république élections majorité électeurs droit loi politique"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.2729,
+    "top_words": "eau verre air terre petits corps vin peau petit demi"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.3485,
+    "top_words": "noir rouge laine dames blanc velours mètre bleu qualité soie"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.1752,
+    "top_words": "num tour temps kil coureurs nice étape marseille départ route"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.1787,
+    "top_words": "num prix grand poste volume texte librairie vente francs pages"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.3552,
+    "top_words": "équipe match club français champion championnat stade poids finale victoire"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.2484,
+    "top_words": "num francs société millions banque actions fonds titres compagnie cours"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.239,
+    "top_words": "num fer compagnie chemin nord gare train chemins port mer"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.2721,
+    "top_words": "num maladies médecins traitement santé sang estomac flacon docteur ans"
+   },
+   {
+    "topic_id": 31,
+    "npmi": 0.3369,
+    "top_words": "théâtre rôle succès musique opéra public acte représentation artistes grand"
+   },
+   {
+    "topic_id": 32,
+    "npmi": 0.2867,
+    "top_words": "allemagne gouvernement angleterre guerre anglais états londres berlin français pays"
+   },
+   {
+    "topic_id": 33,
+    "npmi": 0.2202,
+    "top_words": "guerre armée troupes num manœuvres hommes général français soldats prisonniers"
+   },
+   {
+    "topic_id": 34,
+    "npmi": 0.3274,
+    "top_words": "pays hommes politique intérêts liberté travail point peuple esprit œuvre"
+   },
+   {
+    "topic_id": 35,
+    "npmi": 0.396,
+    "top_words": "femme fille jeune père mère ans enfant fils famille mariage"
+   },
+   {
+    "topic_id": 36,
+    "npmi": 0.1866,
+    "top_words": "num lille demande bureau ans echo lettres nord écrire adresser"
+   },
+   {
+    "topic_id": 37,
+    "npmi": 0.2637,
+    "top_words": "roi prince comte saint marquis empereur duc reine église grand"
+   },
+   {
+    "topic_id": 38,
+    "npmi": 0.2927,
+    "top_words": "jean henri marie louis paul charles pierre andré georges jeanne"
+   },
+   {
+    "topic_id": 39,
+    "npmi": 0.1267,
+    "top_words": "num maison prix oran francs louer vente lot notaire civil"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 400
+}

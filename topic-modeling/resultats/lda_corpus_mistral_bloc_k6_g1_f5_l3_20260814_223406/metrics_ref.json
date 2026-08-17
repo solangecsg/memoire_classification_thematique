@@ -1,0 +1,76 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k6_g1_f5_l3_20260814_223406",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 6,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 43820,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 725142,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "duree_s": 117.6
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.4038,
+  "entropy_max": 1.7918,
+  "entropy_normalized": 0.7835
+ },
+ "diversity": {
+  "diversity": 0.9167,
+  "diversity_norm": 0.0027,
+  "tokens_distincts": 20596,
+  "unique_words": 55,
+  "total_words": 60,
+  "shared_words": [
+   "ans",
+   "grande",
+   "nord",
+   "prix",
+   "saint"
+  ],
+  "n_shared": 5
+ },
+ "npmi": {
+  "npmi_mean": 0.1138,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1566,
+    "top_words": "général président conseil ministre commission loi société chambre droit assemblée"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.0583,
+    "top_words": "num cours banque francs prix nord cpt crédit lyon kil"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1299,
+    "top_words": "pays point gouvernement guerre hommes temps politique grande français monde"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1488,
+    "top_words": "grand théâtre succès saint rôle jean public vient opéra salle"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.0572,
+    "top_words": "prix saint ans maison lille fer demande grande mètres nord"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1323,
+    "top_words": "homme femme ans jeune tête enfants fille mort porte eau"
+   }
+  ]
+ }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "homme femme temps jeune point grand vie monde yeux cœur",
+    "size": 545
+  },
+  {
+    "topic_id": 1,
+    "top_words": "équipe prix club match mètres épreuve course championnat stade finale",
+    "size": 473
+  },
+  {
+    "topic_id": 2,
+    "top_words": "commission loi conseil projet ministre président gouvernement chambre séance assemblée",
+    "size": 454
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement pays guerre politique hommes travail droit temps point général",
+    "size": 399
+  },
+  {
+    "topic_id": 4,
+    "top_words": "gouvernement prince roi général ministre guerre allemagne conseil affaires pays",
+    "size": 365
+  },
+  {
+    "topic_id": 5,
+    "top_words": "ans police femme saint enquête mort âgé jeune arrêté homme",
+    "size": 340
+  },
+  {
+    "topic_id": 6,
+    "top_words": "vouloir qualité mètre laine noir grand prix dames lille manteaux",
+    "size": 328
+  },
+  {
+    "topic_id": 7,
+    "top_words": "théâtre opéra comique mmes comédie concert musique rôle actes orchestre",
+    "size": 321
+  },
+  {
+    "topic_id": 8,
+    "top_words": "lille prix renault vendre maison demande citroën echo adresser ecrire",
+    "size": 263
+  },
+  {
+    "topic_id": 9,
+    "top_words": "théâtre succès public rôle opéra représentation grand artistes artiste musique",
+    "size": 252
+  },
+  {
+    "topic_id": 10,
+    "top_words": "cours banque nord crédit lyon fortuné fer act patron gaz",
+    "size": 250
+  },
+  {
+    "topic_id": 11,
+    "top_words": "général maire président saint honneur infanterie prix académie légion régiment",
+    "size": 235
+  },
+  {
+    "topic_id": 12,
+    "top_words": "demande francs prix abonnement bons poste pages bureau lettres abonnés",
+    "size": 216
+  },
+  {
+    "topic_id": 13,
+    "top_words": "maladies estomac flacon peau cure pharmacies pharmacie sang eau crème",
+    "size": 215
+  },
+  {
+    "topic_id": 14,
+    "top_words": "concours société comité président réunion générale association assemblée saint prix",
+    "size": 198
+  },
+  {
+    "topic_id": 15,
+    "top_words": "front allemands troupes ennemi lot nord sud artillerie général armée",
+    "size": 173
+  },
+  {
+    "topic_id": 16,
+    "top_words": "ans saint oran syndic billets juge comm fer classe prov",
+    "size": 171
+  },
+  {
+    "topic_id": 17,
+    "top_words": "banque cours valeurs marché cote actions kil chemins crédit fonds",
+    "size": 84
+  },
+  {
+    "topic_id": 18,
+    "top_words": "manœuvres grandes flotte exercices française terminer musique fleete brest flèche",
+    "size": 47
+  },
+  {
+    "topic_id": 19,
+    "top_words": "baromètre température ciel vent nord thermomètre ouest temps pluies sud",
+    "size": 32
+  }
+]

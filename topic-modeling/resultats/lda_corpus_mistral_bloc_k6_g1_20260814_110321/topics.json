@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num fr francs er an titres prix rembourser oblig obligations",
+    "size": 94
+  },
+  {
+    "topic_id": 1,
+    "top_words": "amiral reynière ans général préfet homme fermeté pays herblay argent",
+    "size": 44
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gauche union saint ordre coupons temps travail nouvelle combinaison républicaine",
+    "size": 48
+  },
+  {
+    "topic_id": 3,
+    "top_words": "société générale crédit valeurs bourse chance voix municipalité officielle question",
+    "size": 51
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ministère chambre république conseil majorité gouvernement cabinet cours président directeur",
+    "size": 52
+  },
+  {
+    "topic_id": 5,
+    "top_words": "droit bureau grand membres table crois esprit soleil distribution bienfaisance",
+    "size": 38
+  }
+]

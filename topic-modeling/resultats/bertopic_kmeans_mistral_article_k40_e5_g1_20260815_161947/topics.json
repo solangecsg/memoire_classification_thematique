@@ -1,0 +1,202 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "maladies estomac peau flacon eau traitement cure boîte sang pilules",
+    "size": 257
+  },
+  {
+    "topic_id": 1,
+    "top_words": "allemagne gouvernement italie guerre berlin états pays politique allemands allemand",
+    "size": 235
+  },
+  {
+    "topic_id": 2,
+    "top_words": "épreuve course prix tour auto club coureurs automobile circuit coupe",
+    "size": 232
+  },
+  {
+    "topic_id": 3,
+    "top_words": "théâtre opéra concert comique radio folies revue cirque royal palace",
+    "size": 222
+  },
+  {
+    "topic_id": 4,
+    "top_words": "vouloir enseignement loi assemblée parti gouvernement question droit ministre chambre",
+    "size": 202
+  },
+  {
+    "topic_id": 5,
+    "top_words": "commission loi projet ministre chambre impôt président discussion amendement séance",
+    "size": 178
+  },
+  {
+    "topic_id": 6,
+    "top_words": "troupes gouvernement constantinople serbie armée turquie général sud russes russie",
+    "size": 178
+  },
+  {
+    "topic_id": 7,
+    "top_words": "rôle théâtre succès public opéra talent artiste artistes représentation acte",
+    "size": 176
+  },
+  {
+    "topic_id": 8,
+    "top_words": "lille maison louer adresser vendre taitbout etude vente prix echo",
+    "size": 175
+  },
+  {
+    "topic_id": 9,
+    "top_words": "équipe match club stade poids championnat joueurs champion points matches",
+    "size": 172
+  },
+  {
+    "topic_id": 10,
+    "top_words": "prix mètres pts course finale miss classement gagnant francs kil",
+    "size": 168
+  },
+  {
+    "topic_id": 11,
+    "top_words": "ans âgé explosion accident hôpital enquête blessé mort police coup",
+    "size": 164
+  },
+  {
+    "topic_id": 12,
+    "top_words": "amour homme femme femmes point monde grand mirabeau fille jeune",
+    "size": 155
+  },
+  {
+    "topic_id": 13,
+    "top_words": "ans femme police jeune prison affaire vol francs crime arrêté",
+    "size": 147
+  },
+  {
+    "topic_id": 14,
+    "top_words": "demande renault int citroën lille références vendre prix garage luxe",
+    "size": 145
+  },
+  {
+    "topic_id": 15,
+    "top_words": "films film art histoire vie peinture académie auteur auteurs cinéma",
+    "size": 142
+  },
+  {
+    "topic_id": 16,
+    "top_words": "fortuné yeux homme patron jeune femme jacques fille père tête",
+    "size": 142
+  },
+  {
+    "topic_id": 17,
+    "top_words": "francs abonnement boulangeries librairie coiffures poste annonces pont agence havas",
+    "size": 136
+  },
+  {
+    "topic_id": 18,
+    "top_words": "guerre gouvernement politique français peuple pays liberté hommes paix temps",
+    "size": 130
+  },
+  {
+    "topic_id": 19,
+    "top_words": "monde homme temps point peuple pays vie livre histoire hommes",
+    "size": 128
+  },
+  {
+    "topic_id": 20,
+    "top_words": "francs comité réunion prix commission salle budget société priés vins",
+    "size": 127
+  },
+  {
+    "topic_id": 21,
+    "top_words": "laine mètre velours manteaux dames noir qualité drap largeur dim",
+    "size": 123
+  },
+  {
+    "topic_id": 22,
+    "top_words": "conseil général électeurs loi généraux élections conseils préfet décret civil",
+    "size": 122
+  },
+  {
+    "topic_id": 23,
+    "top_words": "banque actions valeurs cours société titres fonds crédit millions actionnaires",
+    "size": 118
+  },
+  {
+    "topic_id": 24,
+    "top_words": "infanterie général capitaine régiment légion colonel lieutenant honneur brigade artillerie",
+    "size": 117
+  },
+  {
+    "topic_id": 25,
+    "top_words": "port commandant vapeur bord navire troupes tait camp reine amiral",
+    "size": 114
+  },
+  {
+    "topic_id": 26,
+    "top_words": "versaillais roi obus bataillon foule versailles français garde général fort",
+    "size": 113
+  },
+  {
+    "topic_id": 27,
+    "top_words": "remb cours lib crédit act banque valeurs nord orléans lyon",
+    "size": 109
+  },
+  {
+    "topic_id": 28,
+    "top_words": "kil courant disponible marché cote blés prix froment avoine blé",
+    "size": 107
+  },
+  {
+    "topic_id": 29,
+    "top_words": "mmes comique actes opéra rôle jeune théatre comédie ténor com",
+    "size": 106
+  },
+  {
+    "topic_id": 30,
+    "top_words": "grève ouvriers mineurs travail grévistes congrès travailleurs syndicats délégués général",
+    "size": 96
+  },
+  {
+    "topic_id": 31,
+    "top_words": "exposition médaille prix académie diplôme concours sciences décerné moteur honneur",
+    "size": 86
+  },
+  {
+    "topic_id": 32,
+    "top_words": "billets dunkerque classe oran départ départs fer ang cap saint",
+    "size": 80
+  },
+  {
+    "topic_id": 33,
+    "top_words": "manœuvres concours grandes exercices fête flotte française succès grand musique",
+    "size": 78
+  },
+  {
+    "topic_id": 34,
+    "top_words": "banque nord gaz lyon fer remb cours comp crédit act",
+    "size": 76
+  },
+  {
+    "topic_id": 35,
+    "top_words": "volume jésus vol illustré librairie roman grand histoire almanach prix",
+    "size": 75
+  },
+  {
+    "topic_id": 36,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve marchand",
+    "size": 69
+  },
+  {
+    "topic_id": 37,
+    "top_words": "prison cour institutrice école tribunal président assises peine avocat procès",
+    "size": 68
+  },
+  {
+    "topic_id": 38,
+    "top_words": "mètres longueur films galerie vii viii affiche comédie iii affiches",
+    "size": 66
+  },
+  {
+    "topic_id": 39,
+    "top_words": "baromètre température ciel vent thermomètre nord pluies ouest faible âgé",
+    "size": 27
+  }
+]

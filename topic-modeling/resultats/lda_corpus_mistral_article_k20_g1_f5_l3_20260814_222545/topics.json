@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "blanc rouge eau dames noir petits laine fleurs qualité belle",
+    "size": 173
+  },
+  {
+    "topic_id": 1,
+    "top_words": "gouvernement politique parti peuple droit république pays ordre liberté assemblée",
+    "size": 233
+  },
+  {
+    "topic_id": 2,
+    "top_words": "saint ans jean henri louis marie pierre paul georges charles",
+    "size": 170
+  },
+  {
+    "topic_id": 3,
+    "top_words": "ans police cour mort femme prison président affaire justice tribunal",
+    "size": 334
+  },
+  {
+    "topic_id": 4,
+    "top_words": "point temps hommes donner mieux bonne monde voir fort esprit",
+    "size": 488
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num prix renault citroën int places cond voitures luxe cabriolet",
+    "size": 156
+  },
+  {
+    "topic_id": 6,
+    "top_words": "guerre gouvernement allemagne français angleterre anglais pays londres états berlin",
+    "size": 297
+  },
+  {
+    "topic_id": 7,
+    "top_words": "commission loi num conseil ministre chambre projet séance président demande",
+    "size": 267
+  },
+  {
+    "topic_id": 8,
+    "top_words": "num francs société compagnie banque cours millions fer actions chemins",
+    "size": 195
+  },
+  {
+    "topic_id": 9,
+    "top_words": "num cours cpt nord banque lyon fer remb crédit gaz",
+    "size": 289
+  },
+  {
+    "topic_id": 10,
+    "top_words": "num prix francs kil courant marché mètres kilos cours disponible",
+    "size": 199
+  },
+  {
+    "topic_id": 11,
+    "top_words": "général président honneur conseil maire roi secrétaire chef ministre membres",
+    "size": 312
+  },
+  {
+    "topic_id": 12,
+    "top_words": "homme jeune femme yeux fille cœur tête père petit vie",
+    "size": 200
+  },
+  {
+    "topic_id": 13,
+    "top_words": "num lille demande maison bureau adresser ans vendre francs prix",
+    "size": 197
+  },
+  {
+    "topic_id": 14,
+    "top_words": "travail industrie ouvriers travaux pays vue société commerce produits grande",
+    "size": 133
+  },
+  {
+    "topic_id": 15,
+    "top_words": "école histoire art prix vie œuvre vient enfants enseignement auteur",
+    "size": 195
+  },
+  {
+    "topic_id": 16,
+    "top_words": "num prix exposition poste franco maladies grand vente volume traitement",
+    "size": 268
+  },
+  {
+    "topic_id": 17,
+    "top_words": "num club équipe prix course tour match épreuve français grand",
+    "size": 417
+  },
+  {
+    "topic_id": 18,
+    "top_words": "nord fer chemin train pont route gare mer manœuvres hommes",
+    "size": 283
+  },
+  {
+    "topic_id": 19,
+    "top_words": "théâtre opéra rôle grand musique succès public comique acte comédie",
+    "size": 321
+  }
+]

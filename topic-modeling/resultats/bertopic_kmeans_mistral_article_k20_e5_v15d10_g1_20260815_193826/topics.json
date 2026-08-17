@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "commission loi conseil président ministre général chambre projet séance gouvernement",
+    "size": 491
+  },
+  {
+    "topic_id": 1,
+    "top_words": "lille demande prix maison vendre renault adresser bureau citroën echo",
+    "size": 447
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne guerre général pays italie prince troupes politique angleterre",
+    "size": 438
+  },
+  {
+    "topic_id": 3,
+    "top_words": "homme femme jeune yeux fille tête cœur main temps père",
+    "size": 361
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ans police femme mort saint enquête jeune âgé prison arrêté",
+    "size": 334
+  },
+  {
+    "topic_id": 5,
+    "top_words": "équipe match prix club mètres stade finale poids points champion",
+    "size": 306
+  },
+  {
+    "topic_id": 6,
+    "top_words": "théâtre opéra comique mmes concert musique actes radio folies revue",
+    "size": 302
+  },
+  {
+    "topic_id": 7,
+    "top_words": "exposition général honneur saint président concours prix médaille capitaine infanterie",
+    "size": 293
+  },
+  {
+    "topic_id": 8,
+    "top_words": "gouvernement loi assemblée parti vouloir enseignement question chambre pays droit",
+    "size": 274
+  },
+  {
+    "topic_id": 9,
+    "top_words": "théâtre rôle public succès artistes artiste talent scène grand opéra",
+    "size": 271
+  },
+  {
+    "topic_id": 10,
+    "top_words": "guerre gouvernement français hommes peuple temps point pays monde grand",
+    "size": 269
+  },
+  {
+    "topic_id": 11,
+    "top_words": "prix épreuve course tour club auto coureurs coupe automobile circuit",
+    "size": 266
+  },
+  {
+    "topic_id": 12,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure guérison",
+    "size": 266
+  },
+  {
+    "topic_id": 13,
+    "top_words": "cours kil courant prix banque nord cote marché lib disponible",
+    "size": 232
+  },
+  {
+    "topic_id": 14,
+    "top_words": "volume jésus francs prix librairie grand abonnement vol poste pages",
+    "size": 218
+  },
+  {
+    "topic_id": 15,
+    "top_words": "banque actions cours crédit société valeurs fer lyon nord gaz",
+    "size": 174
+  },
+  {
+    "topic_id": 16,
+    "top_words": "port baromètre température mer temps troupes navire commandant ciel saint",
+    "size": 148
+  },
+  {
+    "topic_id": 17,
+    "top_words": "film comédie théâtre films mètres prix rôle comique représentation française",
+    "size": 116
+  },
+  {
+    "topic_id": 18,
+    "top_words": "billets dunkerque classe oran départ fer départs ang nord saint",
+    "size": 84
+  },
+  {
+    "topic_id": 19,
+    "top_words": "ans syndic maire saint juge comm prov adjoint jean veuve",
+    "size": 71
+  }
+]

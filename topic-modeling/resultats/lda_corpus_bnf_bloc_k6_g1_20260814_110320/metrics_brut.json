@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": -0.0015,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -0.0711,
+    "top_words": "conseil société saint préfet grand ordre chance générale municipalité membres"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.0751,
+    "top_words": "amiral droit reynière homme travail fermeté herblay mer con fort"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.0086,
+    "top_words": "num fr prix francs titres rembourser oblig obligations an compagnie"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.0619,
+    "top_words": "ans général do directeur bureau vient argent guerre esprit vrai"
+   },
+   {
+    "topic_id": 4,
+    "npmi": -0.1459,
+    "top_words": "ministère chambre gauche union coupons valeurs cabinet majorité ancien points"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.0798,
+    "top_words": "république er temps affaires pays succès gouvernement corps président réunion"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

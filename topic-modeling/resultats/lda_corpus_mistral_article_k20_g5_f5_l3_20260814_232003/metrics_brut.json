@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2563,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3264,
+    "top_words": "hommes pays politique peuple droit liberté guerre gouvernement parti homme"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1791,
+    "top_words": "num lille demande maison bureau francs adresser ans vendre lettres"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2013,
+    "top_words": "num ans cour police général président prison mort affaire corps"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2499,
+    "top_words": "droit commission loi millions commerce francs industrie demande administration travaux"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2359,
+    "top_words": "saint ans jean henri paul louis marie andré comte pierre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3109,
+    "top_words": "num prix renault int citroën places cond voitures luxe cabriolet"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2278,
+    "top_words": "num eau maladies vin médecins santé traitement peau ans sang"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2007,
+    "top_words": "num banque cours marché prix francs courant millions actions société"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3113,
+    "top_words": "dames noir rouge blanc qualité laine belle taille rose bleu"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1918,
+    "top_words": "école exposition société prix concours enseignement enfants honneur art grand"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2526,
+    "top_words": "guerre gouvernement allemagne français angleterre anglais général prince roi états"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1586,
+    "top_words": "num prix grand française grandes film volume histoire manœuvres livre"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2347,
+    "top_words": "route eau temps feu corps foule mètres hommes terre grande"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2978,
+    "top_words": "président conseil ministre chambre général assemblée commission membres réunion séance"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.3972,
+    "top_words": "homme jeune femme yeux fille père cœur tête petit pauvre"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1523,
+    "top_words": "num saint fer compagnie prix marseille oran chemin nord service"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2175,
+    "top_words": "num prix équipe club course match tour épreuve mètres coupe"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.324,
+    "top_words": "num cours cpt nord banque lyon remb crédit gaz fer"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.344,
+    "top_words": "théâtre opéra rôle musique grand acte succès comique comédie public"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3127,
+    "top_words": "point temps donner voir mieux monde fort vient grande prendre"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

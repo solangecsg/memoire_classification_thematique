@@ -1,0 +1,310 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2545,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3695,
+    "top_words": "maladies estomac traitement flacon cure pilules guérison sang pharmacie santé"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3171,
+    "top_words": "épreuve tour course prix auto coureurs coupe circuit automobile kilomètres"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3655,
+    "top_words": "théâtre concert opéra radio folies palace revue studio cirque comique"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3694,
+    "top_words": "commission projet loi impôt chambre ministre président discussion séance amendement"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2903,
+    "top_words": "vouloir enseignement assemblée parti loi gouvernement droit majorité travail question"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3151,
+    "top_words": "allemagne italie gouvernement allemands guerre allemand pays accord états allemande"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.318,
+    "top_words": "ans âgé hôpital accident blessé enquête mort coup victime transporté"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2513,
+    "top_words": "demande renault int citroën lille références peugeot vendre garage luxe"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1795,
+    "top_words": "lille louer maison taitbout etude vendre vente adresser prix oran"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2116,
+    "top_words": "homme amour mirabeau monde point temps femmes température main fille"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2938,
+    "top_words": "fortuné patron yeux homme jeune femme jacques fille père mère"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2493,
+    "top_words": "ans femme police jeune vol crime affaire prison francs enquête"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3009,
+    "top_words": "guerre gouvernement politique français peuple liberté hommes paix pays armée"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3998,
+    "top_words": "rôle théâtre succès public talent opéra artistes artiste scène représentation"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.3068,
+    "top_words": "gouvernement serbie constantinople turquie russie prince berlin bulgare pacha russes"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2297,
+    "top_words": "gouvernement espagne troupes madrid général anglais américains angleterre roi londres"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.1938,
+    "top_words": "prix pts mètres course placés gagnant tours francs placé classement"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1926,
+    "top_words": "peinture art roman livre œuvre auteur poète satin peintre vie"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2752,
+    "top_words": "laine mètre velours manteaux dames noir qualité drap largeur dim"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.4326,
+    "top_words": "remb cours lib act crédit valeurs banque nord orléans lyon"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.2549,
+    "top_words": "conseil électeurs général art loi généraux élections droit conseils civil"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.396,
+    "top_words": "kil courant disponible cote marché blés froment avoine prix blé"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.2066,
+    "top_words": "mmes comique actes opéra rôle théatre jeune comédie ténor guillemin"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.1646,
+    "top_words": "poids champion finale match miss tournoi battent double combat angl"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.3304,
+    "top_words": "monde livre homme point temps peuple vie histoire pays esprit"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.5197,
+    "top_words": "équipe match stade club racing joueurs matches championnat avants équipes"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.2212,
+    "top_words": "francs budget loi service commission taux administration dépenses vins date"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.3936,
+    "top_words": "banque cours valeurs millions actions crédit fonds marché rente capital"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.3476,
+    "top_words": "grève ouvriers mineurs travail grévistes congrès travailleurs syndicats délégués employés"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.0905,
+    "top_words": "abonnement francs coiffures poste abonnés pont annonces départements lot abonnements"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.1395,
+    "top_words": "billets dunkerque classe oran départs départ ang fer cap train"
+   },
+   {
+    "topic_id": 31,
+    "npmi": 0.2504,
+    "top_words": "versailles obus feu bataillon fort prison batterie condamné citoyen garde"
+   },
+   {
+    "topic_id": 32,
+    "npmi": 0.286,
+    "top_words": "volume jésus vol roman librairie illustré grand almanach histoire prix"
+   },
+   {
+    "topic_id": 33,
+    "npmi": 0.3832,
+    "top_words": "banque nord gaz lyon remb fer comp cours act crédit"
+   },
+   {
+    "topic_id": 34,
+    "npmi": -0.2262,
+    "top_words": "milan roi allemands anna foule horloge clamecy rues jeunes serge"
+   },
+   {
+    "topic_id": 35,
+    "npmi": 0.1434,
+    "top_words": "ans syndic maire juge comm saint prov adjoint veuve marchand"
+   },
+   {
+    "topic_id": 36,
+    "npmi": 0.3245,
+    "top_words": "décédé obsèques infanterie mort née église funérailles lieutenant ancien cimetière"
+   },
+   {
+    "topic_id": 37,
+    "npmi": 0.3233,
+    "top_words": "club sportive championnat sports sportifs football fédération comité président clubs"
+   },
+   {
+    "topic_id": 38,
+    "npmi": 0.3313,
+    "top_words": "crème peau beauté laissez ajoutez eau poudre cuire teint sucre"
+   },
+   {
+    "topic_id": 39,
+    "npmi": 0.1975,
+    "top_words": "tempête vapeur port équipage bord navire tremblement terre orage mer"
+   },
+   {
+    "topic_id": 40,
+    "npmi": 0.3101,
+    "top_words": "académie sciences prix hongroise décerné hongrie histoire hongrois florins arts"
+   },
+   {
+    "topic_id": 41,
+    "npmi": -0.3317,
+    "top_words": "boulangeries havas papeterie agence librairie école carrières dessin cahier cours"
+   },
+   {
+    "topic_id": 42,
+    "npmi": 0.1567,
+    "top_words": "tait reine troupes commandant prusse général port amiral gouverneur navire"
+   },
+   {
+    "topic_id": 43,
+    "npmi": 0.2657,
+    "top_words": "fête concours musique musiciens président harmonie société maire sapeurs fêtes"
+   },
+   {
+    "topic_id": 44,
+    "npmi": 0.0332,
+    "top_words": "exposition médaille diplôme concours moteur honneur argent industrielle bronze cabine"
+   },
+   {
+    "topic_id": 45,
+    "npmi": 0.2302,
+    "top_words": "général roi préfet prince sieur président saint duc conseil ordonnance"
+   },
+   {
+    "topic_id": 46,
+    "npmi": 0.3574,
+    "top_words": "films film cinéma cinématographiques auteurs cinématographe dramatiques cinématographie société production"
+   },
+   {
+    "topic_id": 47,
+    "npmi": 0.1821,
+    "top_words": "institutrice école prison président assises jury accusé tribunal procès témoins"
+   },
+   {
+    "topic_id": 48,
+    "npmi": 0.0604,
+    "top_words": "horloger siège adresser société lille anonyme assurances francs adressez notaire"
+   },
+   {
+    "topic_id": 49,
+    "npmi": 0.3122,
+    "top_words": "cour cassation procès affaire jugement peine révision procureur avocat tribunal"
+   },
+   {
+    "topic_id": 50,
+    "npmi": 0.0784,
+    "top_words": "réunion priés comité assister salle citoyens générale réunir standard siège"
+   },
+   {
+    "topic_id": 51,
+    "npmi": 0.4123,
+    "top_words": "théâtre opéra actes matinée spectacle comédie comique représentation acte orchestre"
+   },
+   {
+    "topic_id": 52,
+    "npmi": 0.3615,
+    "top_words": "rôle théâtre comédie représentation succès opéra représentations française acte orchestre"
+   },
+   {
+    "topic_id": 53,
+    "npmi": 0.2157,
+    "top_words": "mètres film films longueur prix affiche affiches cinématographique comédie entrée"
+   },
+   {
+    "topic_id": 54,
+    "npmi": 0.3298,
+    "top_words": "régiment capitaine légion général infanterie division officiers colonel brigade militaire"
+   },
+   {
+    "topic_id": 55,
+    "npmi": 0.3677,
+    "top_words": "actions société titres actionnaires capital assemblée compagnie statuts administration social"
+   },
+   {
+    "topic_id": 56,
+    "npmi": 0.29,
+    "top_words": "front ennemi sud allemands région attaques artillerie nord troupes ouest"
+   },
+   {
+    "topic_id": 57,
+    "npmi": 0.4195,
+    "top_words": "manœuvres exercices flotte grandes française marins cherbourg navires eaux méditerranée"
+   },
+   {
+    "topic_id": 58,
+    "npmi": 0.3566,
+    "top_words": "baromètre température ciel vent thermomètre pluies ouest nord faible âgé"
+   },
+   {
+    "topic_id": 59,
+    "npmi": -0.0779,
+    "top_words": "vii viii iii solution problème mat sorties négation grecque dés"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 600
+}

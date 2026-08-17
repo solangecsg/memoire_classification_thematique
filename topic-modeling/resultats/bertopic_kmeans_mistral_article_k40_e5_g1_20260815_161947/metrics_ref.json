@@ -1,0 +1,300 @@
+{
+ "meta": {
+  "model": "bertopic_kmeans",
+  "run_id": "bertopic_kmeans_mistral_article_k40_e5_g1_20260815_161947",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 40,
+  "k_demande": 40,
+  "min_taille": null,
+  "graine": 1,
+  "n_docs": 5361,
+  "n_sans_groupe": 0,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "longueur_max": 512,
+  "duree_s": 20.2
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.0,
+  "entropy_max": 3.6889,
+  "entropy_normalized": 0.0
+ },
+ "diversity": {
+  "diversity": 0.785,
+  "diversity_norm": 0.0147,
+  "tokens_distincts": 21355,
+  "unique_words": 314,
+  "total_words": 400,
+  "shared_words": [
+   "académie",
+   "act",
+   "ans",
+   "banque",
+   "chambre",
+   "club",
+   "comique",
+   "commission",
+   "comédie",
+   "concours",
+   "cours",
+   "course",
+   "crédit",
+   "femme",
+   "fer",
+   "fille",
+   "films",
+   "francs",
+   "français",
+   "gouvernement",
+   "grand",
+   "guerre",
+   "général",
+   "histoire",
+   "homme",
+   "hommes",
+   "honneur",
+   "jeune",
+   "kil",
+   "librairie",
+   "lille",
+   "loi",
+   "lyon",
+   "ministre",
+   "monde",
+   "mètres",
+   "nord",
+   "opéra",
+   "pays",
+   "peuple",
+   "point",
+   "police",
+   "politique",
+   "prison",
+   "prix",
+   "président",
+   "remb",
+   "rôle",
+   "saint",
+   "société",
+   "succès",
+   "temps",
+   "théâtre",
+   "troupes",
+   "valeurs",
+   "vendre",
+   "vie",
+   "vol",
+   "âgé"
+  ],
+  "n_shared": 59
+ },
+ "npmi": {
+  "npmi_mean": 0.2535,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2873,
+    "top_words": "maladies estomac peau flacon eau traitement cure boîte sang pilules"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2895,
+    "top_words": "allemagne gouvernement italie guerre berlin états pays politique allemands allemand"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3108,
+    "top_words": "épreuve course prix tour auto club coureurs automobile circuit coupe"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3645,
+    "top_words": "théâtre opéra concert comique radio folies revue cirque royal palace"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2609,
+    "top_words": "vouloir enseignement loi assemblée parti gouvernement question droit ministre chambre"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3522,
+    "top_words": "commission loi projet ministre chambre impôt président discussion amendement séance"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2592,
+    "top_words": "troupes gouvernement constantinople serbie armée turquie général sud russes russie"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3682,
+    "top_words": "rôle théâtre succès public opéra talent artiste artistes représentation acte"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.217,
+    "top_words": "lille maison louer adresser vendre taitbout etude vente prix echo"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3864,
+    "top_words": "équipe match club stade poids championnat joueurs champion points matches"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.0802,
+    "top_words": "prix mètres pts course finale miss classement gagnant francs kil"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2674,
+    "top_words": "ans âgé explosion accident hôpital enquête blessé mort police coup"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2899,
+    "top_words": "amour homme femme femmes point monde grand mirabeau fille jeune"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2336,
+    "top_words": "ans femme police jeune prison affaire vol francs crime arrêté"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2314,
+    "top_words": "demande renault int citroën lille références vendre prix garage luxe"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2214,
+    "top_words": "films film art histoire vie peinture académie auteur auteurs cinéma"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2618,
+    "top_words": "fortuné yeux homme patron jeune femme jacques fille père tête"
+   },
+   {
+    "topic_id": 17,
+    "npmi": -0.088,
+    "top_words": "francs abonnement boulangeries librairie coiffures poste annonces pont agence havas"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2756,
+    "top_words": "guerre gouvernement politique français peuple pays liberté hommes paix temps"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2961,
+    "top_words": "monde homme temps point peuple pays vie livre histoire hommes"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.1098,
+    "top_words": "francs comité réunion prix commission salle budget société priés vins"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.2678,
+    "top_words": "laine mètre velours manteaux dames noir qualité drap largeur dim"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.2764,
+    "top_words": "conseil général électeurs loi généraux élections conseils préfet décret civil"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.3743,
+    "top_words": "banque actions valeurs cours société titres fonds crédit millions actionnaires"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.3496,
+    "top_words": "infanterie général capitaine régiment légion colonel lieutenant honneur brigade artillerie"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.1784,
+    "top_words": "port commandant vapeur bord navire troupes tait camp reine amiral"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.2098,
+    "top_words": "versaillais roi obus bataillon foule versailles français garde général fort"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.4196,
+    "top_words": "remb cours lib crédit act banque valeurs nord orléans lyon"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.3847,
+    "top_words": "kil courant disponible marché cote blés prix froment avoine blé"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.2968,
+    "top_words": "mmes comique actes opéra rôle jeune théatre comédie ténor com"
+   },
+   {
+    "topic_id": 30,
+    "npmi": 0.3088,
+    "top_words": "grève ouvriers mineurs travail grévistes congrès travailleurs syndicats délégués général"
+   },
+   {
+    "topic_id": 31,
+    "npmi": 0.1102,
+    "top_words": "exposition médaille prix académie diplôme concours sciences décerné moteur honneur"
+   },
+   {
+    "topic_id": 32,
+    "npmi": 0.1472,
+    "top_words": "billets dunkerque classe oran départ départs fer ang cap saint"
+   },
+   {
+    "topic_id": 33,
+    "npmi": 0.2533,
+    "top_words": "manœuvres concours grandes exercices fête flotte française succès grand musique"
+   },
+   {
+    "topic_id": 34,
+    "npmi": 0.3695,
+    "top_words": "banque nord gaz lyon fer remb cours comp crédit act"
+   },
+   {
+    "topic_id": 35,
+    "npmi": 0.2808,
+    "top_words": "volume jésus vol illustré librairie roman grand histoire almanach prix"
+   },
+   {
+    "topic_id": 36,
+    "npmi": 0.1285,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve marchand"
+   },
+   {
+    "topic_id": 37,
+    "npmi": 0.1576,
+    "top_words": "prison cour institutrice école tribunal président assises peine avocat procès"
+   },
+   {
+    "topic_id": 38,
+    "npmi": 0.0063,
+    "top_words": "mètres longueur films galerie vii viii affiche comédie iii affiches"
+   },
+   {
+    "topic_id": 39,
+    "npmi": 0.3463,
+    "top_words": "baromètre température ciel vent thermomètre nord pluies ouest faible âgé"
+   }
+  ]
+ }
+}

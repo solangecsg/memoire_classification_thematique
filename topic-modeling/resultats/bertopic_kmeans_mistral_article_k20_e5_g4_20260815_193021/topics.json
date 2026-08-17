@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat",
+    "size": 572
+  },
+  {
+    "topic_id": 1,
+    "top_words": "commission loi conseil président ministre projet général chambre séance gouvernement",
+    "size": 553
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne guerre général pays politique italie berlin états armée",
+    "size": 412
+  },
+  {
+    "topic_id": 3,
+    "top_words": "gouvernement loi guerre politique pays parti assemblée liberté droit république",
+    "size": 351
+  },
+  {
+    "topic_id": 4,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes revue folies",
+    "size": 348
+  },
+  {
+    "topic_id": 5,
+    "top_words": "ans police femme mort saint enquête jeune âgé arrêté prison",
+    "size": 326
+  },
+  {
+    "topic_id": 6,
+    "top_words": "lille demande prix vendre renault maison adresser citroën bureau echo",
+    "size": 309
+  },
+  {
+    "topic_id": 7,
+    "top_words": "point homme vie monde histoire académie temps livre amour femme",
+    "size": 287
+  },
+  {
+    "topic_id": 8,
+    "top_words": "homme yeux jeune femme tête fille fortuné père patron mère",
+    "size": 273
+  },
+  {
+    "topic_id": 9,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure pilules",
+    "size": 262
+  },
+  {
+    "topic_id": 10,
+    "top_words": "exposition honneur général président concours saint capitaine infanterie régiment médaille",
+    "size": 257
+  },
+  {
+    "topic_id": 11,
+    "top_words": "cours kil courant prix banque nord cote marché lib disponible",
+    "size": 233
+  },
+  {
+    "topic_id": 12,
+    "top_words": "théâtre rôle succès public opéra artistes talent scène artiste représentation",
+    "size": 232
+  },
+  {
+    "topic_id": 13,
+    "top_words": "troupes roi front général port commandant artillerie fort ennemi officiers",
+    "size": 219
+  },
+  {
+    "topic_id": 14,
+    "top_words": "volume jésus francs prix librairie abonnement vol grand poste pages",
+    "size": 209
+  },
+  {
+    "topic_id": 15,
+    "top_words": "banque cours crédit actions société valeurs fer nord lyon compagnie",
+    "size": 174
+  },
+  {
+    "topic_id": 16,
+    "top_words": "laine mètre manteaux dames velours qualité noir largeur drap dim",
+    "size": 162
+  },
+  {
+    "topic_id": 17,
+    "top_words": "billets dunkerque oran classe départ fer départs ang nord saint",
+    "size": 86
+  },
+  {
+    "topic_id": 18,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve jean",
+    "size": 69
+  },
+  {
+    "topic_id": 19,
+    "top_words": "baromètre température ciel vent thermomètre nord ouest pluies faible temps",
+    "size": 27
+  }
+]

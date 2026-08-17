@@ -1,0 +1,91 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_article_k10_g1_20260814_111206",
+  "source": "bnf",
+  "granularite": "article",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "n_docs": 5394,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 904765,
+  "duree_s": 64.5
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.5367,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.6674
+ },
+ "diversity": {
+  "diversity": 0.91,
+  "diversity_norm": 0.0043,
+  "tokens_distincts": 21356,
+  "unique_words": 91,
+  "total_words": 100,
+  "shared_words": [
+   "fr",
+   "gouvernement",
+   "num",
+   "prix"
+  ],
+  "n_shared": 4
+ },
+ "npmi": {
+  "npmi_mean": -0.0046,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1336,
+    "top_words": "num saint ans maire jean honneur concours exposition louis henri"
+   },
+   {
+    "topic_id": 1,
+    "npmi": -1.0,
+    "top_words": "ii num re ie it nt ri do el li"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.2728,
+    "top_words": "num prix pl cv club équipe tour mètres course auto"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.22,
+    "top_words": "num fr cours cpt banque nord id valeurs crédit courant"
+   },
+   {
+    "topic_id": 4,
+    "npmi": -0.0731,
+    "top_words": "num fr prix francs demande maison lille vente bureau adresser"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1894,
+    "top_words": "num guerre français général armée roi allemagne angleterre gouvernement anglais"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2257,
+    "top_words": "num président conseil gouvernement commission loi ministre chambre millions droit"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.3309,
+    "top_words": "théâtre grand rôle opéra succès musique public acte artistes comique"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2956,
+    "top_words": "point temps monde pays grande hommes vie mieux esprit donner"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3451,
+    "top_words": "femme homme jeune fille mort yeux petit tête porte père"
+   }
+  ]
+ }
+}

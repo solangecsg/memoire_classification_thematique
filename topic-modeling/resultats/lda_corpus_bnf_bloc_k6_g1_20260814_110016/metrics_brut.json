@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": -0.0484,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -0.0866,
+    "top_words": "s est n qu c d on ans chambre a"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.0984,
+    "top_words": "l ministère en dé union gauche temps cabinet majorité prix"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.2385,
+    "top_words": "d fr conseil société prix générale 1er compagnie rembourser oblig"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.1595,
+    "top_words": "qu il cours grand travail valeurs un directeur chance succès"
+   },
+   {
+    "topic_id": 4,
+    "npmi": -0.0126,
+    "top_words": "titres général ment obligations francs coupons saint ordre vient bourse"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1081,
+    "top_words": "l d amiral reynière j con homme avait préfet mer"
+   }
+  ]
+ },
+ "mots_hors_reference": 3,
+ "mots_total": 60
+}

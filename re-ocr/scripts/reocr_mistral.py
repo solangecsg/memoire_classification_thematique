@@ -1,14 +1,68 @@
 """
-reocr_mistral.py — Re-OCRisation par crop via Mistral vision API
+reocr_mistral.py : ré-océrisation des blocs de texte par un modèle multimodal
 
-Pour chaque bloc ALTO d'une page :
-  1. Ouvre l'image JP2 locale correspondante
-  2. Croppe la région du bloc (coordonnées ALTO = pixels exacts)
-  3. Envoie le crop à Mistral (pixtral-12b) en base64
-  4. Remplace le texte ALTO par la transcription Mistral
-  5. Sauvegarde {block_id: {texte_mistral, texte_original}}
+CE QUE FAIT CE SCRIPT
 
-Usage :
+Reprend la reconnaissance de caractères des fascicules numérisés, bloc par bloc,
+en soumettant l'image de chaque bloc à un modèle multimodal.
+
+POURQUOI RÉ-OCÉRISER
+
+Le texte livré avec les fascicules provient d'une océrisation en masse conduite
+à partir de 2008 sur des microformes. Sa qualité conditionne tout traitement
+ultérieur. Le relevé conduit dans la deuxième partie du mémoire montre que 27
+pour cent des formes du corpus ne sont attestées que par cette océrisation
+d'origine : ce ne sont pas des erreurs isolées mais un vocabulaire parasite, que
+toute méthode fondée sur les fréquences compte comme si de rien n'était.
+
+LE TRAITEMENT, ÉTAPE PAR ÉTAPE
+
+  1. Lire le fichier ALTO de la page, qui donne pour chaque bloc ses coordonnées
+     en pixels de l'image d'origine.
+  2. Ouvrir l'image et en découper la région du bloc, avec une marge.
+  3. Encoder ce découpage en base64 et le soumettre au modèle.
+  4. Remplacer le texte du bloc dans le fichier ALTO par la transcription
+     obtenue, en conservant la structure du fichier.
+  5. Enregistrer les deux versions côte à côte, ce qui permet de mesurer l'écart
+     et de revenir en arrière.
+
+POURQUOI PROCÉDER BLOC PAR BLOC
+
+Soumettre la page entière donnerait au modèle une mise en page à plusieurs
+colonnes qu'il lirait dans un ordre incertain. Le bloc est une région
+rectangulaire d'une seule colonne, dont la lecture ne présente aucune ambiguïté.
+Le découpage préserve en outre la structure du fichier ALTO, à laquelle la carte
+logique du METS renvoie pour reconstituer les articles.
+
+UNE DIFFICULTÉ PROPRE AUX MODÈLES GÉNÉRATIFS
+
+Un modèle de ce genre produit un texte plausible, sans garantie qu'il soit
+exact. Le mémoire en rapporte un cas : le modèle a restitué des noms là où
+l'image ne portait plus de caractères lisibles. La conservation du texte
+d'origine à côté de la transcription permet de repérer ces cas.
+
+ENTRÉES
+
+  Sample/pt1, pt2, pt3/          images des pages
+  Sample/sample_iiif/            fichiers ALTO d'origine
+  config/.env                    clé API, ou option --key
+
+SORTIES
+
+  resultats_mistral/{fascicule}_reocr/ocr/    ALTO avec le texte corrigé
+  resultats_mistral/{fascicule}_reocr/logs/   les deux versions de chaque bloc
+
+PAQUETS EMPLOYÉS
+
+  argparse, base64, io, json, os, re, threading, time, pathlib   bibliothèque
+                            standard
+  xml.etree.ElementTree     lecture et réécriture des fichiers ALTO
+  concurrent.futures        appels en parallèle
+  requests                  appels HTTP à l'interface
+  Pillow                    ouverture des images et découpage des régions
+
+USAGE
+
     python reocr_mistral.py --key VOTRE_CLE
     python reocr_mistral.py --key VOTRE_CLE --fascicule 4109000
     python reocr_mistral.py --key VOTRE_CLE --page 1
@@ -48,7 +102,7 @@ load_env(ENV_FILE)
 
 MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "")
 if not MISTRAL_API_KEY or MISTRAL_API_KEY == "mets-ta-cle-ici":
-    raise ValueError(f"Clé API manquante — édite {ENV_FILE}")
+    raise ValueError(f"Clé API manquante : édite {ENV_FILE}")
 
 # ── Chemins ───────────────────────────────────────────────────────────────────
 
@@ -64,10 +118,25 @@ NS_ALTO = "http://www.loc.gov/standards/alto/ns-v3#"
 MISTRAL_MODEL = "pixtral-12b-2409"
 MISTRAL_URL   = "https://api.mistral.ai/v1/chat/completions"
 
-MIN_BLOCK_PX  = 20    # ignorer les blocs trop petits (moins de 20px de côté)
-MAX_WORKERS   = 5     # appels API parallèles (augmenter si pas de 429)
-MAX_RETRIES   = 3     # tentatives en cas d'erreur 429 / réseau
-RETRY_DELAY   = 2.0   # secondes entre deux tentatives
+# Côté minimal d'un bloc, en pixels. En deçà, la région ne porte pas de texte
+# lisible : il s'agit de filets, de vignettes ou de fragments que la
+# reconnaissance de mise en page a isolés à tort. Les soumettre consommerait un
+# appel pour une transcription vide.
+MIN_BLOCK_PX = 20
+
+# Nombre d'appels menés en parallèle. Cinq tient sous les limites de débit de
+# l'interface. Une valeur plus élevée provoque des réponses 429, que le script
+# sait rejouer mais qui annulent le gain.
+MAX_WORKERS = 5
+
+# Nombre de tentatives en cas d'erreur de débit ou de réseau. Trois suffisent
+# aux incidents passagers ; au-delà, la cause est durable et insister ne sert
+# à rien.
+MAX_RETRIES = 3
+
+# Délai entre deux tentatives, en secondes. Il laisse au compteur de débit le
+# temps de se remettre à zéro.
+RETRY_DELAY = 2.0
 
 
 # ── Utilitaires image ─────────────────────────────────────────────────────────
@@ -171,7 +240,7 @@ def transcribe_crop(b64_img: str, api_key: str) -> str:
             )
             if resp.status_code == 429:
                 wait = RETRY_DELAY * (attempt + 1)
-                tqdm.write(f"    ⏳ 429 rate limit — attente {wait:.0f}s")
+                tqdm.write(f"    ⏳ 429 rate limit : attente {wait:.0f}s")
                 time.sleep(wait)
                 continue
             resp.raise_for_status()
@@ -344,13 +413,13 @@ def process_page(fascicule_id: str, alto_path: Path, img_dir: Path,
         return {"status": "cache", "page": pnum, "n_blocs": len(blocks)}
 
     if dry_run:
-        tqdm.write(f"    [dry] p{pnum} — {len(blocks)} blocs "
+        tqdm.write(f"    [dry] p{pnum} : {len(blocks)} blocs "
                    f"({already_done} déjà faits), image: {img_path.name}")
         return {"status": "dry_run", "page": pnum, "n_blocs": len(blocks)}
 
     n_errors = sum(1 for v in results.values() if "erreur" in v)
     if already_done or n_errors:
-        msg = f"    ↩ p{pnum} reprise — {already_done}/{len(blocks)} blocs déjà faits"
+        msg = f"    ↩ p{pnum} reprise : {already_done}/{len(blocks)} blocs déjà faits"
         if n_errors:
             msg += f" ({n_errors} erreurs à relancer)"
         tqdm.write(msg)
@@ -455,7 +524,7 @@ def process_fascicule(fascicule_id: str, pages: list[int] | None,
     out_ocr_dir.mkdir(parents=True, exist_ok=True)
     out_log_dir.mkdir(parents=True, exist_ok=True)
 
-    # Copier manifest.xml et toc/ — identique au pipeline Pero
+    # Copier manifest.xml et toc/ : identique au pipeline Pero
     if (src_fasc / "manifest.xml").exists():
         shutil.copy2(src_fasc / "manifest.xml", out_dir / "manifest.xml")
     if (src_fasc / "toc").exists():
@@ -466,12 +535,12 @@ def process_fascicule(fascicule_id: str, pages: list[int] | None,
         alto_files = [f for f in alto_files
                       if int(re.search(r"X0*(\d+)", f.stem).group(1)) in pages]
 
-    tqdm.write(f"\n══ {fascicule_id} — {len(alto_files)} page(s) ══")
+    tqdm.write(f"\n══ {fascicule_id} : {len(alto_files)} page(s) ══")
 
     results = []
     for alto_path in alto_files:
         pnum = int(re.search(r"X0*(\d+)", alto_path.stem).group(1))
-        # log JSON dans logs/, ALTO dans ocr/ — comme le pipeline Pero
+        # log JSON dans logs/, ALTO dans ocr/ : comme le pipeline Pero
         json_path = out_log_dir / f"X{pnum:07d}.json"
         out_alto  = out_ocr_dir / alto_path.name
         try:
@@ -510,7 +579,7 @@ if __name__ == "__main__":
     else:
         fascicules = sorted(d.name for d in ALTO_DIR.iterdir() if d.is_dir())
 
-    print(f"📂 {len(fascicules)} fascicule(s) — sortie : {out_base}")
+    print(f"📂 {len(fascicules)} fascicule(s) : sortie : {out_base}")
     print(f"🔑 Clé Mistral chargée depuis {ENV_FILE}")
 
     if not args.dry_run:

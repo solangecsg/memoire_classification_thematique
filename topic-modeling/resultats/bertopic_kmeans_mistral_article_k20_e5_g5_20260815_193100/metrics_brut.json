@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2663,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2725,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2012,
+    "top_words": "lille demande prix maison vendre renault adresser bureau citroën echo"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2626,
+    "top_words": "gouvernement allemagne guerre général pays italie prince troupes angleterre politique"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3979,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes revue folies"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3389,
+    "top_words": "loi commission conseil président ministre projet chambre général gouvernement séance"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2708,
+    "top_words": "ans police femme mort saint enquête jeune âgé arrêté crime"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3067,
+    "top_words": "gouvernement loi politique parti vouloir droit assemblée pays guerre liberté"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2916,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure pilules"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1759,
+    "top_words": "général exposition honneur concours saint infanterie régiment capitaine président médaille"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3439,
+    "top_words": "homme yeux jeune femme fille fortuné tête père patron mère"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2118,
+    "top_words": "cours kil courant prix banque cote marché lib disponible blés"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2841,
+    "top_words": "temps peuple monde point pays président homme gouvernement hommes grand"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2707,
+    "top_words": "académie vie histoire livre auteur homme art monde œuvre prix"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.3998,
+    "top_words": "théâtre rôle succès public artistes opéra talent artiste scène représentation"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1903,
+    "top_words": "grève ouvriers travail francs réunion conseil comité prix président général"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1998,
+    "top_words": "volume librairie jésus francs prix abonnement vol poste grand pages"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.3741,
+    "top_words": "banque cours crédit actions nord société fer valeurs lyon gaz"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2315,
+    "top_words": "ouest port nord temps température troupes baromètre mer fort commandant"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1434,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve marchand"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.1586,
+    "top_words": "billets dunkerque oran classe départ fer départs ang nord saint"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

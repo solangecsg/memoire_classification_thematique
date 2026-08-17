@@ -1,0 +1,302 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num nord sud feu ennemi partie allemands morts blessés front",
+    "size": 111
+  },
+  {
+    "topic_id": 1,
+    "top_words": "jacques patron fortuné troppmann président jean sais voulez témoin pouvoirs",
+    "size": 22
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num comité société membres réunion union président congrès association générale",
+    "size": 108
+  },
+  {
+    "topic_id": 3,
+    "top_words": "film films cinéma miss angleterre mètres auteurs anglais américain longueur",
+    "size": 65
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ans num prix concours jury grand médaille société chevaux décerné",
+    "size": 37
+  },
+  {
+    "topic_id": 5,
+    "top_words": "num francs société millions banque compagnie titres actions capital caisse",
+    "size": 101
+  },
+  {
+    "topic_id": 6,
+    "top_words": "musique température radio concert orchestre george temps corps vent concerts",
+    "size": 47
+  },
+  {
+    "topic_id": 7,
+    "top_words": "industrie commerce pays produits grande angleterre prix millions intérêts colonies",
+    "size": 36
+  },
+  {
+    "topic_id": 8,
+    "top_words": "général num armée guerre capitaine commandant militaire colonel officiers chef",
+    "size": 98
+  },
+  {
+    "topic_id": 9,
+    "top_words": "noir laine velours rouge dames blanc mètre soie qualité soldée",
+    "size": 41
+  },
+  {
+    "topic_id": 10,
+    "top_words": "num prix vente maison vendre occasion choix grand hôtel meubles",
+    "size": 165
+  },
+  {
+    "topic_id": 11,
+    "top_words": "rôle succès public théâtre artistes grand artiste opéra représentation scène",
+    "size": 83
+  },
+  {
+    "topic_id": 12,
+    "top_words": "grand livre histoire auteur volume académie livres roman vient ouvrage",
+    "size": 103
+  },
+  {
+    "topic_id": 13,
+    "top_words": "loi art chambre ministre gouvernement ordre droit ministère faits roi",
+    "size": 33
+  },
+  {
+    "topic_id": 14,
+    "top_words": "num saint marseille lyon oran alger nice rhône loire haute",
+    "size": 32
+  },
+  {
+    "topic_id": 15,
+    "top_words": "num ans police mort saint arrêté âgé commissaire coups femme",
+    "size": 251
+  },
+  {
+    "topic_id": 16,
+    "top_words": "père fille femme mère fils enfant jeune ans enfants famille",
+    "size": 46
+  },
+  {
+    "topic_id": 17,
+    "top_words": "exposition médaille honneur universelle française grand papier argent concours médailles",
+    "size": 21
+  },
+  {
+    "topic_id": 18,
+    "top_words": "num maladies médecins traitement santé estomac flacon sang docteur médecin",
+    "size": 135
+  },
+  {
+    "topic_id": 19,
+    "top_words": "saint jean henri louis marie andré pierre paul georges charles",
+    "size": 84
+  },
+  {
+    "topic_id": 20,
+    "top_words": "maison prix louer vendre francs grande adresser cuisine vente pièces",
+    "size": 75
+  },
+  {
+    "topic_id": 21,
+    "top_words": "petit voir homme yeux vieux chambre grand mains main porte",
+    "size": 64
+  },
+  {
+    "topic_id": 22,
+    "top_words": "conseil commission administration travaux vouloir francs décret service municipal personnel",
+    "size": 116
+  },
+  {
+    "topic_id": 23,
+    "top_words": "jeune tête fille répondit porte demanda yeux prit voix homme",
+    "size": 46
+  },
+  {
+    "topic_id": 24,
+    "top_words": "président ministre conseil maire général ancien directeur secrétaire préfet république",
+    "size": 118
+  },
+  {
+    "topic_id": 25,
+    "top_words": "num prix mètres placé placés temps francs course gagnant col",
+    "size": 39
+  },
+  {
+    "topic_id": 26,
+    "top_words": "num nord saint fin cour comptant new colombes exp petite",
+    "size": 341
+  },
+  {
+    "topic_id": 27,
+    "top_words": "num fer compagnie chemin train service gare chemins départ saint",
+    "size": 92
+  },
+  {
+    "topic_id": 28,
+    "top_words": "num prix grand club épreuve auto francs coupe course mètres",
+    "size": 133
+  },
+  {
+    "topic_id": 29,
+    "top_words": "allemagne gouvernement berlin guerre allemands allemand pays italie paix autriche",
+    "size": 108
+  },
+  {
+    "topic_id": 30,
+    "top_words": "école enseignement écoles enfants élèves cours professeur instruction sciences jeunes",
+    "size": 68
+  },
+  {
+    "topic_id": 31,
+    "top_words": "point vue nouvelle œuvre question grande temps travail intérêt moyens",
+    "size": 86
+  },
+  {
+    "topic_id": 32,
+    "top_words": "peuple guerre gouvernement pays liberté paix nationale hommes français nation",
+    "size": 81
+  },
+  {
+    "topic_id": 33,
+    "top_words": "prince gouvernement anglais angleterre num espagne londres empereur roi reine",
+    "size": 192
+  },
+  {
+    "topic_id": 34,
+    "top_words": "manœuvres unis états grandes new york américains flotte française amiral",
+    "size": 57
+  },
+  {
+    "topic_id": 35,
+    "top_words": "art exposition palais salle beaux peinture arts œuvre tableaux musée",
+    "size": 70
+  },
+  {
+    "topic_id": 36,
+    "top_words": "théâtre opéra comédie actes comique acte mmes spectacle vaudeville français",
+    "size": 137
+  },
+  {
+    "topic_id": 37,
+    "top_words": "num francs prix poste vente centimes librairie abonnement annonces gratuitement",
+    "size": 147
+  },
+  {
+    "topic_id": 38,
+    "top_words": "cour prison tribunal président affaire procès justice avocat condamné général",
+    "size": 96
+  },
+  {
+    "topic_id": 39,
+    "top_words": "num tour pts tours coureurs départ points course français équipe",
+    "size": 67
+  },
+  {
+    "topic_id": 40,
+    "top_words": "pays hommes voir droit honneur opinion question besoin voulu confiance",
+    "size": 104
+  },
+  {
+    "topic_id": 41,
+    "top_words": "num revue palace champs cirque studio élysées opéra grand attractions",
+    "size": 52
+  },
+  {
+    "topic_id": 42,
+    "top_words": "équipe match club champion finale stade français championnat poids points",
+    "size": 149
+  },
+  {
+    "topic_id": 43,
+    "top_words": "homme cœur vie amour point hommes âme dieu monde mort",
+    "size": 78
+  },
+  {
+    "topic_id": 44,
+    "top_words": "foule fête roi palais hôtel texte grande visite monde gare",
+    "size": 50
+  },
+  {
+    "topic_id": 45,
+    "top_words": "eau vin demi vins verre terre sucre frais pommes peau",
+    "size": 62
+  },
+  {
+    "topic_id": 46,
+    "top_words": "saint église roi abbé pape cardinal catholique évêque politique rome",
+    "size": 41
+  },
+  {
+    "topic_id": 47,
+    "top_words": "demande bureau ans lettres echo ecrire références écrire réponse bonne",
+    "size": 39
+  },
+  {
+    "topic_id": 48,
+    "top_words": "num cpt remb lyon gaz crédit act lib banque nord",
+    "size": 101
+  },
+  {
+    "topic_id": 49,
+    "top_words": "femmes femme monde beauté petits tête grands cheveux noël belle",
+    "size": 61
+  },
+  {
+    "topic_id": 50,
+    "top_words": "num projet commission séance chambre loi discussion gouvernement président demande",
+    "size": 106
+  },
+  {
+    "topic_id": 51,
+    "top_words": "voiture mètres chevaux appareil moteur eau vitesse voitures route construction",
+    "size": 47
+  },
+  {
+    "topic_id": 52,
+    "top_words": "lille num nord roubaix calais dunkerque bruxelles douai tourcoing arras",
+    "size": 34
+  },
+  {
+    "topic_id": 53,
+    "top_words": "ouvriers travail grève travailleurs parti socialistes mineurs ouvrier socialiste ordre",
+    "size": 56
+  },
+  {
+    "topic_id": 54,
+    "top_words": "assemblée élections parti politique électeurs majorité loi vote droit république",
+    "size": 97
+  },
+  {
+    "topic_id": 55,
+    "top_words": "courant kil prix marché cours disponible cote vap blés ventes",
+    "size": 33
+  },
+  {
+    "topic_id": 56,
+    "top_words": "num cours banque fer nord valeurs chemins compagnie bourse mines",
+    "size": 47
+  },
+  {
+    "topic_id": 57,
+    "top_words": "temps fort point mieux mal voir vient partie voit trouve",
+    "size": 120
+  },
+  {
+    "topic_id": 58,
+    "top_words": "num maison lot mise oran civil notaire tribunal demeurant francs",
+    "size": 52
+  },
+  {
+    "topic_id": 59,
+    "top_words": "num renault int citroën cond prix places cabriolet peugeot luxe",
+    "size": 46
+  }
+]

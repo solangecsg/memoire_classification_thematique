@@ -1,0 +1,2745 @@
+{
+  "fascicule": "4610674",
+  "usage": {
+    "prompt_tokens": 145280,
+    "completion_tokens": 8122,
+    "total_tokens": 153402,
+    "cached_tokens": 0,
+    "n_calls": 9,
+    "temps_reponse_total_s": 140.25,
+    "temps_reponse_min_s": 3.1,
+    "temps_reponse_max_s": 21.85,
+    "temps_reponse_moyen_s": 15.58,
+    "temps_reponse_median_s": 16.72
+  },
+  "articles": [
+    {
+      "article_id": "DIV.41",
+      "title": "Parlant de la \" Conférence impériale \" M. Louis Rollin ministre des Colonies, nous dit : \" La machine est en place, elle fonctionnera, elle produira. \"",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.85",
+      "title": "Aux portes de l'Élysée",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.93",
+      "title": "FIANÇAILLES PRINCIÈRES",
+      "themes": [
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.101",
+      "title": "Les pourparlers franco-italiens n'ont pas encore donné de résultat définitif : Il n'est pas impossible que, faute de temps avant la session du conseil de la S. D. N. qui se réunit à Genève, le 10 janvier, le voyage à Rome de M. Pierre Laval fût quelque peu retardé.",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.113",
+      "title": "APRÈS LES TROUBLES D'ESPAGNE : La libération de M. Azana ancien président du Conseil espagnol",
+      "themes": [
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.122",
+      "title": "LE MONTAGE DE L 'HYDRAVION \" LIEUTENANT=DE=VAISSEAU=PARIS \"",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.130",
+      "title": "UNE VIOLENTE BATAILLE SERAIT EN COURS ENTRE ITALIENS ET ABYSSINS",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.136",
+      "title": "La Maison Royale d'Italie achète à Marseille un portrait de S. M. Maria-Pia",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.143",
+      "title": "Le mariage du \" lord chief justice \" britannique",
+      "themes": [
+        {
+          "code": "20001236",
+          "label_fr": "Mariage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.151",
+      "title": "LE MONUMENT D'ALBERT Ier ROI DES BELGES SERA ÉRIGE COURS-LA-REINE : BRILLANT SUCCES LE SOUSCRIPTION. DE LA",
+      "themes": [
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.160",
+      "title": "LE COMMERCE PARISIEN FINIT L'ANNÉE 1934 SUR UNE IMPRESSION OPTIMISTE",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000192",
+          "label_fr": "Stratégie et marketing"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.171",
+      "title": "RÉUNION TROUBLÉE DANS LA SARRE",
+      "themes": [
+        {
+          "code": "20000069",
+          "label_fr": "Emeutes"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.177",
+      "title": "EN MARGE DE L'AFFAIRE STAVISKY : On découvre que Poulner est à la tête d'une bande vivant du trafic de titres maquillés Des mandats d'arrêt sont décernés contre lui et contre trois de ses complices dont deux — Pélissier et Popp — ont été écroués dès hier",
+      "themes": [
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        },
+        {
+          "code": "20000098",
+          "label_fr": "Détournement"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.230",
+      "title": "demain :",
+      "themes": [
+        {
+          "code": "20000575",
+          "label_fr": "Initative populaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.238",
+      "title": "M. Mussolini n'a pas oublié les enfants du chancelier Dollfuss",
+      "themes": [
+        {
+          "code": "20000507",
+          "label_fr": "Plantes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.249",
+      "title": "LES DÉCIVILISÉS",
+      "themes": [
+        {
+          "code": "20000404",
+          "label_fr": "Lycées"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        },
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.283",
+      "title": "LA FLAMME DU SOUVENIR",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.288",
+      "title": "EXPOSITIONS",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20001135",
+          "label_fr": "Exposition artistique"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.298",
+      "title": "INFORMATIONS RELIGIEUSES",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.303",
+      "title": "BIENFAISANCE",
+      "themes": [
+        {
+          "code": "20000818",
+          "label_fr": "Activités caritatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.309",
+      "title": "BALS",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.314",
+      "title": "T. S. F.",
+      "themes": [
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.319",
+      "title": "UNE JEUNE FRANÇAISE FAIT EN ITALIE, UNE CHUTE MORTELLE DE CHEVAL",
+      "themes": [
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        },
+        {
+          "code": "20000923",
+          "label_fr": "Équitation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.324",
+      "title": "Annonces",
+      "themes": [
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.329",
+      "title": "L'ACTIVITÉ DU SERVICE DES RÉCLAMATIONS AUX P. T. T.",
+      "themes": [
+        {
+          "code": "20000372",
+          "label_fr": "Institution économique internationale"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.342",
+      "title": "Mlle Paris sur la Côte d'Azur",
+      "themes": [
+        {
+          "code": "20000041",
+          "label_fr": "Festivals et commémorations"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.348",
+      "title": "Des braconniers belges tuent un garde-chasse",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.354",
+      "title": "Jeudi auront lieu à Scheveningen les obsèques de M. Adatci",
+      "themes": [
+        {
+          "code": "20000126",
+          "label_fr": "Droit international"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.362",
+      "title": "NOS PROBLEMES DE MOTS CROISÉS",
+      "themes": [
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.376",
+      "title": "CHAQUE JOUR, AU RÉVEIL : QUELQUES GRAINS D'OPTIMISME",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.389",
+      "title": "DIV.389",
+      "themes": [
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        },
+        {
+          "code": "20000040",
+          "label_fr": "Coutumes et traditions"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.413",
+      "title": "PAUL REBOUX : GERARD CHEZ LES PHOQUES Livre d'étrennes",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.442",
+      "title": "PONT DES ARTS",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        },
+        {
+          "code": "20000043",
+          "label_fr": "Bibliothèque et musée"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.455",
+      "title": "LA FÉERIE FLORALE CHEZ ANDRÉ BAUMANN",
+      "themes": [
+        {
+          "code": "20000507",
+          "label_fr": "Plantes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.475",
+      "title": "DIV.475",
+      "themes": [
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.478",
+      "title": "LES COURS",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000704",
+          "label_fr": "Pape"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.483",
+      "title": "MONDE OFFICIEL",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.488",
+      "title": "CORPS DIPLOMATIQUE",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.494",
+      "title": "INFORMATIONS",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.503",
+      "title": "CERCLES",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000392",
+          "label_fr": "Marché monétaire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.511",
+      "title": "VÉNERIE",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.518",
+      "title": "RÉCEPTIONS",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        },
+        {
+          "code": "20000540",
+          "label_fr": "Jeux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.524",
+      "title": "NAISSANCES",
+      "themes": [
+        {
+          "code": "20000794",
+          "label_fr": "Bébé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.529",
+      "title": "FIANÇAILLES",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.538",
+      "title": "MARIAGES",
+      "themes": [
+        {
+          "code": "20000786",
+          "label_fr": "Mariage"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.543",
+      "title": "DEUILS",
+      "themes": [
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.558",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.561",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.564",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.570",
+      "title": "Une jeune Américaine a été arrêtée à la frontière sarroise",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.578",
+      "title": "Le cardinal Bourne est gravement malade",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.583",
+      "title": "A Thonon-les-Bains M. Jacquier parle du régime parlementaire",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.591",
+      "title": "On a célébré neuf mille mariages le 26 décembre, en Pologne",
+      "themes": [
+        {
+          "code": "20001236",
+          "label_fr": "Mariage"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.596",
+      "title": "POUR LA BEAUTÉ DE PARIS : Des concours sont organisés à cet effet.",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        },
+        {
+          "code": "20000440",
+          "label_fr": "Marais"
+        },
+        {
+          "code": "20000423",
+          "label_fr": "Politique de l'environnement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.610",
+      "title": "M. Herriot préside l'inauguration des bâtiments d'une coopérative de construction",
+      "themes": [
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.617",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.622",
+      "title": "Un cultivateur tue sa femme",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.628",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000615",
+          "label_fr": "Parlement"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.645",
+      "title": "LE PÈLERINAGE DES ANCIENS SOLDATS DE L'ARMÉE D'ORIENT EN YOUGOSLAVIE par notre correspondant particulier",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.663",
+      "title": "L'attentat de Marseille",
+      "themes": [
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.668",
+      "title": "M. Ouzounovitch va quitter la présidence du parti national yougoslave",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20001384",
+          "label_fr": "Parti politique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.674",
+      "title": "Au Maroc, un matador est blessé",
+      "themes": [
+        {
+          "code": "20000875",
+          "label_fr": "Tauromachie"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.682",
+      "title": "DIV.682",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.694",
+      "title": "LES ENTRETIENS DIPLOMATIQUES DE M. DE CHAMBRUN A ROME",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.702",
+      "title": "LES VIOLENCES ANTIRELIGIEUSES AU MEXIQUE : Cinq catholiques sont tués",
+      "themes": [
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000677",
+          "label_fr": "Islam"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.711",
+      "title": "Une église profanée en Autriche",
+      "themes": [
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20001285",
+          "label_fr": "Vandalisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.716",
+      "title": "Les évêques catholiques allemands ordonnent des prières pour le jour du plébiscite de la Sarre",
+      "themes": [
+        {
+          "code": "20000694",
+          "label_fr": "Ramadan"
+        },
+        {
+          "code": "20000584",
+          "label_fr": "Référendum"
+        },
+        {
+          "code": "20000688",
+          "label_fr": "Conflit religieux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.730",
+      "title": "Le Reich redoute la concurrence française en Russie",
+      "themes": [
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        },
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.735",
+      "title": "UNE PENICHE CHAVIRE AU PORTUGAL : Il y aurait une douzaine de disparus.",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.743",
+      "title": "Une auto capote une jeune fille est tuée",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.749",
+      "title": "ET POUR BIEN COMMENCER L'ANNÉE",
+      "themes": [
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.755",
+      "title": "ZINOVIEV ET KAMENEV EN ROUTE POUR L'EXIL",
+      "themes": [
+        {
+          "code": "20000650",
+          "label_fr": "Groupe de pression"
+        },
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.764",
+      "title": "DIV.764",
+      "themes": [
+        {
+          "code": "20000606",
+          "label_fr": "Pouvoir exécutif"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.768",
+      "title": "DIV.768",
+      "themes": [
+        {
+          "code": "20000415",
+          "label_fr": "Étudiants"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.771",
+      "title": "DIV.771",
+      "themes": [
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        },
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.774",
+      "title": "DIV.774",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.777",
+      "title": "DIV.777",
+      "themes": [
+        {
+          "code": "20001236",
+          "label_fr": "Mariage"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.780",
+      "title": "DIV.780",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000133",
+          "label_fr": "Police"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.783",
+      "title": "DIV.783",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.787",
+      "title": "LA SITUATION POLITIQUE AUX ÉTATS-UNIS A L'AUBE DE L'ANNÉE 1935",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000350",
+          "label_fr": "Banque centrale"
+        },
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.804",
+      "title": "LA CIRCULATION ET L'HIVER",
+      "themes": [
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.809",
+      "title": "Nouvelles défections dans l'Église officielle du Reich",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000677",
+          "label_fr": "Islam"
+        },
+        {
+          "code": "20000592",
+          "label_fr": "Droits de l'homme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.816",
+      "title": "Le travail reprend dans les mines asturiennes",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000529",
+          "label_fr": "Conflit social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.822",
+      "title": "L'explorateur Sven Hedin en Chine",
+      "themes": [
+        {
+          "code": "20000738",
+          "label_fr": "Exploration scientifique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.827",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.833",
+      "title": "LA SÛRETÉ NATIONALE ARRÊTE UN ESCROC QUI A FAIT DANS L'ORNE DE NOMBREUSES DUPES",
+      "themes": [
+        {
+          "code": "20000097",
+          "label_fr": "Fraude"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.845",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000505",
+          "label_fr": "Célébrités"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.851",
+      "title": "L'empereur du Japon est légèrement souffrant",
+      "themes": [
+        {
+          "code": "20000506",
+          "label_fr": "Royauté"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.856",
+      "title": "Le Noël des enfants pauvres a Vienne",
+      "themes": [
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        },
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.861",
+      "title": "A la recherche d'un avion américain",
+      "themes": [
+        {
+          "code": "20000143",
+          "label_fr": "Accident de transport"
+        },
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.867",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000049",
+          "label_fr": "Périodiques"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.886",
+      "title": "LE FOOTBALL A SAINT-OUEN",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.901",
+      "title": "Poids et haltères",
+      "themes": [
+        {
+          "code": "20001093",
+          "label_fr": "Haltérophilie"
+        },
+        {
+          "code": "20001239",
+          "label_fr": "Activité physique et fitness"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.909",
+      "title": "Victoire de nos hockeyeurs en Allemagne",
+      "themes": [
+        {
+          "code": "20000965",
+          "label_fr": "Hockey sur glace"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.917",
+      "title": "Dans les coulisses du Vél' d'Hiv'",
+      "themes": [
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        },
+        {
+          "code": "20000934",
+          "label_fr": "Patinage artistique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.926",
+      "title": "Nouveau succès des rugbymen bayonnais",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.934",
+      "title": "Victoire belge à Montreuil",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.942",
+      "title": "Le tournoi de Noël de tennis au Sporting",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.956",
+      "title": "TENNIS : L'heure a sonné pour les professionnels",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20001323",
+          "label_fr": "Entraînement sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.971",
+      "title": "QUATRE FINALES SERONT DISPUTÉES AUJOURD'HUI AU SPORTING",
+      "themes": [
+        {
+          "code": "20001085",
+          "label_fr": "Tennis"
+        },
+        {
+          "code": "20001304",
+          "label_fr": "Prix sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.991",
+      "title": "LE CHAMPION BELGE VICTOR HONOREZ A GAGNE LE CROSS DE LA BOISSIÈRE",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1018",
+      "title": "Le style bayonnais toujours triomphant : Hier à Jean-Bouin, l'Aviron Bayonnais, pourtant incomplet, a largement battu le Stade par 25 à 3.",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1044",
+      "title": "RÉSULTATS ET CLASSEMENTS",
+      "themes": [
+        {
+          "code": "20001176",
+          "label_fr": "Rugby"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1063",
+      "title": "UNE FÊTE POUR LES SPORTIFS",
+      "themes": [
+        {
+          "code": "20000551",
+          "label_fr": "Vacances"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1069",
+      "title": "LES HALTÉROPHILES DE FRANCE ONT BATTU CEUX D'AUTRICHE",
+      "themes": [
+        {
+          "code": "20001093",
+          "label_fr": "Haltérophilie"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1105",
+      "title": "LE CHAMPION DE SKI ZOGG GRIEVEMENT BLESSE",
+      "themes": [
+        {
+          "code": "20001056",
+          "label_fr": "Ski"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1111",
+      "title": "POUR LE CHAMPIONNAT DU MONDE DE HOCKEY SUR GLACE",
+      "themes": [
+        {
+          "code": "20000965",
+          "label_fr": "Hockey sur glace"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1118",
+      "title": "VIEZ, CHAMPION DE BOXE DES POIDS LEGERS",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1123",
+      "title": "PEUZIAT REMPORTE LE CROSS CYCLO-PEDESTRE DE CLAYES",
+      "themes": [
+        {
+          "code": "20000827",
+          "label_fr": "Athlétisme"
+        },
+        {
+          "code": "20001333",
+          "label_fr": "Cyclisme sur route"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1130",
+      "title": "CHAMPIONNAT DE PARIS DE BALLE AU PANIER",
+      "themes": [
+        {
+          "code": "20001089",
+          "label_fr": "Volley-ball"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1140",
+      "title": "DIV.1140",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1146",
+      "title": "Sochaux, vainqueur de Cannes, reprend seul le commandement, Strasbourg n'ayant pu réussir qu'un match nul contre l'Excelsior. Nouvelle victoire des Sétois. En deuxième division Metz rejoint Lens.",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1169",
+      "title": "RÉSULTATS ET CLASSEMENTS",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1190",
+      "title": "BOXE : PETIT-BIQUET RESTE CHAMPION D'EUROPE DE BOXE",
+      "themes": [
+        {
+          "code": "20000856",
+          "label_fr": "Boxe"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1196",
+      "title": "CYCLISME : LES FRANÇAIS ONT TRIOMPHÉ HIER DES CHAMPIONS ITALIENS",
+      "themes": [
+        {
+          "code": "20000892",
+          "label_fr": "Cyclisme"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1210",
+      "title": "SPORTS D'HIVER : TEMPÉRATURE ET HAUTEUR DE NEIGE DES STATIONS HIVERNALES",
+      "themes": [
+        {
+          "code": "20001056",
+          "label_fr": "Ski"
+        },
+        {
+          "code": "20001129",
+          "label_fr": "Phénomène météorologique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1228",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1234",
+      "title": "LE DRAME DE CHALONS-SUR-MARNE SERAIT DU A LA NEURASTHÉNIE",
+      "themes": [
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1240",
+      "title": "QUATRE CAMBRIOLEURS SOUS LES VERROUS",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1245",
+      "title": "DANS UN PATRONAGE UN INCENDIE FAIT UN MORT ET CINQ BLESSES",
+      "themes": [
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        },
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1250",
+      "title": "JULIETTE CALVET, QUI TUA SON AMI A COUPS DE HACHE, A AUSSI EMPOISONNE SA FILLETTE",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1256",
+      "title": "LA JAMBE BROYEE PAR UN TRAIN UNE FEMME SE FAIT UNE LIGATURE EN ATTENDANT DU SECOURS",
+      "themes": [
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        },
+        {
+          "code": "20000168",
+          "label_fr": "Secours d'urgence"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1263",
+      "title": "UN ENFANT TUE SON JEUNE FRERE EN JOUANT AVEC UNE CARABINE",
+      "themes": [
+        {
+          "code": "20000456",
+          "label_fr": "Blessure"
+        },
+        {
+          "code": "20000503",
+          "label_fr": "Mésaventures"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1268",
+      "title": "DOUBLE ASPHYXIE PAR LE GAZ",
+      "themes": [
+        {
+          "code": "20000810",
+          "label_fr": "Fin de vie et mort"
+        },
+        {
+          "code": "20000458",
+          "label_fr": "Troubles mentaux et comportementaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1274",
+      "title": "L'ASSASSIN LE BON A DILAPIDE OU CACHE L'ARGENT POUR LEQUEL IL TUA UNE FERMIERE PRES DE GAND",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1281",
+      "title": "INFORMATIONS RÉSUMÉES",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1289",
+      "title": "LES CONCERTS : A la mémoire de Charles Lamoureux",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1307",
+      "title": "LA LIQUIDATION JUDICIAIRE CITROEN",
+      "themes": [
+        {
+          "code": "20000107",
+          "label_fr": "Tribunal"
+        },
+        {
+          "code": "20000363",
+          "label_fr": "Organisation économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1316",
+      "title": "Le renouvellement des cartes d'étrangers",
+      "themes": [
+        {
+          "code": "20000634",
+          "label_fr": "Migrations"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1321",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1330",
+      "title": "VIOLETTE NOZIÈRES, A QUITTÉ LA PETITE-ROQUETTE",
+      "themes": [
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        },
+        {
+          "code": "20000100",
+          "label_fr": "Enlèvement"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1338",
+      "title": "Le crime du Palace",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1344",
+      "title": "LA FOUDRE ABAT UN CHÊNE DE 500 ANS",
+      "themes": [
+        {
+          "code": "20000151",
+          "label_fr": "Catastrophe naturelle"
+        },
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1352",
+      "title": "LE THÉATRE DE L'ONCLE SÉBASTIEN",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000415",
+          "label_fr": "Étudiants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1363",
+      "title": "DIV.1363",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1366",
+      "title": "DIV.1366",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1369",
+      "title": "DIV.1369",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000539",
+          "label_fr": "Associations et clubs"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1380",
+      "title": "PETITES NOUVELLES",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1390",
+      "title": "DIV.1390",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1397",
+      "title": "DIV.1397",
+      "themes": [
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1405",
+      "title": "DIV.1405",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1409",
+      "title": "DIV.1409",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1415",
+      "title": "DIV.1415",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1421",
+      "title": "LES PREMIÈRES : LUNE-ROUSSE. — « La Revue loufoque ». de M. Pierre Dac.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1431",
+      "title": "DIV.1431",
+      "themes": [
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1438",
+      "title": "DIV.1438",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1442",
+      "title": "DIV.1442",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1445",
+      "title": "DIV.1445",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1455",
+      "title": "DIV.1455",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1462",
+      "title": "LA PRÉSENTATION DU \"FILS PRODIGUE \"",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1472",
+      "title": "DIV.1472",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1478",
+      "title": "DIV.1478",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1490",
+      "title": "DIV.1490",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1496",
+      "title": "DIV.1496",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1504",
+      "title": "DIV.1504",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1515",
+      "title": "DIV.1515",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1527",
+      "title": "En matinée :",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1534",
+      "title": "En soirée :",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1560",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000058",
+          "label_fr": "Intervention militaire internationale"
+        },
+        {
+          "code": "20000256",
+          "label_fr": "Énergie et ressources"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1569",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        },
+        {
+          "code": "20000479",
+          "label_fr": "Politique de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1572",
+      "title": "TERRITOIRE INTERDIT : Drames et mystères de l'U. R. S. S. 5 par DENNIS WHEATLEY",
+      "themes": [
+        {
+          "code": "20000103",
+          "label_fr": "Terrorisme"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000747",
+          "label_fr": "Histoire"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1644",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000004",
+          "label_fr": "Bande dessinée"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1655",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1660",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000457",
+          "label_fr": "État de santé"
+        },
+        {
+          "code": "20000467",
+          "label_fr": "Médicaments"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1665",
+      "title": "LE TIRAGE DE LA LOTERIE MAROCAINE",
+      "themes": [
+        {
+          "code": "20000549",
+          "label_fr": "Jeux de hasard et loteries"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1673",
+      "title": "Pour la béatification d'un prêtre vendéen",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20001346",
+          "label_fr": "Canonisation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1678",
+      "title": "LES ÉTRENNES DU POUPON",
+      "themes": [
+        {
+          "code": "20000630",
+          "label_fr": "Assistance sociale"
+        },
+        {
+          "code": "20000790",
+          "label_fr": "Enfants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1683",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1721",
+      "title": "VINCENNES : Victoire d'Idalie B dans le Prix Marcel-Lau rent",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1729",
+      "title": "Résultats du dimanche 30 décembre",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1786",
+      "title": "NICE : Résultats du dimanche 30 décembre",
+      "themes": [
+        {
+          "code": "20000960",
+          "label_fr": "Hippisme"
+        },
+        {
+          "code": "20001302",
+          "label_fr": "Record sportif"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1827",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000463",
+          "label_fr": "Organisations de santé"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1837",
+      "title": "LES EMISSIONS LES PLUS IMPORTANTES DE DEMAIN",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1853",
+      "title": "LES PRINCIPALES ÉMISSIONS DE LA JOURNÉE",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1896",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000331",
+          "label_fr": "Tourisme et loisirs"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1910",
+      "title": "CHEMINS DE FER P.-L.-M. : Places de lits-salons et de couchettes à moitié prix",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000316",
+          "label_fr": "Métaux et minéraux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1918",
+      "title": "CHEMINS DE FER DE L'ETAT",
+      "themes": [
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        },
+        {
+          "code": "20000044",
+          "label_fr": "Patrimoine"
+        },
+        {
+          "code": "20000413",
+          "label_fr": "Examen"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1924",
+      "title": "GRANDS RÉSEAUX DE CHEMINS DE FER FRANÇAIS : D'importants avantages pour vos voyages circulaires.",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1932",
+      "title": "SPORTS D'HIVER",
+      "themes": [
+        {
+          "code": "20001056",
+          "label_fr": "Ski"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1940",
+      "title": "CHEMINS DE FER D'ORLEANS ET DU MIDI : Sports d'hiver en Auvergne. (Hiver 1934-1935.)",
+      "themes": [
+        {
+          "code": "20001056",
+          "label_fr": "Ski"
+        },
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1949",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        },
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        },
+        {
+          "code": "20000532",
+          "label_fr": "Pension de retraite"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1963",
+      "title": "DIV.1963",
+      "themes": [
+        {
+          "code": "20000512",
+          "label_fr": "Salarié"
+        },
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1971",
+      "title": "BUREAUX DE PLACEMENT (8 fr.)",
+      "themes": [
+        {
+          "code": "20000188",
+          "label_fr": "Ressources humaines"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1976",
+      "title": "OCCASIONS (8 fr.)",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1981",
+      "title": "LOCATIONS NON MEUBLEES (15 fr.)",
+      "themes": [
+        {
+          "code": "20000235",
+          "label_fr": "Construction et immobilier"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1986",
+      "title": "CHIENS (8 fr.)",
+      "themes": [
+        {
+          "code": "20000500",
+          "label_fr": "Animaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.1992",
+      "title": "PIANOS (8 fr.)",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2000",
+      "title": "BIJOUX (8 fr.)",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2007",
+      "title": "VINS (8 fr.)",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2012",
+      "title": "CONSERVES (8 fr.)",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2017",
+      "title": "RESTAURANTS (8 fr.)",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2022",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20001065",
+          "label_fr": "Football"
+        },
+        {
+          "code": "20000498",
+          "label_fr": "Prix et récompenses"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2039",
+      "title": "DIV.2039",
+      "themes": [
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2043",
+      "title": "Trois cloches ont été bénies hier à l'église Saint-Jean de Montmartre",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2051",
+      "title": "L'ÉLARGISSEMENT DE LA ROUTE DE QUARANTE-SOUS SE POURSUIT ACTIVEMENT DEPUIS QUELQUES JOURS",
+      "themes": [
+        {
+          "code": "20000628",
+          "label_fr": "Urbanisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2060",
+      "title": "Inauguration d'une église à Asnières",
+      "themes": [
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000659",
+          "label_fr": "Christianisme"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2068",
+      "title": "LES SPORTS D'HIVER A SAINT-MORITZ",
+      "themes": [
+        {
+          "code": "20001056",
+          "label_fr": "Ski"
+        },
+        {
+          "code": "20000934",
+          "label_fr": "Patinage artistique"
+        },
+        {
+          "code": "20001177",
+          "label_fr": "Jeux olympiques"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2077",
+      "title": "POUR SECOURIR LES \" SANS-LOGIS \"",
+      "themes": [
+        {
+          "code": "20000800",
+          "label_fr": "Sans abris"
+        },
+        {
+          "code": "20000818",
+          "label_fr": "Activités caritatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2089",
+      "title": "Au Bon Foyer de Belleville",
+      "themes": [
+        {
+          "code": "20000818",
+          "label_fr": "Activités caritatives"
+        },
+        {
+          "code": "20000800",
+          "label_fr": "Sans abris"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2097",
+      "title": "Les malades de l'hospice des Enfants-Assistés ont reçu hier des jouets",
+      "themes": [
+        {
+          "code": "20000818",
+          "label_fr": "Activités caritatives"
+        },
+        {
+          "code": "20000790",
+          "label_fr": "Enfants"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2105",
+      "title": "LA FÊTE DES PETITS SAVOYARDS DE PARIS",
+      "themes": [
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        },
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.2113",
+      "title": "L'ARBRE DE NOEL DES MORVANDEAUX",
+      "themes": [
+        {
+          "code": "20000691",
+          "label_fr": "Noël"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        },
+        {
+          "code": "20000507",
+          "label_fr": "Plantes"
+        }
+      ]
+    }
+  ]
+}

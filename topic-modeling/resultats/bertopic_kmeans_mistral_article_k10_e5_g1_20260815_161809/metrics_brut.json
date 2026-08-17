@@ -1,0 +1,60 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.3016,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3145,
+    "top_words": "conseil loi président général commission ministre chambre gouvernement assemblée droit"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1956,
+    "top_words": "prix lille ans demande maison francs vendre adresser renault bureau"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2725,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.351,
+    "top_words": "homme femme jeune temps yeux monde grand point vie fille"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2745,
+    "top_words": "gouvernement guerre allemagne général troupes pays armée roi politique français"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2422,
+    "top_words": "ans saint mort police femme âgé feu enquête temps arrêté"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.324,
+    "top_words": "banque cours nord crédit fer valeurs actions société lyon prix"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.352,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes saint revue"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3644,
+    "top_words": "rôle théâtre public succès artistes grand talent artiste scène opéra"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3254,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure guérison"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 100
+}

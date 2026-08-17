@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "homme femme jeune ans temps mort point vie yeux voir",
+    "size": 815
+  },
+  {
+    "topic_id": 1,
+    "top_words": "num ans fr prix lille demande francs maison vente bureau",
+    "size": 872
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num prix saint grand équipe club mètres course français concours",
+    "size": 741
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num gouvernement président général conseil ministre guerre pays loi commission",
+    "size": 1668
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num fr prix cours banque cpt ii nord pl ch",
+    "size": 739
+  },
+  {
+    "topic_id": 5,
+    "top_words": "théâtre grand rôle opéra succès musique public acte artistes jean",
+    "size": 559
+  }
+]

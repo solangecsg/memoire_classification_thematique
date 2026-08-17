@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num cpt lyon remb gaz crédit banque act nord fin",
+    "size": 3222
+  },
+  {
+    "topic_id": 1,
+    "top_words": "homme vie monde point cœur femme amour mal temps voir",
+    "size": 3218
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement pays droit politique liberté point peuple hommes parti esprit",
+    "size": 3401
+  },
+  {
+    "topic_id": 3,
+    "top_words": "général guerre français armée gouvernement angleterre allemagne roi prince anglais",
+    "size": 2554
+  },
+  {
+    "topic_id": 4,
+    "top_words": "num prix francs kil courant mètres kilos pts centimes disponible",
+    "size": 2404
+  },
+  {
+    "topic_id": 5,
+    "top_words": "saint ans jean louis marie henri paul pierre martin georges",
+    "size": 2066
+  },
+  {
+    "topic_id": 6,
+    "top_words": "dames rouge noir blanc tête grands blanche cheveux belle grand",
+    "size": 1653
+  },
+  {
+    "topic_id": 7,
+    "top_words": "eau temps grandes manœuvres vin corps terre grande française flotte",
+    "size": 1312
+  },
+  {
+    "topic_id": 8,
+    "top_words": "gare grande hommes pont route feu foule train terre chemin",
+    "size": 2183
+  },
+  {
+    "topic_id": 9,
+    "top_words": "président conseil commission ministre loi chambre assemblée projet membres séance",
+    "size": 3018
+  },
+  {
+    "topic_id": 10,
+    "top_words": "cour police affaire arrêté tribunal réponse justice général commissaire procès",
+    "size": 1817
+  },
+  {
+    "topic_id": 11,
+    "top_words": "num prix demande lille maison adresser vendre ans renault places",
+    "size": 2762
+  },
+  {
+    "topic_id": 12,
+    "top_words": "jeune fille femme homme ans tête mère porte enfant père",
+    "size": 2652
+  },
+  {
+    "topic_id": 13,
+    "top_words": "grand histoire exposition art palais beaux arts théâtre revue vient",
+    "size": 1810
+  },
+  {
+    "topic_id": 14,
+    "top_words": "école ans enfants enseignement santé jeunes écoles docteur élèves droit",
+    "size": 1313
+  },
+  {
+    "topic_id": 15,
+    "top_words": "théâtre rôle succès grand opéra public musique acte comique représentation",
+    "size": 1806
+  },
+  {
+    "topic_id": 16,
+    "top_words": "cours fer nord société compagnie banque chemins générale valeurs chemin",
+    "size": 1108
+  },
+  {
+    "topic_id": 17,
+    "top_words": "prix tour club équipe course français épreuve grand match départ",
+    "size": 1982
+  },
+  {
+    "topic_id": 18,
+    "top_words": "francs millions prix somme poste demande société vente bons administration",
+    "size": 1836
+  },
+  {
+    "topic_id": 19,
+    "top_words": "travail point travaux industrie vue pays ouvriers situation commerce grande",
+    "size": 1703
+  }
+]

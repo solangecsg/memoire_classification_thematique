@@ -1,0 +1,18 @@
+{
+  "model": "bertopic_kmeans",
+  "run_id": "bertopic_kmeans_mistral_article_k20_camembert_g1_20260815_141530",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 20,
+  "k_demande": 20,
+  "min_taille": null,
+  "graine": 1,
+  "n_docs": 5361,
+  "n_sans_groupe": 0,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "dangvantuan/sentence-camembert-base",
+  "modele_court": "camembert",
+  "longueur_max": 128,
+  "duree_s": 19.4
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "num saint ans lille demande francs général maison bureau service",
+    "size": 771
+  },
+  {
+    "topic_id": 1,
+    "top_words": "théâtre grand prix succès opéra rôle français musique mètres tour",
+    "size": 848
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement ministre président conseil guerre commission loi pays droit question",
+    "size": 1467
+  },
+  {
+    "topic_id": 3,
+    "top_words": "num cours prix banque nord francs cpt crédit fer lyon",
+    "size": 625
+  },
+  {
+    "topic_id": 4,
+    "top_words": "prix exposition eau grand vente francs grandes enfants grande blanc",
+    "size": 650
+  },
+  {
+    "topic_id": 5,
+    "top_words": "homme femme jeune vie hommes temps point fille tête yeux",
+    "size": 766
+  }
+]

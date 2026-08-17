@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "fois coup côté main porte nuit maison pied moment temps",
+    "size": 2199
+  },
+  {
+    "topic_id": 1,
+    "top_words": "travail industrie point service ouvrier ville produit année vue effet",
+    "size": 2113
+  },
+  {
+    "topic_id": 2,
+    "top_words": "état général armée guerre officier chef troupe corps honneur soldat",
+    "size": 1750
+  },
+  {
+    "topic_id": 3,
+    "top_words": "mme jean mlle henri louis paul charles georges andré fils",
+    "size": 1660
+  },
+  {
+    "topic_id": 4,
+    "top_words": "conseil ministre président commission chambre loi projet membre assemblée séance",
+    "size": 2613
+  },
+  {
+    "topic_id": 5,
+    "top_words": "femme enfant homme fille monsieur père mère ami cœur oeil",
+    "size": 2325
+  },
+  {
+    "topic_id": 6,
+    "top_words": "degré train eau jour manœuvre port gare temps service oran",
+    "size": 1326
+  },
+  {
+    "topic_id": 7,
+    "top_words": "homme vie monde chose temps œuvre esprit point idée livre",
+    "size": 1911
+  },
+  {
+    "topic_id": 8,
+    "top_words": "eau qualité dame couleur pièce vin table robe objet taille",
+    "size": 1707
+  },
+  {
+    "topic_id": 9,
+    "top_words": "droit parti gouvernement liberté pays france peuple ordre loi intérêt",
+    "size": 1682
+  },
+  {
+    "topic_id": 10,
+    "top_words": "rue paris lille maison place degré boulevard prix numéro avenue",
+    "size": 2410
+  },
+  {
+    "topic_id": 11,
+    "top_words": "heure soir lieu matin jour dimanche samedi janvier fête juillet",
+    "size": 1573
+  },
+  {
+    "topic_id": 12,
+    "top_words": "école exposition art étude enseignement professeur concours volume science élève",
+    "size": 1320
+  },
+  {
+    "topic_id": 13,
+    "top_words": "journal paris mois lettre bureau numéro poste article directeur ligne",
+    "size": 1286
+  },
+  {
+    "topic_id": 14,
+    "top_words": "pourcent paris fer chemin nord lyon juillet juin compagnie crédit",
+    "size": 1092
+  },
+  {
+    "topic_id": 15,
+    "top_words": "théâtre rôle mlle acte opéra succès public représentation pièce artiste",
+    "size": 1883
+  },
+  {
+    "topic_id": 16,
+    "top_words": "cours franc mois prix million valeur société marché banque action",
+    "size": 1554
+  },
+  {
+    "topic_id": 17,
+    "top_words": "france gouvernement allemagne guerre angleterre roi prince pays europe affaire",
+    "size": 1657
+  },
+  {
+    "topic_id": 18,
+    "top_words": "cour police affaire tribunal justice juge commissaire avocat prison président",
+    "size": 1357
+  },
+  {
+    "topic_id": 19,
+    "top_words": "prix france point équipe tour club course épreuve kilomètre paris",
+    "size": 1671
+  }
+]

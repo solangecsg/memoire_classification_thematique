@@ -1,37 +1,51 @@
 """
-classify_iptc_mistral_cached.py — Variante de classify_iptc_mistral.py optimisée
-pour le cache de prompt Mistral (voir classify_iptc_mistral.py pour la version
-de référence, non modifiée).
+classify_iptc_mistral_cached.py : classification IPTC avec cache d'invite
 
-Différence avec la version de base :
-  - Le contenu FIXE (instructions système + liste des 567 étiquettes) est
-    entièrement regroupé dans le message `system`, identique à chaque appel.
-    Seul le texte de l'article (variable) est dans le message `user`.
-  - Un `prompt_cache_key` constant est envoyé pour aider Mistral à reconnaître
-    le préfixe répété.
-  Objectif : dès le 2e appel, Mistral facture le préfixe fixe à ~10% du prix
-  normal au lieu de le retraiter entièrement (cache automatique côté serveur).
+CE QUE FAIT CE SCRIPT
 
-Pour chaque article d'un fascicule :
-  1. Extrait le texte complet de l'article (blocs ALTO corrigés, dans l'ordre
-     donné par le TOC/METS du fascicule)
-  2. Envoie ce texte + la liste des étiquettes IPTC "terminales" (niveau 3,
-     ou niveau 2 quand la branche s'arrête là) à Mistral
-  3. Récupère 1 à 5 thèmes choisis par Mistral parmi cette liste
-  4. Sauvegarde un JSON par fascicule : {article_id: thèmes}
+Même tâche que classify_iptc_mistral.py, dont il faut lire la docstring pour le
+détail du traitement. La différence tient à la disposition du contenu dans
+l'appel, arrangée pour tirer parti du cache d'invite du fournisseur.
 
-Entrées (voir README.md pour l'arborescence complète du dépôt) :
-  - re-ocr/corpus/original/{fascicule}/toc/T*.xml         → structure logique (METS) : ordre des blocs par article
-  - re-ocr/corpus/reocr_mistral/{fascicule}_reocr/ocr/*.xml → ALTO avec OCR corrigé (texte des blocs)
-  - classification/iptc_mediatopic_official.json                 → taxonomie IPTC officielle (SKOS)
+LE PRINCIPE DU CACHE D'INVITE
 
-Sortie :
-  - results/feuilles_mistral_cached/{fascicule}_themes.json
+Le service conserve en mémoire le préfixe d'un appel lorsqu'il revient à
+l'identique, et le facture alors à une fraction de son prix au lieu de le
+retraiter. Encore faut-il que ce préfixe soit rigoureusement constant.
 
-Usage :
-    python classify_iptc_mistral_cached.py --fascicule 4109000 --dry-run   # extraction seule, sans appel API
-    python classify_iptc_mistral_cached.py --fascicule 4109000             # test sur 1 fascicule
-    python classify_iptc_mistral_cached.py                                 # tous les fascicules
+Ce script y veille de deux manières.
+
+  1. Tout le contenu fixe, instructions et liste des 567 étiquettes, est
+     regroupé dans le message system. Seul le texte de l'article, variable d'un
+     appel à l'autre, occupe le message user. Un seul caractère qui changerait
+     dans le préfixe suffirait à invalider le cache.
+  2. Une clé de cache constante accompagne chaque appel, ce qui aide le service
+     à reconnaître le préfixe répété.
+
+CE QUE CELA RAPPORTE, ET SA LIMITE
+
+La mesure sur le sous-corpus donne 17,03 dollars par ce procédé, contre 31,91
+sans cache, soit 47 pour cent d'économie. Le groupage par lots fait mieux, avec
+3,63 dollars, parce qu'il supprime la répétition au lieu d'en réduire le prix.
+Les deux procédés se combinent, et leur emploi conjoint descend à 2,93 dollars.
+
+L'économie dépend du fournisseur et de sa politique de cache, qui peut changer.
+Le groupage, lui, ne dépend que de la manière dont les appels sont composés.
+
+ENTRÉES ET SORTIES
+
+Identiques à celles de classify_iptc_mistral.py, la sortie étant écrite dans
+results/feuilles_mistral_cached/.
+
+PAQUETS EMPLOYÉS
+
+Les mêmes que la variante de référence.
+
+USAGE
+
+    python classify_iptc_mistral_cached.py --fascicule 4109000 --dry-run
+    python classify_iptc_mistral_cached.py --fascicule 4109000
+    python classify_iptc_mistral_cached.py
 """
 
 import argparse
@@ -50,7 +64,7 @@ import requests
 
 def load_env(env_path: Path):
     """Charge les variables d'un fichier .env dans os.environ (sans dépendance
-    externe) — ne remplace jamais une variable déjà définie dans l'environnement.
+    externe) : ne remplace jamais une variable déjà définie dans l'environnement.
     """
     if not env_path.exists():
         return
@@ -91,7 +105,7 @@ MAX_THEMES = 5
 MIN_THEMES = 1
 MAX_WORKERS = 5         # appels Mistral en parallèle (par fascicule)
 
-# $ / 1M tokens (input, output) — mistral.ai/pricing/api/, pour l'estimation de coût
+# $ / 1M tokens (input, output) : mistral.ai/pricing/api/, pour l'estimation de coût
 PRICING = {
     "mistral-large-latest": (0.50, 1.50),
     "mistral-medium-latest": (1.50, 7.50),
@@ -214,10 +228,10 @@ def build_leaves(taxonomy_path, max_level=3):
 
 
 def leaves_prompt_str(leaves):
-    """Une ligne par étiquette : code — libellé.
+    """Une ligne par étiquette : code : libellé.
 
     Le contexte parent entre parenthèses n'est ajouté que pour les libellés
-    qui apparaissent plusieurs fois dans la liste (ambigus sans lui) — pour
+    qui apparaissent plusieurs fois dans la liste (ambigus sans lui) : pour
     toutes les autres étiquettes (l'immense majorité), le libellé seul suffit.
     """
     label_counts = {}
@@ -231,7 +245,7 @@ def leaves_prompt_str(leaves):
             ctx = f" ({parent} > {leaf['l1_label']})" if parent else f" ({leaf['l1_label']})"
         else:
             ctx = ""
-        lines.append(f"  {code} — {leaf['label_fr']}{ctx}")
+        lines.append(f"  {code} : {leaf['label_fr']}{ctx}")
     return "\n".join(lines)
 
 
@@ -305,7 +319,7 @@ def extract_tb_text(alto_path, tb_id):
     """Retourne le texte d'un TextBlock ALTO précis (par son ID), en concaténant
     les mots de chaque ligne. Met en cache le contenu de tout le fichier ALTO
     au premier accès (`_alto_cache`) pour éviter de re-parser le XML à chaque
-    appel — un même fichier ALTO contient plusieurs blocs d'articles différents.
+    appel : un même fichier ALTO contient plusieurs blocs d'articles différents.
     """
     key = str(alto_path)
     if key not in _alto_cache:
@@ -394,11 +408,11 @@ def _response_schema(valid_codes):
 
 def classify_article(text, leaves_str, valid_codes, retries=5):
     """Retourne (codes, usage). Lève SystemExit sur erreur d'authentification
-    (401/403 — inutile de réessayer, on arrête tout), RuntimeError sur requête
-    invalide (400 — pas de nouvelle tentative pour ce seul article), et retente
+    (401/403, inutile de réessayer, on arrête tout), RuntimeError sur requête
+    invalide (400, pas de nouvelle tentative pour ce seul article), et retente
     avec backoff sur timeout/erreur réseau/429/5xx."""
-    # Tout le contenu FIXE (instructions + liste des étiquettes) est regroupé
-    # ici, dans le message system — identique à chaque appel, donc mise en
+    # Tout le contenu invariable, instructions et liste des étiquettes, est regroupé
+    # ici, dans le message system : identique à chaque appel, donc mise en
     # cache possible côté Mistral. Seul `user_prompt` (le texte de l'article)
     # varie d'un appel à l'autre.
     system_content = SYSTEM_PROMPT + "\n" + leaves_str
@@ -436,7 +450,7 @@ Réponds avec le JSON demandé."""
 
         if r.status_code in (401, 403):
             raise SystemExit(
-                f"Erreur d'authentification Mistral ({r.status_code}) — vérifie MISTRAL_API_KEY dans {ENV_FILE}"
+                f"Erreur d'authentification Mistral ({r.status_code}) : vérifie MISTRAL_API_KEY dans {ENV_FILE}"
             )
         if r.status_code == 400:
             raise RuntimeError(f"Requête invalide (400), pas de nouvelle tentative : {r.text[:300]}")
@@ -476,7 +490,7 @@ USAGE_KEYS = ("prompt_tokens", "completion_tokens", "total_tokens", "cached_toke
 
 
 def _empty_usage():
-    """Compteur d'usage initialisé à zéro (tokens, nb d'appels) — un par fascicule,
+    """Compteur d'usage initialisé à zéro (tokens, nb d'appels) : un par fascicule,
     rempli au fil des appels API puis agrégé au niveau du run complet.
     """
     return {k: 0 for k in USAGE_KEYS} | {"n_calls": 0}
@@ -491,9 +505,9 @@ def _flatten_usage(usage):
 
 def process_fascicule(fascicule, leaves, leaves_str, valid_codes, dry_run=False):
     """Traite un fascicule entier : extrait ses articles, filtre les trop courts
-    (< MIN_WORDS), puis classe chaque article INDIVIDUELLEMENT (1 appel HTTP par article (préfixe fixe regroupé côté `system`
+    (< MIN_WORDS), puis classe chaque article séparément, un appel HTTP par article (préfixe fixe regroupé côté `system`
     pour la mise en cache, voir l'en-tête du fichier)) en parallèle (ThreadPoolExecutor). Retourne le JSON de sortie
-    du fascicule (articles + usage tokens/temps cumulés) — ou une version
+    du fascicule (articles + usage tokens/temps cumulés) : ou une version
     "squelette" (themes=None) en mode --dry-run, sans appel API.
     """
     articles = extract_articles(fascicule)
@@ -512,7 +526,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, dry_run=False)
     usage_lock = threading.Lock()
 
     def worker(art):
-        """Classe un seul article dans un thread du pool — capture `leaves_str` et
+        """Classe un seul article dans un thread du pool : capture `leaves_str` et
         `valid_codes` de la fonction englobante.
         """
         return classify_article(art["text"], leaves_str, valid_codes)
@@ -530,7 +544,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, dry_run=False)
                     f.cancel()
                 raise
             except Exception as e:
-                print(f"      ✗ {art['id']} — erreur classification : {e}")
+                print(f"      ✗ {art['id']} : erreur classification : {e}")
                 continue
 
             with usage_lock:
@@ -545,7 +559,7 @@ def process_fascicule(fascicule, leaves, leaves_str, valid_codes, dry_run=False)
 
             themes = [{"code": c, "label_fr": leaves[c]["label_fr"]} for c in valid]
             results_by_index[i] = {"article_id": art["id"], "title": art["title"], "themes": themes}
-            print(f"    [{i+1}/{len(kept)}] {art['id']} — {art['title'][:50]!r} → {', '.join(t['label_fr'] for t in themes)}")
+            print(f"    [{i+1}/{len(kept)}] {art['id']} : {art['title'][:50]!r} → {', '.join(t['label_fr'] for t in themes)}")
 
     out["articles"] = [results_by_index[i] for i in sorted(results_by_index)]
     return out
@@ -564,7 +578,7 @@ def main():
     args = parser.parse_args()
 
     if not args.dry_run and (not MISTRAL_API_KEY or MISTRAL_API_KEY == "mets-ta-cle-ici"):
-        raise SystemExit(f"Clé API Mistral manquante — édite {ENV_FILE}")
+        raise SystemExit(f"Clé API Mistral manquante : édite {ENV_FILE}")
 
     leaves = build_leaves(TAXONOMY_PATH)
     leaves_str = leaves_prompt_str(leaves)
@@ -589,7 +603,7 @@ def main():
         out_path = OUTPUT_DIR / f"{fascicule}_themes.json"
 
         if out_path.exists() and not args.force:
-            print(f"  ↷ déjà traité — {out_path.name} (utilise --force pour retraiter)")
+            print(f"  ↷ déjà traité : {out_path.name} (utilise --force pour retraiter)")
             try:
                 prev_usage = json.loads(out_path.read_text(encoding="utf-8")).get("usage", {})
                 for k in grand_total:
@@ -610,9 +624,9 @@ def main():
     if not args.dry_run and grand_total["n_calls"]:
         print(f"\n{'='*55}")
         print(f"Total : {grand_total['n_calls']} appel(s) API")
-        print(f"  prompt_tokens     : {grand_total['prompt_tokens']:,}  (dont en cache : {grand_total['cached_tokens']:,})")
+        print(f"  prompt_tokens : {grand_total['prompt_tokens']:,}  (dont en cache : {grand_total['cached_tokens']:,})")
         print(f"  completion_tokens : {grand_total['completion_tokens']:,}")
-        print(f"  total_tokens      : {grand_total['total_tokens']:,}")
+        print(f"  total_tokens : {grand_total['total_tokens']:,}")
         pin, pout = PRICING.get(MISTRAL_MODEL, (None, None))
         if pin is not None:
             uncached_input = grand_total["prompt_tokens"] - grand_total["cached_tokens"]

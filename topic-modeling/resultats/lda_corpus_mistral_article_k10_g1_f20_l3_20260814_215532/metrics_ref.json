@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_article_k10_g1_f20_l3_20260814_215532",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 10,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 4761,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 629916,
+  "longueur_min": 3,
+  "freq_min": 20,
+  "duree_s": 73.4
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.4958,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.6496
+ },
+ "diversity": {
+  "diversity": 0.88,
+  "diversity_norm": 0.0041,
+  "tokens_distincts": 21355,
+  "unique_words": 88,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "fer",
+   "francs",
+   "gouvernement",
+   "grand",
+   "général",
+   "num",
+   "prix",
+   "président"
+  ],
+  "n_shared": 9
+ },
+ "npmi": {
+  "npmi_mean": 0.2289,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2293,
+    "top_words": "num cours banque nord cpt crédit lyon fer kil remb"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1726,
+    "top_words": "num lille prix demande ans maison bureau vendre adresser francs"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2991,
+    "top_words": "théâtre grand opéra succès rôle public musique acte salle artistes"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.3144,
+    "top_words": "homme point temps hommes monde vie jeune voir fort mieux"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2389,
+    "top_words": "guerre français armée roi général allemagne angleterre gouvernement pays anglais"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1753,
+    "top_words": "saint ans général police cour président jean maire mort honneur"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1416,
+    "top_words": "num prix mètres club équipe francs grand course tour concours"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2454,
+    "top_words": "eau qualité air petits demi blanc dames rouge noir petit"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2942,
+    "top_words": "conseil président gouvernement loi commission ministre chambre question ordre droit"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1778,
+    "top_words": "société francs millions prix industrie fer compagnie exposition service travaux"
+   }
+  ]
+ }
+}

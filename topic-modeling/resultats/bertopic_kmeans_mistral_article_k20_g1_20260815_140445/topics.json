@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "président commission conseil loi gouvernement ministre projet chambre assemblée général",
+    "size": 471
+  },
+  {
+    "topic_id": 1,
+    "top_words": "équipe club prix match épreuve course stade champion mètres points",
+    "size": 429
+  },
+  {
+    "topic_id": 2,
+    "top_words": "ans vouloir prix lille saint grand volume francs jésus noir",
+    "size": 380
+  },
+  {
+    "topic_id": 3,
+    "top_words": "prix renault vendre lille maison demande adresser louer citroën vente",
+    "size": 356
+  },
+  {
+    "topic_id": 4,
+    "top_words": "théâtre opéra rôle musique comique fortuné succès public patron grand",
+    "size": 331
+  },
+  {
+    "topic_id": 5,
+    "top_words": "gouvernement pays peuple roi politique guerre prince général temps point",
+    "size": 325
+  },
+  {
+    "topic_id": 6,
+    "top_words": "banque demande francs cours actions valeurs millions société crédit marché",
+    "size": 319
+  },
+  {
+    "topic_id": 7,
+    "top_words": "maladies eau peau flacon estomac traitement prix vin température santé",
+    "size": 313
+  },
+  {
+    "topic_id": 8,
+    "top_words": "ans mort marie police femme anne saint âgé arrêté enquête",
+    "size": 301
+  },
+  {
+    "topic_id": 9,
+    "top_words": "allemagne gouvernement guerre pays russie allemands troupes armée général berlin",
+    "size": 268
+  },
+  {
+    "topic_id": 10,
+    "top_words": "homme femme point temps fille vie jeune monde jacques cœur",
+    "size": 255
+  },
+  {
+    "topic_id": 11,
+    "top_words": "homme femme yeux jeune mère fille cour coup tête tribunal",
+    "size": 253
+  },
+  {
+    "topic_id": 12,
+    "top_words": "cours banque nord crédit gaz lyon fer courant valeurs prix",
+    "size": 235
+  },
+  {
+    "topic_id": 13,
+    "top_words": "exposition grand président jean jeune temps concours théâtre histoire ans",
+    "size": 214
+  },
+  {
+    "topic_id": 14,
+    "top_words": "général armée infanterie guerre artillerie régiment colonel troupes officiers capitaine",
+    "size": 212
+  },
+  {
+    "topic_id": 15,
+    "top_words": "saint bord grande lot manœuvres terre port flotte mètres route",
+    "size": 186
+  },
+  {
+    "topic_id": 16,
+    "top_words": "mmes saint studio prix jean palace théâtre opéra royal actes",
+    "size": 180
+  },
+  {
+    "topic_id": 17,
+    "top_words": "prix école enseignement réunion études lycées sciences conseil société président",
+    "size": 172
+  },
+  {
+    "topic_id": 18,
+    "top_words": "billets oran départ fer classe saint service trains marseille compagnie",
+    "size": 121
+  },
+  {
+    "topic_id": 19,
+    "top_words": "baromètre température ciel nord vent ouest thermomètre sud temps pluies",
+    "size": 40
+  }
+]

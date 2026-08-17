@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "film paris heure théâtre cinéma soir palais revue comédie spectacle",
+    "size": 198
+  },
+  {
+    "topic_id": 1,
+    "top_words": "prix équipe france club course point tour match épreuve kilomètre",
+    "size": 417
+  },
+  {
+    "topic_id": 2,
+    "top_words": "femme homme monsieur main jour fille enfant oeil tête cœur",
+    "size": 253
+  },
+  {
+    "topic_id": 3,
+    "top_words": "pourcent paris cours banque juillet mai avril juin nord fer",
+    "size": 142
+  },
+  {
+    "topic_id": 4,
+    "top_words": "degré toulouse oran maison lot marseille numéro franc octobre commune",
+    "size": 108
+  },
+  {
+    "topic_id": 5,
+    "top_words": "rue paris état prix place degré renault int occasion boulevard",
+    "size": 163
+  },
+  {
+    "topic_id": 6,
+    "top_words": "théâtre mlle rôle acte succès public opéra représentation pièce artiste",
+    "size": 147
+  },
+  {
+    "topic_id": 7,
+    "top_words": "fois eau dame qualité couleur mètre robe manteau objet peau",
+    "size": 181
+  },
+  {
+    "topic_id": 8,
+    "top_words": "conseil loi ministre chambre président gouvernement commission droit projet article",
+    "size": 335
+  },
+  {
+    "topic_id": 9,
+    "top_words": "france gouvernement allemagne angleterre prince roi ministre affaire pays guerre",
+    "size": 276
+  },
+  {
+    "topic_id": 10,
+    "top_words": "homme temps point pays chose jour france fois monde force",
+    "size": 369
+  },
+  {
+    "topic_id": 11,
+    "top_words": "heure lieu société comité soir président réunion dimanche exposition membre",
+    "size": 245
+  },
+  {
+    "topic_id": 12,
+    "top_words": "heure matin soir jour ville fer service chemin eau train",
+    "size": 291
+  },
+  {
+    "topic_id": 13,
+    "top_words": "lille rue prix bureau mois maison courant kil marché journal",
+    "size": 163
+  },
+  {
+    "topic_id": 14,
+    "top_words": "franc million société année industrie travail titre somme produit intérêt",
+    "size": 194
+  },
+  {
+    "topic_id": 15,
+    "top_words": "général guerre armée officier chef troupe soldat capitaine homme commandant",
+    "size": 205
+  },
+  {
+    "topic_id": 16,
+    "top_words": "école étude science professeur enseignement année classe église académie élève",
+    "size": 109
+  },
+  {
+    "topic_id": 17,
+    "top_words": "femme juge police paris maladie médecin cour enfant docteur prison",
+    "size": 254
+  },
+  {
+    "topic_id": 18,
+    "top_words": "paris prix journal livre numéro rue volume mois franc poste",
+    "size": 215
+  },
+  {
+    "topic_id": 19,
+    "top_words": "mme jean mlle henri louis marquis paul marie georges andré",
+    "size": 144
+  }
+]

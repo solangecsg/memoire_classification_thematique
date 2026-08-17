@@ -1,0 +1,40 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1994,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.1835,
+    "top_words": "général dé saint corps membres président directeur bureau vient adresser"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1884,
+    "top_words": "conseil do temps ordre che esprit voix municipalité soleil bois"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1729,
+    "top_words": "grand droit re ancien cours er compagnie ment argent maison"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.208,
+    "top_words": "num fr société prix francs obligations titres générale rembourser oblig"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2566,
+    "top_words": "ministère chambre république pays union gauche affaires cabinet loi majorité"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1873,
+    "top_words": "amiral reynière ans préfet con herblay homme chance bonheur tion"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 60
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "topic_id": 0,
+    "fascicule": "4109000",
+    "top_words": "000 rembourser oblig fr 100 francs 45 60 200 12",
+    "size": 37
+  },
+  {
+    "topic_id": 1,
+    "fascicule": "4109000",
+    "top_words": "10 40 1882 1884 1883 60 1880 29 jan 75",
+    "size": 23
+  },
+  {
+    "topic_id": 2,
+    "fascicule": "4109000",
+    "top_words": "ministère presse ile gauche union républicains aveu chambre freycinet durée",
+    "size": 32
+  },
+  {
+    "topic_id": 3,
+    "fascicule": "4109000",
+    "top_words": "société générale bureaux banque ier crédit pays financière escompte agence",
+    "size": 35
+  },
+  {
+    "topic_id": 4,
+    "fascicule": "4109000",
+    "top_words": "15 tirage 20 tirages 1880 25 65 30 125 ir",
+    "size": 22
+  },
+  {
+    "topic_id": 5,
+    "fascicule": "4109000",
+    "top_words": "fr prix répartition 50 faculté 98 payables mise 500 titres",
+    "size": 44
+  },
+  {
+    "topic_id": 6,
+    "fascicule": "4109000",
+    "top_words": "1878 voix diman che 758 obtenu municipalité conseillers électeurs dé",
+    "size": 16
+  },
+  {
+    "topic_id": 7,
+    "fascicule": "4109000",
+    "top_words": "amiral général 1er préfet an recevra ans saint reynière occasion",
+    "size": 189
+  },
+  {
+    "topic_id": 8,
+    "fascicule": "4109000",
+    "top_words": "souscription 1880 publique enverrons profit produit 14 10 prime contenant",
+    "size": 13
+  },
+  {
+    "topic_id": 9,
+    "fascicule": "4109000",
+    "top_words": "obligations francs porteurs titres droit ré lyon formé emprunts 1865",
+    "size": 32
+  }
+]

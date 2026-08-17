@@ -1,0 +1,165 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k20_g1_f5_l3_20260814_223825",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 20,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 43820,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 725142,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "duree_s": 172.6
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 2.1421,
+  "entropy_max": 2.9957,
+  "entropy_normalized": 0.715
+ },
+ "diversity": {
+  "diversity": 0.835,
+  "diversity_norm": 0.0081,
+  "tokens_distincts": 20596,
+  "unique_words": 167,
+  "total_words": 200,
+  "shared_words": [
+   "ans",
+   "banque",
+   "chemin",
+   "demande",
+   "droit",
+   "femme",
+   "francs",
+   "français",
+   "gouvernement",
+   "grand",
+   "grande",
+   "général",
+   "homme",
+   "hommes",
+   "nord",
+   "num",
+   "pays",
+   "point",
+   "prix",
+   "société",
+   "temps",
+   "terre",
+   "théâtre",
+   "tête"
+  ],
+  "n_shared": 24
+ },
+ "npmi": {
+  "npmi_mean": 0.1507,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2713,
+    "top_words": "num cpt lyon remb gaz crédit banque act nord fin"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1593,
+    "top_words": "homme vie monde point cœur femme amour mal temps voir"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.1834,
+    "top_words": "gouvernement pays droit politique liberté point peuple hommes parti esprit"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1453,
+    "top_words": "général guerre français armée gouvernement angleterre allemagne roi prince anglais"
+   },
+   {
+    "topic_id": 4,
+    "npmi": -0.1169,
+    "top_words": "num prix francs kil courant mètres kilos pts centimes disponible"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2207,
+    "top_words": "saint ans jean louis marie henri paul pierre martin georges"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1594,
+    "top_words": "dames rouge noir blanc tête grands blanche cheveux belle grand"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.0331,
+    "top_words": "eau temps grandes manœuvres vin corps terre grande française flotte"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.0772,
+    "top_words": "gare grande hommes pont route feu foule train terre chemin"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.246,
+    "top_words": "président conseil commission ministre loi chambre assemblée projet membres séance"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.1309,
+    "top_words": "cour police affaire arrêté tribunal réponse justice général commissaire procès"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1119,
+    "top_words": "num prix demande lille maison adresser vendre ans renault places"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2044,
+    "top_words": "jeune fille femme homme ans tête mère porte enfant père"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.151,
+    "top_words": "grand histoire exposition art palais beaux arts théâtre revue vient"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1311,
+    "top_words": "école ans enfants enseignement santé jeunes écoles docteur élèves droit"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2753,
+    "top_words": "théâtre rôle succès grand opéra public musique acte comique représentation"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2311,
+    "top_words": "cours fer nord société compagnie banque chemins générale valeurs chemin"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1451,
+    "top_words": "prix tour club équipe course français épreuve grand match départ"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.0908,
+    "top_words": "francs millions prix somme poste demande société vente bons administration"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.1626,
+    "top_words": "travail point travaux industrie vue pays ouvriers situation commerce grande"
+   }
+  ]
+ }
+}

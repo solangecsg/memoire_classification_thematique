@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2262,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2066,
+    "top_words": "film paris heure théâtre cinéma soir palais revue comédie spectacle"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.2176,
+    "top_words": "prix équipe france club course point tour match épreuve kilomètre"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2539,
+    "top_words": "femme homme monsieur main jour fille enfant oeil tête cœur"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2371,
+    "top_words": "pourcent paris cours banque juillet mai avril juin nord fer"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1229,
+    "top_words": "degré toulouse oran maison lot marseille numéro franc octobre commune"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.0918,
+    "top_words": "rue paris état prix place degré renault int occasion boulevard"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.363,
+    "top_words": "théâtre mlle rôle acte succès public opéra représentation pièce artiste"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.1659,
+    "top_words": "fois eau dame qualité couleur mètre robe manteau objet peau"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3195,
+    "top_words": "conseil loi ministre chambre président gouvernement commission droit projet article"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2542,
+    "top_words": "france gouvernement allemagne angleterre prince roi ministre affaire pays guerre"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.3342,
+    "top_words": "homme temps point pays chose jour france fois monde force"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1812,
+    "top_words": "heure lieu société comité soir président réunion dimanche exposition membre"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2281,
+    "top_words": "heure matin soir jour ville fer service chemin eau train"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.1538,
+    "top_words": "lille rue prix bureau mois maison courant kil marché journal"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2357,
+    "top_words": "franc million société année industrie travail titre somme produit intérêt"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2886,
+    "top_words": "général guerre armée officier chef troupe soldat capitaine homme commandant"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2369,
+    "top_words": "école étude science professeur enseignement année classe église académie élève"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2173,
+    "top_words": "femme juge police paris maladie médecin cour enfant docteur prison"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.159,
+    "top_words": "paris prix journal livre numéro rue volume mois franc poste"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2573,
+    "top_words": "mme jean mlle henri louis marquis paul marie georges andré"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

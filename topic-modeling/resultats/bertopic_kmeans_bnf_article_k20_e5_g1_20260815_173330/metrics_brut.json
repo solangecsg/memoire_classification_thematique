@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2607,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.3346,
+    "top_words": "commission loi conseil président projet gouvernement chambre ministre assemblée général"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1628,
+    "top_words": "lille ans demande ecrire prix vendre maison int renault adresser"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.3691,
+    "top_words": "homme femme jeune yeux fille temps vie père monde petit"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2698,
+    "top_words": "gouvernement allemagne guerre général pays troupes conférence berlin italie armée"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.3153,
+    "top_words": "gouvernement guerre pays politique français point droit hommes peuple temps"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1374,
+    "top_words": "volume librairie prix grand francs jupe noir poste satin vente"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3247,
+    "top_words": "opéra théâtre comique concert musique mmes actes comédie revue radio"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2753,
+    "top_words": "ans police mort femme enquête jeune saint crime prison âgé"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.2758,
+    "top_words": "équipe prix match club stade mètres finale points champion poids"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1564,
+    "top_words": "maladies estomac peau eau traitement sirop cure flacon crème sang"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.2885,
+    "top_words": "prix épreuve course auto tour club coureurs coupe automobile voitures"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1984,
+    "top_words": "films film cinéma auteurs grand société art iii point temps"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.2993,
+    "top_words": "cours kil courant gaz crédit banque nord valeurs marché cote"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2499,
+    "top_words": "général front troupes ennemi port commandant temps artillerie hommes roi"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1418,
+    "top_words": "exposition académie honneur général médaille président infanterie prix saint capitaine"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1906,
+    "top_words": "prix enseignement société conseil concours publique comité francs loi études"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.4198,
+    "top_words": "rôle théâtre succès public talent opéra artistes artiste scène représentation"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.3501,
+    "top_words": "banque actions cours valeurs société titres millions francs crédit fonds"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1095,
+    "top_words": "billets classe départ départs fer ang oran train cap nord"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3452,
+    "top_words": "température chaleur baromètre corps thermomètre ciel degrés eau froid vent"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}

@@ -1,0 +1,32 @@
+# stopwords_extra.txt — mots ajoutés manuellement après analyse des métriques LDA
+# Ces mots apparaissaient dans plusieurs topics (diversité < 1.0) et n'apportent
+# pas de signal thématique. À compléter au fil des runs.
+#
+# Format : un mot par ligne, commentaires avec #
+
+# ── Ajoutés après run lda_mallet_4109000_k10 (diversité : mots partagés) ────
+des
+les
+par
+paris
+pour
+que
+son
+tous
+une
+# toulouse : nom propre très fréquent dans ce corpus, peu discriminant
+toulouse
+
+# ── Ajoutés après run 2 (mots partagés restants) ────────────────────────────
+dans
+est
+qui
+nous
+nos
+ses
+ont
+
+# ── Ajoutés après run 3 (mots génériques persistants) ───────────────────────
+# conseil/rue/saint/vous : porteurs de sens XIXe → conservés
+vous
+

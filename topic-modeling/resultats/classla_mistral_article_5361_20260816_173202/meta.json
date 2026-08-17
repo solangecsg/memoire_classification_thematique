@@ -1,0 +1,14 @@
+{
+ "modele": "classla/multilingual-IPTC-news-topic-classifier",
+ "source": "mistral",
+ "granularite": "article",
+ "min_mots": 20,
+ "longueur_min": 3,
+ "longueur_max": 512,
+ "lot": 16,
+ "appareil": "mps",
+ "n_documents": 5361,
+ "date": "2026-08-16T17:32:03",
+ "secondes": 3155.8,
+ "tronques": 1791
+}

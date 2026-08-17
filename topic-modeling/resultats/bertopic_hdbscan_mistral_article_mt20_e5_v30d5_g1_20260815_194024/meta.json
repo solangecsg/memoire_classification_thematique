@@ -1,0 +1,20 @@
+{
+  "model": "bertopic_hdbscan",
+  "run_id": "bertopic_hdbscan_mistral_article_mt20_e5_v30d5_g1_20260815_194024",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 32,
+  "k_demande": null,
+  "min_taille": 20,
+  "graine": 1,
+  "n_docs": 5361,
+  "n_sans_groupe": 2167,
+  "longueur_min": 3,
+  "min_mots": 20,
+  "modele_plongement": "intfloat/multilingual-e5-base",
+  "modele_court": "e5",
+  "umap_voisins": 30,
+  "umap_dimensions": 5,
+  "longueur_max": 512,
+  "duree_s": 20.0
+}

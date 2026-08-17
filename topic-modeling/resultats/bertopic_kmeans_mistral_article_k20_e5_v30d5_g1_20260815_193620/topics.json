@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "prix équipe club match course épreuve mètres tour coupe championnat",
+    "size": 565
+  },
+  {
+    "topic_id": 1,
+    "top_words": "loi commission conseil ministre président chambre projet gouvernement assemblée général",
+    "size": 419
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne guerre général pays berlin troupes italie armée prince",
+    "size": 401
+  },
+  {
+    "topic_id": 3,
+    "top_words": "lille demande prix vendre maison renault citroën adresser bureau echo",
+    "size": 350
+  },
+  {
+    "topic_id": 4,
+    "top_words": "gouvernement pays politique droit guerre peuple hommes temps point liberté",
+    "size": 326
+  },
+  {
+    "topic_id": 5,
+    "top_words": "théâtre opéra comique mmes concert musique comédie actes revue folies",
+    "size": 322
+  },
+  {
+    "topic_id": 6,
+    "top_words": "ans police femme mort enquête jeune âgé arrêté saint accident",
+    "size": 305
+  },
+  {
+    "topic_id": 7,
+    "top_words": "homme yeux jeune femme fille tête père mère main petit",
+    "size": 304
+  },
+  {
+    "topic_id": 8,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure pilules",
+    "size": 264
+  },
+  {
+    "topic_id": 9,
+    "top_words": "cours banque nord kil crédit lyon fer courant act prix",
+    "size": 256
+  },
+  {
+    "topic_id": 10,
+    "top_words": "vie auteur histoire académie art livre œuvre monde homme esprit",
+    "size": 245
+  },
+  {
+    "topic_id": 11,
+    "top_words": "exposition travail ouvriers médaille francs grève congrès réunion conseil prix",
+    "size": 236
+  },
+  {
+    "topic_id": 12,
+    "top_words": "laine francs mètre manteaux velours dames abonnement librairie noir qualité",
+    "size": 229
+  },
+  {
+    "topic_id": 13,
+    "top_words": "banque actions société valeurs cours fer compagnie chemins titres crédit",
+    "size": 229
+  },
+  {
+    "topic_id": 14,
+    "top_words": "troupes général front saint commandant roi port ennemi artillerie fort",
+    "size": 228
+  },
+  {
+    "topic_id": 15,
+    "top_words": "général président saint infanterie honneur régiment capitaine colonel légion directeur",
+    "size": 203
+  },
+  {
+    "topic_id": 16,
+    "top_words": "théâtre rôle succès public opéra talent artistes artiste représentation scène",
+    "size": 189
+  },
+  {
+    "topic_id": 17,
+    "top_words": "volume jésus vol grand roman histoire mètres prix illustré almanach",
+    "size": 136
+  },
+  {
+    "topic_id": 18,
+    "top_words": "manœuvres baromètre température ciel exercices flotte vent grandes thermomètre nord",
+    "size": 83
+  },
+  {
+    "topic_id": 19,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve jean",
+    "size": 71
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "topic_id": 0,
+    "fascicule": "4109000",
+    "top_words": "000 oblig rembourser fr francs 100 12 an 45 60",
+    "size": 43
+  },
+  {
+    "topic_id": 1,
+    "fascicule": "4109000",
+    "top_words": "10 40 1883 1882 1880 1884 1881 60 29 cours",
+    "size": 22
+  },
+  {
+    "topic_id": 2,
+    "fascicule": "4109000",
+    "top_words": "ministère presse gauche union chambre rappel majorité débats freycinet républicains",
+    "size": 48
+  },
+  {
+    "topic_id": 3,
+    "fascicule": "4109000",
+    "top_words": "société générale crédit bureaux ier banque lyonnais industriel commercial escompte",
+    "size": 35
+  },
+  {
+    "topic_id": 4,
+    "fascicule": "4109000",
+    "top_words": "15 tirage 125 65 tirages 20 oblig rembourser 1er 30",
+    "size": 12
+  },
+  {
+    "topic_id": 5,
+    "fascicule": "4109000",
+    "top_words": "fr prix 50 payables répartition 25 obligations titres souscrivant 98",
+    "size": 50
+  },
+  {
+    "topic_id": 6,
+    "fascicule": "4109000",
+    "top_words": "1878 voix 758 rumeau municipalité obtenu électeurs conseillers blâme voulu",
+    "size": 13
+  },
+  {
+    "topic_id": 7,
+    "fascicule": "4109000",
+    "top_words": "amiral reynière préfet herblay homme vieux ans docteur jean doute",
+    "size": 74
+  },
+  {
+    "topic_id": 8,
+    "fascicule": "4109000",
+    "top_words": "souscription 1880 20 publique lyon répartition 125 enverrons profit demandée",
+    "size": 33
+  },
+  {
+    "topic_id": 9,
+    "fascicule": "4109000",
+    "top_words": "1er général recevra président saint justice an conseiller occasion inspecteur",
+    "size": 111
+  }
+]

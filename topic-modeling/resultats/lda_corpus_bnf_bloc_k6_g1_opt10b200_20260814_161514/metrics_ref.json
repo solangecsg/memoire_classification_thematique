@@ -1,0 +1,75 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_bnf_bloc_k6_g1_opt10b200_20260814_161514",
+  "source": "bnf",
+  "granularite": "bloc",
+  "k": 6,
+  "iterations": 1000,
+  "graine": 1,
+  "optimisation": 10,
+  "burn_in": 200,
+  "n_docs": 46912,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 866496,
+  "duree_s": 78.4
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 0.7881,
+  "entropy_max": 1.7918,
+  "entropy_normalized": 0.4398
+ },
+ "diversity": {
+  "diversity": 0.8333,
+  "diversity_norm": 0.0024,
+  "tokens_distincts": 20602,
+  "unique_words": 50,
+  "total_words": 60,
+  "shared_words": [
+   "ans",
+   "fr",
+   "grand",
+   "général",
+   "num",
+   "prix"
+  ],
+  "n_shared": 6
+ },
+ "npmi": {
+  "npmi_mean": -0.0848,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -0.8766,
+    "top_words": "num fr prix ii cpt pl ch id cv nord"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.0395,
+    "top_words": "num saint prix ans jean général club équipe grand henri"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.115,
+    "top_words": "gouvernement num guerre conseil président ministre point général pays loi"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.1527,
+    "top_words": "homme femme ans jeune temps fille mort porte main yeux"
+   },
+   {
+    "topic_id": 4,
+    "npmi": -0.1479,
+    "top_words": "num francs prix fr demande maison lille fer société millions"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.2085,
+    "top_words": "num théâtre grand succès rôle opéra musique public artistes acte"
+   }
+  ]
+ }
+}

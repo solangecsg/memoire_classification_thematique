@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "s est n qu c d on ans chambre a",
+    "size": 60
+  },
+  {
+    "topic_id": 1,
+    "top_words": "l ministère en dé union gauche temps cabinet majorité prix",
+    "size": 55
+  },
+  {
+    "topic_id": 2,
+    "top_words": "d fr conseil société prix générale 1er compagnie rembourser oblig",
+    "size": 69
+  },
+  {
+    "topic_id": 3,
+    "top_words": "qu il cours grand travail valeurs un directeur chance succès",
+    "size": 38
+  },
+  {
+    "topic_id": 4,
+    "top_words": "titres général ment obligations francs coupons saint ordre vient bourse",
+    "size": 46
+  },
+  {
+    "topic_id": 5,
+    "top_words": "l d amiral reynière j con homme avait préfet mer",
+    "size": 35
+  }
+]

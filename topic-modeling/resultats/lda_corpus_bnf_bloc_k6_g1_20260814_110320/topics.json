@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "conseil société saint préfet grand ordre chance générale municipalité membres",
+    "size": 57
+  },
+  {
+    "topic_id": 1,
+    "top_words": "amiral droit reynière homme travail fermeté herblay mer con fort",
+    "size": 37
+  },
+  {
+    "topic_id": 2,
+    "top_words": "num fr prix francs titres rembourser oblig obligations an compagnie",
+    "size": 96
+  },
+  {
+    "topic_id": 3,
+    "top_words": "ans général do directeur bureau vient argent guerre esprit vrai",
+    "size": 47
+  },
+  {
+    "topic_id": 4,
+    "top_words": "ministère chambre gauche union coupons valeurs cabinet majorité ancien points",
+    "size": 55
+  },
+  {
+    "topic_id": 5,
+    "top_words": "république er temps affaires pays succès gouvernement corps président réunion",
+    "size": 42
+  }
+]

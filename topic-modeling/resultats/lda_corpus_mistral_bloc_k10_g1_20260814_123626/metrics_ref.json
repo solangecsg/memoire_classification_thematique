@@ -1,0 +1,98 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_bloc_k10_g1_20260814_123626",
+  "source": "mistral",
+  "granularite": "bloc",
+  "k": 10,
+  "iterations": 1000,
+  "graine": 1,
+  "n_docs": 46576,
+  "n_fascicules": 100,
+  "min_mots": 5,
+  "n_tokens": 842406,
+  "duree_s": 70.0
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.7265,
+  "entropy_max": 2.3026,
+  "entropy_normalized": 0.7498
+ },
+ "diversity": {
+  "diversity": 0.89,
+  "diversity_norm": 0.0043,
+  "tokens_distincts": 20596,
+  "unique_words": 89,
+  "total_words": 100,
+  "shared_words": [
+   "ans",
+   "demande",
+   "femme",
+   "francs",
+   "français",
+   "homme",
+   "maison",
+   "nord",
+   "num",
+   "prix",
+   "société"
+  ],
+  "n_shared": 11
+ },
+ "npmi": {
+  "npmi_mean": 0.0242,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.167,
+    "top_words": "gouvernement guerre pays politique français question ordre parti allemagne peuple"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1291,
+    "top_words": "ans jeune mort femme police homme fille père cour maison"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.4856,
+    "top_words": "num fr er nord cpt banque crédit lyon kil id"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.0913,
+    "top_words": "fer prix mètres grande français nord club équipe chemin tour"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1436,
+    "top_words": "point vie monde temps homme œuvre histoire mieux donner hommes"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.1359,
+    "top_words": "président général conseil ministre honneur bureau membres école société lettres"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1531,
+    "top_words": "théâtre saint grand jean rôle opéra musique louis acte henri"
+   },
+   {
+    "topic_id": 7,
+    "npmi": -0.3116,
+    "top_words": "num prix lille maison cv demande francs ans pl vente"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.0998,
+    "top_words": "cours francs loi commission droit millions projet travail demande société"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.1193,
+    "top_words": "eau tête main yeux terre petit sang air femme porte"
+   }
+  ]
+ }
+}

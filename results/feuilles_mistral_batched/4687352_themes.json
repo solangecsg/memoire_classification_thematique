@@ -1,0 +1,371 @@
+{
+  "fascicule": "4687352",
+  "usage": {
+    "prompt_tokens": 25605,
+    "completion_tokens": 1099,
+    "total_tokens": 26704,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 18.51,
+    "temps_reponse_min_s": 4.12,
+    "temps_reponse_max_s": 14.39,
+    "temps_reponse_moyen_s": 9.25,
+    "temps_reponse_median_s": 9.25
+  },
+  "articles": [
+    {
+      "article_id": "DIV.27",
+      "title": "THÉATRE FRANÇAIS.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.41",
+      "title": "OPÉRA-COMIQUE.",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.55",
+      "title": "THÉaTRE TALIEN.",
+      "themes": [
+        {
+          "code": "20000018",
+          "label_fr": "Musique"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.64",
+      "title": "TH. ROYAL DE L'ODÉON.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.70",
+      "title": "TH. DE S. A. R. MADAME.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.78",
+      "title": "THEATRE DU VAUDEVILLE",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.85",
+      "title": "TH. DES NOUVEAUTÉS.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.91",
+      "title": "THEATRE DES VARIETES",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.98",
+      "title": "THÉATRE DE LA GAITÉ",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.103",
+      "title": "AMBIGU-COMIQUE",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.108",
+      "title": "TH. ST.-MARTIN.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.113",
+      "title": "CIRQUE-OLYMPIQUE. : Première représentation de la reprise",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.119",
+      "title": "THEATRE DE M. COMTE.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.126",
+      "title": "THÉATRE DE JOLY.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000007",
+          "label_fr": "Danse"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.144",
+      "title": "TH. DU LUXEMBOURG.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.150",
+      "title": "DIORAMA, : Boulevard St.-Martin, derrière le Château d'eau.",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000044",
+          "label_fr": "Patrimoine"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.157",
+      "title": "GÉORAMA.",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.162",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000031",
+          "label_fr": "Arts visuels"
+        },
+        {
+          "code": "20000560",
+          "label_fr": "Activités récréatives"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.172",
+      "title": "AVIS.",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.179",
+      "title": "THÉATRE ROYAL DE L'ODÉON. : Une Fête de Néron.",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.191",
+      "title": "ÉPHÉMÉRIDES UNIVERSELLES, : Publiées par M. Édouard Monnais. 4 Juin 1666. Première représentation du Misanthrope, comédie de Molière.",
+      "themes": [
+        {
+          "code": "20000013",
+          "label_fr": "Littérature"
+        },
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.202",
+      "title": "ASSASSINAT DE PAUL-LOUIS COURRIER. (TOURS.)",
+      "themes": [
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        },
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000125",
+          "label_fr": "Droit pénal"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.216",
+      "title": "LE DERNIER JOUR DE L'ANNÉE.",
+      "themes": [
+        {
+          "code": "20000405",
+          "label_fr": "Éducation supérieure"
+        },
+        {
+          "code": "20000653",
+          "label_fr": "Système politique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.222",
+      "title": "BUTIN.",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        },
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.234",
+      "title": "LOGOGRIPHE.",
+      "themes": [
+        {
+          "code": "20000042",
+          "label_fr": "Langue"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.245",
+      "title": "COURS DE LA RENTE DU 30 NOVEMBRE 1829.",
+      "themes": [
+        {
+          "code": "20000391",
+          "label_fr": "Marché des changes"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.253",
+      "title": "DIV.253",
+      "themes": [
+        {
+          "code": "20000131",
+          "label_fr": "Enquête"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.262",
+      "title": "DIV.262",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000011",
+          "label_fr": "Mode"
+        },
+        {
+          "code": "20000243",
+          "label_fr": "Distribution"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.277",
+      "title": "Publicité",
+      "themes": [
+        {
+          "code": "20000304",
+          "label_fr": "Médias"
+        }
+      ]
+    }
+  ]
+}

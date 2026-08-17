@@ -1,0 +1,160 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2732,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2753,
+    "top_words": "prix équipe club match épreuve course tour coupe championnat mètres"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1683,
+    "top_words": "demande lille ecrire prix vendre maison int renault echo adresser"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2843,
+    "top_words": "gouvernement allemagne guerre troupes allemands italie conférence pays berlin etats"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2828,
+    "top_words": "opéra théâtre comique concert musique actes mmes comédie radio mesd"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.2759,
+    "top_words": "ans police femme enquête jeune âgé saint mort hôpital commissaire"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.376,
+    "top_words": "yeux homme jeune fille femme père jacques cœur mère tête"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.3768,
+    "top_words": "commission loi projet impôt assemblée gouvernement chambre séance discussion budget"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.374,
+    "top_words": "maladies estomac cure traitement sang pharmacie foie flacon médecine santé"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.3651,
+    "top_words": "kil courant disponible cote marché prix froment sacs kilos ventes"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.2187,
+    "top_words": "iii budget loi mal congrès ment solution point vii temps"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.4001,
+    "top_words": "rôle théâtre succès public opéra talent artistes artiste scène acte"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.4173,
+    "top_words": "gaz crédit valeurs banque nord act lyon cours actions orléans"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3934,
+    "top_words": "banque cours valeurs millions actions crédit fonds marché chemins clôture"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.339,
+    "top_words": "infanterie capitaine régiment légion artillerie colonel général mort obsèques lieutenant"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.238,
+    "top_words": "films film auteurs cinéma mètres production société cinématographique affiche images"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.233,
+    "top_words": "volume jésus vol grand roman histoire relié gravures illustré vaudeville"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2224,
+    "top_words": "abonnement annonces abonnés poste francs abonnements bons prime abonné librairie"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1509,
+    "top_words": "ans syndic maire juge prov adjoint veuve comm saint marchand"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.3134,
+    "top_words": "gouvernement peuple droit hommes révolution pays principes assemblée nation monde"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.3092,
+    "top_words": "billets départ classe fer train trains départs gare gares chemins"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.2201,
+    "top_words": "tempête navire port vapeur équipage bord tremblement compagnie mer capitaine"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.394,
+    "top_words": "crème beauté peau teint cheveux poudre visage toilette eau savon"
+   },
+   {
+    "topic_id": 22,
+    "npmi": -0.0627,
+    "top_words": "illisible texte iii librairie films vendre représentant spécialité frères rii"
+   },
+   {
+    "topic_id": 23,
+    "npmi": 0.3118,
+    "top_words": "température ciel vent nord ouest pluies pluie mer temps couvert"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.3256,
+    "top_words": "grève ouvriers travail syndicats bourse travailleurs délégués fédération mineurs employés"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.2563,
+    "top_words": "réunion priés comité assister citoyens générale réunir salle siège précises"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.3094,
+    "top_words": "cour avocat jury témoin prison témoins système accusation condamnés peine"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.1274,
+    "top_words": "roi espagne madrid ambassade elysée duc foule tuileries alphonse président"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.1561,
+    "top_words": "roman livre littéraire jack histoire romans auteur fabre volume monde"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.143,
+    "top_words": "oran ang marseille rel paquebots maritimes fret départs alger port"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 300
+}

@@ -1,0 +1,160 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.1525,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2552,
+    "top_words": "commission loi projet chambre question ministre gouvernement conseil discussion assemblée"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.1628,
+    "top_words": "num francs prix poste adresser vente bureaux centimes renseignements franco"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.0691,
+    "top_words": "exposition grandes manœuvres marine française médaille port vient amiral grand"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2492,
+    "top_words": "général armée guerre troupes chef militaire corps officiers commandant hommes"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.1443,
+    "top_words": "num lille demande maison ans bureau adresser bonne lettres écrire"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.0761,
+    "top_words": "eau vin santé maladies verre produit sang traitement médecins boîte"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.1743,
+    "top_words": "club équipe prix course tour épreuve match français poids mètres"
+   },
+   {
+    "topic_id": 7,
+    "npmi": -0.0367,
+    "top_words": "saint haute lyon église pont oran denis texte porte bordeaux"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.1846,
+    "top_words": "école histoire enseignement arts vient art livre œuvre auteur élèves"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.3276,
+    "top_words": "num cpt nord banque crédit lyon remb gaz act orléans"
+   },
+   {
+    "topic_id": 10,
+    "npmi": -0.0352,
+    "top_words": "num théâtre new film york revue cinéma champs films matinée"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.1749,
+    "top_words": "parti réunion assemblée gouvernement droit ordre nationale union politique générale"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.1397,
+    "top_words": "point donner bonne temps voir part prendre public occasion paraît"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.2388,
+    "top_words": "gouvernement allemagne angleterre états français anglais pays guerre unis europe"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.1239,
+    "top_words": "grand palais grande salle roi fête hôtel foule honneur maison"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.1105,
+    "top_words": "temps point monde fort grands vie voit corps forme chaleur"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.2526,
+    "top_words": "femme jeune fille père mère homme enfants fils famille enfant"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.2611,
+    "top_words": "num prix francs renault places int cond citroën luxe voitures"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.1234,
+    "top_words": "grand noir blanc rouge dames qualité demi laine blanche papier"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.2859,
+    "top_words": "théâtre rôle succès grand opéra public acte musique comique artistes"
+   },
+   {
+    "topic_id": 20,
+    "npmi": 0.2104,
+    "top_words": "président général conseil ministre maire cour secrétaire ancien république tribunal"
+   },
+   {
+    "topic_id": 21,
+    "npmi": 0.175,
+    "top_words": "hommes homme pays peuple liberté vie esprit monde droit cœur"
+   },
+   {
+    "topic_id": 22,
+    "npmi": 0.1342,
+    "top_words": "tête porte yeux main petit homme bras voix coup vouloir"
+   },
+   {
+    "topic_id": 23,
+    "npmi": -0.2511,
+    "top_words": "num kil courant kilos fin disponible rgs cour avoine dim"
+   },
+   {
+    "topic_id": 24,
+    "npmi": 0.1692,
+    "top_words": "travail point pays industrie vue grande intérêts question donner conditions"
+   },
+   {
+    "topic_id": 25,
+    "npmi": 0.1083,
+    "top_words": "fer chemin nord mètres chemins compagnie grande eau route partie"
+   },
+   {
+    "topic_id": 26,
+    "npmi": 0.2123,
+    "top_words": "ans jean saint louis henri marie paul charles pierre comte"
+   },
+   {
+    "topic_id": 27,
+    "npmi": 0.1962,
+    "top_words": "ans police mort femme commissaire homme âgé arrêté coups hôpital"
+   },
+   {
+    "topic_id": 28,
+    "npmi": 0.2219,
+    "top_words": "cours prix marché millions banque valeurs clôture hausse affaires bourse"
+   },
+   {
+    "topic_id": 29,
+    "npmi": 0.1162,
+    "top_words": "société francs droit somme compagnie art date capital titre public"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 300
+}

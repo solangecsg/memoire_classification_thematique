@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": 0,
+    "top_words": "loi conseil commission président ministre projet chambre général gouvernement séance",
+    "size": 591
+  },
+  {
+    "topic_id": 1,
+    "top_words": "lille demande prix maison vendre renault adresser bureau citroën echo",
+    "size": 448
+  },
+  {
+    "topic_id": 2,
+    "top_words": "gouvernement allemagne guerre général pays politique troupes italie angleterre roi",
+    "size": 426
+  },
+  {
+    "topic_id": 3,
+    "top_words": "théâtre opéra comique mmes concert comédie musique actes folies revue",
+    "size": 359
+  },
+  {
+    "topic_id": 4,
+    "top_words": "gouvernement pays droit guerre liberté politique république assemblée peuple hommes",
+    "size": 336
+  },
+  {
+    "topic_id": 5,
+    "top_words": "ans police femme mort enquête saint jeune âgé arrêté crime",
+    "size": 320
+  },
+  {
+    "topic_id": 6,
+    "top_words": "équipe match prix club mètres stade finale poids champion championnat",
+    "size": 306
+  },
+  {
+    "topic_id": 7,
+    "top_words": "homme yeux jeune femme fille tête père fortuné patron main",
+    "size": 296
+  },
+  {
+    "topic_id": 8,
+    "top_words": "exposition général honneur concours saint président capitaine infanterie médaille régiment",
+    "size": 274
+  },
+  {
+    "topic_id": 9,
+    "top_words": "prix course tour épreuve auto club coureurs coupe automobile circuit",
+    "size": 268
+  },
+  {
+    "topic_id": 10,
+    "top_words": "maladies estomac eau peau flacon traitement sang boîte cure guérison",
+    "size": 266
+  },
+  {
+    "topic_id": 11,
+    "top_words": "point vie homme académie histoire livre amour femme monde temps",
+    "size": 254
+  },
+  {
+    "topic_id": 12,
+    "top_words": "théâtre rôle succès public opéra artistes talent artiste scène représentation",
+    "size": 228
+  },
+  {
+    "topic_id": 13,
+    "top_words": "volume jésus francs prix librairie poste grand abonnement vol pages",
+    "size": 218
+  },
+  {
+    "topic_id": 14,
+    "top_words": "temps ouest troupes fort sud port nord saint front commandant",
+    "size": 209
+  },
+  {
+    "topic_id": 15,
+    "top_words": "banque actions valeurs société cours titres crédit fonds millions bénéfices",
+    "size": 151
+  },
+  {
+    "topic_id": 16,
+    "top_words": "banque cours nord crédit lyon fer act gaz valeurs orléans",
+    "size": 150
+  },
+  {
+    "topic_id": 17,
+    "top_words": "kil courant disponible marché cote prix blés froment avoine sacs",
+    "size": 107
+  },
+  {
+    "topic_id": 18,
+    "top_words": "billets dunkerque classe oran départ fer départs ang nord saint",
+    "size": 84
+  },
+  {
+    "topic_id": 19,
+    "top_words": "ans syndic maire saint juge comm prov adjoint veuve jean",
+    "size": 70
+  }
+]

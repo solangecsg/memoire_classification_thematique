@@ -1,0 +1,171 @@
+{
+ "meta": {
+  "model": "lda_mallet",
+  "run_id": "lda_corpus_mistral_article_k20_g1_pos_f5_l3_20260814_233113",
+  "source": "mistral",
+  "granularite": "article",
+  "k": 20,
+  "iterations": 2000,
+  "graine": 1,
+  "optimisation": 0,
+  "burn_in": null,
+  "n_docs": 4409,
+  "n_fascicules": 100,
+  "min_mots": 20,
+  "n_tokens": 481871,
+  "longueur_min": 3,
+  "freq_min": 5,
+  "pos": "NOUN,PROPN",
+  "duree_s": 75.8
+ },
+ "reference_commune": true,
+ "entropy": {
+  "entropy_mean": 1.7941,
+  "entropy_max": 2.9957,
+  "entropy_normalized": 0.5989
+ },
+ "diversity": {
+  "diversity": 0.795,
+  "diversity_norm": 0.0074,
+  "tokens_distincts": 21355,
+  "unique_words": 159,
+  "total_words": 200,
+  "shared_words": [
+   "année",
+   "degré",
+   "eau",
+   "enfant",
+   "femme",
+   "fer",
+   "fois",
+   "franc",
+   "france",
+   "gouvernement",
+   "guerre",
+   "heure",
+   "homme",
+   "jour",
+   "journal",
+   "maison",
+   "ministre",
+   "mlle",
+   "mois",
+   "numéro",
+   "paris",
+   "pays",
+   "point",
+   "prix",
+   "président",
+   "rue",
+   "société",
+   "soir",
+   "théâtre"
+  ],
+  "n_shared": 29
+ },
+ "npmi": {
+  "npmi_mean": -0.345,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": -0.405,
+    "top_words": "film paris heure théâtre cinéma soir palais revue comédie spectacle"
+   },
+   {
+    "topic_id": 1,
+    "npmi": -0.0296,
+    "top_words": "prix équipe france club course point tour match épreuve kilomètre"
+   },
+   {
+    "topic_id": 2,
+    "npmi": -0.3566,
+    "top_words": "femme homme monsieur main jour fille enfant oeil tête cœur"
+   },
+   {
+    "topic_id": 3,
+    "npmi": -0.8253,
+    "top_words": "pourcent paris cours banque juillet mai avril juin nord fer"
+   },
+   {
+    "topic_id": 4,
+    "npmi": -0.6408,
+    "top_words": "degré toulouse oran maison lot marseille numéro franc octobre commune"
+   },
+   {
+    "topic_id": 5,
+    "npmi": -0.7932,
+    "top_words": "rue paris état prix place degré renault int occasion boulevard"
+   },
+   {
+    "topic_id": 6,
+    "npmi": -0.1608,
+    "top_words": "théâtre mlle rôle acte succès public opéra représentation pièce artiste"
+   },
+   {
+    "topic_id": 7,
+    "npmi": -0.2709,
+    "top_words": "fois eau dame qualité couleur mètre robe manteau objet peau"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.0517,
+    "top_words": "conseil loi ministre chambre président gouvernement commission droit projet article"
+   },
+   {
+    "topic_id": 9,
+    "npmi": -0.0072,
+    "top_words": "france gouvernement allemagne angleterre prince roi ministre affaire pays guerre"
+   },
+   {
+    "topic_id": 10,
+    "npmi": -0.7088,
+    "top_words": "homme temps point pays chose jour france fois monde force"
+   },
+   {
+    "topic_id": 11,
+    "npmi": -0.6038,
+    "top_words": "heure lieu société comité soir président réunion dimanche exposition membre"
+   },
+   {
+    "topic_id": 12,
+    "npmi": -0.7265,
+    "top_words": "heure matin soir jour ville fer service chemin eau train"
+   },
+   {
+    "topic_id": 13,
+    "npmi": -0.4573,
+    "top_words": "lille rue prix bureau mois maison courant kil marché journal"
+   },
+   {
+    "topic_id": 14,
+    "npmi": -0.2416,
+    "top_words": "franc million société année industrie travail titre somme produit intérêt"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2716,
+    "top_words": "général guerre armée officier chef troupe soldat capitaine homme commandant"
+   },
+   {
+    "topic_id": 16,
+    "npmi": -0.0142,
+    "top_words": "école étude science professeur enseignement année classe église académie élève"
+   },
+   {
+    "topic_id": 17,
+    "npmi": -0.015,
+    "top_words": "femme juge police paris maladie médecin cour enfant docteur prison"
+   },
+   {
+    "topic_id": 18,
+    "npmi": -0.7325,
+    "top_words": "paris prix journal livre numéro rue volume mois franc poste"
+   },
+   {
+    "topic_id": 19,
+    "npmi": -0.2334,
+    "top_words": "mme jean mlle henri louis marquis paul marie georges andré"
+   }
+  ]
+ }
+}

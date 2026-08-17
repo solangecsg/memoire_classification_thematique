@@ -1,0 +1,533 @@
+{
+  "fascicule": "4745664",
+  "usage": {
+    "prompt_tokens": 30358,
+    "completion_tokens": 1526,
+    "total_tokens": 31884,
+    "cached_tokens": 0,
+    "n_calls": 2,
+    "temps_reponse_total_s": 23.26,
+    "temps_reponse_min_s": 5.8,
+    "temps_reponse_max_s": 17.45,
+    "temps_reponse_moyen_s": 11.63,
+    "temps_reponse_median_s": 11.63
+  },
+  "articles": [
+    {
+      "article_id": "DIV.20",
+      "title": "Vaincre !",
+      "themes": [
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.33",
+      "title": "Communiqué de la Préfecture de la Seine",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000076",
+          "label_fr": "Pourparlers de paix"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.41",
+      "title": "Un appel de Radio-Brazzaville",
+      "themes": [
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.49",
+      "title": "Paris vit des heures de bataille : Des chars allemands ont ouvert le feu, samedi et dimanche, sur l'île de la Cité mais sans reprendre la Préfecture de Police",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        },
+        {
+          "code": "20000433",
+          "label_fr": "Forêts"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.104",
+      "title": "LA LIBERTE RECONQUISE",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.118",
+      "title": "Dans les rues de Paris cyclistes et piétons souriaient face aux canons braqués",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.134",
+      "title": "Ils partent...",
+      "themes": [
+        {
+          "code": "20000104",
+          "label_fr": "Vol"
+        },
+        {
+          "code": "20000099",
+          "label_fr": "Homicide"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.142",
+      "title": "N'oublions pas",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.171",
+      "title": "LONDRES ET NEW-YORK ANNONCENT: : Les Alliés aux abords de Corbeil, Melun et Fontainebleau et aux portes de Versailles LES ÉLÉMENTS AVANCÉS A 6 KILOMÈTRES DE PARIS PRISE D'AIX-EN-PROVENCE",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000583",
+          "label_fr": "Élections primaires"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.198",
+      "title": "Le général de Gaulle est arrivé en France : « Nous reconstruirons Cherbourg d'une manière plus grandiose et plus belle, exactement comme nous reconstruirons la France. » a déclaré le Chef du Gouvernement provisoire de la République",
+      "themes": [
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.213",
+      "title": "Les tickets-lettres de pain sont validés",
+      "themes": [
+        {
+          "code": "20000210",
+          "label_fr": "Agriculture"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.221",
+      "title": "Toutes les salles de spectacle de Paris sont occupées",
+      "themes": [
+        {
+          "code": "20000029",
+          "label_fr": "Théâtre"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.226",
+      "title": "Défense de la France paraît déjà depuis 15 Jours à Rennes",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000046",
+          "label_fr": "Média d'information"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.234",
+      "title": "M. Marcel Willard secrétaire général à la Justice s'est installé place Vendôme",
+      "themes": [
+        {
+          "code": "20000613",
+          "label_fr": "Ministres"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.242",
+      "title": "DIV.242",
+      "themes": [
+        {
+          "code": "20000337",
+          "label_fr": "Transports"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.248",
+      "title": "L'OFFENSIVE DE L'ARMÉE ROUGE en direction de l'Allemagne AVANCE VERS SES TROIS OBJECTIFS : la Prusse Orientale, Varsovie et la Silésie",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000373",
+          "label_fr": "Commerce international"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.262",
+      "title": "Les Allemands bombardent Florence",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000150",
+          "label_fr": "Incendie"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.267",
+      "title": "Mussolini révèle les clauses de l'armistice entre Badoglio et les Alliés",
+      "themes": [
+        {
+          "code": "20000075",
+          "label_fr": "Plan de paix"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.275",
+      "title": "Des troupes belges opèrent en France",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.281",
+      "title": "Ce qu'est \"Défense de la France\"",
+      "themes": [
+        {
+          "code": "20000047",
+          "label_fr": "Journaux"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.298",
+      "title": "\" La résistance et la police ont eu une attitude masnifique \" nous dit M. Charles LUIZET, Préfet de Police",
+      "themes": [
+        {
+          "code": "20000613",
+          "label_fr": "Ministres"
+        },
+        {
+          "code": "20000595",
+          "label_fr": "Fonctionnaires"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.330",
+      "title": "En Italie, la VIIIe armée occupe Pergola",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.343",
+      "title": "Le Gouvernement de Vichy est venu s'effondrer à Paris : La plupart des ministres sont emmenés par les Allemands, les autres se cachent Les SS arrêtent M. Herriot qui proteste solennellement",
+      "themes": [
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000130",
+          "label_fr": "Arrestation"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.375",
+      "title": "\" PUNIR LES COUPABLES supprimer les comités d'organisation et dépanner notre industrie seront les trois questions principales que nous aurons à régler \" nous déclare le Secrétaire général provisoire à la production industrielle",
+      "themes": [
+        {
+          "code": "20000294",
+          "label_fr": "Industrie manufacturière"
+        },
+        {
+          "code": "20000345",
+          "label_fr": "Politique économique"
+        },
+        {
+          "code": "20000536",
+          "label_fr": "Syndicats"
+        },
+        {
+          "code": "20000093",
+          "label_fr": "Corruption"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.409",
+      "title": "Versailles se prépare à recevoir les Alliés",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000644",
+          "label_fr": "Organisation internationale"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.415",
+      "title": "Une conférence de Gaulle-Eisenhower et Kœnig",
+      "themes": [
+        {
+          "code": "20000639",
+          "label_fr": "Diplomatie"
+        },
+        {
+          "code": "20000610",
+          "label_fr": "Chef de l'Etat"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.420",
+      "title": "Chartres honore ses morts",
+      "themes": [
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000698",
+          "label_fr": "Église"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.425",
+      "title": "Le colonel Beaupuis occupe le C. G. S.",
+      "themes": [
+        {
+          "code": "20001147",
+          "label_fr": "Politique sportive"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.430",
+      "title": "Les Russes ont percé au sud de l'Estonie",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000584",
+          "label_fr": "Référendum"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.435",
+      "title": "Quatre bateaux ennemis détruits en Méditerranée",
+      "themes": [
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000410",
+          "label_fr": "Apprentissage social"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.442",
+      "title": "Déjà des combines.., et dans le cinéma les Allemands essaient de sauver les meubles",
+      "themes": [
+        {
+          "code": "20000005",
+          "label_fr": "Cinéma"
+        },
+        {
+          "code": "20000062",
+          "label_fr": "Guerre"
+        },
+        {
+          "code": "20000199",
+          "label_fr": "Gouvernance"
+        }
+      ]
+    },
+    {
+      "article_id": "DIV.449",
+      "title": "JEAN MARIN Directeur Russes- Bretagne",
+      "themes": [
+        {
+          "code": "20000050",
+          "label_fr": "Radio"
+        },
+        {
+          "code": "20000469",
+          "label_fr": "Protocole médical"
+        },
+        {
+          "code": "20000614",
+          "label_fr": "Gouvernement national"
+        }
+      ]
+    }
+  ]
+}

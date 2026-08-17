@@ -1,0 +1,110 @@
+{
+ "reference": "brute",
+ "npmi": {
+  "npmi_mean": 0.2664,
+  "npmi_per_topic": [
+   {
+    "topic_id": 0,
+    "npmi": 0.2765,
+    "top_words": "blanc rouge eau dames noir petits laine fleurs qualité belle"
+   },
+   {
+    "topic_id": 1,
+    "npmi": 0.3213,
+    "top_words": "gouvernement politique parti peuple droit république pays ordre liberté assemblée"
+   },
+   {
+    "topic_id": 2,
+    "npmi": 0.2499,
+    "top_words": "saint ans jean henri louis marie pierre paul georges charles"
+   },
+   {
+    "topic_id": 3,
+    "npmi": 0.2628,
+    "top_words": "ans police cour mort femme prison président affaire justice tribunal"
+   },
+   {
+    "topic_id": 4,
+    "npmi": 0.334,
+    "top_words": "point temps hommes donner mieux bonne monde voir fort esprit"
+   },
+   {
+    "topic_id": 5,
+    "npmi": 0.3109,
+    "top_words": "num prix renault citroën int places cond voitures luxe cabriolet"
+   },
+   {
+    "topic_id": 6,
+    "npmi": 0.2867,
+    "top_words": "guerre gouvernement allemagne français angleterre anglais pays londres états berlin"
+   },
+   {
+    "topic_id": 7,
+    "npmi": 0.2657,
+    "top_words": "commission loi num conseil ministre chambre projet séance président demande"
+   },
+   {
+    "topic_id": 8,
+    "npmi": 0.259,
+    "top_words": "num francs société compagnie banque cours millions fer actions chemins"
+   },
+   {
+    "topic_id": 9,
+    "npmi": 0.324,
+    "top_words": "num cours cpt nord banque lyon fer remb crédit gaz"
+   },
+   {
+    "topic_id": 10,
+    "npmi": 0.1887,
+    "top_words": "num prix francs kil courant marché mètres kilos cours disponible"
+   },
+   {
+    "topic_id": 11,
+    "npmi": 0.2751,
+    "top_words": "général président honneur conseil maire roi secrétaire chef ministre membres"
+   },
+   {
+    "topic_id": 12,
+    "npmi": 0.3801,
+    "top_words": "homme jeune femme yeux fille cœur tête père petit vie"
+   },
+   {
+    "topic_id": 13,
+    "npmi": 0.1784,
+    "top_words": "num lille demande maison bureau adresser ans vendre francs prix"
+   },
+   {
+    "topic_id": 14,
+    "npmi": 0.2689,
+    "top_words": "travail industrie ouvriers travaux pays vue société commerce produits grande"
+   },
+   {
+    "topic_id": 15,
+    "npmi": 0.2335,
+    "top_words": "école histoire art prix vie œuvre vient enfants enseignement auteur"
+   },
+   {
+    "topic_id": 16,
+    "npmi": 0.1414,
+    "top_words": "num prix exposition poste franco maladies grand vente volume traitement"
+   },
+   {
+    "topic_id": 17,
+    "npmi": 0.1844,
+    "top_words": "num club équipe prix course tour match épreuve français grand"
+   },
+   {
+    "topic_id": 18,
+    "npmi": 0.2428,
+    "top_words": "nord fer chemin train pont route gare mer manœuvres hommes"
+   },
+   {
+    "topic_id": 19,
+    "npmi": 0.344,
+    "top_words": "théâtre opéra rôle grand musique succès public comique acte comédie"
+   }
+  ]
+ },
+ "mots_hors_reference": 0,
+ "mots_total": 200
+}
