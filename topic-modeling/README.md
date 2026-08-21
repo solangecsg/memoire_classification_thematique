@@ -42,6 +42,9 @@ topic-modeling/
 ├── matrices_confusion.py       cartes de chaleur des deux confrontations
 ├── projections_clusters.py     nuages de points des regroupements
 ├── figures_chapitre3.py        coûts, couverture et distributions
+├── figures_comparaison.py      balayage de K et dépense à l'échelle
+├── pages_thematiques.py        pages de presse coloriées par thème
+├── composition_periode.py      composition thématique par période
 ├── stopwords_fr_presse.txt     listes d'arrêt constituées pour ce corpus
 ├── stopwords_extra.txt
 ├── stoplocs_fr_presse.txt
@@ -203,11 +206,29 @@ fréquence. Le script reconstruit la liste des 567 étiquettes en appelant la
 fonction du script de classification qui la fabrique, de sorte que les deux
 définitions restent solidaires.
 
+`pages_thematiques.py` dessine des pages du corpus à leurs coordonnées réelles,
+un rectangle par bloc de texte. Une première figure remplit chaque bloc selon le
+poids d'un thème, une seconde donne à chaque article la couleur de sa catégorie
+IPTC et son intitulé. L'option `--verifier` confronte l'étendue d'un thème au
+découpage en articles du METS.
+
+`figures_comparaison.py` produit deux figures dont l'objet traverse les
+chapitres : les balayages du nombre de groupes des deux familles sur un même axe,
+et la dépense des trois méthodes à l'échelle de la plateforme, en deux panneaux
+puisque les unités diffèrent.
+
+`composition_periode.py` agrège les affectations par tranche de vingt ans. Les
+dates de publication sont lues dans le manifeste de chaque fascicule et
+recoupées, avec `--controle`, avec le relevé des adresses Gallica.
+
 ```bash
 python3 matrices_confusion.py
 python3 projections_clusters.py             # cache la projection au premier appel
 python3 projections_clusters.py --recalculer
 python3 figures_chapitre3.py
+python3 figures_comparaison.py
+python3 pages_thematiques.py
+python3 composition_periode.py --controle
 ```
 
 La projection d'affichage va vers deux dimensions, quand celle du regroupement
