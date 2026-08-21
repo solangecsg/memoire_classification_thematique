@@ -36,10 +36,18 @@ contraintes, et les compter mêlerait deux régimes.
 
 ENTRÉES
 
-  corpus/original/{fascicule}/ocr/       ALTO d'origine
-  corpus/reocr_pero/{fascicule}/ocr/     ALTO produits par Pero
-  corpus/reocr_mistral/{fascicule}/ocr/  ALTO produits par le modèle multimodal
-  corpus/original/{fascicule}/toc/       carte logique, pour le compte d'articles
+  corpus/original/{fascicule}/ocr/             ALTO d'origine
+  corpus/reocr_pero/{fascicule}_reocr/ocr/     ALTO produits par Pero
+  corpus/reocr_mistral/{fascicule}_reocr/ocr/  ALTO produits par le modèle
+                                               multimodal
+  corpus/original/{fascicule}/toc/             carte logique, d'où vient le
+                                               compte d'articles
+
+Les ALTO produits par Pero ne sont pas versés dans ce dépôt : le moteur a été
+écarté après cette mesure et ses sorties n'ont pas été conservées. Le script
+s'arrête alors sur un message qui le dit, la comparaison n'ayant de sens qu'à
+trois. Les valeurs qu'elles ont données restent lisibles dans resultats_stats/,
+qui est versé.
 
 SORTIES
 
@@ -69,8 +77,8 @@ from pathlib import Path
 
 # ── Chemins ───────────────────────────────────────────────────────────────────
 
-ROOT       = Path(__file__).parent.parent
-OUTPUT_DIR = Path(__file__).parent / "resultats_stats"
+ICI        = Path(__file__).resolve().parent
+OUTPUT_DIR = ICI / "resultats_stats"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 NS_ALTO     = "http://www.loc.gov/standards/alto/ns-v3#"
@@ -78,12 +86,61 @@ METS_NS     = "http://www.loc.gov/METS/"
 XLINK_NS    = "http://www.w3.org/1999/xlink"
 TITLE_LABELS = {"title", "subtitle", "heading"}
 
-ALTO_SOURCES = {
-    "BnF":     lambda fid: ROOT / "Sample" / "sample_iiif" / fid / "ocr",
-    "Pero":    lambda fid: ROOT / "ocr" / "re_ocr" / "results" / "re_ocr_results_extract_01072026" / f"{fid}_reocr" / "ocr",
-    "Mistral": lambda fid: ROOT / "reocr_mistral" / "resultats_mistral" / f"{fid}_reocr" / "ocr",
+SOURCES = ["BnF", "Pero", "Mistral"]
+
+# Chaque océrisation est cherchée à deux endroits : sous corpus/, comme le dépôt
+# la range, et là où sa chaîne de production l'a écrite dans le dossier de
+# travail. Le second membre de chaque couple donne le nom du dossier de
+# fascicule, les deux ré-océrisations ayant suffixé le leur.
+DISPOSITIONS = {
+    "BnF":     [("corpus/original", "{fid}"),
+                ("sample_iiif", "{fid}")],
+    "Pero":    [("corpus/reocr_pero", "{fid}_reocr"),
+                ("ocr/re_ocr/results/re_ocr_results_extract_01072026", "{fid}_reocr")],
+    "Mistral": [("corpus/reocr_mistral", "{fid}_reocr"),
+                ("resultats_mistral", "{fid}_reocr")],
 }
-TOC_DIR = lambda fid: ROOT / "Sample" / "sample_iiif" / fid / "toc"
+
+EMPLACEMENTS: dict[str, tuple[Path, str]] = {}
+
+
+def emplacements() -> dict[str, tuple[Path, str]]:
+    """Localise les trois océrisations, dans l'une ou l'autre disposition.
+
+    La recherche remonte l'arborescence depuis ce fichier, les deux dispositions
+    ne plaçant pas le corpus à la même profondeur : sous re-ocr/ dans le dépôt,
+    à côté du script dans le dossier de travail.
+
+    Le diagramme de recouvrement compare les trois sources entre elles. Il
+    perdrait son sens s'il en manquait une, la part propre à chacune des autres
+    s'en trouvant gonflée d'autant. L'absence est donc signalée plutôt que
+    contournée.
+    """
+    trouves, manquants = {}, []
+    for source in SOURCES:
+        for rel, motif in DISPOSITIONS[source]:
+            trouve = next((b / rel for b in [ICI, *ICI.parents] if (b / rel).is_dir()), None)
+            if trouve is not None:
+                trouves[source] = (trouve, motif)
+                break
+        else:
+            manquants.append(source)
+    if manquants:
+        detail = "\n".join(f"  {s} : " + ", ".join(rel for rel, _ in DISPOSITIONS[s])
+                           for s in manquants)
+        raise SystemExit(
+            "océrisation introuvable, alors que la comparaison porte sur les "
+            f"trois :\n{detail}\n"
+            f"Cherchées depuis {ICI}, en remontant l'arborescence. Les ALTO "
+            "produits par Pero ne sont pas versés dans le dépôt ; les mesures "
+            "qu'ils ont données figurent dans resultats_stats/.")
+    return trouves
+
+
+def dossier(source: str, fid: str, sous: str = "ocr") -> Path:
+    """Rend le dossier ocr/ ou toc/ d'un fascicule, pour une source donnée."""
+    base, motif = EMPLACEMENTS[source]
+    return base / motif.format(fid=fid) / sous
 
 # ── Extraction tokens depuis ALTO ─────────────────────────────────────────────
 
@@ -114,7 +171,7 @@ def tokens_from_alto(path: Path) -> list[str]:
 
 def articles_per_page(fid: str) -> dict[str, int]:
     """Retourne {page_stem: nb_articles} pour un fascicule."""
-    toc_folder = TOC_DIR(fid)
+    toc_folder = dossier("BnF", fid, "toc")
     if not toc_folder.exists():
         return {}
     toc_files = list(toc_folder.glob("T*.xml"))
@@ -148,17 +205,22 @@ def articles_per_page(fid: str) -> dict[str, int]:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--n", type=int, default=10)
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--n", type=int, default=10,
+                        help="nombre de fascicules à traiter (10 par défaut)")
     args = parser.parse_args()
 
+    EMPLACEMENTS = emplacements()
+    base, motif = EMPLACEMENTS["BnF"]
     fascicules = sorted(
-        d.name for d in (ROOT / "Sample" / "sample_iiif").iterdir()
-        if d.is_dir() and (d / "ocr").exists()
+        d.name for d in base.iterdir()
+        if d.is_dir() and (d / "ocr").is_dir()
     )[:args.n]
+    if not fascicules:
+        raise SystemExit(f"aucun fascicule sous {base}")
     print(f"Fascicules ({len(fascicules)}) : {fascicules}\n")
-
-    SOURCES = ["BnF", "Pero", "Mistral"]
 
     # Résultats : {fid: {page: {source: Counter}}}
     all_data = {}
@@ -172,14 +234,14 @@ if __name__ == "__main__":
         # Récupérer toutes les pages disponibles (union des 3 sources)
         pages = set()
         for src in SOURCES:
-            d = ALTO_SOURCES[src](fid)
-            if d.exists():
+            d = dossier(src, fid)
+            if d.is_dir():
                 pages |= {f.stem for f in d.glob("X*.xml")}
 
         for page in sorted(pages):
             all_data[fid][page] = {}
             for src in SOURCES:
-                alto = ALTO_SOURCES[src](fid) / f"{page}.xml"
+                alto = dossier(src, fid) / f"{page}.xml"
                 if alto.exists():
                     toks = tokens_from_alto(alto)
                     all_data[fid][page][src] = Counter(toks)

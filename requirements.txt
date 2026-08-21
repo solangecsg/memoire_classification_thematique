@@ -28,9 +28,10 @@ numpy
 pero-ocr
 
 # Métriques OCR (re-ocr/metriques/)
-# impresso-pipelines : jamais installé/testé dans cet environnement
-# version non figée, à valider avant usage.
-impresso-pipelines               # ocrqa/impresso_ocrqa.py : score OCR Quality Assessment
+# Le sous-paquet ocrqa demande des dépendances supplémentaires (floret,
+# pybloomfilter3) que l'extra installe. Sans elles, l'import échoue en donnant
+# lui-même la commande à passer.
+impresso-pipelines[ocrqa]==0.4.6.13  # ocrqa/impresso_ocrqa.py : score OCR Quality Assessment
 
 # Modélisation thématique et regroupement (topic-modeling/)
 # Testé avec Python 3.14.3, macOS, calcul sur MPS.

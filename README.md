@@ -88,13 +88,15 @@ Toutes ces sorties sont écrites dans ce même dossier `analyse_couts/`, à côt
 
 ```bash
 cd analyse_couts
-python analyze_corpus_tokens.py        # à lancer en premier (produit stats_par_article.csv)
-python estimate_pricing.py
-python estimate_pricing_batched.py
-python estimate_pricing_cascade.py
+python3 analyze_corpus_tokens.py       # à lancer en premier (produit stats_par_article.csv)
+python3 estimate_pricing.py
+python3 estimate_pricing_batched.py
+python3 estimate_pricing_cascade.py
 ```
 
 Les scripts de `analyse_couts/` produisent ces chiffres et les écrivent dans les CSV du même dossier. Chaque script porte en tête ce qu'il mesure et sous quelles hypothèses.
+
+**Le tokeniseur conditionne les chiffres.** Les comptes de jetons viennent de `mistral-common`, épinglé dans le `requirements.txt`. En son absence, `count_tokens` se rabat sur une estimation par caractères sans avertir : la liste des étiquettes y pèse 4 821 jetons au lieu de 8 775 et le coût annoncé tombe de moitié. Comme les trois scripts d'estimation lisent le relevé produit par `analyze_corpus_tokens.py`, il faut relancer celui-ci après toute installation du tokeniseur, sans quoi les comptes fixes et les comptes par article viendraient de deux régimes différents.
 
 ## `results/` : sorties de classification
 
@@ -116,8 +118,10 @@ Les scripts de `analyse_couts/` produisent ces chiffres et les écrivent dans le
 
 | Script | Rôle | Sortie |
 |---|---|---|
-| `stats_pages.py` | Par page et par source (BnF original / Pero / Mistral) : tokens distincts, nb de mots, nb de caractères, nb d'articles (depuis le TOC/METS) — pour comparer objectivement les 3 sources. Usage : `python stats_pages.py [--n 10]`. | `resultats_stats/stats_par_page.csv`, `stats_mistral_brut.csv`, `vocab_venn.html` |
-| `ocrqa/impresso_ocrqa.py` | Score de qualité OCR (ratio de mots reconnus, méthode **impresso**) sur les 3 sources. Usage : `python3 impresso_ocrqa.py [--n 5]`. | `ocrqa/resultats_ocrqa/ocrqa_results.json`, `ocrqa_summary.csv`, `ocrqa_report.html` |
+| `stats_pages.py` | Par page et par source (BnF original / Pero / Mistral) : tokens distincts, nb de mots, nb de caractères, nb d'articles (depuis le TOC/METS) — pour comparer objectivement les 3 sources. Usage : `python3 stats_pages.py [--n 10]`. | `resultats_stats/stats_par_page.csv`, `stats_mistral_brut.csv`, `vocab_venn.html` |
+| `ocrqa/impresso_ocrqa.py` | Score de qualité OCR (ratio de mots reconnus, méthode **impresso**) sur les sources présentes. Usage : `python3 impresso_ocrqa.py [--n 5]`. | `ocrqa/resultats_ocrqa/ocrqa_results.json`, `ocrqa_summary.csv`, `ocrqa_report.html` |
+
+**Les ALTO produits par Pero ne sont pas versés** : le moteur a été écarté après cette mesure et ses sorties n'ont pas été conservées. `stats_pages.py` s'arrête donc sur un message qui le dit, son diagramme de recouvrement n'ayant de sens qu'à trois sources ; `impresso_ocrqa.py` signale la source absente et poursuit sur les deux autres. Les relevés obtenus à trois sources restent versés dans `resultats_stats/` et `ocrqa/resultats_ocrqa/`.
 
 ### `re-ocr/corpus/` : structure du corpus
 

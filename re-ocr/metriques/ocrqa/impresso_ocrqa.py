@@ -3,9 +3,15 @@ impresso_ocrqa.py — OCR Quality Assessment (impresso) sur 3 sources
 
 Pour les 10 premiers fascicules disponibles, calcule le score OCRQA
 (ratio mots reconnus / total) sur :
-  - BnF       : ALTO original  (Sample/sample_iiif/{fid}/ocr/)
-  - Pero      : ALTO re-OCR    (re_ocr/results/re_ocr_results_extract_01072026/{fid}_reocr/ocr/)
-  - Mistral   : ALTO re-OCR    (reocr_mistral/resultats_mistral/{fid}_reocr/ocr/)
+  - BnF       : ALTO original  (corpus/original/{fid}/ocr/)
+  - Pero      : ALTO re-OCR    (corpus/reocr_pero/{fid}_reocr/ocr/)
+  - Mistral   : ALTO re-OCR    (corpus/reocr_mistral/{fid}_reocr/ocr/)
+
+Les ALTO produits par Pero ne sont pas versés dans ce dépôt : le moteur a été
+écarté après cette mesure et ses sorties n'ont pas été conservées. Le script
+signale la source manquante et poursuit sur les deux autres, chaque score étant
+calculé indépendamment. Les valeurs obtenues à trois sources restent lisibles
+dans resultats_ocrqa/, qui est versé.
 
 Sortie :
   - resultats_ocrqa/ocrqa_results.json   (scores par bloc)
@@ -27,15 +33,57 @@ from collections import defaultdict
 NS_ALTO     = "http://www.loc.gov/standards/alto/ns-v3#"
 TITLE_LABELS = {"title", "subtitle", "heading"}
 
-ROOT        = Path(__file__).parent.parent
-OUTPUT_DIR  = Path(__file__).parent / "resultats_ocrqa"
+ICI         = Path(__file__).resolve().parent
+OUTPUT_DIR  = ICI / "resultats_ocrqa"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-ALTO_SOURCES = {
-    "BnF":     lambda fid: ROOT / "Sample" / "sample_iiif" / fid / "ocr",
-    "Pero":    lambda fid: ROOT / "re_ocr" / "results" / "re_ocr_results_extract_01072026" / f"{fid}_reocr" / "ocr",
-    "Mistral": lambda fid: ROOT / "reocr_mistral" / "resultats_mistral" / f"{fid}_reocr" / "ocr",
+SOURCES = ["BnF", "Pero", "Mistral"]
+
+# Chaque océrisation est cherchée à deux endroits : sous corpus/, comme le dépôt
+# la range, et là où sa chaîne de production l'a écrite dans le dossier de
+# travail. Le second membre de chaque couple donne le nom du dossier de
+# fascicule, les deux ré-océrisations ayant suffixé le leur. La recherche remonte
+# l'arborescence, les deux dispositions ne plaçant pas le corpus à la même
+# profondeur.
+DISPOSITIONS = {
+    "BnF":     [("corpus/original", "{fid}"),
+                ("sample_iiif", "{fid}")],
+    "Pero":    [("corpus/reocr_pero", "{fid}_reocr"),
+                ("ocr/re_ocr/results/re_ocr_results_extract_01072026", "{fid}_reocr")],
+    "Mistral": [("corpus/reocr_mistral", "{fid}_reocr"),
+                ("resultats_mistral", "{fid}_reocr")],
 }
+
+EMPLACEMENTS: dict[str, tuple[Path, str]] = {}
+
+
+def emplacements() -> dict[str, tuple[Path, str]]:
+    """Localise les océrisations présentes, dans l'une ou l'autre disposition.
+
+    Une source absente est omise plutôt que fatale : les scores se calculent
+    source par source et restent comparables sur celles qui subsistent. Seule
+    l'océrisation d'origine est indispensable, la liste des fascicules à traiter
+    en étant tirée.
+    """
+    trouves = {}
+    for source in SOURCES:
+        for rel, motif in DISPOSITIONS[source]:
+            base = next((b / rel for b in [ICI, *ICI.parents] if (b / rel).is_dir()), None)
+            if base is not None:
+                trouves[source] = (base, motif)
+                break
+    if "BnF" not in trouves:
+        raise SystemExit(
+            "océrisation d'origine introuvable, cherchée depuis "
+            f"{ICI} en remontant l'arborescence sous "
+            + " ou ".join(rel for rel, _ in DISPOSITIONS["BnF"]) + ".")
+    return trouves
+
+
+def dossier(source: str, fid: str) -> Path:
+    """Rend le dossier ALTO d'un fascicule, pour une source donnée."""
+    base, motif = EMPLACEMENTS[source]
+    return base / motif.format(fid=fid) / "ocr"
 
 # ── Extraction texte ALTO ─────────────────────────────────────────────────────
 
@@ -64,8 +112,8 @@ def extract_text_from_alto(alto_path: Path) -> str:
 
 def load_fascicule_texts(fid: str, source: str) -> dict[str, str]:
     """Retourne {page_stem: texte} pour un fascicule."""
-    alto_dir = ALTO_SOURCES[source](fid)
-    if not alto_dir.exists():
+    alto_dir = dossier(source, fid)
+    if not alto_dir.is_dir():
         return {}
     texts = {}
     for alto in sorted(alto_dir.glob("X*.xml")):
@@ -77,9 +125,17 @@ def load_fascicule_texts(fid: str, source: str) -> dict[str, str]:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--n", type=int, default=10, help="Nb de fascicules à traiter")
     args = parser.parse_args()
+
+    EMPLACEMENTS = emplacements()
+    PRESENTES = [s for s in SOURCES if s in EMPLACEMENTS]
+    absentes = [s for s in SOURCES if s not in EMPLACEMENTS]
+    if absentes:
+        print("source absente, écartée du calcul : " + ", ".join(absentes) + "\n")
 
     # Initialisation pipeline (télécharge les Bloom filters au premier lancement)
     print("Chargement pipeline OCRQA impresso…")
@@ -88,9 +144,10 @@ if __name__ == "__main__":
     print("  Pipeline prêt.\n")
 
     # Liste des fascicules disponibles (intersection des 3 sources)
+    base, motif = EMPLACEMENTS["BnF"]
     bnf_fascicules = sorted(
-        d.name for d in (ROOT / "Sample" / "sample_iiif").iterdir()
-        if d.is_dir() and (d / "ocr").exists()
+        d.name for d in base.iterdir()
+        if d.is_dir() and (d / "ocr").is_dir()
     )
     fascicules = bnf_fascicules[:args.n]
     print(f"Fascicules : {fascicules}\n")
@@ -100,7 +157,7 @@ if __name__ == "__main__":
 
     for fid in fascicules:
         print(f"══ {fid} ══")
-        for source in ["BnF", "Pero", "Mistral"]:
+        for source in PRESENTES:
             texts = load_fascicule_texts(fid, source)
             if not texts:
                 print(f"  {source:8s} : aucune page ALTO")
@@ -134,7 +191,7 @@ if __name__ == "__main__":
         w = csv.writer(f)
         w.writerow(["fascicule", "source", "n_pages", "score_moyen", "score_min", "score_max"])
         for fid in fascicules:
-            for source in ["BnF", "Pero", "Mistral"]:
+            for source in PRESENTES:
                 pages = results[fid].get(source, {})
                 if not pages:
                     w.writerow([fid, source, 0, "", "", ""])
@@ -151,7 +208,7 @@ if __name__ == "__main__":
 
     # Scores moyens par source (toutes pages confondues)
     global_scores = {}
-    for source in ["BnF", "Pero", "Mistral"]:
+    for source in PRESENTES:
         all_s = [p["score"] for fid in fascicules
                  for p in results[fid].get(source, {}).values()]
         global_scores[source] = round(sum(all_s)/len(all_s), 3) if all_s else 0
@@ -160,7 +217,7 @@ if __name__ == "__main__":
     rows = ""
     for fid in fascicules:
         cells = f"<td style='color:#94a3b8'>{fid}</td>"
-        for source in ["BnF", "Pero", "Mistral"]:
+        for source in PRESENTES:
             pages = results[fid].get(source, {})
             if not pages:
                 cells += "<td style='color:#475569'>—</td>"
@@ -181,7 +238,7 @@ if __name__ == "__main__":
 
     # Ligne totaux
     cells_tot = "<td style='color:#93c5fd;font-weight:700'>Moyenne globale</td>"
-    for source in ["BnF", "Pero", "Mistral"]:
+    for source in PRESENTES:
         s = global_scores[source]
         c = COLORS[source]
         cells_tot += f"<td style='color:{c};font-weight:700'>{s:.3f}</td>"
@@ -189,7 +246,7 @@ if __name__ == "__main__":
 
     # Barres globales
     bars = ""
-    for source in ["BnF", "Pero", "Mistral"]:
+    for source in PRESENTES:
         s = global_scores[source]
         c = COLORS[source]
         w = int(s * 300)
@@ -229,9 +286,7 @@ td:first-child{{text-align:left}}
 <table>
 <thead><tr>
   <th>Fascicule</th>
-  <th style="color:#3b82f6">BnF</th>
-  <th style="color:#f97316">Pero</th>
-  <th style="color:#22c55e">Mistral</th>
+  {"".join(f'<th style="color:{COLORS[s]}">{s}</th>' for s in PRESENTES)}
 </tr></thead>
 <tbody>{rows}</tbody>
 </table>
@@ -242,4 +297,4 @@ td:first-child{{text-align:left}}
     html_out = OUTPUT_DIR / "ocrqa_report.html"
     html_out.write_text(html, encoding="utf-8")
     print(f"→ {html_out}")
-    print(f"\n✅ Terminé — {len(fascicules)} fascicules × 3 sources")
+    print(f"\n✅ Terminé — {len(fascicules)} fascicules × {len(PRESENTES)} source(s)")

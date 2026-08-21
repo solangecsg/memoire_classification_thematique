@@ -32,7 +32,7 @@ refait le calcul sur l'ensemble du corpus.
 
 ENTRÉES
 
-  ../../resultats_mistral/{fascicule}_reocr/manifest.xml   dates de publication
+  {corpus}/{fascicule}_reocr/manifest.xml                  dates de publication
   resultats/lda_corpus_bnf_article_k10_g1_*/span_topic.json  affectations
   resultats/lda_corpus_bnf_article_k10_g1_*/topics.json      mots de tête
   ../../100_urls_gallica_recap.xlsx                        contrôle facultatif
@@ -82,12 +82,24 @@ ORDRE = ["locale", "bruit", "sport", "bourse", "annonces", "guerre",
          "politique", "spect.", "chron.", "divers"]
 
 
-def corpus() -> Path:
-    """Racine du dossier de travail, cherchée en remontant l'arborescence."""
+def fascicules() -> Path:
+    """Dossier qui contient les fascicules ré-océrisés, un par sous-dossier.
+
+    Deux emplacements sont possibles selon le contexte. Dans le dossier de
+    travail, les fascicules se trouvent sous resultats_mistral/. Dans le dépôt,
+    ils sont versés sous re-ocr/corpus/reocr_mistral/. Les deux portent la même
+    structure interne, un dossier {identifiant}_reocr contenant son manifeste et
+    son sous-dossier ocr/, et le premier qui existe est retenu.
+    """
     for base in [ICI, *ICI.parents]:
-        if (base / "resultats_mistral").is_dir():
-            return base
-    raise SystemExit("dossier resultats_mistral introuvable")
+        for rel in (Path("resultats_mistral"),
+                    Path("re-ocr") / "corpus" / "reocr_mistral"):
+            if (base / rel).is_dir():
+                return base / rel
+    raise SystemExit(
+        "fascicules ré-océrisés introuvables. Ils sont attendus sous "
+        "resultats_mistral/ dans le dossier de travail, ou sous "
+        "re-ocr/corpus/reocr_mistral/ dans le dépôt.")
 
 
 def dates():
@@ -99,7 +111,7 @@ def dates():
     première date est retenue puisque c'est celle de parution.
     """
     out = {}
-    for d in sorted((corpus() / "resultats_mistral").glob("*_reocr")):
+    for d in sorted(fascicules().glob("*_reocr")):
         fid = d.name.split("_")[0]
         f = d / "manifest.xml"
         if not f.is_file():
@@ -129,8 +141,7 @@ def controle(par_fascicule):
         import openpyxl
     except ImportError:
         return "openpyxl absent, contrôle non conduit"
-    cands = [c / "100_urls_gallica_recap.xlsx"
-             for c in (corpus(), corpus().parent, *corpus().parents)]
+    cands = [c / "100_urls_gallica_recap.xlsx" for c in fascicules().parents]
     f = next((c for c in cands if c.is_file()), None)
     if f is None:
         return "tableur absent, contrôle non conduit"
@@ -148,9 +159,20 @@ def controle(par_fascicule):
 
 def affectations():
     """Rend le fascicule et le thème de chaque document, pour le run du mémoire."""
-    run = sorted(glob.glob(str(ICI / "resultats" /
-                               "lda_corpus_bnf_article_k10_g1_2*")))[0]
-    d = json.loads(Path(run, "span_topic.json").read_text(encoding="utf-8"))
+    dossiers = sorted(glob.glob(str(ICI / "resultats" /
+                                    "lda_corpus_bnf_article_k10_g1_2*")))
+    if not dossiers:
+        raise SystemExit("exécution introuvable : resultats/lda_corpus_bnf_article_k10_g1_*")
+    run = dossiers[0]
+    f = Path(run, "span_topic.json")
+    if not f.is_file():
+        raise SystemExit(
+            f"affectation des documents absente : {f.name}\n"
+            "Elle n'est pas versée dans le dépôt, étant volumineuse et "
+            "régénérable. La reconstituer par :\n"
+            "    python3 lda_mallet_corpus.py --source bnf --granularite article "
+            "--k 10 --graine 1")
+    d = json.loads(f.read_text(encoding="utf-8"))
     if isinstance(d, dict):
         d = d.get("spans", list(d.values()))
     return [(x["fascicule"], int(x["topic_id"])) for x in d

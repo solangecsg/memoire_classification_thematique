@@ -75,11 +75,14 @@ ARTICLES_MESURES = 6699
 ARTICLES_PLATEFORME = 214_000_000
 
 # Coût mesuré des cinq stratégies d'appel sur le sous-corpus, en dollars, tel
-# que le chapitre 3 l'établit avec le tokeniseur du modèle.
+# que le chapitre 3 l'établit avec le tokeniseur du modèle. Les valeurs se
+# régénèrent par les trois scripts d'analyse_couts/ dans le dépôt : elles sont
+# reprises ici en constantes plutôt que relues, ces scripts écrivant des CSV
+# dont le format ne leur est pas commun.
 STRATEGIES = [
-    ("Un article par appel", 31.91),
-    ("Un article par appel, avec cache", 17.03),
-    ("Cascade en deux étages", 4.60),
+    ("Un article par appel", 31.90),
+    ("Un article par appel, avec cache", 17.02),
+    ("Cascade en deux étages", 4.57),
     ("Groupage par lot", 3.63),
     ("Groupage et cache", 2.93),
 ]

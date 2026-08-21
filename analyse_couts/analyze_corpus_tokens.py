@@ -14,8 +14,18 @@ Produit (dans ce même dossier analyse_couts/) :
     (567 étiquettes), et tokens d'input total pour tout le corpus en
     1 appel/article
 
+LE DÉNOMBREMENT DES JETONS
+
+Les comptes viennent du tokeniseur du modèle, mistral-common, épinglé dans le
+requirements.txt à la version 1.11.6. En son absence, count_tokens se rabat sur
+une estimation par caractères qui donne des valeurs sensiblement différentes,
+sans erreur ni avertissement : la liste des étiquettes y pèse 4 821 jetons au
+lieu de 8 775, et le coût annoncé tombe de moitié. Les valeurs rapportées dans le
+mémoire supposent le tokeniseur installé.
+
+
 Usage :
-    python analyze_corpus_tokens.py
+    python3 analyze_corpus_tokens.py
 """
 
 import csv

@@ -88,9 +88,14 @@ from tqdm import tqdm
 # ── Chargement .env ───────────────────────────────────────────────────────────
 
 def load_env(env_path: Path):
-    """Charge un fichier .env dans os.environ (sans dépendance python-dotenv)."""
+    """Charge un fichier .env dans os.environ, s'il existe.
+
+    Le fichier est facultatif : la clé peut aussi venir de l'option --key ou
+    d'une variable d'environnement. Lever une exception ici empêcherait de
+    consulter l'aide du script sans avoir écrit sa clé sur le disque.
+    """
     if not env_path.exists():
-        raise FileNotFoundError(f".env introuvable : {env_path}")
+        return
     for line in env_path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if line and not line.startswith("#") and "=" in line:
@@ -101,15 +106,41 @@ ENV_FILE = Path(__file__).parent / "config" / ".env"
 load_env(ENV_FILE)
 
 MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "")
-if not MISTRAL_API_KEY or MISTRAL_API_KEY == "mets-ta-cle-ici":
-    raise ValueError(f"Clé API manquante : édite {ENV_FILE}")
+
+
+def resoudre_cle(depuis_option: str | None) -> str:
+    """Rend la clé d'API, prise à l'option puis à l'environnement.
+
+    L'option --key l'emporte sur le fichier .env, ce qui permet d'employer le
+    script sans écrire la clé sur le disque. La vérification a lieu ici plutôt
+    qu'au chargement du module, de sorte que --help et --dry-run restent
+    utilisables sans clé.
+    """
+    cle = (depuis_option or MISTRAL_API_KEY or "").strip()
+    if not cle or cle == "mets-ta-cle-ici":
+        raise SystemExit(
+            "Clé API manquante. La fournir par --key, par la variable "
+            f"d'environnement MISTRAL_API_KEY, ou dans {ENV_FILE}.")
+    return cle
 
 # ── Chemins ───────────────────────────────────────────────────────────────────
 
-ROOT_DIR   = Path(__file__).parent.parent          # poc_new/
+ROOT_DIR   = Path(__file__).parent.parent
+
+# Les fichiers ALTO se trouvent à deux endroits selon le contexte. Dans le dépôt
+# ils sont versés sous corpus/original/, un dossier par fascicule contenant un
+# sous-dossier ocr/. Dans le dossier de travail dont ce script est issu, ils se
+# trouvaient sous Sample/sample_iiif/, avec la même structure interne. Le
+# premier chemin qui existe est retenu, et l'option --alto permet d'en imposer
+# un autre.
 SAMPLE_DIR = ROOT_DIR / "Sample"
+_CANDIDATS_ALTO = [ROOT_DIR / "corpus" / "original", SAMPLE_DIR / "sample_iiif"]
+ALTO_DIR   = next((d for d in _CANDIDATS_ALTO if d.is_dir()), _CANDIDATS_ALTO[0])
+
+# Les images numérisées ne sont pas versées dans le dépôt, pesant plusieurs
+# dizaines de gigaoctets. Elles étaient réparties en trois lots dans le dossier
+# de travail. Sans elles, seul --dry-run reste praticable.
 IMG_PARTS  = [SAMPLE_DIR / "pt1", SAMPLE_DIR / "pt2", SAMPLE_DIR / "pt3"]
-ALTO_DIR   = SAMPLE_DIR / "sample_iiif"
 OUTPUT_DIR = Path(__file__).parent / "resultats_mistral"
 
 NS_ALTO = "http://www.loc.gov/standards/alto/ns-v3#"
@@ -561,7 +592,12 @@ def process_fascicule(fascicule_id: str, pages: list[int] | None,
 # ── Entrée principale ─────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+
     parser = argparse.ArgumentParser()
+    parser.add_argument("--key",       default=None,
+                        help="clé d'API Mistral, à défaut de config/.env")
+    parser.add_argument("--alto",      default=None,
+                        help=f"dossier des fichiers ALTO (défaut : {ALTO_DIR})")
     parser.add_argument("--fascicule", default=None, help="Un seul fascicule (ex: 4109000)")
     parser.add_argument("--page",      type=int, nargs="+", default=None)
     parser.add_argument("--out",       default=str(OUTPUT_DIR))
@@ -569,6 +605,19 @@ if __name__ == "__main__":
                         help="Appels API parallèles (défaut 5, augmenter si pas de 429)")
     parser.add_argument("--dry-run",   action="store_true")
     args = parser.parse_args()
+    api_key = resoudre_cle(args.key) if not args.dry_run else (args.key or MISTRAL_API_KEY)
+
+    if args.alto:
+        ALTO_DIR = Path(args.alto)
+    if not ALTO_DIR.is_dir():
+        raise SystemExit(
+            f"dossier ALTO introuvable : {ALTO_DIR}\n"
+            "Le préciser par --alto, ou placer le corpus sous corpus/original/.")
+    if not any(p.is_dir() for p in IMG_PARTS) and not args.dry_run:
+        raise SystemExit(
+            "images introuvables. Elles ne sont pas versées dans le dépôt, "
+            "pesant plusieurs dizaines de gigaoctets.\n"
+            "Seule l'option --dry-run est praticable sans elles.")
 
     MAX_WORKERS = args.workers
     out_base = Path(args.out)
@@ -580,7 +629,8 @@ if __name__ == "__main__":
         fascicules = sorted(d.name for d in ALTO_DIR.iterdir() if d.is_dir())
 
     print(f"📂 {len(fascicules)} fascicule(s) : sortie : {out_base}")
-    print(f"🔑 Clé Mistral chargée depuis {ENV_FILE}")
+    provenance = "de l'option --key" if args.key else f"de {ENV_FILE}"
+    print(f"🔑 Clé Mistral prise {provenance}")
 
     if not args.dry_run:
         print("⏳ Comptage des blocs pour la barre de progression…")
@@ -596,7 +646,7 @@ if __name__ == "__main__":
 
         for fid in fascicules:
             res = process_fascicule(fid, args.page, out_base,
-                                    MISTRAL_API_KEY, args.dry_run, pbar_global)
+                                    api_key, args.dry_run, pbar_global)
             all_results.extend(res)
 
     ok = [r for r in all_results if r.get("status") == "ok"]

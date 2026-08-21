@@ -25,8 +25,23 @@ Sorties (dans ce même dossier analyse_couts/) :
   - cout_resume.csv : min/max/moyenne/médiane + total corpus
   - cout_comparaison_modeles.csv
 
+LE DÉNOMBREMENT DES JETONS
+
+Les comptes viennent du tokeniseur du modèle, mistral-common, épinglé dans le
+requirements.txt à la version 1.11.6. En son absence, count_tokens se rabat sur
+une estimation par caractères qui donne des valeurs sensiblement différentes,
+sans erreur ni avertissement : la liste des étiquettes y pèse 4 821 jetons au
+lieu de 8 775, et le coût annoncé tombe de moitié. Les valeurs rapportées dans le
+mémoire supposent le tokeniseur installé.
+
+Les trois scripts d'estimation lisent le relevé produit par
+analyze_corpus_tokens.py. Il faut donc l'exécuter en premier, et le réexécuter
+après toute installation du tokeniseur, faute de quoi les comptes fixes et les
+comptes par article proviendraient de deux régimes différents.
+
 Usage :
-    python estimate_pricing.py
+    python3 analyze_corpus_tokens.py   # d'abord : produit stats_par_article.csv
+    python3 estimate_pricing.py
 """
 
 import csv

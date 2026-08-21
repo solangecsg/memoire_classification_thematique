@@ -11,7 +11,7 @@ retenue pour la campagne complète.
 POURQUOI GROUPER
 
 La liste des 567 étiquettes doit accompagner chaque appel, le modèle ne
-conservant rien d'un appel à l'autre. Elle pèse environ 8 960 jetons, mesurés
+conservant rien d'un appel à l'autre. Elle pèse 8 775 jetons, mesurés
 avec le tokeniseur de Mistral plutôt qu'estimés en caractères, quand un article
 en compte 522 en moyenne. Le coût fixe représente donc 92 pour cent du volume
 facturé.

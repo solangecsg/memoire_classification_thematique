@@ -61,6 +61,14 @@ from pathlib import Path
 
 import streamlit as st
 
+# Lancée par « python3 app_jugement.py », l'interface s'exécute hors de
+# Streamlit : les widgets rendent None et l'erreur qui s'ensuit ne dit pas la
+# cause. Le cas est intercepté ici pour donner la commande attendue.
+if not st.runtime.exists():
+    raise SystemExit(
+        "cette interface s'exécute sous Streamlit, non par l'interpréteur "
+        "seul :\n    streamlit run app_jugement.py")
+
 ICI = Path(__file__).resolve().parent
 JUGEMENT = ICI / "jugement"
 REPONSES = JUGEMENT / "reponses"

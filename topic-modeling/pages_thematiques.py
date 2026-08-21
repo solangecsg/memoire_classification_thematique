@@ -37,7 +37,7 @@ Un bloc de la page se trouve dans l'un de trois états, que la figure distingue.
 
 ENTRÉES
 
-  ../../resultats_mistral/{fascicule}_reocr/ocr/{page}.xml
+  {corpus}/{fascicule}_reocr/ocr/{page}.xml               
   resultats/lda_corpus_mistral_bloc_k20_g1_f5_l3_*/span_topic.json
   resultats/lda_corpus_mistral_bloc_k20_g1_f5_l3_*/metrics_brut.json
 
@@ -109,12 +109,24 @@ POIDS_MAX = 0.6
 TIRETS = "#9a9a9a"
 
 
-def corpus() -> Path:
-    """Racine du dossier de travail, cherchée en remontant l'arborescence."""
+def fascicules() -> Path:
+    """Dossier qui contient les fascicules ré-océrisés, un par sous-dossier.
+
+    Deux emplacements sont possibles selon le contexte. Dans le dossier de
+    travail, les fascicules se trouvent sous resultats_mistral/. Dans le dépôt,
+    ils sont versés sous re-ocr/corpus/reocr_mistral/. Les deux portent la même
+    structure interne, un dossier {identifiant}_reocr contenant son manifeste et
+    son sous-dossier ocr/, et le premier qui existe est retenu.
+    """
     for base in [ICI, *ICI.parents]:
-        if (base / "resultats_mistral").is_dir():
-            return base
-    raise SystemExit("dossier resultats_mistral introuvable")
+        for rel in (Path("resultats_mistral"),
+                    Path("re-ocr") / "corpus" / "reocr_mistral"):
+            if (base / rel).is_dir():
+                return base / rel
+    raise SystemExit(
+        "fascicules ré-océrisés introuvables. Ils sont attendus sous "
+        "resultats_mistral/ dans le dossier de travail, ou sous "
+        "re-ocr/corpus/reocr_mistral/ dans le dépôt.")
 
 
 def run() -> Path:
@@ -132,7 +144,7 @@ def blocs_alto(fascicule: str, page: str):
     supérieur gauche. L'axe vertical descend, contrairement à celui d'un
     graphique, et le tracé en tiendra compte.
     """
-    f = corpus() / "resultats_mistral" / f"{fascicule}_reocr" / "ocr" / f"{page}.xml"
+    f = fascicules() / f"{fascicule}_reocr" / "ocr" / f"{page}.xml"
     if not f.is_file():
         raise SystemExit(f"page introuvable : {f}")
     t = f.read_text(encoding="utf-8", errors="ignore")
@@ -149,8 +161,21 @@ def blocs_alto(fascicule: str, page: str):
 
 
 def poids():
-    """Rend, pour chaque bloc modélisé, sa distribution sur les vingt thèmes."""
-    d = json.loads((run() / "span_topic.json").read_text(encoding="utf-8"))
+    """Rend, pour chaque bloc modélisé, sa distribution sur les vingt thèmes.
+
+    Le fichier span_topic.json pèse plus d'un gigaoctet sur l'ensemble des
+    exécutions et n'est pas versé dans le dépôt. Son absence est signalée avec
+    la commande qui le reconstitue.
+    """
+    f = run() / "span_topic.json"
+    if not f.is_file():
+        raise SystemExit(
+            f"distribution par bloc absente : {f.name}\n"
+            "Elle n'est pas versée dans le dépôt, étant volumineuse et "
+            "régénérable. La reconstituer par :\n"
+            "    python3 lda_mallet_corpus.py --source mistral --granularite bloc "
+            "--k 20 --graine 1 --freq-min 5 --longueur-min 3")
+    d = json.loads(f.read_text(encoding="utf-8"))
     if isinstance(d, dict):
         d = d.get("spans", list(d.values()))
     return {(x["fascicule"], x["page"], x["unite"]): x["dist"]
@@ -185,7 +210,7 @@ def articles(fascicule):
     identifiants de bloc rencontrés, procédé qui suit l'ordre du document sans
     construire son arbre.
     """
-    f = corpus() / "resultats_mistral" / f"{fascicule}_reocr" / "toc" / f"T{fascicule}.xml"
+    f = fascicules() / f"{fascicule}_reocr" / "toc" / f"T{fascicule}.xml"
     if not f.is_file():
         return {}
     t = f.read_text(encoding="utf-8", errors="ignore")
