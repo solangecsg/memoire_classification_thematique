@@ -43,11 +43,11 @@ ENTRÉES
   corpus/original/{fascicule}/toc/             carte logique, d'où vient le
                                                compte d'articles
 
-Les ALTO produits par Pero ne sont pas versés dans ce dépôt : le moteur a été
-écarté après cette mesure et ses sorties n'ont pas été conservées. Le script
-s'arrête alors sur un message qui le dit, la comparaison n'ayant de sens qu'à
-trois. Les valeurs qu'elles ont données restent lisibles dans resultats_stats/,
-qui est versé.
+Les ALTO produits par Pero ne sont pas versés dans ce dépôt. Le moteur a servi
+d'étape vers le modèle multimodal, et le mémoire rapporte cette comparaison pour
+la démarche qu'elle documente plutôt que comme une expérience à rejouer. Le
+script s'arrête sur un message qui le dit ; le relevé et le diagramme qu'il a
+produits restent versés dans resultats_stats/.
 
 SORTIES
 
@@ -126,14 +126,14 @@ def emplacements() -> dict[str, tuple[Path, str]]:
         else:
             manquants.append(source)
     if manquants:
-        detail = "\n".join(f"  {s} : " + ", ".join(rel for rel, _ in DISPOSITIONS[s])
-                           for s in manquants)
         raise SystemExit(
-            "océrisation introuvable, alors que la comparaison porte sur les "
-            f"trois :\n{detail}\n"
-            f"Cherchées depuis {ICI}, en remontant l'arborescence. Les ALTO "
-            "produits par Pero ne sont pas versés dans le dépôt ; les mesures "
-            "qu'ils ont données figurent dans resultats_stats/.")
+            "comparaison à trois sources non rejouable depuis ce dépôt : "
+            + ", ".join(manquants) + " manque.\n"
+            "Le moteur Pero a servi d'étape vers le modèle multimodal et ses "
+            "sorties n'ont pas été conservées.\n"
+            "Le relevé qu'elles ont donné est versé dans resultats_stats/, avec "
+            "le diagramme de recouvrement.\n"
+            "Sources trouvées : " + ", ".join(trouves) + ".")
     return trouves
 
 
