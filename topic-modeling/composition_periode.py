@@ -326,6 +326,90 @@ def figure():
     return d, absents
 
 
+def figure_petits():
+    """Trace un petit graphique par thème, tous à la même échelle.
+
+    L'aire empilée montre une composition et se prête mal au suivi d'une série
+    isolée, la bande du bas étant la seule à se lire contre une ligne de base
+    droite. Dix petits graphiques répondent à l'autre question, celle de
+    l'apparition et de la disparition d'une matière.
+
+    Trois partis pris. L'échelle des ordonnées est commune, de sorte que les
+    amplitudes se comparent d'un panneau à l'autre. Chaque panneau porte en fond
+    les neuf autres séries en gris clair, ce qui situe le thème dans le champ.
+    Et les panneaux sont rangés par période de maximum, si bien que la grille se
+    lit du début du siècle à la fin.
+    """
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    police()
+    d = parts_exactes()
+    x = [a for a, _, _, _ in d]
+    series = {k: [p.get(k, 0.0) for _, _, _, p in d] for k in PILE}
+    ordre = sorted(PILE, key=lambda k: (series[k].index(max(series[k])), -max(series[k])))
+    haut = max(max(v) for v in series.values())
+
+    # Un bandeau d'effectifs coiffe la grille, comme sur l'aire empilée : la part
+    # se lit de la même façon sur trente-sept articles et sur mille trois cents,
+    # et le texte refuse de conclure sur la première tranche pour cette raison.
+    fig = plt.figure(figsize=(6.8, 3.5))
+    grille = fig.add_gridspec(3, 5, height_ratios=[0.55, 2.1, 2.1],
+                              hspace=0.55, wspace=0.38)
+    bandeau = fig.add_subplot(grille[0, :])
+    n = [e for _, _, e, _ in d]
+    bandeau.plot(x, n, "o-", color="#8c8c8c", lw=1.0, ms=2.8)
+    for i, (xi, ni) in enumerate(zip(x, n)):
+        place = "center" if 0 < i < len(x) - 1 else ("left" if i == 0 else "right")
+        bandeau.text(xi, ni + max(n) * 0.12, f"{ni:,}".replace(",", "\u202f"),
+                     ha=place, va="bottom", fontsize=5.8, color="#4d4d4d")
+    bandeau.set_ylim(0, max(n) * 1.7)
+    bandeau.set_xlim(min(x), max(x))
+    bandeau.set_ylabel("articles", fontsize=6.6, labelpad=4)
+    bandeau.set_yticks([])
+    bandeau.set_xticks([])
+    for c in ("top", "right", "left"):
+        bandeau.spines[c].set_visible(False)
+
+    axes = np.array([[fig.add_subplot(grille[r + 1, c]) for c in range(5)]
+                     for r in range(2)])
+    for ax, k in zip(axes.flat, ordre):
+        for autre in PILE:
+            if autre != k:
+                ax.plot(x, series[autre], color="#e8e8e8", lw=0.5, zorder=1)
+        ax.fill_between(x, series[k], color=COULEURS[k], alpha=0.85, lw=0, zorder=2)
+        ax.plot(x, series[k], color=COULEURS[k], lw=1.0, zorder=3)
+        i = series[k].index(max(series[k]))
+        ax.set_title(k, fontsize=7.6, pad=3)
+        place = "center" if 0 < i < len(x) - 1 else ("left" if i == 0 else "right")
+        ax.annotate(f"{max(series[k]):.0f}", xy=(x[i], max(series[k])),
+                    xytext=(0, 2), textcoords="offset points", fontsize=6,
+                    color="#4d4d4d", ha=place, va="bottom")
+        ax.set_ylim(0, haut * 1.16)
+        ax.set_xlim(min(x), max(x))
+        ax.grid(True, axis="y", lw=0.3, color="#ededed")
+        ax.set_axisbelow(True)
+        for c in ("top", "right"):
+            ax.spines[c].set_visible(False)
+        ax.tick_params(labelsize=6.2, length=2)
+        ax.set_xticks([])
+        ax.set_yticks([])
+
+    for ax in axes[1]:
+        ax.set_xticks([x[0], x[3], x[-1]])
+        ax.set_xticklabels([str(v) for v in (x[0], x[3], x[-1])], fontsize=5.8)
+    for ax in axes[:, 0]:
+        ax.set_yticks([0, 20, 40])
+        ax.tick_params(labelsize=6.2)
+    axes[0, 0].set_ylabel("part des articles", fontsize=7)
+    axes[1, 0].set_ylabel("part des articles", fontsize=7)
+
+    SORTIE.mkdir(exist_ok=True)
+    fig.savefig(SORTIE / "composition_petits.pdf", bbox_inches="tight")
+    plt.close(fig)
+    return ordre, [(k, max(series[k]), d[series[k].index(max(series[k]))][1]) for k in ordre]
+
+
 def police():
     """Charge la fonte du mémoire, par la fonction du script des projections."""
     import importlib.util
@@ -342,7 +426,17 @@ def main():
     p.add_argument("--controle", action="store_true", help="confronter au tableur Gallica")
     p.add_argument("--figure", action="store_true",
                    help="tracer la composition en aires empilées")
+    p.add_argument("--petits", action="store_true",
+                   help="tracer un petit graphique par thème, à échelle commune")
     args = p.parse_args()
+
+    if args.petits:
+        ordre, pics = figure_petits()
+        print(f"composition/composition_petits.pdf : {len(ordre)} panneaux, "
+              "rangés par période de maximum")
+        for k, v, periode in pics:
+            print(f"  {k:<10} maximum {v:>5.1f}% en {periode}")
+        return
 
     if args.figure:
         d, absents = figure()

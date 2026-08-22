@@ -219,10 +219,16 @@ puisque les unités diffèrent.
 
 `composition_periode.py` agrège les affectations par tranche de vingt ans. Les
 dates de publication sont lues dans le manifeste de chaque fascicule et
-recoupées, avec `--controle`, avec le relevé des adresses Gallica. L'option
-`--figure` trace la composition en aires empilées, avec l'effectif de chaque
-tranche en panneau supérieur : la normalisation à cent l'effacerait, alors que la
-première tranche repose sur 37 articles et l'avant-dernière sur 1 299.
+recoupées, avec `--controle`, avec le relevé des adresses Gallica. Deux
+tracés sont disponibles, sur les mêmes valeurs. `--figure` donne la composition
+en aires empilées, qui montre un tout dont les parts se répartissent. `--petits`
+donne un graphique par thème, à échelle commune et rangés par période de
+maximum, qui répond à l'autre question, celle de l'apparition et de la
+disparition d'une matière : une aire empilée ne laisse lire commodément que la
+bande du bas, seule à reposer sur une ligne de base droite. Les deux portent en
+panneau supérieur l'effectif de chaque tranche, que la normalisation à cent
+effacerait, alors que la première repose sur 37 articles et l'avant-dernière
+sur 1 299.
 
 ```bash
 python3 matrices_confusion.py
@@ -233,6 +239,7 @@ python3 figures_comparaison.py
 python3 pages_thematiques.py
 python3 composition_periode.py --controle
 python3 composition_periode.py --figure
+python3 composition_periode.py --petits
 ```
 
 La projection d'affichage va vers deux dimensions, quand celle du regroupement
