@@ -11,6 +11,7 @@ topic-modeling/matrices/
 topic-modeling/projections/
 topic-modeling/figures_ch3/
 topic-modeling/comparaisons/
+topic-modeling/composition/
 
 # Kits d'évaluation humaine : régénérés à l'identique par jugement_humain.py,
 # dont la graine est fixée. Ils ne sont pas versés tant que la seconde personne

@@ -65,6 +65,7 @@ import re
 from pathlib import Path
 
 ICI = Path(__file__).resolve().parent
+SORTIE = ICI / "composition"
 
 # Tranches de vingt ans. Le corpus s'étend de 1819 à 1953, et ce pas donne des
 # effectifs comparables d'une tranche à l'autre sans lisser les mouvements que
@@ -179,6 +180,31 @@ def affectations():
             if isinstance(x, dict) and x.get("fascicule") is not None]
 
 
+# Couleurs des dix bandes. Le thème de bruit reçoit un gris, sa variation
+# mesurant l'état des fichiers plutôt qu'un contenu, et les trois thèmes que le
+# mémoire commente sont placés au bas de la pile, où une bande se lit contre une
+# ligne de base droite plutôt que contre le sommet ondulant de celles d'en
+# dessous.
+COULEURS = {
+    "sport":     "#c0724a",
+    "spect.":    "#cf8fa0",
+    "bourse":    "#4f7a5b",
+    "bruit":     "#b0b0b0",
+    "locale":    "#6a8caf",
+    "annonces":  "#d8b25e",
+    "guerre":    "#8a5a72",
+    "politique": "#3f5f8a",
+    "chron.":    "#7e9aa6",
+    "divers":    "#d9d2c5",
+}
+PILE = ["sport", "spect.", "bourse", "bruit", "locale", "annonces",
+        "guerre", "politique", "chron.", "divers"]
+
+# Une bande porte son intitulé quand elle est assez épaisse pour l'accueillir,
+# ce qui évite une légende que l'œil devrait faire l'aller-retour pour lire.
+EPAISSEUR_INTITULE = 9.0
+
+
 def tableau():
     """Croise les périodes et les thèmes, en pourcentage des articles de la période."""
     an = dates()
@@ -198,11 +224,138 @@ def tableau():
     return lignes, len(an), sans, sum(n for _, n, _ in lignes), len(docs)
 
 
+def parts_exactes():
+    """Rend les parts non arrondies, pour que la pile ferme exactement à cent.
+
+    Le tableau du mémoire arrondit chaque case à l'unité, de sorte qu'une ligne
+    peut totaliser 102. Une aire empilée qui reprendrait ces valeurs laisserait
+    un bord supérieur irrégulier sans signification.
+    """
+    an = dates()
+    par_periode = collections.defaultdict(collections.Counter)
+    for f, t in affectations():
+        if f in an:
+            par_periode[(an[f] - DEBUT) // PAS][t] += 1
+    out = []
+    for tranche in sorted(par_periode):
+        c = par_periode[tranche]
+        n = sum(c.values())
+        deb = DEBUT + tranche * PAS
+        out.append((deb + PAS // 2, f"{deb}-{deb + PAS - 1}", n,
+                    {NOMS[t]: 100 * v / n for t, v in c.items()}))
+    return out
+
+
+def figure():
+    """Trace la composition par période en aires empilées.
+
+    Deux panneaux partagent l'axe du temps. Celui du haut donne l'effectif de
+    chaque tranche, que la pile normalisée à cent effacerait sans cela : la
+    première tranche repose sur 37 articles et la sixième sur plus de mille, et
+    le mémoire refuse de conclure sur la première pour cette raison. Celui du bas
+    porte les dix bandes.
+    """
+    import matplotlib.pyplot as plt
+    from matplotlib.patches import Patch
+
+    police()
+    d = parts_exactes()
+    x = [a for a, _, _, _ in d]
+    n = [e for _, _, e, _ in d]
+    series = {k: [p.get(k, 0.0) for _, _, _, p in d] for k in PILE}
+
+    fig, (haut, bas) = plt.subplots(
+        2, 1, figsize=(6.6, 4.6), sharex=True,
+        gridspec_kw={"height_ratios": [1, 5.2], "hspace": 0.10})
+
+    haut.plot(x, n, "o-", color="#8c8c8c", lw=1.1, ms=3.2)
+    for i, (xi, ni) in enumerate(zip(x, n)):
+        place = "center" if 0 < i < len(x) - 1 else ("left" if i == 0 else "right")
+        haut.text(xi, ni + max(n) * 0.10, f"{ni:,}".replace(",", "\u202f"),
+                  ha=place, va="bottom", fontsize=6.4, color="#4d4d4d")
+    haut.set_ylim(0, max(n) * 1.55)
+    haut.set_ylabel("articles", fontsize=7.4, labelpad=6)
+    haut.set_yticks([])
+    for c in ("top", "right", "left"):
+        haut.spines[c].set_visible(False)
+    haut.tick_params(axis="x", length=0)
+    haut.set_xlim(min(x), max(x))
+
+    bas.stackplot(x, [series[k] for k in PILE],
+                  colors=[COULEURS[k] for k in PILE], linewidth=0.35,
+                  edgecolor="white")
+
+    # Intitulés posés au centre de la bande, à l'abscisse où elle est la plus
+    # épaisse, et seulement là où la place suffit.
+    cumul = [0.0] * len(x)
+    for k in PILE:
+        v = series[k]
+        interieur = max(range(1, len(v) - 1), key=lambda j: v[j])
+        bord = max(range(len(v)), key=lambda j: v[j])
+        i = bord if v[bord] > v[interieur] + 1.5 else interieur
+        if v[i] >= EPAISSEUR_INTITULE:
+            # Sur une tranche d'extrémité, l'intitulé est ramené vers l'intérieur
+            # et aligné sur son bord, faute de quoi il déborderait du cadre.
+            place = "center" if 0 < i < len(x) - 1 else ("left" if i == 0 else "right")
+            decal = {"center": 0, "left": 1.5, "right": -1.5}[place]
+            clair = k in ("bruit", "divers", "annonces")
+            bas.text(x[i] + decal, cumul[i] + v[i] / 2, k, ha=place, va="center",
+                     fontsize=7.2, color="#333333" if clair else "white")
+        cumul = [c + w for c, w in zip(cumul, v)]
+
+    bas.set_xlim(min(x), max(x))
+    bas.set_ylim(0, 100)
+    bas.set_xticks(x)
+    bas.set_xticklabels([p.replace("-", "--") for _, p, _, _ in d],
+                        fontsize=7, rotation=30, ha="right")
+    bas.set_yticks([0, 25, 50, 75, 100])
+    bas.set_yticklabels(["0", "25", "50", "75", "100 %"], fontsize=7.4)
+    bas.set_ylabel("part des articles de la période", fontsize=8)
+    for c in ("top", "right"):
+        bas.spines[c].set_visible(False)
+
+    absents = [k for k in PILE if max(series[k]) < EPAISSEUR_INTITULE]
+    if absents:
+        bas.legend(handles=[Patch(facecolor=COULEURS[k], label=k) for k in absents],
+                   fontsize=6.8, frameon=False, ncol=len(absents),
+                   loc="lower center", bbox_to_anchor=(0.5, -0.42))
+
+    SORTIE.mkdir(exist_ok=True)
+    fig.savefig(SORTIE / "composition_periode.pdf", bbox_inches="tight")
+    plt.close(fig)
+    return d, absents
+
+
+def police():
+    """Charge la fonte du mémoire, par la fonction du script des projections."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "projections_clusters", ICI / "projections_clusters.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    m.police()
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     p.add_argument("--latex", action="store_true", help="écrire le corps du tableau LaTeX")
     p.add_argument("--controle", action="store_true", help="confronter au tableur Gallica")
+    p.add_argument("--figure", action="store_true",
+                   help="tracer la composition en aires empilées")
     args = p.parse_args()
+
+    if args.figure:
+        d, absents = figure()
+        print(f"composition/composition_periode.pdf : {len(d)} périodes, "
+              f"{sum(e for _, _, e, _ in d)} articles")
+        for _, periode, e, parts in d:
+            tete = sorted(parts.items(), key=lambda kv: -kv[1])[:3]
+            print(f"  {periode}  n={e:<5} " +
+                  "  ".join(f"{k} {v:.0f}%" for k, v in tete))
+        if absents:
+            print("  bandes trop minces pour porter leur intitulé, mises en "
+                  "légende : " + ", ".join(absents))
+        return
 
     lignes, n_dates, sans, couverts, total = tableau()
     if args.controle:
