@@ -34,6 +34,7 @@ classification-iptc/
 ├── config/.env                                  ← à créer (MISTRAL_API_KEY=...)
 │
 ├── classification/         ← les variantes de classification, et leur vérification
+├── topic-modeling/          ← modélisation thématique, 111 exécutions et leurs mesures
 │   └── verification/        ← épreuves en aveugle, réponses, sorties des contrôles
 ├── analyse_couts/           ← estimation de coûts, sans appel API, et ses CSV
 ├── results/                  ← sorties de classification (JSON par fascicule)
@@ -95,10 +96,11 @@ s'il est bas, le taux d'acceptation des vraies étiquettes devient lisible.
 | **B** | des attributions de la campagne groupée | 129 | 33/69 = **47,8 %** | 1/60 = **1,7 %** |
 | **C** | des attributions du régime un-article-par-appel | 116 | 23/58 = 39,7 % | 0/58 = 0,0 % |
 | **D** | les deux cascades, mêlées et anonymes | 160 | commerciale 19/40 = **47,5 %**<br>locale 10/40 = **25,0 %** | 3/80 = 3,8 % |
+| **E** | les deux régimes à justification préalable | 158 | cascade 28/40 = **70,0 %**<br>unitaire 23/39 = 59,0 % | 2/79 = 2,5 % |
 
-467 items jugés au total, par un seul annotateur, en trois heures environ. Les
-taux de leurres, de 0,0 à 3,8 %, ne se distinguent pas les uns des autres : les
-quatre séances sont comparables.
+625 items jugés au total, par un seul annotateur. Les taux de leurres, de 0,0 à
+3,8 %, ne se distinguent pas les uns des autres : les cinq séances sont
+comparables.
 
 **Ce que l'épreuve A établit en plus.** Sur les 25 étiquettes uniques rejetées,
 15 le sont parce que la catégorie n'a pas de sens pour la période : six
@@ -121,6 +123,14 @@ ne se réduit pas à exécuter deux fois la même chaîne : l'épreuve C, où un
 confirmation indépendante est disponible, ne montre aucun effet (46,4 % avec
 elle, 47,6 % sans).
 
+**La justification préalable déplace le plafond.** Une phrase demandée au modèle
+avant les étiquettes, plutôt qu'après, porte la cascade de 47,5 à **70,0 %**
+d'étiquettes acceptées, pour un surcoût de 8 %. L'écart est significatif
+(z = 2,04, p = 0,041). L'ordre des propriétés du schéma de sortie décide de tout :
+produite avant le choix, la phrase le construit ; produite après, elle ne fait
+que le rationaliser. C'est le seul des réglages éprouvés qui franchisse le
+plafond de 47 à 55 % sur lequel les autres butaient.
+
 **Les régimes éprouvés.** Tous portent sur les mêmes 169 articles, avec la même
 liste de 567 étiquettes et une température nulle.
 
@@ -130,8 +140,8 @@ liste de 567 étiquettes et une température nulle.
 | un appel par article | `controle_appel_unitaire.py` | 3,21 | — |
 | un appel par article, seconde reprise | `controle_appel_unitaire.py --temoin` | 3,15 | — |
 | cascade commerciale | `controle_cascade_mistral.py` | 2,47 | 47,5 % |
-| unitaire + justification | `controle_justification_mistral.py --mode unitaire` | 2,93 | non jugée |
-| cascade + justification | `controle_justification_mistral.py --mode cascade` | 2,13 | non jugée |
+| unitaire + justification | `controle_justification_mistral.py --mode unitaire` | 2,93 | 59,0 % |
+| cascade + justification | `controle_justification_mistral.py --mode cascade` | 2,13 | **70,0 %** |
 | local, liste entière | `classify_iptc_ollama.py` | 4,50 | non jugée |
 | local, cascade | `classify_iptc_ollama_cascade.py` | 2,36 | 25,0 % |
 | local, cascade + justification | `classify_iptc_ollama_cascade.py --justification` | 1,96 | non jugée |
@@ -151,13 +161,23 @@ cd classification
 python3 verification_etiquettes.py            # fabrique les épreuves A et B
 python3 verification_unitaire.py              # fabrique l'épreuve C (graine 2)
 python3 verification_cascades.py              # fabrique l'épreuve D (graine 3)
+python3 verification_justification.py         # fabrique l'épreuve E (graine 4)
 streamlit run app_verification.py             # annoter, une réponse enregistrée à la fois
 python3 verification_etiquettes.py --depouiller
+python3 verification_justification.py --depouiller
 ```
 
 Les graines sont fixées : les épreuves se régénèrent à l'identique. Les réponses
 sont enregistrées par identifiant d'item plutôt que par rang, de sorte qu'une
 épreuve refabriquée ne les désaligne pas.
+
+## `topic-modeling/` : les méthodes qui font émerger leurs catégories
+
+Les deux premières méthodes comparées par le mémoire, la modélisation probabiliste
+et le regroupement de plongements, avec les 111 exécutions de la campagne. Chaque
+run conserve ses paramètres exacts et ses mesures, de sorte que les balayages que
+les annexes du mémoire ne reprennent pas se relisent ici. Voir
+`topic-modeling/README.md`, section « Ce que le mémoire renvoie ici ».
 
 ## `analyse_couts/` : estimer le coût sans dépenser un centime
 

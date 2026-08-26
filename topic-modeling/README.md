@@ -268,6 +268,34 @@ commandes ci-dessus, et les figures définitives figurent dans le mémoire.
 Le tableau récapitulatif se régénère par `recap_runs.py`, et son état figure
 dans `RESULTATS-CAMPAGNE.md`.
 
+## Ce que le mémoire renvoie ici
+
+Neuf blocs ont été retirés des annexes du mémoire parce que ce dépôt les tient
+sous une forme plus complète, et que le corps du texte n'en cite aucun. Ils se
+retrouvent comme suit.
+
+| Retiré des annexes | Où le trouver ici |
+|---|---|
+| Quatre entraînements sans graine fixée | `resultats/*_g[1-4]_*/metrics_ref.json` |
+| Effet de la réduction de dimension | runs `bertopic_*` dont `meta.json` fait varier `n_neighbors` et `n_components` |
+| Balayage du nombre de groupes | runs `bertopic_kmeans_*_mt*`, un par valeur de K |
+| Comparaison des trois modèles de plongement | runs `*_e5_*`, `*_camembert_*`, `*_multilingual_*` |
+| Regroupement par densité, relevé | runs `bertopic_hdbscan_*`, champ `min_cluster_size` |
+| Effet de la borne des modèles de plongement | `meta.json`, champ `max_seq_length` |
+| Tableau des modèles de plongement éprouvés | `meta.json`, champ `embedding_model` |
+| Relevé de chronométrage du calcul local | `meta.json`, champ `duree_s`, récapitulé par `recap_runs.py` |
+| Schéma de la chaîne de traitement | `../classification/schema_pipeline_classification.svg` |
+
+Le dixième bloc retiré, la dérivation formelle de l'allocation de Dirichlet
+latente, ne figure pas ici : elle relève d'un manuel, et le lecteur qui la
+cherche la trouvera chez Blei, Ng et Jordan.
+
+Ce que le mémoire conserve en annexe, à l'inverse, est ce que ce dépôt ne peut
+pas remplacer : les deux incidents de méthode, les pièces citées par le corps du
+texte, et les résultats qualitatifs — les dix thèmes de la configuration
+retenue, les thèmes occupés par des débris d'océrisation, les matrices de
+confusion.
+
 ## Ce qui n'est pas versé
 
 Les caches de plongements, les corpus de référence, l'affectation des documents

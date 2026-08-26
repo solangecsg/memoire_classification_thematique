@@ -139,7 +139,8 @@ st.set_page_config(page_title="Vérification des étiquettes", layout="centered"
 # Les kits sont lus dans l'ordre où les épreuves ont été conduites. Les
 # identifiants ne se recouvrent pas, et la grille de réponse est commune.
 ITEMS = []
-for _kit in ("A_hapax.md", "B_acceptabilite.md", "C_unitaire.md", "D_cascades.md"):
+for _kit in ("A_hapax.md", "B_acceptabilite.md", "C_unitaire.md", "D_cascades.md",
+             "E_justification.md"):
     if (SORTIE / _kit).exists():
         ITEMS += lire_items(_kit)
 FAITS = deja_faits()
@@ -176,7 +177,9 @@ n_faits = len(ITEMS) - len(RESTE)
 epreuve = {"A": "A — étiquettes employées une seule fois",
            "B": "B — acceptabilité",
            "C": "C — étiquettes du régime un article par appel",
-           "D": "D — cascades à deux étages"}[it["item"][0]]
+           "D": "D — cascades à deux étages",
+           "E": "E — justification demandée avant l'étiquette"}\
+          .get(it["item"][0], it["item"][0])
 
 st.progress(n_faits / len(ITEMS))
 st.caption(f"Épreuve {epreuve} · item {n_faits + 1} sur {len(ITEMS)}")
