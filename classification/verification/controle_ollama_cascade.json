@@ -1,0 +1,1983 @@
+{
+ "4109000|DIV.233": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000018"
+  ],
+  "intitules": [
+   "Théâtre",
+   "Musique"
+  ]
+ },
+ "4109000|DIV.432": {
+  "famille": "Santé",
+  "codes": [
+   "20001221",
+   "20001322",
+   "20000467"
+  ],
+  "intitules": [
+   "Médecine d'urgence",
+   "Empoisonnement",
+   "Médicaments"
+  ]
+ },
+ "4109000|DIV.639": {
+  "famille": "Société",
+  "codes": [
+   "20000791",
+   "20000820"
+  ],
+  "intitules": [
+   "Handicapés",
+   "Services sociaux"
+  ]
+ },
+ "4109676|DIV.527": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20000648",
+   "20001265"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Dissidence",
+   "Politique de gouvernement local"
+  ]
+ },
+ "4109676|DIV.97": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000080",
+   "20000062"
+  ],
+  "intitules": [
+   "Prisonniers de guerre",
+   "Guerre"
+  ]
+ },
+ "4112815|DIV.909": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000011",
+   "20000049"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Mode",
+   "Périodiques"
+  ]
+ },
+ "4123163|DIV.1214": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000049",
+   "20000046"
+  ],
+  "intitules": [
+   "Périodiques",
+   "Média d'information"
+  ]
+ },
+ "4123163|DIV.202": {
+  "famille": "Politique",
+  "codes": [
+   "20000630",
+   "20000607",
+   "20001265"
+  ],
+  "intitules": [
+   "Assistance sociale",
+   "Budget du gouvernement",
+   "Politique de gouvernement local"
+  ]
+ },
+ "4123163|DIV.640": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000061"
+  ],
+  "intitules": [
+   "Guerre",
+   "Disparus au combat"
+  ]
+ },
+ "4133627|DIV.1013": {
+  "famille": "Sport",
+  "codes": [
+   "20000923",
+   "20001154"
+  ],
+  "intitules": [
+   "Équitation",
+   "Échecs"
+  ]
+ },
+ "4133627|DIV.1404": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000040",
+   "20000046"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Coutumes et traditions",
+   "Média d'information"
+  ]
+ },
+ "4133627|DIV.1450": {
+  "famille": "Sport",
+  "codes": [
+   "20000884",
+   "20001323"
+  ],
+  "intitules": [
+   "Alpinisme et escalade",
+   "Entraînement sportif"
+  ]
+ },
+ "4133627|DIV.1466": {
+  "famille": "Sport",
+  "codes": [
+   "20000884",
+   "20001093",
+   "20001148"
+  ],
+  "intitules": [
+   "Alpinisme et escalade",
+   "Haltérophilie",
+   "Transfert (sport)"
+  ]
+ },
+ "4133872|DIV.1036": {
+  "famille": "Météo",
+  "codes": [
+   "20001129"
+  ],
+  "intitules": [
+   "Phénomène météorologique"
+  ]
+ },
+ "4133872|DIV.601": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058",
+   "20000080",
+   "20000062"
+  ],
+  "intitules": [
+   "Intervention militaire internationale",
+   "Prisonniers de guerre",
+   "Guerre"
+  ]
+ },
+ "4134119|DIV.1190": {
+  "famille": "Sport",
+  "codes": [
+   "20000851"
+  ],
+  "intitules": [
+   "Basket-ball"
+  ]
+ },
+ "4134119|DIV.1407": {
+  "famille": "Sport",
+  "codes": [
+   "20000851",
+   "20001065",
+   "20001341"
+  ],
+  "intitules": [
+   "Basket-ball",
+   "Football",
+   "Saison sportive"
+  ]
+ },
+ "4134119|DIV.28": {
+  "famille": "Météo",
+  "codes": [
+   "20001129",
+   "20001128"
+  ],
+  "intitules": [
+   "Phénomène météorologique",
+   "Prévisions météorologiques"
+  ]
+ },
+ "4134119|DIV.894": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000719",
+   "20000744"
+  ],
+  "intitules": [
+   "Biologie",
+   "Archéologie"
+  ]
+ },
+ "4134119|DIV.928": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000004",
+   "20000005",
+   "20001181"
+  ],
+  "intitules": [
+   "Bande dessinée",
+   "Cinéma",
+   "Festival"
+  ]
+ },
+ "4135298|DIV.1086": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058",
+   "20000080",
+   "20000062"
+  ],
+  "intitules": [
+   "Intervention militaire internationale",
+   "Prisonniers de guerre",
+   "Guerre"
+  ]
+ },
+ "4135298|DIV.363": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000067",
+   "20000058",
+   "20000062"
+  ],
+  "intitules": [
+   "Rébellion",
+   "Intervention militaire internationale",
+   "Guerre"
+  ]
+ },
+ "4135298|DIV.775": {
+  "famille": "Politique",
+  "codes": [
+   "20000636",
+   "20000479",
+   "20000628"
+  ],
+  "intitules": [
+   "Médiateur",
+   "Politique de santé",
+   "Urbanisme"
+  ]
+ },
+ "4135298|DIV.792": {
+  "famille": "Société",
+  "codes": [
+   "20000776",
+   "20000797"
+  ],
+  "intitules": [
+   "Agisme",
+   "Personnes âgées"
+  ]
+ },
+ "4140779|DIV.1012": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539",
+   "20000550"
+  ],
+  "intitules": [
+   "Associations et clubs",
+   "Passe-temps"
+  ]
+ },
+ "4140779|DIV.1410": {
+  "famille": "Sport",
+  "codes": [
+   "20001183",
+   "20001124"
+  ],
+  "intitules": [
+   "eSports",
+   "Industrie du sport"
+  ]
+ },
+ "4140779|DIV.1422": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000553",
+   "20000563"
+  ],
+  "intitules": [
+   "Lieu de loisirs",
+   "Voyages"
+  ]
+ },
+ "4140779|DIV.1804": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000004"
+  ],
+  "intitules": [
+   "Bande dessinée"
+  ]
+ },
+ "4140779|DIV.223": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20000607",
+   "20000598"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Budget du gouvernement",
+   "Défense"
+  ]
+ },
+ "4140779|DIV.799": {
+  "famille": "Social",
+  "codes": [
+   "20000532",
+   "20000536"
+  ],
+  "intitules": [
+   "Pension de retraite",
+   "Syndicats"
+  ]
+ },
+ "4140779|DIV.923": {
+  "famille": "Sport",
+  "codes": [
+   "20000856",
+   "20001125"
+  ],
+  "intitules": [
+   "Boxe",
+   "Organisation sportive"
+  ]
+ },
+ "4602945|DIV.420": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000058"
+  ],
+  "intitules": [
+   "Guerre",
+   "Intervention militaire internationale"
+  ]
+ },
+ "4602945|DIV.510": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000080"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Prisonniers de guerre"
+  ]
+ },
+ "4602945|DIV.577": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000059",
+   "20000062",
+   "20000058"
+  ],
+  "intitules": [
+   "Forces de maintien de la paix",
+   "Guerre",
+   "Intervention militaire internationale"
+  ]
+ },
+ "4602945|DIV.619": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000071"
+  ],
+  "intitules": [
+   "Guerre",
+   "Massacre"
+  ]
+ },
+ "4602945|DIV.778": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539",
+   "20000553"
+  ],
+  "intitules": [
+   "Associations et clubs",
+   "Lieu de loisirs"
+  ]
+ },
+ "4604241|DIV.1956": {
+  "famille": "Environnement",
+  "codes": [
+   "20000438",
+   "20000428",
+   "20000426"
+  ],
+  "intitules": [
+   "Océans",
+   "Déchets",
+   "Dépollution"
+  ]
+ },
+ "4604241|DIV.863": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20001265",
+   "20000613"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Politique de gouvernement local",
+   "Ministres"
+  ]
+ },
+ "4606143|DIV.117": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000058"
+  ],
+  "intitules": [
+   "Guerre",
+   "Intervention militaire internationale"
+  ]
+ },
+ "4606143|DIV.427": {
+  "famille": "Sport",
+  "codes": [
+   "20000923"
+  ],
+  "intitules": [
+   "Équitation"
+  ]
+ },
+ "4606143|DIV.746": {
+  "famille": "Sport",
+  "codes": [
+   "20000849",
+   "20000827"
+  ],
+  "intitules": [
+   "Baseball",
+   "Athlétisme"
+  ]
+ },
+ "4609982|DIV.1398": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20001309"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Cheerleading"
+  ]
+ },
+ "4609982|DIV.1500": {
+  "famille": "Sport",
+  "codes": [
+   "20001154",
+   "20001177"
+  ],
+  "intitules": [
+   "Échecs",
+   "Jeux olympiques"
+  ]
+ },
+ "4610674|DIV.1655": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000736"
+  ],
+  "intitules": [
+   "Innovation scientifique"
+  ]
+ },
+ "4610674|DIV.1673": {
+  "famille": "Religion et croyance",
+  "codes": [
+   "20000658",
+   "20000682"
+  ],
+  "intitules": [
+   "Bouddhisme",
+   "Scientologie"
+  ]
+ },
+ "4610674|DIV.171": {
+  "famille": "Politique",
+  "codes": [
+   "20001132",
+   "20001385",
+   "20000648"
+  ],
+  "intitules": [
+   "Politique culturelle",
+   "Mouvement et association politique",
+   "Dissidence"
+  ]
+ },
+ "4610674|DIV.711": {
+  "famille": "Religion et croyance",
+  "codes": [
+   "20000698",
+   "20000688"
+  ],
+  "intitules": [
+   "Église",
+   "Conflit religieux"
+  ]
+ },
+ "4614978|DIV.301": {
+  "famille": "Politique",
+  "codes": [
+   "20001174",
+   "20000578",
+   "20000579"
+  ],
+  "intitules": [
+   "Politique d'aménagement du territoire",
+   "Élections locales",
+   "Élections nationales"
+  ]
+ },
+ "4614978|DIV.651": {
+  "famille": "Sport",
+  "codes": [
+   "20000991",
+   "20000892",
+   "20001333"
+  ],
+  "intitules": [
+   "Automobile",
+   "Cyclisme",
+   "Cyclisme sur route"
+  ]
+ },
+ "4617451|DIV.1219": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20001135",
+   "20000046"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Exposition artistique",
+   "Média d'information"
+  ]
+ },
+ "4617451|DIV.634": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000058"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Intervention militaire internationale"
+  ]
+ },
+ "4617451|DIV.922": {
+  "famille": "Sport",
+  "codes": [
+   "20000856",
+   "20000827"
+  ],
+  "intitules": [
+   "Boxe",
+   "Athlétisme"
+  ]
+ },
+ "4626819|DIV.2160": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000049",
+   "20000043"
+  ],
+  "intitules": [
+   "Périodiques",
+   "Bibliothèque et musée"
+  ]
+ },
+ "4626819|DIV.530": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000046",
+   "20000011"
+  ],
+  "intitules": [
+   "Média d'information",
+   "Mode"
+  ]
+ },
+ "4626819|DIV.744": {
+  "famille": "Sport",
+  "codes": [
+   "20000998",
+   "20000991"
+  ],
+  "intitules": [
+   "Moto",
+   "Automobile"
+  ]
+ },
+ "4629483|DIV.1259": {
+  "famille": "Sport",
+  "codes": [
+   "20000856",
+   "20000856"
+  ],
+  "intitules": [
+   "Boxe",
+   "Boxe"
+  ]
+ },
+ "4629483|DIV.1465": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20001334",
+   "20001333"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Cyclisme sur piste",
+   "Cyclisme sur route"
+  ]
+ },
+ "4629483|DIV.1543": {
+  "famille": "Sport",
+  "codes": [
+   "20000923",
+   "20001065",
+   "20001341"
+  ],
+  "intitules": [
+   "Équitation",
+   "Football",
+   "Saison sportive"
+  ]
+ },
+ "4629483|DIV.2242": {
+  "famille": "Sport",
+  "codes": [
+   "20001071",
+   "20001341"
+  ],
+  "intitules": [
+   "Natation",
+   "Saison sportive"
+  ]
+ },
+ "4629483|DIV.491": {
+  "famille": "Sport",
+  "codes": [
+   "20001157",
+   "20001067"
+  ],
+  "intitules": [
+   "Arts martiaux",
+   "Patinage de vitesse"
+  ]
+ },
+ "4632496|DIV.1274": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20001125"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Organisation sportive"
+  ]
+ },
+ "4632496|DIV.1314": {
+  "famille": "Sport",
+  "codes": [
+   "20001330",
+   "20001331"
+  ],
+  "intitules": [
+   "Canoë-kayak - Slalom",
+   "Canoë-kayak - Ligne"
+  ]
+ },
+ "4633797|DIV.1304": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000040",
+   "20000046"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Coutumes et traditions",
+   "Média d'information"
+  ]
+ },
+ "4633797|DIV.1755": {
+  "famille": "Sport",
+  "codes": [
+   "20000991",
+   "20001026"
+  ],
+  "intitules": [
+   "Automobile",
+   "Aviron"
+  ]
+ },
+ "4650200|DIV.1462": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000004",
+   "20001135",
+   "20000031"
+  ],
+  "intitules": [
+   "Bande dessinée",
+   "Exposition artistique",
+   "Arts visuels"
+  ]
+ },
+ "4651968|DIV.101": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000059",
+   "20000058",
+   "20000062"
+  ],
+  "intitules": [
+   "Forces de maintien de la paix",
+   "Intervention militaire internationale",
+   "Guerre"
+  ]
+ },
+ "4651968|DIV.302": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000059",
+   "20000062",
+   "20000058"
+  ],
+  "intitules": [
+   "Forces de maintien de la paix",
+   "Guerre",
+   "Intervention militaire internationale"
+  ]
+ },
+ "4651968|DIV.315": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000373",
+   "20000235",
+   "20000346"
+  ],
+  "intitules": [
+   "Commerce international",
+   "Construction et immobilier",
+   "Macro-économie"
+  ]
+ },
+ "4651968|DIV.548": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000373",
+   "20000294",
+   "20001278"
+  ],
+  "intitules": [
+   "Commerce international",
+   "Industrie manufacturière",
+   "Coopérative"
+  ]
+ },
+ "4651968|DIV.624": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000049",
+   "20000046"
+  ],
+  "intitules": [
+   "Périodiques",
+   "Média d'information"
+  ]
+ },
+ "4651968|DIV.84": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000078"
+  ],
+  "intitules": [
+   "Guerre",
+   "Désarmement"
+  ]
+ },
+ "4653842|DIV.548": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000210",
+   "20000373",
+   "20000243"
+  ],
+  "intitules": [
+   "Agriculture",
+   "Commerce international",
+   "Distribution"
+  ]
+ },
+ "4653842|DIV.91": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000059",
+   "20000058",
+   "20000080"
+  ],
+  "intitules": [
+   "Forces de maintien de la paix",
+   "Intervention militaire internationale",
+   "Prisonniers de guerre"
+  ]
+ },
+ "4655957|DIV.720": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000044",
+   "20000047"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Patrimoine",
+   "Journaux"
+  ]
+ },
+ "4683771|DIV.109": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000071",
+   "20000080"
+  ],
+  "intitules": [
+   "Guerre",
+   "Massacre",
+   "Prisonniers de guerre"
+  ]
+ },
+ "4683816|DIV.326": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058",
+   "20000080"
+  ],
+  "intitules": [
+   "Intervention militaire internationale",
+   "Prisonniers de guerre"
+  ]
+ },
+ "4683816|DIV.489": {
+  "famille": "Social",
+  "codes": [
+   "20000510",
+   "20000536"
+  ],
+  "intitules": [
+   "Apprentissage",
+   "Syndicats"
+  ]
+ },
+ "4688682|DIV.56": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018",
+   "20000003",
+   "20000029"
+  ],
+  "intitules": [
+   "Musique",
+   "Dessin animé",
+   "Théâtre"
+  ]
+ },
+ "4701183|DIV.1273": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539",
+   "20000553"
+  ],
+  "intitules": [
+   "Associations et clubs",
+   "Lieu de loisirs"
+  ]
+ },
+ "4701494|DIV.139": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000018",
+   "20000046"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Musique",
+   "Média d'information"
+  ]
+ },
+ "4701494|DIV.57": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000080"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Prisonniers de guerre"
+  ]
+ },
+ "4702250|DIV.153": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20000578",
+   "20000634"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Élections locales",
+   "Migrations"
+  ]
+ },
+ "4715618|DIV.335": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000044",
+   "20000046"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Patrimoine",
+   "Média d'information"
+  ]
+ },
+ "4715618|DIV.396": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000373",
+   "20001366"
+  ],
+  "intitules": [
+   "Commerce international",
+   "Restructuration d'entreprise"
+  ]
+ },
+ "4717145|DIV.67": {
+  "famille": "Société",
+  "codes": [
+   "20000801",
+   "20000820",
+   "20000773"
+  ],
+  "intitules": [
+   "Pauvreté",
+   "Services sociaux",
+   "Immigration clandestine"
+  ]
+ },
+ "4717145|DIV.84": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000080"
+  ],
+  "intitules": [
+   "Prisonniers de guerre"
+  ]
+ },
+ "4723470|DIV.315": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000059",
+   "20000058",
+   "20000071"
+  ],
+  "intitules": [
+   "Forces de maintien de la paix",
+   "Intervention militaire internationale",
+   "Massacre"
+  ]
+ },
+ "4742203|DIV.721": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000350",
+   "20000183"
+  ],
+  "intitules": [
+   "Banque centrale",
+   "Financement et vente d'actions"
+  ]
+ },
+ "4743498|DIV.310": {
+  "famille": "Météo",
+  "codes": [
+   "20001129",
+   "20001128"
+  ],
+  "intitules": [
+   "Phénomène météorologique",
+   "Prévisions météorologiques"
+  ]
+ },
+ "4743533|DIV.271": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20000607",
+   "20000479"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Budget du gouvernement",
+   "Politique de santé"
+  ]
+ },
+ "4743533|DIV.316": {
+  "famille": "Politique",
+  "codes": [
+   "20001265",
+   "20000598",
+   "20000614"
+  ],
+  "intitules": [
+   "Politique de gouvernement local",
+   "Défense",
+   "Gouvernement national"
+  ]
+ },
+ "4743533|DIV.325": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000080"
+  ],
+  "intitules": [
+   "Prisonniers de guerre"
+  ]
+ },
+ "4743572|DIV.210": {
+  "famille": "Santé",
+  "codes": [
+   "20001358",
+   "20000458",
+   "20001221"
+  ],
+  "intitules": [
+   "Santé publique",
+   "Troubles mentaux et comportementaux",
+   "Médecine d'urgence"
+  ]
+ },
+ "4743572|DIV.685": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000373",
+   "20000386"
+  ],
+  "intitules": [
+   "Commerce international",
+   "Marché des matières premières"
+  ]
+ },
+ "4743714|DIV.678": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539",
+   "20000553"
+  ],
+  "intitules": [
+   "Associations et clubs",
+   "Lieu de loisirs"
+  ]
+ },
+ "4743818|DIV.95": {
+  "famille": "Politique",
+  "codes": [
+   "20001265",
+   "20000345",
+   "20001338"
+  ],
+  "intitules": [
+   "Politique de gouvernement local",
+   "Politique économique",
+   "Politique de l'éducation"
+  ]
+ },
+ "4743854|DIV.288": {
+  "famille": "Sport",
+  "codes": [
+   "20001056",
+   "20001071"
+  ],
+  "intitules": [
+   "Ski",
+   "Natation"
+  ]
+ },
+ "4743854|DIV.402": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018",
+   "20000005",
+   "20001135"
+  ],
+  "intitules": [
+   "Musique",
+   "Cinéma",
+   "Exposition artistique"
+  ]
+ },
+ "4745347|DIV.538": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000049"
+  ],
+  "intitules": [
+   "Littérature",
+   "Périodiques"
+  ]
+ },
+ "4745483|DIV.267": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000070",
+   "20000058",
+   "20000062"
+  ],
+  "intitules": [
+   "Coup d'Etat",
+   "Intervention militaire internationale",
+   "Guerre"
+  ]
+ },
+ "4745483|DIV.356": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058",
+   "20000059"
+  ],
+  "intitules": [
+   "Intervention militaire internationale",
+   "Forces de maintien de la paix"
+  ]
+ },
+ "4745483|DIV.389": {
+  "famille": "Politique",
+  "codes": [
+   "20001132",
+   "20001338",
+   "20000636"
+  ],
+  "intitules": [
+   "Politique culturelle",
+   "Politique de l'éducation",
+   "Médiateur"
+  ]
+ },
+ "4745483|DIV.399": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000736",
+   "20000740",
+   "20000737"
+  ],
+  "intitules": [
+   "Innovation scientifique",
+   "Publication scientifique",
+   "Recherche médicale"
+  ]
+ },
+ "4745483|DIV.465": {
+  "famille": "Désastres et accidents",
+  "codes": [
+   "20000161"
+  ],
+  "intitules": [
+   "Effondrement"
+  ]
+ },
+ "4746895|DIV.753": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000003",
+   "20000013"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Dessin animé",
+   "Littérature"
+  ]
+ },
+ "4749066|DIV.522": {
+  "famille": "Sport",
+  "codes": [
+   "20001065",
+   "20001177"
+  ],
+  "intitules": [
+   "Football",
+   "Jeux olympiques"
+  ]
+ },
+ "4753294|DIV.1327": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000004",
+   "20000005"
+  ],
+  "intitules": [
+   "Bande dessinée",
+   "Cinéma"
+  ]
+ },
+ "4753294|DIV.1525": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000560"
+  ],
+  "intitules": [
+   "Activités récréatives"
+  ]
+ },
+ "4753294|DIV.383": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000055",
+   "20000058"
+  ],
+  "intitules": [
+   "Attentat à la bombe",
+   "Intervention militaire internationale"
+  ]
+ },
+ "4753294|DIV.621": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058",
+   "20000080",
+   "20000078"
+  ],
+  "intitules": [
+   "Intervention militaire internationale",
+   "Prisonniers de guerre",
+   "Désarmement"
+  ]
+ },
+ "4753294|DIV.711": {
+  "famille": "Criminalité, droit et justice",
+  "codes": [
+   "20000133",
+   "20000087",
+   "20001197"
+  ],
+  "intitules": [
+   "Police",
+   "Délinquance financière",
+   "Droit administratif"
+  ]
+ },
+ "4753294|DIV.757": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000058"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Intervention militaire internationale"
+  ]
+ },
+ "4756274|DIV.603": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018",
+   "20000046",
+   "20000029"
+  ],
+  "intitules": [
+   "Musique",
+   "Média d'information",
+   "Théâtre"
+  ]
+ },
+ "4756274|DIV.618": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000046",
+   "20000044"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Média d'information",
+   "Patrimoine"
+  ]
+ },
+ "4756274|DIV.98": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000080"
+  ],
+  "intitules": [
+   "Prisonniers de guerre"
+  ]
+ },
+ "4757163|DIV.253": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20000923"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Équitation"
+  ]
+ },
+ "4757163|DIV.346": {
+  "famille": "Météo",
+  "codes": [
+   "20001129",
+   "20001128",
+   "20001131"
+  ],
+  "intitules": [
+   "Phénomène météorologique",
+   "Prévisions météorologiques",
+   "Alertes météorologiques"
+  ]
+ },
+ "4757163|DIV.843": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20000991",
+   "20001124"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Automobile",
+   "Industrie du sport"
+  ]
+ },
+ "4757709|DIV.672": {
+  "famille": "Société",
+  "codes": [
+   "20001328",
+   "20001326"
+  ],
+  "intitules": [
+   "Hommes",
+   "Droits des femmes"
+  ]
+ },
+ "4758930|DIV.1097": {
+  "famille": "Criminalité, droit et justice",
+  "codes": [
+   "20000104",
+   "20000084"
+  ],
+  "intitules": [
+   "Vol",
+   "Agression"
+  ]
+ },
+ "4758930|DIV.1175": {
+  "famille": "Sport",
+  "codes": [
+   "20000827",
+   "20000919",
+   "20001125"
+  ],
+  "intitules": [
+   "Athlétisme",
+   "Course de chiens",
+   "Organisation sportive"
+  ]
+ },
+ "4758930|DIV.335": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000074"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Émissaire de la paix"
+  ]
+ },
+ "4758930|DIV.721": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000079"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Déminage"
+  ]
+ },
+ "4758930|DIV.728": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000004",
+   "20000044"
+  ],
+  "intitules": [
+   "Bande dessinée",
+   "Patrimoine"
+  ]
+ },
+ "4767236|DIV.113": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000058"
+  ],
+  "intitules": [
+   "Guerre",
+   "Intervention militaire internationale"
+  ]
+ },
+ "4767236|DIV.299": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000373",
+   "20000243"
+  ],
+  "intitules": [
+   "Commerce international",
+   "Distribution"
+  ]
+ },
+ "4767236|DIV.504": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539"
+  ],
+  "intitules": [
+   "Associations et clubs"
+  ]
+ },
+ "4767236|DIV.74": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000071",
+   "20000080",
+   "20000067"
+  ],
+  "intitules": [
+   "Massacre",
+   "Prisonniers de guerre",
+   "Rébellion"
+  ]
+ },
+ "4767477|DIV.352": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000005",
+   "20000046"
+  ],
+  "intitules": [
+   "Théâtre",
+   "Cinéma",
+   "Média d'information"
+  ]
+ },
+ "4768768|DIV.212": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20000607",
+   "20000598"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Budget du gouvernement",
+   "Défense"
+  ]
+ },
+ "4769030|DIV.202": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000719",
+   "20000725"
+  ],
+  "intitules": [
+   "Biologie",
+   "Chimie"
+  ]
+ },
+ "4773419|DIV.264": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018",
+   "20000005",
+   "20000029"
+  ],
+  "intitules": [
+   "Musique",
+   "Cinéma",
+   "Théâtre"
+  ]
+ },
+ "4773529|DIV.1194": {
+  "famille": "Sport",
+  "codes": [
+   "20001067",
+   "20001083"
+  ],
+  "intitules": [
+   "Patinage de vitesse",
+   "Tennis de table"
+  ]
+ },
+ "4773529|DIV.125": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000013",
+   "20000018"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Littérature",
+   "Musique"
+  ]
+ },
+ "4773529|DIV.133": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000031",
+   "20000040"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Arts visuels",
+   "Coutumes et traditions"
+  ]
+ },
+ "4773529|DIV.167": {
+  "famille": "Gens animaux insolite",
+  "codes": [
+   "20001233"
+  ],
+  "intitules": [
+   "Baptême civil"
+  ]
+ },
+ "4773529|DIV.183": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000039",
+   "20000049"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Histoire de l'art",
+   "Périodiques"
+  ]
+ },
+ "4773529|DIV.272": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000731",
+   "20000719"
+  ],
+  "intitules": [
+   "Physique",
+   "Biologie"
+  ]
+ },
+ "4773529|DIV.510": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000350",
+   "20000373",
+   "20001278"
+  ],
+  "intitules": [
+   "Banque centrale",
+   "Commerce international",
+   "Coopérative"
+  ]
+ },
+ "4773609|DIV.635": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000046",
+   "20000049"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Média d'information",
+   "Périodiques"
+  ]
+ },
+ "4773935|DIV.136": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000013",
+   "20000046"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Littérature",
+   "Média d'information"
+  ]
+ },
+ "4773937|DIV.464": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000004",
+   "20000013"
+  ],
+  "intitules": [
+   "Bande dessinée",
+   "Littérature"
+  ]
+ },
+ "4785180|DIV.812": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000080"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Prisonniers de guerre"
+  ]
+ },
+ "4785732|DIV.646": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20000648",
+   "20000578"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Dissidence",
+   "Élections locales"
+  ]
+ },
+ "4785732|DIV.818": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000043",
+   "20000046"
+  ],
+  "intitules": [
+   "Littérature",
+   "Bibliothèque et musée",
+   "Média d'information"
+  ]
+ },
+ "4791550|DIV.730": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20001309"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Cheerleading"
+  ]
+ },
+ "4791550|DIV.756": {
+  "famille": "Sport",
+  "codes": [
+   "20001330",
+   "20001331"
+  ],
+  "intitules": [
+   "Canoë-kayak - Slalom",
+   "Canoë-kayak - Ligne"
+  ]
+ },
+ "6703872|DIV.1082": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018",
+   "20000029"
+  ],
+  "intitules": [
+   "Musique",
+   "Théâtre"
+  ]
+ },
+ "6703872|DIV.291": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000071"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Massacre"
+  ]
+ },
+ "6703872|DIV.314": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000031",
+   "20000005",
+   "20001135"
+  ],
+  "intitules": [
+   "Arts visuels",
+   "Cinéma",
+   "Exposition artistique"
+  ]
+ },
+ "6703872|DIV.643": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000719",
+   "20000736",
+   "20000765"
+  ],
+  "intitules": [
+   "Biologie",
+   "Innovation scientifique",
+   "Science de l'infiniment petit"
+  ]
+ },
+ "6705781|DIV.694": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000080"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Prisonniers de guerre"
+  ]
+ },
+ "6706398|DIV.369": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000080",
+   "20000066"
+  ],
+  "intitules": [
+   "Prisonniers de guerre",
+   "Manifestation"
+  ]
+ },
+ "6706398|DIV.510": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20000639",
+   "20000607"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Diplomatie",
+   "Budget du gouvernement"
+  ]
+ },
+ "6706398|DIV.530": {
+  "famille": "Politique",
+  "codes": [
+   "20000639",
+   "20000345",
+   "20000607"
+  ],
+  "intitules": [
+   "Diplomatie",
+   "Politique économique",
+   "Budget du gouvernement"
+  ]
+ },
+ "6706398|DIV.585": {
+  "famille": "Politique",
+  "codes": [
+   "20000639",
+   "20000606",
+   "20001316"
+  ],
+  "intitules": [
+   "Diplomatie",
+   "Pouvoir exécutif",
+   "Conflit frontalier"
+  ]
+ },
+ "6706398|DIV.851": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20001341"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Saison sportive"
+  ]
+ },
+ "6710420|DIV.495": {
+  "famille": "Désastres et accidents",
+  "codes": [
+   "20000168"
+  ],
+  "intitules": [
+   "Secours d'urgence"
+  ]
+ },
+ "6710420|DIV.638": {
+  "famille": "Religion et croyance",
+  "codes": [
+   "20000698",
+   "20001346"
+  ],
+  "intitules": [
+   "Église",
+   "Canonisation"
+  ]
+ },
+ "6710457|DIV.145": {
+  "famille": "Criminalité, droit et justice",
+  "codes": [
+   "20000104",
+   "20000093",
+   "20000100"
+  ],
+  "intitules": [
+   "Vol",
+   "Corruption",
+   "Enlèvement"
+  ]
+ },
+ "6710457|DIV.28": {
+  "famille": "Religion et croyance",
+  "codes": [
+   "20001271"
+  ],
+  "intitules": [
+   "Toussaint"
+  ]
+ },
+ "6710458|DIV.433": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000004",
+   "20000029"
+  ],
+  "intitules": [
+   "Bande dessinée",
+   "Théâtre"
+  ]
+ },
+ "6710458|DIV.758": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539",
+   "20001143"
+  ],
+  "intitules": [
+   "Associations et clubs",
+   "Soirée (fête)"
+  ]
+ },
+ "6711097|DIV.1246": {
+  "famille": "Santé",
+  "codes": [
+   "20001229",
+   "20000480"
+  ],
+  "intitules": [
+   "Clinique",
+   "Soins de santé publics"
+  ]
+ },
+ "6711097|DIV.1266": {
+  "famille": "Météo",
+  "codes": [
+   "20001129",
+   "20001128"
+  ],
+  "intitules": [
+   "Phénomène météorologique",
+   "Prévisions météorologiques"
+  ]
+ },
+ "6711097|DIV.1299": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000046",
+   "20000044"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Média d'information",
+   "Patrimoine"
+  ]
+ },
+ "6711097|DIV.632": {
+  "famille": "Éducation",
+  "codes": [
+   "20000410",
+   "20000403",
+   "20000401"
+  ],
+  "intitules": [
+   "Apprentissage social",
+   "Formation",
+   "École primaire"
+  ]
+ },
+ "6711097|DIV.742": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000004",
+   "20000005"
+  ],
+  "intitules": [
+   "Bande dessinée",
+   "Cinéma"
+  ]
+ },
+ "6716695|DIV.1080": {
+  "famille": "Éducation",
+  "codes": [
+   "20000410",
+   "20000405",
+   "20000415"
+  ],
+  "intitules": [
+   "Apprentissage social",
+   "Éducation supérieure",
+   "Étudiants"
+  ]
+ }
+}

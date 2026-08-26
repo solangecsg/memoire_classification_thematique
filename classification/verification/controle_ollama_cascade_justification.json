@@ -1,0 +1,2085 @@
+{
+ "4109000|DIV.233": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000046",
+   "20000044"
+  ],
+  "intitules": [
+   "Théâtre",
+   "Média d'information",
+   "Patrimoine"
+  ],
+  "justification_famille": "L'article parle de spectacles théâtraux, de ballets et de divertissements, ce qui le lie le plus étroitement à l'art et à la culture. Les autres catégories ne sont pas directement liées à l'essence du texte.",
+  "justification_etiquette": "Le texte principal parle d'un spectacle théâtral, ce qui correspond le mieux à la catégorie 'Théâtre'. Les détails sur les représentations et les spectacles impliquent également des informations sur la 'Média d'information' et les 'Patrimoine' (en termes de théâtres célèbres). Cependant, étant donné la limitation à 1 à 3 étiquettes, 'Théâtre' est la plus pertinente."
+ },
+ "4109000|DIV.432": {
+  "famille": "Santé",
+  "codes": [
+   "20000470",
+   "20000448"
+  ],
+  "intitules": [
+   "Remède",
+   "Maladies contagieuses"
+  ],
+  "justification_famille": "L'article parle d'un traitement contre la maladie basé sur le goudron, ce qui le situe clairement dans la famille 'Santé'. Il ne couvre pas les autres catégories proposées.",
+  "justification_etiquette": "L'article parle d'un remède à base de goudron pour soulager les maux de gorge, le rhume et la bronchite. C'est donc un remède pour maladies respiratoires. Les autres étiquettes ne sont pas pertinentes dans ce contexte."
+ },
+ "4109676|DIV.527": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018",
+   "20000003"
+  ],
+  "intitules": [
+   "Musique",
+   "Dessin animé"
+  ],
+  "justification_famille": "L'article décrit une réunion politique et des intrigues politiques impliquant des personnages. Les thèmes les plus pertinents sont : Arts, culture, divertissement et médias, et Politique.",
+  "justification_etiquette": "Bande dessinée"
+ },
+ "4109676|DIV.97": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000078"
+  ],
+  "intitules": [
+   "Désarmement"
+  ],
+  "justification_famille": "L'article parle de la traite des esclaves, qui est un sujet de droit et de justice. Il mentionne également la question diplomatique entre la France et l'Égypte. Les autres thèmes ne sont pas directement liés à l'essence de l'article.",
+  "justification_etiquette": "L'article parle de la traite des esclaves et des firmans interdisant cette pratique. Ces firmans sont violés par des sujets égyptiens. Cela correspond le plus directement à l'étiquette 'Désarmement', qui concerne les pratiques barbares et les interdictions de certaines activités. Les autres étiquettes ne semblent pas directement liées à l'article."
+ },
+ "4112815|DIV.909": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000046",
+   "20000013"
+  ],
+  "intitules": [
+   "Média d'information",
+   "Littérature"
+  ],
+  "justification_famille": "L'article parle de la librairie de la Dépêche et de son numéro, ce qui se situe dans le domaine de l'information et des médias.",
+  "justification_etiquette": "L'article parle de la Librairie de 'La Dépêche', une publication française, ce qui implique des sujets liés au média d'information et à la littérature."
+ },
+ "4123163|DIV.1214": {
+  "famille": "Société",
+  "codes": [
+   "20000797"
+  ],
+  "intitules": [
+   "Personnes âgées"
+  ],
+  "justification_famille": "L'article parle d'annonces d'emploi et de personnes cherchant des emplois. Cela correspond le mieux à la famille 'Société'. Les autres familles ne sont pas pertinentes pour cet article.",
+  "justification_etiquette": "L'article parle de vendeuses et d'emplois, ce qui correspond le mieux à l'étiquette 'Personnes âgées' qui peut inclure des emplois pour jeunes adultes."
+ },
+ "4123163|DIV.202": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20000650",
+   "20000653"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Groupe de pression",
+   "Système politique"
+  ],
+  "justification_famille": "L'article parle d'une hausse du métro qui cause des protestations syndicales. Cela se situe clairement dans la famille 'Politique' car il concerne une décision gouvernementale et son impact sur les syndicats. Il ne correspond pas aux autres familles comme 'Société', 'Sport', 'Vie quotidienne et loisirs' etc.",
+  "justification_etiquette": "L'article parle d'une hausse du métro qui a provoqué une réaction des syndicats. Les syndicats sont des organisations politiques et sociales qui représentent les travailleurs. La hausse du métro est un sujet de politique économique. Donc, les étiquettes les plus pertinentes sont : Politique économique, Groupe de pression, et Syndicats."
+ },
+ "4123163|DIV.640": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062"
+  ],
+  "intitules": [
+   "Guerre"
+  ],
+  "justification_famille": "L'article parle de Shiro Ishii, un général japonais impliqué dans des activités bactériologiques pendant la Seconde Guerre mondiale. Cela se situe clairement dans la famille 'Conflit, guerre et paix' car il traite d'activités militaires et de conflits passés. Les autres catégories ne sont pas pertinentes pour cet article.",
+  "justification_etiquette": "L'article parle de Shiro Ishii, un général japonais impliqué dans des activités bactériologiques pendant la Seconde Guerre mondiale. Cela correspond le plus directement à la catégorie de 'Guerre'. Les autres étiquettes ne semblent pas directement liées à l'article."
+ },
+ "4133627|DIV.1013": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539",
+   "20000550"
+  ],
+  "intitules": [
+   "Associations et clubs",
+   "Passe-temps"
+  ],
+  "justification_famille": "L'article parle de garde d'enfants et de nourrices, ce qui se situe clairement dans la famille 'Vie quotidienne et loisirs'. Les autres familles proposées ne semblent pas directement pertinentes pour cet article.",
+  "justification_etiquette": "L'article parle de garde d'enfants et de nourrices, ce qui correspond le mieux aux étiquettes 'Associations et clubs' et 'Passe-temps'. Les étiquettes 'Activités récréatives' et 'Vacances' sont moins pertinentes pour cet article. Les étiquettes 'Bien-être mental', 'Tendance', 'Végétarisme et véganisme', 'Aliments biologiques', 'Lieu de loisirs', 'Maison et décoration', et 'Soirée (fête)' ne correspondent pas du tout à l'article."
+ },
+ "4133627|DIV.1404": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000031",
+   "20000005",
+   "20001135"
+  ],
+  "intitules": [
+   "Arts visuels",
+   "Cinéma",
+   "Exposition artistique"
+  ],
+  "justification_famille": "[\"Arts, culture, divertissement et médias\", \"Politique\"]'}",
+  "justification_etiquette": "L'article traite principalement de la campagne réformiste en France à la fin du règne de Louis-Philippe, donc les étiquettes les plus pertinentes sont : Arts visuels, Cinéma, et Exposition artistique."
+ },
+ "4133627|DIV.1466": {
+  "famille": "Sport",
+  "codes": [
+   "20000884"
+  ],
+  "intitules": [
+   "Alpinisme et escalade"
+  ],
+  "justification_famille": "L'article parle d'un sauvetage en montagne, d'une chute de 30 mètres et de la recherche d'un alpiniste disparu. Ces éléments le classent dans la famille 'Sport' et 'Désastres et accidents'. Les autres familles sont moins pertinentes pour ce contenu spécifique.",
+  "justification_etiquette": "L'article parle d'un sauvetage en montagne et d'une autre disparition, ce qui implique des sujets liés à l'alpinisme et à la montagne. Les sauvetages impliquent des sports extrêmes et des accidents, ce qui inclut également des sujets d'arts martiaux et d'escalade. Les disparitions impliquent également des sports extrêmes. Les sports extrêmes sont généralement classés sous l'étiquette d'Alpinisme et escalade. Les autres sujets sont moins pertinents pour cette liste de sujets. Donc, l'étiquette la plus pertinente est Alpinisme et escalade."
+ },
+ "4133872|DIV.601": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058",
+   "20000062",
+   "20000059"
+  ],
+  "intitules": [
+   "Intervention militaire internationale",
+   "Guerre",
+   "Forces de maintien de la paix"
+  ],
+  "justification_famille": "L'article parle d'une fusillade qui a causé la mort de deux personnes, Claude Bertrand et Jean-Nicolas Sereni. Il évoque également des éléments de crime et de conflit, ainsi que des détails sur la vie privée des protagonistes. Cependant, il ne s'agit pas d'une enquête sur un conflit ou une guerre, ni d'une affaire de criminalité. Il est donc le plus proche de la famille 'Conflit, guerre et paix' et 'Criminalité, droit et justice', mais aussi de 'Vie quotidienne et loisirs' pour les détails sur la vie de Claude Bertrand.",
+  "justification_etiquette": "Il est clair que l'article traite d'un sujet impliquant des exécutions, des mobiles inconnus et une enquête policière. Les exécutions de deux personnes, Claude Bertrand et Jean-Nicolas Sereni, sont au cœur de l'histoire. Les mobiles exacts de ces exécutions sont actuellement secrets, ce qui renforce la pertinence des étiquettes liées à la police et aux enquêtes. Les autres étiquettes, bien que pertinentes, ne sont pas aussi directement liées au sujet de l'article."
+ },
+ "4134119|DIV.1190": {
+  "famille": "Sport",
+  "codes": [
+   "20000851"
+  ],
+  "intitules": [
+   "Basket-ball"
+  ],
+  "justification_famille": "L'article parle de des matchs de basket-ball programmés. Cela correspond le mieux à la famille 'Sport'.",
+  "justification_etiquette": "Le texte parle de des matchs de basket-ball programmés, donc les étiquettes les plus pertinentes sont : Basket-ball."
+ },
+ "4134119|DIV.1407": {
+  "famille": "Sport",
+  "codes": [
+   "20000851"
+  ],
+  "intitules": [
+   "Basket-ball"
+  ],
+  "justification_famille": "L'article parle d'un match de basket entre le Racing et les Cheminots. Cela correspond le mieux à la famille : Sport.",
+  "justification_etiquette": "L'article parle d'un match de basket entre le Racing et les Cheminots. Cela correspond le plus directement à l'étiquette 'Basket-ball'."
+ },
+ "4134119|DIV.28": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000051"
+  ],
+  "intitules": [
+   "Télévision"
+  ],
+  "justification_famille": "L'article mentionne 'ce soir', ce qui suggère probablement une émission télévisée ou une programmation de divertissement. Cependant, sans plus de contexte, nous devons baser notre décision sur les étiquettes disponibles.",
+  "justification_etiquette": "L'article mentionne une référence à une émission de télévision (ce soir), ce qui correspond le mieux à l'étiquette 'Télévision'. Les autres étiquettes ne semblent pas directement liées à l'article."
+ },
+ "4134119|DIV.894": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000719",
+   "20000727",
+   "20000716"
+  ],
+  "intitules": [
+   "Biologie",
+   "Géologie",
+   "Génie mécanique"
+  ],
+  "justification_famille": "L'article parle d'un scientifique qui cherche à capturer une femelle de l'espèce coelacanthe, un poisson ancien. Cela se situe clairement dans la famille des Sciences et technologie et de la Vie quotidienne et loisirs.",
+  "justification_etiquette": "L'article parle d'une intention de capturer un coelacanthe, un poisson ancien. Cela se situe clairement dans la catégorie de la Biologie, plus précisément dans la sous-catégorie de Géologie, car les coelacanthes sont des fossiles. La sous-catégorie de Génie mécanique est également pertinente car l'article parle d'une expédition pour capturer le poisson."
+ },
+ "4134119|DIV.928": {
+  "famille": "Sport",
+  "codes": [
+   "20000923"
+  ],
+  "intitules": [
+   "Équitation"
+  ],
+  "justification_famille": "L'article parle d'une manifestation d'étudiantes qui protestent contre des accusations de harcèlement à l'égard des garçons de leur université. Cela se situe clairement dans la famille 'Sport' car il parle d'étudiants, mais aussi dans la famille 'Social' car il touche à des questions sociales et de genre. Les deux familles les plus pertinentes étant 'Sport' et 'Social', je choisis de les présenter en premier.",
+  "justification_etiquette": "L'article parle d'une manifestation d'étudiantes qui protestent contre des propos ou des actions jugés offensants envers les étudiantes. Cela correspond le plus directement à l'étiquette 'Équitation', qui inclut des sujets liés à la manifestation et aux problèmes de genre dans le sport. Les autres étiquettes ne semblent pas aussi pertinentes pour ce contenu spécifique."
+ },
+ "4135298|DIV.1086": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000069"
+  ],
+  "intitules": [
+   "Emeutes"
+  ],
+  "justification_famille": "L'article décrit des événements impliquant des enfants enlevés, une mère inquiète et une femme suspectée de l'enlèvement. Les sujets les plus pertinents sont : conflit, guerre et paix (enlevement et recherche d'un enfant), et criminalité, droit et justice (enlèvement et recherche d'un enfant). Les autres sujets ne sont pas directement liés à l'histoire décrite.",
+  "justification_etiquette": "L'article parle d'une situation où un enfant est enlevé, ce qui correspond à la catégorie 'Emeutes' qui inclut les cas de disparition ou enlèvement d'enfants. Les autres étiquettes ne semblent pas directement correspondre au contenu de l'article."
+ },
+ "4135298|DIV.363": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058",
+   "20000067",
+   "20000062"
+  ],
+  "intitules": [
+   "Intervention militaire internationale",
+   "Rébellion",
+   "Guerre"
+  ],
+  "justification_famille": "L'article parle d'une insurrection, de conflits armés et de la réaction des autorités. Ces éléments le classent clairement dans la famille 'Conflit, guerre et paix'. Les autres thèmes mentionnés ne sont pas directement liés à ce contenu.",
+  "justification_etiquette": "L'article parle d'une insurrection, ce qui correspond au code 'Insurrection'. Les autres codes ne semblent pas directement liés à l'insurrection décrite dans l'article."
+ },
+ "4135298|DIV.775": {
+  "famille": "Social",
+  "codes": [
+   "20000536"
+  ],
+  "intitules": [
+   "Syndicats"
+  ],
+  "justification_famille": "[",
+  "justification_etiquette": "Conflit social"
+ },
+ "4135298|DIV.792": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000719",
+   "20000759"
+  ],
+  "intitules": [
+   "Biologie",
+   "Agronomie"
+  ],
+  "justification_famille": "L'article parle d'une station de pisciculture, une activité liée à l'agriculture et à l'agroalimentaire, ce qui se situe dans la famille 'Économie et finances' ainsi que 'Science et technologie'. Cependant, étant donné que ces deux familles sont très étendues, nous choisissons la plus spécifique, qui est 'Science et technologie'.",
+  "justification_etiquette": "L'article parle d'une station de pisciculture, ce qui est directement lié à la biologie et à l'agronomie. Ces deux domaines couvrent largement les sujets liés à la pisciculture. Cependant, il n'y a pas de mention spécifique à des sujets plus spécialisés comme la biotechnologie ou la génie mécanique. Donc, les étiquettes les plus pertinentes sont : Biologie et Agronomie."
+ },
+ "4140779|DIV.1012": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000550"
+  ],
+  "intitules": [
+   "Passe-temps"
+  ],
+  "justification_famille": "L'article parle de ventes d'articles divers comme des articles de toilette, des cartes de visite, des vins et des liqueurs, des produits de beauté, des produits de la maison, des produits de la santé et de la beauté. Il ne mentionne pas de sujets liés à la politique, à la religion, à la science, à l'éducation, à l'environnement, à la santé, à la société, à l'économie, à la culture, au divertissement, à la guerre, à la paix, à la criminalité, aux désastres, aux animaux, à la météo, à la vie quotidienne, au sport, à la santé, à la science et technologie, à l'éducation, à l'environnement, à la santé, à la société, à l'économie et à la finance. Il ne parle pas non plus de la famille, de l'art, de la culture, du divertissement et des médias. Donc, l'article appartient à la famille 'Vie quotidienne et loisirs'.",
+  "justification_etiquette": "L'article parle de divers produits et services proposés par différents commerçants et entreprises, ce qui correspond le mieux à l'étiquette 'Passe-temps' qui inclut des informations sur des produits et services de loisirs. Les autres étiquettes ne semblent pas aussi pertinentes dans ce contexte."
+ },
+ "4140779|DIV.1422": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000049"
+  ],
+  "intitules": [
+   "Périodiques"
+  ],
+  "justification_famille": "L'article parle de librairies et de leurs lieux de vente, ce qui est directement lié à l'aspect culturel et éducatif des livres. Il ne mentionne pas de conflits, de crimes, de désastres, de santé, de science, de politique, de religion, de météo, de vie quotidienne, de sport, de santé, de société, de vie quotidienne et loisirs, d'économie, ou d'éducation. Donc, la famille la plus appropriée est 'Arts, culture, divertissement et médias'.",
+  "justification_etiquette": "L'article parle de librairies et de leurs points de vente, ce qui est le plus pertinent parmi les étiquettes proposées."
+ },
+ "4140779|DIV.1804": {
+  "famille": "Sport",
+  "codes": [
+   "20001125"
+  ],
+  "intitules": [
+   "Organisation sportive"
+  ],
+  "justification_famille": "L'article parle d'un service de mariage rapide et de l'adresse d'un prestataire. Cela se situe clairement dans la famille 'Sport' qui inclut les mariages et les événements sociaux.",
+  "justification_etiquette": "L'article parle d'un service matrimonial pour hommes, ce qui correspond le plus à l'étiquette 'Organisation sportive'. Bien que l'article ne parle pas directement de sport, il est lié à l'aspect organisationnel et social d'un événement sportif (le mariage). Les autres étiquettes ne semblent pas pertinentes pour ce contenu."
+ },
+ "4140779|DIV.223": {
+  "famille": "Politique",
+  "codes": [
+   "20000607",
+   "20000345"
+  ],
+  "intitules": [
+   "Budget du gouvernement",
+   "Politique économique"
+  ],
+  "justification_famille": "[\"Politique\", \"Économie et finances\"]'}",
+  "justification_etiquette": "Les informations fournies dans l'article ne correspondent pas directement à une seule catégorie spécifique de l'étiquette fournie. Cependant, l'article traite principalement de sujets liés à la politique et au budget gouvernemental. Il ne fait pas de distinction claire entre des sujets comme la diplomatie, la politique économique, ou la politique culturelle. Il est donc pertinent de classer cet article avec les étiquettes les plus générales et pertinentes. Les étiquettes les plus pertinentes pour cet article sont : Budget du gouvernement et Politique économique. Les autres étiquettes sont moins pertinentes dans ce contexte spécifique. Par conséquent, je choisis de ne pas inclure d'autres étiquettes. Voici la réponse : {"
+ },
+ "4140779|DIV.799": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539",
+   "20000550"
+  ],
+  "intitules": [
+   "Associations et clubs",
+   "Passe-temps"
+  ],
+  "justification_famille": "L'article parle de retraités, de pensions de retraite, de fourneaux économiques et d'une augmentation des portions de vin. Ces sujets sont principalement liés à la vie quotidienne et aux loisirs. Les autres catégories, bien que pertinentes, ne sont pas directement abordées dans l'article.",
+  "justification_etiquette": "L'article parle de l'Association fraternelle des employés et ouvriers des Chemins de fer français, ce qui est le plus pertinent parmi les étiquettes proposées. Les autres étiquettes ne semblent pas directement liées au contenu de l'article."
+ },
+ "4140779|DIV.923": {
+  "famille": "Sport",
+  "codes": [
+   "20000856",
+   "20001125"
+  ],
+  "intitules": [
+   "Boxe",
+   "Organisation sportive"
+  ],
+  "justification_famille": "L'article parle d'un entraînement de boxe préparant à un championnat. Cela se situe clairement dans la famille 'Sport' qui couvre les activités et événements sportifs.",
+  "justification_etiquette": "L'article parle de l'organisation d'un championnat de boxe, ce qui est le plus pertinent parmi les étiquettes proposées."
+ },
+ "4602945|DIV.420": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062"
+  ],
+  "intitules": [
+   "Guerre"
+  ],
+  "justification_famille": "L'article décrit une situation de guerre, un acte de guerre et une réaction à la guerre. Il ne traite pas de la culture, de la santé, de l'éducation, de l'économie, du sport, de la vie quotidienne, de la religion, de la science, de l'environnement, de la famille, de la politique, de la société, de la météo ou de la criminalité. Les thèmes les plus pertinents sont donc ceux de la guerre et du conflit. Les thèmes les plus pertinents sont donc ceux de la guerre et du conflit.",
+  "justification_etiquette": "Le texte parle d'une bataille, d'un drapeau, et d'une prise de drapeau. Cela correspond le mieux à la catégorie de guerre. Les autres étiquettes ne sont pas pertinentes dans ce contexte."
+ },
+ "4602945|DIV.577": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000060",
+   "20000076",
+   "20000076"
+  ],
+  "intitules": [
+   "Forces d'occupation",
+   "Pourparlers de paix",
+   "Pourparlers de paix"
+  ],
+  "justification_famille": "Le texte parle d'une situation d'oppression et de pillage subie par la Belgique par les Allemands pendant la guerre. Cela se situe clairement dans la famille 'Conflit, guerre et paix' ainsi que dans 'Politique' car il décrit les décisions prises par les autorités belges face à l'impôt imposé par les Allemands. Les autres familles ne sont pas pertinentes pour cette analyse.",
+  "justification_etiquette": "L'article parle d'une situation d'occupation et de pillage de la Belgique par les Allemands, ce qui correspond le mieux à la catégorie 'Forces d'occupation' et 'Pillage'. Les autres catégories ne sont pas directement pertinentes pour décrire le sujet de cet article."
+ },
+ "4602945|DIV.619": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000071"
+  ],
+  "intitules": [
+   "Guerre",
+   "Massacre"
+  ],
+  "justification_famille": "L'article décrit des morts sur le champ d'honneur pendant une guerre. Cela correspond le mieux à la famille 'Conflit, guerre et paix'.",
+  "justification_etiquette": "L'article parle d'une bataille militaire et de victimes, ce qui correspond le mieux aux étiquettes 'Guerre' et 'Massacre'."
+ },
+ "4602945|DIV.778": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000553",
+   "20000560"
+  ],
+  "intitules": [
+   "Lieu de loisirs",
+   "Activités récréatives"
+  ],
+  "justification_famille": "L'article parle d'appartements pour familles, de prix et de services offerts. Cela se situe clairement dans la famille 'Vie quotidienne et loisirs', car il concerne des services réservés aux familles et leur confort quotidien.",
+  "justification_etiquette": "L'article parle d'appartements pour familles, ce qui est le plus pertinent parmi les étiquettes proposées. Les autres étiquettes ne semblent pas directement liées au contenu de l'article."
+ },
+ "4604241|DIV.1956": {
+  "famille": "Désastres et accidents",
+  "codes": [
+   "20000168"
+  ],
+  "intitules": [
+   "Secours d'urgence"
+  ],
+  "justification_famille": "L'article parle de la destruction de la jetée et de la falaise à cause des vagues de l'océan Atlantique. Cela se situe clairement dans la famille 'Désastres et accidents' car il décrit une situation catastrophique causée par un événement naturel.",
+  "justification_etiquette": "L'article parle de la menace que fait peser l'océan Atlantique sur une jetée et une partie de la ville de Saint-Gilles-Croix-de-Vie en Vendée. Cela correspond le mieux à l'étiquette 'Secours d'urgence', car il s'agit d'une situation d'urgence liée à une menace naturelle. Les autres étiquettes ne sont pas pertinentes dans ce contexte."
+ },
+ "4604241|DIV.863": {
+  "famille": "Politique",
+  "codes": [
+   "20000606",
+   "20000613"
+  ],
+  "intitules": [
+   "Pouvoir exécutif",
+   "Ministres"
+  ],
+  "justification_famille": "L'article parle de la situation politique en Italie, des débats au Conseil des ministres et des démissions potentielles de certains ministres. Cela correspond le mieux à la famille 'Politique'. Les autres familles ne sont pas pertinentes pour l'analyse de cet article.",
+  "justification_etiquette": "L'article parle de démissions de ministres en Italie, ce qui est directement lié au pouvoir exécutif et aux ministres. Il ne mentionne pas de détails spécifiques sur les ministères démissionnaires, donc je ne peux pas choisir plus de 3 étiquettes. Les ministres démissionnaires sont mentionnés, ce qui justifie la pertinence avec le sujet de l'article."
+ },
+ "4606143|DIV.117": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058",
+   "20000062"
+  ],
+  "intitules": [
+   "Intervention militaire internationale",
+   "Guerre"
+  ],
+  "justification_famille": "L'article parle d'un incident naval impliquant un sous-marin britannique et un vapeur allemand, ce qui le situe clairement dans la famille 'Conflit, guerre et paix'.",
+  "justification_etiquette": "L'article parle d'un incident naval impliquant un sous-marin britannique et un vapeur allemand, ce qui correspond le plus à la catégorie 'Intervention militaire internationale'. La catégorie 'Guerre' est également pertinente car elle englobe les conflits et les actions militaires. Les autres catégories ne semblent pas directement liées à l'incident décrit."
+ },
+ "4606143|DIV.427": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000560"
+  ],
+  "intitules": [
+   "Activités récréatives"
+  ],
+  "justification_famille": "L'article parle d'une naissance, ce qui le situe clairement dans la famille 'Vie quotidienne et loisirs'.",
+  "justification_etiquette": "L'article ne concerne pas directement les activités physiques, le bien-être mental, les jeux, les soirées, les tendances, les voyages, les végétarismes, les aliments biologiques, les associations et clubs, les loisirs, les décos, les passe-temps, ni le végétarisme et véganisme."
+ },
+ "4606143|DIV.746": {
+  "famille": "Sport",
+  "codes": [
+   "20000849"
+  ],
+  "intitules": [
+   "Baseball"
+  ],
+  "justification_famille": "L'article parle d'un match de base-ball qui se déroule à Saint-Cloud. Cela se situe clairement dans la famille du Sport.",
+  "justification_etiquette": "Le texte parle d'un match de base-ball qui se déroule à Saint-Cloud. Le base-ball est un sport américain, donc la meilleure étiquette serait 'Baseball'. Les autres étiquettes ne sont pas pertinentes dans ce contexte."
+ },
+ "4609982|DIV.1398": {
+  "famille": "Sport",
+  "codes": [
+   "20001331",
+   "20001330"
+  ],
+  "intitules": [
+   "Canoë-kayak - Ligne",
+   "Canoë-kayak - Slalom"
+  ],
+  "justification_famille": "Vie quotidienne et loisirs",
+  "justification_etiquette": "Le texte principal parle de courses de chiens, donc les étiquettes les plus pertinentes sont : Canoë-kayak - Slalom et Canoë-kayak - Ligne."
+ },
+ "4609982|DIV.1500": {
+  "famille": "Sport",
+  "codes": [
+   "20001154"
+  ],
+  "intitules": [
+   "Échecs"
+  ],
+  "justification_famille": "L'article parle d'un tournoi d'échecs international, ce qui correspond le mieux à la famille 'Sport'. Les autres familles ne sont pas directement liées à ce contenu.",
+  "justification_etiquette": "L'article parle d'un tournoi d'échecs international, ce qui implique des sujets liés à la compétition sportive. Les échecs sont un sport, donc la catégorie 'Échecs' est pertinente. L'article ne mentionne pas spécifiquement d'autres sports ou catégories, donc 'Équitation' et 'Équitation' ne sont pas pertinents. Les autres catégories ne sont pas pertinentes pour l'article."
+ },
+ "4610674|DIV.1655": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000304",
+   "20001278"
+  ],
+  "intitules": [
+   "Médias",
+   "Coopérative"
+  ],
+  "justification_famille": "L'article parle de la baisse de prix d'un produit (Hamme, Damo Enfant) et du catalogue de 1933. Cela correspond le mieux à l'économie et finances.",
+  "justification_etiquette": "L'article mentionne un catalogue de 1933, ce qui suggère un sujet lié à l'édition et à la presse ancienne. Cependant, il ne fournit pas de détails suffisants pour attribuer des étiquettes spécifiques. Les étiquettes les plus pertinentes sont 'Médias' et 'Coopérative'. Les deux sont les plus proches de l'ambiance générale de l'article."
+ },
+ "4610674|DIV.1673": {
+  "famille": "Religion et croyance",
+  "codes": [
+   "20001273",
+   "20000659"
+  ],
+  "intitules": [
+   "Baptême",
+   "Christianisme"
+  ],
+  "justification_famille": "L'article parle de la béatification d'un prêtre et de la recherche de documents pour cette béatification. Cela se situe clairement dans la famille 'Religion et croyance'.",
+  "justification_etiquette": "L'article parle de la béatification d'un prêtre, ce qui est lié au processus de canonisation dans le christianisme. La béatification est un étape intermédiaire avant l'inauguration de la cause de canonisation. Cependant, l'article ne fournit pas suffisamment de détails pour attribuer d'autres étiquettes comme Canonisation, Pape, ou Église. Les étiquettes les plus pertinentes sont donc :"
+ },
+ "4610674|DIV.171": {
+  "famille": "Politique",
+  "codes": [
+   "20001132",
+   "20001174",
+   "20000648"
+  ],
+  "intitules": [
+   "Politique culturelle",
+   "Politique d'aménagement du territoire",
+   "Dissidence"
+  ],
+  "justification_famille": "L'article parle d'une réunion de propagandeage d'un parti catholique antihitlérien dans la Sarre. Cela se situe clairement dans la famille 'Politique' car il concerne une organisation politique et une réunion de propagandeage. Les autres familles ne sont pas pertinentes pour cet article.",
+  "justification_etiquette": "L'article parle d'une réunion de propagandeage d'un parti politique catholique antihitlérien en Sarre. Les conflits politiques et les tensions entre différents groupes politiques sont donc les thèmes les plus pertinents. Les autres thèmes ne sont pas directement liés à l'histoire de l'article."
+ },
+ "4610674|DIV.711": {
+  "famille": "Religion et croyance",
+  "codes": [
+   "20000702",
+   "20000688"
+  ],
+  "intitules": [
+   "Relations entre les institutions religieuses et l'Etat",
+   "Conflit religieux"
+  ],
+  "justification_famille": "L'article parle d'une église profanée, ce qui se rapporte directement à la famille 'Religion et croyance'. Les dégâts commis sont également liés à la famille 'Culture, divertissement et médias' car ils concernent un lieu de culte. Les allégations de responsabilité entre national-socialistes et communistes sont liées à la famille 'Politique'. Les autres familles ne sont pas directement concernées par le contenu de l'article.",
+  "justification_etiquette": "L'article parle d'une église profanée en Autriche, ce qui implique des actes de vandalisme religieux. Cela correspond le mieux avec les étiquettes 'Relations entre les institutions religieuses et l'Etat' et 'Conflit religieux'. Les deux sont les plus pertinents parmi ceux proposés."
+ },
+ "4614978|DIV.301": {
+  "famille": "Politique",
+  "codes": [
+   "20001265"
+  ],
+  "intitules": [
+   "Politique de gouvernement local"
+  ],
+  "justification_famille": "L'article parle d'une question concernant la date d'entrée d'une personne dans un rôle politique (député). Cela correspond le mieux à la famille 'Politique'.",
+  "justification_etiquette": "L'article parle de la répartition des places de députés, ce qui est directement lié à la politique de gouvernement local. C'est donc la plus pertinente parmi les étiquettes proposées."
+ },
+ "4614978|DIV.651": {
+  "famille": "Sport",
+  "codes": [
+   "20000991",
+   "20000892"
+  ],
+  "intitules": [
+   "Automobile",
+   "Cyclisme"
+  ],
+  "justification_famille": "L'article principal parle d'une course automobile, ce qui le situe clairement dans la famille des Sports et loisirs. Les détails techniques et les résultats des concurrents renforcent cette classification.",
+  "justification_etiquette": "L'article principal parle d'une course automobile organisée en France. Il décrit les différents concurrents, les distances, les moyennes horaires et le classement. Les détails techniques comme les amortisseurs de chocs Hartford sont également mentionnés. Cela indique clairement que le sujet principal est l'automobile et les courses automobiles."
+ },
+ "4617451|DIV.1219": {
+  "famille": "Gens animaux insolite",
+  "codes": [
+   "20000503"
+  ],
+  "intitules": [
+   "Mésaventures"
+  ],
+  "justification_famille": "L'article parle d'une personne qui se croit dans un métro lors de l'Exposition, ce qui implique une situation insolite liée à l'histoire et aux événements passés. Cela correspond le mieux à la famille 'Gens animaux insolite' car il décrit une situation inhabituelle impliquant des personnes.",
+  "justification_etiquette": "L'article parle d'une situation humoristique impliquant une personne, ce qui correspond le mieux à la catégorie 'Mésaventures'."
+ },
+ "4617451|DIV.634": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000058"
+  ],
+  "intitules": [
+   "Guerre",
+   "Intervention militaire internationale"
+  ],
+  "justification_famille": "L'article parle d'un accident aérien militaire, ce qui correspond le mieux à la famille 'Conflit, guerre et paix'.",
+  "justification_etiquette": "L'article parle d'un accident aérien militaire, ce qui correspond le plus à la catégorie 'Guerre'. Les débris d'un avion militaire tombé dans la Manche peuvent être associés à une situation de guerre ou d'intervention militaire. Les corps des deux membres de l'équipage ne sont pas retrouvés, ce qui peut être lié à une opération militaire en cours. Les autres étiquettes ne semblent pas directement pertinentes pour cette situation."
+ },
+ "4617451|DIV.922": {
+  "famille": "Sport",
+  "codes": [
+   "20000856"
+  ],
+  "intitules": [
+   "Boxe"
+  ],
+  "justification_famille": "L'article parle de résultats d'une réunion pugilistique organisée au Central Sporting Club. Cela se situe clairement dans la famille Sport.",
+  "justification_etiquette": "Le sujet principal de cet article est clairement la boxe, avec des combats de boxeurs en différents poids. Les autres sports mentionnés (échecs, équitation) ne sont pas pertinents pour décrire le contenu de cet article. Les autres sports mentionnés ne sont pas pertinents pour décrire le contenu de cet article. Les autres sports mentionnés (échecs, équitation) ne sont pas pertinents pour décrire le contenu de cet article."
+ },
+ "4626819|DIV.2160": {
+  "famille": "Météo",
+  "codes": [
+   "20001131",
+   "20001128",
+   "20001130"
+  ],
+  "intitules": [
+   "Alertes météorologiques",
+   "Prévisions météorologiques",
+   "Statistiques météorologiques"
+  ],
+  "justification_famille": "L'article mentionne un imprimeur et son adresse, ce qui est le plus pertinent parmi les catégories proposées.",
+  "justification_etiquette": "L'article ne contient aucune information météorologique et ne fait référence à aucun des étiquettes proposés."
+ },
+ "4626819|DIV.530": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000550"
+  ],
+  "intitules": [
+   "Passe-temps"
+  ],
+  "justification_famille": "L'article parle d'une vente de bijoux, ce qui le situe dans la famille 'Vie quotidienne et loisirs'.",
+  "justification_etiquette": "L'article parle d'un bijou acheté cher, ce qui ne correspond pas directement à la plupart des étiquettes proposées. Cependant, l'étiquette 'Passe-temps' pourrait être la plus proche, car posséder un bijou coûteux peut être considéré comme un passe-temps pour certains. Mais il n'y a pas de meilleur choix parmi les étiquettes disponibles."
+ },
+ "4626819|DIV.744": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000560",
+   "20000550"
+  ],
+  "intitules": [
+   "Activités récréatives",
+   "Passe-temps"
+  ],
+  "justification_famille": "L'article mentionne des informations sur un permis de conduire, ce qui se rapporte à la vie quotidienne et aux loisirs. C'est donc la famille la plus appropriée pour cet article.",
+  "justification_etiquette": "L'article parle de permis de conduire, ce qui est lié à la conduite automobile. Cependant, il ne mentionne pas de détails sur l'activité physique ou le bien-être mental. Les autres sujets ne sont pas directement liés à l'article."
+ },
+ "4629483|DIV.1259": {
+  "famille": "Sport",
+  "codes": [
+   "20001157"
+  ],
+  "intitules": [
+   "Arts martiaux"
+  ],
+  "justification_famille": "L'article parle d'une grande réunion de catch organisée, ce qui se situe dans la famille Sport.",
+  "justification_etiquette": "L'article parle d'une grande réunion de catch organisée, ce qui implique des sports de combat et de compétition. Les sports de combat sont classés dans la catégorie des arts martiaux. Les autres catégories ne sont pas pertinentes pour ce contenu."
+ },
+ "4629483|DIV.1465": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20001334"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Cyclisme sur piste"
+  ],
+  "justification_famille": "L'article parle de compétitions cyclistes, donc il est le plus pertinent pour la famille Sport. Les autres familles ne sont pas directement liées à ce contenu.",
+  "justification_etiquette": "Le texte parle de championnats d'Espagne en descente et en sauts, ce qui est le plus pertinent parmi les étiquettes proposées. Les autres étiquettes ne sont pas directement liées à ce texte."
+ },
+ "4629483|DIV.1543": {
+  "famille": "Sport",
+  "codes": [
+   "20000965"
+  ],
+  "intitules": [
+   "Hockey sur glace"
+  ],
+  "justification_famille": "L'article parle de matchs de hockey et de tournois scolaires, ce qui le situe clairement dans la famille du Sport. Les autres catégories ne semblent pas pertinentes pour cet article.",
+  "justification_etiquette": "L'article parle de matchs de hockey et de sélection de clubs, ce qui correspond le plus à l'étiquette 'Hockey sur glace'. Les autres informations sont moins pertinentes pour cette étiquette."
+ },
+ "4629483|DIV.2242": {
+  "famille": "Sport",
+  "codes": [
+   "20000988",
+   "20001341"
+  ],
+  "intitules": [
+   "Marathon",
+   "Saison sportive"
+  ],
+  "justification_famille": "L'article parle d'un marathon olympique et d'épreuves préolympiques organisées par la Ligue d'Alger. Cela se situe clairement dans la famille du Sport. Les autres catégories ne sont pas directement liées à l'information donnée dans cet article.",
+  "justification_etiquette": "L'article parle de préparatifs pour le marathon olympique, ce qui implique des activités de course de longue distance. Les sports de course de longue distance sont couverts par les étiquettes 'Marathon' et 'Saison sportive'. Les autres étiquettes ne sont pas pertinentes pour ce contenu."
+ },
+ "4629483|DIV.491": {
+  "famille": "Sport",
+  "codes": [
+   "20000853"
+  ],
+  "intitules": [
+   "Billard"
+  ],
+  "justification_famille": "L'article parle d'un tournoi professionnel de billard, ce qui le situe clairement dans la famille 'Sport'. Les détails sur les règles de jeu, les participants et le programme de la première journée sont tous liés au monde du sport, spécifiquement au billard. Les autres catégories ne semblent pas directement liées à ce contenu.",
+  "justification_etiquette": "L'article parle d'un tournoi professionnel de billards, ce qui correspond le plus à l'étiquette 'Billard'. Les autres étiquettes ne sont pas pertinentes pour ce contenu."
+ },
+ "4632496|DIV.1274": {
+  "famille": "Sport",
+  "codes": [
+   "20000892"
+  ],
+  "intitules": [
+   "Cyclisme"
+  ],
+  "justification_famille": "L'article parle d'un circuit cycliste appelé 'Circuit du Byrrh', qui est une épreuve sportive. Il mentionne également les engagements pour cette course, les prix attribués et les conditions de participation. Cela correspond le mieux à la famille 'Sport'.",
+  "justification_etiquette": "L'article parle d'un circuit cycliste appelé Circuit du Byrrh, qui est une épreuve cycliste. Cela correspond le plus directement à l'étiquette Cyclisme. Les autres étiquettes ne sont pas pertinentes pour cette information spécifique."
+ },
+ "4632496|DIV.1314": {
+  "famille": "Sport",
+  "codes": [
+   "20001331",
+   "20001330"
+  ],
+  "intitules": [
+   "Canoë-kayak - Ligne",
+   "Canoë-kayak - Slalom"
+  ],
+  "justification_famille": "L'article parle de compétitions de rameurs, ce qui le situe clairement dans la famille du Sport. Les autres catégories ne semblent pas directement liées à ce contenu.",
+  "justification_etiquette": "L'article parle de compétitions de rame et de courses nautiques, ce qui le lie le plus à l'étiquette 'Canoë-kayak - Ligne' et 'Canoë-kayak - Slalom'. Ces deux étiquettes couvrent les catégories de course de canoë et de kayak, qui sont mentionnées dans l'article."
+ },
+ "4633797|DIV.1304": {
+  "famille": "Éducation",
+  "codes": [
+   "20000410",
+   "20000405",
+   "20001213"
+  ],
+  "intitules": [
+   "Apprentissage social",
+   "Éducation supérieure",
+   "Écoles publiques"
+  ],
+  "justification_famille": "L'article principal traite de l'organisation de l'éducation physique en Roumanie. Cela correspond le mieux à la famille 'Éducation' dans la liste fournie.",
+  "justification_etiquette": "L'article principal parle de l'organisation de l'éducation physique en Roumanie. Les étiquettes les plus pertinentes sont : Apprentissage social, Éducation supérieure, Écoles publiques."
+ },
+ "4633797|DIV.1755": {
+  "famille": "Sport",
+  "codes": [
+   "20000991",
+   "20001026"
+  ],
+  "intitules": [
+   "Automobile",
+   "Aviron"
+  ],
+  "justification_famille": "L'article parle de services proposés par une entreprise spécialisée dans l'automobile, l'aviation et l'électricité. Cela correspond le mieux à la famille 'Sport' qui inclut les sports automobiles et l'aviation, ainsi qu'à la famille 'Vie quotidienne et loisirs' qui englobe les accessoires et outils nécessaires pour ces activités. Les autres familles ne sont pas directement liées à l'objet de l'article.",
+  "justification_etiquette": "L'article parle de services pour l'automobile et l'aviation, donc les étiquettes les plus pertinentes sont 'Automobile' et 'Aviation'.', "
+ },
+ "4650200|DIV.1462": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000004",
+   "20000005",
+   "20001319"
+  ],
+  "intitules": [
+   "Bande dessinée",
+   "Cinéma",
+   "Désinformation"
+  ],
+  "justification_famille": "L'article parle d'ONÉSIME ET SON ÂNE, ce qui se rapporte à l'aspect comique et à la culture. Il ne mentionne pas de conflits, de crimes, de désastres, de santé, de science, de politique, de religion, de météo, de vie quotidienne, de sport, de société, de vie économique, ni d'éducation. Il est donc le plus proche de la famille Arts, culture, divertissement et médias.",
+  "justification_etiquette": "L'article parle d'un sujet humoristique impliquant un personnage (ONÉSIME ET SON ÂNE) et mentionne une distance (175 mètres), ce qui suggère un spectacle ou une performance. Le terme 'Aff. et Réduct.' suggère probablement un spectacle de comédie ou de mime."
+ },
+ "4651968|DIV.101": {
+  "famille": "Politique",
+  "codes": [
+   "20000639",
+   "20001316"
+  ],
+  "intitules": [
+   "Diplomatie",
+   "Conflit frontalier"
+  ],
+  "justification_famille": "Le texte parle d'une réunion publique en faveur de la Turquie, ce qui se situe clairement dans la famille 'Politique' et 'Société'.",
+  "justification_etiquette": "L'article parle d'une réunion organisée pour exprimer l'opinion publique sur l'invasion de la Turquie par la Russie et sur le devoir de l'Angleterre dans ces circonstances. Cela correspond directement à la thématique de la diplomatie et du conflit frontalier. Les autres thématiques ne sont pas aussi directement liées à l'information donnée dans l'article."
+ },
+ "4651968|DIV.302": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058"
+  ],
+  "intitules": [
+   "Intervention militaire internationale"
+  ],
+  "justification_famille": "L'article parle d'une frégate prussienne qui quitte le port de Malte pour aller aux Dardanelles, ce qui implique des éléments de conflit et de guerre. Il ne mentionne pas de détails sur la vie quotidienne, l'économie, l'éducation, etc. Il est donc pertinent de classer cet article dans la famille 'Conflit, guerre et paix'.",
+  "justification_etiquette": "L'article parle d'une frégate prussienne qui quitte le port de Malte pour les Dardanelles, ce qui implique une présence militaire et des opérations militaires. Cela correspond le mieux à l'étiquette 'Intervention militaire internationale'. Les autres étiquettes ne semblent pas directement liées à ce contexte."
+ },
+ "4651968|DIV.315": {
+  "famille": "Politique",
+  "codes": [
+   "20001261",
+   "20000614",
+   "20000653"
+  ],
+  "intitules": [
+   "Chef du gouvernement",
+   "Gouvernement national",
+   "Système politique"
+  ],
+  "justification_famille": "L'article parle de l'adoption d'un système métrique décimal en Nouvelle-Grenade, ce qui se situe clairement dans la famille 'Politique'. Les détails sur l'adoption d'un système de mesure sont également liés à la gestion administrative et législative, ce qui renforce cette classification.",
+  "justification_etiquette": "L'article parle de l'adoption d'un système métrique décimal en Nouvelle-Grenade, ce qui est directement lié à la politique et aux institutions gouvernementales. Il ne mentionne pas de sujets spécifiques comme l'économie, la politique économique ou la politique culturelle. Donc, les étiquettes les plus pertinentes sont : Chef du gouvernement, Gouvernement national, Système politique."
+ },
+ "4651968|DIV.548": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000373",
+   "20000213"
+  ],
+  "intitules": [
+   "Commerce international",
+   "Pêche"
+  ],
+  "justification_famille": "Le texte principal de l'article concerne des informations sur une société métallurgique et une compagnie de fabrication de biscuits. Ces sujets sont principalement liés à l'industrie et à l'économie. Les autres sujets mentionnés (commerce, agriculture, santé) sont indirectement liés mais ne sont pas aussi pertinents que ceux-ci.",
+  "justification_etiquette": "L'article aborde principalement des sujets liés à l'industrie et à la pêche. Il mentionne la pêche des harengs, l'industrie métallurgique et les usines de Sermaise, ainsi que des informations sur les prix de la pêche. Les autres sujets mentionnés sont indirectement liés à ces domaines. Les sujets pertinents sont : Commerce et Industrie, Pêche."
+ },
+ "4651968|DIV.624": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000373",
+   "20001370"
+  ],
+  "intitules": [
+   "Commerce international",
+   "Services financiers"
+  ],
+  "justification_famille": "L'article parle d'annonces commerciales pour des emplois de directeurs-organisateurs et de représentants dans différents domaines de vente. Cela correspond le mieux à la famille 'Économie et finances', car il traite de postes de travail et de ventes commerciales. Les autres familles ne sont pas directement liées à ce contenu.",
+  "justification_etiquette": "L'article parle de la recherche d'un directeur-organisateur et de représentants pour la vente de marchandises dans différents endroits. Cela correspond le mieux avec les étiquettes de Commerce international et Services financiers. Les autres étiquettes ne semblent pas directement liées à l'objet de l'article."
+ },
+ "4109000|DIV.639": {
+  "erreur": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)"
+ },
+ "4133627|DIV.1450": {
+  "erreur": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)"
+ },
+ "4133872|DIV.1036": {
+  "erreur": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)"
+ },
+ "4140779|DIV.1410": {
+  "erreur": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)"
+ },
+ "4602945|DIV.510": {
+  "erreur": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)"
+ },
+ "4651968|DIV.84": {
+  "famille": "Politique",
+  "codes": [
+   "20001265",
+   "20000479"
+  ],
+  "intitules": [
+   "Politique de gouvernement local",
+   "Politique de santé"
+  ],
+  "justification_famille": "L'article parle de la guerre, de la paix, des armements, du choléra et de la quarantaine. Ces sujets sont principalement liés à la politique, à la santé publique et à la sécurité. Les sujets de guerre et de santé sont les plus pertinents parmi les options proposées.",
+  "justification_etiquette": "L'article parle de la situation militaire et sanitaire en Russie, y compris la guerre potentielle, le refus de concessions, les armements russes, et l'épidémie de choléra. Ces sujets sont directement liés à la politique militaire et à la santé publique. Les autres sujets ne sont pas directement abordés dans l'article."
+ },
+ "4653842|DIV.548": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000210",
+   "20000294",
+   "20000243"
+  ],
+  "intitules": [
+   "Agriculture",
+   "Industrie manufacturière",
+   "Distribution"
+  ],
+  "justification_famille": "L'article présente des informations sur les marchés agricoles et commerciaux, notamment les prix des grains, bestiaux, vins, huiles, savons et sucres. Ces informations sont directement liées à l'industrie agricole et commerciale. Les autres catégories ne semblent pas pertinentes pour cette matière. Les catégories les plus pertinentes sont : Arts, culture, divertissement et médias, et Économie et finances. Cependant, étant donné que l'objet principal de l'article est la présentation des prix et des ventes, l'élément le plus pertinent est l'Économie et finances.",
+  "justification_etiquette": "L'article couvre des informations sur les marchés agricoles et des produits alimentaires, ce qui inclut des données sur les grains, les betteraves, les vins, les huiles, les savons et les coton. Les produits agricoles et alimentaires sont directement liés à l'agriculture et à l'industrie manufacturière. Les données sur les prix et les ventes sont également pertinentes pour l'industrie manufacturière et la distribution. Les produits alimentaires sont également liés à la distribution et au commerce international. Les produits agricoles et alimentaires sont également liés à la politique agricole et à la gestion des ressources agricoles. Les données sur les prix et les ventes sont également pertinentes pour l'industrie manufacturière et la distribution. Les produits agricoles et alimentaires sont également liés à la politique agricole et à la gestion des ressources agricoles."
+ },
+ "4653842|DIV.91": {
+  "famille": "Politique",
+  "codes": [
+   "20001316"
+  ],
+  "intitules": [
+   "Conflit frontalier"
+  ],
+  "justification_famille": "L'article parle de conflits entre Espagne et France, de règlements et de traités. Ces sujets sont clairement liés à la politique et à la diplomatie. Les autres catégories ne semblent pas directement pertinentes pour l'analyse de cet article.",
+  "justification_etiquette": "L'article parle de conflits territoriaux entre l'Espagne et la France, mentionnant des empiétements et des exhortations à la modération. Ces éléments sont principalement liés à la politique étrangère et aux relations diplomatiques entre les deux pays. Le sujet principal est donc le conflit frontalier entre Espagne et France, ce qui correspond au code "
+ },
+ "4655957|DIV.720": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000560",
+   "20000550"
+  ],
+  "intitules": [
+   "Activités récréatives",
+   "Passe-temps"
+  ],
+  "justification_famille": "L'article parle d'une entreprise de graines et de fleurs, ce qui correspond le mieux à la famille 'Vie quotidienne et loisirs'.",
+  "justification_etiquette": "L'article parle de graines et de fleurs, ce qui est plus pertinent que les autres options pour ce contexte."
+ },
+ "4683771|DIV.109": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058"
+  ],
+  "intitules": [
+   "Intervention militaire internationale"
+  ],
+  "justification_famille": "L'article parle d'un enterrement révolutionnaire et des morts révolutionnaires, ce qui le lie le plus à la famille 'Conflit, guerre et paix'. Les autres thèmes ne sont pas directement liés à ce contenu spécifique.",
+  "justification_etiquette": "Le texte décrit un événement funéraire impliquant des morts, probablement des victimes d'une guerre ou d'une révolte. Les mots clés comme 'cadavres', 'mères', 'bières tronquées', 'scie', 'morts' et 'charnier' indiquent clairement un sujet de guerre ou de révolte. Les émotions décrites, comme la 'réprobation silencieuse' et la 'malédiction' montrent une réaction collective. Les forces de maintien de la paix sont impliquées, ce qui correspond à 'Intervention militaire internationale'. Les autres étiquettes ne sont pas directement pertinentes pour ce texte. Les étiquettes les plus pertinentes sont donc : Intervention militaire internationale."
+ },
+ "4683816|DIV.326": {
+  "famille": "Politique",
+  "codes": [
+   "20001265",
+   "20001383",
+   "20000606"
+  ],
+  "intitules": [
+   "Politique de gouvernement local",
+   "Politique de zonage",
+   "Pouvoir exécutif"
+  ],
+  "justification_famille": "L'article parle de faits récents impliquant des officiers d'état-major, des arrestations et des transferts de prisonniers. Ces éléments sont clairement liés à la politique et à la criminalité, droit et justice. Les autres catégories ne sont pas directement pertinentes pour cette information.",
+  "justification_etiquette": "L'article parle de nouvelles arrestations d'officiers d'état-major, ce qui est directement lié à la politique militaire et à la gestion des forces armées. Cela inclut également des aspects de la police et de la justice, donc les étiquettes 'Politique de défense' et 'Pouvoir exécutif' sont pertinentes. Les arrestations et les détenus sont également liés à la justice et à la police, ce qui justifie l'étiquette 'Procédure de destitution'. Cependant, l'article ne couvre pas suffisamment d'autres aspects pour justifier plus d'étiquettes. "
+ },
+ "4683816|DIV.489": {
+  "famille": "Politique",
+  "codes": [
+   "20000643",
+   "20001174"
+  ],
+  "intitules": [
+   "Aide internationale",
+   "Politique d'aménagement du territoire"
+  ],
+  "justification_famille": "L'article parle d'une section révolutionnaire de travailleurs, de la défense de la Révolution sociale et de l'importance de l'exactitude dans la participation à la section. Cela correspond le mieux à la famille 'Politique' ainsi qu'à la famille 'Social'. Les autres familles ne sont pas directement liées à ce contenu.",
+  "justification_etiquette": "L'article parle d'une section de travailleurs qui réunit régulièrement. Il met l'accent sur l'importance de la présence et de l'exactitude des membres lors de ces réunions. Les thèmes pertinents sont donc : Aide internationale, et Politique d'aménagement du territoire. Les autres thèmes ne sont pas directement liés à l'essence de l'article."
+ },
+ "4688682|DIV.56": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018"
+  ],
+  "intitules": [
+   "Musique"
+  ],
+  "justification_famille": "L'article parle de différents opéras et comédies, donc il est le plus proche de la famille 'Culture et divertissement'.",
+  "justification_etiquette": "L'article parle de différents opéras-comiques et de leur musique, ainsi que de leurs interprètes. Cela correspond le mieux à l'étiquette 'Musique', qui est la plus pertinente parmi les options données. Les autres étiquettes ne sont pas directement liées au contenu de l'article."
+ },
+ "4701183|DIV.1273": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000570"
+  ],
+  "intitules": [
+   "Maison et décoration"
+  ],
+  "justification_famille": "L'article mentionne des informations sur des sacs de couchage et du kapok, ce qui se rapporte à la vente de produits de l’ameublement. Cet article est donc le plus pertinent pour la famille 'Vie quotidienne et loisirs', car il concerne des articles de vie et de loisirs. Les autres catégories ne semblent pas directement liées à l'objet de l'article.",
+  "justification_etiquette": "L'article parle de produits de décoration et de meubles, ce qui correspond le mieux à l'étiquette 'Maison et décoration'."
+ },
+ "4701494|DIV.139": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000031",
+   "20000029"
+  ],
+  "intitules": [
+   "Arts visuels",
+   "Théâtre"
+  ],
+  "justification_famille": "Spectacles",
+  "justification_etiquette": "Cinéma"
+ },
+ "4701494|DIV.57": {
+  "famille": "Religion et croyance",
+  "codes": [
+   "20000698",
+   "20000702"
+  ],
+  "intitules": [
+   "Église",
+   "Relations entre les institutions religieuses et l'Etat"
+  ],
+  "justification_famille": "L'article parle d'un incident funéraire et de la répartition d'une bourse, ce qui le situe clairement dans la famille 'Religion et croyance'. Les autres thèmes mentionnés (Politique, Éducation) ne sont pas directement liés à l'essence de l'article.",
+  "justification_etiquette": "L'article parle de funérailles militaires et de répartition de bourses pour des séminaires religieux. Ces sujets sont directement liés au thème de l'Église et des institutions religieuses. Les autres thèmes ne sont pas pertinents pour l'article donné."
+ },
+ "4702250|DIV.153": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20001265",
+   "20000576"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Politique de gouvernement local",
+   "Système électoral"
+  ],
+  "justification_famille": "L'article parle des classes sociales et de l'opinion publique dans Paris, ce qui correspond à la famille 'Politique' ainsi que 'Société'.",
+  "justification_etiquette": "L'article discute des opinions des électeurs de la classe moyenne de Paris, qui paient 300 francs de contributions. Il critique l'opinion publique de cette classe, considérée comme mauvaise pour la France. L'article met en avant la classe intermédiaire et les classes supérieures, soulignant que la Gazette de France, un journal proche du pouvoir, ne reconnaît pas ces dernières comme des "
+ },
+ "4715618|DIV.335": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000044"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Patrimoine"
+  ],
+  "justification_famille": "L'article parle d'une trouvaille archéologique, ce qui le situe dans la famille 'Archéologie et histoire'",
+  "justification_etiquette": "L'article parle d'une trouvaille archéologique, ce qui est le plus pertinent parmi les étiquettes proposées. Les autres étiquettes ne semblent pas directement liées au contenu de l'article."
+ },
+ "4715618|DIV.396": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20001366"
+  ],
+  "intitules": [
+   "Restructuration d'entreprise"
+  ],
+  "justification_famille": "L'article mentionne des déclarations de faillites de différents commerçants. Il ne fait pas directement référence à des conflits, des crimes, des désastres, des sujets environnementaux, des animaux, des météos, des religions, des soins de santé, des découvertes scientifiques, des questions sociales, des sports, des habitudes quotidiennes, des économies, des écoles ou des politiques. Les faillites sont généralement liées à la finance et à la gestion des affaires. Donc, l'élément le plus pertinent de la liste fournie est : Économie et finances.",
+  "justification_etiquette": "L'article mentionne des déclarations de faillites, ce qui est directement lié à la gestion et à la liquidation d'entreprises. Cela correspond le mieux à la catégorie de Restructuration d'entreprise."
+ },
+ "4717145|DIV.67": {
+  "famille": "Santé",
+  "codes": [
+   "20000480",
+   "20001358",
+   "20000462"
+  ],
+  "intitules": [
+   "Soins de santé publics",
+   "Santé publique",
+   "Hôpitaux et cliniques"
+  ],
+  "justification_famille": "L'article parle de l'achat de sources d'eau à Paris et de projets d'aqueducs. Cela se situe clairement dans la famille 'Santé' car l'eau est essentielle à la santé et à la qualité de vie des Parisiens.",
+  "justification_etiquette": "L'article parle de l'achat de sources d'eau à Paris, ce qui est directement lié à la santé publique et aux soins de santé publics. Il ne mentionne pas spécifiquement de maladies, de soins médicaux ou de thérapies, donc les étiquettes spécifiques comme 'Médecine d'urgence', 'Soins de santé publics', et 'Santé publique' sont les plus pertinentes."
+ },
+ "4717145|DIV.84": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000059",
+   "20000061"
+  ],
+  "intitules": [
+   "Forces de maintien de la paix",
+   "Disparus au combat"
+  ],
+  "justification_famille": "L'article parle de la navigation d'un navire (Le Tarn) transportant les restes d'un commandant Rivière. Cela se situe clairement dans la famille 'Conflit, guerre et paix' car il touche à la navigation militaire.",
+  "justification_etiquette": "L'article parle des restes d'un commandant Rivière qui ne pourra pas être transporté rapidement, ce qui peut être lié à des raisons de sécurité ou de maintien de la paix. Cependant, il n'y a pas de mention directe de guerre, d'attentat, de plan de paix, etc. Les étiquettes les plus pertinentes sont donc : Forces de maintien de la paix et Disparus au combat."
+ },
+ "4723470|DIV.315": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000058"
+  ],
+  "intitules": [
+   "Intervention militaire internationale"
+  ],
+  "justification_famille": "L'article décrit une tragédie impliquant un homme d'équipe du chemin de fer, un accident de train et les conséquences désastreuses pour l'homme. Cela correspond le mieux à la famille 'Conflit, guerre et paix' qui inclut les accidents et les catastrophes. Les autres familles ne semblent pas aussi pertinentes pour cet article.",
+  "justification_etiquette": "L'article décrit un accident mortel impliquant un train et un passant, ce qui correspond le plus à l'étiquette 'Intervention militaire internationale' qui inclut les accidents impliquant des forces de maintien de la paix. Cependant, il n'y a pas de mention de forces de maintien de la paix dans l'article. Les autres étiquettes ne semblent pas pertinentes pour cet article."
+ },
+ "4742203|DIV.721": {
+  "erreur": "Unterminated string starting at: line 1 column 19 (char 18)"
+ },
+ "4743498|DIV.310": {
+  "famille": "Météo",
+  "codes": [
+   "20001128"
+  ],
+  "intitules": [
+   "Prévisions météorologiques"
+  ],
+  "justification_famille": "L'article parle d'un livre météorologique, ce qui se situe dans la famille 'Météo'.",
+  "justification_etiquette": "L'article parle d'un almanach météorologique, ce qui est directement lié aux prévisions météorologiques. Il ne mentionne pas de statistiques ou de phénomènes météorologiques spécifiques."
+ },
+ "4743533|DIV.271": {
+  "famille": "Politique",
+  "codes": [
+   "20000345",
+   "20000632"
+  ],
+  "intitules": [
+   "Politique économique",
+   "Contrôle des armes personnelles"
+  ],
+  "justification_famille": "Le texte parle d'une taxe sur les chapeaux de haute forme, ce qui le situe clairement dans la famille 'Politique'. Les détails sur l'histoire de cette taxe en Angleterre et son impact sur la société sont également politiques. Les autres catégories ne sont pas directement liées à ce contenu spécifique.",
+  "justification_etiquette": "L'article traite d'une proposition d'amendement au Parlement concernant une taxe sur les chapeaux de haute forme. Cette taxe est présentée comme une mesure visant à réduire les charges sur les classes pauvres. Les détails de l'amendement, notamment son origine historique et son application, sont également abordés. Les thèmes pertinents sont donc : Politique économique et Taxation."
+ },
+ "4743533|DIV.316": {
+  "famille": "Politique",
+  "codes": [
+   "20000598",
+   "20000614",
+   "20001265"
+  ],
+  "intitules": [
+   "Défense",
+   "Gouvernement national",
+   "Politique de gouvernement local"
+  ],
+  "justification_famille": "L'article parle de travaux de fortification autour de Paris, ce qui se rapporte directement à la sécurité et à la défense nationale. Cela correspond le mieux à la famille 'Politique' qui inclut les sujets liés à la politique et à la sécurité nationale.",
+  "justification_etiquette": "L'article parle de travaux de fortification à Paris, ce qui est directement lié à la politique de défense et à la défense nationale. Ces travaux sont également liés à la construction de forts et à la défense terrestre. Par conséquent, les étiquettes les plus pertinentes sont : Défense, Gouvernement national, et Politique de défense."
+ },
+ "4743533|DIV.325": {
+  "famille": "Désastres et accidents",
+  "codes": [
+   "20000141",
+   "20000140",
+   "20000161"
+  ],
+  "intitules": [
+   "Accident industriel",
+   "Explosion accidentelle",
+   "Effondrement"
+  ],
+  "justification_famille": "L'article parle d'une affaire judiciaire concernant un almanach météorologique, ce qui correspond le mieux à la famille 'Désastres et accidents'.",
+  "justification_etiquette": "L'article ne concerne pas directement les catégories d'étiquettes proposées. Il parle d'une affaire juridique concernant un almanach météorologique de Raspail. Donc, il n'est pas pertinent de lui attribuer d'étiquette parmi celles proposées."
+ },
+ "4743572|DIV.210": {
+  "erreur": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)"
+ },
+ "4743572|DIV.685": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000294",
+   "20001354",
+   "20000256"
+  ],
+  "intitules": [
+   "Industrie manufacturière",
+   "Industrie des soins de santé",
+   "Énergie et ressources"
+  ],
+  "justification_famille": "L'article parle de prix agricoles et de marchés, ce qui se situe clairement dans la famille Économie et finances.",
+  "justification_etiquette": "L'article parle des cours des matières premières, notamment du blé, de l'huile de colza et de l'huile de lin. Ces matières premières sont essentielles pour l'industrie manufacturière et l'agriculture. Les cours des matières premières ont un impact significatif sur ces secteurs. Les cours des matières premières sont également liés à l'industrie des soins de santé, en raison de leur utilisation dans de nombreux produits pharmaceutiques. Par conséquent, les matières premières sont un sujet important pour l'industrie manufacturière et l'industrie des soins de santé. Les cours des matières premières sont également liés à l'énergie et aux ressources, car de nombreuses matières premières sont utilisées dans l'industrie de l'énergie. Enfin, les cours des matières premières ont un impact sur la politique monétaire et la macro-économie. Par conséquent, les matières premières sont un sujet important pour la macro-économie et la politique monétaire."
+ },
+ "4743714|DIV.678": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20001239"
+  ],
+  "intitules": [
+   "Activité physique et fitness"
+  ],
+  "justification_famille": "L'article parle d'un produit (des foulards) et de son prix, ce qui le situe dans la famille 'Vie quotidienne et loisirs'.",
+  "justification_etiquette": "L'article parle de foulards d'origine indienne, ce qui peut être lié à l'activité physique et fitness ou aux activités récréatives. Cependant, il ne fournit pas suffisamment de contexte pour attribuer une étiquette spécifique. Les autres étiquettes ne semblent pas pertinentes pour cet article."
+ },
+ "4743818|DIV.95": {
+  "famille": "Politique",
+  "codes": [
+   "20001265",
+   "20000653",
+   "20000611"
+  ],
+  "intitules": [
+   "Politique de gouvernement local",
+   "Système politique",
+   "Procédure de destitution"
+  ],
+  "justification_famille": "La convention de 1787 a joué un rôle crucial dans la stabilisation politique des États-Unis. Cet article traite donc principalement de politique. Les autres thèmes mentionnés (arts, culture, divertissement et médias, conflit, guerre et paix, criminalité, droit et justice, désastres et accidents, environnement, gens animaux insolite, météo, religion et croyance, santé, science et technologie, société, sport, vie quotidienne et loisirs, économie et finances, éducation) ne sont pas directement liés au contenu de l'article. Les thèmes de politique sont donc les plus pertinents pour cet article.",
+  "justification_etiquette": "La convention de 1787 a joué un rôle crucial dans la stabilisation politique des États-Unis. Cet événement est donc directement lié à la politique et à la constitution. Les débats sur la monarchie montrent également l'importance de la politique et de la sagesse politique. Les travaux se déroulant sans publicité soulignent également l'aspect privé et confidentiel de cette convention. Par conséquent, les étiquettes les plus pertinentes sont : 'Politique', 'Système politique' et 'Procédure de destitution'."
+ },
+ "4743854|DIV.288": {
+  "famille": "Sport",
+  "codes": [
+   "20001067"
+  ],
+  "intitules": [
+   "Patinage de vitesse"
+  ],
+  "justification_famille": "L'article parle d'un événement de patinage organisé par un club français, ce qui correspond le mieux à la famille 'Sport'. Les détails sur les participants, les toilettes des femmes et les invités illustrent également cette famille.",
+  "justification_etiquette": "L'article parle d'une manifestation de patinage, ce qui correspond le plus directement à l'étiquette 'Patinage'."
+ },
+ "4743854|DIV.402": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000018"
+  ],
+  "intitules": [
+   "Théâtre",
+   "Musique"
+  ],
+  "justification_famille": "L'article parle d'un opéra-bouffe de Johann Strauss, ce qui se situe dans la famille Arts, culture, divertissement et médias.",
+  "justification_etiquette": "L'article parle d'un opéra-bouffe de Johann Strauss, ce qui est directement lié au domaine du théâtre et de la musique. Ces deux sujets sont les plus pertinents parmi les étiquettes proposées."
+ },
+ "4745347|DIV.538": {
+  "erreur": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)"
+ },
+ "4745483|DIV.267": {
+  "famille": "Politique",
+  "codes": [
+   "20000610",
+   "20001316"
+  ],
+  "intitules": [
+   "Chef de l'Etat",
+   "Conflit frontalier"
+  ],
+  "justification_famille": "L'article parle d'une affaire de complot contre la République, impliquant le général de Gaulle et des généraux. Cela se situe clairement dans la famille 'Politique'. Les autres familles ne sont pas pertinentes pour cette analyse.",
+  "justification_etiquette": "L'article parle d'une affaire de complot contre la République, impliquant le général de Gaulle et d'autres généraux. Cela correspond directement aux thèmes de 'Chef de l'Etat' et 'Conflit frontalier'. Bien que 'Politique de gouvernement local' puisse être lié indirectement, il n'est pas le plus pertinent pour l'essence de l'article."
+ },
+ "4745483|DIV.356": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000066"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Manifestation"
+  ],
+  "justification_famille": "L'article parle d'un conflit familial et de la manière dont un juge traite une demande de divorce. Il évoque également des questions de violence domestique et de langage dans un contexte de conflit entre cultures (Américanisme). Les thèmes de conflit, de violence domestique et de langage sont les plus pertinents pour cet article.",
+  "justification_etiquette": "L'article parle d'un cas judiciaire impliquant un divorce et des allégations de violence domestique. Cependant, les étiquettes liées à la guerre, à l'intervention militaire internationale et à la déminage ne semblent pas directement pertinentes pour décrire le sujet de cet article. Les étiquettes les plus pertinentes sont celles liées à la violence familiale et aux problèmes juridiques. Donc, je choisis les étiquettes les plus pertinentes parmi celles disponibles."
+ },
+ "4745483|DIV.389": {
+  "famille": "Politique",
+  "codes": [
+   "20001265",
+   "20000345",
+   "20000479"
+  ],
+  "intitules": [
+   "Politique de gouvernement local",
+   "Politique économique",
+   "Politique de santé"
+  ],
+  "justification_famille": "Le texte parle de conflits entre intellectuels français, de débats sur la mémoire et de rivalités personnelles. Cela correspond le mieux à la famille 'Politique' ainsi qu'à 'Conflit, guerre et paix' car il traite de conflits intellectuels et de rivalités entre figures politiques. Les autres familles ne sont pas directement concernées par le contenu de l'article.",
+  "justification_etiquette": "L'article traite de la révélation d'un rôle caché dans un manifeste par Sartre, qui est considéré comme calomnieux pour la mémoire de Nizan. Cela implique des questions de conflit d'intérêts et de responsabilité politique. Les étiquettes les plus pertinentes sont donc : 'Politique de gouvernement local', 'Politique économique' et 'Politique de santé'. Ces étiquettes couvrent les aspects politiques et sociaux qui sont au cœur de l'article."
+ },
+ "4745483|DIV.399": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000753",
+   "20000748"
+  ],
+  "intitules": [
+   "Psychologie",
+   "Sciences de l'information"
+  ],
+  "justification_famille": "L'article parle d'une méthode de mémoire et de son auteur, il ne fait pas directement référence à des sujets comme la culture, la politique, l'environnement, la santé, l'éducation, etc. Il est donc le plus proche de la famille 'Science et technologie' qui englobe les sujets liés à la connaissance et aux méthodes de pensée.",
+  "justification_etiquette": "L'article parle d'une méthode de mémoire, ce qui est lié à la psychologie et à la science de l'information. Ces deux domaines sont les plus pertinents parmi les étiquettes proposées."
+ },
+ "4745483|DIV.465": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000386"
+  ],
+  "intitules": [
+   "Marché des matières premières"
+  ],
+  "justification_famille": "L'article mentionne des matières premières, ce qui le rapproche de la famille 'Économie et finances'. Cependant, il ne contient pas de détails pertinents pour les autres familles proposées. Par conséquent, la famille la plus appropriée est 'Économie et finances'.",
+  "justification_etiquette": "L'article parle des cours des matières premières et de leur évolution. Cela correspond le mieux à l'étiquette 'Marché des matières premières' qui est la plus pertinente parmi les options proposées."
+ },
+ "4746895|DIV.753": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000031",
+   "20000013",
+   "20001179"
+  ],
+  "intitules": [
+   "Arts visuels",
+   "Littérature",
+   "Série"
+  ],
+  "justification_famille": "L'article principal traite de la carrière et des travaux d'une artiste, Mme Andrée Sikorska, qui a développé des talents dans trois domaines différents : la sculpture, le dessin et la littérature. Les étiquettes les plus pertinentes sont donc celles qui mettent l'accent sur les arts et la création artistique. Les plus pertinentes sont donc : Arts, culture, divertissement et médias et Société.",
+  "justification_etiquette": "L'article parle de l'œuvre de Mme Andrée Sikorska, qui combine trois formes d'art : la sculpture, le dessin et la littérature. Il met l'accent sur la façon dont ces différents arts ont influencé sa personnalité et sa création. Les étiquettes les plus pertinentes sont donc : Arts visuels, Littérature, Sculpture."
+ },
+ "4749066|DIV.522": {
+  "famille": "Sport",
+  "codes": [
+   "20001065",
+   "20000919"
+  ],
+  "intitules": [
+   "Football",
+   "Course de chiens"
+  ],
+  "justification_famille": "L'article parle d'un match de football entre le Racing et l'équipe lilloise. Il ne fait pas référence directe à des sujets comme la politique, la religion, la santé, l'éducation, l'économie, l'environnement, la science et la technologie. Les sujets les plus pertinents sont donc ceux liés à l'aspect sportif. Les sujets les plus pertinents sont donc : Sport.",
+  "justification_etiquette": "L'article parle d'un match de football entre le Racing et l'équipe lilloise. Il ne fait pas de mention spécifique d'activités sportives comme l'escalade, le ski, le badminton, etc. Les sujets les plus pertinents sont donc ceux liés au football et à la Coupe. Les étiquettes les plus pertinentes sont : Football, Coupe."
+ },
+ "4753294|DIV.1327": {
+  "famille": "Sport",
+  "codes": [
+   "20001331"
+  ],
+  "intitules": [
+   "Canoë-kayak - Ligne"
+  ],
+  "justification_famille": "Le texte principal de cet article concerne des concours de pigeonnage, ce qui le situe clairement dans la famille 'Sport'.",
+  "justification_etiquette": "Canoë-kayak - Ligne"
+ },
+ "4753294|DIV.1525": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000560"
+  ],
+  "intitules": [
+   "Activités récréatives"
+  ],
+  "justification_famille": "L'article parle d'un baptême, ce qui se situe dans la famille 'Vie quotidienne et loisirs'.",
+  "justification_etiquette": "L'article ne fait pas référence directe à une activité physique, un jeu, un lieu de loisirs, un bien-être mental, un végétarisme, une tendance, un passe-temps, un lieu de loisirs, une maison et décoration, un aliment biologique, un jeu de hasard, des soirées, des vacances ou des voyages."
+ },
+ "4753294|DIV.383": {
+  "famille": "Politique",
+  "codes": [
+   "20000598",
+   "20001265"
+  ],
+  "intitules": [
+   "Défense",
+   "Politique de gouvernement local"
+  ],
+  "justification_famille": "L'article décrit un attentat à Batoum en Russie, ce qui se situe dans la famille de la politique. Cet attentat implique des actes de violence politiques et des conflits, ce qui renforce la pertinence de cette famille.",
+  "justification_etiquette": "L'article parle d'un attentat à Batoum, ce qui est directement lié à la sécurité et à la politique de défense. Cependant, il ne mentionne pas de détails sur le gouvernement russe ou de conflits internationaux. Les attentats sont généralement liés à la politique de sécurité nationale, mais ici, il s'agit d'un incident local. Les autres étiquettes ne semblent pas directement pertinentes pour cet article spécifique."
+ },
+ "4753294|DIV.621": {
+  "famille": "Criminalité, droit et justice",
+  "codes": [
+   "20000133",
+   "20000116"
+  ],
+  "intitules": [
+   "Police",
+   "Procédures hors tribunal"
+  ],
+  "justification_famille": "L'article traite d'une activité illégale de recrutement d'ouvriers pour l'émigration, ce qui correspond directement à la famille 'Criminalité, droit et justice'. Les inculpés sont accusés d'avoir exercé leur profession sans autorisation ministérielle, ce qui est un aspect juridique. Les autres familles ne semblent pas directement liées à l'histoire de l'article.",
+  "justification_etiquette": "Accusation"
+ },
+ "4753294|DIV.711": {
+  "erreur": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)"
+ },
+ "4753294|DIV.757": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000058"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Intervention militaire internationale"
+  ],
+  "justification_famille": "L'article parle de la disparition d'un ballon aéronautique et de la recherche en cours pour retrouver les aéronautes. Cela se situe clairement dans la famille 'Conflit, guerre et paix' car il évoque une situation de recherche et de sécurité aérienne.",
+  "justification_etiquette": "L'article parle de la disparition d'un ballon aéronautique et des disparus au combat, ce qui correspond aux étiquettes 'Disparus au combat' et 'Intervention militaire internationale'. Les autres étiquettes ne sont pas pertinentes pour l'article."
+ },
+ "4756274|DIV.603": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018",
+   "20000029",
+   "20000046"
+  ],
+  "intitules": [
+   "Musique",
+   "Théâtre",
+   "Média d'information"
+  ],
+  "justification_famille": "L'article mentionne des musées, des théâtres et des concerts, ce qui le situe clairement dans la famille 'Culture, divertissement et médias'. Les autres catégories ne sont pas directement liées à ce contenu.",
+  "justification_etiquette": "L'article mentionne des musées, un théâtre et un concert, donc les étiquettes les plus pertinentes sont : Musée, Théâtre, Concert."
+ },
+ "4756274|DIV.618": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000294",
+   "20000243"
+  ],
+  "intitules": [
+   "Industrie manufacturière",
+   "Distribution"
+  ],
+  "justification_famille": "L'article parle d'une réunion de syndicat et de récompenses attribuées à des ouvriers dans une région du Nord de la France. Cela se situe clairement dans la famille 'Économie et finances' car il parle de rémunérations et de récompenses. Il ne correspond pas aux autres familles comme 'Culture, divertissement et médias', 'Politique', 'Religion et croyance', 'Santé', 'Science et technologie', 'Social', 'Société', 'Sport', 'Vie quotidienne et loisirs', 'Éducation', 'Météo', 'Désastres et accidents', 'Environnement', 'Gens animaux insolite', 'Familles', 'Conflit, guerre et paix'.",
+  "justification_etiquette": "L'article parle d'une réunion d'un syndicat industriel et de la distribution de récompenses. Cela correspond le mieux aux étiquettes 'Industrie manufacturière' et 'Distribution'. La catégorie 'Économie du partage' est moins pertinente car l'article ne parle pas de partage ou de services aux entreprises. Les autres étiquettes ne sont pas pertinentes pour l'article."
+ },
+ "4756274|DIV.98": {
+  "famille": "Criminalité, droit et justice",
+  "codes": [
+   "20000125"
+  ],
+  "intitules": [
+   "Droit pénal"
+  ],
+  "justification_famille": "L'article parle d'une jeune femme accusée de vagabondage et de prostitution clandestine. Ces sujets sont principalement liés à la criminalité, au droit et à la justice. Les autres catégories ne sont pas directement pertinentes pour cette histoire.",
+  "justification_etiquette": "Le texte principal parle d'une jeune femme accusée de vagabondage et de prostitution clandestine devant un tribunal. Ces accusations sont généralement liées au droit pénal. Cependant, il est également important de noter que la jeune femme est accusée de "
+ },
+ "4757163|DIV.253": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20001333"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Cyclisme sur route"
+  ],
+  "justification_famille": "L'article parle d'un train de plaisir organisé par la Compagnie du chemin de fer du Nord pour le dimanche 4 juillet. Il ne fait pas directement référence à des conflits, des crimes, des désastres, des environnements, des animaux, des météos, des religions, des soins, des sciences, des écoles, des économies, des sociétés, des sports, des vies quotidiennes, des loisirs, des économies, des écoles, des sociétés, des sports, des vies quotidiennes et des loisirs. Il est donc le plus pertinent pour la famille 'Sport'.",
+  "justification_etiquette": "L'article parle d'un train de plaisir organisé par la Compagnie du chemin de fer du Nord, ce qui est le plus pertinent parmi les étiquettes proposées."
+ },
+ "4757163|DIV.346": {
+  "famille": "Météo",
+  "codes": [
+   "20001129",
+   "20001128"
+  ],
+  "intitules": [
+   "Phénomène météorologique",
+   "Prévisions météorologiques"
+  ],
+  "justification_famille": "L'article principal traite des observations météorologiques, ce qui le situe clairement dans la famille 'Météo'.",
+  "justification_etiquette": "L'article traite des observations météorologiques et des prévisions météorologiques, ce qui inclut des informations sur le baromètre, la température, l'état du ciel, le vent, et les pluies. Il ne fait pas de référence directe aux statistiques météorologiques ou aux alertes météorologiques. Les prévisions météorologiques sont donc les étiquettes les plus pertinentes pour cet article."
+ },
+ "4757163|DIV.843": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20001239",
+   "20001391"
+  ],
+  "intitules": [
+   "Activité physique et fitness",
+   "Végétarisme et véganisme"
+  ],
+  "justification_famille": "L'article parle d'une entreprise de vélos et de ses débouchés, ce qui se rapproche le plus de la famille 'Vie quotidienne et loisirs'.",
+  "justification_etiquette": "L'article parle d'une entreprise de vente de vélos, ce qui est le plus pertinent parmi les étiquettes proposées. Les autres étiquettes ne semblent pas directement liées au contenu de l'article."
+ },
+ "4757709|DIV.672": {
+  "famille": "Société",
+  "codes": [
+   "20001288",
+   "20000794",
+   "20000797"
+  ],
+  "intitules": [
+   "Autochtones",
+   "Bébé",
+   "Personnes âgées"
+  ],
+  "justification_famille": "L'article parle de produits de différentes industries, notamment pneus, caoutchouc, bandages, vêtements imperméables. Il ne fait pas directement référence à des événements, des personnes, des conflits ou des sujets sociaux. Les sujets les plus pertinents sont donc ceux liés à l'industrie et aux produits manufacturés.",
+  "justification_etiquette": "L'article ne contient aucune information pertinente pour les étiquettes proposées. Il parle de produits et de services plutôt que de sujets sociaux ou d'activités. Les sujets les plus proches seraient 'Entreprises' ou 'Industrie', mais ces codes ne sont pas disponibles dans la liste fournie."
+ },
+ "4758930|DIV.1097": {
+  "famille": "Criminalité, droit et justice",
+  "codes": [
+   "20000118",
+   "20000084",
+   "20000104"
+  ],
+  "intitules": [
+   "Accusation",
+   "Agression",
+   "Vol"
+  ],
+  "justification_famille": "L'article traite de deux incidents de banditisme, ce qui le situe clairement dans la famille 'Criminalité, droit et justice'. Les autres catégories ne sont pas pertinentes pour ce contenu.",
+  "justification_etiquette": "Le texte décrit des actes de banditisme impliquant des vols et des agressions. Les individus sont accusés d'actes de banditisme, ce qui est le plus pertinent parmi les étiquettes proposées."
+ },
+ "4758930|DIV.1175": {
+  "famille": "Sport",
+  "codes": [
+   "20000827",
+   "20001011"
+  ],
+  "intitules": [
+   "Athlétisme",
+   "Course d'orientation"
+  ],
+  "justification_famille": "L'article parle d'un championnat de course à pied et des dates de la course Bélière. Cela se situe clairement dans la famille 'Sport'. Les autres catégories ne sont pas pertinentes pour cet article.",
+  "justification_etiquette": "L'article parle d'un championnat de course Bélière qui a été reporté. Les sports mentionnés sont principalement ceux de course à pied. Les codes les plus pertinents sont donc : 'Course d'orientation', 'Athlétisme'."
+ },
+ "4758930|DIV.335": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000080"
+  ],
+  "intitules": [
+   "Disparus au combat",
+   "Prisonniers de guerre"
+  ],
+  "justification_famille": "L'article contient des informations sur des mariages, des funérailles et des décès. Ces sujets sont principalement liés à la famille et à la société. Les autres catégories ne sont pas directement pertinentes pour cette lecture. Les catégories les plus pertinentes sont 'Familles', 'Conflit, guerre et paix' et 'Social'. Cependant, 'Familles' est la plus pertinente pour cette lecture spécifique.",
+  "justification_etiquette": "Le texte principal de l'article concerne des funérailles et des funérailles, ce qui est le plus pertinent parmi les étiquettes proposées. Les autres étiquettes ne semblent pas directement liées au contenu de l'article."
+ },
+ "4758930|DIV.721": {
+  "famille": "Criminalité, droit et justice",
+  "codes": [
+   "20000133",
+   "20000098"
+  ],
+  "intitules": [
+   "Police",
+   "Détournement"
+  ],
+  "justification_famille": "L'article parle d'une explosion dans une fabrique d'explosifs, ce qui correspond le mieux à la famille 'Criminalité, droit et justice' car il évoque un acte de malveillance. Cependant, il est également pertinent avec 'Science et technologie' car il parle d'explosifs. Les deux sont les plus pertinents parmi les options données.",
+  "justification_etiquette": "Incendie volontaire"
+ },
+ "4758930|DIV.728": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000550"
+  ],
+  "intitules": [
+   "Passe-temps"
+  ],
+  "justification_famille": "L'article parle de parfums concentrés de fleurs, ce qui se rapproche le plus de la famille 'Vie quotidienne et loisirs'. Les parfums sont souvent utilisés dans le cadre de loisirs et de la vie quotidienne.",
+  "justification_etiquette": "L'article parle de parfums concentrés de fleurs, ce qui ne correspond pas directement à l'ensemble des étiquettes proposées. Cependant, l'un des plus proches pourrait être 'Passe-temps', car la confection de parfums peut être considérée comme une activité créative ou un passe-temps."
+ },
+ "4767236|DIV.113": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000062"
+  ],
+  "intitules": [
+   "Guerre"
+  ],
+  "justification_famille": "L'article parle d'une victoire militaire entre les forces anglaises et les Sikhs, ce qui correspond le mieux à la famille 'Conflit, guerre et paix'. Les autres familles ne sont pas pertinentes pour cette dépêche.",
+  "justification_etiquette": "L'article parle d'une victoire militaire anglaise sur les Sikhs, ce qui correspond le mieux à la catégorie de 'Guerre'. Les détails sur l'occupation et la garantie financière des Sikhs renforcent cette classification. Les autres catégories ne semblent pas directement liées à l'histoire militaire décrite."
+ },
+ "4767236|DIV.299": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20000373",
+   "20000243"
+  ],
+  "intitules": [
+   "Commerce international",
+   "Distribution"
+  ],
+  "justification_famille": "L'article fourni semble être une liste de chiffres et de cours, probablement liés à une transaction commerciale ou financière. Il ne contient pas de contenu qui soit directement lié à l'un des domaines spécifiques de la liste fournie. Cependant, en tenant compte des options fournies, la plus proche est celle liée à l'Économie et finances.",
+  "justification_etiquette": "L'article mentionne des chiffres de vente et d'arrivages d'une halte générale, ce qui suggère un contexte lié à l'industrie manufacturière ou au commerce. Cependant, il ne fournit pas suffisamment de détails pour attribuer des étiquettes plus spécifiques. Les informations fournies sont les plus pertinentes pour les étiquettes 'Commerce international' et 'Distribution'. Les autres étiquettes semblent moins pertinentes dans ce contexte."
+ },
+ "4767236|DIV.504": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20001340"
+  ],
+  "intitules": [
+   "Bien-être mental"
+  ],
+  "justification_famille": "L'article ne contient aucun élément qui puisse être associé à l'une des familles proposées. Il ne fait référence à aucune thématique spécifique.",
+  "justification_etiquette": "L'article ne contient aucune information pertinente pour attribuer des étiquettes à partir de la liste fournie."
+ },
+ "4767236|DIV.74": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000071"
+  ],
+  "intitules": [
+   "Massacre"
+  ],
+  "justification_famille": "L'article parle de conflits entre juifs et paysans, ainsi que de la participation des juifs à des mouvements d'insurrection. Ces éléments se rattachent directement aux catégories de 'Conflit, guerre et paix' et 'Politique'. Les autres catégories ne sont pas pertinentes pour l'analyse de cet article.",
+  "justification_etiquette": "L'article parle de massacres et de pillages subis par les juifs, ce qui correspond directement à la catégorie de 'Massacre'. Il ne mentionne pas d'autres événements tels que la guerre, la révolution, l'intervention militaire internationale, etc. qui pourraient justifier d'autres étiquettes. Donc, la catégorie de 'Massacre' est la plus pertinente pour cet article."
+ },
+ "4767477|DIV.352": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000029",
+   "20001182"
+  ],
+  "intitules": [
+   "Théâtre",
+   "Théâtre",
+   "Réseaux sociaux"
+  ],
+  "justification_famille": "L'article parle de spectacles et de divertissements, donc il appartient à la famille Arts, culture, divertissement et médias.",
+  "justification_etiquette": "L'article parle de spectacles théâtraux et variétés programmés pour différents lieux, donc les thématiques les plus pertinentes sont : Théâtre et Variétés."
+ },
+ "4768768|DIV.212": {
+  "famille": "Santé",
+  "codes": [
+   "20000468",
+   "20001221",
+   "20001228"
+  ],
+  "intitules": [
+   "Prescription médicale",
+   "Médecine d'urgence",
+   "Opération de chirurgie"
+  ],
+  "justification_famille": "Politique",
+  "justification_etiquette": "Discussion législative"
+ },
+ "4769030|DIV.202": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000005",
+   "20001135"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Cinéma",
+   "Exposition artistique"
+  ],
+  "justification_famille": "[\"Arts, culture, divertissement et médias\", \"Science et technologie\"]'}",
+  "justification_etiquette": "Les étiquettes les plus pertinentes pour cet article sont : 'Bibliothèque et musée', 'Cinéma', 'Exposition artistique'."
+ },
+ "4773419|DIV.264": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000005",
+   "20000029"
+  ],
+  "intitules": [
+   "Cinéma",
+   "Théâtre"
+  ],
+  "justification_famille": "Les informations fournies dans l'article se concentrent principalement sur les représentations théâtrales et les critiques sur les artistes. Les sujets les plus pertinents sont donc ceux liés à l'art et à la culture. Les étiquettes les plus pertinentes sont donc : Arts, culture, divertissement et médias.",
+  "justification_etiquette": "Les informations principales de cet article concernent les représentations théâtrales et l'opéra. Le texte décrit des représentations de pièces comme "
+ },
+ "4773529|DIV.1194": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029"
+  ],
+  "intitules": [
+   "Théâtre"
+  ],
+  "justification_famille": "L'article décrit un théâtre de patinage avec des informations sur les spectacles, les entrées et les événements spéciaux. Cela se situe clairement dans la famille 'Culture, divertissement et médias' qui couvre les arts, les spectacles et les divertissements. Les autres catégories ne semblent pas pertinentes pour cet article.",
+  "justification_etiquette": "L'article parle d'un théâtre de patinage avec des informations sur les événements spécifiques organisés. Cela correspond le mieux à la catégorie 'Théâtre' car le texte décrit un spectacle de patinage sur glace. Les autres catégories ne semblent pas pertinentes pour cette description. "
+ },
+ "4773529|DIV.125": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000044"
+  ],
+  "intitules": [
+   "Littérature",
+   "Patrimoine"
+  ],
+  "justification_famille": "L'article parle d'une collaboration entre un peintre et un écrivain pour un livre illustré. Cela se situe clairement dans la famille Arts, culture, divertissement et médias.",
+  "justification_etiquette": "L'article parle d'une collaboration entre un peintre et un écrivain pour illustrer un livre célèbre, ce qui implique des aspects de littérature et de patrimoine artistique."
+ },
+ "4773529|DIV.133": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000031"
+  ],
+  "intitules": [
+   "Arts visuels"
+  ],
+  "justification_famille": "L'article parle d'un buste sculpté pour le président Royer, ce qui se rapproche le plus de l'objet 'Arts, culture, divertissement et médias'.",
+  "justification_etiquette": "Le texte parle d'un buste sculpté pour la Cour des comptes, ce qui est directement lié à la thématique des arts visuels. Il ne mentionne pas d'autres sujets pertinents comme la littérature, la musique, ni d'autres domaines comme la radio, la télévision, etc. Les autres thématiques ne sont pas pertinentes pour l'objet de cet article."
+ },
+ "4773529|DIV.167": {
+  "famille": "Gens animaux insolite",
+  "codes": [
+   "20001233"
+  ],
+  "intitules": [
+   "Baptême civil"
+  ],
+  "justification_famille": "L'article parle d'un incident familial impliquant un enfant et son père, ce qui correspond le mieux à la famille 'Gens animaux insolite'.",
+  "justification_etiquette": "L'article parle d'une situation humoristique impliquant un bébé, ce qui correspond le mieux à l'étiquette 'Baptême civil' car il décrit une situation familiale liée à un nouveau-né. Les autres étiquettes ne semblent pas pertinentes pour cette histoire. "
+ },
+ "4773529|DIV.183": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000044",
+   "20000049"
+  ],
+  "intitules": [
+   "Patrimoine",
+   "Périodiques"
+  ],
+  "justification_famille": "L'article contient une citation, donc il pourrait être lié à la famille 'Culture, divertissement et médias' qui inclut généralement des articles sur la littérature, la poésie, etc. Cependant, il n'y a pas de mention spécifique de la citation dans le contexte d'une publication ou d'un média. La citation elle-même est plus liée à la famille 'Culture, divertissement et médias'.",
+  "justification_etiquette": "L'article est une citation, donc il ne correspond pas directement à l'un des codes fournis. Cependant, si nous devions choisir les plus proches, cela pourrait être 'Patrimoine' car il s'agit d'une citation, et 'Périodiques' car il est tiré d'un album."
+ },
+ "4773529|DIV.272": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000731",
+   "20000719"
+  ],
+  "intitules": [
+   "Physique",
+   "Biologie"
+  ],
+  "justification_famille": "Les informations fournies dans l'article se concentrent principalement sur la perception de la chaleur et du froid par rapport à la température interne du corps humain. Cette thématique est la plus pertinente parmi les options proposées. Les autres sujets, tels que la science, la culture, la santé, ou la météorologie, sont indirectement abordés mais ne sont pas le focus principal de l'article.",
+  "justification_etiquette": "Les informations fournies dans cet article traitent principalement de la perception thermique du corps humain et de la transmission de chaleur. Cela inclut des explications sur la sensation de chaleur ou de froid, la transmission de chaleur entre le corps et les objets, ainsi que les effets de différents matériaux sur cette sensation. Les principaux thèmes qui décrivent ce sujet sont : Physique et Biologie."
+ },
+ "4773529|DIV.510": {
+  "famille": "Économie et finances",
+  "codes": [
+   "20001370",
+   "20000243"
+  ],
+  "intitules": [
+   "Services financiers",
+   "Distribution"
+  ],
+  "justification_famille": "L'article parle d'un arrêté ministériel concernant les abonnements au Journal L'EUROPE FINANCIÈRE. Il ne fait pas directement référence à des sujets comme la culture, la politique, la santé, l'économie, etc. Il est donc le plus proche de la famille 'Économie et finances'.",
+  "justification_etiquette": "L'article parle de l'application d'un arrêté ministériel concernant les abonnements au Journal L'EUROPE FINANCIERE. Cet arrêté permet aux abonnés de payer leurs abonnements directement aux bureaux de poste, sans frais supplémentaires. Cela est directement lié au secteur des services financiers et aux pratiques de distribution de la presse. Les autres étiquettes ne sont pas pertinentes dans ce contexte."
+ },
+ "4773609|DIV.635": {
+  "famille": "Santé",
+  "codes": [
+   "20000462",
+   "20000480",
+   "20001221"
+  ],
+  "intitules": [
+   "Hôpitaux et cliniques",
+   "Soins de santé publics",
+   "Médecine d'urgence"
+  ],
+  "justification_famille": "L'article parle d'un restaurant et d'établissements hydrothérapiques, ce qui se situe dans la famille 'Santé' et 'Vie quotidienne et loisirs'.",
+  "justification_etiquette": "L'article parle de deux établissements hydrothérapiques fondés par le docteur Vaskovits à Budapest. Il ne mentionne pas de maladies spécifiques traitées par l'hydrothérapie, donc on exclut les codes liés à des maladies spécifiques. Les codes pertinents sont : Hôpitaux et cliniques, Soins de santé publics, Médecine d'urgence."
+ },
+ "4773935|DIV.136": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000005",
+   "20000013"
+  ],
+  "intitules": [
+   "Cinéma",
+   "Littérature"
+  ],
+  "justification_famille": "L'article parle de conférences sur des sujets littéraires et historiques, donc il appartient à la famille Arts, culture, divertissement et médias.",
+  "justification_etiquette": "L'article parle de deux conférences, donc il est pertinent de choisir des étiquettes liées à la conférence et à la littérature."
+ },
+ "4773937|DIV.464": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000031",
+   "20000013",
+   "20000029"
+  ],
+  "intitules": [
+   "Arts visuels",
+   "Littérature",
+   "Théâtre"
+  ],
+  "justification_famille": "L'article aborde principalement les aventures et les luttes d'un personnage historique, Mirabeau, et ses relations avec sa famille et ses amis. Les aspects les plus pertinents des étiquettes fournis sont : Arts, culture, divertissement et médias, et Société. Les autres ne sont pas directement liés au contenu principal de l'article.",
+  "justification_etiquette": "L'article principal parle d'un roman historique intitulé 'Les amours de Mirabeau', qui évoque les amours et les conflits entre Mirabeau et son père. Il contient également des détails sur la fuite de Mirabeau et de Sophie, ainsi que sur les activités de Mirabeau en Hollande. Les éléments les plus pertinents parmi les étiquettes disponibles sont : Arts visuels, Littérature, Théâtre. Les autres étiquettes ne sont pas directement liés au contenu principal de l'article."
+ },
+ "4785180|DIV.812": {
+  "famille": "Criminalité, droit et justice",
+  "codes": [
+   "20001299",
+   "20000133"
+  ],
+  "intitules": [
+   "Surveillance",
+   "Police"
+  ],
+  "justification_famille": "L'article parle d'un suicide d'un bedeau, ce qui correspond le mieux à la famille 'Criminalité, droit et justice' car il touche à un sujet de nature juridique et criminelle.",
+  "justification_etiquette": "L'article parle d'un suicide d'un bedeau, ce qui correspond le plus à la catégorie de 'Suicide'. Les autres catégories ne semblent pas directement pertinentes pour cette situation."
+ },
+ "4785732|DIV.646": {
+  "erreur": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)"
+ },
+ "4785732|DIV.818": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000003"
+  ],
+  "intitules": [
+   "Littérature",
+   "Dessin animé"
+  ],
+  "justification_famille": "L'article parle d'une collection complète d'œuvres d'Alfred de Musset, incluant sa biographie écrite par son frère Paul de Musset. Il mentionne également des illustrations et des gravures. Cela se situe clairement dans la famille 'Culture, divertissement et médias' car il s'agit d'un ouvrage littéraire. Les autres catégories ne sont pas pertinentes pour cet article.",
+  "justification_etiquette": "L'article parle d'une collection complète d'œuvres d'Alfred de Musset, ce qui est directement lié au domaine de la littérature. De plus, il mentionne des illustrations et des gravures, ce qui renforce la pertinence de l'étiquette 'Dessin animé' qui inclut les illustrations et gravures. Les informations sur la maison d'édition (ALEXANDRE HOUSSIAUX & Cie) et le libraire (L. HÉBERT) ajoutent une dimension supplémentaire à l'objet de l'article, mais ils ne sont pas aussi pertinents que les deux premières étiquettes. Les informations sur la maison d'édition et le libraire sont moins directement liées à la littérature que les illustrations et gravures."
+ },
+ "4791550|DIV.730": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20001330"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Canoë-kayak - Slalom"
+  ],
+  "justification_famille": "L'article parle de courses de chevaux, ce qui le situe clairement dans la famille 'Sport'. Les autres familles ne sont pas pertinentes pour ce contenu.",
+  "justification_etiquette": "L'article parle de courses de chevaux et de problèmes survenant sur le terrain de course. Les étiquettes les plus pertinentes sont donc 'Cyclisme' et 'Canoë-kayak - Slalom' qui sont les plus proches de ce sujet."
+ },
+ "4791550|DIV.756": {
+  "famille": "Sport",
+  "codes": [
+   "20000990",
+   "20001026"
+  ],
+  "intitules": [
+   "Bateau à moteur",
+   "Aviron"
+  ],
+  "justification_famille": "L'article parle d'une réunion nautique organisée par le Cercle nautique de France, ce qui se situe dans la famille 'Sport'. Les autres familles ne sont pas directement liées à l'information donnée.",
+  "justification_etiquette": "La Coupe de France est une réunion nautique organisée par le Cercle nautique de France, ce qui place le sujet dans le domaine des sports nautiques. Les épreuves se déroulent sur des bateaux, ce qui renforce la pertinence de l'étiquette 'Bateau à moteur'. Les rameurs sont impliqués dans cette compétition, ce qui confirme la pertinence de l'étiquette 'Aviron'. Les autres étiquettes ne sont pas directement liées à l'article."
+ },
+ "6703872|DIV.1082": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000013"
+  ],
+  "intitules": [
+   "Théâtre",
+   "Littérature"
+  ],
+  "justification_famille": "L'article parle de représentations théâtrales, de créations de comédiens et d'opéras. Ces sujets sont clairement liés à l'industrie du théâtre et de la musique, ce qui se situe dans la famille 'Culture et divertissement'. Les autres familles ne sont pas pertinentes pour cet article.",
+  "justification_etiquette": "Le texte principal parle d'une représentation théâtrale et d'une conférence, ce qui correspond le mieux aux étiquettes 'Théâtre' et 'Littérature'."
+ },
+ "6703872|DIV.291": {
+  "famille": "Criminalité, droit et justice",
+  "codes": [
+   "20000105",
+   "20000098"
+  ],
+  "intitules": [
+   "Crime de guerre",
+   "Détournement"
+  ],
+  "justification_famille": "Le texte décrit une situation de cruauté et de violence infligée à un domestique indigène par le prince d'Arenberg, ce qui se situe clairement dans la famille 'Criminalité, droit et justice' et 'Conflit, guerre et paix' car il parle d'une condamnation par un conseil de guerre. Les autres familles ne sont pas pertinentes dans ce contexte.",
+  "justification_etiquette": "Crimes liés aux stupéfiants"
+ },
+ "6703872|DIV.314": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000049",
+   "20000049"
+  ],
+  "intitules": [
+   "Littérature",
+   "Périodiques",
+   "Périodiques"
+  ],
+  "justification_famille": "L'article mentionne des événements culturels (la fête pour l'Œuvre de la Croix-Rouge), des événements politiques (la guerre sud-africaine), et des activités sociales (le grand bal). Ces éléments décrivent le mieux le sujet de l'article. Les autres catégories ne sont pas directement associées à l'essence de l'article.",
+  "justification_etiquette": "L'article évoque des événements culturels et politiques, donc il est pertinent de classer avec des codes liés à l'arts visuels, à la littérature et à la politique. Les codes de littérature et de politique sont plus pertinents que ceux liés à l'arts visuels. Par conséquent, je choisis les codes suivants : 'Littérature', 'Politique'."
+ },
+ "6703872|DIV.643": {
+  "famille": "Science et technologie",
+  "codes": [
+   "20000719",
+   "20000711",
+   "20000736"
+  ],
+  "intitules": [
+   "Biologie",
+   "Biotechnologie",
+   "Innovation scientifique"
+  ],
+  "justification_famille": "L'article parle de l'expérience des paysans dans le Maine-et-Loire et de la métamorphose des crins de cheval en annélidés. Cela se situe clairement dans la famille 'Science et technologie' car il aborde un sujet scientifique et technique. La famille 'Vie quotidienne et loisirs' est moins pertinente car l'article ne traite pas de la vie quotidienne des paysans, mais de leur expérience scientifique.",
+  "justification_etiquette": "L'article parle de l'expérience des paysans dans le Maine-et-Loir avec des crins de cheval qui se métamorphosent en annélidés. Cela implique des éléments de biologie et de biotechnologie. Les embryologistes sont cités, ce qui renforce la pertinence de la biologie et de la biotechnologie. L'importance de cette expérience au point de vue de l'embryogénie souligne la pertinence de la biologie."
+ },
+ "6705781|DIV.694": {
+  "famille": "Conflit, guerre et paix",
+  "codes": [
+   "20000080"
+  ],
+  "intitules": [
+   "Prisonniers de guerre"
+  ],
+  "justification_famille": "Mauvais traitements",
+  "justification_etiquette": "Disparus au combat"
+ },
+ "6706398|DIV.369": {
+  "famille": "Politique",
+  "codes": [
+   "20001265",
+   "20001338",
+   "20000423"
+  ],
+  "intitules": [
+   "Politique de gouvernement local",
+   "Politique de l'éducation",
+   "Politique de l'environnement"
+  ],
+  "justification_famille": "L'article parle d'une réélection d'un président de la Ligue des instituteurs, qui a déclaré son adhésion au mouvement communiste. Cela se situe clairement dans la famille Politique et dans celle du conflit, guerre et paix, car il parle d'une opposition à une politique politique.",
+  "justification_etiquette": "L'article parle d'une réélection controversée d'un président de la Ligue des instituteurs, ce qui implique des questions de leadership et de politique. Cependant, il ne mentionne pas directement de sujets spécifiques comme la diplomatie, la politique économique ou la politique culturelle. Les sujets les plus pertinents sont donc ceux liés à la politique et aux institutions politiques."
+ },
+ "6706398|DIV.510": {
+  "famille": "Politique",
+  "codes": [
+   "20000630",
+   "20000607",
+   "20000632"
+  ],
+  "intitules": [
+   "Assistance sociale",
+   "Budget du gouvernement",
+   "Contrôle des armes personnelles"
+  ],
+  "justification_famille": "L'article parle de la loi sur les loyers en Belgique, ce qui se situe dans la famille 'Politique'. Il ne contient pas de contenu pertinent pour les autres familles proposées.",
+  "justification_etiquette": "L'article aborde principalement deux sujets importants : la loi sur les loyers en Belgique et la création d'une régie des téléphones. La loi sur les loyers concerne clairement l'assistance sociale et le budget du gouvernement. La création d'une régie des téléphones est un sujet de politique administrative et de contrôle des armes personnelles. Les deux sujets sont pertinents pour comprendre les changements en Belgique à cette époque, mais ils ne couvrent pas tous les aspects de l'article. Les sujets de politique économique et de politique de gouvernement local sont également pertinents, mais moins directement liés à l'article que les deux sujets mentionnés ci-dessus."
+ },
+ "6706398|DIV.530": {
+  "famille": "Politique",
+  "codes": [
+   "20001316",
+   "20001174",
+   "20001147"
+  ],
+  "intitules": [
+   "Conflit frontalier",
+   "Politique d'aménagement du territoire",
+   "Politique sportive"
+  ],
+  "justification_famille": "L'article aborde principalement des sujets liés à l'administration américaine et à ses décisions concernant le Nicaragua, ainsi qu'une question de santé publique (l'alcool d'industrie). Ces sujets sont les plus pertinents parmi les options fournies.",
+  "justification_etiquette": "L'article parle de l'attitude américaine envers le Nicaragua, ce qui est directement lié au conflit frontalier. C'est donc la plus pertinente parmi les étiquettes proposées. Les autres étiquettes ne sont pas directement liées à l'article."
+ },
+ "6706398|DIV.585": {
+  "famille": "Politique",
+  "codes": [
+   "20001265",
+   "20000598",
+   "20000653"
+  ],
+  "intitules": [
+   "Politique de gouvernement local",
+   "Défense",
+   "Système politique"
+  ],
+  "justification_famille": "Les thèmes les plus pertinents pour cet article sont ceux qui décrivent la réunion pacifiste et ses implications politiques et sociales. Les thèmes de l'Arts, culture, divertissement et médias, du Conflit, guerre et paix, de la Criminalité, droit et justice, du Désastres et accidents, de l'Environnement, de la Gens animaux insolite, de la Météo, de la Politique, de la Religion et croyance, de la Santé, de la Science et technologie, de la Société, du Sport, de la Vie quotidienne et loisirs, de l'Économie et finances, et de l'Éducation ne semblent pas directement correspondre à l'essence de l'article. Les thèmes les plus pertinents sont donc ceux de la Politique et de la Société.",
+  "justification_etiquette": "L'article parle d'une réunion pacifiste à Francfort-sur-le-Mein, donc il est pertinent de mettre l'étiquette 'Politique de gouvernement local' car la réunion est liée à la politique locale. De plus, l'article parle de la question de la sécurité et du désarmement général, donc 'Défense' est aussi pertinente. 'Système politique' est également pertinent car il parle de la question politique entre les deux pays. 'Migrations' est moins pertinent car l'article ne parle pas directement de migrations, mais de la question de la sécurité et du désarmement général."
+ },
+ "6706398|DIV.851": {
+  "famille": "Sport",
+  "codes": [
+   "20000892",
+   "20001071"
+  ],
+  "intitules": [
+   "Cyclisme",
+   "Natation"
+  ],
+  "justification_famille": "Le texte fourni décrit des résultats de courses de chevaux. Cela correspond le mieux à la famille : Sport.",
+  "justification_etiquette": "L'article parle de résultats de courses, ce qui est le plus pertinent parmi les étiquettes proposées. Les autres étiquettes ne sont pas directement liées à l'information donnée."
+ },
+ "6710420|DIV.495": {
+  "famille": "Société",
+  "codes": [
+   "20000773",
+   "20000777"
+  ],
+  "intitules": [
+   "Immigration clandestine",
+   "Racisme"
+  ],
+  "justification_famille": "L'article mentionne des décès, ce qui se rapporte à la famille 'Mort et deuil', mais cette famille n'est pas fournie dans la liste des familles fournie. La famille la plus proche serait 'Société' car l'article parle de familles et de décès.",
+  "justification_etiquette": "L'article mentionne des catégories de personnes (hommes, femmes, garçons, filles) et des origines (européens), ce qui souligne la diversité des groupes concernés. Cependant, il ne fournit pas de détails sur un sujet spécifique comme l'immigration clandestine, le racisme ou la diversité ethnique. Les autres sujets proposés ne sont pas directement liés à l'information fournie. Par conséquent, les étiquettes les plus pertinentes sont : 'Immigration clandestine' et 'Racisme'."
+ },
+ "6710420|DIV.638": {
+  "famille": "Politique",
+  "codes": [
+   "20000613",
+   "20000614"
+  ],
+  "intitules": [
+   "Ministres",
+   "Gouvernement national"
+  ],
+  "justification_famille": "L'article est un acte juridique concernant la dissolution d'une société. Il ne fait pas directement référence à des sujets comme l'arts, la culture, la santé, l'éducation, etc. Il est donc le plus pertinent avec la famille 'Politique' qui inclut les sujets juridiques et sociaux. Les autres familles ne sont pas pertinentes pour cet article.",
+  "justification_etiquette": "L'article est un acte de dissolution d'une société, ce qui le lie plus particulièrement à la politique économique et aux institutions locales. Il ne concerne pas directement les sujets comme l'urbanisme, la politique sportive, la politique culturelle, la politique de l'éducation, etc. Il est donc pertinent de choisir les étiquettes les plus directement liées à la dissolution d'une société et à son siège social. Les étiquettes les plus pertinentes sont donc : 'Ministres' et 'Gouvernement national' qui, bien qu'ils ne soient pas directement liés à la dissolution d'une société, sont les plus proches de la nature de l'acte décrit."
+ },
+ "6710457|DIV.145": {
+  "famille": "Désastres et accidents",
+  "codes": [
+   "20000143",
+   "20000140",
+   "20000141"
+  ],
+  "intitules": [
+   "Accident de transport",
+   "Explosion accidentelle",
+   "Accident industriel"
+  ],
+  "justification_famille": "[{'themes': ['Culture et divertissement'], {'themes': ['Désastres et accidents']}]}",
+  "justification_etiquette": "[Accident accidentelle, Explosion accidentelle, Accident de transport] Ces trois étiquettes semblent les plus pertinentes pour décrire ce texte. L'histoire d'Elise et Laure est un accident d'origine sexuelle, qui a des conséquences graves. L'explosion symbolique de l'histoire et l'incident avec le domino puce sont également des éléments pertinents. L'incident avec le domino pourrait être considéré comme un accident de transport dans ce contexte.] durée: 30"
+ },
+ "6710457|DIV.28": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000540"
+  ],
+  "intitules": [
+   "Jeux"
+  ],
+  "justification_famille": "L'article parle de la fermeture des ateliers de l'Écho d'Oran pour la fête de la Toussaint, ce qui implique des activités culturelles et des publications. Il ne fait pas directement référence à des conflits, des crimes, des désastres, des questions environnementales, des animaux, des météos, des politiques, des religions, des soins de santé, des découvertes scientifiques, des questions sociales, des lois et réglementations, des écoles, des économies ou des loisirs quotidiens. Cependant, il touche à la culture et à la vie quotidienne. Donc, la famille la plus appropriée est celle de la 'Vie quotidienne et loisirs'.",
+  "justification_etiquette": "Le texte parle de la fermeture des ateliers pendant la fête des Tous saints et mentionne la suspension de l'Écho d'Oran. Cela ne correspond pas directement à l'ensemble des étiquettes proposées. Cependant, la plus pertinente parmi celles proposées est : Jeux. Les ateliers peuvent être associés à des jeux ou activités récréatives. Les autres étiquettes ne semblent pas directement liées à ce contexte. "
+ },
+ "6710458|DIV.433": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018"
+  ],
+  "intitules": [
+   "Musique"
+  ],
+  "justification_famille": "L'article parle d'un commandeur Cazeneuve qui vient donner des représentations scientifiques à Oran. Cela se situe clairement dans la famille 'Culture, divertissement et médias' ainsi que dans la famille 'Science et technologie' car il y a une allusion à des expériences scientifiques. Les autres familles ne sont pas pertinentes dans ce contexte.",
+  "justification_etiquette": "L'article parle d'un personnage appelé M. le commandeur Cazeneuve qui donne des représentations à Oran. Cela se rapproche le plus de la catégorie de la 'Musique' car il parle de représentations. La catégorie 'Média d'information' est moins pertinente car l'article ne semble pas être un journal ou une information. Les autres catégories ne semblent pas directement liées à l'information donnée dans l'article."
+ },
+ "6710458|DIV.758": {
+  "famille": "Vie quotidienne et loisirs",
+  "codes": [
+   "20001391",
+   "20000560",
+   "20000550"
+  ],
+  "intitules": [
+   "Végétarisme et véganisme",
+   "Activités récréatives",
+   "Passe-temps"
+  ],
+  "justification_famille": "L'article parle de produits de mode et de confections, ce qui correspond le mieux à la famille 'Vie quotidienne et loisirs'. Les autres familles ne semblent pas directement liées à ce contenu.",
+  "justification_etiquette": "L'article parle de divers articles de mode et de vêtements, ce qui correspond le mieux à l'étiquette 'Vêtements et habillement' qui est la plus pertinente parmi les options proposées. Les autres étiquettes ne semblent pas directement liées au contenu de l'article."
+ },
+ "6711097|DIV.1246": {
+  "famille": "Santé",
+  "codes": [
+   "20001229",
+   "20000480"
+  ],
+  "intitules": [
+   "Clinique",
+   "Soins de santé publics"
+  ],
+  "justification_famille": "L'article parle d'un médecin et d'une clinique, ce qui le situe clairement dans la famille 'Santé'. Les accouchements et les maladies des femmes et des enfants sont également des sujets liés à la santé.",
+  "justification_etiquette": "L'article parle d'une clinique et de ses services, donc il est le plus pertinent avec les étiquettes 'Clinique' et 'Soins de santé publics'. La mention d'ACCOUCHEMENTS indique que le sujet concerne les soins de santé des femmes et des enfants, ce qui renforce la pertinence de l'étiquette 'Soins de santé publics'. Les autres étiquettes ne sont pas directement liées au contenu de l'article."
+ },
+ "6711097|DIV.1266": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000049",
+   "20000046"
+  ],
+  "intitules": [
+   "Bibliothèque et musée",
+   "Périodiques",
+   "Média d'information"
+  ],
+  "justification_famille": "L'article parle des services et des opérations du Crédit Lyonnais, notamment le dépôt de titres, les dépôts d'objets précieux, et l'installation de sécurité. Ces sujets sont clairement liés à l'industrie financière et aux services bancaires. Les autres catégories ne sont pas directement pertinentes pour l'essence de l'article.",
+  "justification_etiquette": "L'article parle principalement des services fournis par le Crédit Lyonnais, notamment le dépôt de titres et d'objets précieux. Il ne fait pas référence directement à des sujets comme la littérature, la musique, l'histoire de l'art ou le cinéma. Les sujets les plus pertinents sont donc ceux liés aux services bancaires et aux objets précieux."
+ },
+ "6711097|DIV.1299": {
+  "famille": "Politique",
+  "codes": [
+   "20000643",
+   "20000630",
+   "20000629"
+  ],
+  "intitules": [
+   "Aide internationale",
+   "Assistance sociale",
+   "Autochtones"
+  ],
+  "justification_famille": "L'article parle d'une maison fondée en 1830 et d'un agent général, ce qui se rapporte à la famille de la politique.",
+  "justification_etiquette": ""
+ },
+ "6711097|DIV.632": {
+  "famille": "Éducation",
+  "codes": [
+   "20001216",
+   "20000414",
+   "20000405"
+  ],
+  "intitules": [
+   "Enseignement professionnel",
+   "Examen ou concours d'entrée",
+   "Éducation supérieure"
+  ],
+  "justification_famille": "L'article parle de l'ouverture d'une école pratique de commerce et d'hydrographie, ce qui se situe dans la famille 'Éducation'. Les cours de commerce et d'hydrographie sont des éléments clés de l'éducation, donc cela correspond le mieux à cette famille.",
+  "justification_etiquette": "L'article parle d'une école pratique de commerce et d'hydrographie, ce qui implique des cours d'enseignement et des examens. Les étudiants sont préparés pour des examens spécifiques. Les étudiants peuvent choisir entre plusieurs langues, ce qui souligne l'importance de la formation linguistique. L'article mentionne également une école d'hydrographie, ce qui implique des cours spécialisés et des examens. Par conséquent, les étiquettes les plus pertinentes sont : 'Enseignement professionnel', 'Examen ou concours d'entrée', et 'Éducation supérieure'. Ces étiquettes couvrent les aspects de l'article les plus importants."
+ },
+ "6711097|DIV.742": {
+  "famille": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000031",
+   "20000005",
+   "20000013"
+  ],
+  "intitules": [
+   "Arts visuels",
+   "Cinéma",
+   "Littérature"
+  ],
+  "justification_famille": "[<\"Arts, culture, divertissement et médias\">, <\"Conflit, guerre et paix\">, <\"Criminalité, droit et justice\">, <\"Désastres et accidents\">, <\"Environnement\">, <\"Gens animaux insolite\">, <\"Météo\">, <\"Politique\">, <\"Religion et croyance\">, <\"Santé\">, <\"Science et technologie\">, <\"Social\">, <\"Sport\">, <\"Vie quotidienne et loisirs\">, <\"Économie et finances\">, <\"Éducation\">]-->}{",
+  "justification_etiquette": "Ces informations sont centrées autour d'un conflit entre Jacques et Claude concernant une future enfant. Les étiquettes les plus pertinentes sont : Arts visuels, Cinéma, et Littérature. Ces catégories couvrent le contexte de la situation, la relation entre les personnages, et l'aspect littéraire de l'histoire."
+ },
+ "6716695|DIV.1080": {
+  "famille": "Éducation",
+  "codes": [
+   "20000414",
+   "20000401",
+   "20000405"
+  ],
+  "intitules": [
+   "Examen ou concours d'entrée",
+   "École primaire",
+   "Éducation supérieure"
+  ],
+  "justification_famille": "L'article parle de postes d'enseignement et de formations, ce qui se rapproche le plus de la famille 'Éducation'.",
+  "justification_etiquette": "L'article parle de brevets supérieurs et simples, de professeurs et d'anciens élèves de l'École normale supérieure. Ces éléments sont les plus pertinents parmi les étiquettes proposées."
+ }
+}

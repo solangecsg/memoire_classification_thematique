@@ -264,6 +264,10 @@ def iptc():
           for k, c in conc.items()}
 
     def remonter(code):
+        """Remonte la chaîne `broader` du référentiel jusqu'à la catégorie de premier
+        niveau dont ce code dépend. Rend None si la chaîne se rompt, et s'arrête
+        sur les codes déjà vus, une hiérarchie SKOS pouvant se refermer sur
+        elle-même."""
         vu = set()
         while code not in racines and code not in vu:
             vu.add(code)
@@ -439,6 +443,8 @@ def importlib_police():
 
 
 def main():
+    """Point d'entrée : trace les pages à leurs coordonnées réelles, chaque article
+    recevant la couleur de sa catégorie et l'intitulé qui lui est attribué."""
     p = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     p.add_argument("--chercher", type=int, metavar="THÈME",
                    help="lister les pages où ce thème pèse le plus")

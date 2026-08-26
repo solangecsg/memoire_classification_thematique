@@ -4,6 +4,9 @@ __pycache__/
 .venv/
 venv/
 config/.env
+
+# Réglages locaux de l'éditeur, sans rapport avec le traitement.
+.claude/
 .env
 
 # Sorties des scripts de figures : régénérables par les commandes du README.

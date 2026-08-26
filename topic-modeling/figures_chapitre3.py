@@ -139,6 +139,10 @@ def taxonomie(D):
     par_en["politics"] = par_en["politics and government"]
 
     def remonter(code):
+        """Remonte la chaîne `broader` du référentiel jusqu'à la catégorie de premier
+        niveau dont ce code dépend. Rend None si la chaîne se rompt, et s'arrête
+        sur les codes déjà vus, une hiérarchie SKOS pouvant se refermer sur
+        elle-même."""
         vu = set()
         while code not in racines and code not in vu:
             vu.add(code)
@@ -366,6 +370,8 @@ def figure_queue(freq):
 
 
 def main():
+    """Point d'entrée : construit les figures du chapitre consacré au vocabulaire
+    contrôlé, depuis le référentiel et les attributions du dépôt."""
     police()
     SORTIE.mkdir(exist_ok=True)
     D = depot()

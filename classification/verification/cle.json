@@ -1,0 +1,1912 @@
+[
+ {
+  "item": "A001",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000759",
+  "libelle": "Agronomie",
+  "fascicule": "4633797",
+  "article": "DIV.1755"
+ },
+ {
+  "item": "A002",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001237",
+  "libelle": "Anniversaire",
+  "fascicule": "4758930",
+  "article": "DIV.335"
+ },
+ {
+  "item": "A003",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001360",
+  "libelle": "Association fraternelle et communautaire",
+  "fascicule": "4140779",
+  "article": "DIV.799"
+ },
+ {
+  "item": "A004",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000055",
+  "libelle": "Attentat à la bombe",
+  "fascicule": "4753294",
+  "article": "DIV.383"
+ },
+ {
+  "item": "A005",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001233",
+  "libelle": "Baptême civil",
+  "fascicule": "4753294",
+  "article": "DIV.1525"
+ },
+ {
+  "item": "A006",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000849",
+  "libelle": "Baseball",
+  "fascicule": "4606143",
+  "article": "DIV.746"
+ },
+ {
+  "item": "A007",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000852",
+  "libelle": "Biathlon",
+  "fascicule": "4757163",
+  "article": "DIV.843"
+ },
+ {
+  "item": "A008",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000054",
+  "libelle": "Bioterrorisme",
+  "fascicule": "4123163",
+  "article": "DIV.640"
+ },
+ {
+  "item": "A009",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001346",
+  "libelle": "Canonisation",
+  "fascicule": "4610674",
+  "article": "DIV.1673"
+ },
+ {
+  "item": "A010",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000877",
+  "libelle": "Canoë",
+  "fascicule": "4133872",
+  "article": "DIV.601"
+ },
+ {
+  "item": "A011",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000883",
+  "libelle": "Casting (pêche)",
+  "fascicule": "4133872",
+  "article": "DIV.1036"
+ },
+ {
+  "item": "A012",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000418",
+  "libelle": "Changement climatique",
+  "fascicule": "4785732",
+  "article": "DIV.646"
+ },
+ {
+  "item": "A013",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001316",
+  "libelle": "Conflit frontalier",
+  "fascicule": "4653842",
+  "article": "DIV.91"
+ },
+ {
+  "item": "A014",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000525",
+  "libelle": "Convention collective",
+  "fascicule": "4756274",
+  "article": "DIV.618"
+ },
+ {
+  "item": "A015",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000919",
+  "libelle": "Course de chiens",
+  "fascicule": "4609982",
+  "article": "DIV.1398"
+ },
+ {
+  "item": "A016",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001334",
+  "libelle": "Cyclisme sur piste",
+  "fascicule": "4757163",
+  "article": "DIV.843"
+ },
+ {
+  "item": "A017",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000648",
+  "libelle": "Dissidence",
+  "fascicule": "4745483",
+  "article": "DIV.389"
+ },
+ {
+  "item": "A018",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000079",
+  "libelle": "Déminage",
+  "fascicule": "4655957",
+  "article": "DIV.720"
+ },
+ {
+  "item": "A019",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000078",
+  "libelle": "Désarmement",
+  "fascicule": "6706398",
+  "article": "DIV.585"
+ },
+ {
+  "item": "A020",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001319",
+  "libelle": "Désinformation",
+  "fascicule": "4743533",
+  "article": "DIV.325"
+ },
+ {
+  "item": "A021",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000807",
+  "libelle": "Esclavage",
+  "fascicule": "4109676",
+  "article": "DIV.97"
+ },
+ {
+  "item": "A022",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001343",
+  "libelle": "Finale",
+  "fascicule": "4749066",
+  "article": "DIV.522"
+ },
+ {
+  "item": "A023",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000581",
+  "libelle": "Financement de campagne",
+  "fascicule": "4702250",
+  "article": "DIV.153"
+ },
+ {
+  "item": "A024",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000381",
+  "libelle": "Fonds communs de placement",
+  "fascicule": "4742203",
+  "article": "DIV.721"
+ },
+ {
+  "item": "A025",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000939",
+  "libelle": "Football gaélique",
+  "fascicule": "4602945",
+  "article": "DIV.510"
+ },
+ {
+  "item": "A026",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001313",
+  "libelle": "Fusillade",
+  "fascicule": "4606143",
+  "article": "DIV.117"
+ },
+ {
+  "item": "A027",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001317",
+  "libelle": "Garde d'enfants",
+  "fascicule": "4133627",
+  "article": "DIV.1013"
+ },
+ {
+  "item": "A028",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001359",
+  "libelle": "Grossesse et accouchement",
+  "fascicule": "6711097",
+  "article": "DIV.1246"
+ },
+ {
+  "item": "A029",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000057",
+  "libelle": "Guérilla",
+  "fascicule": "4135298",
+  "article": "DIV.363"
+ },
+ {
+  "item": "A030",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000072",
+  "libelle": "Génocide",
+  "fascicule": "4773529",
+  "article": "DIV.1194"
+ },
+ {
+  "item": "A031",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000728",
+  "libelle": "Horticulture",
+  "fascicule": "4135298",
+  "article": "DIV.792"
+ },
+ {
+  "item": "A032",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000773",
+  "libelle": "Immigration clandestine",
+  "fascicule": "4753294",
+  "article": "DIV.621"
+ },
+ {
+  "item": "A033",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000761",
+  "libelle": "Ingénierie électronique",
+  "fascicule": "4109000",
+  "article": "DIV.639"
+ },
+ {
+  "item": "A034",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000978",
+  "libelle": "Kabaddi",
+  "fascicule": "4602945",
+  "article": "DIV.577"
+ },
+ {
+  "item": "A035",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001314",
+  "libelle": "Maltraitance animale",
+  "fascicule": "4753294",
+  "article": "DIV.711"
+ },
+ {
+  "item": "A036",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000409",
+  "libelle": "Maternelle",
+  "fascicule": "4701494",
+  "article": "DIV.57"
+ },
+ {
+  "item": "A037",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000795",
+  "libelle": "Minorité ethnique ou nationale",
+  "fascicule": "6703872",
+  "article": "DIV.291"
+ },
+ {
+  "item": "A038",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001221",
+  "libelle": "Médecine d'urgence",
+  "fascicule": "4140779",
+  "article": "DIV.1410"
+ },
+ {
+  "item": "A039",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001010",
+  "libelle": "Netball",
+  "fascicule": "4135298",
+  "article": "DIV.1086"
+ },
+ {
+  "item": "A040",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001067",
+  "libelle": "Patinage de vitesse",
+  "fascicule": "4743854",
+  "article": "DIV.288"
+ },
+ {
+  "item": "A041",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000224",
+  "libelle": "Plastiques et matières synthétiques",
+  "fascicule": "4757709",
+  "article": "DIV.672"
+ },
+ {
+  "item": "A042",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000635",
+  "libelle": "Politique Nucléaire",
+  "fascicule": "4743533",
+  "article": "DIV.316"
+ },
+ {
+  "item": "A043",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001174",
+  "libelle": "Politique d'aménagement du territoire",
+  "fascicule": "4133627",
+  "article": "DIV.1450"
+ },
+ {
+  "item": "A044",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001338",
+  "libelle": "Politique de l'éducation",
+  "fascicule": "4633797",
+  "article": "DIV.1304"
+ },
+ {
+  "item": "A045",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000429",
+  "libelle": "Pollution de l'eau",
+  "fascicule": "4135298",
+  "article": "DIV.775"
+ },
+ {
+  "item": "A046",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000806",
+  "libelle": "Prostitution",
+  "fascicule": "4756274",
+  "article": "DIV.98"
+ },
+ {
+  "item": "A047",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000740",
+  "libelle": "Publication scientifique",
+  "fascicule": "4743498",
+  "article": "DIV.310"
+ },
+ {
+  "item": "A048",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001365",
+  "libelle": "Reporting et performance des entreprises",
+  "fascicule": "6710420",
+  "article": "DIV.638"
+ },
+ {
+  "item": "A049",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001366",
+  "libelle": "Restructuration d'entreprise",
+  "fascicule": "4715618",
+  "article": "DIV.396"
+ },
+ {
+  "item": "A050",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001358",
+  "libelle": "Santé publique",
+  "fascicule": "4743572",
+  "article": "DIV.210"
+ },
+ {
+  "item": "A051",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001244",
+  "libelle": "Services des collectivités (eau, gaz, électricité)",
+  "fascicule": "4717145",
+  "article": "DIV.67"
+ },
+ {
+  "item": "A052",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001370",
+  "libelle": "Services financiers",
+  "fascicule": "6711097",
+  "article": "DIV.1266"
+ },
+ {
+  "item": "A053",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000820",
+  "libelle": "Services sociaux",
+  "fascicule": "6711097",
+  "article": "DIV.742"
+ },
+ {
+  "item": "A054",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000779",
+  "libelle": "Sexisme",
+  "fascicule": "4745483",
+  "article": "DIV.356"
+ },
+ {
+  "item": "A055",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000484",
+  "libelle": "Soins de santé privés",
+  "fascicule": "4651968",
+  "article": "DIV.84"
+ },
+ {
+  "item": "A056",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000755",
+  "libelle": "Standards",
+  "fascicule": "4651968",
+  "article": "DIV.315"
+ },
+ {
+  "item": "A057",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000700",
+  "libelle": "Synagogue",
+  "fascicule": "4745483",
+  "article": "DIV.267"
+ },
+ {
+  "item": "A058",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000685",
+  "libelle": "Taoïsme",
+  "fascicule": "4133627",
+  "article": "DIV.1404"
+ },
+ {
+  "item": "A059",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000511",
+  "libelle": "Travail des enfants",
+  "fascicule": "4617451",
+  "article": "DIV.1219"
+ },
+ {
+  "item": "A060",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001285",
+  "libelle": "Vandalisme",
+  "fascicule": "4610674",
+  "article": "DIV.711"
+ },
+ {
+  "item": "A061",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000585",
+  "libelle": "Élections régionales",
+  "fascicule": "6706398",
+  "article": "DIV.530"
+ },
+ {
+  "item": "A062",
+  "epreuve": "A",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000814",
+  "libelle": "Éthique",
+  "fascicule": "4773529",
+  "article": "DIV.183"
+ },
+ {
+  "item": "B001",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000505",
+  "libelle": "Célébrités",
+  "fascicule": "6710458",
+  "article": "DIV.758"
+ },
+ {
+  "item": "B002",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000183",
+  "libelle": "Financement et vente d'actions",
+  "fascicule": "4757709",
+  "article": "DIV.672"
+ },
+ {
+  "item": "B003",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000243",
+  "libelle": "Distribution",
+  "fascicule": "4767236",
+  "article": "DIV.299"
+ },
+ {
+  "item": "B004",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000514",
+  "libelle": "Formation à l'emploi",
+  "fascicule": "4614978",
+  "article": "DIV.651"
+ },
+ {
+  "item": "B005",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000560",
+  "libelle": "Activités récréatives",
+  "fascicule": "4753294",
+  "article": "DIV.1327"
+ },
+ {
+  "item": "B006",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000434",
+  "libelle": "Montagnes",
+  "fascicule": "4140779",
+  "article": "DIV.1422"
+ },
+ {
+  "item": "B007",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001317",
+  "libelle": "Garde d'enfants",
+  "fascicule": "4133627",
+  "article": "DIV.1013"
+ },
+ {
+  "item": "B008",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000390",
+  "libelle": "Marché obligataire",
+  "fascicule": "4109000",
+  "article": "DIV.432"
+ },
+ {
+  "item": "B009",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000851",
+  "libelle": "Basket-ball",
+  "fascicule": "4134119",
+  "article": "DIV.1407"
+ },
+ {
+  "item": "B010",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000062",
+  "libelle": "Guerre",
+  "fascicule": "4745347",
+  "article": "DIV.538"
+ },
+ {
+  "item": "B011",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000492",
+  "libelle": "Personnel médical",
+  "fascicule": "4769030",
+  "article": "DIV.202"
+ },
+ {
+  "item": "B012",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000470",
+  "libelle": "Remède",
+  "fascicule": "4602945",
+  "article": "DIV.778"
+ },
+ {
+  "item": "B013",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000692",
+  "libelle": "Pâques",
+  "fascicule": "4757163",
+  "article": "DIV.346"
+ },
+ {
+  "item": "B014",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000774",
+  "libelle": "Recensement",
+  "fascicule": "6703872",
+  "article": "DIV.643"
+ },
+ {
+  "item": "B015",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000433",
+  "libelle": "Forêts",
+  "fascicule": "4756274",
+  "article": "DIV.603"
+ },
+ {
+  "item": "B016",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000597",
+  "libelle": "Constitution",
+  "fascicule": "4743818",
+  "article": "DIV.95"
+ },
+ {
+  "item": "B017",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000749",
+  "libelle": "Le droit",
+  "fascicule": "4717145",
+  "article": "DIV.84"
+ },
+ {
+  "item": "B018",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20001304",
+  "libelle": "Prix sportif",
+  "fascicule": "4134119",
+  "article": "DIV.1190"
+ },
+ {
+  "item": "B019",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000782",
+  "libelle": "Relation amoureuse",
+  "fascicule": "4140779",
+  "article": "DIV.1804"
+ },
+ {
+  "item": "B020",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000066",
+  "libelle": "Manifestation",
+  "fascicule": "4134119",
+  "article": "DIV.928"
+ },
+ {
+  "item": "B021",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000498",
+  "libelle": "Prix et récompenses",
+  "fascicule": "4140779",
+  "article": "DIV.1012"
+ },
+ {
+  "item": "B022",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000650",
+  "libelle": "Groupe de pression",
+  "fascicule": "4651968",
+  "article": "DIV.101"
+ },
+ {
+  "item": "B023",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20001125",
+  "libelle": "Organisation sportive",
+  "fascicule": "4629483",
+  "article": "DIV.491"
+ },
+ {
+  "item": "B024",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000099",
+  "libelle": "Homicide",
+  "fascicule": "4757163",
+  "article": "DIV.253"
+ },
+ {
+  "item": "B025",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000151",
+  "libelle": "Catastrophe naturelle",
+  "fascicule": "4604241",
+  "article": "DIV.1956"
+ },
+ {
+  "item": "B026",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000046",
+  "libelle": "Média d'information",
+  "fascicule": "4626819",
+  "article": "DIV.2160"
+ },
+ {
+  "item": "B027",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000062",
+  "libelle": "Guerre",
+  "fascicule": "4602945",
+  "article": "DIV.420"
+ },
+ {
+  "item": "B028",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20001147",
+  "libelle": "Politique sportive",
+  "fascicule": "4626819",
+  "article": "DIV.744"
+ },
+ {
+  "item": "B029",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000051",
+  "libelle": "Télévision",
+  "fascicule": "4123163",
+  "article": "DIV.1214"
+ },
+ {
+  "item": "B030",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000066",
+  "libelle": "Manifestation",
+  "fascicule": "4745483",
+  "article": "DIV.465"
+ },
+ {
+  "item": "B031",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000592",
+  "libelle": "Droits de l'homme",
+  "fascicule": "4683816",
+  "article": "DIV.489"
+ },
+ {
+  "item": "B032",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000592",
+  "libelle": "Droits de l'homme",
+  "fascicule": "4610674",
+  "article": "DIV.1655"
+ },
+ {
+  "item": "B033",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001334",
+  "libelle": "Cyclisme sur piste",
+  "fascicule": "4757163",
+  "article": "DIV.843"
+ },
+ {
+  "item": "B034",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000125",
+  "libelle": "Droit pénal",
+  "fascicule": "4683816",
+  "article": "DIV.326"
+ },
+ {
+  "item": "B035",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20001157",
+  "libelle": "Arts martiaux",
+  "fascicule": "4140779",
+  "article": "DIV.923"
+ },
+ {
+  "item": "B036",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001129",
+  "libelle": "Phénomène météorologique",
+  "fascicule": "4743498",
+  "article": "DIV.310"
+ },
+ {
+  "item": "B037",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000988",
+  "libelle": "Marathon",
+  "fascicule": "4651968",
+  "article": "DIV.548"
+ },
+ {
+  "item": "B038",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20001089",
+  "libelle": "Volley-ball",
+  "fascicule": "4632496",
+  "article": "DIV.1274"
+ },
+ {
+  "item": "B039",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000614",
+  "libelle": "Gouvernement national",
+  "fascicule": "4604241",
+  "article": "DIV.863"
+ },
+ {
+  "item": "B040",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "hapax",
+  "code": "20000418",
+  "libelle": "Changement climatique",
+  "fascicule": "4773529",
+  "article": "DIV.183"
+ },
+ {
+  "item": "B041",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000005",
+  "libelle": "Cinéma",
+  "fascicule": "4773419",
+  "article": "DIV.264"
+ },
+ {
+  "item": "B042",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000467",
+  "libelle": "Médicaments",
+  "fascicule": "4134119",
+  "article": "DIV.28"
+ },
+ {
+  "item": "B043",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20001026",
+  "libelle": "Aviron",
+  "fascicule": "4632496",
+  "article": "DIV.1314"
+ },
+ {
+  "item": "B044",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000639",
+  "libelle": "Diplomatie",
+  "fascicule": "4688682",
+  "article": "DIV.56"
+ },
+ {
+  "item": "B045",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000645",
+  "libelle": "Réfugiés",
+  "fascicule": "6711097",
+  "article": "DIV.632"
+ },
+ {
+  "item": "B046",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "hapax",
+  "code": "20000807",
+  "libelle": "Esclavage",
+  "fascicule": "4617451",
+  "article": "DIV.1219"
+ },
+ {
+  "item": "B047",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000005",
+  "libelle": "Cinéma",
+  "fascicule": "4767477",
+  "article": "DIV.352"
+ },
+ {
+  "item": "B048",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000570",
+  "libelle": "Maison et décoration",
+  "fascicule": "4701183",
+  "article": "DIV.1273"
+ },
+ {
+  "item": "B049",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20001174",
+  "libelle": "Politique d'aménagement du territoire",
+  "fascicule": "4133627",
+  "article": "DIV.1450"
+ },
+ {
+  "item": "B050",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000513",
+  "libelle": "Employeur",
+  "fascicule": "6705781",
+  "article": "DIV.694"
+ },
+ {
+  "item": "B051",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000084",
+  "libelle": "Agression",
+  "fascicule": "6711097",
+  "article": "DIV.1299"
+ },
+ {
+  "item": "B052",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000550",
+  "libelle": "Passe-temps",
+  "fascicule": "6710458",
+  "article": "DIV.433"
+ },
+ {
+  "item": "B053",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "hapax",
+  "code": "20001338",
+  "libelle": "Politique de l'éducation",
+  "fascicule": "4606143",
+  "article": "DIV.746"
+ },
+ {
+  "item": "B054",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20001154",
+  "libelle": "Échecs",
+  "fascicule": "4715618",
+  "article": "DIV.335"
+ },
+ {
+  "item": "B055",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000919",
+  "libelle": "Course de chiens",
+  "fascicule": "4609982",
+  "article": "DIV.1398"
+ },
+ {
+  "item": "B056",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000130",
+  "libelle": "Arrestation",
+  "fascicule": "4610674",
+  "article": "DIV.171"
+ },
+ {
+  "item": "B057",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000965",
+  "libelle": "Hockey sur glace",
+  "fascicule": "4133627",
+  "article": "DIV.1466"
+ },
+ {
+  "item": "B058",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000991",
+  "libelle": "Automobile",
+  "fascicule": "6710457",
+  "article": "DIV.145"
+ },
+ {
+  "item": "B059",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20001125",
+  "libelle": "Organisation sportive",
+  "fascicule": "6703872",
+  "article": "DIV.1082"
+ },
+ {
+  "item": "B060",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000698",
+  "libelle": "Église",
+  "fascicule": "4701494",
+  "article": "DIV.57"
+ },
+ {
+  "item": "B061",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000042",
+  "libelle": "Langue",
+  "fascicule": "4753294",
+  "article": "DIV.757"
+ },
+ {
+  "item": "B062",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20001147",
+  "libelle": "Politique sportive",
+  "fascicule": "4629483",
+  "article": "DIV.1259"
+ },
+ {
+  "item": "B063",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000856",
+  "libelle": "Boxe",
+  "fascicule": "4617451",
+  "article": "DIV.922"
+ },
+ {
+  "item": "B064",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000592",
+  "libelle": "Droits de l'homme",
+  "fascicule": "4773529",
+  "article": "DIV.133"
+ },
+ {
+  "item": "B065",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000529",
+  "libelle": "Conflit social",
+  "fascicule": "6706398",
+  "article": "DIV.369"
+ },
+ {
+  "item": "B066",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000505",
+  "libelle": "Célébrités",
+  "fascicule": "4743854",
+  "article": "DIV.402"
+ },
+ {
+  "item": "B067",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000592",
+  "libelle": "Droits de l'homme",
+  "fascicule": "4653842",
+  "article": "DIV.548"
+ },
+ {
+  "item": "B068",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000133",
+  "libelle": "Police",
+  "fascicule": "4785732",
+  "article": "DIV.818"
+ },
+ {
+  "item": "B069",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000499",
+  "libelle": "Record",
+  "fascicule": "4773529",
+  "article": "DIV.510"
+ },
+ {
+  "item": "B070",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000011",
+  "libelle": "Mode",
+  "fascicule": "4743714",
+  "article": "DIV.678"
+ },
+ {
+  "item": "B071",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20001323",
+  "libelle": "Entraînement sportif",
+  "fascicule": "4743572",
+  "article": "DIV.685"
+ },
+ {
+  "item": "B072",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "hapax",
+  "code": "20000635",
+  "libelle": "Politique Nucléaire",
+  "fascicule": "6711097",
+  "article": "DIV.1266"
+ },
+ {
+  "item": "B073",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000500",
+  "libelle": "Animaux",
+  "fascicule": "4753294",
+  "article": "DIV.711"
+ },
+ {
+  "item": "B074",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000116",
+  "libelle": "Procédures hors tribunal",
+  "fascicule": "4758930",
+  "article": "DIV.728"
+ },
+ {
+  "item": "B075",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000003",
+  "libelle": "Dessin animé",
+  "fascicule": "4650200",
+  "article": "DIV.1462"
+ },
+ {
+  "item": "B076",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "hapax",
+  "code": "20000418",
+  "libelle": "Changement climatique",
+  "fascicule": "4133872",
+  "article": "DIV.1036"
+ },
+ {
+  "item": "B077",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001067",
+  "libelle": "Patinage de vitesse",
+  "fascicule": "4743854",
+  "article": "DIV.288"
+ },
+ {
+  "item": "B078",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000553",
+  "libelle": "Lieu de loisirs",
+  "fascicule": "4773609",
+  "article": "DIV.635"
+ },
+ {
+  "item": "B079",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000131",
+  "libelle": "Enquête",
+  "fascicule": "4701494",
+  "article": "DIV.139"
+ },
+ {
+  "item": "B080",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000013",
+  "libelle": "Littérature",
+  "fascicule": "4614978",
+  "article": "DIV.301"
+ },
+ {
+  "item": "B081",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000018",
+  "libelle": "Musique",
+  "fascicule": "4773529",
+  "article": "DIV.125"
+ },
+ {
+  "item": "B082",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000505",
+  "libelle": "Célébrités",
+  "fascicule": "4626819",
+  "article": "DIV.530"
+ },
+ {
+  "item": "B083",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000646",
+  "libelle": "Organisation non gouvernementale",
+  "fascicule": "4773935",
+  "article": "DIV.136"
+ },
+ {
+  "item": "B084",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000168",
+  "libelle": "Secours d'urgence",
+  "fascicule": "4617451",
+  "article": "DIV.634"
+ },
+ {
+  "item": "B085",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000458",
+  "libelle": "Troubles mentaux et comportementaux",
+  "fascicule": "4785180",
+  "article": "DIV.812"
+ },
+ {
+  "item": "B086",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000827",
+  "libelle": "Athlétisme",
+  "fascicule": "4758930",
+  "article": "DIV.1175"
+ },
+ {
+  "item": "B087",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000650",
+  "libelle": "Groupe de pression",
+  "fascicule": "4745483",
+  "article": "DIV.399"
+ },
+ {
+  "item": "B088",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000513",
+  "libelle": "Employeur",
+  "fascicule": "4773529",
+  "article": "DIV.272"
+ },
+ {
+  "item": "B089",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000412",
+  "libelle": "Programmes d'études",
+  "fascicule": "6716695",
+  "article": "DIV.1080"
+ },
+ {
+  "item": "B090",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000639",
+  "libelle": "Diplomatie",
+  "fascicule": "4109676",
+  "article": "DIV.97"
+ },
+ {
+  "item": "B091",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000643",
+  "libelle": "Aide internationale",
+  "fascicule": "6706398",
+  "article": "DIV.530"
+ },
+ {
+  "item": "B092",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000364",
+  "libelle": "Marché des pays émergents",
+  "fascicule": "4602945",
+  "article": "DIV.619"
+ },
+ {
+  "item": "B093",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000579",
+  "libelle": "Élections nationales",
+  "fascicule": "4767236",
+  "article": "DIV.504"
+ },
+ {
+  "item": "B094",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000794",
+  "libelle": "Bébé",
+  "fascicule": "4606143",
+  "article": "DIV.427"
+ },
+ {
+  "item": "B095",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000404",
+  "libelle": "Lycées",
+  "fascicule": "6710457",
+  "article": "DIV.28"
+ },
+ {
+  "item": "B096",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000794",
+  "libelle": "Bébé",
+  "fascicule": "4773529",
+  "article": "DIV.167"
+ },
+ {
+  "item": "B097",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000331",
+  "libelle": "Tourisme et loisirs",
+  "fascicule": "4109000",
+  "article": "DIV.233"
+ },
+ {
+  "item": "B098",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000047",
+  "libelle": "Journaux",
+  "fascicule": "4140779",
+  "article": "DIV.223"
+ },
+ {
+  "item": "B099",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000456",
+  "libelle": "Blessure",
+  "fascicule": "4743572",
+  "article": "DIV.210"
+ },
+ {
+  "item": "B100",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "hapax",
+  "code": "20001067",
+  "libelle": "Patinage de vitesse",
+  "fascicule": "4651968",
+  "article": "DIV.84"
+ },
+ {
+  "item": "B101",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000679",
+  "libelle": "Judaïsme",
+  "fascicule": "4767236",
+  "article": "DIV.74"
+ },
+ {
+  "item": "B102",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001233",
+  "libelle": "Baptême civil",
+  "fascicule": "4753294",
+  "article": "DIV.1525"
+ },
+ {
+  "item": "B103",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000498",
+  "libelle": "Prix et récompenses",
+  "fascicule": "4651968",
+  "article": "DIV.302"
+ },
+ {
+  "item": "B104",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000192",
+  "libelle": "Stratégie et marketing",
+  "fascicule": "4651968",
+  "article": "DIV.624"
+ },
+ {
+  "item": "B105",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000810",
+  "libelle": "Fin de vie et mort",
+  "fascicule": "6710420",
+  "article": "DIV.495"
+ },
+ {
+  "item": "B106",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000563",
+  "libelle": "Voyages",
+  "fascicule": "4791550",
+  "article": "DIV.756"
+ },
+ {
+  "item": "B107",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000304",
+  "libelle": "Médias",
+  "fascicule": "4123163",
+  "article": "DIV.202"
+ },
+ {
+  "item": "B108",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000549",
+  "libelle": "Jeux de hasard et loteries",
+  "fascicule": "6706398",
+  "article": "DIV.851"
+ },
+ {
+  "item": "B109",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20001125",
+  "libelle": "Organisation sportive",
+  "fascicule": "4629483",
+  "article": "DIV.1543"
+ },
+ {
+  "item": "B110",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000161",
+  "libelle": "Effondrement",
+  "fascicule": "4629483",
+  "article": "DIV.1465"
+ },
+ {
+  "item": "B111",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000337",
+  "libelle": "Transports",
+  "fascicule": "4683771",
+  "article": "DIV.109"
+ },
+ {
+  "item": "B112",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20000079",
+  "libelle": "Déminage",
+  "fascicule": "4655957",
+  "article": "DIV.720"
+ },
+ {
+  "item": "B113",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000133",
+  "libelle": "Police",
+  "fascicule": "4758930",
+  "article": "DIV.1097"
+ },
+ {
+  "item": "B114",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000614",
+  "libelle": "Gouvernement national",
+  "fascicule": "4767236",
+  "article": "DIV.113"
+ },
+ {
+  "item": "B115",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000133",
+  "libelle": "Police",
+  "fascicule": "4109676",
+  "article": "DIV.527"
+ },
+ {
+  "item": "B116",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000004",
+  "libelle": "Bande dessinée",
+  "fascicule": "4112815",
+  "article": "DIV.909"
+ },
+ {
+  "item": "B117",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20001181",
+  "libelle": "Festival",
+  "fascicule": "4134119",
+  "article": "DIV.894"
+ },
+ {
+  "item": "B118",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "moyenne",
+  "code": "20000143",
+  "libelle": "Accident de transport",
+  "fascicule": "4723470",
+  "article": "DIV.315"
+ },
+ {
+  "item": "B119",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000316",
+  "libelle": "Métaux et minéraux",
+  "fascicule": "4746895",
+  "article": "DIV.753"
+ },
+ {
+  "item": "B120",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "fréquente",
+  "code": "20000031",
+  "libelle": "Arts visuels",
+  "fascicule": "6703872",
+  "article": "DIV.314"
+ },
+ {
+  "item": "B121",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "rare",
+  "code": "20000686",
+  "libelle": "Église de l'Unification",
+  "fascicule": "4768768",
+  "article": "DIV.212"
+ },
+ {
+  "item": "B122",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000131",
+  "libelle": "Enquête",
+  "fascicule": "4758930",
+  "article": "DIV.721"
+ },
+ {
+  "item": "B123",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000440",
+  "libelle": "Marais",
+  "fascicule": "4743533",
+  "article": "DIV.271"
+ },
+ {
+  "item": "B124",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000929",
+  "libelle": "Escrime",
+  "fascicule": "6706398",
+  "article": "DIV.510"
+ },
+ {
+  "item": "B125",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "moyenne",
+  "code": "20000046",
+  "libelle": "Média d'information",
+  "fascicule": "4791550",
+  "article": "DIV.730"
+ },
+ {
+  "item": "B126",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20001154",
+  "libelle": "Échecs",
+  "fascicule": "4609982",
+  "article": "DIV.1500"
+ },
+ {
+  "item": "B127",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "rare",
+  "code": "20000988",
+  "libelle": "Marathon",
+  "fascicule": "4629483",
+  "article": "DIV.2242"
+ },
+ {
+  "item": "B128",
+  "epreuve": "B",
+  "vrai": true,
+  "bande": "hapax",
+  "code": "20001235",
+  "libelle": "Service funèbre et commémoratif",
+  "fascicule": "4758930",
+  "article": "DIV.335"
+ },
+ {
+  "item": "B129",
+  "epreuve": "B",
+  "vrai": false,
+  "bande": "fréquente",
+  "code": "20000331",
+  "libelle": "Tourisme et loisirs",
+  "fascicule": "4773937",
+  "article": "DIV.464"
+ }
+]

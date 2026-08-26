@@ -1,0 +1,1512 @@
+{
+ "4109000|DIV.233": {
+  "codes": [
+   "20000029",
+   "20000560",
+   "20000007"
+  ],
+  "justification": "L'article présente des programmes de spectacles et représentations théâtrales, incluant une pièce en un acte, un vaudeville, un ballet, un numéro de trapèze et une ménagerie. Il s'agit principalement d'annonces culturelles liées aux arts de la scène et au divertissement.",
+  "jetons": 9421
+ },
+ "4109000|DIV.432": {
+  "codes": [
+   "20000346",
+   "20000467"
+  ],
+  "justification": "L'article traite principalement de la publication des cours de la Bourse de Paris, suivie d'une publicité pour un remède médical (capsules de goudron de Guyot) contre les maux de gorge et affections respiratoires.",
+  "jetons": 9694
+ },
+ "4109000|DIV.639": {
+  "codes": [
+   "20000294",
+   "20000346",
+   "20000718",
+   "20000498",
+   "20000563"
+  ],
+  "justification": "Cet article est une compilation d'annonces diverses : une fabrique de coffres-forts et d'équipements électriques (liée à la construction et à l'astronomie), une annonce de chien perdu, une offre d'actions d'une société métallurgique russe, une vente aux enchères de mobilier, et une publicité pour des couverts en métal argenté. Les thèmes principaux relèvent du commerce, de l'industrie, des annonces classées et de la publicité pour des produits manufacturés.",
+  "jetons": 10766
+ },
+ "4109676|DIV.527": {
+  "codes": [
+   "20000013",
+   "20000653",
+   "20000040",
+   "20000614",
+   "20000592"
+  ],
+  "justification": "Cet article est un extrait d'un roman d'Alexandre Dumas décrivant une réunion secrète d'un mouvement politique libéral sous la Restauration, probablement lié à la Charbonnerie. Il aborde des thèmes comme les intrigues politiques, les débats idéologiques, les réunions clandestines et les tensions entre personnages autour de la loyauté et de la trahison. L'accent est mis sur la littérature, la politique et les dynamiques sociales de l'époque.",
+  "jetons": 10517
+ },
+ "4109676|DIV.97": {
+  "codes": [
+   "20000807",
+   "20000639",
+   "20000040"
+  ],
+  "justification": "Cet article traite de la demande adressée par des députés français et britanniques pour que la question de la traite des esclaves soit portée devant la conférence de Constantinople, afin de faire respecter les décrets (firmans) interdisant cette pratique.",
+  "jetons": 9151
+ },
+ "4112815|DIV.909": {
+  "codes": [
+   "20000492",
+   "20000047"
+  ],
+  "justification": "Cet article est une annonce publicitaire pour un périodique intitulé « La Dépêche », indiquant son prix et l'adresse pour les demandes d'abonnement ou d'achat. Il relève donc principalement des médias d'information et des journaux.",
+  "jetons": 9046
+ },
+ "4123163|DIV.1214": {
+  "codes": [
+   "20000512",
+   "20000513",
+   "20000514"
+  ],
+  "justification": "Cet article est une petite annonce proposant des offres et demandes d'emploi, principalement dans les secteurs de la vente et du travail de bureau. Il s'agit donc d'une thématique liée à l'emploi et au marché du travail.",
+  "jetons": 9115
+ },
+ "4123163|DIV.202": {
+  "codes": [
+   "20000529",
+   "20000536",
+   "20000337"
+  ],
+  "justification": "Cet article traite de la réaction des syndicats face à une hausse annoncée des tarifs du métro, avec l'organisation d'une réunion de protestation. Les thèmes principaux sont liés aux conflits sociaux et au rôle des syndicats dans la défense des intérêts des travailleurs et des usagers des transports.",
+  "jetons": 9134
+ },
+ "4123163|DIV.640": {
+  "codes": [
+   "20000062",
+   "20000105",
+   "20000639",
+   "20000469"
+  ],
+  "justification": "Cet article traite de la disparition mystérieuse du général Shiro Ishii, ancien responsable de l'Unité 731, spécialisée dans la guerre bactériologique pendant la Seconde Guerre mondiale, et de son lien avec les autorités américaines.",
+  "jetons": 9163
+ },
+ "4133627|DIV.1013": {
+  "codes": [
+   "20001317"
+  ],
+  "justification": "Cet article est une série d'annonces pour des offres et demandes de garde d'enfants, incluant des propositions de nourrices, de gardes d'enfants ou de placement en famille d'accueil.",
+  "jetons": 9105
+ },
+ "4133627|DIV.1404": {
+  "codes": [
+   "20000614",
+   "20000579",
+   "20000606",
+   "20000693",
+   "20000040"
+  ],
+  "justification": "Cet article traite des événements politiques et sociaux précédant la Révolution de 1848 en France, notamment la campagne réformiste menée par l'opposition sous la monarchie de Juillet, les tensions au sein de la famille royale, et les prémices d'une révolte populaire contre le gouvernement de Louis-Philippe et Guizot. Il aborde également des thèmes comme les inégalités sociales, les revendications politiques et les dynamiques de pouvoir sous une monarchie constitutionnelle.",
+  "jetons": 10323
+ },
+ "4133627|DIV.1450": {
+  "codes": [
+   "20000884",
+   "20000630",
+   "20000560"
+  ],
+  "justification": "Cet article traite d'un sauvetage périlleux en montagne, plus précisément sur la « Barre des Écrins », suivi du retour de l'équipe de secours au refuge et d'un moment de détente. Les thèmes principaux sont liés à l'alpinisme, aux secours en montagne et aux activités récréatives après l'effort.",
+  "jetons": 9083
+ },
+ "4133627|DIV.1466": {
+  "codes": [
+   "20000884",
+   "20000168",
+   "20000456",
+   "20001147",
+   "20000434"
+  ],
+  "justification": "Cet article traite principalement d'accidents survenus lors d'ascensions en montagne, de sauvetages périlleux organisés par des équipes spécialisées, et de disparitions d'alpinistes dans les massifs des Écrins. Les thèmes dominants sont liés aux activités sportives en milieu montagneux, aux secours d'urgence et aux risques inhérents à l'alpinisme.",
+  "jetons": 9963
+ },
+ "4133872|DIV.1036": {
+  "codes": [
+   "20000469",
+   "20000213"
+  ],
+  "justification": "L'article mentionne le report d'une rubrique intitulée « La pêche en 100 lignes », ce qui indique qu'il traite d'un sujet lié à la presse écrite et plus précisément à une chronique ou un article dédié à la pêche.",
+  "jetons": 9023
+ },
+ "4133872|DIV.601": {
+  "codes": [
+   "20000131",
+   "20000103",
+   "20000099",
+   "20000104",
+   "20000693"
+  ],
+  "justification": "Cet article traite d'une enquête policière sur une fusillade aux Champs-Élysées, impliquant un industriel blessé et un garde du corps tué. Les rumeurs autour d'une prétendue vente de sa compagne à un maharadjah sont démenties, et l'article évoque des mobiles criminels encore secrets, liés à des conflits dans le « milieu » montmartrois.",
+  "jetons": 9546
+ },
+ "4134119|DIV.1190": {
+  "codes": [
+   "20000851"
+  ],
+  "justification": "L'article traite de matchs de basket-ball programmés pour une soirée spécifique, mentionnant les équipes et le lieu de la rencontre.",
+  "jetons": 9008
+ },
+ "4134119|DIV.1407": {
+  "codes": [
+   "20000851",
+   "20001147",
+   "20001324"
+  ],
+  "justification": "Cet article traite principalement d'un match de championnat national de basket-ball en France, en détaillant les enjeux, les équipes en compétition, les stratégies et les pronostics pour plusieurs rencontres. Il aborde également brièvement d'autres matchs de divisions inférieures, mais le cœur du sujet reste le basket-ball et son actualité sportive.",
+  "jetons": 9802
+ },
+ "4134119|DIV.28": {
+  "codes": [
+   "20000051",
+   "20000046"
+  ],
+  "justification": "Cet article est extrêmement court et semble être un renvoi ou une mention vers une autre page du journal, probablement liée à un programme télévisé ou une rubrique média. Le contenu évoque une information diffusée par un média d'information, en l'occurrence une chaîne de télévision ('ce soir').",
+  "jetons": 9026
+ },
+ "4134119|DIV.894": {
+  "codes": [
+   "20000719",
+   "20000738",
+   "20000500"
+  ],
+  "justification": "Cet article traite de l'annonce par un scientifique d'une expédition visant à capturer un spécimen femelle de coelacanthe, un poisson préhistorique, dans un but d'étude scientifique.",
+  "jetons": 9150
+ },
+ "4134119|DIV.928": {
+  "codes": [
+   "20000415",
+   "20000066",
+   "20001327"
+  ],
+  "justification": "Cet article traite d'une manifestation étudiante à l'Université de Reading, où des étudiantes protestent contre le choix de trois étudiantes parisiennes comme présidentes d'un événement, perçu comme une insulte à leurs propres charmes. L'accent est mis sur l'aspect social et festif de la protestation, ainsi que sur la dimension estudiantine et les dynamiques de genre.",
+  "jetons": 9175
+ },
+ "4135298|DIV.1086": {
+  "codes": [
+   "20000013"
+  ],
+  "justification": "Cet article est un extrait d'un roman-feuilleton littéraire du début du XXe siècle, centré sur une intrigue dramatique impliquant l'enlèvement d'un enfant dans un milieu populaire parisien. Le texte relève clairement de la fiction narrative, avec des dialogues, une atmosphère suspenseuse et une structure typique des récits sérialisés de l'époque. Il n'aborde pas de thèmes documentaires ou factuels, mais s'inscrit dans la tradition du roman social et policier.",
+  "jetons": 10977
+ },
+ "4135298|DIV.363": {
+  "codes": [
+   "20000067",
+   "20000062"
+  ],
+  "justification": "Cet article traite d'une insurrection armée en Bulgarie, avec des combats, des mouvements de troupes et des mesures répressives comme l'incendie de forêts, ce qui relève clairement d'un conflit armé et d'une rébellion contre l'autorité établie.",
+  "jetons": 9173
+ },
+ "4135298|DIV.775": {
+  "codes": [
+   "20000423",
+   "20000429",
+   "20000479",
+   "20000425",
+   "20000612"
+  ],
+  "justification": "Cet article traite de l'opposition d'un conseil municipal à l'installation d'une usine de sulfate d'ammoniaque en raison des risques sanitaires et environnementaux qu'elle représente pour la population locale, notamment la pollution de l'air, de l'eau et la dépréciation des propriétés.",
+  "jetons": 9390
+ },
+ "4135298|DIV.792": {
+  "codes": [
+   "20000213",
+   "20000403",
+   "20000746"
+  ],
+  "justification": "Cet article traite de l'ouverture au public d'une station de pisciculture universitaire, invitant les visiteurs à découvrir cette activité et offrant la possibilité d'étudier le sujet en détail sur demande.",
+  "jetons": 9118
+ },
+ "4140779|DIV.1012": {
+  "codes": [
+   "20000304",
+   "20000462",
+   "20000047"
+  ],
+  "justification": "Cet article est une compilation d'annonces publicitaires et de petites annonces parues dans un journal. Il mentionne des produits commerciaux (faience, porcelaine, verrerie, savon, liqueurs, cartes postales), des services (vente, récompenses pour animaux perdus), et des offres promotionnelles liées à un journal (carnets-prime). Les thèmes dominants relèvent donc du commerce, de la publicité et des médias d'information.",
+  "jetons": 9538
+ },
+ "4140779|DIV.1410": {
+  "codes": [
+   "20000693",
+   "20000529",
+   "20000399"
+  ],
+  "justification": "L'article traite de trois événements distincts : 1) Un sauvetage en mer impliquant un submersible et des pêcheurs en détresse, relevant des thèmes maritimes et des secours d'urgence. 2) Un conflit social dans une usine de tissage, lié à un désaccord sur les salaires et entraînant une fermeture temporaire. 3) Une condamnation judiciaire d'un curé pour des propos tenus en chaire contre l'école laïque, touchant à la fois à l'éducation religieuse et aux tensions entre institutions religieuses et étatiques.",
+  "jetons": 9368
+ },
+ "4140779|DIV.1422": {
+  "codes": [
+   "20000499",
+   "20000043"
+  ],
+  "justification": "L'article présente une liste de points de vente pour un agenda illustré, sans développer de thème spécifique autre que la commercialisation d'un produit éditorial. Le sujet principal est donc la distribution d'un ouvrage, ce qui relève du domaine des médias et de la librairie.",
+  "jetons": 9179
+ },
+ "4140779|DIV.1804": {
+  "codes": [
+   "20000786",
+   "20001236",
+   "20000505"
+  ],
+  "justification": "Cet article est une annonce publicitaire pour un service de mise en relation visant à organiser des mariages rapides, ciblant des femmes fortunées et des hommes sans fortune. Il relève principalement des thèmes liés aux relations amoureuses et au mariage, ainsi qu'à la recherche de partenaires sociaux ou économiques.",
+  "jetons": 9074
+ },
+ "4140779|DIV.223": {
+  "codes": [
+   "20000615",
+   "20000607",
+   "20000639",
+   "20000614",
+   "20000346"
+  ],
+  "justification": "Cet article traite d'une séance parlementaire française où sont discutés et votés des projets de loi relatifs aux finances publiques, notamment le budget de l'Algérie, des crédits supplémentaires, un emprunt parisien, et des questions diplomatiques comme l'achat du palais Farnèse en Italie. Les thèmes principaux sont liés à la gestion budgétaire, aux institutions politiques et aux relations internationales.",
+  "jetons": 11140
+ },
+ "4140779|DIV.799": {
+  "codes": [
+   "20000532",
+   "20001360",
+   "20000820"
+  ],
+  "justification": "L'article traite principalement de deux sujets : d'une part, une annonce concernant le paiement des pensions de retraite pour les employés des Chemins de fer français, ce qui relève des thèmes liés aux retraites et aux associations fraternelles ou communautaires ; d'autre part, une mesure sociale de la municipalité consistant à offrir une ration gratuite de vin dans les fourneaux économiques à l'occasion du Nouvel An, ce qui touche aux services sociaux et aux aides publiques.",
+  "jetons": 9221
+ },
+ "4140779|DIV.923": {
+  "codes": [
+   "20000856",
+   "20001125"
+  ],
+  "justification": "Cet article traite d'une séance d'entraînement de boxe organisée en vue d'un championnat à venir, avec une mention spécifique de l'organisation de cet événement sportif.",
+  "jetons": 9074
+ },
+ "4602945|DIV.420": {
+  "codes": [
+   "20000062",
+   "20000693",
+   "20000456",
+   "20000614",
+   "20000084"
+  ],
+  "justification": "Cet article est une lettre d'un soldat français pendant la Première Guerre mondiale décrivant une action militaire, la prise d'un drapeau ennemi lors d'une bataille, ainsi que les conditions de vie au front. Il évoque également le soutien moral des civils à travers des envois de cadeaux aux soldats.",
+  "jetons": 9476
+ },
+ "4602945|DIV.510": {
+  "codes": [
+   "20000062",
+   "20000639",
+   "20000614",
+   "20000408"
+  ],
+  "justification": "Cet article traite de la saisie (séquestre) de biens et entreprises appartenant à des ressortissants allemands ou austro-hongrois en France pendant la Première Guerre mondiale, une mesure de guerre économique ciblant les ennemis de l'État. Il évoque également la nomination de séquestres pour gérer ces biens et une exception pour un individu naturalisé français.",
+  "jetons": 9854
+ },
+ "4602945|DIV.577": {
+  "codes": [
+   "20000060",
+   "20000614",
+   "20000346",
+   "20000062",
+   "20000592"
+  ],
+  "justification": "Cet article traite de l'occupation allemande en Belgique pendant la Première Guerre mondiale, où les autorités militaires imposent un impôt de guerre exorbitant à la Belgique, déjà affaiblie économiquement. Il évoque également les mécanismes financiers mis en place sous la contrainte pour répondre à cette exigence, ainsi que la réaction internationale face à cette spoliation.",
+  "jetons": 9433
+ },
+ "4602945|DIV.619": {
+  "codes": [
+   "20000062",
+   "20000061"
+  ],
+  "justification": "Cet article traite de la liste des officiers et soldats français morts au combat, principalement pendant la Première Guerre mondiale. Il évoque les grades, les régiments et les circonstances de leur décès, ce qui relève clairement du thème de la guerre et des pertes militaires.",
+  "jetons": 9673
+ },
+ "4602945|DIV.778": {
+  "codes": [
+   "20000331",
+   "20000563"
+  ],
+  "justification": "Cet article est une annonce publicitaire de l'Hôtel Régina proposant des appartements avec services aux familles souhaitant rentrer à Paris, ce qui relève principalement du secteur du tourisme et de l'hébergement, ainsi que des services liés aux voyages et à l'hôtellerie.",
+  "jetons": 9100
+ },
+ "4604241|DIV.1956": {
+  "codes": [
+   "20000438",
+   "20000423",
+   "20001129"
+  ],
+  "justification": "Cet article traite de l'érosion côtière causée par l'océan Atlantique en Vendée, plus précisément à Saint-Gilles-Croix-de-Vie, où les vagues et les tempêtes endommagent progressivement la jetée et la falaise.",
+  "jetons": 9210
+ },
+ "4604241|DIV.863": {
+  "codes": [
+   "20000614",
+   "20000613",
+   "20000615",
+   "20000595",
+   "20001384"
+  ],
+  "justification": "Cet article traite de la situation politique en Italie, plus précisément d'une réunion du Conseil des ministres sous la présidence de Mussolini, des rumeurs de démissions de ministres et des tensions au sein du gouvernement, ainsi que des répercussions potentielles sur la stabilité politique du pays.",
+  "jetons": 9499
+ },
+ "4606143|DIV.117": {
+  "codes": [
+   "20000062",
+   "20000639",
+   "20000143"
+  ],
+  "justification": "Cet article traite d'un incident maritime pendant la Première Guerre mondiale, où un sous-marin britannique torpille un vapeur allemand, illustrant les hostilités navales entre belligérants.",
+  "jetons": 9082
+ },
+ "4606143|DIV.427": {
+  "codes": [
+   "20000040"
+  ],
+  "justification": "Cet article annonce une naissance dans une famille aristocratique, un événement relevant des faits de société et des coutumes liées à la vie familiale et sociale.",
+  "jetons": 8999
+ },
+ "4606143|DIV.746": {
+  "codes": [
+   "20000849"
+  ],
+  "justification": "Cet article traite d'un match de base-ball organisé à Saint-Cloud entre deux équipes américaines, marquant un événement sportif et une introduction de ce sport en France.",
+  "jetons": 9096
+ },
+ "4609982|DIV.1398": {
+  "codes": [
+   "20000960"
+  ],
+  "justification": "Cet article traite exclusivement des courses de lévriers, un événement sportif où des chiens (lévriers) concourent sur une piste. Il détaille les résultats des différentes éliminatoires et finales, ainsi que les gains associés, dans un cynodrome spécifique.",
+  "jetons": 9996
+ },
+ "4609982|DIV.1500": {
+  "codes": [
+   "20001154",
+   "20000498"
+  ],
+  "justification": "Cet article traite d'un tournoi international d'échecs, mettant en avant les performances des joueurs, le classement et l'issue des parties. Le sujet principal est donc centré sur les échecs en tant que discipline sportive et compétition.",
+  "jetons": 9245
+ },
+ "4610674|DIV.1655": {
+  "codes": [
+   "20000011"
+  ],
+  "justification": "Cet article est une annonce publicitaire pour un catalogue de vêtements pour enfants et bébés, proposant des prix réduits. Il relève donc principalement du domaine de la mode, en particulier des vêtements pour enfants.",
+  "jetons": 9031
+ },
+ "4610674|DIV.1673": {
+  "codes": [
+   "20001346",
+   "20000698",
+   "20000659"
+  ],
+  "justification": "Cet article traite de la procédure religieuse en vue de la béatification et de la canonisation d'un prêtre vendéen, Pierre Monnerau, fondateur d'une congrégation religieuse. Les thèmes principaux relèvent donc de la religion, notamment des processus internes à l'Église catholique et des cérémonies religieuses.",
+  "jetons": 9141
+ },
+ "4610674|DIV.171": {
+  "codes": [
+   "20000069",
+   "20000104",
+   "20000653",
+   "20000130",
+   "20000456"
+  ],
+  "justification": "Cet article traite d'une réunion politique du parti catholique antihitlérien en Sarre, marquée par des troubles violents, des blessures et une arrestation pour usage d'une arme à feu.",
+  "jetons": 9232
+ },
+ "4610674|DIV.711": {
+  "codes": [
+   "20000698",
+   "20001285",
+   "20000659",
+   "20000041",
+   "20000688"
+  ],
+  "justification": "Cet article traite d'un acte de vandalisme commis dans une église, impliquant la profanation d'objets religieux et des dégradations matérielles, avec des symboles politiques (croix gammées) laissés sur place. Les thèmes principaux incluent les actes de vandalisme, les lieux de culte chrétiens, et les conflits idéologiques ou politiques sous-jacents.",
+  "jetons": 9203
+ },
+ "4614978|DIV.301": {
+  "codes": [
+   "20000615",
+   "20000613"
+  ],
+  "justification": "Cet article est un échange humoristique et satirique entre deux personnes, évoquant de manière implicite la fin des vacances ou d'une période d'absence, en lien avec une activité professionnelle, ici celle d'un député. Il aborde donc indirectement le thème des institutions politiques et des élus.",
+  "jetons": 9038
+ },
+ "4614978|DIV.651": {
+  "codes": [
+   "20000991",
+   "20001125",
+   "20001341"
+  ],
+  "justification": "L'article traite d'une course automobile sur routes pavées, détaillant les catégories de véhicules, les participants, les incidents survenus et les résultats. Il met en avant l'importance des amortisseurs dans cette épreuve et mentionne des marques et modèles spécifiques de voitures ainsi que des performances sportives.",
+  "jetons": 10606
+ },
+ "4617451|DIV.1219": {
+  "codes": [
+   "20000040"
+  ],
+  "justification": "L'article est une critique ou une remarque sarcastique sur le comportement d'une personne qui semble imiter ou adopter des manières associées à un événement public majeur, en l'occurrence l'Exposition universelle ou un lieu emblématique comme le métro parisien lors d'un tel événement. Cela relève davantage du commentaire social ou culturel, mais sans détails supplémentaires, le thème le plus pertinent est celui des **Coutumes et traditions**, car il évoque une observation sur les comportements sociaux dans un contexte particulier.",
+  "jetons": 9055
+ },
+ "4617451|DIV.634": {
+  "codes": [
+   "20000143",
+   "20000639",
+   "20000456"
+  ],
+  "justification": "Cet article traite d'un accident impliquant un avion militaire, entraînant la disparition de deux membres d'équipage et la découverte de débris, sans retrouver les corps.",
+  "jetons": 9098
+ },
+ "4617451|DIV.922": {
+  "codes": [
+   "20000856",
+   "20001125"
+  ],
+  "justification": "Cet article traite d'une réunion de boxe avec les résultats des différents combats organisés au Central Sporting Club. Le sujet principal est donc clairement lié au sport de la boxe et à l'événement sportif en lui-même.",
+  "jetons": 9100
+ },
+ "4626819|DIV.2160": {
+  "codes": [
+   "20000304"
+  ],
+  "justification": "Cet article est une simple mention des responsables d'une imprimerie (L. Moyn comme gérant et H. Guénauer comme imprimeur) ainsi que de l'adresse de l'établissement (10, rue du Faubourg-Montmartre). Il ne traite pas d'un sujet thématique précis au-delà de l'identification d'une entreprise liée à l'imprimerie et aux médias.",
+  "jetons": 9064
+ },
+ "4626819|DIV.530": {
+  "codes": [
+   "20000363",
+   "20000386"
+  ],
+  "justification": "Cet article est une petite annonce commerciale concernant l'achat de matériaux précieux (platine, or, diamant) par une bijouterie. Il relève donc principalement du domaine de l'économie et du commerce, plus précisément des transactions liées aux métaux précieux et aux pierres précieuses.",
+  "jetons": 9037
+ },
+ "4626819|DIV.744": {
+  "codes": [
+   "20000337",
+   "20000514",
+   "20000512"
+  ],
+  "justification": "L'article mentionne explicitement des connaissances en mécanique (moto et automobile), une demande de place pour voyager, et un permis de conduire automobile. Il s'agit donc principalement d'une annonce liée à l'emploi dans le domaine des transports et de la conduite de véhicules.",
+  "jetons": 9055
+ },
+ "4629483|DIV.1259": {
+  "codes": [
+   "20001098",
+   "20001125"
+  ],
+  "justification": "Cet article annonce une grande réunion de catch avec plusieurs combats entre des catcheurs de différentes nationalités. Il s'agit donc d'un événement sportif lié à la lutte, un sport de combat et de spectacle.",
+  "jetons": 9145
+ },
+ "4629483|DIV.1465": {
+  "codes": [
+   "20001056",
+   "20001341",
+   "20001324"
+  ],
+  "justification": "Cet article traite des résultats de compétitions sportives en Espagne, spécifiquement des championnats de descente et de sauts en ski, ainsi que d'une épreuve féminine. Les thèmes principaux sont donc liés aux sports d'hiver et aux compétitions sportives.",
+  "jetons": 9200
+ },
+ "4629483|DIV.1543": {
+  "codes": [
+   "20000933",
+   "20001125",
+   "20000415"
+  ],
+  "justification": "Cet article traite principalement de résultats et d'annonces de matchs de hockey sur gazon, un sport collectif. Il mentionne également des événements sportifs organisés dans le cadre d'un tournoi scolaire et interclubs, ce qui relève de l'organisation sportive et des compétitions locales.",
+  "jetons": 9172
+ },
+ "4629483|DIV.2242": {
+  "codes": [
+   "20000988",
+   "20001177"
+  ],
+  "justification": "Cet article traite de l'organisation de deux épreuves préolympiques de marathon en Algérie, dans le cadre des préparatifs pour le marathon olympique. Il mentionne les résultats des courses et les athlètes participants, ce qui relève clairement du domaine sportif, plus précisément de la course de marathon et des compétitions olympiques.",
+  "jetons": 9254
+ },
+ "4629483|DIV.491": {
+  "codes": [
+   "20001015",
+   "20001125"
+  ],
+  "justification": "Cet article traite d'un tournoi professionnel de billard, plus précisément d'une compétition organisée par l'Académie Eldo avec une formule de handicap à la partie par la rouge. Il détaille les participants, les handicaps et le programme des matchs.",
+  "jetons": 9325
+ },
+ "4632496|DIV.1274": {
+  "codes": [
+   "20000892",
+   "20001341",
+   "20001125"
+  ],
+  "justification": "Cet article traite d'une compétition cycliste, le Circuit du Byrrh, Tour du Sud-Est 1928, en détaillant les modalités d'engagement, les étapes, les prix et les conditions pour les coureurs.",
+  "jetons": 9271
+ },
+ "4632496|DIV.1314": {
+  "codes": [
+   "20001026",
+   "20001177"
+  ],
+  "justification": "Cet article traite des régates préolympiques en aviron, où différentes équipes françaises s'affrontent pour représenter le pays aux Jeux Olympiques d'Amsterdam. Il décrit les compétitions, les favoris et les enjeux pour chaque catégorie d'embarcation.",
+  "jetons": 9438
+ },
+ "4633797|DIV.1304": {
+  "codes": [
+   "20001239",
+   "20001147",
+   "20000403",
+   "20001126",
+   "20000614"
+  ],
+  "justification": "Cet article traite de l'organisation et de la structuration de l'éducation physique en Roumanie après la Première Guerre mondiale, en mettant l'accent sur les institutions créées (comme l'Office National de l'Éducation Physique), les lois encadrant cette discipline, les méthodes d'enseignement, les infrastructures sportives et la comparaison avec la situation en France. Les thèmes principaux incluent l'éducation physique comme discipline scolaire, les politiques publiques en matière de sport, et les infrastructures sportives.",
+  "jetons": 10578
+ },
+ "4633797|DIV.1755": {
+  "codes": [
+   "20000991",
+   "20000757",
+   "20000294"
+  ],
+  "justification": "Cet article est une publicité pour des établissements spécialisés dans la vente d'outillage et d'accessoires liés à l'automobile, l'aviation et l'électricité, ciblant à la fois les garagistes et les particuliers.",
+  "jetons": 9097
+ },
+ "4650200|DIV.1462": {
+  "codes": [
+   "20000005"
+  ],
+  "justification": "Cet article mentionne un titre de film (« ONÉSIME ET SON ÂNE ») et précise qu'il s'agit d'une œuvre comique d'une durée de 175 mètres (format typique des films muets de l'époque), ce qui relève clairement du domaine du cinéma.",
+  "jetons": 9022
+ },
+ "4651968|DIV.101": {
+  "codes": [
+   "20000066",
+   "20000639",
+   "20000076",
+   "20000644",
+   "20000650"
+  ],
+  "justification": "Cet article traite de réunions publiques organisées en Angleterre pour exprimer un soutien à la Turquie face à l'invasion russe, ainsi que de l'opinion publique et des démarches politiques liées à la question d'Orient. Les thèmes principaux incluent les manifestations politiques, la diplomatie et les relations internationales, notamment autour d'un conflit impliquant la Russie et la Turquie.",
+  "jetons": 9344
+ },
+ "4651968|DIV.302": {
+  "codes": [
+   "20000639",
+   "20000060"
+  ],
+  "justification": "Cet article traite de mouvements diplomatiques et militaires, notamment le départ d'une frégate prussienne transportant un émissaire diplomatique vers les Dardanelles. Les thèmes principaux sont liés à la diplomatie et aux affaires maritimes militaires.",
+  "jetons": 9079
+ },
+ "4651968|DIV.315": {
+  "codes": [
+   "20000755",
+   "20000345"
+  ],
+  "justification": "Cet article traite de l'adoption du système métrique décimal français par la Nouvelle-Grenade (actuelle Colombie) en 1853, marquant une réforme des standards de mesure pour les actes officiels. Il s'agit donc d'une question de normalisation et de réglementation technique, relevant principalement de la politique économique et des standards.",
+  "jetons": 9293
+ },
+ "4651968|DIV.548": {
+  "codes": [
+   "20000294",
+   "20000213",
+   "20000373",
+   "20001158",
+   "20000210"
+  ],
+  "justification": "L'article traite principalement de sujets liés au commerce, à l'industrie et à l'économie, avec des exemples concrets comme la pêche (baleines, harengs), l'exportation de denrées (pommes de terre), des innovations industrielles (fabrication de biscuits de mer), une épidémie affectant l'élevage (moutons), une compagnie métallurgique et des produits commerciaux (pommade). Ces thèmes relèvent des secteurs économiques et des activités industrielles.",
+  "jetons": 10502
+ },
+ "4651968|DIV.624": {
+  "codes": [
+   "20001172",
+   "20000373",
+   "20000243"
+  ],
+  "justification": "Cet article est une annonce pour un poste de directeur-organisateur et de représentant commercial visant à vendre des 'articles de Paris' en France et à l'étranger. Il s'agit donc principalement d'une offre d'emploi liée au commerce et à la distribution de marchandises, relevant du domaine des petites et moyennes entreprises et du commerce international.",
+  "jetons": 9097
+ },
+ "4651968|DIV.84": {
+  "codes": [
+   "20000062",
+   "20000462",
+   "20000448",
+   "20000639",
+   "20000614"
+  ],
+  "justification": "Cet article traite des tensions diplomatiques entre la Russie et l'Empire ottoman en 1853, marquées par des préparatifs militaires, des positions intransigeantes et des mesures sanitaires liées à une épidémie de choléra. Il évoque également des dynamiques politiques internes au Divan ottoman et des enjeux de santé publique liés à la quarantaine.",
+  "jetons": 9192
+ },
+ "4653842|DIV.548": {
+  "codes": [
+   "20000346",
+   "20000294",
+   "20000210"
+  ],
+  "justification": "Cet article traite principalement des cours et transactions commerciales de produits agricoles, alimentaires et industriels (grains, farines, bestiaux, vins, huiles, savons, sucres, toiles, cotons) sur différents marchés français. Il s'agit d'un bulletin économique détaillant les prix, les quantités échangées et les tendances du marché.",
+  "jetons": 10519
+ },
+ "4653842|DIV.91": {
+  "codes": [
+   "20000639",
+   "20000076",
+   "20000643",
+   "20000440",
+   "20000614"
+  ],
+  "justification": "Cet article traite d'un différend frontalier entre la France et l'Espagne concernant des empiétements territoriaux dans la région du Quinto Real, ainsi que des efforts des autorités locales pour apaiser les tensions et promouvoir une résolution pacifique et diplomatique du conflit.",
+  "jetons": 9338
+ },
+ "4655957|DIV.720": {
+  "codes": [
+   "20000507",
+   "20000728",
+   "20000294"
+  ],
+  "justification": "Cet article est une annonce publicitaire pour un grainier fleuriste-pépiniériste proposant des graines potagères, fourragères, de fleurs et d'autres plantes, ainsi que des produits pour l'aménagement de jardins et prairies. Les thèmes principaux relèvent donc de l'horticulture et du commerce de plantes.",
+  "jetons": 9177
+ },
+ "4683771|DIV.109": {
+  "codes": [
+   "20000062",
+   "20000069",
+   "20000103",
+   "20000592",
+   "20000686"
+  ],
+  "justification": "Cet article traite des conséquences violentes d'une répression politique ou sociale, évoquant des morts lors d'un enterrement collectif après un conflit (probablement la Commune de Paris). Il décrit l'atmosphère de deuil, de colère et de révolte populaire face à une autorité répressive, ainsi que les violences subies par les victimes.",
+  "jetons": 9745
+ },
+ "4683816|DIV.326": {
+  "codes": [
+   "20000130",
+   "20000125",
+   "20000595"
+  ],
+  "justification": "Cet article traite de l'arrestation d'officiers d'état-major pour des infractions telles que le port illégal d'uniformes et des comportements inappropriés avec des femmes. Ces arrestations relèvent principalement de questions de discipline militaire, de droit pénal et de procédures judiciaires.",
+  "jetons": 9096
+ },
+ "4683816|DIV.489": {
+  "codes": [
+   "20000529",
+   "20000698",
+   "20000066",
+   "20000686",
+   "20000614"
+  ],
+  "justification": "Cet article traite de l'organisation et de la mobilisation des membres d'une section de l'Association internationale des travailleurs (aussi connue sous le nom de Première Internationale), qui appelle ses adhérents à participer activement aux réunions pour défendre la Révolution sociale et promouvoir l'émancipation des travailleurs. Il évoque également un contexte de lutte politique et sociale contre les monarchistes et les forces versaillaises, typique de la Commune de Paris.",
+  "jetons": 9336
+ },
+ "4688682|DIV.56": {
+  "codes": [
+   "20000029",
+   "20000018"
+  ],
+  "justification": "Cet article présente plusieurs œuvres lyriques et opéras-comiques, notamment leurs titres, auteurs, compositeurs et distributions. Il s'agit donc d'un sujet lié aux arts du spectacle, plus précisément à l'opéra-comique et au théâtre musical.",
+  "jetons": 9299
+ },
+ "4701183|DIV.1273": {
+  "codes": [
+   "20000243",
+   "20000331",
+   "20000498"
+  ],
+  "justification": "Cet article est une publicité pour des meubles en chêne massif et des sacs de couchage, publiée par les Galeries Barbès, un grand magasin parisien. Il s'agit donc principalement de commerce et de consommation, avec une dimension liée à l'ameublement et à l'équipement domestique.",
+  "jetons": 9205
+ },
+ "4701494|DIV.139": {
+  "codes": [
+   "20000029",
+   "20000698",
+   "20001125"
+  ],
+  "justification": "Cet article traite principalement des spectacles et des acteurs de la Comédie-Française et du second Théâtre-Français (Odéon), en analysant les performances, les rôles et les dynamiques internes des troupes de théâtre. Il aborde également des questions d'organisation et de rivalité entre les théâtres, ainsi que des critiques sur les comédiens et leurs débuts.",
+  "jetons": 10613
+ },
+ "4701494|DIV.57": {
+  "codes": [
+   "20001321",
+   "20000399",
+   "20000698"
+  ],
+  "justification": "L'article traite principalement de deux événements : la noyade d'un militaire à Toulouse, probablement un suicide lié à des chagrins domestiques, et une répartition de bourses pour des séminaires protestants à Montauban et Strasbourg.",
+  "jetons": 9426
+ },
+ "4702250|DIV.153": {
+  "codes": [
+   "20000614",
+   "20000579",
+   "20000595",
+   "20000653",
+   "20000408"
+  ],
+  "justification": "Cet article traite de la critique politique et sociale des électeurs parisiens payant un cens électoral de 300 francs, analysant leur influence perçue comme néfaste sur l'opinion publique et les institutions. Il aborde également les divisions de classes en France sous la Restauration, les critères d'appartenance aux élites selon un journal conservateur (la Gazette de France), et les tensions politiques entre libéraux et royalistes.",
+  "jetons": 10214
+ },
+ "4715618|DIV.335": {
+  "codes": [
+   "20000744",
+   "20000747",
+   "20000044"
+  ],
+  "justification": "Cet article traite de la découverte archéologique d'un objet en or (un ensemble d'anneaux) attribué à l'époque romaine, trouvé lors de travaux agricoles près d'une voie romaine. Cela relève à la fois de l'archéologie et de l'histoire, avec une dimension patrimoniale liée à la conservation d'objets anciens.",
+  "jetons": 9203
+ },
+ "4715618|DIV.396": {
+  "codes": [
+   "20000346",
+   "20001158"
+  ],
+  "justification": "Cet article traite de déclarations de faillites d'artisans et commerçants à Paris au XIXe siècle, évoquant des difficultés économiques et des défaillances d'entreprises dans divers secteurs d'activité.",
+  "jetons": 9171
+ },
+ "4717145|DIV.67": {
+  "codes": [
+   "20000430",
+   "20000628",
+   "20000614"
+  ],
+  "justification": "Cet article traite de la décision du conseil municipal de Paris d'acquérir des sources d'eau en Bourgogne, Normandie et Brie pour approvisionner la ville, impliquant des projets d'infrastructure hydraulique et de gestion des ressources en eau.",
+  "jetons": 9144
+ },
+ "4717145|DIV.84": {
+  "codes": [
+   "20000337",
+   "20001235"
+  ],
+  "justification": "Cet article traite du transport des restes du commandant Rivière, un sujet lié à des cérémonies commémoratives ou funéraires, ainsi qu'à des questions de transport maritime.",
+  "jetons": 9021
+ },
+ "4723470|DIV.315": {
+  "codes": [
+   "20000143",
+   "20000337",
+   "20000456"
+  ],
+  "justification": "Cet article traite d'un accident mortel survenu à un employé des chemins de fer, renversé par un train alors qu'il marchait sur la voie ferrée.",
+  "jetons": 9139
+ },
+ "4742203|DIV.721": {
+  "codes": [
+   "20000745",
+   "20000346",
+   "20001370"
+  ],
+  "justification": "Cet article traite de la présentation d'une compagnie d'assurances sur la vie, détaillant son capital social, ses taux d'assurance, ses placements financiers, la composition de son conseil d'administration et les différents types de contrats proposés (assurances en cas de décès ou de vie, dots pour les enfants, rentes viagères, etc.). Il s'agit donc principalement d'un sujet lié aux services financiers et à l'organisation économique.",
+  "jetons": 9884
+ },
+ "4743498|DIV.310": {
+  "codes": [
+   "20001128",
+   "20000730"
+  ],
+  "justification": "Cet article traite de la saisie d'un almanach météorologique publié par F.-V. Raspail, destiné à prévoir le temps pour les marins et les agriculteurs. Il aborde donc principalement les prévisions météorologiques et, par extension, la météorologie comme domaine scientifique et pratique.",
+  "jetons": 9063
+ },
+ "4743533|DIV.271": {
+  "codes": [
+   "20000620",
+   "20000345",
+   "20000614",
+   "20000747"
+  ],
+  "justification": "L'article traite d'une proposition de taxe sur les chapeaux de haute forme et les casquettes de livrée, présentée par un député. Il aborde des arguments économiques et sociaux, ainsi qu'une comparaison historique avec une mesure similaire en Angleterre. Le sujet principal est une mesure fiscale ciblant un symbole de distinction sociale, avec des implications sur la politique économique et les classes sociales.",
+  "jetons": 9528
+ },
+ "4743533|DIV.316": {
+  "codes": [
+   "20000598",
+   "20000062"
+  ],
+  "justification": "Cet article traite des travaux de fortification militaire autour de Paris, évoquant des plans de défense et des infrastructures militaires pour renforcer la sécurité de la ville.",
+  "jetons": 9127
+ },
+ "4743533|DIV.325": {
+  "codes": [
+   "20000046",
+   "20000107"
+  ],
+  "justification": "Cet article traite d'une affaire judiciaire liée à la publication d'un almanach météorologique, qui sera jugée par la cour d'assises. Le sujet principal est donc une procédure judiciaire en lien avec un média d'information spécialisé (almanach météorologique).",
+  "jetons": 9033
+ },
+ "4743572|DIV.210": {
+  "codes": [
+   "20000479",
+   "20000462",
+   "20001358",
+   "20000448",
+   "20000463"
+  ],
+  "justification": "Cet article traite principalement de la santé publique, en abordant des statistiques de mortalité, des maladies infectieuses et épidémiques, ainsi que des réflexions sur les soins aux nourrissons et des conseils médicaux sur le rhume. Les thèmes dominants relèvent donc du domaine médical et sanitaire.",
+  "jetons": 11334
+ },
+ "4743572|DIV.685": {
+  "codes": [
+   "20000386",
+   "20000210"
+  ],
+  "justification": "Cet article traite des cours des céréales et des huiles (blé, colza, lin) sur les marchés à terme, avec des indications de prix pour différentes périodes de livraison. Il s'agit donc d'un sujet lié à l'économie agricole et aux marchés des matières premières.",
+  "jetons": 9388
+ },
+ "4743714|DIV.678": {
+  "codes": [
+   "20000011",
+   "20000294"
+  ],
+  "justification": "Cet article est une annonce publicitaire pour des foulards en provenance de l'Inde, ce qui relève principalement du domaine de la mode et du commerce de produits textiles.",
+  "jetons": 9009
+ },
+ "4743818|DIV.95": {
+  "codes": [
+   "20000747",
+   "20000614",
+   "20000597"
+  ],
+  "justification": "Cet article traite de la Convention de Philadelphie de 1787, qui a abouti à la rédaction de la Constitution des États-Unis, un événement historique majeur dans la fondation des institutions politiques américaines. Il évoque également des réflexions sur le rôle des conventions dans la stabilisation politique et sociale.",
+  "jetons": 9517
+ },
+ "4743854|DIV.288": {
+  "codes": [
+   "20000960",
+   "20001147",
+   "20000560"
+  ],
+  "justification": "L'article traite d'une journée de patinage sur glace organisée par le Skating-Club français à Madrid, décrivant l'ambiance, les participants (notamment des personnalités et amateurs) et l'engouement pour cette activité sportive et mondaine.",
+  "jetons": 9342
+ },
+ "4743854|DIV.402": {
+  "codes": [
+   "20000018"
+  ],
+  "justification": "L'article mentionne un projet de représentation d'un opéra-bouffe composé par Johann Strauss, célèbre pour ses valses. Cela relève clairement du domaine de la musique et plus spécifiquement de l'opéra, un genre lyrique.",
+  "jetons": 9020
+ },
+ "4745347|DIV.538": {
+  "codes": [
+   "20000013",
+   "20000430"
+  ],
+  "justification": "Cet article annonce une séance de dédicace d'auteure pour deux de ses livres, ce qui relève clairement du domaine de la littérature et de la promotion d'ouvrages en librairie.",
+  "jetons": 9065
+ },
+ "4745483|DIV.267": {
+  "codes": [
+   "20000614",
+   "20000067",
+   "20000653",
+   "20000070"
+  ],
+  "justification": "Cet article traite d'une affaire politique liée à un complot contre la République française, impliquant des figures militaires et des allusions à des groupes d'extrême droite comme la Cagoule. Il évoque également les tensions politiques autour du général de Gaulle et les risques de déstabilisation institutionnelle.",
+  "jetons": 9265
+ },
+ "4745483|DIV.356": {
+  "codes": [
+   "20000122",
+   "20000040",
+   "20000592"
+  ],
+  "justification": "Cet article traite d'une décision judiciaire aux États-Unis concernant une demande de divorce pour violences conjugales, où le juge adopte une position controversée en minimisant les actes de violence et les insultes du mari. Le sujet aborde donc des questions de droit civil, de mœurs sociales, et de traitement des violences domestiques.",
+  "jetons": 9147
+ },
+ "4745483|DIV.389": {
+  "codes": [
+   "20000013",
+   "20000659",
+   "20000462"
+  ],
+  "justification": "Cet article traite d'une polémique littéraire et politique entre Jean-Paul Sartre et Louis Aragon, centrée sur la mémoire de Paul Nizan et la publication d'un manifeste anticommuniste. Il aborde des questions de littérature engagée, de conflits idéologiques et de révélations tardives dans le milieu intellectuel français.",
+  "jetons": 9223
+ },
+ "4745483|DIV.399": {
+  "codes": [
+   "20000753",
+   "20000510"
+  ],
+  "justification": "L'article traite d'une méthode pour améliorer la mémoire, présentée par un auteur suédois, et de la promotion de son ouvrage explicatif. Il s'agit donc principalement d'un sujet lié à la psychologie, à l'apprentissage et à la diffusion d'une technique personnelle, sans dimension scientifique ou médicale approfondie.",
+  "jetons": 9237
+ },
+ "4745483|DIV.465": {
+  "codes": [
+   "20000540",
+   "20000386"
+  ],
+  "justification": "Cet article est une grille de mots croisés accompagnée d'indices et d'un encadré sur les fluctuations des cours des matières premières. Le thème principal est donc les mots croisés (un jeu), avec une mention secondaire des marchés financiers liés aux matières premières.",
+  "jetons": 9546
+ },
+ "4746895|DIV.753": {
+  "codes": [
+   "20000013",
+   "20000031",
+   "20000005"
+  ],
+  "justification": "L'article traite de la carrière artistique et littéraire de Mme Andrée Sikorska, qui s'exprime à travers trois formes d'art : la sculpture, le dessin et la littérature. Il explore ses motivations, ses œuvres et les thèmes récurrents dans ses créations, comme la négation de Dieu et l'horreur de la mort.",
+  "jetons": 10145
+ },
+ "4749066|DIV.522": {
+  "codes": [
+   "20001065",
+   "20001177",
+   "20001341"
+  ],
+  "justification": "Cet article traite d'un match de football entre le Racing Club de Paris et l'équipe lilloise, avec des commentaires sur les performances des joueurs, les résultats d'autres matchs et les perspectives pour la Coupe. Le thème principal est donc le football, avec des éléments liés à la compétition sportive et aux résultats des équipes.",
+  "jetons": 9603
+ },
+ "4753294|DIV.1327": {
+  "codes": [
+   "20000560"
+  ],
+  "justification": "Cet article traite des résultats de concours de colombophilie, un loisir consistant à élever et faire concourir des pigeons voyageurs, organisés par différentes sociétés locales.",
+  "jetons": 10276
+ },
+ "4753294|DIV.1525": {
+  "codes": [
+   "20000410"
+  ],
+  "justification": "L'article mentionne le baptême d'une marque ou d'un produit nommé 'Lespaul-Havez', ce qui relève d'un événement lié à une entreprise ou une initiative commerciale, possiblement dans le secteur de l'alimentation ou des produits de consommation. Cependant, le texte est très succinct et ne fournit pas suffisamment de détails pour identifier un thème précis au-delà d'une possible référence à une cérémonie ou un lancement de produit.",
+  "jetons": 9050
+ },
+ "4753294|DIV.383": {
+  "codes": [
+   "20000055",
+   "20000456"
+  ],
+  "justification": "Cet article traite d'un attentat à la bombe survenu dans un bureau de poste en Russie, causant des dégâts matériels et blessant une personne. Le sujet principal est donc un acte de violence lié à un engin explosif.",
+  "jetons": 9077
+ },
+ "4753294|DIV.621": {
+  "codes": [
+   "20000772",
+   "20000773",
+   "20000131",
+   "20000337",
+   "20000595"
+  ],
+  "justification": "Cet article traite d'une agence clandestine d'émigration à Roubaix, où des intermédiaires illégaux organisaient le départ d'ouvriers vers l'Amérique (Canada) pour le compte de compagnies maritimes, en violation des lois sur l'émigration et sans autorisation ministérielle.",
+  "jetons": 9621
+ },
+ "4753294|DIV.711": {
+  "codes": [
+   "20001314"
+  ],
+  "justification": "Cet article traite d'un incident impliquant de la maltraitance animale, où un homme a été verbalisé pour avoir infligé des coups à son chien.",
+  "jetons": 9053
+ },
+ "4753294|DIV.757": {
+  "codes": [
+   "20000503",
+   "20000337"
+  ],
+  "justification": "Cet article traite de la découverte d'un ballon disparu, le « Floréal », retrouvé en Hollande, ainsi que de l'absence de nouvelles concernant ses deux aéronautes. Il s'inscrit dans le domaine des transports aériens et des mésaventures liées à l'aéronautique.",
+  "jetons": 9104
+ },
+ "4756274|DIV.603": {
+  "codes": [
+   "20000043",
+   "20000029",
+   "20000018"
+  ],
+  "justification": "Cet article traite principalement des activités culturelles et de loisirs disponibles un dimanche à Lille, notamment les musées ouverts au public, une représentation théâtrale et un concert caritatif.",
+  "jetons": 9149
+ },
+ "4756274|DIV.618": {
+  "codes": [
+   "20000536",
+   "20000498",
+   "20000188",
+   "20000018"
+  ],
+  "justification": "Cet article traite d'une cérémonie de remise de récompenses organisée par un syndicat de l'industrie du cuir, suivie d'un banquet avec des animations musicales. Les thèmes principaux sont liés au monde du travail (syndicats, récompenses pour ancienneté) et à un événement social (banquet avec musique).",
+  "jetons": 9165
+ },
+ "4756274|DIV.98": {
+  "codes": [
+   "20000125",
+   "20000806",
+   "20000107"
+  ],
+  "justification": "Cet article traite d'une audience judiciaire concernant une jeune femme accusée de vagabondage et de prostitution clandestine, avec des échanges entre le président du tribunal et la prévenue, ainsi que son défenseur. Les thèmes principaux relèvent du droit pénal, de la prostitution et des procédures judiciaires.",
+  "jetons": 9175
+ },
+ "4757163|DIV.253": {
+  "codes": [
+   "20000337",
+   "20000363"
+  ],
+  "justification": "Cet article traite de l'organisation d'un train spécial par la Compagnie du chemin de fer du Nord pour un voyage aller-retour à Dunkerque, avec des détails sur les horaires, les gares desservies et les tarifs appliqués, y compris des réductions pour les billets de famille.",
+  "jetons": 9609
+ },
+ "4757163|DIV.346": {
+  "codes": [
+   "20001129",
+   "20001130"
+  ],
+  "justification": "Cet article traite d'un bulletin météorologique détaillant les observations climatiques (température, pression, vent, précipitations) pour la ville de Lille à une date précise, ainsi que des prévisions pour le lendemain.",
+  "jetons": 9110
+ },
+ "4757163|DIV.843": {
+  "codes": [
+   "20000892",
+   "20000560"
+  ],
+  "justification": "Cet article est une publicité pour des bicyclettes de la marque « Star », vantant leurs qualités et indiquant les points de vente à Paris et Lille. Il relève donc principalement du domaine des loisirs et du sport, plus précisément du cyclisme.",
+  "jetons": 9093
+ },
+ "4757709|DIV.672": {
+  "codes": [
+   "20000294",
+   "20000217"
+  ],
+  "justification": "Cet article annonce la réouverture d'une succursale d'une société spécialisée dans la vente de pneus, caoutchouc, bandages pleins et vêtements imperméables pour divers usages (vélos, motos, autos, industrie). Il s'agit donc d'une publicité pour une entreprise liée à l'industrie manufacturière et aux produits dérivés du caoutchouc.",
+  "jetons": 9185
+ },
+ "4758930|DIV.1097": {
+  "codes": [
+   "20000104",
+   "20000130",
+   "20000131",
+   "20000125",
+   "20000099"
+  ],
+  "justification": "Cet article traite de deux affaires de banditisme impliquant des agressions et des vols commis par des individus armés. Les thèmes principaux sont liés à la criminalité, aux enquêtes policières et aux procédures judiciaires.",
+  "jetons": 9582
+ },
+ "4758930|DIV.1175": {
+  "codes": [
+   "20000827",
+   "20001147",
+   "20001323"
+  ],
+  "justification": "Cet article traite d'une course à pied organisée par l'Association Sportive Lilloise, annonçant un changement de date et des informations pratiques pour les participants. Il s'inscrit clairement dans le domaine du sport, plus précisément de l'athlétisme et des compétitions sportives locales.",
+  "jetons": 9134
+ },
+ "4758930|DIV.335": {
+  "codes": [
+   "20001236",
+   "20001235",
+   "20000408"
+  ],
+  "justification": "Cet article traite principalement d'annonces de mariages et de nécrologies, avec des détails sur les cérémonies funéraires et les personnalités présentes. Les thèmes dominants sont les événements de la vie sociale (mariage, funérailles) et les cérémonies associées.",
+  "jetons": 9781
+ },
+ "4758930|DIV.721": {
+  "codes": [
+   "20000055",
+   "20000131",
+   "20000083",
+   "20000104"
+  ],
+  "justification": "L'article traite d'une explosion dans une fabrique d'explosifs à Genève, causée par un acte de malveillance, avec des conséquences matérielles et une enquête judiciaire en cours.",
+  "jetons": 9157
+ },
+ "4758930|DIV.728": {
+  "codes": [
+   "20000011",
+   "20000507"
+  ],
+  "justification": "Cet article est une publicité pour des parfums, mettant en avant des concentrés de fleurs. Il relève donc principalement du domaine de la mode et des produits de beauté, avec une référence aux plantes utilisées dans la composition des parfums.",
+  "jetons": 9043
+ },
+ "4767236|DIV.113": {
+  "codes": [
+   "20000062",
+   "20000684",
+   "20000639"
+  ],
+  "justification": "Cet article traite d'une bataille militaire entre les troupes anglaises et les Sikhs, décrivant une victoire décisive des Anglais, les pertes humaines et matérielles, ainsi qu'un arrangement financier et territorial consécutif à cette victoire. Il s'inscrit donc dans le contexte d'un conflit armé et de ses conséquences politiques et territoriales.",
+  "jetons": 9325
+ },
+ "4767236|DIV.299": {
+  "codes": [
+   "20000386",
+   "20000210",
+   "20000345"
+  ],
+  "justification": "Cet article traite des arrivages, ventes et cours des céréales (gruaux et straaux) à la Halle de Paris, avec des données quantitatives et des prix moyens. Il s'agit donc d'un sujet lié au commerce des matières premières agricoles et à leur marché.",
+  "jetons": 9666
+ },
+ "4767236|DIV.504": {
+  "codes": [
+   "20000462",
+   "20000047"
+  ],
+  "justification": "L'article mentionne une imprimerie, ce qui relève directement de l'industrie de l'impression et de la production de médias imprimés, notamment les journaux et périodiques. Bien que le texte ne soit pas lisible, le contexte historique des imprimeries en France, surtout situées rue du Croissant (quartier emblématique de la presse parisienne), permet de déduire qu'il s'agit d'un sujet lié aux médias d'information et à leur production.",
+  "jetons": 9072
+ },
+ "4767236|DIV.74": {
+  "codes": [
+   "20000698",
+   "20000069",
+   "20000679",
+   "20000592",
+   "20000688"
+  ],
+  "justification": "Cet article traite d'un conflit impliquant la communauté juive en Galicie, mentionnant des violences (massacres, pillages) et une possible implication dans un contexte d'insurrection. Les thèmes principaux sont liés aux tensions sociales, aux violences collectives et aux persécutions religieuses.",
+  "jetons": 9154
+ },
+ "4767477|DIV.352": {
+  "codes": [
+   "20000029",
+   "20000560",
+   "20000410"
+  ],
+  "justification": "Cet article présente une liste de spectacles et représentations théâtrales prévus pour le 2 juillet, incluant des pièces de théâtre, des opéras-comiques, des vaudevilles, des soirées équestres et des divertissements variés comme des bals ou des feux d'artifice. Le thème principal est donc lié aux arts du spectacle, en particulier au théâtre et aux activités récréatives associées.",
+  "jetons": 9773
+ },
+ "4768768|DIV.212": {
+  "codes": [
+   "20000749",
+   "20000615",
+   "20000345"
+  ],
+  "justification": "Cet article traite des débats parlementaires autour d'un projet de loi sur les brevets d'invention en France, incluant les formalités de dépôt, les taxes, les droits des inventeurs et des ayants droit, ainsi que les modalités de cession et de publication des brevets.",
+  "jetons": 13153
+ },
+ "4769030|DIV.202": {
+  "codes": [
+   "20000725",
+   "20000719",
+   "20000479",
+   "20000741",
+   "20001358"
+  ],
+  "justification": "Cet article traite principalement des travaux et débats scientifiques présentés à l'Académie des sciences, notamment en chimie, biologie (embryologie), médecine, et techniques d'impression lithographique. Il aborde aussi des questions de santé publique et des projets d'exploration scientifique.",
+  "jetons": 12776
+ },
+ "4773419|DIV.264": {
+  "codes": [
+   "20000018",
+   "20000029"
+  ],
+  "justification": "Cet article traite principalement de représentations d'opéras et de spectacles lyriques dans différents théâtres à travers le monde, avec des critiques détaillées des performances des chanteurs et des artistes. Il aborde également des aspects liés aux arts de la scène, notamment le théâtre et la musique classique.",
+  "jetons": 12644
+ },
+ "4773529|DIV.1194": {
+  "codes": [
+   "20000934",
+   "20000029",
+   "20000560"
+  ],
+  "justification": "Cet article annonce les activités d'un établissement nommé 'Splendide Rink', qui combine une patinoire (skating) et un théâtre. Il met en avant des événements spécifiques comme la 'Fête des Patineurs' et une 'Soirée-Gala', ce qui relève à la fois des loisirs sportifs (patinage) et des divertissements culturels (théâtre et soirées).",
+  "jetons": 9132
+ },
+ "4773529|DIV.125": {
+  "codes": [
+   "20000031",
+   "20000013",
+   "20000044"
+  ],
+  "justification": "L'article traite de la publication prochaine d'un album d'illustrations réalisées par le peintre A. de Neuville pour le livre 'La Dame aux Camélias' d'Alexandre Dumas. Ces illustrations, gravées à l'eau-forte, s'inscrivent dans le domaine des arts visuels et de la littérature, avec une dimension liée à l'édition de luxe et au patrimoine culturel.",
+  "jetons": 9118
+ },
+ "4773529|DIV.133": {
+  "codes": [
+   "20000031",
+   "20000044"
+  ],
+  "justification": "L'article traite de la réalisation d'un buste sculptural commandé par la Cour des comptes pour honorer son premier président. Il s'agit donc d'une œuvre d'art liée à une institution publique, ce qui relève à la fois des arts visuels et du patrimoine institutionnel.",
+  "jetons": 9055
+ },
+ "4773529|DIV.167": {
+  "codes": [
+   "20000789",
+   "20000794"
+  ],
+  "justification": "Cet article relate une anecdote charmante et humoristique mettant en scène un jeune enfant et son père, illustrant une situation familiale et sociale touchante.",
+  "jetons": 9030
+ },
+ "4773529|DIV.183": {
+  "codes": [
+   "20000013"
+  ],
+  "justification": "Cet article est une citation littéraire sous forme de maxime ou de proverbe, évoquant une réflexion morale sur la calomnie. Il relève donc principalement de la littérature, sans autre thème connexe identifiable.",
+  "jetons": 9011
+ },
+ "4773529|DIV.272": {
+  "codes": [
+   "20000731",
+   "20000725",
+   "20000741"
+  ],
+  "justification": "Cet article traite des illusions sensorielles liées à la perception de la chaleur et du froid, en expliquant les mécanismes physiques et physiologiques qui influencent nos sensations thermiques. Il s'appuie sur des expériences scientifiques et des principes de conductivité thermique pour illustrer ces phénomènes.",
+  "jetons": 12363
+ },
+ "4773529|DIV.510": {
+  "codes": [
+   "20000499",
+   "20000047"
+  ],
+  "justification": "Cet article traite des modalités d'abonnement postal au journal 'L'EUROPE FINANCIÈRE', en précisant les conditions pratiques et financières pour les souscripteurs.",
+  "jetons": 9097
+ },
+ "4773609|DIV.635": {
+  "codes": [
+   "20000462",
+   "20000560",
+   "20000479"
+  ],
+  "justification": "L'article traite principalement de deux établissements à Budapest : un restaurant (Restaurant Blumenstock) et des établissements hydrothérapiques fondés par le docteur Vaskovits, qui proposent des soins médicaux modernes comme l'hydrothérapie, les bains de vapeur, les massages, etc. Il mentionne également brièvement un hôtel (Hotel Frohner). Les thèmes dominants sont liés à la santé, aux soins médicaux et aux services hôteliers/restaurants.",
+  "jetons": 9351
+ },
+ "4773935|DIV.136": {
+  "codes": [
+   "20000013",
+   "20000747",
+   "20000041"
+  ],
+  "justification": "L'article traite de deux conférences littéraires données à Bruxelles par des rédacteurs de l'Europe, Edgar Monteil et Benjamin Gastineau. La première conférence porte sur l'histoire de la littérature française médiévale (notamment la *Chanson de Roland* et les romans du Cycle carolingien), tandis que la seconde aborde la vie de Voltaire et les libres-penseurs du XVIIIe siècle en Belgique. Ces sujets relèvent principalement de la littérature et de l'histoire culturelle, avec une dimension liée aux événements publics (conférences).",
+  "jetons": 10173
+ },
+ "4773937|DIV.464": {
+  "codes": [
+   "20000013",
+   "20000465",
+   "20000345",
+   "20000614",
+   "20000747"
+  ],
+  "justification": "Cet article est un extrait d'un roman historique centré sur la vie de Mirabeau, un personnage politique et littéraire du XVIIIe siècle. Il aborde ses relations familiales conflictuelles, son emprisonnement, son évasion, sa relation amoureuse avec Sophie de Monnier, ainsi que ses idées politiques et économiques. L'article mêle des éléments biographiques, des intrigues amoureuses et des réflexions sur l'économie politique et la société de l'époque.",
+  "jetons": 14409
+ },
+ "4785180|DIV.812": {
+  "codes": [
+   "20000458",
+   "20000810",
+   "20000698"
+  ],
+  "justification": "Cet article traite du suicide d'un bedeau dans une église, évoquant des troubles mentaux comme cause probable. Les thèmes principaux sont liés à la santé mentale et à la mort, avec un contexte religieux lié à l'église où l'événement s'est produit.",
+  "jetons": 9117
+ },
+ "4785732|DIV.646": {
+  "codes": [
+   "20000462",
+   "20000041",
+   "20000294",
+   "20001089",
+   "20000005"
+  ],
+  "justification": "Cet article traite de plusieurs sujets variés présents dans une rubrique de presse ancienne, incluant des faits divers (accidents, crimes, incendies), des événements politiques et diplomatiques, des actualités culturelles (théâtre, exposition universelle), des informations locales (élections, grèves, travaux publics) et des nouvelles sportives (course cycliste).",
+  "jetons": 11419
+ },
+ "4785732|DIV.818": {
+  "codes": [
+   "20000013",
+   "20000498"
+  ],
+  "justification": "Cet article est une annonce publicitaire pour la publication des œuvres complètes d'Alfred de Musset, incluant une biographie écrite par son frère Paul de Musset. Il met en avant des illustrations et des détails sur l'édition, ce qui relève principalement de la littérature et de l'édition de livres.",
+  "jetons": 9149
+ },
+ "4791550|DIV.730": {
+  "codes": [
+   "20000960"
+  ],
+  "justification": "Cet article traite principalement de courses hippiques, un événement sportif où des chevaux et leurs jockeys s'affrontent sur un parcours d'obstacles. Il mentionne également des détails sur les performances des chevaux, les résultats des courses et un incident lié à une blessure d'un cheval.",
+  "jetons": 9236
+ },
+ "4791550|DIV.756": {
+  "codes": [
+   "20001026",
+   "20001125",
+   "20001341"
+  ],
+  "justification": "Cet article traite d'une compétition sportive annuelle d'aviron, la « Coupe de France », organisée par le Cercle nautique de France et soutenue par diverses personnalités et institutions. Il mentionne les participants et les épreuves prévues, ce qui en fait un sujet clairement lié au sport, plus précisément à l'aviron et aux événements sportifs.",
+  "jetons": 9326
+ },
+ "6703872|DIV.1082": {
+  "codes": [
+   "20000029",
+   "20000018",
+   "20000498",
+   "20000693",
+   "20000041"
+  ],
+  "justification": "L'article traite principalement de représentations théâtrales et lyriques (opéra-comique, tragédie antique, opéra) ainsi que de la carrière d'un comédien de la Comédie-Française. Il mentionne également des conférences culturelles et des annonces liées aux institutions théâtrales.",
+  "jetons": 10119
+ },
+ "6703872|DIV.291": {
+  "codes": [
+   "20000105",
+   "20000099",
+   "20000777",
+   "20000639",
+   "20000125"
+  ],
+  "justification": "Cet article traite d'un crime violent commis par un officier militaire (le prince d'Arenberg) contre un domestique indigène dans une colonie allemande, illustrant des actes de cruauté extrême et un abus de pouvoir. Il relève à la fois de la justice militaire, des crimes coloniaux et des violences raciales.",
+  "jetons": 9304
+ },
+ "6703872|DIV.314": {
+  "codes": [
+   "20000046",
+   "20000013",
+   "20000049",
+   "20000040",
+   "20000747"
+  ],
+  "justification": "L'article traite de plusieurs sujets variés : une élection à l'Académie des Beaux-Arts (culture et institutions artistiques), la nomination d'un directeur politique pour un journal (médias), des publications dans une revue littéraire et philosophique (littérature et sciences humaines), un article sur la politique étrangère turque (relations internationales et histoire), et un compte-rendu d'une fête caritative à Monte-Carlo liée à la guerre sud-africaine (événement mondain et contexte historique).",
+  "jetons": 9782
+ },
+ "6703872|DIV.643": {
+  "codes": [
+   "20000719",
+   "20000737",
+   "20000439",
+   "20000040"
+  ],
+  "justification": "Cet article traite d'une observation populaire en Maine-et-Loire concernant la transformation supposée de crins de cheval en annélidés (vers), ainsi que de son intérêt potentiel pour l'embryogénie, une branche de la biologie étudiant le développement des organismes. Il relève donc principalement des sciences naturelles et de la recherche scientifique, avec une dimension folklorique ou traditionnelle.",
+  "jetons": 9195
+ },
+ "6705781|DIV.694": {
+  "codes": [
+   "20000786",
+   "20001326",
+   "20000122",
+   "20000698",
+   "20000592"
+  ],
+  "justification": "Cet article traite d'un procès en divorce où les torts sont partagés entre les époux, avec une mention particulière du mouvement féministe comme l'un des motifs de discorde. Il aborde également des questions juridiques liées au divorce, à la garde d'enfant et aux droits des femmes.",
+  "jetons": 9499
+ },
+ "6706398|DIV.369": {
+  "codes": [
+   "20000529",
+   "20000614",
+   "20000595"
+  ],
+  "justification": "Cet article traite d'un conflit interne lors d'une conférence syndicale d'instituteurs britanniques, lié à des divergences politiques autour du communisme.",
+  "jetons": 9094
+ },
+ "6706398|DIV.510": {
+  "codes": [
+   "20000235",
+   "20001244"
+  ],
+  "justification": "L'article traite principalement de deux sujets : d'une part, une nouvelle loi sur les loyers en Belgique, qui relève de la politique de logement et de l'immobilier, et d'autre part, la création d'une régie autonome pour les téléphones, liée à la gestion des services publics et aux infrastructures. Ces thèmes sont respectivement couverts par les étiquettes 'Construction et immobilier' et 'Services des collectivités (eau, gaz, électricité)'.",
+  "jetons": 9702
+ },
+ "6706398|DIV.530": {
+  "codes": [
+   "20000639",
+   "20000469",
+   "20000479"
+  ],
+  "justification": "Cet article traite principalement de deux sujets distincts : d'une part, l'intervention politique et diplomatique des États-Unis au Nicaragua et en Chine, et d'autre part, une mesure gouvernementale américaine concernant la réglementation de l'alcool industriel pour éviter les empoisonnements.",
+  "jetons": 9476
+ },
+ "6706398|DIV.585": {
+  "codes": [
+   "20000076",
+   "20000078",
+   "20000592",
+   "20000639",
+   "20000614"
+  ],
+  "justification": "Cet article traite d'une réunion pacifiste à Francfort-sur-le-Mein, où des orateurs discutent du rapprochement franco-allemand, du désarmement général, de l'occupation de la Rhénanie et d'une pétition pour une amnistie générale en Allemagne. Les thèmes principaux incluent les pourparlers de paix, le désarmement, les droits de l'homme et les questions politiques liées à la sécurité et aux relations internationales.",
+  "jetons": 9549
+ },
+ "6706398|DIV.851": {
+  "codes": [
+   "20000960"
+  ],
+  "justification": "Cet article présente les résultats de plusieurs courses hippiques, listant les chevaux arrivés en tête de chaque course avec leurs performances. Le sujet principal est donc lié aux courses de chevaux et aux compétitions équestres.",
+  "jetons": 11211
+ },
+ "6710420|DIV.495": {
+  "codes": [
+   "20000810"
+  ],
+  "justification": "Cet article présente un tableau récapitulatif des décès survenus en une semaine (du 18 au 24 juillet 1870), classés par catégorie (hommes, femmes, garçons, filles) et par origine (Européens). Il s'agit d'une statistique démographique liée à la mortalité, sans analyse supplémentaire.",
+  "jetons": 9262
+ },
+ "6710420|DIV.638": {
+  "codes": [
+   "20000614",
+   "20000346",
+   "20000122"
+  ],
+  "justification": "Cet article traite de la dissolution d'une société en nom collectif spécialisée dans la fabrication et le commerce de passementerie, boutonnerie et commission, avec des succursales en France et à l'étranger. Il s'agit d'un acte juridique formalisant la fin des activités commerciales entre les associés.",
+  "jetons": 9582
+ },
+ "6710457|DIV.145": {
+  "codes": [
+   "20000013",
+   "20000592",
+   "20000458",
+   "20000698",
+   "20000040"
+  ],
+  "justification": "Cet article est une nouvelle littéraire du XIXe siècle racontant l'histoire tragique d'une jeune femme, Laure, entraînée dans la déchéance par une amie manipulatrice. Le texte aborde des thèmes comme la corruption morale, la chute sociale, le remords et le suicide, le tout dans un style romantique et mélodramatique. Les étiquettes retenues reflètent la dimension littéraire, les enjeux sociaux et moraux, ainsi que la critique des mœurs de l'époque.",
+  "jetons": 11342
+ },
+ "6710457|DIV.28": {
+  "codes": [
+   "20001271",
+   "20000047"
+  ],
+  "justification": "L'article mentionne la fête de la Toussaint, une commémoration religieuse et culturelle importante, et annonce la suspension de la parution d'un journal en raison de cette fête.",
+  "jetons": 9041
+ },
+ "6710458|DIV.433": {
+  "codes": [
+   "20000736",
+   "20000029"
+  ],
+  "justification": "L'article mentionne une personne présentant des expériences scientifiques dans un cadre de représentation publique, ce qui relève à la fois de la science et de la démonstration publique ou spectacle.",
+  "jetons": 9023
+ },
+ "6710458|DIV.758": {
+  "codes": [
+   "20000011",
+   "20001172"
+  ],
+  "justification": "Cet article est une publicité pour un magasin de tissus et d'articles de mode pour dames, proposant divers vêtements, accessoires et nouveautés textiles.",
+  "jetons": 9271
+ },
+ "6711097|DIV.1246": {
+  "codes": [
+   "20000462",
+   "20000492",
+   "20001359"
+  ],
+  "justification": "Cet article traite principalement des services médicaux spécialisés dans les accouchements, les maladies des femmes et des enfants, proposés par une clinique dirigée par une femme médecin. Il relève donc du domaine de la santé, plus précisément des soins médicaux et de la gynécologie-obstétrique.",
+  "jetons": 9100
+ },
+ "6711097|DIV.1266": {
+  "codes": [
+   "20000350",
+   "20001370"
+  ],
+  "justification": "Cet article traite des services offerts par le Crédit Lyonnais, notamment la gestion de dépôts de titres financiers et d'objets précieux, ce qui relève du domaine bancaire et financier.",
+  "jetons": 9143
+ },
+ "6711097|DIV.1299": {
+  "codes": [
+   "20000294",
+   "20000243",
+   "20000467"
+  ],
+  "justification": "Cet article est une annonce publicitaire pour une marque d'absinthe, mentionnant son année de fondation et un agent général à Oran. Il s'agit donc principalement d'une référence à une entreprise historique dans le secteur des spiritueux et de la distribution, avec une dimension commerciale et historique.",
+  "jetons": 9055
+ },
+ "6711097|DIV.632": {
+  "codes": [
+   "20000403",
+   "20000412",
+   "20000416",
+   "20000372",
+   "20000465"
+  ],
+  "justification": "Cet article traite de l'ouverture des cours d'une école pratique de commerce et d'hydrographie, détaillant les programmes éducatifs proposés, notamment en commerce, langues, comptabilité, sténodactylographie et préparation aux brevets maritimes.",
+  "jetons": 9367
+ },
+ "6711097|DIV.742": {
+  "codes": [
+   "20000013",
+   "20000892"
+  ],
+  "justification": "Cet article est un extrait d'un roman-feuilleton littéraire du début du XXe siècle, centré sur des intrigues familiales et sentimentales (paternité, rivalités amoureuses, dilemmes moraux). Il contient également une brève mention d'un événement sportif (course cycliste), mais celle-ci est secondaire et sert davantage de transition narrative que de sujet principal.",
+  "jetons": 11232
+ },
+ "6716695|DIV.1080": {
+  "codes": [
+   "20000403",
+   "20000412"
+  ],
+  "justification": "Cet article est une annonce pour des cours particuliers ou une préparation aux examens (Brevet supérieur, Brevet simple) en français, histoire et géographie, dispensés par une ancienne élève de l'École normale supérieure de Fontenay. Les thèmes principaux concernent donc l'éducation, notamment la formation et les programmes d'études.",
+  "jetons": 9069
+ }
+}

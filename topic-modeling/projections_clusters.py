@@ -261,6 +261,10 @@ def categories_iptc():
           for k, c in conc.items()}
 
     def remonter(code):
+        """Remonte la chaîne `broader` du référentiel jusqu'à la catégorie de premier
+        niveau dont ce code dépend. Rend None si la chaîne se rompt, et s'arrête
+        sur les codes déjà vus, une hiérarchie SKOS pouvant se refermer sur
+        elle-même."""
         vu = set()
         while code not in racines and code not in vu:
             vu.add(code)
@@ -532,6 +536,8 @@ def purete_voisinage(X, g):
 
 
 def main():
+    """Point d'entrée : projette les plongements en deux dimensions et colore les
+    points par la catégorie attribuée."""
     p = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     p.add_argument("--recalculer", action="store_true",
                    help="refait la projection au lieu de relire le cache")

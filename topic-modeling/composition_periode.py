@@ -421,6 +421,9 @@ def police():
 
 
 def main():
+    """Point d'entrée : mesure la composition thématique par période, et selon les
+    options écrit le tableau LaTeX, confronte au tableur Gallica ou trace les
+    figures."""
     p = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     p.add_argument("--latex", action="store_true", help="écrire le corps du tableau LaTeX")
     p.add_argument("--controle", action="store_true", help="confronter au tableur Gallica")

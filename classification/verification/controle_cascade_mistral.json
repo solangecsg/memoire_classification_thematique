@@ -1,0 +1,1434 @@
+{
+ "4109000|DIV.233": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000018",
+   "20000007"
+  ]
+ },
+ "4109000|DIV.432": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20001354",
+   "20000294",
+   "20000386"
+  ]
+ },
+ "4109000|DIV.639": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000316",
+   "20000294",
+   "20000183",
+   "20000386"
+  ]
+ },
+ "4109676|DIV.527": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013"
+  ]
+ },
+ "4109676|DIV.97": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000807",
+   "20000592",
+   "20000795"
+  ]
+ },
+ "4112815|DIV.909": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000049",
+   "20000011"
+  ]
+ },
+ "4123163|DIV.1214": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000560"
+  ]
+ },
+ "4123163|DIV.202": {
+  "famille": "09000000",
+  "famille_label": "Social",
+  "codes": [
+   "20000536",
+   "20000529",
+   "20000339"
+  ]
+ },
+ "4123163|DIV.640": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000054",
+   "20000062"
+  ]
+ },
+ "4133627|DIV.1013": {
+  "famille": "09000000",
+  "famille_label": "Social",
+  "codes": [
+   "20000511",
+   "20000512",
+   "20000518"
+  ]
+ },
+ "4133627|DIV.1404": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000592",
+   "20000588",
+   "20001326"
+  ]
+ },
+ "4133627|DIV.1450": {
+  "famille": "08000000",
+  "famille_label": "Gens animaux insolite",
+  "codes": [
+   "20000503"
+  ]
+ },
+ "4133627|DIV.1466": {
+  "famille": "03000000",
+  "famille_label": "Désastres et accidents",
+  "codes": [
+   "20000168",
+   "20000151",
+   "20000161"
+  ]
+ },
+ "4133872|DIV.1036": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000560"
+  ]
+ },
+ "4133872|DIV.601": {
+  "famille": "02000000",
+  "famille_label": "Criminalité, droit et justice",
+  "codes": [
+   "20001313",
+   "20000131",
+   "20000101",
+   "20000099"
+  ]
+ },
+ "4134119|DIV.1190": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000851"
+  ]
+ },
+ "4134119|DIV.1407": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000851",
+   "20001341",
+   "20001343"
+  ]
+ },
+ "4134119|DIV.28": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000046"
+  ]
+ },
+ "4134119|DIV.894": {
+  "famille": "13000000",
+  "famille_label": "Science et technologie",
+  "codes": [
+   "20000719",
+   "20000738",
+   "20000740"
+  ]
+ },
+ "4134119|DIV.928": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20001143",
+   "20000539",
+   "20000560"
+  ]
+ },
+ "4135298|DIV.1086": {
+  "famille": "02000000",
+  "famille_label": "Criminalité, droit et justice",
+  "codes": [
+   "20000100",
+   "20000131",
+   "20000125",
+   "20000133"
+  ]
+ },
+ "4135298|DIV.363": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000067",
+   "20000057"
+  ]
+ },
+ "4135298|DIV.775": {
+  "famille": "06000000",
+  "famille_label": "Environnement",
+  "codes": [
+   "20000429",
+   "20000425",
+   "20000426",
+   "20000428",
+   "20000442"
+  ]
+ },
+ "4135298|DIV.792": {
+  "famille": "05000000",
+  "famille_label": "Éducation",
+  "codes": [
+   "20000405",
+   "20000412",
+   "20000415"
+  ]
+ },
+ "4140779|DIV.1012": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000550",
+   "20000540",
+   "20000560"
+  ]
+ },
+ "4140779|DIV.1410": {
+  "famille": "03000000",
+  "famille_label": "Désastres et accidents",
+  "codes": [
+   "20001321",
+   "20000168"
+  ]
+ },
+ "4140779|DIV.1422": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000550"
+  ]
+ },
+ "4140779|DIV.1804": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000786",
+   "20000782"
+  ]
+ },
+ "4140779|DIV.223": {
+  "famille": "11000000",
+  "famille_label": "Politique",
+  "codes": [
+   "20000607",
+   "20000614",
+   "20000615",
+   "20000639",
+   "20001260"
+  ]
+ },
+ "4140779|DIV.799": {
+  "famille": "09000000",
+  "famille_label": "Social",
+  "codes": [
+   "20000532",
+   "20000518"
+  ]
+ },
+ "4140779|DIV.923": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000856",
+   "20001323",
+   "20001341"
+  ]
+ },
+ "4602945|DIV.510": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000060"
+  ]
+ },
+ "4602945|DIV.577": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000060",
+   "20000062"
+  ]
+ },
+ "4602945|DIV.619": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000061",
+   "20000062"
+  ]
+ },
+ "4602945|DIV.778": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000551",
+   "20000560"
+  ]
+ },
+ "4604241|DIV.1956": {
+  "famille": "03000000",
+  "famille_label": "Désastres et accidents",
+  "codes": [
+   "20000151",
+   "20000161"
+  ]
+ },
+ "4604241|DIV.863": {
+  "famille": "11000000",
+  "famille_label": "Politique",
+  "codes": [
+   "20001312",
+   "20000614",
+   "20000613",
+   "20000610",
+   "20001266"
+  ]
+ },
+ "4606143|DIV.117": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000062"
+  ]
+ },
+ "4606143|DIV.746": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000849"
+  ]
+ },
+ "4609982|DIV.1398": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000919"
+  ]
+ },
+ "4609982|DIV.1500": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20001154"
+  ]
+ },
+ "4610674|DIV.1655": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000047"
+  ]
+ },
+ "4610674|DIV.1673": {
+  "famille": "12000000",
+  "famille_label": "Religion et croyance",
+  "codes": [
+   "20001346",
+   "20000698",
+   "20000659"
+  ]
+ },
+ "4610674|DIV.171": {
+  "famille": "11000000",
+  "famille_label": "Politique",
+  "codes": [
+   "20001384",
+   "20000650",
+   "20001266"
+  ]
+ },
+ "4610674|DIV.711": {
+  "famille": "12000000",
+  "famille_label": "Religion et croyance",
+  "codes": [
+   "20000698",
+   "20000688",
+   "20000659"
+  ]
+ },
+ "4614978|DIV.301": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000803",
+   "20001284"
+  ]
+ },
+ "4614978|DIV.651": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000991",
+   "20001341",
+   "20001343"
+  ]
+ },
+ "4617451|DIV.1219": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000041",
+   "20000044"
+  ]
+ },
+ "4617451|DIV.634": {
+  "famille": "03000000",
+  "famille_label": "Désastres et accidents",
+  "codes": [
+   "20000143",
+   "20001321"
+  ]
+ },
+ "4617451|DIV.922": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000856"
+  ]
+ },
+ "4626819|DIV.2160": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539"
+  ]
+ },
+ "4626819|DIV.530": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000316",
+   "20000294",
+   "20000386"
+  ]
+ },
+ "4626819|DIV.744": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000560",
+   "20000540"
+  ]
+ },
+ "4629483|DIV.1465": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20001056",
+   "20001333",
+   "20001341"
+  ]
+ },
+ "4629483|DIV.1543": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20001065",
+   "20001125"
+  ]
+ },
+ "4629483|DIV.2242": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000988",
+   "20001177"
+  ]
+ },
+ "4629483|DIV.491": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000853"
+  ]
+ },
+ "4632496|DIV.1274": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000922",
+   "20001333",
+   "20001341",
+   "20001304"
+  ]
+ },
+ "4632496|DIV.1314": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20001026",
+   "20001177",
+   "20001341"
+  ]
+ },
+ "4633797|DIV.1304": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20001125",
+   "20001323",
+   "20001126"
+  ]
+ },
+ "4633797|DIV.1755": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000572"
+  ]
+ },
+ "4650200|DIV.1462": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000003",
+   "20000005"
+  ]
+ },
+ "4651968|DIV.101": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000066",
+   "20000062"
+  ]
+ },
+ "4651968|DIV.302": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000058"
+  ]
+ },
+ "4651968|DIV.315": {
+  "famille": "13000000",
+  "famille_label": "Science et technologie",
+  "codes": [
+   "20000755",
+   "20000749",
+   "20000747"
+  ]
+ },
+ "4651968|DIV.548": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000213",
+   "20000294",
+   "20000210",
+   "20000316",
+   "20001365"
+  ]
+ },
+ "4651968|DIV.624": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000192",
+   "20000243",
+   "20001289",
+   "20001371"
+  ]
+ },
+ "4651968|DIV.84": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000076"
+  ]
+ },
+ "4653842|DIV.91": {
+  "famille": "11000000",
+  "famille_label": "Politique",
+  "codes": [
+   "20000639",
+   "20001316",
+   "20000610"
+  ]
+ },
+ "4655957|DIV.720": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000550",
+   "20000570"
+  ]
+ },
+ "4683771|DIV.109": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000071",
+   "20000068",
+   "20000062"
+  ]
+ },
+ "4683816|DIV.326": {
+  "famille": "02000000",
+  "famille_label": "Criminalité, droit et justice",
+  "codes": [
+   "20000130",
+   "20000131"
+  ]
+ },
+ "4683816|DIV.489": {
+  "famille": "11000000",
+  "famille_label": "Politique",
+  "codes": [
+   "20001385",
+   "20000575",
+   "20000650"
+  ]
+ },
+ "4688682|DIV.56": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018",
+   "20000029"
+  ]
+ },
+ "4701183|DIV.1273": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000570"
+  ]
+ },
+ "4701494|DIV.139": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000039"
+  ]
+ },
+ "4701494|DIV.57": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000810",
+   "20001360",
+   "20000590"
+  ]
+ },
+ "4702250|DIV.153": {
+  "famille": "11000000",
+  "famille_label": "Politique",
+  "codes": [
+   "20000576",
+   "20000650",
+   "20001384"
+  ]
+ },
+ "4715618|DIV.335": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000044",
+   "20000039"
+  ]
+ },
+ "4715618|DIV.396": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20001366",
+   "20001172",
+   "20000294"
+  ]
+ },
+ "4717145|DIV.67": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20001244",
+   "20000235",
+   "20000363"
+  ]
+ },
+ "4717145|DIV.84": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000810"
+  ]
+ },
+ "4723470|DIV.315": {
+  "famille": "03000000",
+  "famille_label": "Désastres et accidents",
+  "codes": [
+   "20000143",
+   "20001321"
+  ]
+ },
+ "4742203|DIV.721": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20001370",
+   "20000199",
+   "20000390"
+  ]
+ },
+ "4743498|DIV.310": {
+  "famille": "17000000",
+  "famille_label": "Météo",
+  "codes": [
+   "20001128"
+  ]
+ },
+ "4743533|DIV.271": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000363",
+   "20000373"
+  ]
+ },
+ "4743533|DIV.316": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000062"
+  ]
+ },
+ "4743533|DIV.325": {
+  "famille": "02000000",
+  "famille_label": "Criminalité, droit et justice",
+  "codes": [
+   "20000107",
+   "20000125"
+  ]
+ },
+ "4743572|DIV.210": {
+  "famille": "07000000",
+  "famille_label": "Santé",
+  "codes": [
+   "20001358",
+   "20000448",
+   "20000470",
+   "20000465"
+  ]
+ },
+ "4743572|DIV.685": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000386",
+   "20000210",
+   "20000373"
+  ]
+ },
+ "4743818|DIV.95": {
+  "famille": "11000000",
+  "famille_label": "Politique",
+  "codes": [
+   "20000597",
+   "20000653",
+   "20001266"
+  ]
+ },
+ "4743854|DIV.288": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539",
+   "20000560",
+   "20001239",
+   "20000553"
+  ]
+ },
+ "4743854|DIV.402": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018",
+   "20000029",
+   "20000005"
+  ]
+ },
+ "4745347|DIV.538": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000043"
+  ]
+ },
+ "4745483|DIV.267": {
+  "famille": "11000000",
+  "famille_label": "Politique",
+  "codes": [
+   "20000610",
+   "20000648",
+   "20001385",
+   "20000597"
+  ]
+ },
+ "4745483|DIV.356": {
+  "famille": "02000000",
+  "famille_label": "Criminalité, droit et justice",
+  "codes": [
+   "20000084",
+   "20000125",
+   "20000107"
+  ]
+ },
+ "4745483|DIV.389": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000047"
+  ]
+ },
+ "4745483|DIV.399": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000046",
+   "20000047"
+  ]
+ },
+ "4745483|DIV.465": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000049"
+  ]
+ },
+ "4746895|DIV.753": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000031"
+  ]
+ },
+ "4749066|DIV.522": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20001065",
+   "20001341",
+   "20001343"
+  ]
+ },
+ "4753294|DIV.1327": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000539",
+   "20000560"
+  ]
+ },
+ "4753294|DIV.1525": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000572"
+  ]
+ },
+ "4753294|DIV.383": {
+  "famille": "02000000",
+  "famille_label": "Criminalité, droit et justice",
+  "codes": [
+   "20000103",
+   "20000099",
+   "20000133"
+  ]
+ },
+ "4753294|DIV.621": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000772",
+   "20000773"
+  ]
+ },
+ "4753294|DIV.757": {
+  "famille": "03000000",
+  "famille_label": "Désastres et accidents",
+  "codes": [
+   "20000143",
+   "20000168"
+  ]
+ },
+ "4756274|DIV.603": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000043",
+   "20000029",
+   "20000044"
+  ]
+ },
+ "4756274|DIV.618": {
+  "famille": "09000000",
+  "famille_label": "Social",
+  "codes": [
+   "20000536",
+   "20000518",
+   "20000512"
+  ]
+ },
+ "4756274|DIV.98": {
+  "famille": "02000000",
+  "famille_label": "Criminalité, droit et justice",
+  "codes": [
+   "20000107",
+   "20000118",
+   "20000125"
+  ]
+ },
+ "4757163|DIV.253": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000553",
+   "20000563",
+   "20000551"
+  ]
+ },
+ "4757163|DIV.346": {
+  "famille": "17000000",
+  "famille_label": "Météo",
+  "codes": [
+   "20001128",
+   "20001129"
+  ]
+ },
+ "4757163|DIV.843": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20001239",
+   "20000560",
+   "20000563"
+  ]
+ },
+ "4758930|DIV.1097": {
+  "famille": "02000000",
+  "famille_label": "Criminalité, droit et justice",
+  "codes": [
+   "20000104",
+   "20000084",
+   "20000130",
+   "20000133"
+  ]
+ },
+ "4758930|DIV.1175": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000827",
+   "20001341"
+  ]
+ },
+ "4758930|DIV.335": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000786",
+   "20000810"
+  ]
+ },
+ "4758930|DIV.721": {
+  "famille": "03000000",
+  "famille_label": "Désastres et accidents",
+  "codes": [
+   "20000140",
+   "20000150",
+   "20000141"
+  ]
+ },
+ "4758930|DIV.728": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000011"
+  ]
+ },
+ "4767236|DIV.113": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000060"
+  ]
+ },
+ "4767236|DIV.299": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000386",
+   "20000294",
+   "20000363"
+  ]
+ },
+ "4767236|DIV.504": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000047"
+  ]
+ },
+ "4767236|DIV.74": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000071",
+   "20000069",
+   "20000067"
+  ]
+ },
+ "4767477|DIV.352": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000041",
+   "20000031"
+  ]
+ },
+ "4768768|DIV.212": {
+  "famille": "13000000",
+  "famille_label": "Science et technologie",
+  "codes": [
+   "20000755",
+   "20000749",
+   "20000736"
+  ]
+ },
+ "4769030|DIV.202": {
+  "famille": "13000000",
+  "famille_label": "Science et technologie",
+  "codes": [
+   "20000725",
+   "20000719",
+   "20000736",
+   "20000737",
+   "20000740"
+  ]
+ },
+ "4773419|DIV.264": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000018",
+   "20000029"
+  ]
+ },
+ "4773529|DIV.1194": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000041",
+   "20000040"
+  ]
+ },
+ "4773529|DIV.125": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000031",
+   "20000044"
+  ]
+ },
+ "4773529|DIV.133": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000031",
+   "20000044",
+   "20000043"
+  ]
+ },
+ "4773529|DIV.167": {
+  "famille": "08000000",
+  "famille_label": "Gens animaux insolite",
+  "codes": [
+   "20001237"
+  ]
+ },
+ "4773529|DIV.183": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000803",
+   "20001284"
+  ]
+ },
+ "4773529|DIV.272": {
+  "famille": "13000000",
+  "famille_label": "Science et technologie",
+  "codes": [
+   "20000731",
+   "20000725",
+   "20000736"
+  ]
+ },
+ "4773529|DIV.510": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000304",
+   "20000243",
+   "20001289"
+  ]
+ },
+ "4773609|DIV.635": {
+  "famille": "07000000",
+  "famille_label": "Santé",
+  "codes": [
+   "20000478",
+   "20000462",
+   "20000492"
+  ]
+ },
+ "4773935|DIV.136": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000041",
+   "20000043"
+  ]
+ },
+ "4773937|DIV.464": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000782",
+   "20000786",
+   "20000592",
+   "20001326",
+   "20000772"
+  ]
+ },
+ "4785180|DIV.812": {
+  "famille": "02000000",
+  "famille_label": "Criminalité, droit et justice",
+  "codes": [
+   "20000099",
+   "20000131"
+  ]
+ },
+ "4785732|DIV.646": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000801",
+   "20001326",
+   "20000772"
+  ]
+ },
+ "4785732|DIV.818": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000013",
+   "20000043",
+   "20000049"
+  ]
+ },
+ "4791550|DIV.730": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000960",
+   "20001341"
+  ]
+ },
+ "4791550|DIV.756": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20001026"
+  ]
+ },
+ "6703872|DIV.1082": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000029",
+   "20000018",
+   "20000041"
+  ]
+ },
+ "6703872|DIV.291": {
+  "famille": "02000000",
+  "famille_label": "Criminalité, droit et justice",
+  "codes": [
+   "20000099",
+   "20000105",
+   "20000125"
+  ]
+ },
+ "6703872|DIV.314": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000047",
+   "20000013",
+   "20000043",
+   "20000049"
+  ]
+ },
+ "6703872|DIV.643": {
+  "famille": "13000000",
+  "famille_label": "Science et technologie",
+  "codes": [
+   "20000719",
+   "20000736"
+  ]
+ },
+ "6705781|DIV.694": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20001326",
+   "20000783",
+   "20000787",
+   "20000779"
+  ]
+ },
+ "6706398|DIV.369": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20001360",
+   "20000592",
+   "20000590"
+  ]
+ },
+ "6706398|DIV.510": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000235",
+   "20001244",
+   "20000363"
+  ]
+ },
+ "6706398|DIV.530": {
+  "famille": "11000000",
+  "famille_label": "Politique",
+  "codes": [
+   "20000639",
+   "20000642",
+   "20000479"
+  ]
+ },
+ "6706398|DIV.585": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000076",
+   "20000078",
+   "20000060"
+  ]
+ },
+ "6706398|DIV.851": {
+  "famille": "15000000",
+  "famille_label": "Sport",
+  "codes": [
+   "20000960"
+  ]
+ },
+ "6710420|DIV.495": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000810"
+  ]
+ },
+ "6710420|DIV.638": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20001366",
+   "20000188",
+   "20000294"
+  ]
+ },
+ "6710457|DIV.145": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000786",
+   "20000787",
+   "20000803",
+   "20000777",
+   "20001326"
+  ]
+ },
+ "6710457|DIV.28": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20001143"
+  ]
+ },
+ "6710458|DIV.433": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000040"
+  ]
+ },
+ "6710458|DIV.758": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000570",
+   "20001143",
+   "20000572"
+  ]
+ },
+ "6711097|DIV.1266": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20001370",
+   "20000183"
+  ]
+ },
+ "6711097|DIV.1299": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000570"
+  ]
+ },
+ "6711097|DIV.632": {
+  "famille": "05000000",
+  "famille_label": "Éducation",
+  "codes": [
+   "20001216",
+   "20000403",
+   "20000414",
+   "20001213"
+  ]
+ },
+ "6711097|DIV.742": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000787",
+   "20000790",
+   "20001373"
+  ]
+ },
+ "6716695|DIV.1080": {
+  "famille": "05000000",
+  "famille_label": "Éducation",
+  "codes": [
+   "20000413",
+   "20000405",
+   "20000416",
+   "20000412"
+  ]
+ },
+ "4602945|DIV.420": {
+  "famille": "16000000",
+  "famille_label": "Conflit, guerre et paix",
+  "codes": [
+   "20000062",
+   "20000080"
+  ]
+ },
+ "4606143|DIV.427": {
+  "famille": "14000000",
+  "famille_label": "Société",
+  "codes": [
+   "20000794"
+  ]
+ },
+ "4629483|DIV.1259": {
+  "famille": "10000000",
+  "famille_label": "Vie quotidienne et loisirs",
+  "codes": [
+   "20000560",
+   "20000539",
+   "20001143"
+  ]
+ },
+ "4653842|DIV.548": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000294",
+   "20000386",
+   "20000210"
+  ]
+ },
+ "4743714|DIV.678": {
+  "famille": "01000000",
+  "famille_label": "Arts, culture, divertissement et médias",
+  "codes": [
+   "20000011"
+  ]
+ },
+ "4753294|DIV.711": {
+  "famille": "08000000",
+  "famille_label": "Gens animaux insolite",
+  "codes": [
+   "20000503"
+  ]
+ },
+ "4757709|DIV.672": {
+  "famille": "04000000",
+  "famille_label": "Économie et finances",
+  "codes": [
+   "20000224",
+   "20000294",
+   "20000243"
+  ]
+ },
+ "6711097|DIV.1246": {
+  "famille": "07000000",
+  "famille_label": "Santé",
+  "codes": [
+   "20000492",
+   "20000462",
+   "20000487"
+  ]
+ }
+}

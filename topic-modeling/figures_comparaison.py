@@ -227,6 +227,8 @@ def figure_couts():
 
 
 def main():
+    """Point d'entrée : trace les figures qui comparent les trois méthodes sur le
+    même corpus."""
     argparse.ArgumentParser(description=__doc__.split("\n")[1]).parse_args()
     police()
     SORTIE.mkdir(exist_ok=True)

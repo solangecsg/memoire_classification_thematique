@@ -33,7 +33,8 @@ classification-iptc/
 ├── requirements.txt
 ├── config/.env                                  ← à créer (MISTRAL_API_KEY=...)
 │
-├── classification/         ← les 4 variantes de classification LLM
+├── classification/         ← les variantes de classification, et leur vérification
+│   └── verification/        ← épreuves en aveugle, réponses, sorties des contrôles
 ├── analyse_couts/           ← estimation de coûts, sans appel API, et ses CSV
 ├── results/                  ← sorties de classification (JSON par fascicule)
 └── re-ocr/
@@ -46,7 +47,7 @@ classification-iptc/
 
 ## `classification/` : classer les articles par thème IPTC
 
-Les 4 scripts font tous la même tâche (lire les articles d'un fascicule, leur assigner 1 à 5 thèmes IPTC via Mistral, sauvegarder un JSON par fascicule) mais avec une stratégie différente pour réduire le coût. Ils sont indépendants (chacun peut tourner seul) et partagent `iptc_mediatopic_official.json` (taxonomie IPTC officielle, format SKOS/JSON-LD, source : `cv.iptc.org/newscodes/mediatopic/`).
+Les 4 scripts `classify_iptc_mistral*.py` font tous la même tâche (lire les articles d'un fascicule, leur assigner 1 à 5 thèmes IPTC via Mistral, sauvegarder un JSON par fascicule) mais avec une stratégie différente pour réduire le coût. Les scripts `controle_*.py` et `verification_*.py`, décrits plus bas, éprouvent ces variantes et en mesurent la justesse. Ils sont indépendants (chacun peut tourner seul) et partagent `iptc_mediatopic_official.json` (taxonomie IPTC officielle, format SKOS/JSON-LD, source : `cv.iptc.org/newscodes/mediatopic/`).
 
 Le diagramme d'activité de la variante retenue, groupage par lot, figure dans `classification/schema_pipeline_classification.png`, avec sa source vectorielle au format SVG à côté.
 
@@ -64,14 +65,99 @@ python classify_iptc_mistral<variante>.py --force                        # retra
 | `classify_iptc_mistral.py` | Référence : 1 article = 1 appel API, liste complète des 567 étiquettes à chaque fois. | Coût de référence, le plus simple à comprendre. |
 | `classify_iptc_mistral_cached.py` | Comme la référence, mais le contenu fixe (instructions + liste) est regroupé dans le message `system` + `prompt_cache_key`, pour profiter du cache de prompt Mistral (-90% sur les tokens déjà vus). | Gain réel mais modeste (~-47% sur l'échantillon testé). |
 | `classify_iptc_mistral_batched.py` | Regroupe plusieurs articles par appel (budget dynamique de tokens, jusqu'à 25 articles/appel) le coût fixe de la liste est ainsi partagé entre tous les articles du lot. | **La plus économique, 89 % de moins que la référence. Les mesures détaillées sont dans `analyse_couts/`.** |
-| `classify_iptc_mistral_cascade.py` | En 2 étages : d'abord une classification niveau 2 (120 catégories, liste courte) sur tous les articles, puis un 2ᵉ passage niveau 3 par branche assignée (liste réduite aux seuls enfants de cette branche). | **Essayée et rejetée : coûte plus cher que le groupage simple**  le texte de chaque article est envoyé 2 fois (une fois par étage), ce qui mange l'économie faite sur la liste. La docstring du script détaille le mécanisme. Conservée dans le dépôt à titre d'exemple documenté d'une piste d'optimisation qui semblait logique sur le papier et ne tient pas à la mesure. |
+| `classify_iptc_mistral_cascade.py` | En 2 étages : d'abord une classification niveau 2 (120 catégories, liste courte) sur tous les articles, puis un 2ᵉ passage niveau 3 par branche assignée (liste réduite aux seuls enfants de cette branche). | **Plus chère que le groupage simple, et de qualité équivalente** : le texte de chaque article est envoyé 2 fois, une fois par étage, ce qui mange l'économie faite sur la liste. Le jugement humain conduit depuis la donne à 47,5 % contre 47,8 % pour le groupage, soit un écart nul pour un coût de 2,5 fois. Elle redevient en revanche la seule conception praticable dès que la facturation au jeton disparaît, c'est-à-dire en local : voir `classify_iptc_ollama_cascade.py`. |
 
-Points communs aux 4 scripts :
+Points communs aux 4 scripts `classify_iptc_mistral*.py` :
 - Comptage de tokens réel via `mistral-common` (tokenizer Mistral téléchargé depuis Hugging Face au premier lancement), pas une approximation en caractères.
 - Schéma JSON strict (`response_format: json_schema`) : les codes IPTC renvoyés par Mistral sont contraints par `enum` à la liste fournie . Impossible d'obtenir un code hors taxonomie.
 - Retry différencié : 401/403 arrête tout de suite (clé invalide), 400 abandonne sans réessayer (requête invalide), 429/5xx retente avec backoff exponentiel.
 - Suivi des tokens et du temps de réponse par appel, agrégés par fascicule puis pour tout le run (avec estimation de coût selon `MISTRAL_MODEL`).
 - Reprise automatique : un fascicule déjà sorti est sauté (sauf `--force`).
+
+---
+
+## `classification/verification/` : ce que valent les étiquettes
+
+Les scripts ci-dessus mesurent un coût, un volume et une convergence entre
+dispositifs. Aucun ne mesure une justesse, faute de vérité de référence pour ce
+corpus. Quatre épreuves en aveugle ont été conduites pour y répondre dans les
+limites du possible.
+
+**Le principe est le même dans les quatre.** Un item présente un article et une
+étiquette, sans dire d'où l'étiquette vient. La moitié environ des étiquettes
+sont des leurres, tirés d'autres articles du même corpus et de la même bande de
+fréquence. Le taux d'acceptation des leurres mesure la complaisance du jugement :
+s'il est bas, le taux d'acceptation des vraies étiquettes devient lisible.
+
+| Épreuve | Ce qu'elle juge | Items | Vraies acceptées | Leurres acceptés |
+|---|---|---|---|---|
+| **A** | les 62 étiquettes que le corpus n'emploie qu'une fois | 62 | 31/62 = 50,0 % | (sans leurres) |
+| **B** | des attributions de la campagne groupée | 129 | 33/69 = **47,8 %** | 1/60 = **1,7 %** |
+| **C** | des attributions du régime un-article-par-appel | 116 | 23/58 = 39,7 % | 0/58 = 0,0 % |
+| **D** | les deux cascades, mêlées et anonymes | 160 | commerciale 19/40 = **47,5 %**<br>locale 10/40 = **25,0 %** | 3/80 = 3,8 % |
+
+467 items jugés au total, par un seul annotateur, en trois heures environ. Les
+taux de leurres, de 0,0 à 3,8 %, ne se distinguent pas les uns des autres : les
+quatre séances sont comparables.
+
+**Ce que l'épreuve A établit en plus.** Sur les 25 étiquettes uniques rejetées,
+15 le sont parce que la catégorie n'a pas de sens pour la période : six
+disciplines sportives modernes, neuf notions postérieures au corpus. Le
+référentiel IPTC n'attache aucune date à ses entrées, et le modèle les reçoit
+donc comme des candidates légitimes pour un fascicule de 1880.
+
+**Le consensus entre exécutions prédit la justesse.** Les étiquettes jugées en A
+et B viennent toutes de la campagne groupée. Rapportées aux deux reprises
+unitaires indépendantes, elles se répartissent ainsi :
+
+| Reprises qui confirment l'étiquette | Acceptée par le jugement |
+|---|---|
+| aucune des deux | 25/65 = 38,5 % |
+| une seule | 8/14 = 57,1 % |
+| les deux | 31/33 = **93,9 %** |
+
+L'accord porte donc sur trois exécutions réparties sur deux régimes. Le procédé
+ne se réduit pas à exécuter deux fois la même chaîne : l'épreuve C, où une seule
+confirmation indépendante est disponible, ne montre aucun effet (46,4 % avec
+elle, 47,6 % sans).
+
+**Les régimes éprouvés.** Tous portent sur les mêmes 169 articles, avec la même
+liste de 567 étiquettes et une température nulle.
+
+| Régime | Script | Étiq./art. | Justesse |
+|---|---|---|---|
+| groupage par lot de 25 | `classify_iptc_mistral_batched.py` | 2,18 | 47,8 % |
+| un appel par article | `controle_appel_unitaire.py` | 3,21 | — |
+| un appel par article, seconde reprise | `controle_appel_unitaire.py --temoin` | 3,15 | — |
+| cascade commerciale | `controle_cascade_mistral.py` | 2,47 | 47,5 % |
+| unitaire + justification | `controle_justification_mistral.py --mode unitaire` | 2,93 | non jugée |
+| cascade + justification | `controle_justification_mistral.py --mode cascade` | 2,13 | non jugée |
+| local, liste entière | `classify_iptc_ollama.py` | 4,50 | non jugée |
+| local, cascade | `classify_iptc_ollama_cascade.py` | 2,36 | 25,0 % |
+| local, cascade + justification | `classify_iptc_ollama_cascade.py --justification` | 1,96 | non jugée |
+
+Deux reprises du régime unitaire, à invite et à modèle identiques, ne rendent le
+même jeu d'étiquettes que dans 34,9 % des cas, pour un recouvrement de Jaccard
+moyen de 0,631. Toute mesure porte donc sur une exécution particulière.
+
+Les régimes locaux tournent sur un MacBook Air M1 doté de 8 Go de mémoire vive.
+Cette capacité borne ce qui peut y être exécuté : le dernier régime a perdu
+10 articles sur 169 par expiration du serveur local.
+
+### Refaire les épreuves
+
+```bash
+cd classification
+python3 verification_etiquettes.py            # fabrique les épreuves A et B
+python3 verification_unitaire.py              # fabrique l'épreuve C (graine 2)
+python3 verification_cascades.py              # fabrique l'épreuve D (graine 3)
+streamlit run app_verification.py             # annoter, une réponse enregistrée à la fois
+python3 verification_etiquettes.py --depouiller
+```
+
+Les graines sont fixées : les épreuves se régénèrent à l'identique. Les réponses
+sont enregistrées par identifiant d'item plutôt que par rang, de sorte qu'une
+épreuve refabriquée ne les désaligne pas.
 
 ## `analyse_couts/` : estimer le coût sans dépenser un centime
 
@@ -145,6 +231,6 @@ Point d'attention : le découpage à l'article présent dans `toc/T<id>.xml` est
 
 - **Les images** (JP2/JPG des pages scannées) : ~19 Go pour 100 fascicules, seuls les fichiers texte (ALTO/METS) sont inclus.
 - **La clé API** (`config/.env`) : à créer soi-même.
-- **L'interface de relecture/vérité terrain** (app Streamlit) : reste en local, hors de ce dépôt.
+- **Les kits d'évaluation d'un second annotateur** : non versés tant que la personne concernée n'a pas donné son accord sur ses réponses.
 
 Cette arborescence est déjà en place dans ce dépôt (corpus texte inclus, sans les images) ; les scripts tournent directement une fois la clé API renseignée dans `config/.env`.

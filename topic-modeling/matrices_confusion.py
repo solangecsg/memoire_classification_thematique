@@ -97,6 +97,10 @@ def taxonomie(d: Path):
     par_en["politics"] = par_en["politics and government"]
 
     def remonter(code):
+        """Remonte la chaîne `broader` du référentiel jusqu'à la catégorie de premier
+        niveau dont ce code dépend. Rend None si la chaîne se rompt, et s'arrête
+        sur les codes déjà vus, une hiérarchie SKOS pouvant se refermer sur
+        elle-même."""
         vu = set()
         while code not in racines and code not in vu:
             vu.add(code)
@@ -228,6 +232,8 @@ def matrice_familles():
 
 
 def main():
+    """Point d'entrée : construit les matrices de confusion entre les
+    classifications comparées."""
     SORTIE.mkdir(exist_ok=True)
     tikz, tot, diag, cellules = matrice_iptc()
     (SORTIE / "confusion_iptc.tex").write_text(tikz, encoding="utf-8")
