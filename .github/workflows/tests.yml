@@ -1,0 +1,103 @@
+# Intégration continue : les tests et deux contrôles de forme.
+#
+# Le travail se fait en trois temps volontairement séparés, de sorte qu'un
+# échec dise lequel des trois a cédé. Aucune étape n'appelle un service
+# distant : les tests portent sur les fonctions pures, et rien ici ne dépense
+# de jetons.
+
+name: tests
+
+on:
+  push:
+    branches: [main, "partie-*"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:        # relance à la main depuis l'onglet Actions
+
+jobs:
+  tests:
+    name: Tests unitaires
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installer Python ${{ matrix.python }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+
+      # Seules les dépendances que les tests touchent réellement. Le
+      # requirements.txt complet tire torch, bertopic et pero-ocr, qui ne
+      # servent à aucun test et coûteraient plusieurs minutes par exécution.
+      - name: Installer les dépendances des tests
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest requests tqdm
+
+      - name: Lancer les tests
+        run: python -m pytest tests/ -v --tb=short
+
+  formes:
+    name: Contrôles de forme
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Un script qui ne compile pas est un script cassé, même si aucun test
+      # ne l'atteint. Les notebooks et l'environnement virtuel sont écartés.
+      - name: Tous les scripts compilent
+        run: |
+          find . -name '*.py' -not -path './.venv*' -not -path './*/site-packages/*' \
+            -print0 | xargs -0 python -m py_compile
+          echo "$(find . -name '*.py' -not -path './.venv*' | wc -l) scripts compilés"
+
+      # Le dépôt tient à ce que chaque fonction porte une docstring : la règle
+      # est vérifiée plutôt que rappelée. Les tests en sont dispensés, leur nom
+      # disant déjà ce qu'ils vérifient ; leur module, lui, doit s'expliquer.
+      - name: Chaque fonction est documentée
+        run: |
+          python - <<'PY'
+          import ast, sys
+          from pathlib import Path
+          nus = []
+          for f in sorted(Path('.').rglob('*.py')):
+              if '.venv' in str(f) or 'site-packages' in str(f):
+                  continue
+              tests = f.parts[0] == 'tests'
+              a = ast.parse(f.read_text(encoding='utf-8'))
+              if not ast.get_docstring(a):
+                  nus.append(f'{f} :: (module)')
+              if tests:
+                  continue
+              for n in ast.walk(a):
+                  if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) \
+                          and not ast.get_docstring(n):
+                      nus.append(f'{f} :: {n.name}')
+          if nus:
+              print(f'{len(nus)} sans docstring :')
+              for x in nus:
+                  print('  ', x)
+              sys.exit(1)
+          print('toutes les fonctions et tous les modules sont documentés')
+          PY
+
+      # Une clé d'API versée par mégarde ne se rattrape pas : le dépôt étant
+      # public, l'historique la garde même après suppression.
+      - name: Aucun secret versé
+        run: |
+          if grep -rEnI "sk-[A-Za-z0-9]{20,}|Bearer [A-Za-z0-9]{20,}" \
+               --exclude-dir=.git --exclude-dir=.venv-verif . ; then
+            echo "::error::une chaîne ressemblant à une clé a été trouvée"
+            exit 1
+          fi
+          echo "aucune clé apparente"

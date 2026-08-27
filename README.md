@@ -2,6 +2,39 @@
 
 Pipeline de classification multi-label (1 à 5 thèmes IPTC Media Topics niveau 2 et 3) d'articles de presse française ancienne (BnF Gallica, OCR corrigé), via l'API Mistral. Comprend aussi la chaîne de ré-OCRisation (Mistral vision ou Pero) et de mesure de qualité OCR qui alimente le corpus utilisé par la classification.
 
+[![tests](https://github.com/solangecsg/memoire_classification_thematique/actions/workflows/tests.yml/badge.svg)](https://github.com/solangecsg/memoire_classification_thematique/actions/workflows/tests.yml)
+
+## Tests et intégration continue
+
+Les fonctions dont dépendent les mesures rapportées sont couvertes par des tests
+unitaires : la stratification par bande de fréquence, l'intervalle de Wilson, la
+constitution des lots d'articles et la détection des thèmes de bruit. Ce sont
+celles dont une erreur fausserait un résultat sans faire échouer aucune
+exécution.
+
+```bash
+python -m pytest tests/ -v
+```
+
+Deux invariants y comptent plus que les autres, parce que toute la campagne en
+dépend : **un article est envoyé entier ou pas du tout**, jamais tronqué, même
+s'il dépasse à lui seul le budget de jetons d'un appel ; et **aucun lot n'est
+vide**, ce qui ferait payer un appel sans contenu. Les deux ont été éprouvés par
+mutation, en cassant volontairement la fonction pour vérifier que le test le
+signale.
+
+L'intégration continue (`.github/workflows/tests.yml`) lance les tests sur deux
+versions de Python, vérifie que tous les scripts compilent, que chaque fonction
+porte une docstring, et qu'aucune chaîne ressemblant à une clé d'API n'a été
+versée. Aucune étape n'appelle un service distant : rien n'y dépense de jetons.
+
+## Licence
+
+Le code est sous licence MIT. Les fichiers ALTO et METS de `re-ocr/corpus/`
+proviennent de la Bibliothèque nationale de France et restent soumis aux
+conditions de leur producteur ; le référentiel IPTC Media Topics est publié sous
+Creative Commons Attribution 4.0. Voir `LICENSE`.
+
 ## Prérequis
 
 - **Python 3.11 ou supérieur** (testé avec Python 3.14).

@@ -1,0 +1,53 @@
+CE QUE CETTE LICENCE COUVRE, ET CE QU'ELLE NE COUVRE PAS
+========================================================
+
+La licence MIT reproduite ci-dessous s'applique au CODE de ce dépôt : les
+fichiers .py, .sh et .ipynb, ainsi que la documentation rédigée pour eux
+(README.md, RESULTATS-CAMPAGNE.md) et les mesures qu'ils produisent
+(topic-modeling/resultats/, classification/verification/).
+
+Elle ne s'applique pas aux données de tiers que le dépôt contient pour permettre
+de refaire les traitements :
+
+  re-ocr/corpus/            Fichiers ALTO et METS produits par la Bibliothèque
+                            nationale de France dans le cadre de son programme
+                            de numérisation de la presse. Ils restent soumis aux
+                            conditions de réutilisation de leur producteur et
+                            sont inclus ici pour la seule reproductibilité des
+                            mesures rapportées.
+
+  classification/iptc_mediatopic_official.json
+                            Référentiel IPTC Media Topics, publié par
+                            l'International Press Telecommunications Council
+                            sous licence Creative Commons Attribution 4.0.
+                            Source : https://cv.iptc.org/newscodes/mediatopic/
+
+Les extraits d'articles de presse reproduits dans les épreuves d'évaluation
+(classification/verification/*.md) proviennent du même corpus et relèvent des
+mêmes conditions.
+
+MALLET n'est pas redistribué ici. Il s'obtient auprès de ses auteurs.
+
+
+Licence MIT
+===========
+
+Copyright (c) 2026 Solange Cussaguet
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
