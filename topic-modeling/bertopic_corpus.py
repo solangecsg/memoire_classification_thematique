@@ -257,7 +257,7 @@ def main() -> None:
           + (f", {int(info.loc[info['Topic'] == -1, 'Count'].iloc[0])} documents "
              f"sans groupe" if -1 in groupes else ", aucun document écarté"))
 
-    # ── Sorties, au format des runs LDA ───────────────────────────────────────
+    # Sorties, au format des runs LDA
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     suffixe = (f"k{args.k}" if args.regroupement == "kmeans"
                else f"mt{args.min_taille}")

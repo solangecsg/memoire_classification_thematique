@@ -125,7 +125,7 @@ def main():
     if args.comparer:
         return comparer(m)
 
-    # ── Textes et budget ────────────────────────────────────────────────────
+    # Textes et budget
     leaves = m.build_leaves(m.TAXONOMY_PATH)
     leaves_str = m.leaves_prompt_str(leaves)
     fixe = m.count_tokens(m.SYSTEM_PROMPT) + m.count_tokens(leaves_str) + 100

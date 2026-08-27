@@ -77,7 +77,7 @@ st.set_page_config(page_title="Évaluation des thèmes", page_icon="📰",
                    layout="centered")
 
 
-# ── Données ───────────────────────────────────────────────────────────────────
+# Données
 
 def kits() -> list[str]:
     """Liste les kits présents, un par annotateur.
@@ -139,7 +139,7 @@ def enregistrer(kit: str, tache: str, ligne: dict, colonnes: list[str]) -> None:
         w.writerow(ligne)
 
 
-# ── État de session ───────────────────────────────────────────────────────────
+# État de session
 
 if "demarre" not in st.session_state:
     st.session_state.demarre = None       # horodatage de début de séance
@@ -150,7 +150,7 @@ if "demarre" not in st.session_state:
     # réponse » reste vraie et l'écran se réafficherait indéfiniment.
     st.session_state.phase2 = False
 
-# ── Écran d'accueil ───────────────────────────────────────────────────────────
+# Écran d'accueil
 
 if st.session_state.demarre is None:
     st.title("Évaluation des thèmes")
@@ -186,7 +186,7 @@ denomination = charger(kit, "2_denomination.csv")
 faites_1 = deja_repondu(kit, "intrusion")
 faites_2 = deja_repondu(kit, "denomination")
 
-# ── Barre latérale ────────────────────────────────────────────────────────────
+# Barre latérale
 
 with st.sidebar:
     st.caption(kit.replace("_", " "))
@@ -198,7 +198,7 @@ with st.sidebar:
                     text=f"Tâche 2 : {len(faites_2)}/{len(denomination)}")
     st.caption("Les réponses sont enregistrées à chaque validation.")
 
-# ── Tâche 1 : intrusion ───────────────────────────────────────────────────────
+# Tâche 1 : intrusion
 
 restants_1 = [l for l in intrusion if int(l["item"]) not in faites_1]
 
@@ -231,7 +231,7 @@ if restants_1:
         st.rerun()
     st.stop()
 
-# ── Transition ────────────────────────────────────────────────────────────────
+# Transition
 
 if not faites_2 and not st.session_state.get("phase2"):
     st.success("Première tâche terminée. Merci.")
@@ -245,7 +245,7 @@ demande si vous sauriez le nommer. Elle est plus rapide.
         st.rerun()
     st.stop()
 
-# ── Tâche 2 : dénomination ────────────────────────────────────────────────────
+# Tâche 2 : dénomination
 
 restants_2 = [l for l in denomination if int(l["item"]) not in faites_2]
 
@@ -287,7 +287,7 @@ if restants_2:
     st.caption("Écrivez l'intitulé d'abord si vous en avez un, puis répondez.")
     st.stop()
 
-# ── Fin ───────────────────────────────────────────────────────────────────────
+# Fin
 
 total = int(time.time() - st.session_state.demarre)
 st.balloons()

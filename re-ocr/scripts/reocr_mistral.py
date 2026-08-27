@@ -85,7 +85,7 @@ import requests
 from PIL import Image
 from tqdm import tqdm
 
-# ── Chargement .env ───────────────────────────────────────────────────────────
+# Chargement .env
 
 def load_env(env_path: Path):
     """Charge un fichier .env dans os.environ, s'il existe.
@@ -123,7 +123,7 @@ def resoudre_cle(depuis_option: str | None) -> str:
             f"d'environnement MISTRAL_API_KEY, ou dans {ENV_FILE}.")
     return cle
 
-# ── Chemins ───────────────────────────────────────────────────────────────────
+# Chemins
 
 ROOT_DIR   = Path(__file__).parent.parent
 
@@ -170,7 +170,7 @@ MAX_RETRIES = 3
 RETRY_DELAY = 2.0
 
 
-# ── Utilitaires image ─────────────────────────────────────────────────────────
+# Utilitaires image
 
 def find_image_dir(fascicule_id: str) -> Path | None:
     """Cherche le dossier master/ du fascicule dans pt1/pt2/pt3."""
@@ -216,7 +216,7 @@ def img_to_b64(img: Image.Image) -> str:
     return b64  # renvoie quand même, même si trop lourd
 
 
-# ── Appel Mistral vision ──────────────────────────────────────────────────────
+# Appel Mistral vision
 
 SYSTEM_PROMPT = (
     "Tu es un expert en transcription de journaux français anciens (XIXe-XXe siècle). "
@@ -290,7 +290,7 @@ def transcribe_crop(b64_img: str, api_key: str) -> str:
     raise RuntimeError("Échec après plusieurs tentatives")
 
 
-# ── Parseur ALTO ──────────────────────────────────────────────────────────────
+# Parseur ALTO
 
 TITLE_LABELS = {"title", "subtitle", "heading"}
 
@@ -337,7 +337,7 @@ def parse_alto(alto_path: Path) -> list[dict]:
     return blocks
 
 
-# ── Écriture ALTO ────────────────────────────────────────────────────────────
+# Écriture ALTO
 
 def write_alto(alto_path: Path, results: dict, out_alto: Path):
     """
@@ -396,7 +396,7 @@ def write_alto(alto_path: Path, results: dict, out_alto: Path):
     tree.write(str(out_alto), encoding="utf-8", xml_declaration=True)
 
 
-# ── Pipeline ──────────────────────────────────────────────────────────────────
+# Pipeline
 
 def process_page(fascicule_id: str, alto_path: Path, img_dir: Path,
                  out_dir: Path, api_key: str, dry_run: bool,
@@ -424,7 +424,7 @@ def process_page(fascicule_id: str, alto_path: Path, img_dir: Path,
     if not img_path:
         return {"status": "skip_no_image", "page": pnum}
 
-    # ── Reprise bloc par bloc ─────────────────────────────────────────────────
+    # Reprise bloc par bloc
     # Le JSON est écrit au fil de l'eau ; les blocs déjà faits sont sautés.
     results = {}
     if out_file.exists():
@@ -589,7 +589,7 @@ def process_fascicule(fascicule_id: str, pages: list[int] | None,
     return results
 
 
-# ── Entrée principale ─────────────────────────────────────────────────────────
+# Entrée principale
 
 if __name__ == "__main__":
 

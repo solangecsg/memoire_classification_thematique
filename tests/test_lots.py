@@ -27,7 +27,7 @@ def articles(*longueurs):
             for i, n in enumerate(longueurs, 1)]
 
 
-# ── la lecture du référentiel ────────────────────────────────────────────────
+# la lecture du référentiel
 
 def test_code_extrait_les_huit_chiffres(lots):
     assert lots._code({"qcode": "medtop:20000002"}) == "20000002"
@@ -54,7 +54,7 @@ def test_label_sans_intitule_rend_une_chaine_vide(lots):
     assert lots._label({"qcode": "medtop:29999996", "prefLabel": {}}) == ""
 
 
-# ── la constitution des lots ─────────────────────────────────────────────────
+# la constitution des lots
 
 def test_lots_aucun_article_n_est_perdu(lots):
     art = articles(*([50] * 60))
@@ -133,7 +133,7 @@ def test_le_groupage_reduit_bien_le_nombre_d_appels(lots):
     assert len(lots.make_batches(art, 8000)) <= 100 / 4
 
 
-# ── le comptage de jetons ────────────────────────────────────────────────────
+# le comptage de jetons
 
 def test_count_tokens_croit_avec_le_texte(lots):
     assert lots.count_tokens("mot " * 10) < lots.count_tokens("mot " * 100)

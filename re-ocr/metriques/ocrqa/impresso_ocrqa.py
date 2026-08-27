@@ -85,7 +85,7 @@ def dossier(source: str, fid: str) -> Path:
     base, motif = EMPLACEMENTS[source]
     return base / motif.format(fid=fid) / "ocr"
 
-# ── Extraction texte ALTO ─────────────────────────────────────────────────────
+# Extraction texte ALTO
 
 def extract_text_from_alto(alto_path: Path) -> str:
     """Texte complet d'un fichier ALTO (tous les blocs, hors titres/sous-titres),
@@ -122,7 +122,7 @@ def load_fascicule_texts(fid: str, source: str) -> dict[str, str]:
             texts[alto.stem] = text
     return texts
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# Main
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -180,12 +180,12 @@ if __name__ == "__main__":
             mean = sum(scores) / len(scores) if scores else 0
             print(f"  {source:8s} : {len(scores):3d} pages  score moyen = {mean:.3f}")
 
-    # ── Export JSON ───────────────────────────────────────────────────────────
+    # Export JSON
     json_out = OUTPUT_DIR / "ocrqa_results.json"
     json_out.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n→ {json_out}")
 
-    # ── Export CSV résumé ─────────────────────────────────────────────────────
+    # Export CSV résumé
     csv_out = OUTPUT_DIR / "ocrqa_summary.csv"
     with open(csv_out, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -203,7 +203,7 @@ if __name__ == "__main__":
                             round(max(scores), 3)])
     print(f"→ {csv_out}")
 
-    # ── Export HTML ───────────────────────────────────────────────────────────
+    # Export HTML
     COLORS = {"BnF": "#3b82f6", "Pero": "#f97316", "Mistral": "#22c55e"}
 
     # Scores moyens par source (toutes pages confondues)

@@ -80,7 +80,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
 
-# ── Chemins ───────────────────────────────────────────────────────────────────
+# Chemins
 
 ICI = Path(__file__).resolve().parent
 
@@ -116,7 +116,7 @@ NS_ALTO = "http://www.loc.gov/standards/alto/ns-v3#"
 NS_METS = "http://www.loc.gov/METS/"
 TITRAILLE = {"title", "subtitle", "heading"}
 
-# ── Ressources linguistiques ──────────────────────────────────────────────────
+# Ressources linguistiques
 
 def charger_stopwords() -> set[str]:
     """Lit les listes de formes à retirer et les rend en un seul ensemble.
@@ -179,7 +179,7 @@ def normaliser(texte: str, stopwords: set[str], stoplocs: list[str],
                     if len(j) >= longueur_min and j not in stopwords
                     and j not in ELISIONS) or ""
 
-# ── Lecture des fichiers ──────────────────────────────────────────────────────
+# Lecture des fichiers
 
 def blocs_du_fascicule(dossier_ocr: Path) -> dict[str, dict]:
     """Tous les TextBlock d'un fascicule, indexés par identifiant."""
@@ -249,7 +249,7 @@ def articles_du_fascicule(chemin_toc: Path) -> list[dict]:
             articles.append({"div_id": div.get("ID", ""), "blocs": ids})
     return articles
 
-# ── Filtrage morphosyntaxique ─────────────────────────────────────────────────
+# Filtrage morphosyntaxique
 
 def lemmes_par_categorie(textes: list[str], categories: set[str],
                          longueur_min: int) -> list[str]:
@@ -278,7 +278,7 @@ def lemmes_par_categorie(textes: list[str], categories: set[str],
             print(f"    étiquetage {n}/{len(textes)}")
     return sortie
 
-# ── Constitution du corpus ────────────────────────────────────────────────────
+# Constitution du corpus
 
 def constituer(source: str, granularite: str, fascicules: list[str],
                min_mots: int, stopwords, stoplocs,
@@ -401,7 +401,7 @@ def constituer(source: str, granularite: str, fascicules: list[str],
         docs = filtres
     return docs
 
-# ── MALLET ────────────────────────────────────────────────────────────────────
+# MALLET
 
 def lancer_mallet(docs: list[dict], k: int, iterations: int, graine: int,
                   dossier: Path, optimisation: int = 0, burn_in: int = 20) -> tuple[list[list[str]], list[list[float]]]:
@@ -496,7 +496,7 @@ def lancer_mallet(docs: list[dict], k: int, iterations: int, graine: int,
             continue
     return topics, distrib
 
-# ── Programme principal ───────────────────────────────────────────────────────
+# Programme principal
 
 def main() -> None:
     """Constitue le corpus, lance les runs demandés et enregistre les sorties.

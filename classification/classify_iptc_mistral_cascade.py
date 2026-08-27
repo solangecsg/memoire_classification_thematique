@@ -125,7 +125,7 @@ MAX_THEMES = 5
 MIN_THEMES = 1
 MAX_WORKERS = 5         # lots Mistral en parallèle
 
-# ── Groupage d'articles par appel (même logique que classify_iptc_mistral_batched) ──
+# Groupage d'articles par appel (même logique que classify_iptc_mistral_batched)
 MAX_BATCH_TOKENS = 40_000
 MAX_BATCH_SIZE = 25
 PER_ARTICLE_WRAPPER_TOKENS = 15

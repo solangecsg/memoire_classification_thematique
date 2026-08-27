@@ -132,7 +132,7 @@ def enregistrer(ligne):
         w.writerow(ligne)
 
 
-# ── Mise en place ─────────────────────────────────────────────────────────────
+# Mise en place
 
 st.set_page_config(page_title="Vérification des étiquettes", layout="centered")
 
@@ -151,7 +151,7 @@ if "debut_item" not in st.session_state:
 if "demarre" not in st.session_state:
     st.session_state.demarre = time.time()
 
-# ── Fin ───────────────────────────────────────────────────────────────────────
+# Fin
 
 if not RESTE:
     total = int(time.time() - st.session_state.demarre)
@@ -170,7 +170,7 @@ python3 verification_etiquettes.py --depouiller
     st.caption(f"Séance de {total // 60} minutes.")
     st.stop()
 
-# ── Un item ───────────────────────────────────────────────────────────────────
+# Un item
 
 it = RESTE[0]
 n_faits = len(ITEMS) - len(RESTE)

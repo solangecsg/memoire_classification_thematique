@@ -168,7 +168,7 @@ def fabriquer():
     for (code, lib), n in freq.items():
         par_bande[bande(n)].append((code, lib))
 
-    # ── A. les hapax
+    # A. les hapax
     hapax = {c for (c, _), n in freq.items() if n == 1}
     items_a = []
     for a in arts:
@@ -178,7 +178,7 @@ def fabriquer():
                                 "bande": "hapax"})
     items_a.sort(key=lambda x: x["etiquette"]["label_fr"])
 
-    # ── B. l'échantillon stratifié, moitié leurres
+    # B. l'échantillon stratifié, moitié leurres
     par_art_bande = defaultdict(list)
     for a in arts:
         b = bande(freq[(a["themes"][0]["code"], a["themes"][0]["label_fr"])])

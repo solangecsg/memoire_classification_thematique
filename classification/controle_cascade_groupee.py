@@ -165,7 +165,7 @@ def main():
         raise SystemExit("MISTRAL_API_KEY absente.")
 
     t0 = time.time()
-    # ── Premier étage : la famille, par lots ────────────────────────────────
+    # Premier étage : la famille, par lots
     par_famille = defaultdict(list)
     echecs = {}
     lots = [a_faire[i:i + LOT_ETAGE1] for i in range(0, len(a_faire), LOT_ETAGE1)]
@@ -189,7 +189,7 @@ def main():
     print(f"  étage 1 : {sum(len(v) for v in par_famille.values())} articles rangés "
           f"dans {len(par_famille)} familles, {len(echecs)} échec(s)")
 
-    # ── Second étage : les étiquettes, par famille et par lots ──────────────
+    # Second étage : les étiquettes, par famille et par lots
     out = {}
     total = sum(-(-len(v) // LOT_ETAGE2) for v in par_famille.values())
     n = 0

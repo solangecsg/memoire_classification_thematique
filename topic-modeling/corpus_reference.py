@@ -74,7 +74,7 @@ import lda_mallet_corpus as base
 ICI = Path(__file__).resolve().parent
 REFERENCE = ICI / "reference"
 
-# ── Paramètres de normalisation ───────────────────────────────────────────────
+# Paramètres de normalisation
 # Ces trois valeurs reprennent celles de la configuration retenue au chapitre 1,
 # de sorte que le corpus de référence et le corpus d'entraînement portent le même
 # vocabulaire.

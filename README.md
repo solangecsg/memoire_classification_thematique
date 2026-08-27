@@ -67,8 +67,8 @@ classification-iptc/
 ├── config/.env                                  ← à créer (MISTRAL_API_KEY=...)
 │
 ├── classification/         ← les variantes de classification, et leur vérification
-├── topic-modeling/          ← modélisation thématique, 111 exécutions et leurs mesures
 │   └── verification/        ← épreuves en aveugle, réponses, sorties des contrôles
+├── topic-modeling/          ← modélisation thématique, 111 exécutions et leurs mesures
 ├── analyse_couts/           ← estimation de coûts, sans appel API, et ses CSV
 ├── results/                  ← sorties de classification (JSON par fascicule)
 └── re-ocr/

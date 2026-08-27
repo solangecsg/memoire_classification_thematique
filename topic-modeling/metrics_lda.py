@@ -88,7 +88,7 @@ from itertools import combinations
 from pathlib import Path
 
 
-# ── Chargement des fichiers MALLET ───────────────────────────────────────────
+# Chargement des fichiers MALLET
 
 def load_distributions(path: Path) -> list[list[float]]:
     """Charge mallet.topic_distributions.txt → liste de vecteurs de proba."""
@@ -132,7 +132,7 @@ def load_corpus(path: Path) -> list[list[str]]:
     return docs
 
 
-# ── Entropie ──────────────────────────────────────────────────────────────────
+# Entropie
 
 def entropy_per_doc(probs: list[float]) -> float:
     """Entropie de Shannon d'une distribution de topics pour un document."""
@@ -156,7 +156,7 @@ def mean_entropy(distrib: list[list[float]]) -> dict:
     }
 
 
-# ── Diversité ─────────────────────────────────────────────────────────────────
+# Diversité
 
 def diversity(topics: list[list[str]], corpus: list[list[str]] | None = None) -> dict:
     """
@@ -184,7 +184,7 @@ def diversity(topics: list[list[str]], corpus: list[list[str]] | None = None) ->
     }
 
 
-# ── NPMI (cohérence) ──────────────────────────────────────────────────────────
+# NPMI (cohérence)
 
 def build_cooc(corpus: list[list[str]], vocab: set[str]) -> tuple[Counter, Counter, int]:
     """
@@ -248,7 +248,7 @@ def mean_npmi(topics: list[list[str]], corpus: list[list[str]]) -> dict:
     }
 
 
-# ── Affichage ─────────────────────────────────────────────────────────────────
+# Affichage
 
 def print_report(meta: dict, ent: dict, div: dict, npmi_res: dict):
     """Imprime le rapport de mesures d'un run.
@@ -263,36 +263,36 @@ def print_report(meta: dict, ent: dict, div: dict, npmi_res: dict):
     print(f"  Métriques : {meta.get('fascicule','?')}  K={K}  ({meta.get('n_docs','?')} docs)")
     print(f"{'═'*58}")
 
-    print(f"\n┌─ Entropie (incertitude d'affectation) ─────────────────")
-    print(f"│  Moyenne          : {ent['entropy_mean']:.4f}")
-    print(f"│  Max théorique    : {ent['entropy_max']:.4f}  (= ln {K})")
-    print(f"│  Normalisée [0,1] : {ent['entropy_normalized']:.4f}"
+    print("\nEntropie (incertitude d'affectation)")
+    print(f"  Moyenne          : {ent['entropy_mean']:.4f}")
+    print(f"  Max théorique    : {ent['entropy_max']:.4f}  (= ln {K})")
+    print(f"  Normalisée [0,1] : {ent['entropy_normalized']:.4f}"
           f"  {'← proche 0 = topics distincts ✓' if ent['entropy_normalized'] < 0.5 else '← proche 1 = topics mélangés ✗'}")
 
-    print(f"\n┌─ Diversité (unicité des mots-clés) ────────────────────")
-    print(f"│  Score [0,1]      : {div['diversity']:.4f}"
+    print("\nDiversité (unicité des mots-clés)")
+    print(f"  Score [0,1]      : {div['diversity']:.4f}"
           f"  {'← bonne diversité ✓' if div['diversity'] > 0.7 else '← mots trop partagés ✗'}")
     if div['diversity_norm'] is not None:
-        print(f"│  Normalisée/vocab : {div['diversity_norm']:.4f}"
+        print(f"  Normalisée/vocab : {div['diversity_norm']:.4f}"
               f"  (mots uniques / {div['tokens_distincts']} tokens distincts du corpus)")
-    print(f"│  Mots uniques     : {div['unique_words']} / {div['total_words']}")
+    print(f"  Mots uniques     : {div['unique_words']} / {div['total_words']}")
     if div['shared_words']:
-        print(f"│  Mots partagés    : {', '.join(div['shared_words'][:15])}"
+        print(f"  Mots partagés    : {', '.join(div['shared_words'][:15])}"
               f"{'…' if len(div['shared_words']) > 15 else ''}")
 
-    print(f"\n┌─ NPMI (cohérence des top-mots) ────────────────────────")
-    print(f"│  Moyenne [-1,+1]  : {npmi_res['npmi_mean']:.4f}"
+    print("\nNPMI (cohérence des top-mots)")
+    print(f"  Moyenne [-1,+1]  : {npmi_res['npmi_mean']:.4f}"
           f"  {'← cohérence correcte ✓' if npmi_res['npmi_mean'] > -0.1 else '← mots peu liés ✗'}")
-    print(f"│")
-    print(f"│  Par topic :")
+    print()
+    print(f"  Par topic :")
     for t in npmi_res["npmi_per_topic"]:
         bar = "▓" * max(0, int((t['npmi'] + 1) * 5))
-        print(f"│    Topic {t['topic_id']:2d}  NPMI={t['npmi']:+.4f}  {bar:<10}  {t['top_words'][:50]}")
+        print(f"    Topic {t['topic_id']:2d}  NPMI={t['npmi']:+.4f}  {bar:<10}  {t['top_words'][:50]}")
 
-    print(f"\n{'─'*58}")
+    print()
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# Main
 
 def load_from_nmf(run_dir: Path, n_top: int):
     """Charge distributions et topics depuis une sortie NMF (span_topic + topics.json)."""

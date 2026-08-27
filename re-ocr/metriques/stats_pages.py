@@ -75,7 +75,7 @@ import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 from pathlib import Path
 
-# ── Chemins ───────────────────────────────────────────────────────────────────
+# Chemins
 
 ICI        = Path(__file__).resolve().parent
 OUTPUT_DIR = ICI / "resultats_stats"
@@ -142,7 +142,7 @@ def dossier(source: str, fid: str, sous: str = "ocr") -> Path:
     base, motif = EMPLACEMENTS[source]
     return base / motif.format(fid=fid) / sous
 
-# ── Extraction tokens depuis ALTO ─────────────────────────────────────────────
+# Extraction tokens depuis ALTO
 
 def tokens_from_alto(path: Path) -> list[str]:
     """Liste des mots (tokens) d'un fichier ALTO, en excluant les blocs tagués
@@ -167,7 +167,7 @@ def tokens_from_alto(path: Path) -> list[str]:
                 tokens.append(w.lower())
     return tokens
 
-# ── Articles par page depuis TOC METS ────────────────────────────────────────
+# Articles par page depuis TOC METS
 
 def articles_per_page(fid: str) -> dict[str, int]:
     """Retourne {page_stem: nb_articles} pour un fascicule."""
@@ -202,7 +202,7 @@ def articles_per_page(fid: str) -> dict[str, int]:
             per_page[p] += 1
     return dict(per_page)
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# Main
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -227,7 +227,7 @@ if __name__ == "__main__":
     art_counts = {}  # {fid: {page: nb_articles}}
 
     for fid in fascicules:
-        print(f"── {fid}")
+        print(f"{fid}")
         all_data[fid] = {}
         art_counts[fid] = articles_per_page(fid)
 
@@ -253,7 +253,7 @@ if __name__ == "__main__":
             mean_dist = (sum(len(all_data[fid][pg][src]) for pg in all_data[fid] if src in all_data[fid][pg]) / n_pages) if n_pages else 0
             print(f"  {src:8s}: {n_pages} pages, {mean_dist:.0f} tokens distincts/page moy.")
 
-    # ── CSV détail par page ───────────────────────────────────────────────────
+    # CSV détail par page
     csv_page = OUTPUT_DIR / "stats_par_page.csv"
     with open(csv_page, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -271,7 +271,7 @@ if __name__ == "__main__":
                     w.writerow([fid, page, src, len(c), nb_mots, nb_chars, nb_art])
     print(f"\n→ {csv_page}")
 
-    # ── CSV Mistral brut par page ──────────────────────────────────────────────
+    # CSV Mistral brut par page
     csv_mistral = OUTPUT_DIR / "stats_mistral_brut.csv"
     with open(csv_mistral, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -289,7 +289,7 @@ if __name__ == "__main__":
                 w.writerow([fid, page, nb_mots, nb_chars, len(c), nb_art])
     print(f"→ {csv_mistral}")
 
-    # ── Stats globales pour affichage + Venn ─────────────────────────────────
+    # Stats globales pour affichage + Venn
     # Agréger tokens distincts toutes pages confondues par source
     global_sets = {src: set() for src in SOURCES}
     totals = {src: {"mots": 0, "chars": 0, "pages": 0} for src in SOURCES}
@@ -332,14 +332,14 @@ if __name__ == "__main__":
                 all_art_counts.append(art_counts[fid].get(page, 0))
     mean_arts = sum(all_art_counts) / len(all_art_counts) if all_art_counts else 0
 
-    print(f"\n{'─'*50}")
+    print()
     print(f"Tokens distincts globaux : BnF={zones['total_bnf']}  Pero={zones['total_pero']}  Mistral={zones['total_mistral']}")
     print(f"Intersection BnF∩Pero∩Mistral : {zones['all3']}")
     for src in SOURCES:
         print(f"{src:8s}: {mean_mots[src]:.0f} mots/page  {mean_chars[src]:.0f} chars/page")
     print(f"Articles moyen/page (toutes sources) : {mean_arts:.1f}")
 
-    # ── HTML Venn + stats ─────────────────────────────────────────────────────
+    # HTML Venn + stats
     COLORS = {"BnF": "#3b82f6", "Pero": "#f97316", "Mistral": "#22c55e"}
 
     def stat_rows():

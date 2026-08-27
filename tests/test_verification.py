@@ -20,7 +20,7 @@ import math
 import pytest
 
 
-# ── la stratification par bande ──────────────────────────────────────────────
+# la stratification par bande
 
 @pytest.mark.parametrize("effectif, attendu", [
     (1, "hapax"),          # employée une seule fois
@@ -55,7 +55,7 @@ def test_bande_zero_retombe_sur_hapax(verif):
     assert verif.bande(0) == "hapax"
 
 
-# ── l'extrait montré à l'annotateur ──────────────────────────────────────────
+# l'extrait montré à l'annotateur
 
 def test_extrait_ramene_le_texte_sur_une_ligne(verif):
     assert verif.extrait("un\ntexte\tsur   plusieurs lignes", mots=10) == \
@@ -82,7 +82,7 @@ def test_extrait_longueur_constante_quelle_que_soit_la_source(verif):
     assert len(a.split()) == len(b.split()) == 181
 
 
-# ── l'intervalle de Wilson ───────────────────────────────────────────────────
+# l'intervalle de Wilson
 
 def test_wilson_encadre_la_proportion_observee(verif):
     bas, haut = verif.wilson(33, 69)         # l'épreuve B du mémoire

@@ -618,7 +618,7 @@ def classify_batch_with_fallback(batch, leaves_str, valid_codes):
     return results, [usage], [elapsed]
 
 
-# ── Pipeline par fascicule ─────────────────────────────────────────────────────
+# Pipeline par fascicule
 
 
 USAGE_KEYS = ("prompt_tokens", "completion_tokens", "total_tokens", "cached_tokens")

@@ -284,7 +284,7 @@ def main() -> None:
             print(f"    [{lo:.2f} ; {hi:.2f}[ : {j:5}/{len(sel):5} = "
                   f"{j/len(sel):6.1%}")
 
-    # ── Désaccords ────────────────────────────────────────────────────────────
+    # Désaccords
     des = Counter()
     for k in retenus:
         if enc[k] not in llm_tous[k]:
@@ -295,7 +295,7 @@ def main() -> None:
     for (a, b), v in des.most_common(15):
         print(f"  {a[:38]:38} {b[:46]:46} {v:4}")
 
-    # ── Repliement ────────────────────────────────────────────────────────────
+    # Repliement
     absorbe: dict[str, set[str]] = defaultdict(set)
     for k in mistral:
         for t in mistral[k]:
@@ -314,7 +314,7 @@ def main() -> None:
     print(f"  soit {total/len(absorbe):.1f} par catégorie en moyenne, "
           f"{max(len(s) for s in absorbe.values())} au maximum.")
 
-    # ── Distributions comparées ───────────────────────────────────────────────
+    # Distributions comparées
     c_enc = Counter(label_fr.get(enc[k], "?") for k in retenus)
     c_llm = Counter()
     for k in retenus:
