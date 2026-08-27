@@ -61,9 +61,8 @@ jobs:
             -print0 | xargs -0 python -m py_compile
           echo "$(find . -name '*.py' -not -path './.venv*' | wc -l) scripts compilés"
 
-      # Le dépôt tient à ce que chaque fonction porte une docstring : la règle
-      # est vérifiée plutôt que rappelée. Les tests en sont dispensés, leur nom
-      # disant déjà ce qu'ils vérifient ; leur module, lui, doit s'expliquer.
+      # Les tests sont dispensés du contrôle, leur nom disant déjà ce qu'ils
+      # vérifient ; leur module, lui, doit s'expliquer.
       - name: Chaque fonction est documentée
         run: |
           python - <<'PY'
