@@ -110,7 +110,7 @@ Points communs aux 4 scripts `classify_iptc_mistral*.py` :
 
 ---
 
-## `classification/verification/` : ce que valent les étiquettes
+## `classification/verification/` : la justesse des étiquettes
 
 Les scripts ci-dessus mesurent un coût, un volume et une convergence entre
 dispositifs. Aucun ne mesure une justesse, faute de vérité de référence pour ce
@@ -123,7 +123,7 @@ sont des leurres, tirés d'autres articles du même corpus et de la même bande 
 fréquence. Le taux d'acceptation des leurres mesure la complaisance du jugement :
 s'il est bas, le taux d'acceptation des vraies étiquettes devient lisible.
 
-| Épreuve | Ce qu'elle juge | Items | Vraies acceptées | Leurres acceptés |
+| Épreuve | Objet du jugement | Items | Vraies acceptées | Leurres acceptés |
 |---|---|---|---|---|
 | **A** | les 62 étiquettes que le corpus n'emploie qu'une fois | 62 | 31/62 = 50,0 % | (sans leurres) |
 | **B** | des attributions de la campagne groupée | 129 | 33/69 = **47,8 %** | 1/60 = **1,7 %** |
@@ -135,7 +135,7 @@ s'il est bas, le taux d'acceptation des vraies étiquettes devient lisible.
 3,8 %, ne se distinguent pas les uns des autres : les cinq séances sont
 comparables.
 
-**Ce que l'épreuve A établit en plus.** Sur les 25 étiquettes uniques rejetées,
+**Un second enseignement de l'épreuve A.** Sur les 25 étiquettes uniques rejetées,
 15 le sont parce que la catégorie n'a pas de sens pour la période : six
 disciplines sportives modernes, neuf notions postérieures au corpus. Le
 référentiel IPTC n'attache aucune date à ses entrées, et le modèle les reçoit
@@ -210,7 +210,7 @@ Les deux premières méthodes comparées par le mémoire, la modélisation proba
 et le regroupement de plongements, avec les 111 exécutions de la campagne. Chaque
 run conserve ses paramètres exacts et ses mesures, de sorte que les balayages que
 les annexes du mémoire ne reprennent pas se relisent ici. Voir
-`topic-modeling/README.md`, section « Ce que le mémoire renvoie ici ».
+`topic-modeling/README.md`, section « Les blocs renvoyés au dépôt ».
 
 ## `analyse_couts/` : estimer le coût sans dépenser un centime
 
@@ -233,7 +233,7 @@ python3 estimate_pricing_batched.py
 python3 estimate_pricing_cascade.py
 ```
 
-Les scripts de `analyse_couts/` produisent ces chiffres et les écrivent dans les CSV du même dossier. Chaque script porte en tête ce qu'il mesure et sous quelles hypothèses.
+Les scripts de `analyse_couts/` produisent ces chiffres et les écrivent dans les CSV du même dossier. Chaque script porte en tête l'objet de sa mesure et ses hypothèses.
 
 **Le tokeniseur conditionne les chiffres.** Les comptes de jetons viennent de `mistral-common`, épinglé dans le `requirements.txt`. En son absence, `count_tokens` se rabat sur une estimation par caractères sans avertir : la liste des étiquettes y pèse 4 821 jetons au lieu de 8 775 et le coût annoncé tombe de moitié. Comme les trois scripts d'estimation lisent le relevé produit par `analyze_corpus_tokens.py`, il faut relancer celui-ci après toute installation du tokeniseur, sans quoi les comptes fixes et les comptes par article viendraient de deux régimes différents.
 

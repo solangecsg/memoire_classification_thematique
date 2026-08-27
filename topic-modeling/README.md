@@ -175,7 +175,7 @@ python3 comparer_classla_mistral.py resultats/<dossier_classla>
 ```
 
 Le script rapporte l'accord entre les deux classifications, un témoin de
-permutation qui dit ce que cet accord vaudrait sans appariement, et le nombre
+permutation qui donne la valeur de cet accord sans appariement, et le nombre
 d'étiquettes de troisième niveau que chaque catégorie de premier niveau absorbe.
 
 ## Les figures
@@ -268,7 +268,7 @@ commandes ci-dessus, et les figures définitives figurent dans le mémoire.
 Le tableau récapitulatif se régénère par `recap_runs.py`, et son état figure
 dans `RESULTATS-CAMPAGNE.md`.
 
-## Ce que le mémoire renvoie ici
+## Les blocs renvoyés au dépôt
 
 Neuf blocs ont été retirés des annexes du mémoire parce que ce dépôt les tient
 sous une forme plus complète, et que le corps du texte n'en cite aucun. Ils se
@@ -290,8 +290,8 @@ Le dixième bloc retiré, la dérivation formelle de l'allocation de Dirichlet
 latente, ne figure pas ici : elle relève d'un manuel, et le lecteur qui la
 cherche la trouvera chez Blei, Ng et Jordan.
 
-Ce que le mémoire conserve en annexe, à l'inverse, est ce que ce dépôt ne peut
-pas remplacer : les deux incidents de méthode, les pièces citées par le corps du
+Le mémoire conserve en annexe, à l'inverse, ce dont ce dépôt ne saurait tenir
+lieu : les deux incidents de méthode, les pièces citées par le corps du
 texte, et les résultats qualitatifs — les dix thèmes de la configuration
 retenue, les thèmes occupés par des débris d'océrisation, les matrices de
 confusion.
