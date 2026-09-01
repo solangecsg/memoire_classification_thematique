@@ -280,9 +280,4 @@ Point d'attention : le découpage à l'article présent dans `toc/T<id>.xml` est
 
 ---
 
-## Ce qui n'est pas inclus volontairement
-
-- **Les images** (JP2/JPG des pages scannées) : ~19 Go pour 100 fascicules, seuls les fichiers texte (ALTO/METS) sont inclus.
-- **La clé API** (`config/.env`) : à créer soi-même.
-
 Cette arborescence est déjà en place dans ce dépôt (corpus texte inclus, sans les images) ; les scripts tournent directement une fois la clé API renseignée dans `config/.env`.
