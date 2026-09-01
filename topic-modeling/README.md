@@ -296,7 +296,7 @@ texte, et les résultats qualitatifs — les dix thèmes de la configuration
 retenue, les thèmes occupés par des débris d'océrisation, les matrices de
 confusion.
 
-## Ce qui n'est pas versé
+## Eléments absents
 
 Les caches de plongements, les corpus de référence, l'affectation des documents
 et les corpus prétraités sont régénérables par les scripts ci-dessus. Ils
